@@ -161,7 +161,7 @@ button,input,select{font:inherit}
     if(!chosen(d.uid)) selected.push(d);
     save();renderSelected();renderGrid(false);$('#quickNumber').value='';setStatus('Added Drill '+d.number+'.','ok');
   };
-  $('#quickNumber').addEventListener('keydown',e=>{if(e.key==='Enter')$('#quickAdd'].click();});
+  $('#quickNumber').addEventListener('keydown',e=>{if(e.key==='Enter')$('#quickAdd').click();});
   $('#clearBtn').onclick=()=>{selected=[];save();renderSelected();renderGrid(false);};
   $('#printBtn').onclick=()=>{
     if(!selected.length){setStatus('Select at least one drill before exporting.','err');return;}
