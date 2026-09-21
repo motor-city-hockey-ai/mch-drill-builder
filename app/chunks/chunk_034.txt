@@ -19,7 +19,7 @@ const seed = JSON.parse(document.getElementById('mchSeedData').textContent);
 let database = seed.map(d => ({...d, image: MCH_CONFIG.IMAGE_BASE_URL ? MCH_CONFIG.IMAGE_BASE_URL.replace(/\/$/,'')+'/'+d.image.replace(/^assets\//,'assets/') : d.image}));
 
 // Database is embedded in this file; no separate JSON request is required.
-window.MCH_DATABASE_READY = database.length > 0;
+window.MCH_DATABASE_READY = database.length > 0;\nwindow.MCH_DATABASE_COUNT = database.length;
 let selected = [];
 let activeCategory = 'Travel Skills';
 let exportFormat = 'landscape';
@@ -113,7 +113,18 @@ $('#closeExportBtn').onclick=()=>$('#exportModal').classList.remove('open');
 $('#exportModal').onclick=e=>{if(e.target.id==='exportModal')$('#exportModal').classList.remove('open')};
 $$('#formatSeg button').forEach(b=>b.onclick=()=>{exportFormat=b.dataset.format;$$('#formatSeg button').forEach(x=>x.classList.toggle('active',x===b));const phone=exportFormat==='phone';$('#densitySelect').disabled=phone;$('#exportNote').innerHTML=phone?'<b>Phone / On-Ice:</b> one large drill per phone-sized PDF page so coaches can view it on the ice without pinching and zooming.':`<b>${exportFormat[0].toUpperCase()+exportFormat.slice(1)}:</b> 8 drills per Letter page by default. There is no limit on selected drills; the PDF simply adds pages.`});
 
-async function imageData(url){const res=await fetch(url);if(!res.ok)throw new Error('image');const blob=await res.blob();return await new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(r.result);r.onerror=reject;r.readAsDataURL(blob)})}
+async function imageData(url){
+  if(/^data:image\//i.test(String(url||''))) return url;
+  const res=await fetch(url,{cache:'force-cache'});
+  if(!res.ok)throw new Error('image');
+  const blob=await res.blob();
+  return await new Promise((resolve,reject)=>{
+    const r=new FileReader();
+    r.onload=()=>resolve(r.result);
+    r.onerror=reject;
+    r.readAsDataURL(blob);
+  });
+}
 function safeText(s,n=70){s=String(s||'').replace(/\s+/g,' ').trim();return s.length>n?s.slice(0,n-1)+'…':s}
 async function generatePdf(){
   if(!selected.length)return;
