@@ -92,7 +92,7 @@ button,input,select{font:inherit}
       const start = full.indexOf(marker);
       if(start < 0) throw new Error('Drill database marker was not found.');
       const jsonStart = start + marker.length;
-      const end = full.indexOf('</script>', jsonStart);
+      const end = full.indexOf('</scr'+'ipt>', jsonStart);
       if(end < 0) throw new Error('Drill database ending was not found.');
       database = JSON.parse(full.slice(jsonStart,end)).filter(d => d && d.image && d.number != null);
       if(!database.length) throw new Error('Database contained zero drills.');
