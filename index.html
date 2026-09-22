@@ -24,11 +24,11 @@ button{cursor:pointer}
 .status{padding:9px 12px;background:#f5f5f5;border-radius:10px;font-size:12px;margin:9px 0 15px}.status.ok{border-left:4px solid #2e8b57}.status.err{border-left:4px solid var(--red);color:#9d1016}.status.preview{border-left:4px solid var(--red)}
 .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.card{border:1px solid #ddd;border-radius:14px;overflow:hidden;background:#fff;position:relative;transition:.15s}.card:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(0,0,0,.08)}.card.selected-card{outline:3px solid var(--red)}.diagram-hit{display:block;width:100%;border:0;padding:0;background:#fafafa;cursor:zoom-in}.card img{display:block;width:100%;height:210px;object-fit:contain;background:#fafafa}.meta{padding:9px 11px 11px}.num{font-weight:900;font-size:14px}.drill-title{font-size:12px;font-weight:800;margin-top:3px;line-height:1.22;min-height:29px}.cat-label{font-size:9px;color:#777;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.system-badge{display:inline-block;background:#111;color:#fff;border-radius:999px;font-size:8px;font-weight:900;letter-spacing:.6px;padding:3px 7px;margin-top:5px}.quick-add-card{position:absolute;right:7px;top:7px;width:34px;height:34px;border-radius:50%;border:0;background:var(--red);color:#fff;font-weight:900;z-index:3}
 .team-mode .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.team-mode .card img{height:285px;padding:5px}.team-mode .drill-title{font-size:13px;min-height:32px}.team-mode .cat-label{font-size:10px}
-.more{display:flex;justify-content:center;margin:22px 0}.footer{background:#111;color:#aaa;border-top:4px solid var(--red);padding:18px 30px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px}
+.more{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:22px 0}.more .btn{min-width:170px}.footer{background:#111;color:#aaa;border-top:4px solid var(--red);padding:18px 30px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px}
 .loading{min-height:40vh;display:grid;place-items:center;text-align:center}.spinner{width:44px;height:44px;border:4px solid #ddd;border-top-color:var(--red);border-radius:50%;animation:spin .9s linear infinite;margin:0 auto 14px}@keyframes spin{to{transform:rotate(360deg)}}
-.viewer{position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:9999;display:none;align-items:center;justify-content:center;padding:14px;overflow:hidden}.viewer.open{display:flex}.viewer-panel{width:min(860px,95vw);max-height:92vh;background:#fff;border-radius:16px;overflow:hidden;position:relative;display:flex;flex-direction:column}.viewer-head{padding:14px 58px 10px 18px;border-bottom:1px solid #ddd;flex:0 0 auto}.viewer-head h2{margin:0;font-size:22px}.viewer-head h3{margin:3px 0 0;font-size:15px}.viewer-cat{font-size:10px;font-weight:900;color:var(--red);text-transform:uppercase;letter-spacing:.7px;margin-top:5px}.viewer-close{position:absolute;right:12px;top:11px;border:0;background:#111;color:#fff;border-radius:50%;width:34px;height:34px;font-size:19px;font-weight:900;z-index:3}.viewer-image-wrap{background:#f4f4f4;overflow:auto;padding:10px;text-align:center;height:min(44vh,420px);flex:0 0 auto;display:flex;align-items:center;justify-content:center}.viewer-image-wrap img{display:block;margin:auto;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;transform-origin:top center;touch-action:pinch-zoom}.viewer-tools{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding:7px;background:#ececec;border-top:1px solid #ddd;border-bottom:1px solid #ddd;flex:0 0 auto}.viewer-tools .btn{padding:7px 10px;font-size:11px}.viewer-notes{padding:14px 18px 18px;overflow:auto;flex:1 1 auto;min-height:0}.viewer-notes h4{margin:0 0 7px;font-size:14px}.viewer-desc{white-space:pre-wrap;line-height:1.45;font-size:13px}.viewer-actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}.viewer-source{font-size:10px;color:#777;margin-top:12px}
+.viewer{position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:9999;display:none;align-items:flex-start;justify-content:center;padding:14px;overflow-y:auto;-webkit-overflow-scrolling:touch}.viewer.open{display:flex}.viewer-panel{width:min(860px,95vw);max-height:none;background:#fff;border-radius:16px;overflow:visible;position:relative;margin:0 auto 22px}.viewer-head{padding:14px 58px 10px 18px;border-bottom:1px solid #ddd;flex:0 0 auto}.viewer-head h2{margin:0;font-size:22px}.viewer-head h3{margin:3px 0 0;font-size:15px}.viewer-cat{font-size:10px;font-weight:900;color:var(--red);text-transform:uppercase;letter-spacing:.7px;margin-top:5px}.viewer-close{position:absolute;right:12px;top:11px;border:0;background:#111;color:#fff;border-radius:50%;width:34px;height:34px;font-size:19px;font-weight:900;z-index:3}.viewer-image-wrap{background:#f4f4f4;overflow:auto;-webkit-overflow-scrolling:touch;padding:10px;text-align:center;height:min(44vh,420px);display:flex;align-items:center;justify-content:center}.viewer-image-wrap img{display:block;margin:auto;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;transform-origin:top center;touch-action:pinch-zoom}.viewer-tools{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding:7px;background:#ececec;border-top:1px solid #ddd;border-bottom:1px solid #ddd;flex:0 0 auto}.viewer-tools .btn{padding:7px 10px;font-size:11px}.viewer-notes{padding:14px 18px 18px;overflow:visible}.viewer-notes h4{margin:0 0 9px;font-size:14px}.viewer-desc{line-height:1.42;font-size:13px}.viewer-desc ul{margin:7px 0 12px;padding-left:21px}.viewer-desc li{margin:0 0 7px}.viewer-section-title{font-weight:900;font-size:12px;letter-spacing:.5px;text-transform:uppercase;margin:12px 0 6px;color:#111}.viewer-key{border-left:4px solid var(--red);padding:8px 10px;background:#f7f7f7;border-radius:6px}.viewer-actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;position:sticky;bottom:0;background:#fff;padding:10px 0 2px}.viewer-source{font-size:10px;color:#777;margin-top:12px}
 @media(max-width:1050px){.quick-grid{grid-template-columns:1fr 1fr}.team-mode .grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:760px){.header{padding:13px 15px}.brand h1{font-size:20px}.brand small{font-size:9px}.pill{display:none}.set{padding:9px 12px 10px}.set-title{font-size:14px}.selected{margin-top:7px}.sel{flex-basis:124px;width:124px}.sel img{height:55px}.main{padding:15px 12px 30px}.quick{padding:15px}.quick-grid{grid-template-columns:1fr}.grid,.team-mode .grid{grid-template-columns:1fr 1fr;gap:10px}.card img,.team-mode .card img{height:170px;padding:2px}.meta{padding:8px}.num{font-size:12px}.drill-title,.team-mode .drill-title{font-size:10px;min-height:25px}.cat-label{font-size:8px}.toolbar h2{font-size:21px}.viewer{padding:5px}.viewer-panel{width:96vw;max-height:94vh;border-radius:11px}.viewer-head{padding:11px 46px 8px 12px}.viewer-head h2{font-size:18px}.viewer-head h3{font-size:13px}.viewer-image-wrap{padding:6px;height:min(38vh,300px)}.viewer-notes{padding:11px 12px 13px}.viewer-desc{font-size:12px}.viewer-actions .btn{flex:1 1 100%}}
+@media(max-width:760px){.header{padding:13px 15px}.brand h1{font-size:20px}.brand small{font-size:9px}.pill{display:none}.set{padding:9px 12px 10px}.set-title{font-size:14px}.selected{margin-top:7px}.sel{flex-basis:124px;width:124px}.sel img{height:55px}.main{padding:15px 12px 30px}.quick{padding:15px}.quick-grid{grid-template-columns:1fr}.grid,.team-mode .grid{grid-template-columns:1fr 1fr;gap:10px}.card img,.team-mode .card img{height:170px;padding:2px}.meta{padding:8px}.num{font-size:12px}.drill-title,.team-mode .drill-title{font-size:10px;min-height:25px}.cat-label{font-size:8px}.toolbar h2{font-size:21px}.viewer{padding:5px}.viewer-panel{width:96vw;max-height:none;border-radius:11px}.viewer-head{padding:11px 46px 8px 12px}.viewer-head h2{font-size:18px}.viewer-head h3{font-size:13px}.viewer-image-wrap{padding:6px;height:min(38vh,300px)}.viewer-notes{padding:11px 12px 13px}.viewer-desc{font-size:12px}.viewer-actions .btn{flex:1 1 100%}}
 </style>
 </head>
 <body>
@@ -61,7 +61,7 @@ button{cursor:pointer}
     <div class="status" id="status">Loading Team Drills…</div>
     <div id="loading" class="loading"><div><div class="spinner"></div><b id="loadingText">Loading Motor City Hockey drills…</b></div></div>
     <div class="grid" id="grid" hidden></div>
-    <div class="more"><button class="btn light" id="moreBtn" hidden>Load More Drills</button></div>
+    <div class="more"><button class="btn light" id="moreBtn" hidden>Load More Drills</button><button class="btn dark" id="showAllBtn" hidden>Show All Drills</button></div>
   </main>
   <footer class="footer"><div>Motor City Hockey - internal coaching resource builder</div><div>Selected drills only are included in exports.</div></footer>
 </div>
@@ -94,6 +94,10 @@ button{cursor:pointer}
   let database=[];
   let travelDatabase=null;
   let teamDatabase=null;
+  let teamMeta=null;
+  let teamByUid=new Map();
+  const teamImageChunks=new Map();
+  const teamChunkPromises=new Map();
   let selected=[];
   let visibleLimit=60;
   let activeLibrary='team';
@@ -102,17 +106,99 @@ button{cursor:pointer}
   const $=s=>document.querySelector(s);
   const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 
+  const placeholderImage='data:image/svg+xml;charset=UTF-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560"><rect width="100%" height="100%" fill="#f4f4f4"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="26" fill="#777">Loading diagram…</text></svg>');
+
+  function cleanDescriptionText(d){
+    let s=String(d&&d.description||'').replace(/\r/g,' ').replace(/\t/g,' ').replace(/\s+/g,' ').trim();
+    s=s.replace(/KeKey Points\s*:/gi,'Key Points:').replace(/KeyKey Points\s*:/gi,'Key Points:');
+    if(/^Turk\b/i.test(String(d&&d.source||''))){
+      const starters=['The ','This ','On ','Both ','One ','A player','Players ','Player ','Start ','Whistle ','Leave ','Go ','Pass ','Skate ','Continuous ','4 cones','2 players','3 players','F1 ','F2 ','D '];
+      let best=-1;
+      for(const start of starters){
+        const i=s.indexOf(start);
+        if(i>0 && i<220 && (best<0 || i<best)) best=i;
+      }
+      if(best>12){
+        const prefix=s.slice(0,best);
+        const words=prefix.split(/\s+/).filter(Boolean);
+        const shortRatio=words.length?words.filter(w=>w.length<=3).length/words.length:0;
+        if(shortRatio>.55 && !/[.!?]/.test(prefix)) s=s.slice(best);
+      }
+    }
+    return s;
+  }
+
+  function formatDescription(d){
+    let s=cleanDescriptionText(d);
+    if(!s)return '<div style="color:#777">No written instructions were included for this drill.</div>';
+    s=s.replace(/\s*Key Points\s*:\s*/gi,'\n__KEY__\n');
+    s=s.replace(/\s+(?=\d+\.\s)/g,'\n');
+    s=s.replace(/([.!?])\s+(?=[A-Z0-9])/g,'  const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+\n');
+    const raw=s.split(/\n+/).map(x=>x.trim()).filter(Boolean);
+    const main=[],keys=[]; let inKeys=false;
+    for(let part of raw){
+      if(part==='__KEY__'){inKeys=true;continue;}
+      part=part.replace(/^\d+\.\s*/,'').trim();
+      if(!part)continue;
+      (inKeys?keys:main).push(part);
+    }
+    let html='';
+    if(main.length) html+='<div class="viewer-section-title">How It Works</div><ul>'+main.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>';
+    if(keys.length) html+='<div class="viewer-key"><div class="viewer-section-title" style="margin-top:0">Key Points</div><ul>'+keys.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>';
+    return html;
+  }
+
+  function imageFor(d){
+    if(!d)return placeholderImage;
+    if(d.image)return d.image;
+    if(d.imgChunk!=null){
+      const chunk=teamImageChunks.get(Number(d.imgChunk));
+      if(chunk&&chunk[d.uid])return chunk[d.uid];
+    }
+    return placeholderImage;
+  }
+
   function setStatus(msg,type=''){const el=$('#status');el.textContent=msg;el.className='status '+type;}
   function showLoading(text){$('#loadingText').textContent=text;$('#loading').hidden=false;$('#grid').hidden=true;}
   function hideLoading(){$('#loading').hidden=true;$('#grid').hidden=false;}
 
   async function loadTeam(){
     if(teamDatabase)return teamDatabase;
-    showLoading('Loading Team Drills…');
-    const r=await fetch('data/team-preview-all.json?v=4',{cache:'no-store'});
-    if(!r.ok)throw new Error('Team Drill data returned '+r.status);
-    teamDatabase=(await r.json()).filter(d=>d&&d.image&&d.number!=null);
+    showLoading('Loading Team Drill library…');
+    const r=await fetch('data/team-fast-revised/team-meta.json?v=10',{cache:'no-store'});
+    if(!r.ok)throw new Error('Team Drill metadata returned '+r.status);
+    teamMeta=await r.json();
+    teamDatabase=(teamMeta.items||[]).filter(d=>d&&d.number!=null).map(d=>({...d,library:'Team Drills',image:''}));
+    teamByUid=new Map(teamDatabase.map(d=>[d.uid,d]));
     return teamDatabase;
+  }
+
+  async function ensureTeamChunk(chunkIndex){
+    chunkIndex=Number(chunkIndex);
+    if(teamImageChunks.has(chunkIndex))return teamImageChunks.get(chunkIndex);
+    if(teamChunkPromises.has(chunkIndex))return teamChunkPromises.get(chunkIndex);
+    const p=(async()=>{
+      const url='data/team-fast-revised/images/chunk_'+String(chunkIndex).padStart(3,'0')+'.json?v=10';
+      const r=await fetch(url,{cache:'no-store'});
+      if(!r.ok)throw new Error('Diagram chunk '+chunkIndex+' returned '+r.status);
+      const images=await r.json();
+      teamImageChunks.set(chunkIndex,images);
+      Object.entries(images).forEach(([uid,img])=>{
+        const d=teamByUid.get(uid);
+        if(d)d.image=img;
+        document.querySelectorAll('[data-img-uid="'+uid+'"]').forEach(el=>{el.src=img;});
+        if(viewerDrill&&viewerDrill.uid===uid)$('#viewerImg').src=img;
+      });
+      return images;
+    })().catch(err=>{teamChunkPromises.delete(chunkIndex);console.error(err);throw err;});
+    teamChunkPromises.set(chunkIndex,p);
+    return p;
+  }
+
+  function primeVisibleTeamImages(rows){
+    if(activeLibrary!=='team')return;
+    [...new Set(rows.map(d=>d.imgChunk).filter(x=>x!=null))].forEach(i=>ensureTeamChunk(i).catch(err=>setStatus('A diagram group did not load. Scroll or refresh to retry.','err')));
   }
 
   async function loadTravel(){
@@ -140,7 +226,7 @@ button{cursor:pointer}
       if(lib==='team'){
         $('#browseTitle').textContent='Browse Team Drill Library';
         $('#browseSub').textContent='Diagram + short title only. Tap a diagram to view full instructions and add options.';
-        setStatus('Team Drill preview now includes every Team category. Full library remains numbered 1–562.','preview');
+        setStatus('Loaded '+database.length+' Team Drills. Use Load More or Show All at the bottom to view the entire library.','ok');
       }else{
         $('#browseTitle').textContent='Browse Travel Skills Library';
         $('#browseSub').textContent='Tap a drill to add or remove it.';
@@ -174,7 +260,7 @@ button{cursor:pointer}
     $('#selectedCount').textContent=selected.length;
     const strip=$('#selectedStrip');
     if(!selected.length){strip.innerHTML='<div class="selected-empty">Your selected drills stay pinned here while you scroll.</div>';return;}
-    strip.innerHTML=selected.map(d=>'<div class="sel"><button class="x" data-x="'+esc(d.uid)+'">×</button><img src="'+esc(d.image)+'" alt="Drill '+esc(d.number)+'"><b>Drill '+esc(d.number)+(d.title?' — '+esc(d.title):'')+'</b><small>'+(d.includeDescription?'Diagram + Instructions':'Diagram Only')+'</small></div>').join('');
+    strip.innerHTML=selected.map(d=>'<div class="sel"><button class="x" data-x="'+esc(d.uid)+'">×</button><img src="'+esc(imageFor(d))+'" alt="Drill '+esc(d.number)+'"><b>Drill '+esc(d.number)+(d.title?' — '+esc(d.title):'')+'</b><small>'+(d.includeDescription?'Diagram + Instructions':'Diagram Only')+'</small></div>').join('');
     strip.querySelectorAll('[data-x]').forEach(b=>b.onclick=()=>removeSelected(b.dataset.x));
   }
 
@@ -194,14 +280,32 @@ button{cursor:pointer}
         const title=d.teaser||d.title||'';
         return '<article class="card '+(selectedDrill?'selected-card':'')+'" data-uid="'+esc(d.uid)+'">'+
           (activeLibrary==='team'?'<button class="quick-add-card" data-add="'+esc(d.uid)+'" title="Quick add diagram only">'+(selectedDrill?'✓':'+')+'</button>':'')+
-          '<button class="diagram-hit" data-open="'+esc(d.uid)+'"><img loading="lazy" src="'+esc(d.image)+'" alt="Drill '+esc(d.number)+'"></button>'+
+          '<button class="diagram-hit" data-open="'+esc(d.uid)+'"><img loading="lazy" data-img-uid="'+esc(d.uid)+'" src="'+esc(imageFor(d))+'" alt="Drill '+esc(d.number)+'"></button>'+
           '<div class="meta"><div class="num">Drill '+esc(d.number)+'</div><div class="drill-title">'+esc(title)+'</div><div class="cat-label">'+esc(d.category||'')+'</div>'+(d.kind==='system'?'<span class="system-badge">SYSTEM</span>':'')+'</div></article>';
       }).join('');
     }
-    $('#grid').querySelectorAll('[data-add]').forEach(b=>b.onclick=e=>{e.stopPropagation();const d=database.find(x=>x.uid===b.dataset.add);if(chosen(d.uid))removeSelected(d.uid);else addSelected(d,false);});
-    $('#grid').querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{const d=database.find(x=>x.uid===b.dataset.open);if(activeLibrary==='team')openViewer(d);else{const x=chosen(d.uid);if(x)removeSelected(d.uid);else addSelected(d,false);}});
+    $('#grid').querySelectorAll('[data-add]').forEach(b=>b.onclick=async e=>{
+      e.stopPropagation();
+      const d=database.find(x=>x.uid===b.dataset.add);
+      if(chosen(d.uid)){removeSelected(d.uid);return;}
+      if(activeLibrary==='team'&&!d.image&&d.imgChunk!=null){
+        setStatus('Loading Drill '+d.number+' diagram…','preview');
+        try{await ensureTeamChunk(d.imgChunk);}catch(err){setStatus('Could not load Drill '+d.number+' diagram.','err');return;}
+      }
+      addSelected(d,false);setStatus('Added Drill '+d.number+'.','ok');
+    });
+    $('#grid').querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{
+      const d=database.find(x=>x.uid===b.dataset.open);
+      if(activeLibrary==='team')openViewer(d);
+      else{const x=chosen(d.uid);if(x)removeSelected(d.uid);else addSelected(d,false);}
+    });
     $('#grid').querySelectorAll('img').forEach(img=>img.onerror=()=>{img.onerror=null;img.alt='Diagram unavailable';img.style.background='#f1f1f1';});
-    $('#moreBtn').hidden=rows.length>=all.length;$('#moreBtn').textContent='Load More Drills ('+rows.length+' of '+all.length+')';
+    const hasMore=rows.length<all.length;
+    $('#moreBtn').hidden=!hasMore;
+    $('#showAllBtn').hidden=!hasMore;
+    $('#moreBtn').textContent='Load More Drills ('+rows.length+' of '+all.length+')';
+    $('#showAllBtn').textContent='Show All '+all.length+' Drills';
+    primeVisibleTeamImages(rows);
   }
 
   function setZoom(v){
@@ -220,30 +324,42 @@ button{cursor:pointer}
     $('#viewerImageWrap').scrollTop=0;
     $('#viewerImageWrap').scrollLeft=0;
   }
-  function openViewer(d){
-    if(!d)return;viewerDrill=d;zoom=100;setZoom(100);
-    $('#viewerImg').src=d.image;$('#viewerImg').alt='Drill '+d.number+' — '+(d.title||'');
+  async function openViewer(d){
+    if(!d)return;
+    viewerDrill=d;zoom=100;setZoom(100);
+    $('#viewerImg').src=imageFor(d);$('#viewerImg').alt='Drill '+d.number+' — '+(d.title||'');
     $('#viewerNum').textContent='Drill '+d.number+(d.kind==='system'?' · SYSTEM':'');
     $('#viewerTitle').textContent=d.title||'';$('#viewerCat').textContent=d.category||'';
-    $('#viewerDesc').textContent=d.description||'No separate instructions were provided for this drill.';
+    $('#viewerDesc').innerHTML=formatDescription(d);
     $('#viewerSource').textContent=[d.source,d.source_page?'Page '+d.source_page:''].filter(Boolean).join(' · ');
-    const cur=chosen(d.uid);
-    $('#addDiagram').textContent=cur&&!cur.includeDescription?'✓ Diagram Only Selected':'Add Diagram Only';
-    $('#addNotes').textContent=cur&&cur.includeDescription?'✓ Diagram + Instructions Selected':'Add Diagram + Instructions';
-    $('#viewer').classList.add('open');$('#viewer').setAttribute('aria-hidden','false');
+    const current=chosen(d.uid);
+    $('#addDiagram').textContent=current&&!current.includeDescription?'✓ Diagram Selected':'Add Diagram Only';
+    $('#addNotes').textContent=current&&current.includeDescription?'✓ Diagram + Instructions Selected':'Add Diagram + Instructions';
+    $('#viewer').classList.add('open');$('#viewer').setAttribute('aria-hidden','false');document.body.style.overflow='hidden';$('#viewer').scrollTop=0;
+    if(activeLibrary==='team'&&!d.image&&d.imgChunk!=null){
+      try{await ensureTeamChunk(d.imgChunk);}catch(err){if(viewerDrill&&viewerDrill.uid===d.uid)setStatus('Could not load Drill '+d.number+' diagram.','err');}
+    }
   }
-  function closeViewer(){$('#viewer').classList.remove('open');$('#viewer').setAttribute('aria-hidden','true');viewerDrill=null;}
+  function closeViewer(){$('#viewer').classList.remove('open');$('#viewer').setAttribute('aria-hidden','true');viewerDrill=null;document.body.style.overflow='';}
 
   $('#viewerClose').onclick=closeViewer;$('#viewerDone').onclick=closeViewer;$('#viewer').onclick=e=>{if(e.target===$('#viewer'))closeViewer();};
   $('#zoomIn').onclick=()=>setZoom(zoom+25);$('#zoomOut').onclick=()=>setZoom(zoom-25);$('#zoomFit').onclick=()=>setZoom(100);
-  $('#addDiagram').onclick=()=>{if(!viewerDrill)return;addSelected(viewerDrill,false);openViewer(viewerDrill);};
-  $('#addNotes').onclick=()=>{if(!viewerDrill)return;addSelected(viewerDrill,true);openViewer(viewerDrill);};
+  $('#addDiagram').onclick=async()=>{if(!viewerDrill)return;if(activeLibrary==='team'&&!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureTeamChunk(viewerDrill.imgChunk);addSelected(viewerDrill,false);openViewer(viewerDrill);};
+  $('#addNotes').onclick=async()=>{if(!viewerDrill)return;if(activeLibrary==='team'&&!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureTeamChunk(viewerDrill.imgChunk);addSelected(viewerDrill,true);openViewer(viewerDrill);};
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeViewer();});
 
   $('#librarySelect').addEventListener('change',()=>switchLibrary($('#librarySelect').value));
   $('#category').addEventListener('change',()=>renderGrid(true));
   $('#search').addEventListener('input',()=>renderGrid(true));
   $('#moreBtn').onclick=()=>{visibleLimit+=60;renderGrid(false);};
+  $('#showAllBtn').onclick=()=>{visibleLimit=filtered().length;renderGrid(false);};
+  let autoLoadLock=false;
+  window.addEventListener('scroll',()=>{
+    if(autoLoadLock||$('#moreBtn').hidden)return;
+    if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-500){
+      autoLoadLock=true;visibleLimit+=60;renderGrid(false);setTimeout(()=>autoLoadLock=false,250);
+    }
+  },{passive:true});
   $('#quickAdd').onclick=()=>{
     const n=$('#quickNumber').value.trim(),cat=$('#category').value;
     if(!n){setStatus('Enter a drill number first.','err');return;}
@@ -258,8 +374,8 @@ button{cursor:pointer}
   $('#printBtn').onclick=()=>{
     if(!selected.length){setStatus('Select at least one drill before exporting.','err');return;}
     const w=window.open('','_blank');if(!w){setStatus('Your browser blocked the print window. Allow pop-ups for this page.','err');return;}
-    const cards=selected.map(d=>'<section class="p"><div class="n">Drill '+esc(d.number)+(d.title?' — '+esc(d.title):'')+'</div><img src="'+d.image+'">'+(d.includeDescription&&d.description?'<div class="desc">'+esc(d.description)+'</div>':'')+'</section>').join('');
-    w.document.write('<!doctype html><html><head><title>MCH Practice Set</title><style>@page{size:letter landscape;margin:.25in}body{font-family:Arial;margin:0}.g{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.p{border:1px solid #aaa;padding:7px;break-inside:avoid}.p img{width:100%;height:3.1in;object-fit:contain}.n{font-weight:bold;margin-bottom:5px;font-size:12px}.desc{font-size:9px;line-height:1.25;white-space:pre-wrap;margin-top:5px}</style></head><body><div class="g">'+cards+'</div><script>setTimeout(()=>window.print(),700)<\/script></body></html>');
+    const cards=selected.map(d=>'<section class="p"><div class="n">Drill '+esc(d.number)+(d.title?' — '+esc(d.title):'')+'</div><img src="'+imageFor(d)+'">'+(d.includeDescription&&d.description?'<div class="desc">'+formatDescription(d)+'</div>':'')+'</section>').join('');
+    w.document.write('<!doctype html><html><head><title>MCH Practice Set</title><style>@page{size:letter landscape;margin:.25in}body{font-family:Arial;margin:0}.g{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.p{border:1px solid #aaa;padding:7px;break-inside:avoid}.p img{width:100%;height:3.1in;object-fit:contain}.n{font-weight:bold;margin-bottom:5px;font-size:12px}.desc{font-size:9px;line-height:1.25;margin-top:5px}.desc ul{margin:4px 0 6px;padding-left:16px}.desc li{margin-bottom:2px}.viewer-section-title{font-weight:bold;margin:5px 0 3px}.viewer-key{border-left:2px solid #111;padding-left:6px}</style></head><body><div class="g">'+cards+'</div><script>setTimeout(()=>window.print(),700)<\/script></body></html>');
     w.document.close();
   };
 
