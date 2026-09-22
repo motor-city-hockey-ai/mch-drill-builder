@@ -133,8 +133,7 @@ button{cursor:pointer}
     if(!s)return '<div style="color:#777">No written instructions were included for this drill.</div>';
     s=s.replace(/\s*Key Points\s*:\s*/gi,'\n__KEY__\n');
     s=s.replace(/\s+(?=\d+\.\s)/g,'\n');
-    s=s.replace(/([.!?])\s+(?=[A-Z0-9])/g,'  const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-\n');
+    s=s.replace(/([.!?])\s+(?=[A-Z0-9])/g,'$1\n');
     const raw=s.split(/\n+/).map(x=>x.trim()).filter(Boolean);
     const main=[],keys=[]; let inKeys=false;
     for(let part of raw){
