@@ -1,0 +1,24 @@
+name: Test TCS PDF CORS
+on:
+  push:
+    branches: [test-tcs-cors]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          python - <<'PY'
+          import requests
+          urls=[
+          "https://members.thecoachessite.com/videos/video_230619070227_v1340/video_230619070227_v1340.pdf",
+          "https://members.thecoachessite.com/videos/video_230619071227_v28c4/video_230619071227_v28c4.pdf",
+          "https://join.thecoachessite.com/hubfs/TCS%20Live/Drill%20Book/2023/2023%20-%20TCS%20Live%20Drill%20Book.pdf"]
+          for u in urls:
+              r=requests.get(u,headers={"Origin":"https://motor-city-hockey-ai.github.io"},stream=True,timeout=60)
+              print("URL",u)
+              for k,v in r.headers.items():
+                  if k.lower() in ["access-control-allow-origin","access-control-allow-credentials","content-type","content-length","accept-ranges"]:
+                      print(k,":",v)
+          PY
