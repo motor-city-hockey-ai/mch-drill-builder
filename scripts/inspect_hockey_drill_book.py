@@ -152,6 +152,9 @@ records.sort(key=lambda d:d["number"])
 nums=[d["number"] for d in records]
 missing=[n for n in range(1,447) if n not in nums]
 dupes=sorted({n for n in nums if nums.count(n)>1})
+if dupes:
+    for n in dupes:
+        print("DUPLICATE_DETAIL",json.dumps([d for d in records if d["number"]==n],ensure_ascii=False))
 print("SUMMARY",json.dumps({"count":len(records),"first":nums[:5],"last":nums[-5:],"missing":missing,"duplicates":dupes}))
 if missing or dupes or len(records)!=446:
     raise SystemExit("Expected exactly 446 unique drills; validation failed")
