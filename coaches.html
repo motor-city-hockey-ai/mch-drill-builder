@@ -13718,7 +13718,9 @@ async function openViewer(d){
   $('#vdesc').textContent=hasSummary?d.description:(d.source==='The Hockey Drill Book'?'The original drill instructions are shown directly below from the book page.':'Original drill instructions are shown directly below from the source page.');
   $('#vmeta').textContent=[d.chapter,d.source_collection,d.book_page?'Book page '+d.book_page:null].filter(Boolean).join(' · ');
   $('#vsource').textContent=(d.source_collection||d.source||'')+' · Original PDF page '+d.source_page+(d.book_page?' · Book page '+d.book_page:'');
-  $('#sourceLink').href=d.source_url+'#page='+encodeURIComponent(d.source_page);
+  const sourcePageUrl=d.source_url+'#page='+encodeURIComponent(d.source_page);
+  $('#sourceLink').href=sourcePageUrl;
+  $('#sourceFrame').src=sourcePageUrl;
   $('#viewer').classList.add('open');document.body.style.overflow='hidden';
   const load=$('#bigLoading'),bigImg=$('#bigImage'),bigCanvas=$('#bigCanvas');
   load.className='loading-label';bigImg.hidden=true;bigCanvas.hidden=false;
@@ -13735,7 +13737,7 @@ async function openViewer(d){
     load.textContent='Loading original diagram…';
     await renderDiagram(bigCanvas,d,1.7).then(()=>load.classList.add('done')).catch(err=>{load.textContent='Could not render the diagram. Use Open Original PDF Page.';load.classList.add('err');console.error(err)});
   }
-  $('#sourceFrame').src=d.source_url+'#page='+encodeURIComponent(d.source_page);
+  // Source page starts loading immediately when the viewer opens.
 }
 function closeViewer(){$('#viewer').classList.remove('open');$('#sourceFrame').src='about:blank';document.body.style.overflow='';current=null}
 $('#close').onclick=closeViewer;$('#viewer').onclick=e=>{if(e.target===$('#viewer'))closeViewer()};document.addEventListener('keydown',e=>{if(e.key==='Escape')closeViewer()});
