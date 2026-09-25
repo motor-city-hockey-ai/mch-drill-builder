@@ -148,13 +148,25 @@ for pno in range(29,392): # zero-based physical PDF pages 30..392
           "tags":["The Hockey Drill Book",category,*skill_tags(h["title"],category)]
         })
 
-records.sort(key=lambda d:d["number"])
+# Collapse any continuation-page duplicate headings into one drill record.
+by_num={}
+for d in records:
+    n=d["number"]
+    if n not in by_num:
+        by_num[n]=d
+    else:
+        cur=by_num[n]
+        def crop_area(x):
+            r=x["diagram_rect"]; return max(0,r[2]-r[0])*max(0,r[3]-r[1])
+        # Keep the page with the stronger/larger diagram crop but preserve the fullest title.
+        best=d if crop_area(d)>crop_area(cur) else cur
+        best["title"]=max([cur["title"],d["title"]],key=len)
+        best["tags"]=["The Hockey Drill Book",best["category"],*skill_tags(best["title"],best["category"])]
+        by_num[n]=best
+records=sorted(by_num.values(),key=lambda d:d["number"])
 nums=[d["number"] for d in records]
 missing=[n for n in range(1,447) if n not in nums]
 dupes=sorted({n for n in nums if nums.count(n)>1})
-if dupes:
-    for n in dupes:
-        print("DUPLICATE_DETAIL",json.dumps([d for d in records if d["number"]==n],ensure_ascii=False))
 print("SUMMARY",json.dumps({"count":len(records),"first":nums[:5],"last":nums[-5:],"missing":missing,"duplicates":dupes}))
 if missing or dupes or len(records)!=446:
     raise SystemExit("Expected exactly 446 unique drills; validation failed")
