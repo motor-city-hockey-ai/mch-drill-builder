@@ -89,8 +89,9 @@ jobs:
                   time.sleep(.5)
               assert ok,title
           # verify source switching still isolates Coaches Site
+          q=d.find_element(By.ID,"search"); q.clear()
           Select(d.find_element(By.ID,"sourceFilter")).select_by_value("coaches")
-          time.sleep(.5)
+          time.sleep(.75)
           print("COACHES_STATUS",d.find_element(By.ID,"status").text)
           assert "146" in d.find_element(By.ID,"status").text
           d.quit()
