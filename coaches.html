@@ -13746,7 +13746,7 @@ $('#library').value=$('#sourceFilter').value==='book'?'book':'coaches';
 populateCategories();
 $('#sourceFilter').onchange=()=>{limit=36;populateCategories();render()};
 $('#category').onchange=()=>{limit=36;render()};$('#search').oninput=()=>{limit=36;render()};$('#more').onclick=()=>{limit+=36;render()};$('#all').onclick=()=>{limit=filtered().length;render()};
-$('#library').onchange=()=>{const v=$('#library').value;if(v==='team')location.href='index.html?library=team&v=15';else if(v==='travel')location.href='index.html?library=travel&v=15';else if(v==='book'){location.href='coaches.html?source=book&v=15'}else{location.href='coaches.html?source=coaches&v=15'}};
+$('#library').onchange=()=>{const v=$('#library').value;if(v==='team')location.href='index.html?library=team&v=16';else if(v==='travel')location.href='index.html?library=travel&v=16';else if(v==='book'){location.href='coaches.html?source=book&v=16'}else{location.href='coaches.html?source=coaches&v=16'}};
 render();
 })();
 </script>
