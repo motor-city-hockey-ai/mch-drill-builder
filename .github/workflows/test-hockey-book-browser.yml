@@ -63,5 +63,35 @@ jobs:
           assert d.find_element(By.CSS_SELECTOR,".card .num").text.startswith("Hockey Drill Book #1")
           assert Select(d.find_element(By.ID,"sourceFilter")).first_selected_option.get_attribute("value")=="book"
           if not ready: raise AssertionError("diagram rendering did not complete")
+          samples=[
+            "Skating Between the Blue Lines",
+            "Blue Line Shoot",
+            "Power Play Breakouts 5v0, 5v2, 5v3, 5v4",
+            "Aerobic Continuous Skate"
+          ]
+          for title in samples:
+              q=d.find_element(By.ID,"search")
+              q.clear();q.send_keys(title)
+              deadline2=time.time()+20
+              ok=False
+              while time.time()<deadline2:
+                  cards=d.find_elements(By.CSS_SELECTOR,".card")
+                  if len(cards)==1:
+                      info=d.execute_script("""
+                        const c=document.querySelector('.card canvas'),l=document.querySelector('.card .loading-label');
+                        if(!c)return null;
+                        const im=c.getContext('2d').getImageData(0,0,c.width,c.height).data;
+                        let dark=0,n=0;for(let i=0;i<im.length;i+=160){if(im[i]<230||im[i+1]<230||im[i+2]<230)dark++;n++}
+                        return {w:c.width,h:c.height,dark:dark/n,label:l.className,title:document.querySelector('.card .drill-title').textContent};
+                      """)
+                      if info and "done" in info["label"] and info["w"]>100 and info["h"]>60 and info["dark"]>0.01:
+                          print("SAMPLE",info);ok=True;break
+                  time.sleep(.5)
+              assert ok,title
+          # verify source switching still isolates Coaches Site
+          Select(d.find_element(By.ID,"sourceFilter")).select_by_value("coaches")
+          time.sleep(.5)
+          print("COACHES_STATUS",d.find_element(By.ID,"status").text)
+          assert "146" in d.find_element(By.ID,"status").text
           d.quit()
           PY
