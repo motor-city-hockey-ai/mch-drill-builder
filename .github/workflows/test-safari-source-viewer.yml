@@ -1,0 +1,59 @@
+name: Safari Test Drill Source Viewer
+on:
+  push:
+    branches: [fix-safari-and-viewer-text]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install playwright
+      - run: python -m playwright install --with-deps webkit
+      - run: |
+          python -m http.server 8000 >/tmp/server.log 2>&1 &
+          sleep 2
+          python - <<'PY'
+          from playwright.sync_api import sync_playwright
+          import time
+          with sync_playwright() as p:
+              browser=p.webkit.launch(headless=True)
+              page=browser.new_page(viewport={"width":1440,"height":1100})
+              page.goto("http://127.0.0.1:8000/coaches.html?source=book&v=15",wait_until="domcontentloaded",timeout=120000)
+              page.wait_for_selector(".card",timeout=30000)
+              print("STATUS",page.locator("#status").inner_text())
+              print("FIRST",page.locator(".card .num").first.inner_text(),page.locator(".card .drill-title").first.inner_text())
+              deadline=time.time()+60
+              vals=[]
+              while time.time()<deadline:
+                  vals=page.locator(".diagram-wrap").evaluate_all("""els=>els.slice(0,4).map(el=>{const c=el.querySelector('canvas'),l=el.querySelector('.loading-label');return {w:c.width,h:c.height,cls:l.className,text:l.textContent}})""")
+                  if len(vals)>=4 and all(v["w"]>100 and v["h"]>60 and "done" in v["cls"] for v in vals): break
+                  time.sleep(1)
+              print("BOOK_CANVASES",vals)
+              assert len(vals)>=4 and all(v["w"]>100 and v["h"]>60 and "done" in v["cls"] for v in vals), vals
+              page.locator(".view").first.click()
+              page.wait_for_selector("#viewer.open",timeout=10000)
+              deadline=time.time()+40
+              while time.time()<deadline:
+                  info=page.evaluate("""()=>({big:{w:document.querySelector('#bigCanvas').width,h:document.querySelector('#bigCanvas').height,cls:document.querySelector('#bigLoading').className},page:{w:document.querySelector('#sourcePageCanvas').width,h:document.querySelector('#sourcePageCanvas').height,cls:document.querySelector('#sourcePageLoading').className},desc:document.querySelector('#vdesc').textContent,meta:document.querySelector('#vmeta').textContent})""")
+                  if info["big"]["w"]>100 and info["page"]["w"]>100 and "done" in info["big"]["cls"] and "done" in info["page"]["cls"]:break
+                  time.sleep(1)
+              print("BOOK_VIEWER",info)
+              assert info["big"]["w"]>100 and info["page"]["w"]>100
+              assert "original drill instructions" in info["desc"].lower()
+
+              page.goto("http://127.0.0.1:8000/coaches.html?source=coaches&v=15",wait_until="domcontentloaded",timeout=120000)
+              page.wait_for_selector(".card",timeout=30000)
+              print("COACHES_STATUS",page.locator("#status").inner_text())
+              page.locator(".view").first.click()
+              page.wait_for_selector("#viewer.open",timeout=10000)
+              text=page.locator("#vdesc").inner_text()
+              print("COACHES_DESC",text)
+              assert len(text)>40
+              assert "Run a 5-on-3 offensive-zone possession sequence" in text
+              browser.close()
+          PY
