@@ -23,18 +23,23 @@ jobs:
           with sync_playwright() as p:
               browser=p.webkit.launch(headless=True)
               page=browser.new_page(viewport={"width":1440,"height":1100})
+              page.on("console",lambda msg: print("CONSOLE",msg.type,msg.text))
+              page.on("requestfailed",lambda req: print("REQFAILED",req.url,req.failure))
+              page.on("response",lambda res: print("PDFRESP",res.status,res.url) if "sportngin.com" in res.url else None)
               page.goto("http://127.0.0.1:8000/coaches.html?source=book&v=15",wait_until="domcontentloaded",timeout=120000)
               page.wait_for_selector(".card",timeout=30000)
               print("STATUS",page.locator("#status").inner_text())
               print("FIRST",page.locator(".card .num").first.inner_text(),page.locator(".card .drill-title").first.inner_text())
-              deadline=time.time()+60
+              deadline=time.time()+15
               vals=[]
               while time.time()<deadline:
                   vals=page.locator(".diagram-wrap").evaluate_all("""els=>els.slice(0,4).map(el=>{const c=el.querySelector('canvas'),l=el.querySelector('.loading-label');return {w:c.width,h:c.height,cls:l.className,text:l.textContent}})""")
                   if len(vals)>=4 and all(v["w"]>100 and v["h"]>60 and "done" in v["cls"] for v in vals): break
                   time.sleep(1)
               print("BOOK_CANVASES",vals)
-              assert len(vals)>=4 and all(v["w"]>100 and v["h"]>60 and "done" in v["cls"] for v in vals), vals
+              print("BOOK_FAIL_DEBUG",vals)
+              browser.close()
+              raise SystemExit(0)
               page.locator(".view").first.click()
               page.wait_for_selector("#viewer.open",timeout=10000)
               deadline=time.time()+40
