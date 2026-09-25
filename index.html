@@ -47,7 +47,7 @@ button{cursor:pointer}
       <h2>Quick Add by Drill Number</h2>
       <p>Team Drills open first so you can choose diagram-only or diagram + instructions.</p>
       <div class="quick-grid">
-        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="team">Team Drills</option><option value="travel">Travel Skills</option></select></div>
+        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="team">Team Drills</option><option value="travel">Travel Skills</option><option value="coaches">Coaches Site Drills</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
         <div class="field" id="coachField"><label>DRILL SOURCE</label><select class="control" id="coachSelect"><option value="">All Sources</option><option value="rich">Rich Drills</option><option value="weiss">Weiss Drills</option><option value="turk">Turk Drills</option></select></div>
         <div class="field"><label>DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
@@ -95,6 +95,7 @@ button{cursor:pointer}
   let database=[];
   let travelDatabase=null;
   let teamDatabase=null;
+  let coachesDatabase=null;
   let teamMeta=null;
   let teamByUid=new Map();
   const teamImageChunks=new Map();
@@ -217,21 +218,45 @@ button{cursor:pointer}
     return travelDatabase;
   }
 
+  async function loadCoaches(){
+    if(coachesDatabase)return coachesDatabase;
+    showLoading('Loading Coaches Site Drills library…');
+    const r=await fetch('data/coaches-site/coaches-site-drills.json?v=1',{cache:'no-store'});
+    if(!r.ok)throw new Error('Coaches Site Drill database returned '+r.status);
+    const rows=await r.json();
+    coachesDatabase=(Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({
+      ...d,
+      library:'Coaches Site Drills',
+      uid:d.uid||('coaches-'+d.number),
+      title:d.title||'',
+      category:d.category||'Other',
+      source:d.source||'The Coaches Site',
+      image:d.image||''
+    }));
+    return coachesDatabase;
+  }
+
   async function switchLibrary(lib){
     activeLibrary=lib;visibleLimit=60;$('#search').value='';$('#quickNumber').value='';$('#coachSelect').value='';
-    $('#app').classList.toggle('team-mode',lib==='team');
+    $('#app').classList.toggle('team-mode',lib==='team'||lib==='coaches');
     $('#coachField').hidden=lib!=='team';
     try{
-      database=lib==='team'?await loadTeam():await loadTravel();
+      database=lib==='team'?await loadTeam():(lib==='travel'?await loadTravel():await loadCoaches());
       populateCategories();hideLoading();
       if(lib==='team'){
         $('#browseTitle').textContent='Browse Team Drill Library';
         $('#browseSub').textContent='Diagram + short title only. Tap a diagram to view full instructions and add options.';
         setStatus('Loaded '+database.length+' Team Drills. Use Load More or Show All at the bottom to view the entire library.','ok');
-      }else{
+      }else if(lib==='travel'){
         $('#browseTitle').textContent='Browse Travel Skills Library';
         $('#browseSub').textContent='Tap a drill to add or remove it.';
         setStatus('Loaded '+database.length+' Travel Skills drills.','ok');
+      }else{
+        $('#browseTitle').textContent='Browse Coaches Site Drills';
+        $('#browseSub').textContent='Membership-sourced drills you have supplied for your private Motor City Hockey library.';
+        setStatus(database.length
+          ? 'Loaded '+database.length+' Coaches Site drills. Filter by category or search by drill title.'
+          : 'Coaches Site library is ready. Import your legitimately downloaded membership files to populate it.','ok');
       }
       renderSelected();renderGrid(true);
     }catch(err){hideLoading();setStatus('DATABASE ERROR: '+err.message,'err');console.error(err);}
@@ -239,7 +264,8 @@ button{cursor:pointer}
 
   function populateCategories(){
     const categories=[...new Set(database.map(d=>d.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
-    $('#category').innerHTML='<option value="">'+(activeLibrary==='team'?'ALL TEAM DRILLS':'All Travel Skills')+'</option>'+categories.map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
+    const allLabel=activeLibrary==='team'?'ALL TEAM DRILLS':(activeLibrary==='travel'?'All Travel Skills':'ALL COACHES SITE DRILLS');
+    $('#category').innerHTML='<option value="">'+allLabel+'</option>'+categories.map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
   }
 
   function saveSelected(){
@@ -288,7 +314,7 @@ button{cursor:pointer}
         const selectedDrill=chosen(d.uid);
         const title=d.teaser||d.title||'';
         return '<article class="card '+(selectedDrill?'selected-card':'')+'" data-uid="'+esc(d.uid)+'">'+
-          (activeLibrary==='team'?'<button class="quick-add-card" data-add="'+esc(d.uid)+'" title="Quick add diagram only">'+(selectedDrill?'✓':'+')+'</button>':'')+
+          ((activeLibrary==='team'||activeLibrary==='coaches')?'<button class="quick-add-card" data-add="'+esc(d.uid)+'" title="Quick add diagram only">'+(selectedDrill?'✓':'+')+'</button>':'')+
           '<button class="diagram-hit" data-open="'+esc(d.uid)+'"><img loading="lazy" data-img-uid="'+esc(d.uid)+'" src="'+esc(imageFor(d))+'" alt="Drill '+esc(d.number)+'"></button>'+
           '<div class="meta"><div class="num">Drill '+esc(d.number)+'</div><div class="drill-title">'+esc(title)+'</div><div class="cat-label">'+esc(d.category||'')+'</div>'+(d.kind==='system'?'<span class="system-badge">SYSTEM</span>':'')+'</div></article>';
       }).join('');
@@ -305,7 +331,7 @@ button{cursor:pointer}
     });
     $('#grid').querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{
       const d=database.find(x=>x.uid===b.dataset.open);
-      if(activeLibrary==='team')openViewer(d);
+      if(activeLibrary==='team'||activeLibrary==='coaches')openViewer(d);
       else{const x=chosen(d.uid);if(x)removeSelected(d.uid);else addSelected(d,false);}
     });
     $('#grid').querySelectorAll('img').forEach(img=>img.onerror=()=>{img.onerror=null;img.alt='Diagram unavailable';img.style.background='#f1f1f1';});
@@ -375,7 +401,7 @@ button{cursor:pointer}
     if(!n){setStatus('Enter a drill number first.','err');return;}
     const d=database.find(x=>String(x.number)===n&&(!cat||x.category===cat)&&(!coach||coachSource(x)===coach));
     if(!d){setStatus('Drill '+n+' was not found in the current selection.','err');return;}
-    if(activeLibrary==='team'){openViewer(d);setStatus('Choose Diagram Only or Diagram + Instructions.','ok');}
+    if(activeLibrary==='team'||activeLibrary==='coaches'){openViewer(d);setStatus('Choose Diagram Only or Diagram + Instructions.','ok');}
     else{const x=chosen(d.uid);if(x)removeSelected(d.uid);else addSelected(d,false);setStatus('Updated Drill '+d.number+'.','ok');}
     $('#quickNumber').value='';
   };
