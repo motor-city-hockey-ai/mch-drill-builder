@@ -47,7 +47,7 @@ button{cursor:pointer}
       <h2>Quick Add by Drill Number</h2>
       <p>Team Drills open first so you can choose diagram-only or diagram + instructions.</p>
       <div class="quick-grid">
-        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="team">Team Drills</option><option value="travel">Travel Skills</option><option value="coaches">Coaches Site Drills</option></select></div>
+        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="team">Team Drills</option><option value="travel">Travel Skills</option><option value="coaches">Coaches Site Drills</option><option value="book">The Hockey Drill Book</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
         <div class="field" id="coachField"><label>DRILL SOURCE</label><select class="control" id="coachSelect"><option value="">All Sources</option><option value="rich">Rich Drills</option><option value="weiss">Weiss Drills</option><option value="turk">Turk Drills</option><option value="coaches">Coaches Site</option></select></div>
         <div class="field"><label>DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
@@ -429,7 +429,7 @@ button{cursor:pointer}
   $('#addNotes').onclick=async()=>{if(!viewerDrill)return;if(!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureDrillImage(viewerDrill);addSelected(viewerDrill,true);openViewer(viewerDrill);};
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeViewer();});
 
-  $('#librarySelect').addEventListener('change',()=>{const lib=$('#librarySelect').value;if(lib==='coaches'){location.href='coaches.html?v=13';return;}switchLibrary(lib);});
+  $('#librarySelect').addEventListener('change',()=>{const lib=$('#librarySelect').value;if(lib==='coaches'){location.href='coaches.html?source=coaches&v=14';return;}if(lib==='book'){location.href='coaches.html?source=book&v=14';return;}switchLibrary(lib);});
   $('#category').addEventListener('change',()=>renderGrid(true));
   $('#coachSelect').addEventListener('change',()=>renderGrid(true));
   $('#search').addEventListener('input',()=>renderGrid(true));
