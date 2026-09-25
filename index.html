@@ -429,7 +429,7 @@ button{cursor:pointer}
   $('#addNotes').onclick=async()=>{if(!viewerDrill)return;if(!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureDrillImage(viewerDrill);addSelected(viewerDrill,true);openViewer(viewerDrill);};
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeViewer();});
 
-  $('#librarySelect').addEventListener('change',()=>switchLibrary($('#librarySelect').value));
+  $('#librarySelect').addEventListener('change',()=>{const lib=$('#librarySelect').value;if(lib==='coaches'){location.href='coaches.html?v=7';return;}switchLibrary(lib);});
   $('#category').addEventListener('change',()=>renderGrid(true));
   $('#coachSelect').addEventListener('change',()=>renderGrid(true));
   $('#search').addEventListener('input',()=>renderGrid(true));
@@ -461,7 +461,10 @@ button{cursor:pointer}
     w.document.close();
   };
 
-  restoreSelected();switchLibrary('team');
+  const requestedLibrary=new URLSearchParams(location.search).get('library');
+  const initialLibrary=requestedLibrary==='travel'?'travel':'team';
+  $('#librarySelect').value=initialLibrary;
+  restoreSelected();switchLibrary(initialLibrary);
 })();
 </script>
 </body>
