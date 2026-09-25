@@ -49,7 +49,7 @@ button{cursor:pointer}
       <div class="quick-grid">
         <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="team">Team Drills</option><option value="travel">Travel Skills</option><option value="coaches">Coaches Site Drills</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
-        <div class="field" id="coachField"><label>DRILL SOURCE</label><select class="control" id="coachSelect"><option value="">All Sources</option><option value="rich">Rich Drills</option><option value="weiss">Weiss Drills</option><option value="turk">Turk Drills</option></select></div>
+        <div class="field" id="coachField"><label>DRILL SOURCE</label><select class="control" id="coachSelect"><option value="">All Sources</option><option value="rich">Rich Drills</option><option value="weiss">Weiss Drills</option><option value="turk">Turk Drills</option><option value="coaches">Coaches Site</option></select></div>
         <div class="field"><label>DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
         <button class="btn red" id="quickAdd">Find Drill</button>
       </div>
@@ -239,7 +239,7 @@ button{cursor:pointer}
   async function switchLibrary(lib){
     activeLibrary=lib;visibleLimit=60;$('#search').value='';$('#quickNumber').value='';$('#coachSelect').value='';
     $('#app').classList.toggle('team-mode',lib==='team'||lib==='coaches');
-    $('#coachField').hidden=lib!=='team';
+    $('#coachField').hidden=!(lib==='team'||lib==='coaches');
     try{
       database=lib==='team'?await loadTeam():(lib==='travel'?await loadTravel():await loadCoaches());
       populateCategories();hideLoading();
@@ -296,12 +296,13 @@ button{cursor:pointer}
     if(src.includes('motor city hockey')||src.includes('rich mihelic'))return 'rich';
     if(src.includes('weiss'))return 'weiss';
     if(src.includes('turk'))return 'turk';
+    if(src.includes('coaches site'))return 'coaches';
     return '';
   }
 
   function filtered(){
     const cat=$('#category').value,coach=$('#coachSelect').value,q=$('#search').value.trim().toLowerCase();
-    return database.filter(d=>(!cat||d.category===cat)&&(!coach||coachSource(d)===coach)&&(!q||[d.number,d.title,d.teaser,d.category,d.description,d.source].join(' ').toLowerCase().includes(q))).sort((a,b)=>Number(a.number)-Number(b.number));
+    return database.filter(d=>(!cat||d.category===cat)&&(!coach||coachSource(d)===coach)&&(!q||[d.number,d.title,d.teaser,d.category,d.description,d.source,d.author,d.source_collection,(d.tags||[]).join(' ')].join(' ').toLowerCase().includes(q))).sort((a,b)=>Number(a.number)-Number(b.number));
   }
 
   function renderGrid(reset=true){
@@ -366,7 +367,7 @@ button{cursor:pointer}
     $('#viewerNum').textContent='Drill '+d.number+(d.kind==='system'?' · SYSTEM':'');
     $('#viewerTitle').textContent=d.title||'';$('#viewerCat').textContent=d.category||'';
     $('#viewerDesc').innerHTML=formatDescription(d);
-    $('#viewerSource').textContent=[d.source,d.source_page?'Page '+d.source_page:''].filter(Boolean).join(' · ');
+    $('#viewerSource').textContent=[d.source,d.author,d.source_collection,d.source_page?'Page '+d.source_page:''].filter(Boolean).join(' · ');
     const current=chosen(d.uid);
     $('#addDiagram').textContent=current&&!current.includeDescription?'✓ Diagram Selected':'Add Diagram Only';
     $('#addNotes').textContent=current&&current.includeDescription?'✓ Diagram + Instructions Selected':'Add Diagram + Instructions';
