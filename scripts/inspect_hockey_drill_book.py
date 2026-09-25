@@ -119,7 +119,10 @@ for pno in range(29,392): # zero-based physical PDF pages 30..392
             print("NO_DIAGRAM",physical,h["number"],h["title"])
             continue
         max_area=max(a for a,r in candidates)
-        large=[rr for a,rr in candidates if a>=max(5000,max_area*0.38)]
+        threshold=max_area*0.38
+        large=[rr for a,rr in candidates if a>=threshold]
+        if not large:
+            large=[max(candidates,key=lambda z:z[0])[1]]
         x0=min(rr.x0 for rr in large); ytop=min(rr.y0 for rr in large)
         x1=max(rr.x1 for rr in large); ybot=max(rr.y1 for rr in large)
         pad=12
