@@ -98,8 +98,11 @@ button{cursor:pointer}
   let coachesDatabase=null;
   let teamMeta=null;
   let teamByUid=new Map();
+  let coachesByUid=new Map();
   const teamImageChunks=new Map();
   const teamChunkPromises=new Map();
+  const coachesImageChunks=new Map();
+  const coachesChunkPromises=new Map();
   let selected=[];
   let visibleLimit=60;
   let activeLibrary='team';
@@ -154,7 +157,8 @@ button{cursor:pointer}
     if(!d)return placeholderImage;
     if(d.image)return d.image;
     if(d.imgChunk!=null){
-      const chunk=teamImageChunks.get(Number(d.imgChunk));
+      const store=d.library==='Coaches Site Drills'?coachesImageChunks:teamImageChunks;
+      const chunk=store.get(Number(d.imgChunk));
       if(chunk&&chunk[d.uid])return chunk[d.uid];
     }
     return placeholderImage;
@@ -197,9 +201,41 @@ button{cursor:pointer}
     return p;
   }
 
-  function primeVisibleTeamImages(rows){
-    if(activeLibrary!=='team')return;
-    [...new Set(rows.map(d=>d.imgChunk).filter(x=>x!=null))].forEach(i=>ensureTeamChunk(i).catch(err=>setStatus('A diagram group did not load. Scroll or refresh to retry.','err')));
+  async function ensureCoachesChunk(chunkIndex){
+    chunkIndex=Number(chunkIndex);
+    if(coachesImageChunks.has(chunkIndex))return coachesImageChunks.get(chunkIndex);
+    if(coachesChunkPromises.has(chunkIndex))return coachesChunkPromises.get(chunkIndex);
+    const p=(async()=>{
+      const url='data/coaches-site/images/chunk_'+String(chunkIndex).padStart(3,'0')+'.json?v=2';
+      const r=await fetch(url,{cache:'no-store'});
+      if(!r.ok)throw new Error('Coaches Site diagram chunk '+chunkIndex+' returned '+r.status);
+      const images=await r.json();
+      coachesImageChunks.set(chunkIndex,images);
+      Object.entries(images).forEach(([uid,img])=>{
+        const d=coachesByUid.get(uid);
+        if(d)d.image=img;
+        document.querySelectorAll('[data-img-uid="'+uid+'"]').forEach(el=>{el.src=img;});
+        if(viewerDrill&&viewerDrill.uid===uid)$('#viewerImg').src=img;
+      });
+      return images;
+    })().catch(err=>{coachesChunkPromises.delete(chunkIndex);console.error(err);throw err;});
+    coachesChunkPromises.set(chunkIndex,p);
+    return p;
+  }
+
+  function ensureDrillImage(d){
+    if(!d||d.image||d.imgChunk==null)return Promise.resolve();
+    if(d.library==='Coaches Site Drills')return ensureCoachesChunk(d.imgChunk);
+    if(d.library==='Team Drills')return ensureTeamChunk(d.imgChunk);
+    return Promise.resolve();
+  }
+
+  function primeVisibleImages(rows){
+    if(activeLibrary==='team'){
+      [...new Set(rows.map(d=>d.imgChunk).filter(x=>x!=null))].forEach(i=>ensureTeamChunk(i).catch(err=>setStatus('A Team Drill diagram group did not load. Scroll or refresh to retry.','err')));
+    }else if(activeLibrary==='coaches'){
+      [...new Set(rows.map(d=>d.imgChunk).filter(x=>x!=null))].forEach(i=>ensureCoachesChunk(i).catch(err=>setStatus('A Coaches Site diagram group did not load. Scroll or refresh to retry.','err')));
+    }
   }
 
   async function loadTravel(){
@@ -221,7 +257,7 @@ button{cursor:pointer}
   async function loadCoaches(){
     if(coachesDatabase)return coachesDatabase;
     showLoading('Loading Coaches Site Drills library…');
-    const r=await fetch('data/coaches-site/coaches-site-drills.json?v=1',{cache:'no-store'});
+    const r=await fetch('data/coaches-site/coaches-site-drills.json?v=2',{cache:'no-store'});
     if(!r.ok)throw new Error('Coaches Site Drill database returned '+r.status);
     const rows=await r.json();
     coachesDatabase=(Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({
@@ -231,13 +267,14 @@ button{cursor:pointer}
       title:d.title||'',
       category:d.category||'Other',
       source:d.source||'The Coaches Site',
-      image:d.image||''
+      image:''
     }));
+    coachesByUid=new Map(coachesDatabase.map(d=>[d.uid,d]));
     return coachesDatabase;
   }
 
   async function switchLibrary(lib){
-    activeLibrary=lib;visibleLimit=60;$('#search').value='';$('#quickNumber').value='';$('#coachSelect').value='';
+    activeLibrary=lib;visibleLimit=lib==='coaches'?36:60;$('#search').value='';$('#quickNumber').value='';$('#coachSelect').value='';
     $('#app').classList.toggle('team-mode',lib==='team'||lib==='coaches');
     $('#coachField').hidden=!(lib==='team'||lib==='coaches');
     try{
@@ -306,7 +343,7 @@ button{cursor:pointer}
   }
 
   function renderGrid(reset=true){
-    if(reset)visibleLimit=60;
+    if(reset)visibleLimit=activeLibrary==='coaches'?36:60;
     const all=filtered(),rows=all.slice(0,visibleLimit);
     if(!rows.length){
       $('#grid').innerHTML='<div style="grid-column:1/-1;padding:34px;text-align:center;color:#777;border:1px dashed #ccc;border-radius:14px">No drills match this selection.</div>';
@@ -324,9 +361,9 @@ button{cursor:pointer}
       e.stopPropagation();
       const d=database.find(x=>x.uid===b.dataset.add);
       if(chosen(d.uid)){removeSelected(d.uid);return;}
-      if(activeLibrary==='team'&&!d.image&&d.imgChunk!=null){
+      if(!d.image&&d.imgChunk!=null){
         setStatus('Loading Drill '+d.number+' diagram…','preview');
-        try{await ensureTeamChunk(d.imgChunk);}catch(err){setStatus('Could not load Drill '+d.number+' diagram.','err');return;}
+        try{await ensureDrillImage(d);}catch(err){setStatus('Could not load Drill '+d.number+' diagram.','err');return;}
       }
       addSelected(d,false);setStatus('Added Drill '+d.number+'.','ok');
     });
@@ -341,7 +378,7 @@ button{cursor:pointer}
     $('#showAllBtn').hidden=!hasMore;
     $('#moreBtn').textContent='Load More Drills ('+rows.length+' of '+all.length+')';
     $('#showAllBtn').textContent='Show All '+all.length+' Drills';
-    primeVisibleTeamImages(rows);
+    primeVisibleImages(rows);
   }
 
   function setZoom(v){
@@ -372,29 +409,29 @@ button{cursor:pointer}
     $('#addDiagram').textContent=current&&!current.includeDescription?'✓ Diagram Selected':'Add Diagram Only';
     $('#addNotes').textContent=current&&current.includeDescription?'✓ Diagram + Instructions Selected':'Add Diagram + Instructions';
     $('#viewer').classList.add('open');$('#viewer').setAttribute('aria-hidden','false');document.body.style.overflow='hidden';$('#viewer').scrollTop=0;
-    if(activeLibrary==='team'&&!d.image&&d.imgChunk!=null){
-      try{await ensureTeamChunk(d.imgChunk);}catch(err){if(viewerDrill&&viewerDrill.uid===d.uid)setStatus('Could not load Drill '+d.number+' diagram.','err');}
+    if(!d.image&&d.imgChunk!=null){
+      try{await ensureDrillImage(d);}catch(err){if(viewerDrill&&viewerDrill.uid===d.uid)setStatus('Could not load Drill '+d.number+' diagram.','err');}
     }
   }
   function closeViewer(){$('#viewer').classList.remove('open');$('#viewer').setAttribute('aria-hidden','true');viewerDrill=null;document.body.style.overflow='';}
 
   $('#viewerClose').onclick=closeViewer;$('#viewerDone').onclick=closeViewer;$('#viewer').onclick=e=>{if(e.target===$('#viewer'))closeViewer();};
   $('#zoomIn').onclick=()=>setZoom(zoom+25);$('#zoomOut').onclick=()=>setZoom(zoom-25);$('#zoomFit').onclick=()=>setZoom(100);
-  $('#addDiagram').onclick=async()=>{if(!viewerDrill)return;if(activeLibrary==='team'&&!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureTeamChunk(viewerDrill.imgChunk);addSelected(viewerDrill,false);openViewer(viewerDrill);};
-  $('#addNotes').onclick=async()=>{if(!viewerDrill)return;if(activeLibrary==='team'&&!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureTeamChunk(viewerDrill.imgChunk);addSelected(viewerDrill,true);openViewer(viewerDrill);};
+  $('#addDiagram').onclick=async()=>{if(!viewerDrill)return;if(!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureDrillImage(viewerDrill);addSelected(viewerDrill,false);openViewer(viewerDrill);};
+  $('#addNotes').onclick=async()=>{if(!viewerDrill)return;if(!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureDrillImage(viewerDrill);addSelected(viewerDrill,true);openViewer(viewerDrill);};
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeViewer();});
 
   $('#librarySelect').addEventListener('change',()=>switchLibrary($('#librarySelect').value));
   $('#category').addEventListener('change',()=>renderGrid(true));
   $('#coachSelect').addEventListener('change',()=>renderGrid(true));
   $('#search').addEventListener('input',()=>renderGrid(true));
-  $('#moreBtn').onclick=()=>{visibleLimit+=60;renderGrid(false);};
+  $('#moreBtn').onclick=()=>{visibleLimit+=activeLibrary==='coaches'?36:60;renderGrid(false);};
   $('#showAllBtn').onclick=()=>{visibleLimit=filtered().length;renderGrid(false);};
   let autoLoadLock=false;
   window.addEventListener('scroll',()=>{
     if(autoLoadLock||$('#moreBtn').hidden)return;
     if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-500){
-      autoLoadLock=true;visibleLimit+=60;renderGrid(false);setTimeout(()=>autoLoadLock=false,250);
+      autoLoadLock=true;visibleLimit+=activeLibrary==='coaches'?36:60;renderGrid(false);setTimeout(()=>autoLoadLock=false,250);
     }
   },{passive:true});
   $('#quickAdd').onclick=()=>{
