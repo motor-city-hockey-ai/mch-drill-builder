@@ -1,0 +1,61 @@
+name: Browser Test Original TCS Diagrams
+on:
+  push:
+    branches: [render-original-tcs-diagrams]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          which google-chrome || true
+          which chromedriver || true
+          pip install selenium
+      - run: |
+          python -m http.server 8000 >/tmp/server.log 2>&1 &
+          sleep 2
+          python - <<'PY'
+          import time, statistics
+          from selenium import webdriver
+          from selenium.webdriver.chrome.options import Options
+          from selenium.webdriver.common.by import By
+          o=Options()
+          o.add_argument("--headless=new")
+          o.add_argument("--no-sandbox")
+          o.add_argument("--disable-dev-shm-usage")
+          o.add_argument("--window-size=1600,1200")
+          d=webdriver.Chrome(options=o)
+          d.get("http://127.0.0.1:8000/coaches.html")
+          deadline=time.time()+60
+          while time.time()<deadline:
+              vals=d.execute_script("""
+                return [...document.querySelectorAll('.diagram-wrap canvas')].slice(0,4).map(c=>({w:c.width,h:c.height,label:c.parentElement.querySelector('.loading-label').className}));
+              """)
+              if len(vals)>=4 and all(v['w']>100 and v['h']>80 and 'done' in v['label'] for v in vals):
+                  break
+              time.sleep(1)
+          vals=d.execute_script("""
+            return [...document.querySelectorAll('.diagram-wrap canvas')].slice(0,4).map(c=>{
+              const ctx=c.getContext('2d'); const im=ctx.getImageData(0,0,c.width,c.height).data;
+              let dark=0, red=0, blue=0, sampled=0;
+              for(let i=0;i<im.length;i+=160){
+                const r=im[i],g=im[i+1],b=im[i+2]; sampled++;
+                if(r<225||g<225||b<225) dark++;
+                if(r>140&&g<130&&b<130) red++;
+                if(b>120&&r<170) blue++;
+              }
+              return {w:c.width,h:c.height,darkRatio:dark/sampled,redRatio:red/sampled,blueRatio:blue/sampled};
+            });
+          """)
+          print("CANVASES",vals)
+          assert len(vals)>=4
+          assert all(v['w']>100 and v['h']>80 for v in vals)
+          assert all(v['darkRatio']>0.02 for v in vals), vals
+          d.save_screenshot("/tmp/tcs-diagrams.png")
+          d.quit()
+          PY
