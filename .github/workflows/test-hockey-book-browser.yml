@@ -1,0 +1,59 @@
+name: Browser Test Hockey Drill Book
+on:
+  push:
+    branches: [hockey-drill-book-library]
+    paths:
+      - .github/workflows/test-hockey-book-browser.yml
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install selenium
+      - run: |
+          python -m http.server 8000 >/tmp/server.log 2>&1 &
+          sleep 2
+          python - <<'PY'
+          import time
+          from selenium import webdriver
+          from selenium.webdriver.chrome.options import Options
+          from selenium.webdriver.common.by import By
+          from selenium.webdriver.support.ui import Select
+          o=Options()
+          o.add_argument("--headless=new");o.add_argument("--no-sandbox");o.add_argument("--disable-dev-shm-usage");o.add_argument("--window-size=1600,1200")
+          d=webdriver.Chrome(options=o)
+          d.get("http://127.0.0.1:8000/coaches.html?source=book&v=test")
+          deadline=time.time()+75
+          ready=False
+          while time.time()<deadline:
+              status=d.find_element(By.ID,"status").text
+              cards=d.find_elements(By.CSS_SELECTOR,".card")
+              vals=d.execute_script("""return [...document.querySelectorAll('.diagram-wrap canvas')].slice(0,4).map(c=>({w:c.width,h:c.height,label:c.parentElement.querySelector('.loading-label').className}));""")
+              if "446" in status and len(cards)>=30 and len(vals)>=4 and all(v["w"]>100 and v["h"]>60 and "done" in v["label"] for v in vals):
+                  ready=True;break
+              time.sleep(1)
+          print("STATUS",d.find_element(By.ID,"status").text)
+          print("CARDS",len(d.find_elements(By.CSS_SELECTOR,".card")))
+          print("FIRST",d.find_element(By.CSS_SELECTOR,".card .num").text,d.find_element(By.CSS_SELECTOR,".card .drill-title").text)
+          vals=d.execute_script("""
+            return [...document.querySelectorAll('.diagram-wrap canvas')].slice(0,4).map(c=>{
+              const x=c.getContext('2d'), im=x.getImageData(0,0,c.width,c.height).data;
+              let dark=0,n=0;
+              for(let i=0;i<im.length;i+=160){if(im[i]<230||im[i+1]<230||im[i+2]<230)dark++;n++}
+              return {w:c.width,h:c.height,dark:dark/n};
+            });
+          """)
+          print("CANVASES",vals)
+          print("SOURCE",Select(d.find_element(By.ID,"sourceFilter")).first_selected_option.text)
+          print("CATEGORY_COUNT",len(Select(d.find_element(By.ID,"category")).options))
+          assert ready
+          assert d.find_element(By.CSS_SELECTOR,".card .num").text.startswith("Hockey Drill Book #1")
+          assert all(v["dark"]>0.01 for v in vals),vals
+          assert Select(d.find_element(By.ID,"sourceFilter")).first_selected_option.get_attribute("value")=="book"
+          d.quit()
+          PY
