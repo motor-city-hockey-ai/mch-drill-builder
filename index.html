@@ -166,7 +166,7 @@ button{cursor:pointer}
   async function loadTeam(){
     if(teamDatabase)return teamDatabase;
     showLoading('Loading Team Drill library…');
-    const r=await fetch('data/team-fast-revised/team-meta.json?v=10',{cache:'no-store'});
+    const r=await fetch('data/team-fast-revised/team-meta.json?v=11',{cache:'no-store'});
     if(!r.ok)throw new Error('Team Drill metadata returned '+r.status);
     teamMeta=await r.json();
     teamDatabase=(teamMeta.items||[]).filter(d=>d&&d.number!=null).map(d=>({...d,library:'Team Drills',image:''}));
@@ -179,7 +179,7 @@ button{cursor:pointer}
     if(teamImageChunks.has(chunkIndex))return teamImageChunks.get(chunkIndex);
     if(teamChunkPromises.has(chunkIndex))return teamChunkPromises.get(chunkIndex);
     const p=(async()=>{
-      const url='data/team-fast-revised/images/chunk_'+String(chunkIndex).padStart(3,'0')+'.json?v=10';
+      const url='data/team-fast-revised/images/chunk_'+String(chunkIndex).padStart(3,'0')+'.json?v=11';
       const r=await fetch(url,{cache:'no-store'});
       if(!r.ok)throw new Error('Diagram chunk '+chunkIndex+' returned '+r.status);
       const images=await r.json();
