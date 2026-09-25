@@ -429,7 +429,7 @@ button{cursor:pointer}
   $('#addNotes').onclick=async()=>{if(!viewerDrill)return;if(!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureDrillImage(viewerDrill);addSelected(viewerDrill,true);openViewer(viewerDrill);};
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeViewer();});
 
-  $('#librarySelect').addEventListener('change',()=>{const lib=$('#librarySelect').value;if(lib==='coaches'){location.href='coaches.html?source=coaches&v=14';return;}if(lib==='book'){location.href='coaches.html?source=book&v=14';return;}switchLibrary(lib);});
+  $('#librarySelect').addEventListener('change',()=>{const lib=$('#librarySelect').value;if(lib==='coaches'){location.href='coaches.html?source=coaches&v=15';return;}if(lib==='book'){location.href='coaches.html?source=book&v=15';return;}switchLibrary(lib);});
   $('#category').addEventListener('change',()=>renderGrid(true));
   $('#coachSelect').addEventListener('change',()=>renderGrid(true));
   $('#search').addEventListener('input',()=>renderGrid(true));
