@@ -1,0 +1,16 @@
+name: Map Coaches Site Source Pages
+on:
+  push:
+    branches: [coaches-original-source-pages]
+permissions:
+  contents: read
+jobs:
+  map:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pymupdf requests
+      - run: python scripts/map_tcs_pages.py
