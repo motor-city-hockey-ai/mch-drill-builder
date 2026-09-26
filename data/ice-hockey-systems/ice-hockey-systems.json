@@ -5631,5 +5631,629 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-100561",
+    "number": 177,
+    "title": "2 vs 1 Rebound Battle Drill",
+    "category": "Goalie / Rebound Battle / 2 on 1",
+    "drill_types": [
+      "2 on 1",
+      "Battle Drills",
+      "Goalie",
+      "Half Ice",
+      "Small Area Games",
+      "Stations",
+      "Rebound Control"
+    ],
+    "description": "The goalie plays an initial puck into a corner, sending two players into a loose-puck battle. The winner moves the puck back to the point and the play immediately becomes a live 2-on-1 to the net.",
+    "coaching_points": [
+      "Battle through body position rather than reaching.",
+      "Winner protects the puck, gets the head up and finds the point.",
+      "Point player moves to become a clear outlet.",
+      "Defender protects middle ice and forces a lower-quality shot.",
+      "Goalie tracks the battle, point pass and immediate 2-on-1."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-1-rebound-battle-drill",
+    "source_id": "100561",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-100561-0-1744835033.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-100561-0-1744835033.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-bumper-shooting",
+    "number": 178,
+    "title": "Bumper Shooting",
+    "category": "Goalie / Reaction / Rebounds",
+    "drill_types": [
+      "Goalie",
+      "Shooting",
+      "Rebound Control",
+      "Reaction",
+      "Half Ice"
+    ],
+    "description": "A coach shoots through or over two tires placed in front of the goalie. Two rebound players wait beside the tires to attack loose pucks, forcing the goalie to react quickly and square up to the second shot.",
+    "coaching_points": [
+      "Track the first release through traffic.",
+      "React immediately to rebounds off the tires.",
+      "Square the body to the rebound shooter before the second save.",
+      "With developing goalies, require the rebounder to take one stickhandle before shooting."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bumper-shooting",
+    "source_id": "bumper-shooting",
+    "image": "https://www.files.icehockeysystems.com/files/drills/bumper-rebounds.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/bumper-rebounds.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-wild-half-ice-shooting",
+    "number": 179,
+    "title": "Wild Half Ice Shooting Drill",
+    "category": "Shooting / Net Front / Defense Activation",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Offensive Zone",
+      "Goalie",
+      "Warm Up",
+      "Defensemen",
+      "Net Front"
+    ],
+    "description": "A forward works through three pucks: first a rush shot, then a pass to the point followed by a screen or tip, and finally a high-roll exchange with the defenseman that produces a high-slot chance.",
+    "coaching_points": [
+      "Forward follows the first shot for a rebound.",
+      "Point player walks inside the dots before releasing the shot.",
+      "Net-front player screens, tips and hunts rebounds.",
+      "On the third puck, time the high roll so both players finish at the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wild-half-ice-shooting-drill",
+    "source_id": "wild-half-ice-shooting",
+    "image": "https://www.files.icehockeysystems.com/files/drills/wild-half-ice-shooting-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/wild-half-ice-shooting-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-respect-2-on-0",
+    "number": 180,
+    "title": "Respect 2 on 0 Goalie Drill",
+    "category": "Goalie / 2 on 0 / Read Shot or Pass",
+    "drill_types": [
+      "Shooting",
+      "2 on 0",
+      "Half Ice",
+      "Goalie",
+      "Passing",
+      "Reaction"
+    ],
+    "description": "Two attackers cross around staggered pylons after an opening pass and use a forehand drop. The puck carrier then attacks with the option to shoot or pass to the teammate driving the net, forcing the goalie to respect both threats.",
+    "coaching_points": [
+      "Puck carrier disguises the pass by maintaining a shooting posture.",
+      "Net driver stays available as a backdoor option.",
+      "Goalie remains patient and square to the puck.",
+      "Do not cheat toward the pass before the puck carrier commits."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/respect-2-0-goalie-drill",
+    "source_id": "respect-2-on-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/respect-2-on-0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/respect-2-on-0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-10349376",
+    "number": 181,
+    "title": "Post to Post Attack",
+    "category": "Goalie / Post-to-Post / Set Position",
+    "drill_types": [
+      "Goalie",
+      "Post Play",
+      "Skating",
+      "T-Push",
+      "Shuffle",
+      "Tracking"
+    ],
+    "description": "The goalie starts set on one post, shuffles across the goal line to the opposite post, then moves to the top of the crease with a shuffle or T-push and gets set for a coach's shot.",
+    "coaching_points": [
+      "Stay balanced during the post-to-post transfer.",
+      "Use controlled feet rather than reaching.",
+      "Arrive square at the top of the crease.",
+      "Be fully set before the shot is released."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "UK Ice Hockey Foundation",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/post-post-attack-1",
+    "source_id": "10349376",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10349376-0-1776957904.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10349376-0-1776957904.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-10349331",
+    "number": 182,
+    "title": "Coaches Screen Battle",
+    "category": "Goalie / Screens / Visual Attachment",
+    "drill_types": [
+      "Goalie",
+      "Screens",
+      "Tracking",
+      "Reaction",
+      "Balance"
+    ],
+    "description": "A coach stands in the goalie's sightline and applies light disruption. When the screen clears, the goalie must recover balance, find the puck and get square and set before the shot.",
+    "coaching_points": [
+      "Stay calm while vision is obstructed.",
+      "Recover the feet under control when the screen clears.",
+      "Track first instead of guessing.",
+      "Arrive square and set before reacting to the shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "UK Ice Hockey Foundation",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/coaches-screen-battle-1",
+    "source_id": "10349331",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10349331-0-1776956175.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10349331-0-1776956175.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-net-play-goalie-1-on-0",
+    "number": 183,
+    "title": "Net Play Goalie Drill - 1 on 0",
+    "category": "Goalie / Puck Handling / Recovery",
+    "drill_types": [
+      "Goalie",
+      "Shooting",
+      "Puck Handling",
+      "Passing",
+      "Breakout",
+      "1 on 0"
+    ],
+    "description": "A forward rims the puck behind the net. The goalie leaves the crease, controls it and makes an outlet pass to that same forward, then must recover to the crease before the forward loops around a cone and attacks 1-on-0.",
+    "coaching_points": [
+      "Goalie controls the rim before passing.",
+      "Make a hard, accurate outlet pass.",
+      "Recover orientation and crease position immediately after releasing the puck.",
+      "Forward attacks quickly enough to challenge the goalie's recovery."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/net-play-goalie-drill-1-0",
+    "source_id": "net-play-goalie-1-on-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/net-play-goalie-drill-1-on-0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/net-play-goalie-drill-1-on-0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-3-level-2-on-0",
+    "number": 184,
+    "title": "3 Level 2 on 0",
+    "category": "Goalie / 2 on 0 / Half-Ice Warm Up",
+    "drill_types": [
+      "Half Ice",
+      "Goalie",
+      "2 on 0",
+      "Offensive",
+      "Shooting",
+      "Passing",
+      "Warm Up"
+    ],
+    "description": "Pairs leave from both corners and use three different cone depths to create 2-on-0 attacks. The puck carrier can pass to the partner or occasionally shoot to keep the goalie from overplaying the pass.",
+    "coaching_points": [
+      "Pairs keep proper spacing around each cone.",
+      "Read the goalie instead of forcing the pass.",
+      "At the deepest level, use more than one pass when possible.",
+      "Goalie stays patient and respects both shot and pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-level-2-0",
+    "source_id": "3-level-2-on-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/3-level-2v0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/3-level-2v0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-goal-line-options",
+    "number": 185,
+    "title": "Goal Line Options 1 vs. 0 & 2 vs. 0",
+    "category": "Goalie / Goal-Line Reads / Post Play",
+    "drill_types": [
+      "Half Ice",
+      "Goalie",
+      "Agility",
+      "1 on 0",
+      "2 on 0",
+      "Post Play",
+      "Passing"
+    ],
+    "description": "An attacker receives a pass and loops around a low cone with several options: attack in front, fake and stuff the puck from behind the net, or feed a return pass out front. A second attacker can be added to create a cross-crease option.",
+    "coaching_points": [
+      "Goalie holds the post and angle without cheating.",
+      "Track whether the attacker stays in front or goes behind the net.",
+      "Recover quickly to passes back into the slot.",
+      "With the second attacker, respect the cross-crease threat."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goal-line-options-1-vs-0-2-vs-0",
+    "source_id": "goal-line-options",
+    "image": "https://www.files.icehockeysystems.com/files/drills/goal-line-stand-1_0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/goal-line-stand-1_0.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/goal-line-options-2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-two-original-images"
+  },
+  {
+    "uid": "ihs-goalie-gauntlet",
+    "number": 186,
+    "title": "The Goalie Gauntlet",
+    "category": "Goalie / Lateral Tracking / Rapid Passing",
+    "drill_types": [
+      "Passing",
+      "Half Ice",
+      "Goalie",
+      "Tracking",
+      "Reaction",
+      "One-Touch"
+    ],
+    "description": "Several attackers move the puck quickly around the zone, ideally with one-touch passes. Any player may shoot at any time, forcing the goalie to track laterally and stay ready rather than anticipating a fixed final shooter.",
+    "coaching_points": [
+      "Goalie tracks the puck instead of guessing the end point.",
+      "Move laterally with control and stay square.",
+      "Attackers keep passes quick and unpredictable.",
+      "Any open shooter can release immediately."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-gauntlet",
+    "source_id": "goalie-gauntlet",
+    "image": "https://www.files.icehockeysystems.com/files/drills/goalie-gauntlet.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/goalie-gauntlet.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-shot-shot-stuff",
+    "number": 187,
+    "title": "Shot Shot Stuff",
+    "category": "Goalie / Angles / Side-to-Side",
+    "drill_types": [
+      "Passing",
+      "Half Ice",
+      "Goalie",
+      "Shooting",
+      "Angles",
+      "Conditioning"
+    ],
+    "description": "Attackers work from several locations around the net, creating consecutive shots and a low stuff option. The goalie repeatedly adjusts angle and depth, then recovers across the crease for the next threat.",
+    "coaching_points": [
+      "Goalie gets square before each release.",
+      "Recover through the middle rather than lunging.",
+      "Shooters hit the net and can progress to one-timers.",
+      "Keep work intervals short enough to preserve technique."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shot-shot-stuff",
+    "source_id": "shot-shot-stuff",
+    "image": "https://www.files.icehockeysystems.com/files/drills/shot-shot-stuff.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/shot-shot-stuff.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-square-passing",
+    "number": 188,
+    "title": "Square Passing",
+    "category": "Goalie / Passing Read / Footwork",
+    "drill_types": [
+      "Passing",
+      "Half Ice",
+      "Goalie",
+      "Tracking",
+      "Footwork",
+      "Reaction"
+    ],
+    "description": "Four attackers surround the goalie and may pass as much as they want before any player chooses to shoot or attack from behind the net. The goalie must stay connected to the puck and be ready for a shot at any moment.",
+    "coaching_points": [
+      "Goalie stays square and moves with every pass.",
+      "Use the stick to take away passing lanes when possible.",
+      "Do not overcommit before the shooter reveals the play.",
+      "Attackers keep the puck moving to challenge the goalie's feet."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/square-passing",
+    "source_id": "square-passing",
+    "image": "https://www.files.icehockeysystems.com/files/drills/square-passing.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/square-passing.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-side-to-side-quickies",
+    "number": 189,
+    "title": "Side to Side Quickies",
+    "category": "Goalie / Rebound Recovery / Quickness",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Goalie",
+      "Rebound Control",
+      "Recovery",
+      "Quickness"
+    ],
+    "description": "The first shooter targets the far lower corner to create a controlled rebound. After the save, the goalie must recover hard to the far post for a second shot from a player stationed near that post.",
+    "coaching_points": [
+      "First save directs the rebound away from the middle.",
+      "Recover to the far post immediately after the save.",
+      "Second shooter waits until the goalie has a realistic chance to set.",
+      "Switch sides each repetition and use short sets."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/side-side-quickies",
+    "source_id": "side-to-side-quickies",
+    "image": "https://www.files.icehockeysystems.com/files/drills/side-to-side-quickies.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/side-to-side-quickies.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-double-attack-corner",
+    "number": 190,
+    "title": "Double Attack from Corner",
+    "category": "Goalie / Goal-Line Attack / One-Timer",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Goalie",
+      "Passing",
+      "One-Timer",
+      "Post Play"
+    ],
+    "description": "The goalie starts facing a coach in the slot while two attackers work from opposite corners near the goal line. The coach starts the play to either side, and the attackers can use a one-time cross-crease pass, a short-side attack or an extra pass to move the goalie.",
+    "coaching_points": [
+      "Goalie tracks the initial pass and gets set quickly.",
+      "Respect both short-side and cross-crease threats.",
+      "Attackers keep the puck near the goal line until the play develops.",
+      "Limit reps so the goalie stays sharp."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/double-attack-corner",
+    "source_id": "double-attack-corner",
+    "image": "https://www.files.icehockeysystems.com/files/drills/double-attack-from-corner.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/double-attack-from-corner.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-corner-to-slot-shot",
+    "number": 191,
+    "title": "Corner To Slot Shot",
+    "category": "Goalie / Shot-or-Pass Read",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Goalie",
+      "Passing",
+      "Tracking",
+      "Recovery"
+    ],
+    "description": "A coach or player in the corner feeds one of two forwards in the slot. The receiving forward may shoot or make one pass to the other forward, forcing the goalie to set quickly and read whether the play stays on the puck or moves laterally.",
+    "coaching_points": [
+      "Goalie sets before each repetition begins.",
+      "Track the first pass into the slot.",
+      "Do not cheat toward the second forward.",
+      "Recover immediately after each shot before the next puck is released."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-slot-shot",
+    "source_id": "corner-to-slot-shot",
+    "image": "https://www.files.icehockeysystems.com/files/drills/corner-to-slot-shot.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/corner-to-slot-shot.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-bandits-goalie",
+    "number": 192,
+    "title": "Bandits Goalie Drill",
+    "category": "Goalie / Recovery / Multi-Shot",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Goalie",
+      "Recovery",
+      "Post Play",
+      "Reaction"
+    ],
+    "description": "The goalie starts by dropping as if making a save, recovers to the feet for two slot shots, then handles a shot from beside the net before reading a final attack from behind the net that can come to either post.",
+    "coaching_points": [
+      "Recover to the feet quickly after the opening drop.",
+      "Get set for each of the two slot shots.",
+      "Reset angle for the side shot.",
+      "On the final puck, track behind the net and seal the correct post."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bandits-goalie-drill",
+    "source_id": "bandits-goalie",
+    "image": "https://www.files.icehockeysystems.com/files/drills/bandits-goalie-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/bandits-goalie-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-clear-conditioning",
+    "number": 193,
+    "title": "Clear Conditioning",
+    "category": "Goalie / Puck Handling / Conditioning",
+    "drill_types": [
+      "Half Ice",
+      "Conditioning",
+      "Goalie",
+      "Puck Handling",
+      "Passing"
+    ],
+    "description": "The goalie repeatedly leaves the crease to reach loose pucks and clear them to a designated target up ice. The drill builds conditioning while reinforcing decisive puck handling under time pressure.",
+    "coaching_points": [
+      "Explode out of the crease without hesitation.",
+      "Arrive under control before playing the puck.",
+      "Use a clear target such as the red line or far blue line.",
+      "Prioritize a hard, accurate clear over simply moving the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/clear-conditioning",
+    "source_id": "clear-conditioning",
+    "image": "https://www.files.icehockeysystems.com/files/drills/clear-conditioning.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/clear-conditioning.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-goal-line-stand",
+    "number": 194,
+    "title": "Goal Line Stand",
+    "category": "Goalie / Behind-Net Read / Post Play",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Goalie",
+      "Post Play",
+      "Passing",
+      "Tracking"
+    ],
+    "description": "The puck starts behind the net and is passed to either attacker stationed along the goal line. The receiver can attack the net directly or use the opposite-side forward as a cross-crease option.",
+    "coaching_points": [
+      "Goalie reads the play as it develops from behind the net.",
+      "Stay connected to the near post until the puck moves.",
+      "Respect both the direct attack and the cross-crease pass.",
+      "Track the puck through the entire goal-line sequence."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goal-line-stand",
+    "source_id": "goal-line-stand",
+    "image": "https://www.files.icehockeysystems.com/files/drills/goal-line-stand-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/goal-line-stand-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-7-man-rebound",
+    "number": 195,
+    "title": "7 Man Rebound Drill",
+    "category": "Goalie / Rebound Control / Battle",
+    "drill_types": [
+      "Shooting",
+      "Goalie",
+      "Small Area Games",
+      "Rebound Control",
+      "Battle Drills"
+    ],
+    "description": "A designated shooter intentionally targets the goalie's pads to create a rebound while surrounding players race to the loose puck. The first player to reach the rebound gets the scoring attempt.",
+    "coaching_points": [
+      "Shooter creates a playable rebound instead of shooting to score.",
+      "Goalie controls rebound direction whenever possible.",
+      "Players compete through the loose puck.",
+      "Rotate positions after a short set so the goalie stays fresh."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/7-man-rebound-drill",
+    "source_id": "7-man-rebound",
+    "image": "https://www.files.icehockeysystems.com/files/drills/7-man-rebound-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/7-man-rebound-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-rapid-fire",
+    "number": 196,
+    "title": "Rapid Fire",
+    "category": "Goalie / Rapid Passing / Quick Shots",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Goalie",
+      "Passing",
+      "Warm Up",
+      "Reaction"
+    ],
+    "description": "Players surround the zone and move the puck rapidly from player to player, with the restriction that the receiver cannot simply return it to the adjacent option. Any open player can shoot, forcing the goalie to track constant puck movement.",
+    "coaching_points": [
+      "Keep passes and releases quick.",
+      "Goalie moves with every pass and stays square.",
+      "Any shooter can attack when the lane opens.",
+      "Use short rep blocks and rotate the initiating passer or goalie."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/rapid-fire",
+    "source_id": "rapid-fire",
+    "image": "https://www.files.icehockeysystems.com/files/drills/rapid-fire.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/rapid-fire.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
   }
 ]
