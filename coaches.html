@@ -24,8 +24,10 @@
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script>
-if(new URLSearchParams(location.search).get('source')==='coaches'){
-  location.replace('index.html?library=coaches&v=18');
+{
+  const source=new URLSearchParams(location.search).get('source');
+  if(source==='coaches') location.replace('index.html?library=coaches&v=19');
+  else if(source==='book') location.replace('index.html?library=book&v=19');
 }
 </script>\n</head>
 <body>
