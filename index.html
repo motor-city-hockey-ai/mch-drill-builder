@@ -64,8 +64,8 @@ button{cursor:pointer}
     </div>
     <div class="status" id="status">Loading Team Drills…</div>
     <div class="grid" id="grid" hidden></div>
-    <div id="loading" class="loading"><div><div class="spinner"></div><b id="loadingText">Loading Motor City Hockey drills…</b></div></div>
     <div class="more"><button class="btn light" id="moreBtn" hidden>Load More Drills</button><button class="btn dark" id="showAllBtn" hidden>Show All Drills</button></div>
+    <div id="loading" class="loading" hidden><div><div class="spinner"></div><b id="loadingText">Loading Motor City Hockey drills…</b></div></div>
   </main>
   <footer class="footer"><div>Motor City Hockey - internal coaching resource builder</div><div>Selected drills only are included in exports.</div></footer>
 </div>
@@ -168,7 +168,11 @@ button{cursor:pointer}
 
   function imageFor(d){
     if(!d)return placeholderImage;
-    if(d.library==='Coaches Site Drills')return d.image||coachesFallbackImage(d);
+    if(d.library==='Coaches Site Drills'){
+      if(d.image)return d.image;
+      if(d.imgChunk!=null){const chunk=coachesImageChunks.get(Number(d.imgChunk));if(chunk&&chunk[d.uid])return chunk[d.uid];}
+      return placeholderImage;
+    }
     if(d.image)return d.image;
     if(d.imgChunk!=null){
       const chunk=teamImageChunks.get(Number(d.imgChunk));
@@ -178,7 +182,7 @@ button{cursor:pointer}
   }
 
   function setStatus(msg,type=''){const el=$('#status');el.textContent=msg;el.className='status '+type;}
-  function showLoading(text){$('#loadingText').textContent=text;$('#loading').hidden=false;$('#grid').hidden=true;}
+  function showLoading(text){$('#loadingText').textContent=text;$('#loading').hidden=false;$('#grid').hidden=false;}
   function hideLoading(){$('#loading').hidden=true;$('#grid').hidden=false;}
 
   async function loadTeam(){
@@ -237,14 +241,17 @@ button{cursor:pointer}
   }
 
   function ensureDrillImage(d){
-    if(!d||d.library==='Coaches Site Drills'||d.image||d.imgChunk==null)return Promise.resolve();
+    if(!d||d.image||d.imgChunk==null)return Promise.resolve();
     if(d.library==='Team Drills')return ensureTeamChunk(d.imgChunk);
+    if(d.library==='Coaches Site Drills')return ensureCoachesChunk(d.imgChunk);
     return Promise.resolve();
   }
 
   function primeVisibleImages(rows){
     if(activeLibrary==='team'){
       [...new Set(rows.map(d=>d.imgChunk).filter(x=>x!=null))].forEach(i=>ensureTeamChunk(i).catch(err=>setStatus('A Team Drill diagram group did not load. Scroll or refresh to retry.','err')));
+    }else if(activeLibrary==='coaches'){
+      [...new Set(rows.map(d=>d.imgChunk).filter(x=>x!=null))].forEach(i=>ensureCoachesChunk(i).catch(err=>setStatus('A Coaches Site diagram group did not load. Scroll or refresh to retry.','err')));
     }
   }
 
@@ -267,9 +274,9 @@ button{cursor:pointer}
   async function loadCoaches(){
     if(coachesDatabase)return coachesDatabase;
     showLoading('Loading Coaches Site Drills library…');
-    const seed=document.getElementById('coachesSeedData');
-    if(!seed)throw new Error('Embedded Coaches Site database was not found.');
-    const rows=JSON.parse(seed.textContent||'[]');
+    const r=await fetch('data/coaches-site/coaches-site-drills.json?v=18',{cache:'no-store'});
+    if(!r.ok)throw new Error('Coaches Site metadata returned '+r.status);
+    const rows=await r.json();
     coachesDatabase=(Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({
       ...d,
       library:'Coaches Site Drills',
@@ -277,8 +284,7 @@ button{cursor:pointer}
       title:d.title||'',
       category:d.category||'Other',
       source:d.source||'The Coaches Site',
-      image:'',
-      imgChunk:null
+      image:d.image||''
     }));
     coachesByUid=new Map(coachesDatabase.map(d=>[d.uid,d]));
     return coachesDatabase;
@@ -432,7 +438,7 @@ button{cursor:pointer}
   $('#addNotes').onclick=async()=>{if(!viewerDrill)return;if(!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureDrillImage(viewerDrill);addSelected(viewerDrill,true);openViewer(viewerDrill);};
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeViewer();});
 
-  $('#librarySelect').addEventListener('change',()=>{const lib=$('#librarySelect').value;if(lib==='coaches'){location.href='coaches.html?source=coaches&v=16';return;}if(lib==='book'){location.href='coaches.html?source=book&v=16';return;}switchLibrary(lib);});
+  $('#librarySelect').addEventListener('change',()=>{const lib=$('#librarySelect').value;if(lib==='book'){location.href='coaches.html?source=book&v=18';return;}switchLibrary(lib);});
   $('#category').addEventListener('change',()=>renderGrid(true));
   $('#coachSelect').addEventListener('change',()=>renderGrid(true));
   $('#search').addEventListener('input',()=>renderGrid(true));
@@ -465,7 +471,7 @@ button{cursor:pointer}
   };
 
   const requestedLibrary=new URLSearchParams(location.search).get('library');
-  const initialLibrary=requestedLibrary==='travel'?'travel':'team';
+  const initialLibrary=requestedLibrary==='travel'?'travel':(requestedLibrary==='coaches'?'coaches':'team');
   $('#librarySelect').value=initialLibrary;
   restoreSelected();switchLibrary(initialLibrary);
 })();
