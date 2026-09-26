@@ -2316,5 +2316,637 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "passing/shooting category discovery"
+  },
+  {
+    "discovery_number": 185,
+    "title": "NEHDA Continuous Retrieval Outlet",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/nehda-continuous-retrieval-outlet",
+    "categories": [
+      "Retrievals",
+      "Passing",
+      "Shooting",
+      "Defensemen",
+      "Half Ice",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 186,
+    "title": "Evasive Passing Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/evasive-passing-drill",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "One-Timer",
+      "Deception",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 187,
+    "title": "Shooting Off The Pass - O-Zone",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shooting-pass-o-zone",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "One-Timer",
+      "Offensive Zone",
+      "Give-and-Go"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 188,
+    "title": "One Timers with Rebound",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/one-timers-rebound",
+    "categories": [
+      "Goalie",
+      "Shooting",
+      "One-Timer",
+      "Rebound Control",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 189,
+    "title": "Figure Eight Shots",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/figure-eight-shots",
+    "categories": [
+      "Skating",
+      "Shooting",
+      "Half Ice",
+      "Puck Control",
+      "Overspeed"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 190,
+    "title": "Shoot the Cones",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shoot-cones",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Defensemen",
+      "Point Shot"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 191,
+    "title": "1 on 0 Snake Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-0-snake-drill",
+    "categories": [
+      "Half Ice",
+      "Shooting",
+      "Skating",
+      "Puck Control",
+      "Stickhandling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 192,
+    "title": "Outside to Inside Hockey Attack",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/outside-inside-hockey-attack",
+    "categories": [
+      "Full Ice",
+      "Shooting",
+      "Offensive",
+      "One Goalie",
+      "Tryout",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 193,
+    "title": "Quick 2 Pass Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-2-pass-drill",
+    "categories": [
+      "Passing",
+      "Power Play",
+      "Shooting",
+      "Offensive Zone",
+      "One-Touch"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 194,
+    "title": "Center Flow Breakout Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/center-flow-breakout-drill",
+    "categories": [
+      "Breakouts",
+      "Passing",
+      "Full Ice",
+      "Transition",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 195,
+    "title": "Heads Up Breakout Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/heads-breakout-drill",
+    "categories": [
+      "Breakouts",
+      "Passing",
+      "2 on 1",
+      "Defensive Zone",
+      "Decision Making"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 196,
+    "title": "Rubber Neck Goalie Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/rubber-neck-goalie-drill",
+    "categories": [
+      "Goalie",
+      "Tracking",
+      "Reaction",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 197,
+    "title": "Tire Swing Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tire-swing-drill",
+    "categories": [
+      "Skating",
+      "Puck Control",
+      "Passing",
+      "2 on 0",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 198,
+    "title": "The Wheel - Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wheel-shooting-drill",
+    "categories": [
+      "Shooting",
+      "One-Timer",
+      "Half Ice",
+      "Goalie",
+      "Conditioning"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 199,
+    "title": "Roll Call Goalie Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/roll-call-goalie-drill",
+    "categories": [
+      "Goalie",
+      "Tracking",
+      "Reaction",
+      "Net Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 200,
+    "title": "Backcheck Flow Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/backcheck-flow-drill",
+    "categories": [
+      "Backchecking",
+      "Conditioning",
+      "Full Ice",
+      "Shooting",
+      "Flow"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 201,
+    "title": "3 Level Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-level-shooting-drill",
+    "categories": [
+      "Shooting",
+      "Half Ice",
+      "Warm Up",
+      "Goalie",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 202,
+    "title": "5 vs. 2 Defensive Zone Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-vs-2-defensive-zone-drill",
+    "categories": [
+      "Defensive Zone",
+      "Coverage",
+      "5 vs 2",
+      "Passing",
+      "Wingers"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 203,
+    "title": "Defense Yo Yo Footwork Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defense-yo-yo-footwork-drill",
+    "categories": [
+      "Defensemen",
+      "Skating",
+      "Retrievals",
+      "Passing",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 204,
+    "title": "Breakout Communication Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakout-communication-drill",
+    "categories": [
+      "Breakouts",
+      "Passing",
+      "Communication",
+      "Defensive Zone",
+      "Forecheck"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 205,
+    "title": "Brick Wall Goalie Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/brick-wall-goalie-drill",
+    "categories": [
+      "Goalie",
+      "Shooting",
+      "Half Ice",
+      "Angles",
+      "Rebound Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 206,
+    "title": "Young Snake Skating Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/young-snake-skating-drill",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Races",
+      "Warm Up",
+      "Conditioning"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 207,
+    "title": "Calgary Defense Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/calgary-defense-drill",
+    "categories": [
+      "Defensemen",
+      "Retrievals",
+      "Passing",
+      "Shooting",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 208,
+    "title": "Swedish Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swedish-shooting-drill",
+    "categories": [
+      "Defensemen",
+      "Shooting",
+      "Passing",
+      "Pivoting",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 209,
+    "title": "Tip Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tip-drill",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Power Play",
+      "Net Front",
+      "Tip",
+      "Rebound"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 210,
+    "title": "Wisconsin Power Play Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wisconsin-power-play-drill",
+    "categories": [
+      "Power Play",
+      "Passing",
+      "Shooting",
+      "Offensive Zone",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Shooting/Goalie/legacy drill pages"
+  },
+  {
+    "discovery_number": 211,
+    "title": "Continuous Hinge Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-hinge-drill",
+    "categories": [
+      "Passing",
+      "Transition",
+      "Defensive",
+      "Defensemen"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 212,
+    "title": "Continuous 2 on 2 Hockey Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-2-2-hockey-drill",
+    "categories": [
+      "Passing",
+      "Breakouts",
+      "2 on 2",
+      "Full Ice",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 213,
+    "title": "Short Long Passing Warm Up Hockey Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/short-long-passing-warm-hockey-drill",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 214,
+    "title": "Continuous Slot Feed",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-slot-feed",
+    "categories": [
+      "One Goalie",
+      "Passing",
+      "Shooting",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 215,
+    "title": "4 Lines Series #7",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-lines-series-7",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 216,
+    "title": "Finland 3 on 0 Re-Group",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/finland-3-0-re-group",
+    "categories": [
+      "Transition",
+      "Breakouts",
+      "3 on 0",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 217,
+    "title": "Defensive Zone Exchange Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defensive-zone-exchange-drill",
+    "categories": [
+      "Passing",
+      "Small Area Games",
+      "3 on 2",
+      "Half Ice",
+      "Coverage",
+      "Defensive Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 218,
+    "title": "Money Maker Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/money-maker-drill",
+    "categories": [
+      "Passing",
+      "Half Ice",
+      "Cycling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 219,
+    "title": "Shot, Recover, Rebound Goalie Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shot-recover-rebound-goalie-drill",
+    "categories": [
+      "Shooting",
+      "Half Ice",
+      "Goalie",
+      "Rebound Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 220,
+    "title": "Neutral Zone Horse Shoe",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-horse-shoe",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 221,
+    "title": "Forehand Retriever Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/forehand-retriever-drill",
+    "categories": [
+      "Passing",
+      "Stations",
+      "Retrievals",
+      "Breakouts",
+      "Half Ice",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 222,
+    "title": "Stretch and Go Flow w/ Backcheck",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stretch-and-go-flow-w-backcheck",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Flow",
+      "Full Ice",
+      "Backchecking"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 223,
+    "title": "Figure Eight Passing and Shooting Station #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/figure-eight-passing-and-shooting-station-2",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Shooting",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 224,
+    "title": "Figure Eight Passing and Shooting Station #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/figure-eight-passing-and-shooting-station-1",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Shooting",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 225,
+    "title": "Cross Over Passing Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cross-over-passing-station",
+    "categories": [
+      "Passing",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 226,
+    "title": "Box Out 2 on 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/box-out-2-2",
+    "categories": [
+      "2 on 2",
+      "Half Ice",
+      "Defensive Zone",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 227,
+    "title": "Swing Through Shooting Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swing-through-shooting-station",
+    "categories": [
+      "Shooting",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Main catalog page 37 / content search"
   }
 ]
