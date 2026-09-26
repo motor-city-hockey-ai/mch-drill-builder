@@ -306,5 +306,363 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified-page-and-diagram"
+  },
+  {
+    "uid": "ihs-3541866",
+    "number": 11,
+    "title": "The Ricky",
+    "category": "Breakouts / Transition",
+    "drill_types": [
+      "Passing",
+      "Relay Races",
+      "Small Area Games",
+      "Transition",
+      "Breakouts",
+      "3 on 3",
+      "Full Ice"
+    ],
+    "description": "Two groups race to complete a clean breakout. The first group to move the puck through its breakout sequence earns the first puck for a 3-on-3 attack at the far end. The second group must still finish its breakout before joining the game.",
+    "coaching_points": [
+      "Use efficient breakout routes and crisp tape-to-tape passes.",
+      "Keep sticks available as passing targets.",
+      "Communicate and shoulder-check before receiving the puck.",
+      "Finish the breakout before transitioning into the 3-on-3."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Tyler Bielby",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-ricky",
+    "print_url": "https://www.icehockeysystems.com/print/standard/3541866",
+    "source_id": "3541866",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541866-0-1702057003.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541866-0-1702057003.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541866-1-1702057003.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541866-2-1702057003.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-3484651",
+    "number": 12,
+    "title": "1, 2, 3, Forecheck",
+    "category": "Forecheck / Breakouts",
+    "drill_types": [
+      "Breakouts",
+      "Defensive",
+      "Defensive Zone",
+      "Forechecking",
+      "Full Ice",
+      "5 vs 5"
+    ],
+    "description": "A progressive full-ice forecheck and breakout drill. The breakout group first exits against one forechecker, then two, and finally a full three-forward forecheck before the sequence opens into 5-on-5 play.",
+    "coaching_points": [
+      "Forecheckers angle with sticks on the ice and force play outside.",
+      "Breakout players communicate and scan before receiving.",
+      "Wingers get low enough to become reliable outlets.",
+      "Center supports underneath with a low-and-slow route."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Nik Passero",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-2-3-forecheck-drill",
+    "print_url": "https://www.icehockeysystems.com/print/standard/3484651",
+    "source_id": "3484651",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484651-0-1701357376.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484651-0-1701357376.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-3484426",
+    "number": 13,
+    "title": "The Gambler",
+    "category": "Rush / Decision Making",
+    "drill_types": [
+      "1 on 1",
+      "2 on 1",
+      "3 on 1",
+      "Offensive",
+      "Full Ice",
+      "Gap",
+      "Shooting",
+      "Net Front",
+      "Awareness"
+    ],
+    "description": "Both sides begin with a point shot and net-front timing. The play then turns into a rush where a support forward chooses which side to join, creating a changing 1-on-1, 2-on-1 or 3-on-1 for the defender to read.",
+    "coaching_points": [
+      "Support forwards scan before choosing which rush to join.",
+      "Attackers move the puck quickly when numbers create an advantage.",
+      "Defenders identify the rush numbers early and manage gap.",
+      "Use active sticks to take away the middle passing lane."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Nik Passero",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-gambler",
+    "print_url": "https://www.icehockeysystems.com/print/standard/3484426",
+    "source_id": "3484426",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484426-0-1701429985.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484426-0-1701429985.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-3124276",
+    "number": 14,
+    "title": "2 v 2 Rim Game",
+    "category": "Battle / Wall Play",
+    "drill_types": [
+      "2 on 2",
+      "Battle Drills",
+      "Cycling",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Wall Play",
+      "Retrievals"
+    ],
+    "description": "A continuous 2-on-2 starts with a rim around the boards and a clean pickup. Offense attacks the net while defense tries to win possession and move the puck to the next players waiting in line, which immediately starts the next repetition.",
+    "coaching_points": [
+      "Rim the puck with purpose and use the boards' angle.",
+      "Receive the rim cleanly before making the next play.",
+      "Defenders communicate and angle with active sticks.",
+      "Transition quickly when possession changes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jeff Meredith",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-2-rim-game",
+    "print_url": "https://www.icehockeysystems.com/print/standard/3124276",
+    "source_id": "3124276",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3124276-0-1730755629.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3124276-0-1730755629.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-3124241",
+    "number": 15,
+    "title": "6 on 3 Monkey in the Middle",
+    "category": "Passing / Defensive Habits",
+    "drill_types": [
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Offensive",
+      "Small Area Games",
+      "Angling",
+      "Half Ice",
+      "Coverage",
+      "Awareness"
+    ],
+    "description": "Six offensive players surround three defenders in a half-zone possession game. The offense scores by moving the puck through the defending group while the defenders work together to close lanes, pressure the puck and recover possession.",
+    "coaching_points": [
+      "Offense scans before receiving and uses deception to open seams.",
+      "Use same-side support when the cross-ice lane is closed.",
+      "Defenders keep sticks in lanes and maintain inside positioning.",
+      "The pressure defender angles the puck carrier toward limited options."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jeff Meredith",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/6-3-monkey-middle",
+    "print_url": "https://www.icehockeysystems.com/print/standard/3124241",
+    "source_id": "3124241",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3124241-0-1698197075.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3124241-0-1698197075.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-3124216",
+    "number": 16,
+    "title": "RPI 2 on 2",
+    "category": "2 on 2 / Gap Control",
+    "drill_types": [
+      "Zone Entry",
+      "Puck Protection",
+      "Offensive",
+      "Small Area Games",
+      "Transition",
+      "Breakouts",
+      "2 on 2",
+      "Gap",
+      "Angling"
+    ],
+    "description": "A continuous 2-on-2 that begins with attackers approaching the blue line while two defenders work to deny entry. If defense wins the puck, it moves the puck to the next pair, and the previous attackers become the new defenders.",
+    "coaching_points": [
+      "Defenders manage gap and protect the blue line.",
+      "Use stick position and body angle to force attackers outside.",
+      "Attackers keep feet moving and recognize when a chip is the better entry.",
+      "Transition roles immediately after possession changes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jeff Meredith",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/rpi-2-2",
+    "print_url": "https://www.icehockeysystems.com/print/standard/3124216",
+    "source_id": "3124216",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3124216-0-1698283180.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3124216-0-1698283180.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-3119636",
+    "number": 17,
+    "title": "4 v 2 Rondo to 4 v 2 Quick Attack",
+    "category": "Possession / Quick Attack",
+    "drill_types": [
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Half Ice",
+      "Offensive",
+      "Passing",
+      "Puck Control",
+      "Small Area Games",
+      "Transition"
+    ],
+    "description": "Part 1 is a 4-on-2 rondo around a faceoff circle. On the second whistle the coach places a new puck in the corner and the same players immediately transition into a 4-on-2 quick attack toward the net.",
+    "coaching_points": [
+      "Offense scans, supports and uses deception before the pass.",
+      "Keep sticks ready as clear passing targets.",
+      "Defense keeps sticks in lanes and communicates.",
+      "On the second whistle, transition to the attack immediately."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Alyssa Gagliardi",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-v-2-rondo-4-v-2-quick-attack",
+    "print_url": "https://www.icehockeysystems.com/print/standard/3119636",
+    "source_id": "3119636",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3119636-0-1725981239.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3119636-0-1725981239.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3119636-1-1725981239.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-2971451",
+    "number": 18,
+    "title": "The Box Game",
+    "category": "Small Area Games / Transition",
+    "drill_types": [
+      "Passing",
+      "Puck Protection",
+      "Small Area Games",
+      "Transition",
+      "Offensive Zone",
+      "2 on 2",
+      "3 on 3",
+      "Net Front",
+      "Quick Decision Making"
+    ],
+    "description": "A 2-on-2 begins in-zone with a support player at the blue line for each team. After every possession change, the new offensive team must use its support player before attacking, creating constant give-and-go and net-front decisions.",
+    "coaching_points": [
+      "Use the support player quickly after gaining possession.",
+      "Move immediately after passing to create a return option.",
+      "Defenders protect the middle with sticks in lanes.",
+      "Support players make quick pass-or-shot decisions."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Brad Flynn",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-box-game",
+    "print_url": "https://www.icehockeysystems.com/print/standard/2971451",
+    "source_id": "2971451",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2971451-0-1697083923.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2971451-0-1697083923.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-2853186",
+    "number": 19,
+    "title": "Slovakian Scoring Game",
+    "category": "Scoring / Competition",
+    "drill_types": [
+      "2 on 0",
+      "2 on 1",
+      "3 on 2",
+      "Battle Drills",
+      "Full Ice",
+      "Offensive",
+      "Relay Races",
+      "Shooting",
+      "Small Area Games"
+    ],
+    "description": "Two teams race through a sequence of scoring situations: 1-on-0, 2-on-0, 2-on-1 and 3-on-2. A team continues only after scoring; a miss turns the next attempt over to the opponent.",
+    "coaching_points": [
+      "Attack each situation with game pace.",
+      "Recognize the numerical advantage and use it quickly.",
+      "Defenders must be ready to enter immediately for the 2-on-1 and 3-on-2.",
+      "Keep the game competitive by tracking progression."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Steve Wiedler",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/slovakian-scoring-game",
+    "print_url": "https://www.icehockeysystems.com/print/standard/2853186",
+    "source_id": "2853186",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2853186-0-1757207229.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2853186-0-1757207229.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-2853166",
+    "number": 20,
+    "title": "Ferrari 3 on 2",
+    "category": "3 on 2 / Rush",
+    "drill_types": [
+      "3 on 2",
+      "Neutral Zone",
+      "Overspeed",
+      "Passing",
+      "Transition",
+      "Zone Entry",
+      "Gap",
+      "Rush"
+    ],
+    "description": "A high-tempo full-ice 3-on-2 rush drill. A forward curls to receive a pass at the far blue line, a second forward joins with speed, and a third forward activates to complete the 3-on-2 while two defenders gap through the middle.",
+    "coaching_points": [
+      "Forwards communicate, fill lanes and attack with speed.",
+      "Get off the wall to create width and passing options.",
+      "Defenders match the rush speed and establish gap early.",
+      "Use active sticks to protect the middle and force play outside."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Steve Wiedler",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/ferrari-3-2",
+    "print_url": "https://www.icehockeysystems.com/print/standard/2853166",
+    "source_id": "2853166",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2853166-0-1726495628.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2853166-0-1726495628.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-diagram-and-print"
   }
 ]
