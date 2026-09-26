@@ -2719,7 +2719,7 @@
       "Defensemen"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2734,7 +2734,7 @@
       "Gap"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2748,7 +2748,7 @@
       "Half Ice"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2762,7 +2762,7 @@
       "Half Ice"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2775,7 +2775,7 @@
       "Full Ice"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2789,7 +2789,7 @@
       "Full Ice"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2805,7 +2805,7 @@
       "Defensive Zone"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2818,7 +2818,7 @@
       "Cycling"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2832,7 +2832,7 @@
       "Rebound Control"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2845,7 +2845,7 @@
       "Full Ice"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2861,7 +2861,7 @@
       "Defensive"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2876,7 +2876,7 @@
       "Backchecking"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2891,7 +2891,7 @@
       "Sixth Ice Stations"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2906,7 +2906,7 @@
       "Sixth Ice Stations"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2919,7 +2919,7 @@
       "Sixth Ice Stations"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2933,7 +2933,7 @@
       "Net Front"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
   },
   {
@@ -2946,7 +2946,330 @@
       "Sixth Ice Stations"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Main catalog page 37 / content search"
+  },
+  {
+    "discovery_number": 228,
+    "title": "Goalie Edgework: Single-Leg C-Cuts",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-edgework-single-leg-c-cuts",
+    "categories": [
+      "Goalie",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 229,
+    "title": "Goalie Edgework: Single-Leg Hops",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-edgework-single-leg-hops",
+    "categories": [
+      "Goalie",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 230,
+    "title": "2 vs 1 Rebound Battle Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-1-rebound-battle-drill",
+    "categories": [
+      "2 on 1",
+      "Battle Drills",
+      "Goalie",
+      "Half Ice",
+      "Small Area Games",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 231,
+    "title": "Bumper Shooting",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bumper-shooting",
+    "categories": [
+      "Shooting",
+      "Offensive",
+      "Stations",
+      "Half Ice",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 232,
+    "title": "Wild Half Ice Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wild-half-ice-shooting-drill",
+    "categories": [
+      "Shooting",
+      "Half Ice",
+      "Offensive Zone",
+      "Goalie",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 233,
+    "title": "Respect 2 on 0 Goalie Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/respect-2-0-goalie-drill",
+    "categories": [
+      "Shooting",
+      "2 on 0",
+      "Half Ice",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 234,
+    "title": "Goalie Line Sumo Wrestling",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-line-sumo-wrestling",
+    "categories": [
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 235,
+    "title": "Goalie Edgework Series",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-edgework-series",
+    "categories": [
+      "Goalie",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 236,
+    "title": "Post to Post Attack",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/post-post-attack-1",
+    "categories": [
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 237,
+    "title": "Coaches Screen Battle",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/coaches-screen-battle-1",
+    "categories": [
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 238,
+    "title": "Goalie Edgework: Single-Leg Holds",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-edgework-single-leg-holds",
+    "categories": [
+      "Goalie",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 239,
+    "title": "Net Play Goalie Drill - 1 on 0",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/net-play-goalie-drill-1-0",
+    "categories": [
+      "Shooting",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 240,
+    "title": "3 Level 2 on 0",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-level-2-0",
+    "categories": [
+      "Half Ice",
+      "Goalie",
+      "2 on 0",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 241,
+    "title": "Goal Line Options 1 vs. 0 & 2 vs. 0",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goal-line-options-1-vs-0-2-vs-0",
+    "categories": [
+      "Half Ice",
+      "Goalie",
+      "Agility"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 242,
+    "title": "The Goalie Gauntlet",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-gauntlet",
+    "categories": [
+      "Passing",
+      "Half Ice",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 243,
+    "title": "Shot Shot Stuff",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shot-shot-stuff",
+    "categories": [
+      "Passing",
+      "Half Ice",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 244,
+    "title": "Square Passing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/square-passing",
+    "categories": [
+      "Passing",
+      "Half Ice",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 245,
+    "title": "Side to Side Quickies",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/side-side-quickies",
+    "categories": [
+      "Shooting",
+      "Half Ice",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 246,
+    "title": "Double Attack from Corner",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/double-attack-corner",
+    "categories": [
+      "Shooting",
+      "Half Ice",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 247,
+    "title": "Corner To Slot Shot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-slot-shot",
+    "categories": [
+      "Shooting",
+      "Half Ice",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 248,
+    "title": "Bandits Goalie Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bandits-goalie-drill",
+    "categories": [
+      "Shooting",
+      "Half Ice",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 249,
+    "title": "Clear Conditioning",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/clear-conditioning",
+    "categories": [
+      "Half Ice",
+      "Conditioning",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 250,
+    "title": "Goal Line Stand",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goal-line-stand",
+    "categories": [
+      "Shooting",
+      "Half Ice",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 251,
+    "title": "7 Man Rebound Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/7-man-rebound-drill",
+    "categories": [
+      "Shooting",
+      "Goalie",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 252,
+    "title": "Rapid Fire",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/rapid-fire",
+    "categories": [
+      "Shooting",
+      "Half Ice",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Goalie category page"
   }
 ]
