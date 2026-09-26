@@ -3041,7 +3041,7 @@
       "Goalie"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Goalie category page"
   },
   {
@@ -3271,5 +3271,368 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Goalie category page"
+  },
+  {
+    "discovery_number": 253,
+    "title": "Davos Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/davos-game",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Backchecking"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 254,
+    "title": "Trucks & Trailers Warm-Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/trucks-trailers-warm",
+    "categories": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Stations",
+      "Stickhandling",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 255,
+    "title": "Head Up Scan The Ice Warm-Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/head-up-scan-ice-warm-up",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Skill Development",
+      "Stickhandling",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 256,
+    "title": "2 vs. 2 2 Ways Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-2-ways-game",
+    "categories": [
+      "Zone Entry",
+      "Skating",
+      "Passing",
+      "Puck Control",
+      "Offensive",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 257,
+    "title": "Circle Warm Up Series",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/circle-warm-up-series-1",
+    "categories": [
+      "Half Ice",
+      "Puck Handling",
+      "Skating",
+      "Skill Development",
+      "Stations",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 258,
+    "title": "Half Ice Slalom Races",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-slalom-races",
+    "categories": [
+      "1 on 1",
+      "Skating",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 259,
+    "title": "Peanut Skating Drill with Pivots (Half Ice)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/peanut-skating-drill-pivots-half-ice",
+    "categories": [
+      "Half Ice",
+      "Skating",
+      "Backwards Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 260,
+    "title": "Max Skill Station Series #1 - #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/max-skill-station-series-1-3",
+    "categories": [
+      "Skating",
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 261,
+    "title": "Wall Retrieval Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wall-retrieval-station",
+    "categories": [
+      "Breakouts",
+      "Shooting",
+      "Skating",
+      "Skill Development",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 262,
+    "title": "Pad Skating with Pass and Shot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pad-skating-pass-and-shot",
+    "categories": [
+      "Agility",
+      "Half Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 263,
+    "title": "Full Ice Skating & Skills with 9 Variations",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-skating-skills-9-variations",
+    "categories": [
+      "Agility",
+      "Conditioning",
+      "Full Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 264,
+    "title": "Puck Stack Races",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-stack-races-1",
+    "categories": [
+      "Races",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 265,
+    "title": "2 on 1 to 3 on 2 High Man Backcheck",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-3-2-high-man-backcheck",
+    "categories": [
+      "Zone Entry",
+      "Skating",
+      "Offensive",
+      "Transition",
+      "Breakouts",
+      "2 on 1"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 266,
+    "title": "Box Tag",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/box-tag-36",
+    "categories": [
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Agility",
+      "Coverage"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 267,
+    "title": "2 V 0 to 2 v 2 Full Ice Backcheck",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-0-2-v-2-full-ice-backcheck",
+    "categories": [
+      "Skating",
+      "Transition",
+      "2 on 0",
+      "2 on 2",
+      "Backchecking",
+      "Conditioning"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 268,
+    "title": "1 v 1 Skating Race - Pick 3 Turns",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-skating-race-pick-3-turns",
+    "categories": [
+      "1 on 1",
+      "Agility",
+      "Races",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 269,
+    "title": "3 Speed Warm-Up Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-speed-warm-drill",
+    "categories": [
+      "Skating",
+      "Pre Game",
+      "Puck Control",
+      "Puck Handling",
+      "Stations",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 270,
+    "title": "Chase The Rabbit",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chase-the-rabbit",
+    "categories": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Stickhandling",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 271,
+    "title": "Billy Purcell Off the Wall",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/billy-purcell-off-the-wall",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Stickhandling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 272,
+    "title": "Gretzky 2 V 2 Switch Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/gretzky-2-v-2-switch-game",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 273,
+    "title": "Triangle Tag",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/triangle-tag",
+    "categories": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Stations",
+      "Stickhandling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 274,
+    "title": "Half Way Around The World - Head On",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-way-around-world-head-up",
+    "categories": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Offensive",
+      "Stickhandling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 275,
+    "title": "Race to 2 vs. 2 Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/race-2-vs-2-game",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Puck Control",
+      "Offensive",
+      "Small Area Games",
+      "2 on 2"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 1"
   }
 ]
