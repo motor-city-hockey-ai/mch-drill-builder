@@ -51,13 +51,13 @@ button{cursor:pointer}
       <h2>Quick Add by Drill Number</h2>
       <p>Choose a library, narrow by drill type, then search or add by drill number.</p>
       <div class="quick-grid">
-        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 159 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
+        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 176 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
         <div class="stat-box"><small>FULL ICE DRILLS</small><strong>570</strong></div>
         <div class="stat-box"><small>SKILL ZONE DRILLS</small><strong>452</strong></div>
         <div class="field"><label>DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
         <button class="btn red" id="quickAdd">Find Drill</button>
-        <div class="stat-box total"><small>TOTAL DRILLS</small><strong>1,773</strong></div>
+        <div class="stat-box total"><small>TOTAL DRILLS</small><strong>1,790</strong></div>
       </div>
     </section>
 
@@ -429,7 +429,7 @@ button{cursor:pointer}
   async function loadIHS(){
     if(ihsDatabase)return ihsDatabase;
     showLoading('Loading Ice Hockey Systems library…');
-    const r=await fetch('data/ice-hockey-systems/ice-hockey-systems.json?v=11',{cache:'no-store'});
+    const r=await fetch('data/ice-hockey-systems/ice-hockey-systems.json?v=12',{cache:'no-store'});
     if(!r.ok)throw new Error('Ice Hockey Systems metadata returned '+r.status);
     const rows=await r.json();
     ihsDatabase=(Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({
