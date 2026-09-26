@@ -3584,7 +3584,7 @@
       "Skill Development"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Skating category page 1"
   },
   {
@@ -3632,7 +3632,346 @@
       "2 on 2"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Skating category page 1"
+  },
+  {
+    "discovery_number": 276,
+    "title": "7 Pass Transition Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/7-pass-transition-shooting-drill",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Shooting",
+      "Offensive",
+      "Stations",
+      "Transition",
+      "Half Ice",
+      "One Touch"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 277,
+    "title": "Tire Turns Progression Skating Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tire-turns-progression-skating-station",
+    "categories": [
+      "Skating",
+      "Stations",
+      "Third Ice Stations",
+      "Backwards Skating",
+      "Control Turns",
+      "Transitions"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 278,
+    "title": "Continuous Warm Up Skills Series #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-warm-skills-series-3",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Warm Up",
+      "One Touch",
+      "Crossovers",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 279,
+    "title": "Finnish Footwork Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/finnish-footwork-shooting-drill",
+    "categories": [
+      "Skating",
+      "Shooting",
+      "Stations",
+      "Third Ice Stations",
+      "Backwards Skating",
+      "Passing",
+      "Transitions"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 280,
+    "title": "Backwards Give and Go Station #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/backwards-give-and-go-station-1",
+    "categories": [
+      "Skating",
+      "Stations",
+      "Sixth Ice Stations",
+      "Backwards Skating",
+      "Passing",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 281,
+    "title": "One Player Transition Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/one-player-transition-drill",
+    "categories": [
+      "Skating",
+      "Shooting",
+      "Stations",
+      "Quarter Ice Station",
+      "Transition",
+      "Passing",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 282,
+    "title": "Half Ice Skating & Pucks",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-skating-pucks-1",
+    "categories": [
+      "Conditioning",
+      "Explosion",
+      "Half Ice",
+      "Puck Control",
+      "Races",
+      "Shooting",
+      "Skating",
+      "Edgework"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 283,
+    "title": "NZ Pad Skating Race with Shot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/nz-pad-skating-race-shot",
+    "categories": [
+      "1 on 1",
+      "Backwards Skating",
+      "Races",
+      "Skating",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 284,
+    "title": "Glide Turn and Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/glide-turn-and-shooting-drill",
+    "categories": [
+      "Offensive",
+      "Passing",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Warm Up",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 285,
+    "title": "Angling Transition 1 v 1 to 2 v 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/angling-transition-1-v-1-2-v-1",
+    "categories": [
+      "1 on 1",
+      "Skating",
+      "Passing",
+      "Puck Protection",
+      "Offensive",
+      "2 on 1",
+      "Angling",
+      "Checking",
+      "Coverage",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 286,
+    "title": "Gate Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-gate-game",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Small Area Games",
+      "Third Ice Stations",
+      "2 on 2",
+      "3 on 3",
+      "Angling",
+      "Half Ice",
+      "Coverage"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 287,
+    "title": "2 V 2 Any Net Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-2-any-net-game",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Shooting",
+      "Skill Development",
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "Transition",
+      "Offensive Zone",
+      "2 on 2",
+      "3 on 3",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Coverage",
+      "Defensive",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 288,
+    "title": "Offensive Zone 4 Shot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/offensive-zone-4-shot",
+    "categories": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development",
+      "Offensive",
+      "Offensive Zone",
+      "Agility"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 289,
+    "title": "Tic Tac Toe Relay",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tic-tac-toe-relay-0",
+    "categories": [
+      "Skating",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Warm Up",
+      "Battle Drills",
+      "Agility",
+      "Competition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 290,
+    "title": "Defensive Transition Passing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defensive-transition-passing",
+    "categories": [
+      "Backwards Skating",
+      "Defensive",
+      "Passing",
+      "Skating",
+      "Stations",
+      "Transition",
+      "Defensemen"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 291,
+    "title": "Golden Cross",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/golden-cross",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Half Ice",
+      "Conditioning"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 292,
+    "title": "Quarter Ice Puck Race #8",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-8",
+    "categories": [
+      "1 on 1",
+      "Skating",
+      "Overspeed",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 293,
+    "title": "Quarter Ice Puck Race #7",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-7",
+    "categories": [
+      "1 on 1",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Backwards Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 294,
+    "title": "Quarter Ice Puck Race #6",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-6",
+    "categories": [
+      "1 on 1",
+      "Skating",
+      "Overspeed",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Skating category page 2"
   }
 ]
