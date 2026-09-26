@@ -2,7 +2,7 @@
   "source": "Ice Hockey Systems",
   "base_url": "https://www.icehockeysystems.com",
   "discovery_started": "2026-09-26",
-  "status": "discovery-in-progress",
+  "status": "catalog-crawl-in-progress",
   "discovered": {
     "hockey_drills_total": 1573,
     "hockey_drills_pages": 56,
@@ -35,5 +35,15 @@
       "pdf_url": "https://www.icehockeysystems.com/pdf/drill/8486",
       "pdf_pages": 2
     }
-  ]
+  ],
+  "progress": {
+    "catalog_items_imported": 10,
+    "catalog_items_verified": 10,
+    "catalog_target": 1573,
+    "last_batch": "featured/current catalog batch 1",
+    "original_diagrams_verified": 10,
+    "print_pages_verified": 7,
+    "member_only_pages_with_diagram_but_no_print_access": 3,
+    "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes."
+  }
 }
