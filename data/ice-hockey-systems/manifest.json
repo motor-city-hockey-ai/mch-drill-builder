@@ -37,29 +37,29 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 159,
-    "catalog_items_verified": 159,
+    "catalog_items_imported": 176,
+    "catalog_items_verified": 176,
     "catalog_target": 1573,
     "last_batch": "featured/current catalog batch 1",
-    "original_diagrams_verified": 159,
+    "original_diagrams_verified": 176,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 185,
-    "catalog_items_pending_enrichment": 26,
+    "unique_urls_discovered": 210,
+    "catalog_items_pending_enrichment": 34,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Enrich the new page-37 discoveries, continue older shooting/passing pages, and keep expanding unique URLs toward the 1,573-drill catalog target.",
+    "next_step": "Enrich the 25 newly discovered goalie pages that have usable original visuals, keep video-only goalie pages pending, and continue category/main-index discovery toward the 1,573 target.",
     "multi_diagram_drills_preserved": 16,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 26,
-    "last_batch_notes": "Imported 26 additional drills using verified original IHS-hosted diagrams, including multiple goalie, defense, breakout, shooting and power-play drills. Added 17 more unique drill pages to the discovery queue.",
+    "last_batch_imported": 17,
+    "last_batch_notes": "Imported all 17 diagram-backed pending legacy drills from the prior discovery queue, including a PDF-backed goalie rebound drill. Expanded the goalie category with 25 additional unique drill pages for the next enrichment pass.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 43
+    "last_batch_discovered": 25
   }
 }
