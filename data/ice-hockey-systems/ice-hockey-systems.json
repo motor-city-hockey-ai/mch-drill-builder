@@ -2825,5 +2825,189 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified-page-and-diagrams"
+  },
+  {
+    "uid": "ihs-control-turn-races",
+    "number": 88,
+    "title": "Control Turn Races",
+    "category": "Skating / Control Turns / Races",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Relay Races",
+      "Stations",
+      "Control Turns",
+      "Inside Edges"
+    ],
+    "description": "Two teams race through a neutral-zone pattern built around control turns. Players skate to the first cone, execute a tight control turn, cross back to the opposite cone for a second control turn, then sprint through the finish.",
+    "coaching_points": [
+      "Stay low through the control turn.",
+      "Use the inside edge to hold a tight radius.",
+      "Accelerate immediately out of each turn.",
+      "Keep the race honest by requiring players to go fully around each cone."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/control-turn-races",
+    "source_id": "control-turn-races",
+    "image": "https://www.files.icehockeysystems.com/files/drills/control-turn-races.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/control-turn-races.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-cycle-overspeed-races",
+    "number": 89,
+    "title": "Cycle Overspeed Races",
+    "category": "Skating / Cycling / Competition",
+    "drill_types": [
+      "Relay Races",
+      "Half Ice",
+      "Skating",
+      "Overspeed",
+      "Conditioning",
+      "Cycling"
+    ],
+    "description": "Players race through a low-zone skating pattern that mimics the footwork used when cycling below the circles. Both players keep their feet moving through the route, then compete for a loose puck and a scoring chance.",
+    "coaching_points": [
+      "Keep the feet moving throughout the entire route.",
+      "Use tight, efficient turns around the cones.",
+      "Treat the final puck race as a game-speed competition.",
+      "Use longer rest intervals if the goal is true overspeed rather than conditioning."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cycle-overspeed-races",
+    "source_id": "cycle-overspeed-races",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cycle-overspeed-races.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cycle-overspeed-races.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-backwards-overspeed-competition",
+    "number": 90,
+    "title": "Backwards Overspeed Competition",
+    "category": "Skating / Backwards Overspeed",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Half Ice",
+      "Backwards Skating",
+      "Races"
+    ],
+    "description": "Two players race backward around their offensive-zone circles using backward crossovers to build speed. At the top cone they transition forward and race to a loose puck for a scoring chance.",
+    "coaching_points": [
+      "Build speed with continuous backward crossovers.",
+      "Stay balanced through the backward-to-forward transition.",
+      "Explode forward immediately after the pivot.",
+      "Compete through the puck instead of easing up before possession."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/backwards-overspeed-competition",
+    "source_id": "backwards-overspeed-competition",
+    "image": "https://www.files.icehockeysystems.com/files/drills/backwards-overspeed-competition.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/backwards-overspeed-competition.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-forward-overspeed-competition",
+    "number": 91,
+    "title": "Forward Overspeed Competition",
+    "category": "Skating / Forward Overspeed",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Half Ice",
+      "Races",
+      "Shooting"
+    ],
+    "description": "Two players race around their offensive-zone circles at maximum speed. The coach places a puck into the high slot and the first player to arrive earns the scoring opportunity.",
+    "coaching_points": [
+      "Stay outside the cones so players cannot cut the route short.",
+      "Drive the feet continuously around the circle.",
+      "Exit the circle with acceleration toward the puck.",
+      "Keep the competition short enough to preserve overspeed quality."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/forward-overspeed-competition",
+    "source_id": "forward-overspeed-competition",
+    "image": "https://www.files.icehockeysystems.com/files/drills/forwards-overspeed-competition.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/forwards-overspeed-competition.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-overspeed-quick-pass",
+    "number": 92,
+    "title": "Overspeed Quick Pass",
+    "category": "Passing / Overspeed",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Overspeed",
+      "Shooting",
+      "Timing"
+    ],
+    "description": "Two players leave together from opposite lines. The puck carrier builds speed through the neutral-zone route and hits the wide player as that player crosses the blue line at full speed. The receiver attacks for a quick shot while the passer drives the far post.",
+    "coaching_points": [
+      "Both players keep their feet moving the entire rep.",
+      "Time the pass so the receiver catches it at speed near the blue line.",
+      "Receiver gets the shot off before drifting too deep.",
+      "Passer follows the play hard to the far post."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/overspeed-quick-pass",
+    "source_id": "overspeed-quick-pass",
+    "image": "https://www.files.icehockeysystems.com/files/drills/overspeed-neutral-zone-quick-pass.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/overspeed-neutral-zone-quick-pass.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-russian-circles",
+    "number": 93,
+    "title": "Russian Circles",
+    "category": "Skating / Overspeed",
+    "drill_types": [
+      "Full Ice",
+      "Skating",
+      "Overspeed",
+      "Warm Up",
+      "Conditioning",
+      "Crossovers"
+    ],
+    "description": "Players skate a full-ice figure-eight style pattern that cuts across the circles to create repeated accelerations and fast crossover work without forcing them to travel the entire circumference of every circle.",
+    "coaching_points": [
+      "Skate for speed rather than simply tracing the pattern.",
+      "Drive crossovers continuously through each arc.",
+      "Accelerate through the middle sections.",
+      "Advanced groups can add pucks or run portions backward."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/russian-circles",
+    "source_id": "russian-circles",
+    "image": "https://www.files.icehockeysystems.com/files/drills/russian-circles.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/russian-circles.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
   }
 ]
