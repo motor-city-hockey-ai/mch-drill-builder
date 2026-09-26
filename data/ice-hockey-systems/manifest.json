@@ -1,0 +1,39 @@
+{
+  "source": "Ice Hockey Systems",
+  "base_url": "https://www.icehockeysystems.com",
+  "discovery_started": "2026-09-26",
+  "status": "discovery-in-progress",
+  "discovered": {
+    "hockey_drills_total": 1573,
+    "hockey_drills_pages": 56,
+    "goalie_tagged_drills_total": 44,
+    "systems_pages": 4,
+    "practice_plan_pages": 9
+  },
+  "notes": [
+    "Public drill index reports 1,573 drills total.",
+    "Goalie filter reports 44 drills total.",
+    "Member-only drill pages tested expose title, categorized metadata, coaching text, a Drill Maker image URL, and a video URL to the public crawler.",
+    "At least one direct /pdf/drill/{id} endpoint is publicly crawlable as a multi-page PDF.",
+    "Authenticated member dashboard itself is not available to this chat session, so member-only export buttons may still require an authenticated browser session."
+  ],
+  "sample_verified_items": [
+    {
+      "title": "NZ Give and Go",
+      "page_url": "https://icehockeysystems.com/hockey-drills/nz-give-and-go-1",
+      "original_diagram_url": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10898731-0-1788762614.png",
+      "member_only_label_present": true
+    },
+    {
+      "title": "1 v 1 Puck Retrieval to 2 v 1",
+      "page_url": "https://icehockeysystems.com/hockey-drills/1-v-1-puck-retrieval-2-v-1",
+      "original_diagram_url": "https://www.files.icehockeysystems.com/files/drills/drill-maker-9537801-0-1768589399.png",
+      "member_only_label_present": true
+    },
+    {
+      "title": "3 Player Passing Series Station",
+      "pdf_url": "https://www.icehockeysystems.com/pdf/drill/8486",
+      "pdf_pages": 2
+    }
+  ]
+}
