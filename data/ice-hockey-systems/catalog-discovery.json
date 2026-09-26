@@ -1,0 +1,642 @@
+[
+  {
+    "discovery_number": 1,
+    "title": "Pit Chaos Handling with Passes",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pit-chaos-handling-passes",
+    "categories": [
+      "Awareness",
+      "Half Ice",
+      "Passing",
+      "Pre Game",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Stations",
+      "Stickhandling",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 2,
+    "title": "Puck Race to Possession Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-race-possession-game",
+    "categories": [
+      "1 on 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Races",
+      "Small Area Games",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 3,
+    "title": "Corner to Half Wall 2 vs 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-half-wall-2-vs-1",
+    "categories": [
+      "2 on 1",
+      "Battle Drills",
+      "Half Ice",
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 4,
+    "title": "Swedish 2 vs 1 (Cross Ice)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swedish-2-vs-1-cross-ice",
+    "categories": [
+      "2 on 1",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 5,
+    "title": "Gates of Buffalo Small Area Passing Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/gates-buffalo-small-area-game",
+    "categories": [
+      "Half Ice",
+      "Passing",
+      "Puck Control",
+      "Small Area Games",
+      "Stations",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 6,
+    "title": "NZ Give and Go",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/nz-give-and-go-1",
+    "categories": [
+      "2 on 2",
+      "3 on 2",
+      "Passing",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 7,
+    "title": "Pioneer 2 V 2 Rush",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pioneer-2-v-2-rush",
+    "categories": [
+      "1 on 1",
+      "2 on 2",
+      "Angling",
+      "Backchecking",
+      "Coverage",
+      "Full Ice",
+      "Gap",
+      "Overspeed",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 8,
+    "title": "2 v 3 Entry Offense vs. Breakout Transition",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-3-entry-offense-vs-breakout-transition",
+    "categories": [
+      "3 on 2",
+      "Breakouts",
+      "Puck Support",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 9,
+    "title": "Buffalo 2v2 to 3v3 to 4v4",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/buffalo-2v2-3v3-4v4-3",
+    "categories": [
+      "2 on 2",
+      "3 on 3",
+      "4 vs 4",
+      "Awareness",
+      "Backchecking",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 10,
+    "title": "3 on 3 Add a D",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-on-3-add-d",
+    "categories": [
+      "3 on 3",
+      "Puck Support",
+      "Small Area Games",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 11,
+    "title": "Hit The Tire Passing Game WIth No Goalie",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/hit-tire-passing-game-no-goalie",
+    "categories": [
+      "3 on 3",
+      "Coverage",
+      "Half Ice",
+      "Puck Control",
+      "Puck Protection",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 12,
+    "title": "Picket Fences Game (2 vs. 2 or 3 vs. 3)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/picket-fences",
+    "categories": [
+      "2 on 2",
+      "3 on 3",
+      "Defensive",
+      "Defensive Zone",
+      "Half Ice",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 13,
+    "title": "Perry Pearn Tracking Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/perry-pearn-tracking-game",
+    "categories": [
+      "3 on 3",
+      "Backchecking",
+      "Battle Drills",
+      "Conditioning",
+      "Defensive Zone",
+      "Down Low"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 14,
+    "title": "Buffalo 12 Player Small Area Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/buffalo-sabres-12-person-small-area-game",
+    "categories": [
+      "3 on 3",
+      "Awareness",
+      "Half Ice",
+      "Offensive",
+      "Passing",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 15,
+    "title": "1 v 1 Puck Retrieval to 2 v 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-puck-retrieval-2-v-1",
+    "categories": [
+      "1 on 1",
+      "2 on 1",
+      "Angling",
+      "Awareness",
+      "Battle Drills",
+      "Checking"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 16,
+    "title": "1 v 1 Use The Net",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-use-net",
+    "categories": [
+      "1 on 1",
+      "Angling",
+      "Awareness",
+      "Battle Drills",
+      "Breakouts",
+      "Down Low"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 17,
+    "title": "Anchorage Cut-back Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/anchorage-cut-back-drill",
+    "categories": [
+      "Down Low",
+      "Flow",
+      "Half Ice",
+      "Puck Control",
+      "Puck Protection",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 18,
+    "title": "Road Runner 3 v 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/road-runner-3-v-2",
+    "categories": [
+      "3 on 2",
+      "3 on 3",
+      "Backchecking",
+      "Full Ice",
+      "Gap",
+      "Puck Support",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 19,
+    "title": "Breakout Transition Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakout-transition-game",
+    "categories": [
+      "2 on 2",
+      "4 vs 2",
+      "Backchecking",
+      "Battle Drills",
+      "Breakouts",
+      "Conditioning"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 20,
+    "title": "Bentley Wall Cycling Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bentley-wall-cycling-drill",
+    "categories": [
+      "Cycling",
+      "Down Low",
+      "Half Ice",
+      "Offensive",
+      "Passing",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 21,
+    "title": "Sully 2 on 2 Transition Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sully-2-on-2-transition-game",
+    "categories": [
+      "2 on 2",
+      "Backchecking",
+      "Defensive",
+      "Half Ice",
+      "Offensive",
+      "Small Area Games",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 22,
+    "title": "Turn & Burn",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-turn-burn",
+    "categories": [
+      "3 on 2",
+      "Backchecking",
+      "Defensive",
+      "Gap",
+      "Neutral Zone",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 23,
+    "title": "3 on 2 Race to 5",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-on-2-race-5",
+    "categories": [
+      "3 on 2",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 24,
+    "title": "Pass Through The Triangle Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pass-through-triangle-game",
+    "categories": [
+      "3 on 3",
+      "Awareness",
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "Passing"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 25,
+    "title": "3 Player - Every Pass a One Touch",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-player-every-pass-one-touch",
+    "categories": [
+      "3 on 0",
+      "Awareness",
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "Passing"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 26,
+    "title": "Ramsay 3 V 3 Race",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/ramsay-3-v-3-race",
+    "categories": [
+      "3 on 3",
+      "Battle Drills",
+      "Coverage",
+      "Full Ice",
+      "Half Ice",
+      "Overspeed"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 27,
+    "title": "Oreo",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/oreo",
+    "categories": [
+      "Passing",
+      "Small Area Games",
+      "Transition",
+      "Breakouts",
+      "3 on 3",
+      "Angling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 28,
+    "title": "Yellow Runner Rally",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/yellow-runner-rally",
+    "categories": [
+      "3 on 2",
+      "Battle Drills",
+      "Coverage",
+      "Cycling",
+      "Defensive",
+      "Defensive Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 29,
+    "title": "Ride The Bull",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/ride-bull-0",
+    "categories": [
+      "2 on 2",
+      "3 on 2",
+      "Awareness",
+      "Battle Drills",
+      "Defensive",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 30,
+    "title": "2 on 2 Gap Control",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-2-gap-control-1",
+    "categories": [
+      "2 on 2",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Defensive",
+      "Defensive Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 31,
+    "title": "2 v 2 Activate the Point",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-2-activate-point-0",
+    "categories": [
+      "2 on 2",
+      "3 on 3",
+      "Awareness",
+      "Offensive Zone",
+      "Puck Support",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 32,
+    "title": "3 v 3 Using the Weak Side to Shoot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-using-weak-side-shoot",
+    "categories": [
+      "3 on 3",
+      "Awareness",
+      "Offensive Zone",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 33,
+    "title": "Escape the Corner Puck Protection",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/escape-corner-puck-protection",
+    "categories": [
+      "1 on 1",
+      "Down Low",
+      "Puck Protection",
+      "Retrievals",
+      "Skill Development",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 34,
+    "title": "Razor 1 on 1 Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/razor-1-on-1-drill",
+    "categories": [
+      "1 on 1",
+      "Puck Protection",
+      "Puck Support",
+      "Small Area Games",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 35,
+    "title": "Goalie Rebound Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-rebound-game-10",
+    "categories": [
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 36,
+    "title": "False Start Drill: Goalie Tracking",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/false-start-drill-goalie-tracking",
+    "categories": [
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 37,
+    "title": "Goalie Movement: Shuffle Control with Depth",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-movement-shuffle-control-depth",
+    "categories": [
+      "Goalie",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 38,
+    "title": "Goalie Movement: Down on Ice 45° Pushes",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-movement-down-on-ice-45%C2%B0-pushes",
+    "categories": [
+      "Goalie",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 39,
+    "title": "Goalie Movement: 45° T-Pushes",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-movement-45%C2%B0-t-pushes",
+    "categories": [
+      "Goalie",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 40,
+    "title": "Goalie Edgework: Rotational Inside Edge Control",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-edgework-rotational-inside-edge-control",
+    "categories": [
+      "Goalie",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 41,
+    "title": "Goalie Edgework: In-Out Skating",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-edgework-out-skating",
+    "categories": [
+      "Goalie",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  },
+  {
+    "discovery_number": 42,
+    "title": "Goalie Edgework: C-Cut to Knee Drop Progression",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/goalie-edgework-c-cut-knee-drop-progression",
+    "categories": [
+      "Goalie",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
+  }
+]
