@@ -112,6 +112,7 @@ button{cursor:pointer}
   const teamChunkPromises=new Map();
   const sourcePdfCache=new Map();
   const sourcePageCache=new Map();
+  const displayImageCache=new Map();
   if(window.pdfjsLib) pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
   let selected=[];
   let visibleLimit=60;
@@ -173,6 +174,89 @@ button{cursor:pointer}
       if(chunk&&chunk[d.uid])return chunk[d.uid];
     }
     return placeholderImage;
+  }
+
+  function loadBrowserImage(src){
+    return new Promise((resolve,reject)=>{
+      const img=new Image();
+      img.onload=()=>resolve(img);
+      img.onerror=()=>reject(new Error('Image could not be decoded'));
+      img.src=src;
+    });
+  }
+
+  function cropCanvasToUrl(img,x,y,w,h){
+    x=Math.max(0,Math.round(x));y=Math.max(0,Math.round(y));
+    w=Math.max(1,Math.min(img.naturalWidth-x,Math.round(w)));
+    h=Math.max(1,Math.min(img.naturalHeight-y,Math.round(h)));
+    const canvas=document.createElement('canvas');canvas.width=w;canvas.height=h;
+    const ctx=canvas.getContext('2d',{alpha:false});ctx.fillStyle='#fff';ctx.fillRect(0,0,w,h);
+    ctx.drawImage(img,x,y,w,h,0,0,w,h);
+    return canvas.toDataURL('image/jpeg',0.93);
+  }
+
+  async function cleanSourcePageImage(d){
+    if(!d||!d.image)return null;
+    if(d.displayImage)return d.displayImage;
+    if(displayImageCache.has(d.uid))return displayImageCache.get(d.uid);
+    const p=(async()=>{
+      const src=String(d.source||'');
+      if(!/HockeyCoach\.com Team Drills|CoachThem \/ TeamSnap 2018/i.test(src)){
+        d.displayImage=d.image;
+        return d.displayImage;
+      }
+      const img=await loadBrowserImage(d.image);
+      const w=img.naturalWidth,h=img.naturalHeight;
+      const sampleW=Math.min(520,w),scale=sampleW/w,sampleH=Math.max(1,Math.round(h*scale));
+      const canvas=document.createElement('canvas');canvas.width=sampleW;canvas.height=sampleH;
+      const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(img,0,0,sampleW,sampleH);
+      const px=ctx.getImageData(0,0,sampleW,sampleH).data;
+      const blue=(r,g,b)=>b>105&&b>r+20&&b>=g+5;
+      const red=(r,g,b)=>r>150&&r>g+35&&r>b+30;
+
+      if(/HockeyCoach\.com Team Drills/i.test(src)){
+        let maxY=-1,minY=sampleH;
+        for(let y=0;y<sampleH;y++)for(let x=0;x<sampleW;x++){
+          const i=(y*sampleW+x)*4,r=px[i],g=px[i+1],b=px[i+2];
+          if(blue(r,g,b)){if(y>maxY)maxY=y;if(y<minY)minY=y;}
+        }
+        const cropBottom=maxY>sampleH*.2?Math.min(h,(maxY/scale)+18):h*.50;
+        d.displayImage=cropCanvasToUrl(img,0,0,w,cropBottom);
+        return d.displayImage;
+      }
+
+      // CoachThem pages place the rink on one side and instructions on the other.
+      let blueX=0,blueN=0;
+      const yFloor=Math.floor(sampleH*.24);
+      for(let y=yFloor;y<sampleH;y++)for(let x=0;x<sampleW;x++){
+        const i=(y*sampleW+x)*4,r=px[i],g=px[i+1],b=px[i+2];
+        if(blue(r,g,b)){blueX+=x;blueN++;}
+      }
+      const right=blueN?(blueX/blueN)>sampleW/2:false;
+      const sx0=right?Math.floor(sampleW*.43):0;
+      const sx1=right?sampleW:Math.ceil(sampleW*.57);
+      let minX=sx1,minY=sampleH,maxX=sx0,maxY=yFloor,n=0;
+      for(let y=yFloor;y<sampleH;y++)for(let x=sx0;x<sx1;x++){
+        const i=(y*sampleW+x)*4,r=px[i],g=px[i+1],b=px[i+2];
+        if(red(r,g,b)||blue(r,g,b)){
+          minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y);n++;
+        }
+      }
+      if(n<80){
+        d.displayImage=d.image;
+        return d.displayImage;
+      }
+      const padX=18,padY=18;
+      const x0=Math.max(0,(minX-padX)/scale),y0=Math.max(0,(minY-padY)/scale);
+      const x1=Math.min(w,(maxX+padX)/scale),y1=Math.min(h,(maxY+padY)/scale);
+      d.displayImage=cropCanvasToUrl(img,x0,y0,x1-x0,y1-y0);
+      return d.displayImage;
+    })().catch(err=>{
+      console.warn('Rich Full Ice source crop failed',d&&d.uid,err);
+      return d.image||null;
+    });
+    displayImageCache.set(d.uid,p);
+    return p;
   }
 
   function getSourcePdf(url){
@@ -256,9 +340,13 @@ button{cursor:pointer}
       teamImageChunks.set(chunkIndex,images);
       Object.entries(images).forEach(([uid,img])=>{
         const d=teamByUid.get(uid);
-        if(d)d.image=img;
-        document.querySelectorAll('[data-img-uid="'+uid+'"]').forEach(el=>{el.src=img;});
-        if(viewerDrill&&viewerDrill.uid===uid)$('#viewerImg').src=img;
+        if(!d)return;
+        d.image=img;
+        cleanSourcePageImage(d).then(clean=>{
+          const shown=clean||img;
+          document.querySelectorAll('[data-img-uid="'+uid+'"]').forEach(el=>{el.src=shown;});
+          if(viewerDrill&&viewerDrill.uid===uid)$('#viewerImg').src=shown;
+        });
       });
       return images;
     })().catch(err=>{teamChunkPromises.delete(chunkIndex);console.error(err);throw err;});
@@ -270,8 +358,8 @@ button{cursor:pointer}
     if(!d)return Promise.resolve();
     if(d.library==='Coaches Site Drills')return ensureCoachesOriginal(d);
     if(d.library==='Team Drills'){
-      if(d.image)return Promise.resolve(d.image);
-      if(d.imgChunk!=null)return ensureTeamChunk(d.imgChunk).then(()=>imageFor(d));
+      if(d.image)return cleanSourcePageImage(d);
+      if(d.imgChunk!=null)return ensureTeamChunk(d.imgChunk).then(()=>cleanSourcePageImage(d));
     }
     return Promise.resolve(imageFor(d));
   }
