@@ -1,1 +1,310 @@
-[]
+[
+  {
+    "uid": "ihs-2625946",
+    "number": 1,
+    "title": "Pit Chaos Handling with Passes",
+    "category": "Passing / Puck Handling",
+    "drill_types": [
+      "Awareness",
+      "Half Ice",
+      "Passing",
+      "Pre Game",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Stations",
+      "Stickhandling",
+      "Warm Up"
+    ],
+    "description": "Players inside a faceoff circle stickhandle through traffic while players around the outside move a separate puck. Rotate groups after short work intervals. Emphasize scanning, finding open ice, presenting passing targets and making the next play before the puck arrives.",
+    "coaching_points": [
+      "Keep the head up and scan constantly.",
+      "Find open space while handling the puck.",
+      "Outside passers should think one play ahead.",
+      "Progress to one-touch or two-touch passing for advanced groups."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pit-chaos-handling-passes",
+    "print_url": "https://www.icehockeysystems.com/print/standard/2625946",
+    "source_id": "2625946",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625946-0-1729699956.png",
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-10580681",
+    "number": 2,
+    "title": "Puck Race to Possession Game",
+    "category": "Battle / Puck Protection",
+    "drill_types": [
+      "1 on 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Races",
+      "Small Area Games",
+      "Stations"
+    ],
+    "description": "Two players race to a loose puck inside a circle. The winner protects possession under pressure. On a second whistle the puck carrier attacks the net while the defender works to recover and return possession to the coach.",
+    "coaching_points": [
+      "Win the puck line with body position.",
+      "Protect the puck with hips and shoulders while keeping the feet moving.",
+      "Avoid reaching; stay in a strong skating posture.",
+      "Transition immediately from protection to attack."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-race-possession-game",
+    "print_url": "https://www.icehockeysystems.com/print/standard/10580681",
+    "source_id": "10580681",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10580681-0-1784203667.png",
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-106941",
+    "number": 3,
+    "title": "Corner to Half Wall 2 vs 1",
+    "category": "Small Area Games",
+    "drill_types": [
+      "2 on 1",
+      "Battle Drills",
+      "Half Ice",
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "Wall Play"
+    ],
+    "description": "Play a 2-on-1 inside a constrained corner-to-half-wall area. The offense works to complete a set number of passes before attacking the net, while the defender wins by creating turnovers or forcing the puck out of the area.",
+    "coaching_points": [
+      "Use the boards as an extra passing option.",
+      "Protect the puck until a passing lane opens.",
+      "Move immediately after passing.",
+      "Defend with active sticks, stops and starts."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-half-wall-2-vs-1",
+    "print_url": "https://www.icehockeysystems.com/print/standard/106941",
+    "source_id": "106941",
+    "image": "https://www.files.icehockeysystems.com/files/drills/corner-to-half-wall-2v1.png",
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-99301",
+    "number": 4,
+    "title": "Swedish 2 vs 1 (Cross Ice)",
+    "category": "Small Area Games",
+    "drill_types": [
+      "2 on 1",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Passing",
+      "Puck Protection"
+    ],
+    "description": "Two offensive players and one defender compete inside a small cross-ice area. The offense must connect on a prescribed number of passes before earning a shot; the defender earns an attacking chance by disrupting possession.",
+    "coaching_points": [
+      "Move without the puck.",
+      "Protect first, then expose the puck to pass.",
+      "Defend with active sticks and stops and starts.",
+      "Encourage pass-and-move and give-and-go habits."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swedish-2-vs-1-cross-ice",
+    "print_url": "https://www.icehockeysystems.com/print/standard/99301",
+    "source_id": "99301",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-99301-0-1721412866.png",
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-103971",
+    "number": 5,
+    "title": "Gates of Buffalo Small Area Passing Game",
+    "category": "Passing / Small Area Games",
+    "drill_types": [
+      "Half Ice",
+      "Passing",
+      "Puck Control",
+      "Small Area Games",
+      "Stations",
+      "Warm Up",
+      "Awareness",
+      "Communication"
+    ],
+    "description": "Players score by passing through small gates placed around a confined area. Change the number and size of gates, available space, player count, obstacles and competitive rules to scale difficulty.",
+    "coaching_points": [
+      "Play with the head up.",
+      "Move to open space after every pass.",
+      "Use verbal and non-verbal communication.",
+      "Reduce space or gate size to increase decision speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/gates-buffalo-small-area-game",
+    "print_url": "https://www.icehockeysystems.com/print/standard/103971",
+    "source_id": "103971",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-103971-0-1744828737.png",
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-10898731",
+    "number": 6,
+    "title": "NZ Give and Go",
+    "category": "Passing / Puck Support",
+    "drill_types": [
+      "2 on 2",
+      "3 on 2",
+      "Passing",
+      "Puck Support",
+      "Neutral Zone",
+      "Small Area Games"
+    ],
+    "description": "Play 2-on-2 in the neutral zone with a support player on the blue line who can activate to create a temporary 3-on-2. The possession team uses movement after the pass to generate give-and-go options and new passing lanes.",
+    "coaching_points": [
+      "Move immediately after passing.",
+      "Work off defenders' heels to create new lanes.",
+      "Know the next destination before moving the puck.",
+      "Look to get the puck back instead of circling the perimeter."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/nz-give-and-go-1",
+    "source_id": "10898731",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10898731-0-1788762614.png",
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-diagram"
+  },
+  {
+    "uid": "ihs-2052021",
+    "number": 7,
+    "title": "Pioneer 2 V 2 Rush",
+    "category": "Rush / Transition",
+    "drill_types": [
+      "1 on 1",
+      "2 on 2",
+      "Angling",
+      "Backchecking",
+      "Coverage",
+      "Full Ice",
+      "Gap",
+      "Overspeed",
+      "Transition",
+      "Zone Entry"
+    ],
+    "description": "The drill begins with a 1-on-1 rush. On the next whistle a second rush starts the opposite way while the original pair joins, turning the sequence into a continuous 2-on-2.",
+    "coaching_points": [
+      "Angle with speed while skating forward.",
+      "Defenders communicate through the transition.",
+      "Backcheck tightly and stay connected.",
+      "Recognize the shift from 1-on-1 to 2-on-2 quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Brock University",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pioneer-2-v-2-rush",
+    "print_url": "https://www.icehockeysystems.com/print/standard/2052021",
+    "source_id": "2052021",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2052021-0-1728397437.png",
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-10898936",
+    "number": 8,
+    "title": "2 v 3 Entry Offense vs. Breakout Transition",
+    "category": "Breakouts / Transition",
+    "drill_types": [
+      "3 on 2",
+      "Breakouts",
+      "Puck Support",
+      "Transition",
+      "Zone Entry",
+      "Backchecking"
+    ],
+    "description": "Start with a 2-on-2 rush plus a backchecker to create a 2-on-3. After the defending team wins possession, it immediately supports the puck and breaks out while two new attackers enter, creating the next repetition.",
+    "coaching_points": [
+      "Transition immediately after possession changes.",
+      "Get two players to the puck on the breakout.",
+      "Move the puck before the opposition can organize.",
+      "Use the format to teach entries, re-entries and rush reads."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-3-entry-offense-vs-breakout-transition",
+    "source_id": "10898936",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10898936-0-1788517784.png",
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-diagram"
+  },
+  {
+    "uid": "ihs-10847446",
+    "number": 9,
+    "title": "Buffalo 2v2 to 3v3 to 4v4",
+    "category": "Small Area Games / Transition",
+    "drill_types": [
+      "2 on 2",
+      "3 on 3",
+      "4 vs 4",
+      "Awareness",
+      "Backchecking",
+      "Battle Drills",
+      "Transition",
+      "Puck Support"
+    ],
+    "description": "Begin with a 2-on-2 rush. On successive whistles add one player per team with a new puck, progressing to 3-on-3 and then 4-on-4 before resetting the repetition.",
+    "coaching_points": [
+      "Attack quickly before defenders are set.",
+      "Support the puck by moving to open ice.",
+      "Backcheck with sticks on the ice and keep attackers outside.",
+      "Transition to offense immediately after regaining possession."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/buffalo-2v2-3v3-4v4-3",
+    "print_url": "https://www.icehockeysystems.com/print/standard/10847446",
+    "source_id": "10847446",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10847446-0-1788198362.png",
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-8777556",
+    "number": 10,
+    "title": "3 on 3 Add a D",
+    "category": "Small Area Games / Transition",
+    "drill_types": [
+      "3 on 3",
+      "Puck Support",
+      "Small Area Games",
+      "Transition",
+      "Defensemen",
+      "Activation"
+    ],
+    "description": "Play 3-on-3 on a shortened rink with one stationary support defenseman behind each team's net. A team activates its extra D by completing a pass behind the net, creating a 4-on-3 until possession changes.",
+    "coaching_points": [
+      "Encourage defensemen to join the rush.",
+      "Look for weak-side speed.",
+      "Transition quickly when possession changes.",
+      "Recognize when activating the extra player creates an advantage."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-on-3-add-d",
+    "source_id": "8777556",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8777556-0-1763432995.png",
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-diagram"
+  }
+]
