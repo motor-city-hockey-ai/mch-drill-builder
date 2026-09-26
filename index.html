@@ -122,7 +122,7 @@ button{cursor:pointer}
   const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 
   const placeholderImage='data:image/svg+xml;charset=UTF-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560"><rect width="100%" height="100%" fill="#f4f4f4"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="26" fill="#777">Loading diagram…</text></svg>');
-  function cleanDescriptionText(d){  function cleanDescriptionText(d){
+  function cleanDescriptionText(d){
     let s=String(d&&d.description||'').replace(/\r/g,' ').replace(/\t/g,' ').replace(/\s+/g,' ').trim();
     s=s.replace(/KeKey Points\s*:/gi,'Key Points:').replace(/KeyKey Points\s*:/gi,'Key Points:');
     if(/^Turk\b/i.test(String(d&&d.source||''))){
@@ -175,7 +175,7 @@ button{cursor:pointer}
     return placeholderImage;
   }
 
-  function getSourcePdf(url){  function getSourcePdf(url){
+  function getSourcePdf(url){
     if(!window.pdfjsLib)return Promise.reject(new Error('PDF renderer unavailable'));
     if(!sourcePdfCache.has(url)){
       const p=pdfjsLib.getDocument({url:url,disableAutoFetch:false,rangeChunkSize:131072}).promise;
@@ -438,7 +438,7 @@ button{cursor:pointer}
     $('#category').innerHTML='<option value="">ALL '+(names[activeLibrary]||'DRILLS')+'</option>'+categories.map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
   }
 
-  function saveSelected(){  function saveSelected(){
+  function saveSelected(){
     try{localStorage.setItem('mch-selected-v8',JSON.stringify(selected.map(d=>({uid:d.uid,number:d.number,title:d.title||'',category:d.category||'',kind:d.kind||'drill',library:d.library||activeLibrary,image:imageFor(d),description:d.description||'',includeDescription:!!d.includeDescription}))));}catch(e){}
   }
   function restoreSelected(){
