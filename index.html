@@ -25,14 +25,15 @@ button{cursor:pointer}
 .quick{background:#151515;color:#fff;border-left:5px solid var(--red);border-radius:18px;padding:18px 22px;margin-bottom:22px}.quick h2{margin:0 0 4px;font-size:21px}.quick p{margin:0 0 15px;color:#bbb;font-size:13px}.quick-grid{display:grid;grid-template-columns:1.35fr 1.05fr .72fr .72fr .7fr auto .78fr;gap:12px;align-items:end}.stat-box{height:46px;border:1px solid #555;background:#1d1d1d;border-radius:9px;padding:5px 10px;display:flex;flex-direction:column;justify-content:center}.stat-box small{font-size:8px;letter-spacing:1px;color:#aaa;font-weight:900}.stat-box strong{font-size:18px;line-height:1.05;color:#fff}.stat-box.total{border-color:#d71920;background:#26090b}.stat-box.total strong{font-size:20px}.field label{display:block;font-size:10px;font-weight:900;letter-spacing:1.4px;color:#bbb;margin-bottom:6px}.control{width:100%;height:46px;border:1px solid #555;background:#111;color:#fff;border-radius:9px;padding:0 12px}
 .toolbar{display:flex;justify-content:space-between;gap:14px;align-items:end;flex-wrap:wrap;margin-bottom:12px}.toolbar h2{margin:0;font-size:25px}.sub{color:#777;font-size:13px;margin-top:4px}.search{width:min(430px,100%);height:44px;border:1px solid #ccc;border-radius:12px;padding:0 14px}
 .status{padding:9px 12px;background:#f5f5f5;border-radius:10px;font-size:12px;margin:9px 0 15px}.status.ok{border-left:4px solid #2e8b57}.status.err{border-left:4px solid var(--red);color:#9d1016}.status.preview{border-left:4px solid var(--red)}
-.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.card{border:1px solid #ddd;border-radius:14px;overflow:hidden;background:#fff;position:relative;transition:.15s}.card:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(0,0,0,.08)}.card.selected-card{outline:3px solid var(--red)}.diagram-hit{display:block;width:100%;border:0;padding:0;background:#fafafa;cursor:zoom-in}.card img{display:block;width:100%;height:210px;object-fit:contain;background:#fafafa}.meta{padding:9px 11px 11px}.num{font-weight:900;font-size:14px}.drill-title{font-size:12px;font-weight:800;margin-top:3px;line-height:1.22;min-height:29px}.cat-label{font-size:9px;color:#777;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.system-badge{display:inline-block;background:#111;color:#fff;border-radius:999px;font-size:8px;font-weight:900;letter-spacing:.6px;padding:3px 7px;margin-top:5px}.quick-add-card{position:absolute;right:7px;top:7px;width:34px;height:34px;border-radius:50%;border:0;background:var(--red);color:#fff;font-weight:900;z-index:3}
-.team-mode .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.team-mode .card img{height:285px;padding:5px}.team-mode .drill-title{font-size:13px;min-height:32px}.team-mode .cat-label{font-size:10px}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.card{border:1px solid #ddd;border-radius:14px;overflow:hidden;background:#fff;position:relative;transition:.15s}.card:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(0,0,0,.08)}.card.selected-card{outline:3px solid var(--red)}.diagram-hit{display:flex;width:100%;height:235px;border:0;border-bottom:1px solid #eee;padding:10px;background:#fff;cursor:zoom-in;align-items:center;justify-content:center;overflow:hidden}.card img{display:block;width:100%;height:100%;object-fit:contain;background:#fff}.meta{padding:9px 11px 11px}.num{font-weight:900;font-size:14px}.drill-title{font-size:12px;font-weight:800;margin-top:3px;line-height:1.22;min-height:29px}.cat-label{font-size:9px;color:#777;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.source-proof{font-size:8px;font-weight:900;letter-spacing:.55px;color:#2e8b57;margin-top:5px;text-transform:uppercase}.source-proof.pending{color:#9a6a00}.system-badge{display:inline-block;background:#111;color:#fff;border-radius:999px;font-size:8px;font-weight:900;letter-spacing:.6px;padding:3px 7px;margin-top:5px}.quick-add-card{position:absolute;right:7px;top:7px;width:34px;height:34px;border-radius:50%;border:0;background:var(--red);color:#fff;font-weight:900;z-index:3}
+.team-mode .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.team-mode .diagram-hit{height:250px;padding:12px}.team-mode .card img{width:100%;height:100%;padding:0;object-fit:contain}.team-mode .drill-title{font-size:13px;min-height:32px}.team-mode .cat-label{font-size:10px}
 .more{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:22px 0}.more .btn{min-width:170px}.footer{background:#111;color:#aaa;border-top:4px solid var(--red);padding:18px 30px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px}
 .loading{display:grid;place-items:center;text-align:center;padding:20px 0 8px}.spinner{width:44px;height:44px;border:4px solid #ddd;border-top-color:var(--red);border-radius:50%;animation:spin .9s linear infinite;margin:0 auto 14px}@keyframes spin{to{transform:rotate(360deg)}}
 .viewer{position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:9999;display:none;align-items:flex-start;justify-content:center;padding:14px;overflow-y:auto;-webkit-overflow-scrolling:touch}.viewer.open{display:flex}.viewer-panel{width:min(860px,95vw);max-height:none;background:#fff;border-radius:16px;overflow:visible;position:relative;margin:0 auto 22px}.viewer-head{padding:14px 58px 10px 18px;border-bottom:1px solid #ddd;flex:0 0 auto}.viewer-head h2{margin:0;font-size:22px}.viewer-head h3{margin:3px 0 0;font-size:15px}.viewer-cat{font-size:10px;font-weight:900;color:var(--red);text-transform:uppercase;letter-spacing:.7px;margin-top:5px}.viewer-close{position:absolute;right:12px;top:11px;border:0;background:#111;color:#fff;border-radius:50%;width:34px;height:34px;font-size:19px;font-weight:900;z-index:3}.viewer-image-wrap{background:#f4f4f4;overflow:auto;-webkit-overflow-scrolling:touch;padding:10px;text-align:center;height:min(44vh,420px);display:flex;align-items:center;justify-content:center}.viewer-image-wrap img{display:block;margin:auto;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;transform-origin:top center;touch-action:pinch-zoom}.viewer-tools{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding:7px;background:#ececec;border-top:1px solid #ddd;border-bottom:1px solid #ddd;flex:0 0 auto}.viewer-tools .btn{padding:7px 10px;font-size:11px}.viewer-notes{padding:14px 18px 18px;overflow:visible}.viewer-notes h4{margin:0 0 9px;font-size:14px}.viewer-desc{line-height:1.42;font-size:13px}.viewer-desc ul{margin:7px 0 12px;padding-left:21px}.viewer-desc li{margin:0 0 7px}.viewer-section-title{font-weight:900;font-size:12px;letter-spacing:.5px;text-transform:uppercase;margin:12px 0 6px;color:#111}.viewer-key{border-left:4px solid var(--red);padding:8px 10px;background:#f7f7f7;border-radius:6px}.viewer-actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;position:sticky;bottom:0;background:#fff;padding:10px 0 2px}.viewer-source{font-size:10px;color:#777;margin-top:12px}
 @media(max-width:1050px){.quick-grid{grid-template-columns:1fr 1fr}.team-mode .grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:760px){.header{padding:13px 15px}.brand h1{font-size:20px}.brand small{font-size:9px}.pill{display:none}.set{padding:9px 12px 10px}.set-title{font-size:14px}.selected{margin-top:7px}.sel{flex-basis:124px;width:124px}.sel img{height:55px}.main{padding:15px 12px 30px}.quick{padding:15px}.quick-grid{grid-template-columns:1fr}.grid,.team-mode .grid{grid-template-columns:1fr 1fr;gap:10px}.card img,.team-mode .card img{height:170px;padding:2px}.meta{padding:8px}.num{font-size:12px}.drill-title,.team-mode .drill-title{font-size:10px;min-height:25px}.cat-label{font-size:8px}.toolbar h2{font-size:21px}.viewer{padding:5px}.viewer-panel{width:96vw;max-height:none;border-radius:11px}.viewer-head{padding:11px 46px 8px 12px}.viewer-head h2{font-size:18px}.viewer-head h3{font-size:13px}.viewer-image-wrap{padding:6px;height:min(38vh,300px)}.viewer-notes{padding:11px 12px 13px}.viewer-desc{font-size:12px}.viewer-actions .btn{flex:1 1 100%}}
+@media(max-width:760px){.header{padding:13px 15px}.brand h1{font-size:20px}.brand small{font-size:9px}.pill{display:none}.set{padding:9px 12px 10px}.set-title{font-size:14px}.selected{margin-top:7px}.sel{flex-basis:124px;width:124px}.sel img{height:55px}.main{padding:15px 12px 30px}.quick{padding:15px}.quick-grid{grid-template-columns:1fr}.grid,.team-mode .grid{grid-template-columns:1fr 1fr;gap:10px}.diagram-hit,.team-mode .diagram-hit{height:175px;padding:6px}.card img,.team-mode .card img{width:100%;height:100%;padding:0;object-fit:contain}.meta{padding:8px}.num{font-size:12px}.drill-title,.team-mode .drill-title{font-size:10px;min-height:25px}.cat-label{font-size:8px}.toolbar h2{font-size:21px}.viewer{padding:5px}.viewer-panel{width:96vw;max-height:none;border-radius:11px}.viewer-head{padding:11px 46px 8px 12px}.viewer-head h2{font-size:18px}.viewer-head h3{font-size:13px}.viewer-image-wrap{padding:6px;height:min(38vh,300px)}.viewer-notes{padding:11px 12px 13px}.viewer-desc{font-size:12px}.viewer-actions .btn{flex:1 1 100%}}
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
 <body>
 <div class="app" id="app">
@@ -108,8 +109,10 @@ button{cursor:pointer}
   let coachesByUid=new Map();
   const teamImageChunks=new Map();
   const teamChunkPromises=new Map();
-  const coachesImageChunks=new Map();
-  const coachesChunkPromises=new Map();
+  const sourcePdfCache=new Map();
+  const sourcePageCache=new Map();
+  const displayImageCache=new Map();
+  if(window.pdfjsLib) pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
   let selected=[];
   let visibleLimit=60;
   let activeLibrary='team';
@@ -171,18 +174,132 @@ button{cursor:pointer}
 
   function imageFor(d){
     if(!d)return placeholderImage;
+    if(d.displayImage)return d.displayImage;
     if(d.library==='Hockey Drill Book')return d.image||d.diagram_image||placeholderImage;
-    if(d.library==='Coaches Site Drills'){
-      if(d.image)return d.image;
-      if(d.imgChunk!=null){const chunk=coachesImageChunks.get(Number(d.imgChunk));if(chunk&&chunk[d.uid])return chunk[d.uid];}
-      return placeholderImage;
-    }
+    if(d.library==='Coaches Site Drills')return d.image||placeholderImage;
     if(d.image)return d.image;
     if(d.imgChunk!=null){
       const chunk=teamImageChunks.get(Number(d.imgChunk));
       if(chunk&&chunk[d.uid])return chunk[d.uid];
     }
     return placeholderImage;
+  }
+
+  function loadBrowserImage(src){
+    return new Promise((resolve,reject)=>{
+      const img=new Image();
+      img.onload=()=>resolve(img);
+      img.onerror=()=>reject(new Error('Image could not be decoded'));
+      img.src=src;
+    });
+  }
+
+  function cropCanvasToUrl(img,x,y,w,h){
+    x=Math.max(0,Math.round(x));y=Math.max(0,Math.round(y));
+    w=Math.max(1,Math.min(img.naturalWidth-x,Math.round(w)));
+    h=Math.max(1,Math.min(img.naturalHeight-y,Math.round(h)));
+    const c=document.createElement('canvas');c.width=w;c.height=h;
+    const ctx=c.getContext('2d',{alpha:false});ctx.fillStyle='#fff';ctx.fillRect(0,0,w,h);
+    ctx.drawImage(img,x,y,w,h,0,0,w,h);
+    return c.toDataURL('image/jpeg',0.93);
+  }
+
+  async function cleanSourcePageImage(d){
+    if(!d||!d.image)return null;
+    if(d.displayImage)return d.displayImage;
+    if(displayImageCache.has(d.uid))return displayImageCache.get(d.uid);
+    const p=(async()=>{
+      const src=String(d.source||'');
+      if(!/HockeyCoach\.com Team Drills|CoachThem \/ TeamSnap 2018/i.test(src)){
+        d.displayImage=d.image;return d.displayImage;
+      }
+      const img=await loadBrowserImage(d.image);
+      const w=img.naturalWidth,h=img.naturalHeight;
+      const sampleW=Math.min(520,w),scale=sampleW/w,sampleH=Math.max(1,Math.round(h*scale));
+      const c=document.createElement('canvas');c.width=sampleW;c.height=sampleH;
+      const ctx=c.getContext('2d',{willReadFrequently:true});ctx.drawImage(img,0,0,sampleW,sampleH);
+      const px=ctx.getImageData(0,0,sampleW,sampleH).data;
+      const blue=(r,g,b)=>b>105&&b>r+20&&b>=g+5;
+      const red=(r,g,b)=>r>150&&r>g+35&&r>b+30;
+
+      if(/HockeyCoach\.com Team Drills/i.test(src)){
+        let maxY=-1,minY=sampleH;
+        for(let y=0;y<sampleH;y++)for(let x=0;x<sampleW;x++){
+          const i=(y*sampleW+x)*4,r=px[i],g=px[i+1],b=px[i+2];
+          if(blue(r,g,b)){if(y>maxY)maxY=y;if(y<minY)minY=y;}
+        }
+        const cropBottom=maxY>sampleH*.2?Math.min(h,(maxY/scale)+18):h*.50;
+        d.displayImage=cropCanvasToUrl(img,0,0,w,cropBottom);
+        return d.displayImage;
+      }
+
+      // CoachThem pages place the rink on one side and instructions on the other.
+      let blueX=0,blueN=0;
+      const yFloor=Math.floor(sampleH*.24);
+      for(let y=yFloor;y<sampleH;y++)for(let x=0;x<sampleW;x++){
+        const i=(y*sampleW+x)*4,r=px[i],g=px[i+1],b=px[i+2];
+        if(blue(r,g,b)){blueX+=x;blueN++;}
+      }
+      const right=blueN?(blueX/blueN)>sampleW/2:false;
+      const sx0=right?Math.floor(sampleW*.43):0;
+      const sx1=right?sampleW:Math.ceil(sampleW*.57);
+      let minX=sx1,minY=sampleH,maxX=sx0,maxY=yFloor,n=0;
+      for(let y=yFloor;y<sampleH;y++)for(let x=sx0;x<sx1;x++){
+        const i=(y*sampleW+x)*4,r=px[i],g=px[i+1],b=px[i+2];
+        if(red(r,g,b)||blue(r,g,b)){
+          minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y);n++;
+        }
+      }
+      if(n<80){d.displayImage=d.image;return d.displayImage;}
+      const padX=18,padY=18;
+      const x0=Math.max(0,(minX-padX)/scale),y0=Math.max(0,(minY-padY)/scale);
+      const x1=Math.min(w,(maxX+padX)/scale),y1=Math.min(h,(maxY+padY)/scale);
+      d.displayImage=cropCanvasToUrl(img,x0,y0,x1-x0,y1-y0);
+      return d.displayImage;
+    })().catch(err=>{console.warn('Source crop failed',d&&d.uid,err);return d.image||null;});
+    displayImageCache.set(d.uid,p);return p;
+  }
+
+  function getSourcePdf(url){
+    if(!window.pdfjsLib)return Promise.reject(new Error('PDF renderer unavailable'));
+    if(!sourcePdfCache.has(url)){
+      const p=pdfjsLib.getDocument({url:url,disableAutoFetch:false,rangeChunkSize:131072}).promise;
+      sourcePdfCache.set(url,p);p.catch(()=>sourcePdfCache.delete(url));
+    }
+    return sourcePdfCache.get(url);
+  }
+
+  async function getSourcePageCanvas(d,scale=1.2){
+    const key=d.source_url+'|'+d.source_page+'|'+scale;
+    if(sourcePageCache.has(key))return sourcePageCache.get(key);
+    const p=(async()=>{
+      const pdf=await getSourcePdf(d.source_url);
+      const page=await pdf.getPage(Number(d.source_page));
+      const viewport=page.getViewport({scale});
+      const c=document.createElement('canvas');c.width=Math.ceil(viewport.width);c.height=Math.ceil(viewport.height);
+      const ctx=c.getContext('2d',{alpha:false});ctx.fillStyle='#fff';ctx.fillRect(0,0,c.width,c.height);
+      await page.render({canvasContext:ctx,viewport}).promise;return c;
+    })();
+    sourcePageCache.set(key,p);p.catch(()=>sourcePageCache.delete(key));return p;
+  }
+
+  async function ensureCoachesOriginal(d){
+    if(!d)return;
+    if(d.image)return d.image;
+    if(!d.source_url||!d.source_page||!Array.isArray(d.diagram_rect))throw new Error('Original source crop metadata is missing');
+    const scale=1.2,pageCanvas=await getSourcePageCanvas(d,scale);
+    const [x0,y0,x1,y1]=d.diagram_rect.map(Number);
+    const sx=Math.max(0,Math.floor(x0*scale)),sy=Math.max(0,Math.floor(y0*scale));
+    const sw=Math.max(1,Math.min(pageCanvas.width-sx,Math.ceil((x1-x0)*scale)));
+    const sh=Math.max(1,Math.min(pageCanvas.height-sy,Math.ceil((y1-y0)*scale)));
+    const out=document.createElement('canvas');out.width=sw;out.height=sh;
+    const ctx=out.getContext('2d',{alpha:false});ctx.fillStyle='#fff';ctx.fillRect(0,0,sw,sh);
+    ctx.drawImage(pageCanvas,sx,sy,sw,sh,0,0,sw,sh);
+    d.image=out.toDataURL('image/jpeg',0.94);
+    d.displayImage=d.image;
+    document.querySelectorAll('[data-img-uid="'+d.uid+'"]').forEach(el=>{el.src=d.image;});
+    if(viewerDrill&&viewerDrill.uid===d.uid)$('#viewerImg').src=d.image;
+    return d.image;
   }
 
   function setStatus(msg,type=''){const el=$('#status');el.textContent=msg;el.className='status '+type;}
@@ -224,9 +341,13 @@ button{cursor:pointer}
       teamImageChunks.set(chunkIndex,images);
       Object.entries(images).forEach(([uid,img])=>{
         const d=teamByUid.get(uid);
-        if(d)d.image=img;
-        document.querySelectorAll('[data-img-uid="'+uid+'"]').forEach(el=>{el.src=img;});
-        if(viewerDrill&&viewerDrill.uid===uid)$('#viewerImg').src=img;
+        if(!d)return;
+        d.image=img;
+        cleanSourcePageImage(d).then(clean=>{
+          const shown=clean||img;
+          document.querySelectorAll('[data-img-uid="'+uid+'"]').forEach(el=>{el.src=shown;});
+          if(viewerDrill&&viewerDrill.uid===uid)$('#viewerImg').src=shown;
+        });
       });
       return images;
     })().catch(err=>{teamChunkPromises.delete(chunkIndex);console.error(err);throw err;});
@@ -234,40 +355,24 @@ button{cursor:pointer}
     return p;
   }
 
-  async function ensureCoachesChunk(chunkIndex){
-    chunkIndex=Number(chunkIndex);
-    if(coachesImageChunks.has(chunkIndex))return coachesImageChunks.get(chunkIndex);
-    if(coachesChunkPromises.has(chunkIndex))return coachesChunkPromises.get(chunkIndex);
-    const p=(async()=>{
-      const url='data/coaches-site/images/chunk_'+String(chunkIndex).padStart(3,'0')+'.json?v=2';
-      const r=await fetch(url,{cache:'no-store'});
-      if(!r.ok)throw new Error('Coaches Site diagram chunk '+chunkIndex+' returned '+r.status);
-      const images=await r.json();
-      coachesImageChunks.set(chunkIndex,images);
-      Object.entries(images).forEach(([uid,img])=>{
-        const d=coachesByUid.get(uid);
-        if(d)d.image=img;
-        document.querySelectorAll('[data-img-uid="'+uid+'"]').forEach(el=>{el.src=img;});
-        if(viewerDrill&&viewerDrill.uid===uid)$('#viewerImg').src=img;
-      });
-      return images;
-    })().catch(err=>{coachesChunkPromises.delete(chunkIndex);console.error(err);throw err;});
-    coachesChunkPromises.set(chunkIndex,p);
-    return p;
-  }
-
   function ensureDrillImage(d){
-    if(!d||d.image||d.imgChunk==null)return Promise.resolve();
-    if(d.library==='Team Drills')return ensureTeamChunk(d.imgChunk);
-    if(d.library==='Coaches Site Drills')return ensureCoachesChunk(d.imgChunk);
-    return Promise.resolve();
+    if(!d)return Promise.resolve();
+    if(d.library==='Coaches Site Drills')return ensureCoachesOriginal(d);
+    if(d.library==='Team Drills'){
+      if(d.image)return cleanSourcePageImage(d);
+      if(d.imgChunk!=null)return ensureTeamChunk(d.imgChunk).then(()=>cleanSourcePageImage(d));
+    }
+    return Promise.resolve(imageFor(d));
   }
 
   function primeVisibleImages(rows){
     if(['rich-full','turk','weiss'].includes(activeLibrary)){
-      [...new Set(rows.map(d=>d.imgChunk).filter(x=>x!=null))].forEach(i=>ensureTeamChunk(i).catch(err=>setStatus('A Full Ice drill diagram group did not load. Scroll or refresh to retry.','err')));
+      [...new Set(rows.map(d=>d.imgChunk).filter(x=>x!=null))].forEach(i=>ensureTeamChunk(i).catch(err=>setStatus('An original drill image group did not load. Scroll or refresh to retry.','err')));
     }else if(activeLibrary==='coaches'){
-      [...new Set(rows.map(d=>d.imgChunk).filter(x=>x!=null))].forEach(i=>ensureCoachesChunk(i).catch(err=>setStatus('A Coaches Site diagram group did not load. Scroll or refresh to retry.','err')));
+      rows.forEach(d=>ensureCoachesOriginal(d).catch(err=>{
+        const el=document.querySelector('[data-img-uid="'+d.uid+'"]');
+        if(el){el.alt='Original source diagram unavailable';el.src=placeholderImage;}
+      }));
     }
   }
 
@@ -290,7 +395,7 @@ button{cursor:pointer}
   async function loadCoaches(){
     if(coachesDatabase)return coachesDatabase;
     showLoading('Loading Coaches Site Drills library…');
-    const r=await fetch('data/coaches-site/coaches-site-drills.json?v=19',{cache:'no-store'});
+    const r=await fetch('data/coaches-site/coaches-site-drills.json?v=20',{cache:'no-store'});
     if(!r.ok)throw new Error('Coaches Site metadata returned '+r.status);
     const rows=await r.json();
     coachesDatabase=(Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({
@@ -300,7 +405,9 @@ button{cursor:pointer}
       title:d.title||'',
       category:d.category||'Other',
       source:d.source||'The Coaches Site',
-      image:d.image||''
+      image:'',
+      imgChunk:null,
+      originalVerified:!!(d.source_url&&d.source_page&&Array.isArray(d.diagram_rect))
     }));
     coachesByUid=new Map(coachesDatabase.map(d=>[d.uid,d]));
     return coachesDatabase;
@@ -309,7 +416,7 @@ button{cursor:pointer}
   async function loadBook(){
     if(bookDatabase)return bookDatabase;
     showLoading('Loading Hockey Drill Book library…');
-    const r=await fetch('data/hockey-drill-book/hockey-drill-book.json?v=19',{cache:'no-store'});
+    const r=await fetch('data/hockey-drill-book/hockey-drill-book.json?v=20',{cache:'no-store'});
     if(!r.ok)throw new Error('Hockey Drill Book metadata returned '+r.status);
     const rows=await r.json();
     bookDatabase=(Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({
@@ -363,7 +470,7 @@ button{cursor:pointer}
   }
 
   function saveSelected(){
-    try{localStorage.setItem('mch-selected-v8',JSON.stringify(selected.map(d=>({uid:d.uid,number:d.number,title:d.title||'',category:d.category||'',kind:d.kind||'drill',library:d.library||activeLibrary,image:d.image,description:d.description||'',includeDescription:!!d.includeDescription}))));}catch(e){}
+    try{localStorage.setItem('mch-selected-v8',JSON.stringify(selected.map(d=>({uid:d.uid,number:d.number,title:d.title||'',category:d.category||'',kind:d.kind||'drill',library:d.library||activeLibrary,image:imageFor(d),description:d.description||'',includeDescription:!!d.includeDescription}))));}catch(e){}
   }
   function restoreSelected(){
     try{const saved=JSON.parse(localStorage.getItem('mch-selected-v8')||'[]');selected=Array.isArray(saved)?saved.filter(d=>d&&d.uid&&d.image):[];}catch(e){selected=[];}
@@ -402,7 +509,7 @@ button{cursor:pointer}
         return '<article class="card '+(selectedDrill?'selected-card':'')+'" data-uid="'+esc(d.uid)+'">'+
           ((['rich-full','turk','weiss','coaches','book'].includes(activeLibrary))?'<button class="quick-add-card" data-add="'+esc(d.uid)+'" title="Quick add diagram only">'+(selectedDrill?'✓':'+')+'</button>':'')+
           '<button class="diagram-hit" data-open="'+esc(d.uid)+'"><img loading="lazy" data-img-uid="'+esc(d.uid)+'" src="'+esc(imageFor(d))+'" alt="Drill '+esc(d.number)+'"></button>'+
-          '<div class="meta"><div class="num">Drill '+esc(d.number)+'</div><div class="drill-title">'+esc(title)+'</div><div class="cat-label">'+esc(d.category||'')+'</div>'+(d.kind==='system'?'<span class="system-badge">SYSTEM</span>':'')+'</div></article>';
+          '<div class="meta"><div class="num">Drill '+esc(d.number)+'</div><div class="drill-title">'+esc(title)+'</div><div class="cat-label">'+esc(d.category||'')+'</div><div class="source-proof '+(d.library==='Coaches Site Drills'&&!d.image?'pending':'')+'">'+(d.library==='Coaches Site Drills'&&!d.image?'Original source loading':'Original source diagram')+'</div>'+(d.kind==='system'?'<span class="system-badge">SYSTEM</span>':'')+'</div></article>';
       }).join('');
     }
     $('#grid').querySelectorAll('[data-add]').forEach(b=>b.onclick=async e=>{
@@ -448,6 +555,7 @@ button{cursor:pointer}
   async function openViewer(d){
     if(!d)return;
     viewerDrill=d;zoom=100;setZoom(100);
+    try{await ensureDrillImage(d);}catch(err){console.warn('Original diagram load failed',d.uid,err);}
     $('#viewerImg').src=imageFor(d);$('#viewerImg').alt='Drill '+d.number+' — '+(d.title||'');
     $('#viewerNum').textContent='Drill '+d.number+(d.kind==='system'?' · SYSTEM':'');
     $('#viewerTitle').textContent=d.title||'';$('#viewerCat').textContent=d.category||'';
@@ -457,9 +565,6 @@ button{cursor:pointer}
     $('#addDiagram').textContent=current&&!current.includeDescription?'✓ Diagram Selected':'Add Diagram Only';
     $('#addNotes').textContent=current&&current.includeDescription?'✓ Diagram + Instructions Selected':'Add Diagram + Instructions';
     $('#viewer').classList.add('open');$('#viewer').setAttribute('aria-hidden','false');document.body.style.overflow='hidden';$('#viewer').scrollTop=0;
-    if(!d.image&&d.imgChunk!=null){
-      try{await ensureDrillImage(d);}catch(err){if(viewerDrill&&viewerDrill.uid===d.uid)setStatus('Could not load Drill '+d.number+' diagram.','err');}
-    }
   }
   function closeViewer(){$('#viewer').classList.remove('open');$('#viewer').setAttribute('aria-hidden','true');viewerDrill=null;document.body.style.overflow='';}
 
