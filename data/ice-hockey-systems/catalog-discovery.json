@@ -3926,7 +3926,7 @@
       "Conditioning"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Skating category page 2"
   },
   {
@@ -3941,7 +3941,7 @@
       "Quarter Ice Station"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Skating category page 2"
   },
   {
@@ -3956,7 +3956,7 @@
       "Backwards Skating"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Skating category page 2"
   },
   {
@@ -3971,7 +3971,280 @@
       "Quarter Ice Station"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Skating category page 2"
+  },
+  {
+    "discovery_number": 295,
+    "title": "Merrimack Wall Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/merrimack-wall-drill",
+    "categories": [
+      "Breakouts",
+      "Half Ice",
+      "Puck Control",
+      "Skill Development",
+      "Wall Play",
+      "Retrievals",
+      "Shooting",
+      "Overspeed"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle/Skill/Conditioning category discovery"
+  },
+  {
+    "discovery_number": 296,
+    "title": "1 v 1 Three Gates Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-three-gates-game",
+    "categories": [
+      "1 on 1",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Defensive",
+      "Half Ice",
+      "Offensive",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station",
+      "Stickhandling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle/Skill/Conditioning category discovery"
+  },
+  {
+    "discovery_number": 297,
+    "title": "Neutral Zone Game with Outlets",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-game-outlets",
+    "categories": [
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Re-Group",
+      "Skill Development",
+      "Small Area Games",
+      "Transition",
+      "Neutral Zone",
+      "2 on 2",
+      "3 on 3",
+      "Battle Drills",
+      "Conditioning",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle/Skill/Conditioning category discovery"
+  },
+  {
+    "discovery_number": 298,
+    "title": "Long Bomb",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/long-bomb",
+    "categories": [
+      "Passing",
+      "Offensive",
+      "Small Area Games",
+      "Neutral Zone",
+      "2 on 2",
+      "3 on 3",
+      "Backchecking",
+      "Conditioning",
+      "Coverage",
+      "Defensive",
+      "Explosion",
+      "Full Ice",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle/Skill/Conditioning category discovery"
+  },
+  {
+    "discovery_number": 299,
+    "title": "Battle Dome 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/battle-dome-1-on-1",
+    "categories": [
+      "1 on 1",
+      "Battle Drills",
+      "Down Low",
+      "Puck Control",
+      "Puck Protection",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Wall Play",
+      "Angling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle/Skill/Conditioning category discovery"
+  },
+  {
+    "discovery_number": 300,
+    "title": "Fran Gow 3 on 2 or 3 on 3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/fran-gow-3-on-2-or-3-on-3",
+    "categories": [
+      "3 on 2",
+      "3 on 3",
+      "Battle Drills",
+      "Coverage",
+      "Cycling",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "One Goalie",
+      "Puck Control",
+      "Retrievals",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle/Skill/Conditioning category discovery"
+  },
+  {
+    "discovery_number": 301,
+    "title": "3 vs 2 Three Pucks Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-vs-2-three-pucks-game",
+    "categories": [
+      "3 on 2",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Offensive",
+      "Puck Support",
+      "Small Area Games",
+      "Goalie",
+      "Rebounds"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle/Skill/Conditioning category discovery"
+  },
+  {
+    "discovery_number": 302,
+    "title": "2 on 2 Angle Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-2-angle-game",
+    "categories": [
+      "2 on 2",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Defensive",
+      "Forechecking",
+      "Half Ice",
+      "Offensive",
+      "Skill Development",
+      "Small Area Games",
+      "Transition",
+      "3 on 2"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle/Skill/Conditioning category discovery"
+  },
+  {
+    "discovery_number": 303,
+    "title": "1 v 1 Through Gates",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-through-gates",
+    "categories": [
+      "1 on 1",
+      "Battle Drills",
+      "Checking",
+      "Gap",
+      "Half Ice",
+      "Puck Protection",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Battle/Offensive category discovery"
+  },
+  {
+    "discovery_number": 304,
+    "title": "Defend The Gate",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defend-gate",
+    "categories": [
+      "1 on 1",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Half Ice",
+      "Offensive",
+      "Puck Control",
+      "Puck Protection",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Battle/Offensive category discovery"
+  },
+  {
+    "discovery_number": 305,
+    "title": "Corner Houda",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-houda",
+    "categories": [
+      "3 on 3",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "Penalty Kill",
+      "Power Play",
+      "Small Area Games",
+      "Transition",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Battle/Offensive category discovery"
+  },
+  {
+    "discovery_number": 306,
+    "title": "2 on 2 Net to Corner",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-2-net-corner",
+    "categories": [
+      "2 on 2",
+      "Battle Drills",
+      "Down Low",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Battle/Offensive category discovery"
+  },
+  {
+    "discovery_number": 307,
+    "title": "2 v 0 High Roll",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-0-high-roll",
+    "categories": [
+      "2 on 0",
+      "Cycling",
+      "Offensive Zone",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Battle/Offensive category discovery"
   }
 ]
