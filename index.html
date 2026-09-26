@@ -22,7 +22,7 @@ button{cursor:pointer}
 .selected{display:flex;gap:9px;overflow-x:auto;overflow-y:hidden;margin-top:10px;padding-bottom:3px;min-height:30px;scrollbar-width:thin}.selected-empty{color:#aaa;padding:5px 0;font-size:13px}
 .sel{flex:0 0 150px;width:150px;background:#fff;color:#111;border-radius:9px;padding:6px;position:relative}.sel img{display:block;width:100%;height:74px;object-fit:contain;background:#fafafa}.sel b{font-size:11px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:3px}.sel small{display:block;color:#777;font-size:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}.x{position:absolute;right:5px;top:5px;width:23px;height:23px;border-radius:50%;border:0;background:#111;color:#fff;font-weight:900;z-index:2}
 .main{padding:22px 30px 35px}
-.quick{background:#151515;color:#fff;border-left:5px solid var(--red);border-radius:18px;padding:18px 22px;margin-bottom:22px}.quick h2{margin:0 0 4px;font-size:21px}.quick p{margin:0 0 15px;color:#bbb;font-size:13px}.quick-grid{display:grid;grid-template-columns:1fr 1.15fr 1fr .7fr auto;gap:12px;align-items:end}.field label{display:block;font-size:10px;font-weight:900;letter-spacing:1.4px;color:#bbb;margin-bottom:6px}.control{width:100%;height:46px;border:1px solid #555;background:#111;color:#fff;border-radius:9px;padding:0 12px}
+.quick{background:#151515;color:#fff;border-left:5px solid var(--red);border-radius:18px;padding:18px 22px;margin-bottom:22px}.quick h2{margin:0 0 4px;font-size:21px}.quick p{margin:0 0 15px;color:#bbb;font-size:13px}.quick-grid{display:grid;grid-template-columns:1.35fr 1.05fr .72fr .72fr .7fr auto .78fr;gap:12px;align-items:end}.stat-box{height:46px;border:1px solid #555;background:#1d1d1d;border-radius:9px;padding:5px 10px;display:flex;flex-direction:column;justify-content:center}.stat-box small{font-size:8px;letter-spacing:1px;color:#aaa;font-weight:900}.stat-box strong{font-size:18px;line-height:1.05;color:#fff}.stat-box.total{border-color:#d71920;background:#26090b}.stat-box.total strong{font-size:20px}.field label{display:block;font-size:10px;font-weight:900;letter-spacing:1.4px;color:#bbb;margin-bottom:6px}.control{width:100%;height:46px;border:1px solid #555;background:#111;color:#fff;border-radius:9px;padding:0 12px}
 .toolbar{display:flex;justify-content:space-between;gap:14px;align-items:end;flex-wrap:wrap;margin-bottom:12px}.toolbar h2{margin:0;font-size:25px}.sub{color:#777;font-size:13px;margin-top:4px}.search{width:min(430px,100%);height:44px;border:1px solid #ccc;border-radius:12px;padding:0 14px}
 .status{padding:9px 12px;background:#f5f5f5;border-radius:10px;font-size:12px;margin:9px 0 15px}.status.ok{border-left:4px solid #2e8b57}.status.err{border-left:4px solid var(--red);color:#9d1016}.status.preview{border-left:4px solid var(--red)}
 .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.card{border:1px solid #ddd;border-radius:14px;overflow:hidden;background:#fff;position:relative;transition:.15s}.card:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(0,0,0,.08)}.card.selected-card{outline:3px solid var(--red)}.diagram-hit{display:block;width:100%;border:0;padding:0;background:#fafafa;cursor:zoom-in}.card img{display:block;width:100%;height:210px;object-fit:contain;background:#fafafa}.meta{padding:9px 11px 11px}.num{font-weight:900;font-size:14px}.drill-title{font-size:12px;font-weight:800;margin-top:3px;line-height:1.22;min-height:29px}.cat-label{font-size:9px;color:#777;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.system-badge{display:inline-block;background:#111;color:#fff;border-radius:999px;font-size:8px;font-weight:900;letter-spacing:.6px;padding:3px 7px;margin-top:5px}.quick-add-card{position:absolute;right:7px;top:7px;width:34px;height:34px;border-radius:50%;border:0;background:var(--red);color:#fff;font-weight:900;z-index:3}
@@ -48,13 +48,15 @@ button{cursor:pointer}
   <main class="main">
     <section class="quick">
       <h2>Quick Add by Drill Number</h2>
-      <p>Team Drills open first so you can choose diagram-only or diagram + instructions.</p>
+      <p>Choose a library, narrow by drill type, then search or add by drill number.</p>
       <div class="quick-grid">
-        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="team">Team Drills</option><option value="travel">Travel Skills</option><option value="coaches">Coaches Site Drills</option><option value="book">The Hockey Drill Book — 446 Drills</option></select></div>
+        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
-        <div class="field" id="coachField"><label>DRILL SOURCE</label><select class="control" id="coachSelect"><option value="">All Sources</option><option value="rich">Rich Drills</option><option value="weiss">Weiss Drills</option><option value="turk">Turk Drills</option><option value="coaches">Coaches Site</option></select></div>
+        <div class="stat-box"><small>FULL ICE DRILLS</small><strong>570</strong></div>
+        <div class="stat-box"><small>SKILL ZONE DRILLS</small><strong>452</strong></div>
         <div class="field"><label>DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
         <button class="btn red" id="quickAdd">Find Drill</button>
+        <div class="stat-box total"><small>TOTAL DRILLS</small><strong>1,614</strong></div>
       </div>
     </section>
 
@@ -100,6 +102,7 @@ button{cursor:pointer}
   let travelDatabase=null;
   let teamDatabase=null;
   let coachesDatabase=null;
+  let bookDatabase=null;
   let teamMeta=null;
   let teamByUid=new Map();
   let coachesByUid=new Map();
@@ -168,6 +171,7 @@ button{cursor:pointer}
 
   function imageFor(d){
     if(!d)return placeholderImage;
+    if(d.library==='Hockey Drill Book')return d.image||d.diagram_image||placeholderImage;
     if(d.library==='Coaches Site Drills'){
       if(d.image)return d.image;
       if(d.imgChunk!=null){const chunk=coachesImageChunks.get(Number(d.imgChunk));if(chunk&&chunk[d.uid])return chunk[d.uid];}
@@ -194,6 +198,18 @@ button{cursor:pointer}
     teamDatabase=(teamMeta.items||[]).filter(d=>d&&d.number!=null).map(d=>({...d,library:'Team Drills',image:''}));
     teamByUid=new Map(teamDatabase.map(d=>[d.uid,d]));
     return teamDatabase;
+  }
+
+  function teamGroup(d){
+    const src=String(d&&d.source||'').toLowerCase();
+    if(src.includes('weiss'))return 'weiss';
+    if(src.includes('turk'))return 'turk';
+    return 'rich-full';
+  }
+
+  async function loadFullIceLibrary(lib){
+    const all=await loadTeam();
+    return all.filter(d=>teamGroup(d)===lib);
   }
 
   async function ensureTeamChunk(chunkIndex){
@@ -248,8 +264,8 @@ button{cursor:pointer}
   }
 
   function primeVisibleImages(rows){
-    if(activeLibrary==='team'){
-      [...new Set(rows.map(d=>d.imgChunk).filter(x=>x!=null))].forEach(i=>ensureTeamChunk(i).catch(err=>setStatus('A Team Drill diagram group did not load. Scroll or refresh to retry.','err')));
+    if(['rich-full','turk','weiss'].includes(activeLibrary)){
+      [...new Set(rows.map(d=>d.imgChunk).filter(x=>x!=null))].forEach(i=>ensureTeamChunk(i).catch(err=>setStatus('A Full Ice drill diagram group did not load. Scroll or refresh to retry.','err')));
     }else if(activeLibrary==='coaches'){
       [...new Set(rows.map(d=>d.imgChunk).filter(x=>x!=null))].forEach(i=>ensureCoachesChunk(i).catch(err=>setStatus('A Coaches Site diagram group did not load. Scroll or refresh to retry.','err')));
     }
@@ -274,7 +290,7 @@ button{cursor:pointer}
   async function loadCoaches(){
     if(coachesDatabase)return coachesDatabase;
     showLoading('Loading Coaches Site Drills library…');
-    const r=await fetch('data/coaches-site/coaches-site-drills.json?v=18',{cache:'no-store'});
+    const r=await fetch('data/coaches-site/coaches-site-drills.json?v=19',{cache:'no-store'});
     if(!r.ok)throw new Error('Coaches Site metadata returned '+r.status);
     const rows=await r.json();
     coachesDatabase=(Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({
@@ -290,36 +306,60 @@ button{cursor:pointer}
     return coachesDatabase;
   }
 
+  async function loadBook(){
+    if(bookDatabase)return bookDatabase;
+    showLoading('Loading Hockey Drill Book library…');
+    const r=await fetch('data/hockey-drill-book/hockey-drill-book.json?v=19',{cache:'no-store'});
+    if(!r.ok)throw new Error('Hockey Drill Book metadata returned '+r.status);
+    const rows=await r.json();
+    bookDatabase=(Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({
+      ...d,
+      library:'Hockey Drill Book',
+      image:d.diagram_image||''
+    }));
+    return bookDatabase;
+  }
+
   async function switchLibrary(lib){
-    activeLibrary=lib;visibleLimit=lib==='coaches'?36:60;$('#search').value='';$('#quickNumber').value='';$('#coachSelect').value='';
-    $('#app').classList.toggle('team-mode',lib==='team'||lib==='coaches');
-    $('#coachField').hidden=!(lib==='team'||lib==='coaches');
+    activeLibrary=lib;visibleLimit=lib==='coaches'?36:60;$('#search').value='';$('#quickNumber').value='';
+    $('#app').classList.toggle('team-mode',['rich-full','turk','weiss','coaches','book'].includes(lib));
     try{
-      database=lib==='team'?await loadTeam():(lib==='travel'?await loadTravel():await loadCoaches());
+      if(lib==='coaches') database=await loadCoaches();
+      else if(lib==='rich-skills') database=await loadTravel();
+      else if(lib==='book') database=await loadBook();
+      else database=await loadFullIceLibrary(lib);
+
       populateCategories();hideLoading();
-      if(lib==='team'){
-        $('#browseTitle').textContent='Browse Team Drill Library';
-        $('#browseSub').textContent='Diagram + short title only. Tap a diagram to view full instructions and add options.';
-        setStatus('Loaded '+database.length+' Team Drills. Use Load More or Show All at the bottom to view the entire library.','ok');
-      }else if(lib==='travel'){
-        $('#browseTitle').textContent='Browse Travel Skills Library';
-        $('#browseSub').textContent='Tap a drill to add or remove it.';
-        setStatus('Loaded '+database.length+' Travel Skills drills.','ok');
-      }else{
-        $('#browseTitle').textContent='Browse Coaches Site Drills';
-        $('#browseSub').textContent='Membership-sourced drills you have supplied for your private Motor City Hockey library.';
-        setStatus(database.length
-          ? 'Loaded '+database.length+' Coaches Site drills. Filter by category or search by drill title.'
-          : 'Coaches Site library is ready. Import your legitimately downloaded membership files to populate it.','ok');
-      }
+
+      const names={
+        'coaches':'Coaches Site',
+        'book':'Hockey Drill Book',
+        'rich-full':'Rich Full Ice Drills',
+        'rich-skills':'Rich Skill Drills',
+        'turk':'Turk Hockey Drills',
+        'weiss':'Weiss Hockey Drills'
+      };
+      const name=names[lib]||'Drill Library';
+      $('#browseTitle').textContent='Browse '+name;
+      $('#browseSub').textContent=lib==='rich-skills'
+        ? 'Skill-zone drills organized by drill type. Tap a drill to add or remove it.'
+        : 'Diagram + short title. Tap a drill to view details and add it to your practice set.';
+      setStatus('Loaded '+database.length+' '+name+'. Use Drill Type or Search to narrow the library.','ok');
       renderSelected();renderGrid(true);
     }catch(err){hideLoading();setStatus('DATABASE ERROR: '+err.message,'err');console.error(err);}
   }
 
   function populateCategories(){
     const categories=[...new Set(database.map(d=>d.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
-    const allLabel=activeLibrary==='team'?'ALL TEAM DRILLS':(activeLibrary==='travel'?'All Travel Skills':'ALL COACHES SITE DRILLS');
-    $('#category').innerHTML='<option value="">'+allLabel+'</option>'+categories.map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
+    const names={
+      'coaches':'COACHES SITE',
+      'book':'HOCKEY DRILL BOOK',
+      'rich-full':'RICH FULL ICE DRILLS',
+      'rich-skills':'RICH SKILL DRILLS',
+      'turk':'TURK HOCKEY DRILLS',
+      'weiss':'WEISS HOCKEY DRILLS'
+    };
+    $('#category').innerHTML='<option value="">ALL '+(names[activeLibrary]||'DRILLS')+'</option>'+categories.map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
   }
 
   function saveSelected(){
@@ -345,18 +385,9 @@ button{cursor:pointer}
     strip.querySelectorAll('[data-x]').forEach(b=>b.onclick=()=>removeSelected(b.dataset.x));
   }
 
-  function coachSource(d){
-    const src=String(d&&d.source||'').toLowerCase();
-    if(src.includes('motor city hockey')||src.includes('rich mihelic'))return 'rich';
-    if(src.includes('weiss'))return 'weiss';
-    if(src.includes('turk'))return 'turk';
-    if(src.includes('coaches site'))return 'coaches';
-    return '';
-  }
-
   function filtered(){
-    const cat=$('#category').value,coach=$('#coachSelect').value,q=$('#search').value.trim().toLowerCase();
-    return database.filter(d=>(!cat||d.category===cat)&&(!coach||coachSource(d)===coach)&&(!q||[d.number,d.title,d.teaser,d.category,d.description,d.source,d.author,d.source_collection,(d.tags||[]).join(' ')].join(' ').toLowerCase().includes(q))).sort((a,b)=>Number(a.number)-Number(b.number));
+    const cat=$('#category').value,q=$('#search').value.trim().toLowerCase();
+    return database.filter(d=>(!cat||d.category===cat)&&(!q||[d.number,d.title,d.teaser,d.category,d.description,d.source,d.author,d.source_collection,d.chapter,(d.tags||[]).join(' ')].join(' ').toLowerCase().includes(q))).sort((a,b)=>Number(a.number)-Number(b.number));
   }
 
   function renderGrid(reset=true){
@@ -369,7 +400,7 @@ button{cursor:pointer}
         const selectedDrill=chosen(d.uid);
         const title=d.teaser||d.title||'';
         return '<article class="card '+(selectedDrill?'selected-card':'')+'" data-uid="'+esc(d.uid)+'">'+
-          ((activeLibrary==='team'||activeLibrary==='coaches')?'<button class="quick-add-card" data-add="'+esc(d.uid)+'" title="Quick add diagram only">'+(selectedDrill?'✓':'+')+'</button>':'')+
+          ((['rich-full','turk','weiss','coaches','book'].includes(activeLibrary))?'<button class="quick-add-card" data-add="'+esc(d.uid)+'" title="Quick add diagram only">'+(selectedDrill?'✓':'+')+'</button>':'')+
           '<button class="diagram-hit" data-open="'+esc(d.uid)+'"><img loading="lazy" data-img-uid="'+esc(d.uid)+'" src="'+esc(imageFor(d))+'" alt="Drill '+esc(d.number)+'"></button>'+
           '<div class="meta"><div class="num">Drill '+esc(d.number)+'</div><div class="drill-title">'+esc(title)+'</div><div class="cat-label">'+esc(d.category||'')+'</div>'+(d.kind==='system'?'<span class="system-badge">SYSTEM</span>':'')+'</div></article>';
       }).join('');
@@ -386,7 +417,7 @@ button{cursor:pointer}
     });
     $('#grid').querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{
       const d=database.find(x=>x.uid===b.dataset.open);
-      if(activeLibrary==='team'||activeLibrary==='coaches')openViewer(d);
+      if(['rich-full','turk','weiss','coaches','book'].includes(activeLibrary))openViewer(d);
       else{const x=chosen(d.uid);if(x)removeSelected(d.uid);else addSelected(d,false);}
     });
     $('#grid').querySelectorAll('img').forEach(img=>img.onerror=()=>{img.onerror=null;img.alt='Diagram unavailable';img.style.background='#f1f1f1';});
@@ -438,9 +469,8 @@ button{cursor:pointer}
   $('#addNotes').onclick=async()=>{if(!viewerDrill)return;if(!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureDrillImage(viewerDrill);addSelected(viewerDrill,true);openViewer(viewerDrill);};
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeViewer();});
 
-  $('#librarySelect').addEventListener('change',()=>{const lib=$('#librarySelect').value;if(lib==='book'){location.href='coaches.html?source=book&v=18';return;}switchLibrary(lib);});
+  $('#librarySelect').addEventListener('change',()=>switchLibrary($('#librarySelect').value));
   $('#category').addEventListener('change',()=>renderGrid(true));
-  $('#coachSelect').addEventListener('change',()=>renderGrid(true));
   $('#search').addEventListener('input',()=>renderGrid(true));
   $('#moreBtn').onclick=()=>{visibleLimit+=activeLibrary==='coaches'?36:60;renderGrid(false);};
   $('#showAllBtn').onclick=()=>{visibleLimit=filtered().length;renderGrid(false);};
@@ -452,11 +482,11 @@ button{cursor:pointer}
     }
   },{passive:true});
   $('#quickAdd').onclick=()=>{
-    const n=$('#quickNumber').value.trim(),cat=$('#category').value,coach=$('#coachSelect').value;
+    const n=$('#quickNumber').value.trim(),cat=$('#category').value;
     if(!n){setStatus('Enter a drill number first.','err');return;}
-    const d=database.find(x=>String(x.number)===n&&(!cat||x.category===cat)&&(!coach||coachSource(x)===coach));
+    const d=database.find(x=>String(x.number)===n&&(!cat||x.category===cat));
     if(!d){setStatus('Drill '+n+' was not found in the current selection.','err');return;}
-    if(activeLibrary==='team'||activeLibrary==='coaches'){openViewer(d);setStatus('Choose Diagram Only or Diagram + Instructions.','ok');}
+    if(['rich-full','turk','weiss','coaches','book'].includes(activeLibrary)){openViewer(d);setStatus('Choose Diagram Only or Diagram + Instructions.','ok');}
     else{const x=chosen(d.uid);if(x)removeSelected(d.uid);else addSelected(d,false);setStatus('Updated Drill '+d.number+'.','ok');}
     $('#quickNumber').value='';
   };
@@ -471,7 +501,7 @@ button{cursor:pointer}
   };
 
   const requestedLibrary=new URLSearchParams(location.search).get('library');
-  const initialLibrary=requestedLibrary==='travel'?'travel':(requestedLibrary==='coaches'?'coaches':'team');
+  const initialLibrary=requestedLibrary==='travel'?'rich-skills':(requestedLibrary==='team'?'rich-full':(['coaches','book','rich-full','rich-skills','turk','weiss'].includes(requestedLibrary)?requestedLibrary:'coaches'));
   $('#librarySelect').value=initialLibrary;
   restoreSelected();switchLibrary(initialLibrary);
 })();
