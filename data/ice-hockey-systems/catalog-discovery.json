@@ -811,7 +811,7 @@
       "Puck Protection"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -827,7 +827,7 @@
       "Offensive Zone"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -841,7 +841,7 @@
       "2 on 2"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -857,7 +857,7 @@
       "2 on 0"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -871,7 +871,7 @@
       "Explosion"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -887,7 +887,7 @@
       "2 on 2"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -903,7 +903,7 @@
       "Offensive"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -919,7 +919,7 @@
       "Breakouts"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -935,7 +935,7 @@
       "Offensive"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -951,7 +951,7 @@
       "Offensive Zone"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -1302,5 +1302,214 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "discovered-needs-enrichment",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
+  },
+  {
+    "discovery_number": 127,
+    "title": "Oiler Protect Drill",
+    "source_url": "https://icehockeysystems.com/hockey-drills/oiler-protect-drill",
+    "categories": [
+      "1 on 1",
+      "Angling",
+      "Battle Drills",
+      "Down Low",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 128,
+    "title": "Early Box Outs",
+    "source_url": "https://icehockeysystems.com/hockey-drills/early-box-outs",
+    "categories": [
+      "2 on 1",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 129,
+    "title": "Olympic 1 on 1",
+    "source_url": "https://icehockeysystems.com/hockey-drills/olympic-1-on-1-13",
+    "categories": [
+      "1 on 1",
+      "Backwards Skating",
+      "Explosion",
+      "Full Ice",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 130,
+    "title": "Swoop 2 v 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swoop-2-v-2-0",
+    "categories": [
+      "2 on 2",
+      "Coverage",
+      "Gap",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 131,
+    "title": "Double Double Islander",
+    "source_url": "https://icehockeysystems.com/hockey-drills/double-double-islander-0",
+    "categories": [
+      "2 on 2",
+      "Angling",
+      "Battle Drills",
+      "Wall Play",
+      "Defensive Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 132,
+    "title": "Patty Roy 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/patty-roy-1-on-1-0",
+    "categories": [
+      "1 on 1",
+      "Agility",
+      "Battle Drills",
+      "Defensive",
+      "Down Low"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 133,
+    "title": "1 v 1 Gap Control and Angling Drill",
+    "source_url": "https://icehockeysystems.com/hockey-drills/1-v-1-gap-control-and-angling-drill-0",
+    "categories": [
+      "1 on 1",
+      "Angling",
+      "Defensive",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 134,
+    "title": "Soft Catch Behind the Net to Attack",
+    "source_url": "https://icehockeysystems.com/hockey-drills/soft-catch-behind-net-attack",
+    "categories": [
+      "Down Low",
+      "Goalie",
+      "Half Ice",
+      "Passing",
+      "Skill Development",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 135,
+    "title": "Major Soft Catch to Shot",
+    "source_url": "https://icehockeysystems.com/hockey-drills/major-soft-catch-shot",
+    "categories": [
+      "Half Ice",
+      "Passing",
+      "Puck Control",
+      "Shooting",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 136,
+    "title": "Double Soft Catch to Shot",
+    "source_url": "https://icehockeysystems.com/hockey-drills/double-soft-catch-shot",
+    "categories": [
+      "Passing",
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 137,
+    "title": "Soft Catch Passing Warm-up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/soft-catch-passing-warm-up",
+    "categories": [
+      "Full Ice",
+      "Passing",
+      "Wall Play",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 138,
+    "title": "Overspeed Soft Catch",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/overspeed-soft-catch",
+    "categories": [
+      "Overspeed",
+      "Passing",
+      "Puck Handling",
+      "Skill Development",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 139,
+    "title": "Stick-Led Pivot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stick-led-pivot",
+    "categories": [
+      "Agility",
+      "Defensive",
+      "Neutral Zone",
+      "Retrievals",
+      "Skating",
+      "Skill Development",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 140,
+    "title": "The Riga",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/riga-2",
+    "categories": [
+      "Goalie",
+      "Tracking",
+      "Recovery",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
   }
 ]
