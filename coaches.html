@@ -23,7 +23,11 @@
 @media(max-width:1050px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.filters{grid-template-columns:1fr 1fr}}@media(max-width:820px){.vcontent{grid-template-columns:1fr}.vdetails{border-left:0;border-top:1px solid #ddd}}@media(max-width:760px){.header{padding:13px 15px}.brand h1{font-size:20px}.pill{display:none}.main{padding:15px 12px 30px}.filters{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr;gap:10px}.diagram-wrap{height:170px}.drill-title{font-size:10px}.viewer{padding:4px}.panel{width:98vw}.bigdiagram{min-height:280px}}
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-</head>
+<script>
+if(new URLSearchParams(location.search).get('source')==='coaches'){
+  location.replace('index.html?library=coaches&v=18');
+}
+</script>\n</head>
 <body>
 <div class="app">
 <header class="header"><div class="brand"><h1>MOTOR CITY HOCKEY</h1><small>DRILL SOURCE LIBRARY</small></div><div class="pill">Original source diagrams · rendered live</div></header>
