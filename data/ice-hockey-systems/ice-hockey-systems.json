@@ -6963,5 +6963,593 @@
     "original_diagram": true,
     "member_only": false,
     "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-gretzky-switch",
+    "number": 219,
+    "title": "Gretzky 2 V 2 Switch Game",
+    "category": "Small Area Game / Gretzky / Switching",
+    "drill_types": [
+      "Skating",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "3 on 3",
+      "Angling",
+      "Battle Drills",
+      "Half Ice",
+      "Coverage",
+      "Down Low",
+      "Gap"
+    ],
+    "description": "Two active players per team play in the middle with a support player behind the offensive net. The behind-net support can switch with an active teammate at any time as long as one player remains below the goal line, creating exchanges and new attacking options.",
+    "coaching_points": [
+      "Use give-and-go plays and switches to create space.",
+      "Behind-net support scans before receiving and uses the net as protection.",
+      "Defenders keep heads on a swivel and sticks in passing lanes.",
+      "Communicate every switch so spacing stays organized."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Kendall Coyne Schofield",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/gretzky-2-v-2-switch-game",
+    "source_id": "gretzky-switch",
+    "image": "https://www.files.icehockeysystems.com/files/drills/gretzky-switch-small-area-hockey-game.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/gretzky-switch-small-area-hockey-game.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-176016",
+    "number": 220,
+    "title": "Race to 2 vs. 2 Game",
+    "category": "2 on 2 / Race / Small Area Game",
+    "drill_types": [
+      "Skating",
+      "Passing",
+      "Puck Control",
+      "Offensive",
+      "Small Area Games",
+      "2 on 2",
+      "Conditioning",
+      "Defensive",
+      "Races"
+    ],
+    "description": "Two players from each team race around separate cones after the coach chips a puck into the zone. The first team to the puck gains possession and the play immediately becomes a live 2-on-2.",
+    "coaching_points": [
+      "Explode off the line and communicate which cone each player will take.",
+      "Winning team spreads into support positions immediately.",
+      "Defenders identify assignments quickly after losing the race.",
+      "Keep shifts short and competitive."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/race-2-vs-2-game",
+    "print_url": "https://www.icehockeysystems.com/print/standard/176016",
+    "source_id": "176016",
+    "image": "https://www.files.icehockeysystems.com/files/drills/race-to-2v2-hockey-game.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/race-to-2v2-hockey-game.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-print-and-original-image"
+  },
+  {
+    "uid": "ihs-105351",
+    "number": 221,
+    "title": "7 Pass Transition Shooting Drill",
+    "category": "Passing / Transition / Quick Release",
+    "drill_types": [
+      "Skating",
+      "Passing",
+      "Shooting",
+      "Offensive",
+      "Stations",
+      "Transition",
+      "Half Ice",
+      "One Touch"
+    ],
+    "description": "One player works through a seven-pass sequence with players on both sides of the ice, transitions around two cones while facing the puck, receives the final pass and quickly shoots.",
+    "coaching_points": [
+      "Pass flat with soft hands.",
+      "Face the puck through every transition.",
+      "Receive and release quickly after the final pass.",
+      "Follow the shot to the net for rebounds."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/7-pass-transition-shooting-drill",
+    "source_id": "105351",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-105351-0-1667880229.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-105351-0-1667880229.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-tire-turns-progression",
+    "number": 222,
+    "title": "Tire Turns Progression Skating Station",
+    "category": "Skating / Turns / Progression",
+    "drill_types": [
+      "Skating",
+      "Stations",
+      "Third Ice Stations",
+      "Backwards Skating",
+      "Control Turns",
+      "Transitions"
+    ],
+    "description": "Four stations progress from a basic control turn, to forward-to-backward transition, to a quick return to forward, and finally two tight control turns in opposite directions.",
+    "coaching_points": [
+      "Master the basic control turn before progressing.",
+      "Stay low and balanced through transitions.",
+      "Keep turns tight around the tire.",
+      "Use the station that matches each player's current level."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tire-turns-progression-skating-station",
+    "source_id": "tire-turns-progression",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tire-turns-skating-station.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tire-turns-skating-station.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-cont-warmup-series-3",
+    "number": 223,
+    "title": "Continuous Warm Up Skills Series #3",
+    "category": "Warm Up / One-Touch Passing / Crossovers",
+    "drill_types": [
+      "Skating",
+      "Passing",
+      "Warm Up",
+      "One Touch",
+      "Crossovers",
+      "Full Ice"
+    ],
+    "description": "Players make one-touch passes down the ice, then carry the puck through an outside-turn sequence using three crossovers one way and three the other before continuing the warm-up flow.",
+    "coaching_points": [
+      "Receive and pass quietly without slapping at the puck.",
+      "Keep the head up while carrying.",
+      "Drive the crossovers instead of coasting.",
+      "Maintain flow and spacing between groups."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-warm-skills-series-3",
+    "source_id": "continuous-warmup-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-warm-up-skills-series-3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-warm-up-skills-series-3.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-finnish-footwork-shooting",
+    "number": 224,
+    "title": "Finnish Footwork Shooting Drill",
+    "category": "Skating / Backwards Footwork / Shooting",
+    "drill_types": [
+      "Skating",
+      "Shooting",
+      "Stations",
+      "Third Ice Stations",
+      "Backwards Skating",
+      "Passing",
+      "Transitions"
+    ],
+    "description": "Players work explosive backward starts, transitions to the wall for a coach-fed retrieval, controlled return passes, another backward transition around the dot and a final pass into shooting position.",
+    "coaching_points": [
+      "Explode on backward starts.",
+      "Make the first-touch return pass under control.",
+      "Show the stick as a target after each transition.",
+      "Pull the final pass into shooting position in one motion.",
+      "Drive the net for a rebound."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/finnish-footwork-shooting-drill",
+    "source_id": "finnish-footwork-shooting",
+    "image": "https://www.files.icehockeysystems.com/files/drills/finnish-shooting-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/finnish-shooting-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-backwards-give-go-1",
+    "number": 225,
+    "title": "Backwards Give and Go Station #1",
+    "category": "Backward Skating / Give-and-Go / Shooting",
+    "drill_types": [
+      "Skating",
+      "Stations",
+      "Sixth Ice Stations",
+      "Backwards Skating",
+      "Passing",
+      "Shooting"
+    ],
+    "description": "A player starts backward with a puck, transitions forward around the first cone, passes to the next player and receives a quick return, then circles the second cone and finishes with a shot.",
+    "coaching_points": [
+      "Control the puck while skating backward.",
+      "Transition forward without losing speed.",
+      "Make the give-and-go pass crisp and immediately get available again.",
+      "Finish with feet moving into the shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/backwards-give-and-go-station-1",
+    "source_id": "backwards-give-go-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/backwards-give-go-station-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/backwards-give-go-station-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-one-player-transition",
+    "number": 226,
+    "title": "One Player Transition Drill",
+    "category": "Skating / Transition / Give-and-Go",
+    "drill_types": [
+      "Skating",
+      "Shooting",
+      "Stations",
+      "Quarter Ice Station",
+      "Transition",
+      "Passing",
+      "Half Ice"
+    ],
+    "description": "A player transitions backward to receive from the coach, controls the puck while skating up the wall, passes to the next player, moves outside the blue line, transitions backward again and receives the return before attacking the net.",
+    "coaching_points": [
+      "Present a clear target and communicate.",
+      "Keep the feet moving throughout the rep.",
+      "Face the puck during transitions.",
+      "Control the return pass before attacking the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/one-player-transition-drill",
+    "source_id": "one-player-transition",
+    "image": "https://www.files.icehockeysystems.com/files/drills/One_Player_Transition_Drill.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/One_Player_Transition_Drill.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-4900991",
+    "number": 227,
+    "title": "Half Ice Skating & Pucks",
+    "category": "Skating / Edgework / Race",
+    "drill_types": [
+      "Conditioning",
+      "Explosion",
+      "Half Ice",
+      "Puck Control",
+      "Races",
+      "Shooting",
+      "Skating",
+      "Edgework"
+    ],
+    "description": "Two groups skate around four obstacles arranged near the faceoff circles, retrieve pucks at speed and attack their nets. The route can be changed to figure eights, transitions, stops and starts, or 360s.",
+    "coaching_points": [
+      "Make tight turns and explode out of them.",
+      "Keep the head up during the puck pickup.",
+      "Maintain speed through the retrieval.",
+      "Use the competition to demand pace without sacrificing control."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-skating-pucks-1",
+    "source_id": "4900991",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4900991-0-1726676773.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4900991-0-1726676773.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-4849346",
+    "number": 228,
+    "title": "NZ Pad Skating Race with Shot",
+    "category": "Skating / Race / Body Position",
+    "drill_types": [
+      "1 on 1",
+      "Backwards Skating",
+      "Races",
+      "Skating",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "description": "Two players race around four pads in the neutral zone, then battle for a coach-spotted puck. The winner attacks the net while the second player applies back pressure.",
+    "coaching_points": [
+      "Accelerate out of every tight turn.",
+      "Use body position to win the puck race.",
+      "Protect the puck on the way to the net.",
+      "Vary the skating route with forward/backward transitions or jumps."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/nz-pad-skating-race-shot",
+    "source_id": "4849346",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4849346-0-1744835240.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4849346-0-1744835240.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-4585346",
+    "number": 229,
+    "title": "Glide Turn and Shooting Drill",
+    "category": "Skating / Glide Turn / Quick Shot",
+    "drill_types": [
+      "Offensive",
+      "Passing",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Warm Up",
+      "Shooting"
+    ],
+    "description": "A player glides into the first cone, accelerates into a second glide turn, then receives a pass from the corner and shoots quickly while continuing toward the net.",
+    "coaching_points": [
+      "Use a wide base with the inside foot leading around the turn.",
+      "Accelerate out of the glide.",
+      "Keep the stick ready as a passing target.",
+      "Release quickly after receiving the pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/glide-turn-and-shooting-drill",
+    "source_id": "4585346",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4585346-0-1723757114.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4585346-0-1723757114.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-1089126",
+    "number": 230,
+    "title": "Angling Transition 1 v 1 to 2 v 1",
+    "category": "Angling / Transition / 2 on 1",
+    "drill_types": [
+      "1 on 1",
+      "Skating",
+      "Passing",
+      "Puck Protection",
+      "Offensive",
+      "2 on 1",
+      "Angling",
+      "Checking",
+      "Coverage",
+      "Defensive"
+    ],
+    "description": "A puck carrier crosses the neutral zone while a defender angles from the far side. Whichever player wins the objective activates a teammate, turning the play into a quick 2-on-1 while the losing player transitions to defense.",
+    "coaching_points": [
+      "Angler matches speed and protects middle ice.",
+      "Keep the stick on the ice to take away lanes.",
+      "Puck carrier protects and cuts back if the middle opens.",
+      "Transition immediately once the 2-on-1 is activated."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Alyssa Gagliardi",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/angling-transition-1-v-1-2-v-1",
+    "source_id": "1089126",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1089126-0-1666096296.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1089126-0-1666096296.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-929306",
+    "number": 231,
+    "title": "Gate Game",
+    "category": "Small Area Game / Passing / Awareness",
+    "drill_types": [
+      "Skating",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Small Area Games",
+      "Third Ice Stations",
+      "2 on 2",
+      "3 on 3",
+      "Angling",
+      "Half Ice",
+      "Coverage"
+    ],
+    "description": "Two teams play in a small area containing several cone gates. A point is earned by passing through a gate to a teammate, forcing constant movement, communication and support away from the puck.",
+    "coaching_points": [
+      "Move to open space instead of standing beside a gate.",
+      "Find clean passing lanes before forcing the puck.",
+      "Communicate verbally and with stick position.",
+      "Defenders pursue with sticks in lanes and transition immediately after a takeaway."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Kendall Coyne Schofield",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-gate-game",
+    "source_id": "929306",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-929306-1642813399.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-929306-1642813399.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-918486",
+    "number": 232,
+    "title": "2 V 2 Any Net Game",
+    "category": "2 on 2 / Transition / Awareness",
+    "drill_types": [
+      "Skating",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Shooting",
+      "Skill Development",
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "Transition",
+      "Offensive Zone",
+      "2 on 2",
+      "3 on 3",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Coverage",
+      "Defensive",
+      "Gap"
+    ],
+    "description": "A 2-on-2 is played with two scoring nets and three outside support players. A team must use an outside support option after gaining possession before it can attack either net.",
+    "coaching_points": [
+      "Scan constantly because both nets are live.",
+      "Jump to open space after using a support player.",
+      "Communicate before and during each shift.",
+      "Defenders win possession, find support and transition immediately."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Kendall Coyne Schofield",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-2-any-net-game",
+    "source_id": "918486",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-918486-1642813713.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-918486-1642813713.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-717401",
+    "number": 233,
+    "title": "Offensive Zone 4 Shot",
+    "category": "Shooting / Puck Control / Four-Shot Progression",
+    "drill_types": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development",
+      "Offensive",
+      "Offensive Zone",
+      "Agility"
+    ],
+    "description": "One player works through four scoring actions: an obstacle attack and shot, a second puck with a tight turn and shot, a corner retrieval around the net for a slot shot, and a final quick-release or one-timer from a coach's pass.",
+    "coaching_points": [
+      "Keep the head up through the obstacles.",
+      "Feet stay active out of the corners and turns.",
+      "Use quick releases rather than overhandling.",
+      "Finish every puck and stay ready for the next one."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/offensive-zone-4-shot",
+    "source_id": "717401",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-717401-1636145826.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-717401-1636145826.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-498636",
+    "number": 234,
+    "title": "Tic Tac Toe Relay",
+    "category": "Skating / Relay / Competition",
+    "drill_types": [
+      "Skating",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Warm Up",
+      "Battle Drills",
+      "Agility",
+      "Competition"
+    ],
+    "description": "Two teams skate through an obstacle course and place a team object on a large Tic Tac Toe grid before racing back to tag the next player. The relay continues until one team completes the game.",
+    "coaching_points": [
+      "Use the obstacle course to emphasize the day's skating skill.",
+      "Race back through the line before tagging the next player.",
+      "Players must think about the Tic Tac Toe strategy while skating under pressure.",
+      "Keep the game competitive and fast."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Alyssa Gagliardi",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tic-tac-toe-relay-0",
+    "source_id": "498636",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-498636-1631278926.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-498636-1631278926.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-353071",
+    "number": 235,
+    "title": "Defensive Transition Passing",
+    "category": "Defense / Backward Passing / Transition",
+    "drill_types": [
+      "Backwards Skating",
+      "Defensive",
+      "Passing",
+      "Skating",
+      "Stations",
+      "Transition",
+      "Defensemen"
+    ],
+    "description": "A three-part progression develops passing while skating backward, escape moves with the puck and transitions up ice while continuing to face the puck.",
+    "coaching_points": [
+      "Keep the head up.",
+      "Present a clear target to the passer.",
+      "Face the puck through the transition.",
+      "Add moving passers or obstacles after the basic footwork is clean."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "The Battery Hockey Academy",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defensive-transition-passing",
+    "source_id": "353071",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-353071-0-1778684853.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-353071-0-1778684853.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
   }
 ]
