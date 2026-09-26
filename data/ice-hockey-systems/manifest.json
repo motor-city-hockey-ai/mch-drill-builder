@@ -37,29 +37,22 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 20,
-    "catalog_items_verified": 20,
+    "catalog_items_imported": 30,
+    "catalog_items_verified": 30,
     "catalog_target": 1573,
     "last_batch": "featured/current catalog batch 1",
-    "original_diagrams_verified": 20,
+    "original_diagrams_verified": 30,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 84,
-    "catalog_items_pending_enrichment": 64,
+    "unique_urls_discovered": 98,
+    "catalog_items_pending_enrichment": 68,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Backfill page=1 (catalog positions 43-84) next, then continue page=3 onward. Deduplicate by source URL before enrichment.",
-    "multi_diagram_drills_preserved": 2,
-    "last_completed_index_range": "85-126 of 1573",
+    "next_step": "Continue backfilling current page-1 results, then move through the remaining catalog pages while deduplicating by source URL. Enrich pending records with original diagram assets and print metadata.",
+    "multi_diagram_drills_preserved": 3,
     "last_completed_catalog_page": 2,
-    "covered_index_ranges": [
-      "1-42",
-      "85-126"
-    ],
-    "uncovered_index_ranges": [
-      "43-84",
-      "127-1573"
-    ]
+    "page_1_backfill_new_urls": 14,
+    "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total."
   }
 }
