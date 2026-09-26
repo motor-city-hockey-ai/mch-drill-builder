@@ -1511,5 +1511,378 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 141,
+    "title": "3 v 1 Keep Away To Line Rush With Backchecker",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-1-keep-away-line-rush-backchecker",
+    "categories": [
+      "Zone Entry",
+      "Overspeed",
+      "Passing",
+      "Offensive",
+      "Transition",
+      "3 on 1",
+      "3 on 2",
+      "Backchecking",
+      "Defensive",
+      "Explosion",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 142,
+    "title": "Wagon Wheel",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wagon-wheel-drill",
+    "categories": [
+      "Overspeed",
+      "Passing",
+      "Warm Up",
+      "Flow",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 143,
+    "title": "The Boston Bruin",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-boston-bruin",
+    "categories": [
+      "Zone Entry",
+      "Overspeed",
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 144,
+    "title": "Red Wing 2 V 1 With Backchecker",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/red-wing-2-v-1-backchecker",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Offensive",
+      "Transition",
+      "2 on 1",
+      "2 on 2",
+      "Backchecking",
+      "Conditioning",
+      "Coverage",
+      "Full Ice",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 145,
+    "title": "Jets 2 v 2 Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/jets-2-v-2-drill",
+    "categories": [
+      "Zone Entry",
+      "Skating",
+      "Overspeed",
+      "Passing",
+      "Offensive",
+      "2 on 2",
+      "Angling",
+      "Backwards Skating",
+      "Coverage",
+      "Defensive",
+      "Full Ice",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 146,
+    "title": "1 v 1, to 2 v 2 to 3 v 3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-2-v-2-3-v-3-2",
+    "categories": [
+      "1 on 1",
+      "Skating",
+      "Overspeed",
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development",
+      "Offensive",
+      "Small Area Games",
+      "Third Ice Stations",
+      "2 on 2",
+      "3 on 3",
+      "Backchecking",
+      "Battle Drills",
+      "Half Ice",
+      "Conditioning",
+      "Explosion"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 147,
+    "title": "Half Ice Figure Eight Pick Up A Puck",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-figure-eight-pick-puck",
+    "categories": [
+      "Half Ice",
+      "Skating",
+      "Shooting",
+      "Warm Up",
+      "Overspeed"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 148,
+    "title": "Peanut Overspeed Skating Drill (Half Ice)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/peanut-overspeed-skating-drill-half-ice",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 149,
+    "title": "Latvian 2 on 1 x 3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/latvian-2-on-1-x-3",
+    "categories": [
+      "2 on 1",
+      "Backwards Skating",
+      "Defensive",
+      "Flow",
+      "Full Ice",
+      "Gap",
+      "Overspeed",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 150,
+    "title": "Fight for the Middle",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/fight-for-the-middle",
+    "categories": [
+      "3 on 0",
+      "Flow",
+      "Full Ice",
+      "Overspeed",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 151,
+    "title": "Shot Tip 2 on 0",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shot-tip-2-0",
+    "categories": [
+      "Zone Entry",
+      "Overspeed",
+      "Re-Group",
+      "Shooting",
+      "Offensive",
+      "Transition",
+      "2 on 0",
+      "Breakouts",
+      "Flow",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 152,
+    "title": "2 v 2 Bagger",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-2-bagger",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Shooting",
+      "Skill Development",
+      "Offensive",
+      "Small Area Games",
+      "Offensive Zone",
+      "2 on 2",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 153,
+    "title": "Four Lines Overspeed Shooting #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-overspeed-shooting-2",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Shooting",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 154,
+    "title": "Transition Double Pass",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-double-pass",
+    "categories": [
+      "Overspeed",
+      "Pre Game",
+      "Shooting",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 155,
+    "title": "D Activation",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-activation-rush",
+    "categories": [
+      "2 on 1",
+      "Full Ice",
+      "Neutral Zone",
+      "Overspeed",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 156,
+    "title": "Foxhunt Race",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/foxhunt-race",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Puck Handling",
+      "Relay Races",
+      "Angling",
+      "Half Ice",
+      "Conditioning"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 157,
+    "title": "Control Turn Races",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/control-turn-races",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Relay Races"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 158,
+    "title": "Cycle Overspeed Races",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cycle-overspeed-races",
+    "categories": [
+      "Relay Races",
+      "Half Ice",
+      "Skating",
+      "Overspeed"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 159,
+    "title": "Backwards Overspeed Competition",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/backwards-overspeed-competition",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 160,
+    "title": "Forward Overspeed Competition",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/forward-overspeed-competition",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 161,
+    "title": "Overspeed Quick Pass",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/overspeed-quick-pass",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Overspeed"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
+  },
+  {
+    "discovery_number": 162,
+    "title": "Russian Circles",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/russian-circles",
+    "categories": [
+      "Full Ice",
+      "Skating",
+      "Overspeed"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills/drill-category/overspeed"
   }
 ]
