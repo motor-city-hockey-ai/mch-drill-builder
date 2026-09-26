@@ -51,7 +51,7 @@ button{cursor:pointer}
       <h2>Quick Add by Drill Number</h2>
       <p>Choose a library, narrow by drill type, then search or add by drill number.</p>
       <div class="quick-grid">
-        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
+        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 0 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
         <div class="stat-box"><small>FULL ICE DRILLS</small><strong>570</strong></div>
         <div class="stat-box"><small>SKILL ZONE DRILLS</small><strong>452</strong></div>
@@ -104,6 +104,7 @@ button{cursor:pointer}
   let teamDatabase=null;
   let coachesDatabase=null;
   let bookDatabase=null;
+  let ihsDatabase=null;
   let teamMeta=null;
   let teamByUid=new Map();
   let coachesByUid=new Map();
@@ -111,7 +112,6 @@ button{cursor:pointer}
   const teamChunkPromises=new Map();
   const sourcePdfCache=new Map();
   const sourcePageCache=new Map();
-  const displayImageCache=new Map();
   if(window.pdfjsLib) pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
   let selected=[];
   let visibleLimit=60;
@@ -122,17 +122,7 @@ button{cursor:pointer}
   const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 
   const placeholderImage='data:image/svg+xml;charset=UTF-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560"><rect width="100%" height="100%" fill="#f4f4f4"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="26" fill="#777">Loading diagram…</text></svg>');
-  const coachesFallbackCache=new Map();
-  function coachesFallbackImage(d){
-    const key=String(d&&d.category||'Coaches Site');
-    if(coachesFallbackCache.has(key))return coachesFallbackCache.get(key);
-    const safe=key.replace(/[&<>]/g,'');
-    const svg='<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560"><rect width="900" height="560" fill="#fff"/><rect x="45" y="45" width="810" height="470" rx="85" fill="#fff" stroke="#111" stroke-width="4"/><line x1="450" y1="47" x2="450" y2="513" stroke="#d71920" stroke-width="4"/><line x1="300" y1="47" x2="300" y2="513" stroke="#2468b4" stroke-width="6"/><line x1="600" y1="47" x2="600" y2="513" stroke="#2468b4" stroke-width="6"/><circle cx="450" cy="280" r="60" fill="none" stroke="#d71920" stroke-width="2"/><text x="450" y="268" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#111">'+safe+'</text><text x="450" y="310" text-anchor="middle" font-family="Arial" font-size="18" fill="#777">Coaches Site Drill</text></svg>';
-    const img='data:image/svg+xml;charset=UTF-8,'+encodeURIComponent(svg);
-    coachesFallbackCache.set(key,img);return img;
-  }
-
-  function cleanDescriptionText(d){
+  function cleanDescriptionText(d){  function cleanDescriptionText(d){
     let s=String(d&&d.description||'').replace(/\r/g,' ').replace(/\t/g,' ').replace(/\s+/g,' ').trim();
     s=s.replace(/KeKey Points\s*:/gi,'Key Points:').replace(/KeyKey Points\s*:/gi,'Key Points:');
     if(/^Turk\b/i.test(String(d&&d.source||''))){
@@ -185,82 +175,7 @@ button{cursor:pointer}
     return placeholderImage;
   }
 
-  function loadBrowserImage(src){
-    return new Promise((resolve,reject)=>{
-      const img=new Image();
-      img.onload=()=>resolve(img);
-      img.onerror=()=>reject(new Error('Image could not be decoded'));
-      img.src=src;
-    });
-  }
-
-  function cropCanvasToUrl(img,x,y,w,h){
-    x=Math.max(0,Math.round(x));y=Math.max(0,Math.round(y));
-    w=Math.max(1,Math.min(img.naturalWidth-x,Math.round(w)));
-    h=Math.max(1,Math.min(img.naturalHeight-y,Math.round(h)));
-    const c=document.createElement('canvas');c.width=w;c.height=h;
-    const ctx=c.getContext('2d',{alpha:false});ctx.fillStyle='#fff';ctx.fillRect(0,0,w,h);
-    ctx.drawImage(img,x,y,w,h,0,0,w,h);
-    return c.toDataURL('image/jpeg',0.93);
-  }
-
-  async function cleanSourcePageImage(d){
-    if(!d||!d.image)return null;
-    if(d.displayImage)return d.displayImage;
-    if(displayImageCache.has(d.uid))return displayImageCache.get(d.uid);
-    const p=(async()=>{
-      const src=String(d.source||'');
-      if(!/HockeyCoach\.com Team Drills|CoachThem \/ TeamSnap 2018/i.test(src)){
-        d.displayImage=d.image;return d.displayImage;
-      }
-      const img=await loadBrowserImage(d.image);
-      const w=img.naturalWidth,h=img.naturalHeight;
-      const sampleW=Math.min(520,w),scale=sampleW/w,sampleH=Math.max(1,Math.round(h*scale));
-      const c=document.createElement('canvas');c.width=sampleW;c.height=sampleH;
-      const ctx=c.getContext('2d',{willReadFrequently:true});ctx.drawImage(img,0,0,sampleW,sampleH);
-      const px=ctx.getImageData(0,0,sampleW,sampleH).data;
-      const blue=(r,g,b)=>b>105&&b>r+20&&b>=g+5;
-      const red=(r,g,b)=>r>150&&r>g+35&&r>b+30;
-
-      if(/HockeyCoach\.com Team Drills/i.test(src)){
-        let maxY=-1,minY=sampleH;
-        for(let y=0;y<sampleH;y++)for(let x=0;x<sampleW;x++){
-          const i=(y*sampleW+x)*4,r=px[i],g=px[i+1],b=px[i+2];
-          if(blue(r,g,b)){if(y>maxY)maxY=y;if(y<minY)minY=y;}
-        }
-        const cropBottom=maxY>sampleH*.2?Math.min(h,(maxY/scale)+18):h*.50;
-        d.displayImage=cropCanvasToUrl(img,0,0,w,cropBottom);
-        return d.displayImage;
-      }
-
-      // CoachThem pages place the rink on one side and instructions on the other.
-      let blueX=0,blueN=0;
-      const yFloor=Math.floor(sampleH*.24);
-      for(let y=yFloor;y<sampleH;y++)for(let x=0;x<sampleW;x++){
-        const i=(y*sampleW+x)*4,r=px[i],g=px[i+1],b=px[i+2];
-        if(blue(r,g,b)){blueX+=x;blueN++;}
-      }
-      const right=blueN?(blueX/blueN)>sampleW/2:false;
-      const sx0=right?Math.floor(sampleW*.43):0;
-      const sx1=right?sampleW:Math.ceil(sampleW*.57);
-      let minX=sx1,minY=sampleH,maxX=sx0,maxY=yFloor,n=0;
-      for(let y=yFloor;y<sampleH;y++)for(let x=sx0;x<sx1;x++){
-        const i=(y*sampleW+x)*4,r=px[i],g=px[i+1],b=px[i+2];
-        if(red(r,g,b)||blue(r,g,b)){
-          minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y);n++;
-        }
-      }
-      if(n<80){d.displayImage=d.image;return d.displayImage;}
-      const padX=18,padY=18;
-      const x0=Math.max(0,(minX-padX)/scale),y0=Math.max(0,(minY-padY)/scale);
-      const x1=Math.min(w,(maxX+padX)/scale),y1=Math.min(h,(maxY+padY)/scale);
-      d.displayImage=cropCanvasToUrl(img,x0,y0,x1-x0,y1-y0);
-      return d.displayImage;
-    })().catch(err=>{console.warn('Source crop failed',d&&d.uid,err);return d.image||null;});
-    displayImageCache.set(d.uid,p);return p;
-  }
-
-  function getSourcePdf(url){
+  function getSourcePdf(url){  function getSourcePdf(url){
     if(!window.pdfjsLib)return Promise.reject(new Error('PDF renderer unavailable'));
     if(!sourcePdfCache.has(url)){
       const p=pdfjsLib.getDocument({url:url,disableAutoFetch:false,rangeChunkSize:131072}).promise;
@@ -341,13 +256,9 @@ button{cursor:pointer}
       teamImageChunks.set(chunkIndex,images);
       Object.entries(images).forEach(([uid,img])=>{
         const d=teamByUid.get(uid);
-        if(!d)return;
-        d.image=img;
-        cleanSourcePageImage(d).then(clean=>{
-          const shown=clean||img;
-          document.querySelectorAll('[data-img-uid="'+uid+'"]').forEach(el=>{el.src=shown;});
-          if(viewerDrill&&viewerDrill.uid===uid)$('#viewerImg').src=shown;
-        });
+        if(d)d.image=img;
+        document.querySelectorAll('[data-img-uid="'+uid+'"]').forEach(el=>{el.src=img;});
+        if(viewerDrill&&viewerDrill.uid===uid)$('#viewerImg').src=img;
       });
       return images;
     })().catch(err=>{teamChunkPromises.delete(chunkIndex);console.error(err);throw err;});
@@ -359,8 +270,8 @@ button{cursor:pointer}
     if(!d)return Promise.resolve();
     if(d.library==='Coaches Site Drills')return ensureCoachesOriginal(d);
     if(d.library==='Team Drills'){
-      if(d.image)return cleanSourcePageImage(d);
-      if(d.imgChunk!=null)return ensureTeamChunk(d.imgChunk).then(()=>cleanSourcePageImage(d));
+      if(d.image)return Promise.resolve(d.image);
+      if(d.imgChunk!=null)return ensureTeamChunk(d.imgChunk).then(()=>imageFor(d));
     }
     return Promise.resolve(imageFor(d));
   }
@@ -427,13 +338,32 @@ button{cursor:pointer}
     return bookDatabase;
   }
 
+  async function loadIHS(){
+    if(ihsDatabase)return ihsDatabase;
+    showLoading('Loading Ice Hockey Systems library…');
+    const r=await fetch('data/ice-hockey-systems/ice-hockey-systems.json?v=1',{cache:'no-store'});
+    if(!r.ok)throw new Error('Ice Hockey Systems metadata returned '+r.status);
+    const rows=await r.json();
+    ihsDatabase=(Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({
+      ...d,
+      library:'Ice Hockey Systems',
+      uid:d.uid||('ihs-'+d.number),
+      title:d.title||'',
+      category:d.category||'Other',
+      source:d.source||'Ice Hockey Systems',
+      image:d.image||''
+    }));
+    return ihsDatabase;
+  }
+
   async function switchLibrary(lib){
     activeLibrary=lib;visibleLimit=lib==='coaches'?36:60;$('#search').value='';$('#quickNumber').value='';
-    $('#app').classList.toggle('team-mode',['rich-full','turk','weiss','coaches','book'].includes(lib));
+    $('#app').classList.toggle('team-mode',['rich-full','turk','weiss','coaches','book','ihs'].includes(lib));
     try{
       if(lib==='coaches') database=await loadCoaches();
       else if(lib==='rich-skills') database=await loadTravel();
       else if(lib==='book') database=await loadBook();
+      else if(lib==='ihs') database=await loadIHS();
       else database=await loadFullIceLibrary(lib);
 
       populateCategories();hideLoading();
@@ -441,6 +371,7 @@ button{cursor:pointer}
       const names={
         'coaches':'Coaches Site',
         'book':'Hockey Drill Book',
+        'ihs':'Ice Hockey Systems',
         'rich-full':'Rich Full Ice Drills',
         'rich-skills':'Rich Skill Drills',
         'turk':'Turk Hockey Drills',
@@ -451,16 +382,54 @@ button{cursor:pointer}
       $('#browseSub').textContent=lib==='rich-skills'
         ? 'Skill-zone drills organized by drill type. Tap a drill to add or remove it.'
         : 'Diagram + short title. Tap a drill to view details and add it to your practice set.';
-      setStatus('Loaded '+database.length+' '+name+'. Use Drill Type or Search to narrow the library.','ok');
+      setStatus(lib==='ihs'&&!database.length ? 'Ice Hockey Systems section is ready for authorized imports. Original diagrams stay original; written instructions are stored separately.' : 'Loaded '+database.length+' '+name+'. Use Drill Type or Search to narrow the library.','ok');
       renderSelected();renderGrid(true);
     }catch(err){hideLoading();setStatus('DATABASE ERROR: '+err.message,'err');console.error(err);}
   }
 
+  function drillTypeTags(d){
+    const tags=new Set();
+    if(d&&d.category)tags.add(String(d.category));
+    if(d&&Array.isArray(d.drill_types))d.drill_types.filter(Boolean).forEach(x=>tags.add(String(x)));
+    const text=[d&&d.title,d&&d.teaser,d&&d.category,d&&d.description,d&&d.source_collection,(d&&d.tags||[]).join(' ')].filter(Boolean).join(' ').toLowerCase();
+    const rules=[
+      ['Warm-Up / Flow',/warm[ -]?up|\bflow\b/],
+      ['Skating / Edgework / Agility',/skating|agility|edgework|edges|mohawk|pivot|overspeed|crossover/],
+      ['Passing / Puck Movement',/passing|\bpass\b|give[ -]?and[ -]?go|puck movement|one[ -]?touch|seam/],
+      ['Shooting / Scoring',/shooting|\bshot\b|scoring|one[ -]?timer|tip|rebound/],
+      ['Puckhandling / Puck Protection',/puckhandling|stickhandling|puck protection|protect the puck|protecting the puck/],
+      ['Breakouts',/breakout|quick[ -]?up/],
+      ['Regroups',/regroup/],
+      ['Transition',/transition|turnover/],
+      ['Zone Entries',/zone entr|entry/],
+      ['Forecheck',/forecheck/],
+      ['Backcheck',/backcheck/],
+      ['Angling / Checking',/angling|\bangle\b|checking|body contact/],
+      ['1 vs 1',/\b1\s*(?:v|vs\.?|on)\s*1\b/],
+      ['2 vs 1',/\b2\s*(?:v|vs\.?|on)\s*1\b/],
+      ['2 vs 2',/\b2\s*(?:v|vs\.?|on)\s*2\b/],
+      ['3 vs 2',/\b3\s*(?:v|vs\.?|on)\s*2\b/],
+      ['Small Area Games',/small area|battle game|competitive game|competition/],
+      ['Faceoffs',/face[ -]?off/],
+      ['Defensive Zone',/defensive zone|d[ -]?zone|\bdz\b/],
+      ['Offensive Zone',/offensive zone|o[ -]?zone|\boz\b/],
+      ['Net Front',/net[ -]?front|box out|screen|tips? and rebounds?/],
+      ['Special Teams',/power play|penalty kill|\bpp\b|\bpk\b/],
+      ['Retrievals',/retrieval|retrieve the puck|puck retrieval/],
+      ['Conditioning / Compete',/conditioning|sprint|race|compete/],
+      ['Goalie',/goalie|goaltender/],
+      ['Systems',/systems?|coverage|structure/]
+    ];
+    for(const [label,re] of rules)if(re.test(text))tags.add(label);
+    return [...tags];
+  }
+
   function populateCategories(){
-    const categories=[...new Set(database.map(d=>d.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+    const categories=[...new Set(database.flatMap(drillTypeTags).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
     const names={
       'coaches':'COACHES SITE',
       'book':'HOCKEY DRILL BOOK',
+      'ihs':'ICE HOCKEY SYSTEMS',
       'rich-full':'RICH FULL ICE DRILLS',
       'rich-skills':'RICH SKILL DRILLS',
       'turk':'TURK HOCKEY DRILLS',
@@ -469,7 +438,7 @@ button{cursor:pointer}
     $('#category').innerHTML='<option value="">ALL '+(names[activeLibrary]||'DRILLS')+'</option>'+categories.map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
   }
 
-  function saveSelected(){
+  function saveSelected(){  function saveSelected(){
     try{localStorage.setItem('mch-selected-v8',JSON.stringify(selected.map(d=>({uid:d.uid,number:d.number,title:d.title||'',category:d.category||'',kind:d.kind||'drill',library:d.library||activeLibrary,image:imageFor(d),description:d.description||'',includeDescription:!!d.includeDescription}))));}catch(e){}
   }
   function restoreSelected(){
@@ -494,7 +463,7 @@ button{cursor:pointer}
 
   function filtered(){
     const cat=$('#category').value,q=$('#search').value.trim().toLowerCase();
-    return database.filter(d=>(!cat||d.category===cat)&&(!q||[d.number,d.title,d.teaser,d.category,d.description,d.source,d.author,d.source_collection,d.chapter,(d.tags||[]).join(' ')].join(' ').toLowerCase().includes(q))).sort((a,b)=>Number(a.number)-Number(b.number));
+    return database.filter(d=>(!cat||drillTypeTags(d).includes(cat))&&(!q||[d.number,d.title,d.teaser,d.category,d.description,d.source,d.author,d.source_collection,d.chapter,(d.tags||[]).join(' ')].join(' ').toLowerCase().includes(q))).sort((a,b)=>Number(a.number)-Number(b.number));
   }
 
   function renderGrid(reset=true){
@@ -507,7 +476,7 @@ button{cursor:pointer}
         const selectedDrill=chosen(d.uid);
         const title=d.teaser||d.title||'';
         return '<article class="card '+(selectedDrill?'selected-card':'')+'" data-uid="'+esc(d.uid)+'">'+
-          ((['rich-full','turk','weiss','coaches','book'].includes(activeLibrary))?'<button class="quick-add-card" data-add="'+esc(d.uid)+'" title="Quick add diagram only">'+(selectedDrill?'✓':'+')+'</button>':'')+
+          ((['rich-full','turk','weiss','coaches','book','ihs'].includes(activeLibrary))?'<button class="quick-add-card" data-add="'+esc(d.uid)+'" title="Quick add diagram only">'+(selectedDrill?'✓':'+')+'</button>':'')+
           '<button class="diagram-hit" data-open="'+esc(d.uid)+'"><img loading="lazy" data-img-uid="'+esc(d.uid)+'" src="'+esc(imageFor(d))+'" alt="Drill '+esc(d.number)+'"></button>'+
           '<div class="meta"><div class="num">Drill '+esc(d.number)+'</div><div class="drill-title">'+esc(title)+'</div><div class="cat-label">'+esc(d.category||'')+'</div>'+(d.kind==='system'?'<span class="system-badge">SYSTEM</span>':'')+'</div></article>';
       }).join('');
@@ -524,7 +493,7 @@ button{cursor:pointer}
     });
     $('#grid').querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{
       const d=database.find(x=>x.uid===b.dataset.open);
-      if(['rich-full','turk','weiss','coaches','book'].includes(activeLibrary))openViewer(d);
+      if(['rich-full','turk','weiss','coaches','book','ihs'].includes(activeLibrary))openViewer(d);
       else{const x=chosen(d.uid);if(x)removeSelected(d.uid);else addSelected(d,false);}
     });
     $('#grid').querySelectorAll('img').forEach(img=>img.onerror=()=>{img.onerror=null;img.alt='Diagram unavailable';img.style.background='#f1f1f1';});
@@ -589,9 +558,9 @@ button{cursor:pointer}
   $('#quickAdd').onclick=()=>{
     const n=$('#quickNumber').value.trim(),cat=$('#category').value;
     if(!n){setStatus('Enter a drill number first.','err');return;}
-    const d=database.find(x=>String(x.number)===n&&(!cat||x.category===cat));
+    const d=database.find(x=>String(x.number)===n&&(!cat||drillTypeTags(x).includes(cat)));
     if(!d){setStatus('Drill '+n+' was not found in the current selection.','err');return;}
-    if(['rich-full','turk','weiss','coaches','book'].includes(activeLibrary)){openViewer(d);setStatus('Choose Diagram Only or Diagram + Instructions.','ok');}
+    if(['rich-full','turk','weiss','coaches','book','ihs'].includes(activeLibrary)){openViewer(d);setStatus('Choose Diagram Only or Diagram + Instructions.','ok');}
     else{const x=chosen(d.uid);if(x)removeSelected(d.uid);else addSelected(d,false);setStatus('Updated Drill '+d.number+'.','ok');}
     $('#quickNumber').value='';
   };
@@ -606,7 +575,7 @@ button{cursor:pointer}
   };
 
   const requestedLibrary=new URLSearchParams(location.search).get('library');
-  const initialLibrary=requestedLibrary==='travel'?'rich-skills':(requestedLibrary==='team'?'rich-full':(['coaches','book','rich-full','rich-skills','turk','weiss'].includes(requestedLibrary)?requestedLibrary:'coaches'));
+  const initialLibrary=requestedLibrary==='travel'?'rich-skills':(requestedLibrary==='team'?'rich-full':(['coaches','book','ihs','rich-full','rich-skills','turk','weiss'].includes(requestedLibrary)?requestedLibrary:'coaches'));
   $('#librarySelect').value=initialLibrary;
   restoreSelected();switchLibrary(initialLibrary);
 })();
