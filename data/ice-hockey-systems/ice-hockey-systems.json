@@ -3990,5 +3990,360 @@
     "original_diagram": true,
     "member_only": false,
     "status": "verified-page-diagram-and-print"
+  },
+  {
+    "uid": "ihs-half-ice-figure-eight",
+    "number": 124,
+    "title": "Half Ice Figure Eight Pick Up A Puck",
+    "category": "Skating / Crossovers / Shooting",
+    "drill_types": [
+      "Half Ice",
+      "Skating",
+      "Shooting",
+      "Warm Up",
+      "Overspeed"
+    ],
+    "description": "Players skate a figure-eight pattern through the offensive-zone circles, retrieve a loose puck near center ice, attack the net and finish the rep by stopping at the crease for a rebound.",
+    "coaching_points": [
+      "Stay low through the crossovers.",
+      "Drive the cross-under for power.",
+      "Rotate the chest into each turn.",
+      "Keep speed through the puck pickup.",
+      "Stop at the net after the shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-figure-eight-pick-puck",
+    "source_id": "half-ice-figure-eight",
+    "image": "https://www.files.icehockeysystems.com/files/drills/half-ice-figure-eight-pick-up-a-puck.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/half-ice-figure-eight-pick-up-a-puck.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-four-lines-overspeed-2",
+    "number": 125,
+    "title": "Four Lines Overspeed Shooting #2",
+    "category": "Overspeed / Shooting",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Shooting",
+      "Full Ice"
+    ],
+    "description": "Players begin without a puck, use quick crossover footwork through the neutral zone, call for a pass, attack wide below the hash marks, escape back toward the wall and drive into middle ice for a shot.",
+    "coaching_points": [
+      "Feet stay moving for the entire repetition.",
+      "Sell the wide drive before escaping to the wall.",
+      "Accelerate up the wall and into middle ice.",
+      "Stop at the net for rebounds, then hunt the next rebound from the high slot."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-overspeed-shooting-2",
+    "source_id": "four-lines-overspeed-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/four-lines-overspeed-shooting-series-2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/four-lines-overspeed-shooting-series-2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-13681",
+    "number": 126,
+    "title": "Transition Double Pass",
+    "category": "Passing / Transition / Shooting",
+    "drill_types": [
+      "Overspeed",
+      "Pre Game",
+      "Shooting",
+      "Half Ice"
+    ],
+    "description": "A player explodes off the wall, transitions backward for a give-and-go with one line, pivots forward for a second give-and-go with the opposite line, then uses fast crossover footwork through the neutral zone before receiving a final pass and shooting.",
+    "coaching_points": [
+      "Use hard first strides off the wall.",
+      "Call for every pass and present the stick.",
+      "Make crisp return passes while moving.",
+      "Keep the feet active through the neutral zone.",
+      "Finish with a game-speed shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-double-pass",
+    "print_url": "https://www.icehockeysystems.com/print/standard/13681",
+    "source_id": "13681",
+    "image": "https://www.files.icehockeysystems.com/files/drills/transition-double-pass.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/transition-double-pass.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-image-and-print"
+  },
+  {
+    "uid": "ihs-2627606",
+    "number": 127,
+    "title": "Defend Net Front Progression With 2 Point Players",
+    "category": "Net Front / Point Support",
+    "drill_types": [
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Shooting",
+      "Offensive",
+      "Small Area Games",
+      "3 on 3",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low"
+    ],
+    "description": "Play 3-on-3 around two nets with point support. The attacking team must use a point player before it can shoot, creating point-to-point movement and net-front battles while defenders focus on protecting sticks and space around the crease.",
+    "coaching_points": [
+      "Offense works to get open away from the puck.",
+      "Use the point to create give-and-go and quick-shot options.",
+      "Net-front attackers arrive for screens and tips.",
+      "Defenders keep sticks on the ice and eliminate sticks around the crease.",
+      "Communicate through every switch."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defend-net-front-progression-2-point-players",
+    "source_id": "2627606",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627606-0-1693851616.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627606-0-1693851616.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-diagram"
+  },
+  {
+    "uid": "ihs-2623296",
+    "number": 128,
+    "title": "Royal Road Drill",
+    "category": "2 on 2 / Royal Road / Quick Release",
+    "drill_types": [
+      "2 on 2",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Half Ice",
+      "Offensive",
+      "Passing",
+      "Puck Protection",
+      "Shooting",
+      "Small Area Games",
+      "Quarter Ice Station"
+    ],
+    "description": "A competitive 2-on-2 starts with a faceoff. Goals only count when the scoring sequence includes a pass across the middle of the ice, forcing the offense to create lateral puck movement and quick-release opportunities.",
+    "coaching_points": [
+      "Puck carrier protects the puck and manipulates defenders.",
+      "Off-puck player jumps into weak-side space as an outlet.",
+      "Shoot quickly after the cross-ice pass.",
+      "Defenders keep sticks in lanes and identify the backside shooter.",
+      "Keep shifts short and competitive."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/royal-road-drill",
+    "print_url": "https://www.icehockeysystems.com/print/standard/2623296",
+    "source_id": "2623296",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2623296-0-1744834967.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2623296-0-1744834967.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-diagram-and-print"
+  },
+  {
+    "uid": "ihs-918371",
+    "number": 129,
+    "title": "4 on 2 Power Play Game",
+    "category": "Special Teams / 4 on 2",
+    "drill_types": [
+      "Penalty Kill",
+      "Power Play",
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development",
+      "Offensive",
+      "Small Area Games",
+      "Third Ice Stations",
+      "Offensive Zone",
+      "Half Ice",
+      "Coverage",
+      "Down Low"
+    ],
+    "description": "The zone is split into two sides, with four attackers working against two defenders and a goalie on each side. The offense works on power-play movement and scoring, while defenders try to win possession and move the puck across to their teammates.",
+    "coaching_points": [
+      "Power-play players keep moving rather than becoming stationary.",
+      "Play with the head up to identify seams and scoring chances.",
+      "Defenders use active sticks to protect lanes.",
+      "After a turnover, make a controlled play to the opposite side."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Kendall Coyne Schofield",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-2-power-play-game",
+    "print_url": "https://www.icehockeysystems.com/print/standard/918371",
+    "source_id": "918371",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-918371-0-1677160514.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-918371-0-1677160514.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-diagram-and-print"
+  },
+  {
+    "uid": "ihs-2052041",
+    "number": 130,
+    "title": "Havoc Line Rush With Backchecker",
+    "category": "3 on 2 / Backcheck / Line Rush",
+    "drill_types": [
+      "Zone Entry",
+      "Shooting",
+      "Transition",
+      "3 on 3",
+      "Backchecking",
+      "Coverage",
+      "Full Ice",
+      "Gap"
+    ],
+    "description": "A backchecker first receives repeated slot passes and shoots. On the next whistle, the forward line attacks 3-on-2 up ice while that same player tracks back, turning the rush into a 3-on-3.",
+    "coaching_points": [
+      "Offense enters inside the dots and drives the net.",
+      "Backchecker transitions immediately from offense to recovery.",
+      "Defense communicates and sorts coverage early.",
+      "Keep the rush at game speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/havoc-line-rush-backchecker",
+    "source_id": "2052041",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2052041-0-1674760846.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2052041-0-1674760846.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2052041-1-1674760846.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-diagrams"
+  },
+  {
+    "uid": "ihs-2051946",
+    "number": 131,
+    "title": "Slovakian Re-Group",
+    "category": "Regroup / Warm Up / Point Shot",
+    "drill_types": [
+      "One Goalie",
+      "Passing",
+      "Re-Group",
+      "Shooting",
+      "Transition",
+      "Warm Up",
+      "Neutral Zone",
+      "Flow",
+      "Full Ice"
+    ],
+    "description": "A full-ice passing and regroup sequence. Defensemen pivot and exchange pucks with forwards through the neutral zone, open up to the opposite side, follow the play and finish by changing the angle for a point shot.",
+    "coaching_points": [
+      "Defensemen keep their eyes up through the pivots.",
+      "Forwards maintain speed through the neutral zone.",
+      "Show a clear stick target for every pass.",
+      "Finish with a purposeful point shot through traffic."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/slovakian-regroup",
+    "source_id": "2051946",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2051946-0-1674761184.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2051946-0-1674761184.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-diagram"
+  },
+  {
+    "uid": "ihs-919651",
+    "number": 132,
+    "title": "Triangle Scoring Game",
+    "category": "Power Play / Quick Puck Movement",
+    "drill_types": [
+      "Passing",
+      "Power Play",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development",
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Offensive Zone",
+      "3 on 1",
+      "Half Ice"
+    ],
+    "description": "Two groups race to score in separate triangle setups. Three attackers move the puck around the outside while one defender works inside the triangle to disrupt lanes and clear pucks before the other group scores.",
+    "coaching_points": [
+      "Use deception with eyes and body before passing or shooting.",
+      "Move the puck quickly and release shots immediately when a lane opens.",
+      "Inside defender keeps an active stick in the passing lanes.",
+      "Use one- or two-touch restrictions for advanced groups."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Kendall Coyne Schofield",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/triangle-scoring-game",
+    "print_url": "https://www.icehockeysystems.com/print/standard/919651",
+    "source_id": "919651",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-919651-0-1686947811.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-919651-0-1686947811.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-diagram-and-print"
+  },
+  {
+    "uid": "ihs-1650886",
+    "number": 133,
+    "title": "Double Goals Game - Royal Road",
+    "category": "3 on 3 / Royal Road / Awareness",
+    "drill_types": [
+      "Passing",
+      "Puck Control",
+      "Shooting",
+      "Offensive",
+      "Small Area Games",
+      "3 on 3",
+      "Battle Drills",
+      "Half Ice",
+      "Coverage",
+      "Defensive"
+    ],
+    "description": "A 3-on-3 game uses two regular nets plus two passing gates positioned in the middle of the ice. Teams can earn points by completing a pass through a gate and by scoring, rewarding awareness and quick follow-up shots after lateral puck movement.",
+    "coaching_points": [
+      "Keep the head up to identify both gate and net options.",
+      "Use deception so defenders and goalies cannot cheat to one option.",
+      "Jump into open ice as a passing or shooting target.",
+      "Defenders keep sticks down to take away lanes.",
+      "Encourage quick two-point sequences: gate pass followed by a shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/double-goals-game-royal-road",
+    "print_url": "https://www.icehockeysystems.com/print/standard/1650886",
+    "source_id": "1650886",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1650886-0-1667397029.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1650886-0-1667397029.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-diagram-and-print"
   }
 ]
