@@ -7551,5 +7551,436 @@
     "original_diagram": true,
     "member_only": false,
     "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-golden-cross",
+    "number": 236,
+    "title": "Golden Cross",
+    "category": "Skating / Conditioning / Give-and-Go",
+    "drill_types": [
+      "Skating",
+      "Passing",
+      "Half Ice",
+      "Conditioning",
+      "Shooting",
+      "Backwards Skating",
+      "Puck Control"
+    ],
+    "description": "A demanding half-ice sequence that begins with an Iron Cross, moves into backward passing across the top of the zone, then adds a puck pickup, power turn, give-and-go and quick shot.",
+    "coaching_points": [
+      "Execute every stop and start with full effort.",
+      "Stay balanced while receiving passes backward.",
+      "Explode out of the power turn.",
+      "Make the give-and-go quickly and finish with a fast release."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/golden-cross",
+    "source_id": "golden-cross",
+    "image": "https://www.files.icehockeysystems.com/files/drills/golden-cross.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/golden-cross.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-quarter-race-8",
+    "number": 237,
+    "title": "Quarter Ice Puck Race #8",
+    "category": "Skating / Tight Turns / Race",
+    "drill_types": [
+      "1 on 1",
+      "Skating",
+      "Overspeed",
+      "Stations",
+      "Quarter Ice Station",
+      "Races",
+      "Tight Turns",
+      "Crossovers"
+    ],
+    "description": "Two players skate around the net, work through a figure-eight pattern around two tires, use crossovers to build speed around the outside and then race through the middle for a loose puck.",
+    "coaching_points": [
+      "Use tight turns around the tires.",
+      "Keep the feet moving through the figure eight.",
+      "Accelerate with crossovers before the final puck race.",
+      "Compete all the way through possession."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-8",
+    "source_id": "quarter-race-8",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quarter-ice-puck-race-8-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quarter-ice-puck-race-8-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-quarter-race-7",
+    "number": 238,
+    "title": "Quarter Ice Puck Race #7",
+    "category": "Skating / Transitions / Race",
+    "drill_types": [
+      "1 on 1",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Backwards Skating",
+      "Races",
+      "Agility",
+      "Transitions"
+    ],
+    "description": "Players race through a triangle of tires, repeatedly transitioning forward-to-backward and backward-to-forward before opening the hips and competing for a loose puck.",
+    "coaching_points": [
+      "Make every transition efficient and balanced.",
+      "Stay low while skating backward.",
+      "Open the hips cleanly on the final transition.",
+      "Explode into the puck race after the final tire."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-7",
+    "source_id": "quarter-race-7",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quarter-ice-puck-race-7-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quarter-ice-puck-race-7-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-quarter-race-6",
+    "number": 239,
+    "title": "Quarter Ice Puck Race #6",
+    "category": "Skating / Crossovers / Race",
+    "drill_types": [
+      "1 on 1",
+      "Skating",
+      "Overspeed",
+      "Stations",
+      "Quarter Ice Station",
+      "Races",
+      "Crossovers"
+    ],
+    "description": "Two players race forward around four tires arranged as a square, completing two laps before sprinting through the middle for a loose puck and scoring chance.",
+    "coaching_points": [
+      "Use powerful crossovers to create speed.",
+      "Stay outside the tires and keep the route honest.",
+      "Keep the feet moving through both laps.",
+      "Explode through the middle when the puck race begins."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-6",
+    "source_id": "quarter-race-6",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quarter-ice-puck-race-6-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quarter-ice-puck-race-6-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-7251166",
+    "number": 240,
+    "title": "Merrimack Wall Drill",
+    "category": "Wall Play / Rim Retrieval / Shooting",
+    "drill_types": [
+      "Breakouts",
+      "Half Ice",
+      "Puck Control",
+      "Skill Development",
+      "Wall Play",
+      "Retrievals",
+      "Shooting",
+      "Overspeed"
+    ],
+    "description": "A coach rims the puck around the boards and the player meets it on the wall with the head up. The player reads a coach's pressure position, either protects up the wall or cuts to middle ice, then attacks around the line and shoots.",
+    "coaching_points": [
+      "Time the rim so the puck is controlled cleanly off the wall.",
+      "Scan before and during the retrieval.",
+      "React to pressure instead of predetermining the escape.",
+      "Accelerate after the decision and release the shot quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/merrimack-wall-drill",
+    "source_id": "7251166",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7251166-0-1762289125.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7251166-0-1762289125.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-7902121",
+    "number": 241,
+    "title": "1 v 1 Three Gates Game",
+    "category": "1 on 1 / Puck Protection / Angling",
+    "drill_types": [
+      "1 on 1",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Defensive",
+      "Half Ice",
+      "Offensive",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station",
+      "Stickhandling"
+    ],
+    "description": "One attacker and one defender compete inside a faceoff circle containing three gates. The puck carrier scores by carrying from inside the circle through a gate; a turnover immediately changes which player is on offense.",
+    "coaching_points": [
+      "Offense uses skating and deception to win space.",
+      "Protect the puck with body position.",
+      "Defense keeps the stick on the puck and angles away from gates.",
+      "After a turnover, create space immediately."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_license_note": "Content licensed from the International Ice Hockey Federation (IIHF).",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-three-gates-game",
+    "source_id": "7902121",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7902121-0-1766170298.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7902121-0-1766170298.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-920756",
+    "number": 242,
+    "title": "Neutral Zone Game with Outlets",
+    "category": "Neutral Zone / Small Area Game / Outlets",
+    "drill_types": [
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Re-Group",
+      "Skill Development",
+      "Small Area Games",
+      "Transition",
+      "Neutral Zone",
+      "2 on 2",
+      "3 on 3",
+      "Battle Drills",
+      "Conditioning",
+      "Puck Support"
+    ],
+    "description": "Play 2-on-2 or 3-on-3 in the neutral zone with one stationary outlet available to each team. Players may use the outlet when it helps, creating fast support decisions and quick-touch scoring opportunities.",
+    "coaching_points": [
+      "Identify whether the outlet actually improves the play.",
+      "Move into open space after every pass.",
+      "Use quick touches and fast releases.",
+      "Keep scanning because the support option can change the pressure picture immediately."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Kendall Coyne Schofield",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-game-outlets",
+    "print_url": "https://www.icehockeysystems.com/print/standard/920756",
+    "source_id": "920756",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-920756-0-1675711782.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-920756-0-1675711782.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-diagram-and-print"
+  },
+  {
+    "uid": "ihs-951121",
+    "number": 243,
+    "title": "Long Bomb",
+    "category": "Neutral Zone / Small Area Game / Fast Break",
+    "drill_types": [
+      "Passing",
+      "Offensive",
+      "Small Area Games",
+      "Neutral Zone",
+      "2 on 2",
+      "3 on 3",
+      "Backchecking",
+      "Conditioning",
+      "Coverage",
+      "Defensive",
+      "Explosion",
+      "Full Ice",
+      "Awareness"
+    ],
+    "description": "Play 2-on-2 or 3-on-3 between two moved-up nets. A team can send the puck behind its own goal line to activate a fresh puck from the coach at center, creating instant long-pass and breakaway opportunities.",
+    "coaching_points": [
+      "Players without the puck decide whether to support or stretch for the new puck.",
+      "Communicate before activating the long-bomb option.",
+      "Defenders scan away from the puck for breaking threats.",
+      "Use the reset option instead of forcing a bad play."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Kendall Coyne Schofield",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/long-bomb",
+    "source_id": "951121",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-951121-0-1675711831.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-951121-0-1675711831.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-8261246",
+    "number": 244,
+    "title": "Battle Dome 1 on 1",
+    "category": "1 on 1 / Wall Battle / Puck Protection",
+    "drill_types": [
+      "1 on 1",
+      "Battle Drills",
+      "Down Low",
+      "Puck Control",
+      "Puck Protection",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Wall Play",
+      "Angling"
+    ],
+    "description": "A 1-on-1 begins with an offensive rim retrieval in a tight corner area with the net angled toward the battle. The offense works off the wall to create a scoring chance while the defender angles, uses an active stick and wins body position.",
+    "coaching_points": [
+      "Offense gets off the wall and uses deception to create space.",
+      "Protect the puck before trying to make a play.",
+      "Defense maintains a useful angle and stick-on-puck pressure.",
+      "Use strong body position without chasing behind the play."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/battle-dome-1-on-1",
+    "source_id": "8261246",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8261246-0-1760979215.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8261246-0-1760979215.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-9044896",
+    "number": 245,
+    "title": "Fran Gow 3 on 2 or 3 on 3",
+    "category": "Wall Play / Retrievals / Small Area Game",
+    "drill_types": [
+      "3 on 2",
+      "3 on 3",
+      "Battle Drills",
+      "Coverage",
+      "Cycling",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "One Goalie",
+      "Puck Control",
+      "Retrievals",
+      "Wall Play"
+    ],
+    "description": "Three attackers work against two or three defenders on three consecutive rimmed pucks. Offense must control unpredictable wall retrievals and attack the net while defenders apply immediate pressure and box out.",
+    "coaching_points": [
+      "Control rims cleanly and get off the wall.",
+      "Use cutbacks, jab steps and puck protection to create time.",
+      "Attack the net with purpose instead of staying on the perimeter.",
+      "Defenders maintain stick-on-puck pressure and win inside body position."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/fran-gow-3-on-2-or-3-on-3",
+    "source_id": "9044896",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-9044896-0-1765316483.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-9044896-0-1765316483.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-9326366",
+    "number": 246,
+    "title": "3 vs 2 Three Pucks Game",
+    "category": "3 on 2 / Small Area Game / Rebounds",
+    "drill_types": [
+      "3 on 2",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Offensive",
+      "Puck Support",
+      "Small Area Games",
+      "Goalie",
+      "Rebounds"
+    ],
+    "description": "Three attackers play against two defenders and a goalie inside a confined area. The coach feeds three separate pucks in rapid succession, giving the offense three scoring chances while the defenders must repeatedly reset and protect the middle.",
+    "coaching_points": [
+      "Offense attacks quick 2-on-1 opportunities inside the 3-on-2.",
+      "Create traffic and rebound chances at the net.",
+      "Defenders communicate and identify the most dangerous attacker.",
+      "Protect middle ice and remove backdoor passing lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mario Duhamel",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-vs-2-three-pucks-game",
+    "print_url": "https://www.icehockeysystems.com/print/standard/9326366",
+    "source_id": "9326366",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-9326366-0-1768418388.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-9326366-0-1768418388.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-diagram-and-print"
+  },
+  {
+    "uid": "ihs-6892871",
+    "number": 247,
+    "title": "2 on 2 Angle Game",
+    "category": "2 on 2 / Forecheck / Angling",
+    "drill_types": [
+      "2 on 2",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Defensive",
+      "Forechecking",
+      "Half Ice",
+      "Offensive",
+      "Skill Development",
+      "Small Area Games",
+      "Transition",
+      "3 on 2"
+    ],
+    "description": "Two players retrieve below the goal line while two opponents establish forechecking angles. If the forecheck creates a turnover, a third attacking player joins, producing a quick 3-on-2 before the rep ends.",
+    "coaching_points": [
+      "F1 pressures immediately with speed and a useful angle.",
+      "F2 supports the forecheck instead of chasing the same lane.",
+      "Use stick-on-puck pressure to create the turnover.",
+      "After possession changes, transition quickly into the 3-on-2."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Michael Peca",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-2-angle-game",
+    "source_id": "6892871",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6892871-0-1770065293.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6892871-0-1770065293.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
   }
 ]
