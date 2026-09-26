@@ -37,22 +37,27 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 30,
-    "catalog_items_verified": 30,
+    "catalog_items_imported": 49,
+    "catalog_items_verified": 49,
     "catalog_target": 1573,
     "last_batch": "featured/current catalog batch 1",
-    "original_diagrams_verified": 30,
+    "original_diagrams_verified": 49,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
     "unique_urls_discovered": 98,
-    "catalog_items_pending_enrichment": 68,
+    "catalog_items_pending_enrichment": 49,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue backfilling current page-1 results, then move through the remaining catalog pages while deduplicating by source URL. Enrich pending records with original diagram assets and print metadata.",
-    "multi_diagram_drills_preserved": 3,
+    "next_step": "Continue enriching pending catalog records, retry deferred source pages, and expand unique-URL discovery toward the 1,573-drill catalog target.",
+    "multi_diagram_drills_preserved": 7,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
-    "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total."
+    "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
+    "last_batch_imported": 19,
+    "last_batch_notes": "Imported 19 additional drills using original IHS-hosted Drill Maker images. Multi-diagram sequences for Road Runner 3 v 2, Breakout Transition Game, Turn & Burn, and Ramsay 3 V 3 Race are preserved in the images arrays.",
+    "deferred_items": [
+      "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later."
+    ]
   }
 }
