@@ -497,7 +497,7 @@
       "Transition"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
   },
   {
@@ -511,7 +511,7 @@
       "Puck Support"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
   },
   {
@@ -527,7 +527,7 @@
       "Stations"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
   },
   {
@@ -542,7 +542,7 @@
       "Third Ice Stations"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
   },
   {
@@ -553,7 +553,7 @@
       "Goalie"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
   },
   {
@@ -967,7 +967,7 @@
       "Puck Protection"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -983,7 +983,7 @@
       "3 on 3"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -999,7 +999,7 @@
       "Stickhandling"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -1031,7 +1031,7 @@
       "Down Low"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -1047,7 +1047,7 @@
       "Down Low"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -1063,7 +1063,7 @@
       "Defensive Zone"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -1095,7 +1095,7 @@
       "Races"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
@@ -1111,7 +1111,7 @@
       "Neutral Zone"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=2"
   },
   {
