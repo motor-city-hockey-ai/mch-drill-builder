@@ -49,9 +49,17 @@
     "catalog_items_pending_enrichment": 64,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue catalog pagination, deduplicate by source URL, then enrich each discovered record with original IHS diagram assets, print/PDF metadata, detailed categories, and coach-readable notes.",
+    "next_step": "Backfill page=1 (catalog positions 43-84) next, then continue page=3 onward. Deduplicate by source URL before enrichment.",
     "multi_diagram_drills_preserved": 2,
     "last_completed_index_range": "85-126 of 1573",
-    "last_completed_catalog_page": 2
+    "last_completed_catalog_page": 2,
+    "covered_index_ranges": [
+      "1-42",
+      "85-126"
+    ],
+    "uncovered_index_ranges": [
+      "43-84",
+      "127-1573"
+    ]
   }
 }
