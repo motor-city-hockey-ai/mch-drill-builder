@@ -6528,5 +6528,440 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-max-skill-station-1-3",
+    "number": 205,
+    "title": "Max Skill Station Series #1 - #3",
+    "category": "Station Skills / Puck Control / Shooting",
+    "drill_types": [
+      "Skating",
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "description": "A compact skill station built around a tire, a short barrier and a net. The three progressions combine control turns, puck retrievals, single shifts, backward-to-forward transitions and quick shooting from tight space.",
+    "coaching_points": [
+      "Keep control turns tight and balanced.",
+      "Pull retrieved pucks into the body so they are ready to shoot.",
+      "Protect the puck when shifting around the barrier.",
+      "Progress from forward retrievals to backward retrievals and transitions."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/max-skill-station-series-1-3",
+    "source_id": "max-skill-station-1-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/Max-Skill-Station-Series-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/Max-Skill-Station-Series-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-7971",
+    "number": 206,
+    "title": "Wall Retrieval Station",
+    "category": "Wall Retrieval / Breakout / Shooting",
+    "drill_types": [
+      "Breakouts",
+      "Shooting",
+      "Skating",
+      "Skill Development",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "description": "A player times a wall retrieval on a rimmed puck, gathers it while moving up ice, passes to the next player in line, loops around an obstacle and receives the puck back for a shot.",
+    "coaching_points": [
+      "Move the feet through the wall pickup.",
+      "Get to the wall before collecting the rim.",
+      "Scan the point before and during the retrieval.",
+      "After gaining possession, create space off the wall before making the next play."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wall-retrieval-station",
+    "source_id": "7971",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7971-0-1744572611.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7971-0-1744572611.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-5000031",
+    "number": 207,
+    "title": "Pad Skating with Pass and Shot",
+    "category": "Skating / Puck Control / Shooting",
+    "drill_types": [
+      "Agility",
+      "Half Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Skating"
+    ],
+    "description": "Players retrieve a puck from one net, perform a chosen skating or puckhandling skill around pads or cones, pass to a corner teammate, receive the return pass and finish with a shot.",
+    "coaching_points": [
+      "Use the obstacle section to emphasize the day's skating skill.",
+      "Keep the head up while handling through the pads.",
+      "Pass and receive in stride.",
+      "Rotate the shooter into the passing role after the rep."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pad-skating-pass-and-shot",
+    "source_id": "5000031",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5000031-0-1727373644.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5000031-0-1727373644.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-4980611",
+    "number": 208,
+    "title": "Full Ice Skating & Skills with 9 Variations",
+    "category": "Skating / Edgework / Full Ice",
+    "drill_types": [
+      "Agility",
+      "Conditioning",
+      "Full Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Skating"
+    ],
+    "description": "A full-ice cone setup for repeated edgework and puck-control patterns. The listed variations include stops and starts, tight turns, figure eights, forward-to-backward transitions and mohawks, with or without a puck.",
+    "coaching_points": [
+      "Use the full ice to accelerate between skill zones.",
+      "Stay low and controlled at the cones.",
+      "Perform the same pattern both directions.",
+      "Add pucks only after the skating mechanics are clean."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-skating-skills-9-variations",
+    "source_id": "4980611",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4980611-0-1727372188.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4980611-0-1727372188.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-4836701",
+    "number": 209,
+    "title": "Puck Stack Races",
+    "category": "Skating / Coordination / Relay Race",
+    "drill_types": [
+      "Races",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Teams race from the goal line to build a tower of pucks directly on the blue line. Each player carries one puck by hand, stacks it on the tower and races back to tag the next teammate.",
+    "coaching_points": [
+      "Explode with full strides to and from the blue line.",
+      "Stay under control when placing the puck.",
+      "Keep the stack on the actual blue line.",
+      "Add backward skating or obstacles as a progression."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-stack-races-1",
+    "source_id": "4836701",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4836701-0-1726157024.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4836701-0-1726157024.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-2971281",
+    "number": 210,
+    "title": "2 on 1 to 3 on 2 High Man Backcheck",
+    "category": "Rush / Backcheck / Transition",
+    "drill_types": [
+      "Zone Entry",
+      "Skating",
+      "Offensive",
+      "Transition",
+      "Breakouts",
+      "2 on 1"
+    ],
+    "description": "The sequence begins with a 2-on-1. A third forward then joins to create the next 3-on-2, and after that rush the high forward becomes the backchecker on the following 2-on-1.",
+    "coaching_points": [
+      "Defense keeps sticks in passing lanes and forces play outside.",
+      "Forwards communicate and support the puck.",
+      "Backchecker uses long strides through middle ice.",
+      "Transition quickly between the 2-on-1 and 3-on-2 phases."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Brad Flynn",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-3-2-high-man-backcheck",
+    "source_id": "2971281",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2971281-0-1697114258.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2971281-0-1697114258.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2971281-1-1697114258.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-two-original-diagrams"
+  },
+  {
+    "uid": "ihs-2639556",
+    "number": 211,
+    "title": "Box Tag",
+    "category": "Skating / Edgework / Deception",
+    "drill_types": [
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Agility",
+      "Coverage"
+    ],
+    "description": "Players stay inside a small box or circle while one tagger tries to eliminate them. The confined space naturally forces tight turns, weight shifts and quick directional changes.",
+    "coaching_points": [
+      "Use deception and weight shifts to escape the tagger.",
+      "Stay low through tight turns.",
+      "Keep scanning for open space.",
+      "Increase the space for more speed or add extra taggers for difficulty."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/box-tag-36",
+    "source_id": "2639556",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2639556-0-1693852772.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2639556-0-1693852772.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-2638266",
+    "number": 212,
+    "title": "2 V 0 to 2 v 2 Full Ice Backcheck",
+    "category": "Backchecking / Full Ice / Rush",
+    "drill_types": [
+      "Skating",
+      "Transition",
+      "2 on 0",
+      "2 on 2",
+      "Backchecking",
+      "Conditioning"
+    ],
+    "description": "A pair attacks full ice 2-on-0. As soon as that rush ends, the next pair attacks the opposite direction while the first two players immediately transition into full-ice backcheckers.",
+    "coaching_points": [
+      "Attackers use full strides and underhandle the puck.",
+      "Shoot in stride or use a quick pass-and-release.",
+      "Backcheckers recover through middle ice with sticks down.",
+      "Communicate assignments while closing the rush."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-0-2-v-2-full-ice-backcheck",
+    "source_id": "2638266",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2638266-0-1693852644.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2638266-0-1693852644.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-2632281",
+    "number": 213,
+    "title": "1 v 1 Skating Race - Pick 3 Turns",
+    "category": "Skating / Tight Turns / Race",
+    "drill_types": [
+      "1 on 1",
+      "Agility",
+      "Races",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "description": "Two players race into a four-cone area, choose any three cones for tight turns, then compete for a loose puck and finish with a shot on goal.",
+    "coaching_points": [
+      "Get low and load the edges through each turn.",
+      "Look toward the exit of the turn.",
+      "Keep the feet moving immediately after every turn.",
+      "Compete through the puck after the third turn."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-skating-race-pick-3-turns",
+    "source_id": "2632281",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2632281-0-1729623635.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2632281-0-1729623635.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-1261321",
+    "number": 214,
+    "title": "3 Speed Warm-Up Drill",
+    "category": "Warm Up / Puckhandling / Awareness",
+    "drill_types": [
+      "Skating",
+      "Pre Game",
+      "Puck Control",
+      "Puck Handling",
+      "Stations",
+      "Warm Up"
+    ],
+    "description": "Every player has a puck and reacts to whistle changes: 50% speed with skates staying on the ice, 75% with creative turns and lateral movement, then 100% explosive skating into open space.",
+    "coaching_points": [
+      "Keep the head up at every speed.",
+      "Use wide lateral puck movement at the slow speed.",
+      "Be creative at the middle speed.",
+      "At full speed, push outside the comfort zone while still scanning."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-speed-warm-drill",
+    "source_id": "1261321",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1261321-0-1660829778.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1261321-0-1660829778.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-1036896",
+    "number": 215,
+    "title": "Chase The Rabbit",
+    "category": "Awareness / Puckhandling / Skating",
+    "drill_types": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Stickhandling",
+      "Warm Up"
+    ],
+    "description": "Players work in pairs inside a defined area. The Rabbit moves without a puck using pivots, tight turns and traffic, while the Chaser follows as closely as possible while handling a puck.",
+    "coaching_points": [
+      "Both players keep their heads up in traffic.",
+      "Rabbit changes direction and skating posture frequently.",
+      "Chaser controls the puck without staring down.",
+      "For advanced groups, give both players pucks."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chase-the-rabbit",
+    "source_id": "1036896",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1036896-1645242494.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1036896-1645242494.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-922431",
+    "number": 216,
+    "title": "Billy Purcell Off the Wall",
+    "category": "Passing / Wall Play / Warm Up",
+    "drill_types": [
+      "Skating",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Stickhandling"
+    ],
+    "description": "A pass-and-follow warm-up runs down the ice. Each receiver jumps off the wall toward the dots before making the next pass, and the sequence finishes with a shot at the far end.",
+    "coaching_points": [
+      "Get off the wall to create usable space.",
+      "Catch and pass on both forehand and backhand.",
+      "Keep the head up before receiving.",
+      "Move into the space of the player you just passed to."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "TJ Manastersky",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/billy-purcell-off-the-wall",
+    "source_id": "922431",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-922431-0-1674530695.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-922431-0-1674530695.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-601331",
+    "number": 217,
+    "title": "Triangle Tag",
+    "category": "Skating / Awareness / Puck Control",
+    "drill_types": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Stations",
+      "Stickhandling"
+    ],
+    "description": "Every skater has a puck while designated taggers move without sticks. Tagged players freeze and form a triangle with their stick and skates; teammates can untag them by stickhandling through the triangle.",
+    "coaching_points": [
+      "Keep the head up to identify taggers and open ice.",
+      "Use tight turns and changes of direction to escape.",
+      "Protect the puck while helping teammates.",
+      "Shrink the area or add taggers to increase difficulty."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/triangle-tag",
+    "source_id": "601331",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-601331-0-1663812564.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-601331-0-1663812564.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-490521",
+    "number": 218,
+    "title": "Half Way Around The World - Head On",
+    "category": "Awareness / Head-Up Puckhandling",
+    "drill_types": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Offensive",
+      "Stickhandling"
+    ],
+    "description": "Both groups carry pucks around two offset nets and travel head-on through shared space. The goal is not to race but to force players to handle the puck while identifying moving traffic.",
+    "coaching_points": [
+      "Head stays up throughout the drill.",
+      "Treat the oncoming group as moving obstacles.",
+      "Do not turn it into a speed race.",
+      "Add figure-eight crossings only after players can safely scan and handle."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-way-around-world-head-up",
+    "source_id": "490521",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-490521-1630426090.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-490521-1630426090.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
   }
 ]
