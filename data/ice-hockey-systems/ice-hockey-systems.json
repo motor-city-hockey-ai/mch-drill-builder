@@ -25277,5 +25277,99 @@
     "member_only": true,
     "status": "verified",
     "number": 776
+  },
+  {
+    "uid": "ihs-stretch-pass-3-0",
+    "title": "Stretch Pass 3 on 0",
+    "category": "3 vs 0 / Passing / Full Ice",
+    "drill_types": [
+      "3 vs 0",
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Puck Support",
+      "Zone Entry",
+      "Transition"
+    ],
+    "description": "Three players leave together. F1 loops beyond center and returns toward the coach for a long stretch pass while F2 and F3 pivot to stay facing the puck. F1 can one-touch the puck to either support player, creating a three-player zone entry with a net drive, trailer and multiple finishing options.",
+    "coaching_points": [
+      "F2 and F3 stay open to the puck while timing their routes.",
+      "F1 receives the stretch pass in motion and looks to move it quickly.",
+      "Enter with width, a hard far-post drive and a high trailer.",
+      "Use a one-touch pass when the support timing allows."
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stretch-pass-3-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/stretch-pass-3-on-0.jpg",
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/stretch-pass-3-on-0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 777
+  },
+  {
+    "uid": "ihs-cyclone-passing-drill",
+    "title": "Cyclone Passing Drill",
+    "category": "Passing / Skating / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Warm Up",
+      "Backwards Skating",
+      "Shooting"
+    ],
+    "description": "An advanced one-touch passing drill in which the active player circles through the neutral zone, completes give-and-go passes with each line while skating forward, pivots backward for another full passing circuit, then transitions forward and finishes with a shot.",
+    "coaching_points": [
+      "Move the feet continuously through the entire sequence.",
+      "Use one-touch passes whenever possible.",
+      "Present the stick early and minimize extra stickhandling.",
+      "Make clean forward-to-backward and backward-to-forward transitions before the final shot."
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cyclone-passing-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cyclone-passing.jpg",
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cyclone-passing.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 778
+  },
+  {
+    "uid": "ihs-big-w-warm",
+    "title": "Big W Warm Up",
+    "category": "Passing / Full Ice / Shooting",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Puck Support",
+      "Flow"
+    ],
+    "description": "A full-ice passing warm-up with several quick exchanges. P1 banks the puck behind the net to P2, receives it back, works give-and-go passes with P3 and P4 while advancing up ice, then attacks the far blue line for a shot as the next repetition starts from the opposite side.",
+    "coaching_points": [
+      "Passes must be quick and sharp to keep the drill from breaking down.",
+      "Move immediately after every pass to become the next support option.",
+      "Keep the give-and-go exchanges in stride.",
+      "Alternate sides and maintain continuous flow from both ends."
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/big-w-warm",
+    "image": "https://www.files.icehockeysystems.com/files/drills/big-w-warm-up.jpg",
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/big-w-warm-up.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 779
   }
 ]
