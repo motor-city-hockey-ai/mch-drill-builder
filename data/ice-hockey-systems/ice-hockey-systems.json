@@ -22541,5 +22541,161 @@
     "original_diagram": true,
     "status": "verified",
     "number": 690
+  },
+  {
+    "uid": "ihs-half-horse-shoe-give-go",
+    "title": "Half Horse Shoe Give & Go",
+    "category": "Passing / Give & Go / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Full Ice",
+      "Flow",
+      "Puck Support"
+    ],
+    "description": "Four lines are set along the boards with diagonal groups alternating. The puck carrier moves up the wall, curls toward the middle around the neutral-zone dot, makes a quick give-and-go with the next player in line and then attacks the net for a shot.",
+    "coaching_points": [
+      "Carry with speed before curling into the middle.",
+      "Present the stick and make the give-and-go quickly.",
+      "Return the puck into the skater's path rather than behind them.",
+      "Keep the feet moving through the catch and shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-horse-shoe-give-go",
+    "image": "https://www.files.icehockeysystems.com/files/drills/half-horse-shoe-give-go.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/half-horse-shoe-give-go.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 691
+  },
+  {
+    "uid": "ihs-u-transition-drill",
+    "title": "The U Transition Drill",
+    "category": "Passing / Transition / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Transition",
+      "Full Ice",
+      "Puck Support",
+      "Warm Up"
+    ],
+    "description": "A four-line passing sequence shaped by a large U route. The first player moves the puck across the ice, then skates up and across the red line before opening up for a return pass and attacking the net. Opposite pairs alternate each repetition.",
+    "coaching_points": [
+      "Move the first passes quickly so the skating route stays on time.",
+      "Open the hips and stick to the puck while completing the U-shaped route.",
+      "Receive the return pass in motion.",
+      "Alternate sides so both directions and both passing sequences are trained."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/u-transition-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/u-transition-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/u-transition-drill.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 692
+  },
+  {
+    "uid": "ihs-quick-gap-1-on-1",
+    "title": "Quick Gap 1 on 1",
+    "category": "1 vs 1 / Gap / Transition",
+    "drill_types": [
+      "1 vs 1",
+      "Gap",
+      "Transition",
+      "Passing",
+      "Full Ice",
+      "Defensive",
+      "Offensive",
+      "Zone Entry"
+    ],
+    "description": "A full-ice 1-on-1 designed to force the defender into a tighter gap. The forward transitions toward the wall to receive a pass while the defender moves from center ice, reaches the dot and transitions backward to meet the rush.",
+    "coaching_points": [
+      "Defense closes space early instead of surrendering the blue line.",
+      "Forward receives the puck while moving and attacks with pace.",
+      "Defender transitions backward with the chest and stick aligned to the rush.",
+      "Keep each side on its half of the ice until center to avoid traffic."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-gap-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quick-gap-1-on-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quick-gap-1-on-1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 693
+  },
+  {
+    "uid": "ihs-shoot-and-shadow-1-vs-1",
+    "title": "Shoot and Shadow 1 vs. 1",
+    "category": "1 vs 1 / Gap / Breakout",
+    "drill_types": [
+      "1 vs 1",
+      "Shooting",
+      "Gap",
+      "Breakouts",
+      "Passing",
+      "Puck Support",
+      "Full Ice",
+      "Defensive",
+      "Offensive"
+    ],
+    "description": "A two-end 1-on-1 progression that begins with the defense receiving while transitioning backward and walking the puck to the middle for a shot. The forward hunts the rebound, becomes a breakout outlet and then attacks up ice while the defender recovers to establish gap.",
+    "coaching_points": [
+      "Defense controls the first pass while moving and gets the shot through.",
+      "Forward follows the pass, hunts the rebound and then reloads inside the dots as an outlet.",
+      "Receive the breakout pass flat and in stride to create separation.",
+      "Defense pivots and recovers quickly enough to keep the rush outside."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shoot-and-shadow-1-vs-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/shoot-and-shadow-1vs1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/shoot-and-shadow-1vs1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 694
+  },
+  {
+    "uid": "ihs-warm-up-delay",
+    "title": "Warm Up Delay",
+    "category": "Passing / Delay / Zone Entry",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Full Ice",
+      "Transition",
+      "Zone Entry",
+      "Puck Support"
+    ],
+    "description": "A four-line timing drill through the neutral zone. The outside skater cuts into the middle for a timed pass, enters the offensive zone and uses an escape toward the boards to buy time for the passer to join the attack for a return pass and shot.",
+    "coaching_points": [
+      "Time the first pass so it reaches the receiver in the middle with speed.",
+      "Enter under control before using the escape move.",
+      "The supporting player joins immediately after the pass instead of watching the play.",
+      "Use the delay to create space, then deliver the return pass into a shooting lane."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/warm-delay",
+    "image": "https://www.files.icehockeysystems.com/files/drills/warm-up-delay.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/warm-up-delay.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 695
   }
 ]
