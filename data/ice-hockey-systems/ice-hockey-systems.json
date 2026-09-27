@@ -21723,5 +21723,131 @@
     "member_only": true,
     "status": "verified",
     "number": 664
+  },
+  {
+    "uid": "ihs-basic-cross-over-skating-station",
+    "title": "Basic Cross Over Skating Station",
+    "category": "Skating / Sixth Ice Station",
+    "drill_types": [
+      "Skating",
+      "Stations",
+      "Sixth Ice Stations",
+      "Puck Control"
+    ],
+    "description": "A basic crossover skating station using one faceoff circle. Players complete two laps around the circle, focusing on crossover mechanics, then stop back at the blue line. The direction alternates each repetition and pucks can be added after the skating pattern is established.",
+    "coaching_points": [
+      "Stay low through the crossover and push with both inside and outside edges.",
+      "Cross the outside skate completely over without standing up.",
+      "Alternate directions so both sides develop equally.",
+      "Add a puck only after the skating mechanics remain clean."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/basic-cross-over-skating-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/basic-cross-over-station.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/basic-cross-over-station.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 665
+  },
+  {
+    "uid": "ihs-quick-coach-2on1-backchecker",
+    "title": "Quick Coach 2 on 1 with Backcheck",
+    "category": "2 vs 1 / Backcheck / Full Ice",
+    "drill_types": [
+      "Full Ice",
+      "Backchecking",
+      "2 vs 1",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Gap"
+    ],
+    "description": "Two forwards skate toward the coach, transition backward while facing the puck, then transition forward as the coach passes to one of them for a rush. A defender sprints toward center and gaps up. A backchecker can be added behind the coach to increase urgency and pressure the weak-side attacker.",
+    "coaching_points": [
+      "Forwards transition without losing sight of the puck and attack with speed.",
+      "The defender reads which forward receives the pass and establishes inside position.",
+      "The backchecker tracks the weak-side attacker first.",
+      "Communicate so the defender and backchecker sort the rush without duplicating coverage."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-coach-2-1-backcheck",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quick-coach-2on1-backchecker.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quick-coach-2on1-backchecker.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 666
+  },
+  {
+    "uid": "ihs-2v2-stop-starts",
+    "title": "2 vs. 2 Stop & Starts",
+    "category": "2 vs 2 / Backchecking / Conditioning",
+    "drill_types": [
+      "2 vs 2",
+      "Backchecking",
+      "Full Ice",
+      "Conditioning",
+      "Races",
+      "Transition",
+      "Offensive",
+      "Defensive"
+    ],
+    "description": "Four players perform stop-and-start skating between the blue and red lines, then race toward the far end. The coach sends the puck to one side, and all four players must immediately read possession and sort themselves into two attackers and two defenders.",
+    "coaching_points": [
+      "Face the coach on every stop so the play stays in view.",
+      "Accelerate hard out of each stop and compete for possession.",
+      "Weak-side players read the puck winner before choosing offense or defense.",
+      "Transition immediately instead of waiting for the rush roles to become obvious."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-stop-starts",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2v2-stop-starts.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2v2-stop-starts.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 667
+  },
+  {
+    "uid": "ihs-swedish-transition-series-2",
+    "title": "Swedish Transition Series #2",
+    "category": "3 vs 0 / Transition / Full Ice",
+    "drill_types": [
+      "One Goalie",
+      "Passing",
+      "Transition",
+      "3 vs 0",
+      "Full Ice",
+      "Puck Support",
+      "Offensive"
+    ],
+    "description": "A Swedish transition progression where the defense makes the neutral-zone pass, jumps into open ice to receive the puck back and leads a three-player rush into the zone. F1 drives the net while F2 trails into the high slot and provides defensive replacement awareness.",
+    "coaching_points": [
+      "Defense follows the pass into open ice instead of remaining stationary.",
+      "F1 drives hard through the middle to push back coverage.",
+      "F2 trails into the high slot and stays aware of defensive responsibility.",
+      "Keep the passing sequence moving so the rush enters with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swedish-transition-series-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/swedish-transition-series-2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/swedish-transition-series-2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 668
   }
 ]
