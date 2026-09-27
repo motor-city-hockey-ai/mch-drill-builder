@@ -14465,5 +14465,166 @@
     "member_only": false,
     "status": "verified",
     "number": 443
+  },
+  {
+    "uid": "ihs-152601",
+    "title": "Corner Tires - Small Area Game",
+    "category": "1 vs 1 / 2 vs 2 / Small Area Game",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Puck Protection",
+      "Puck Support",
+      "Small Area Games",
+      "Communication"
+    ],
+    "description": "Players compete in a confined area and score by hitting one of two tires on the opponent's side. The game can be played 1-on-1, 2-on-2 or 3-on-3 and forces players to protect the puck while identifying open space.",
+    "coaching_points": [
+      "Protect the puck and keep the head up.",
+      "Move to open space when you do not have the puck.",
+      "Use verbal and non-verbal communication to create outlets."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-tires-small-area-game",
+    "source_id": "152601",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-152601-0-1665063606.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-152601-0-1665063606.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 444
+  },
+  {
+    "uid": "ihs-85556",
+    "title": "Offense to Defense 2 on 2",
+    "category": "2 vs 2 / Small Area Game / Transition",
+    "drill_types": [
+      "2 vs 2",
+      "1 vs 1",
+      "3 vs 3",
+      "4 vs 4",
+      "Small Area Games",
+      "Transition",
+      "Puck Protection",
+      "Puck Support"
+    ],
+    "description": "Two attackers play 2-on-2 against two defenders in a small area. When the defenders gain possession they must make a clean tape-to-tape pass to the next offensive group; the previous attackers then become the defenders, making the game continuous.",
+    "coaching_points": [
+      "Attackers try to isolate one defender and create a 2-on-1 inside the 2-on-2.",
+      "Defenders communicate, stay inside and control the puck before exiting.",
+      "Both sides protect possession until a clean play is available."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/offense-defense-2-on-2",
+    "source_id": "85556",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-85556-0-1744835073.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-85556-0-1744835073.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 445
+  },
+  {
+    "uid": "ihs-57611",
+    "title": "7 Pass 2 vs. 1 Small Area Game",
+    "category": "2 vs 1 / Passing / Small Area Game",
+    "drill_types": [
+      "2 vs 1",
+      "Passing",
+      "Puck Support",
+      "Small Area Games",
+      "Awareness",
+      "Goalie"
+    ],
+    "description": "Two offensive players work against one defender inside a tight neutral-zone box. The offense tries to complete seven consecutive passes while the defender disrupts possession; a goalie variation allows the attackers to go to the net after the seventh pass.",
+    "coaching_points": [
+      "Pass and move instead of passing and watching.",
+      "Off-puck player constantly presents a good target.",
+      "Defender uses active sticks, hard stops and straight-line pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/7-pass-2-vs-1-small-area-game",
+    "source_id": "57611",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-57611-0-1677521689.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-57611-0-1677521689.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 446
+  },
+  {
+    "uid": "ihs-151781",
+    "title": "Swiss 4 vs. 2 Scoring Game",
+    "category": "4 vs 2 / Small Area Game / Scoring",
+    "drill_types": [
+      "4 vs 2",
+      "2 vs 1",
+      "Passing",
+      "Shooting",
+      "Puck Support",
+      "Small Area Games",
+      "Offensive",
+      "Defensive"
+    ],
+    "description": "Four attackers play against two defenders in two connected 2-on-1 spaces. Attackers can pass across the full group while defenders remain responsible for their assigned half, creating repeated scoring and deception decisions under pressure.",
+    "coaching_points": [
+      "Scan before receiving and know the next option.",
+      "Use deception to create passing or shooting lanes.",
+      "Attack the net when a clear shooting opportunity appears.",
+      "Defenders use body and stick position to remove cross-ice options."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ben Eaves",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swiss-4-vs-2-scoring-game",
+    "source_id": "151781",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-151781-0-1671676645.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-151781-0-1671676645.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 447
+  },
+  {
+    "uid": "ihs-2640111",
+    "title": "Chute Angling 1 V 1",
+    "category": "1 vs 1 / Angling / Retrieval",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Puck Protection",
+      "Retrievals",
+      "Half Ice",
+      "Small Area Games"
+    ],
+    "description": "The puck is banked or shot toward the blue line for an offensive player to retrieve while a second player closes as the defender. After retrieval, the forward attacks the net and the defender works to angle the puck carrier outside and win possession.",
+    "coaching_points": [
+      "Defender matches speed, keeps the stick on the ice and angles toward the boards.",
+      "Puck carrier uses deception before retrieval and keeps the feet moving.",
+      "Both players keep the head up and react to body position rather than fakes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chute-angling-1-v-1",
+    "source_id": "2640111",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2640111-0-1696263116.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2640111-0-1696263116.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 448
   }
 ]
