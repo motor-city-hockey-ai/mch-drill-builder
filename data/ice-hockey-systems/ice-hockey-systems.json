@@ -23630,5 +23630,111 @@
     "original_diagram": true,
     "status": "verified",
     "number": 725
+  },
+  {
+    "uid": "ihs-panda-2-on-1-backcheck",
+    "title": "Panda 2 on 1 with Backcheck",
+    "category": "2 vs 1 / Backcheck / Full Ice",
+    "drill_types": [
+      "2 vs 1",
+      "3 vs 2",
+      "Backchecking",
+      "Full Ice",
+      "One Goalie",
+      "Breakouts",
+      "Transition",
+      "Defensive",
+      "Offensive"
+    ],
+    "description": "A one-goalie full-ice transition drill. D1 retrieves a puck behind the net and outlets to one of two swinging forwards, who attack D2 in a 2-on-1. A third forward can add light forecheck pressure on the retrieval and then backcheck to the open attacker, turning the rush into a 3-player defensive read.",
+    "coaching_points": [
+      "D1 protects the puck behind the net and delivers a crisp tape-to-tape outlet.",
+      "The two attackers swing with timing and communicate before entering the rush.",
+      "D2 and the backchecker communicate responsibility early.",
+      "Backchecker identifies the open attacker and works to regain defensive-side position."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/panda-2-1-backcheck",
+    "image": "https://www.files.icehockeysystems.com/files/drills/panda-2-on-1-with-backcheck.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/panda-2-on-1-with-backcheck.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 726
+  },
+  {
+    "uid": "ihs-toronto-3-on-2",
+    "title": "Toronto 3 on 2",
+    "category": "3 vs 2 / Transition / Full Ice",
+    "drill_types": [
+      "3 vs 2",
+      "4 vs 2",
+      "Transition",
+      "Zone Entry",
+      "Full Ice",
+      "Gap",
+      "Down Low",
+      "Coverage",
+      "Offensive",
+      "Defensive",
+      "Puck Support"
+    ],
+    "description": "A continuous 3-on-2 rush and down-low cycle progression. A forward passes to a defenseman, who transitions the puck to the opposite forward line for a 3-on-2. A second puck is rimmed to create a 3-on-2 below the tops of the circles, and the sequence transitions back the other direction on the next whistle.",
+    "coaching_points": [
+      "Forwards fill separate rush lanes and keep sticks available.",
+      "Defenders protect middle ice, use active sticks and angle the attack outside.",
+      "After the rim, offensive players move to open ice and support the puck below the dots.",
+      "Transition immediately on the next whistle so the drill stays continuous and fast."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Wes Wolfe",
+    "source_url": "https://icehockeysystems.com/hockey-drills/toronto-3-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3050051-0-1702905505.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3050051-0-1702905505.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3050051-1-1702905505.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3050051-2-1702905505.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 727
+  },
+  {
+    "uid": "ihs-3-zone-3-puck",
+    "title": "3 zone 3 puck",
+    "category": "3 vs 2 / Passing / Full Ice Game",
+    "drill_types": [
+      "3 vs 2",
+      "3 vs 3",
+      "Passing",
+      "Small Area Games",
+      "Full Ice",
+      "Awareness",
+      "Puck Support",
+      "Offensive",
+      "Defensive"
+    ],
+    "description": "A full-ice team possession game divided into three zones. Each team places players in the defensive, neutral and offensive zones, and players must stay in their assigned zone while passing the puck forward to teammates. The coach can add extra pucks until as many as three are in play.",
+    "coaching_points": [
+      "Puck carriers scan early and find the next available teammate.",
+      "Players without the puck move constantly into open passing lanes.",
+      "Use both verbal and non-verbal communication across zones.",
+      "When additional pucks enter, keep awareness high and continue supporting teammates."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/3-zone-3-puck",
+    "image": "https://www.files.icehockeysystems.com/files/drills/3-zone-3-puck.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/3-zone-3-puck.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 728
   }
 ]
