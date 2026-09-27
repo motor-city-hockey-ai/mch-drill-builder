@@ -11330,5 +11330,101 @@
     "member_only": true,
     "status": "verified",
     "number": 346
+  },
+  {
+    "uid": "ihs-42776",
+    "title": "Quick Turn Up 1 on 1",
+    "category": "1 on 1 / Transition",
+    "drill_types": [
+      "1 on 1",
+      "Transition",
+      "Zone Entry",
+      "Defensive",
+      "Gap",
+      "Full Ice"
+    ],
+    "description": "A forward retrieves a puck near the red line, turns up ice around a marker and attacks a defender 1-on-1. The defender transitions into gap control and works to keep the rush outside.",
+    "coaching_points": [
+      "Forward attacks with speed and reads available inside or outside ice.",
+      "Defender closes gap early and keeps the stick in a useful lane.",
+      "Use changes of pace and direction to create separation."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-turn-1-1",
+    "source_id": "42776",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-42776-0-1671651862.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-42776-0-1671651862.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 347
+  },
+  {
+    "uid": "ihs-2410",
+    "title": "Quick Turn Up 2 on 1",
+    "category": "2 on 1 / Transition",
+    "drill_types": [
+      "2 on 1",
+      "Transition",
+      "Zone Entry",
+      "Defensive",
+      "Gap",
+      "Half Ice",
+      "Stations"
+    ],
+    "description": "Two forwards accelerate from center ice to a loose puck and immediately attack a defender 2-on-1. The setup recreates a neutral-zone turnover that turns into a quick scoring chance.",
+    "coaching_points": [
+      "Puck carrier attacks decisively instead of slowing the rush.",
+      "Support forward gets open or drives the net.",
+      "Use deception and changes of pace to move the defender.",
+      "Defender keeps the stick in the passing lane and maintains a tight gap."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/print/standard/2410",
+    "source_id": "2410",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2410-0-1671651316.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2410-0-1671651316.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 348
+  },
+  {
+    "uid": "ihs-126306",
+    "title": "Quick Turn Up 2 On 2",
+    "category": "2 on 2 / Transition",
+    "drill_types": [
+      "2 on 2",
+      "Transition",
+      "Zone Entry",
+      "Defensive",
+      "Gap",
+      "Full Ice",
+      "Half Ice"
+    ],
+    "description": "Two forwards cross to build speed and attack two defensemen in a high-tempo 2-on-2 transition. The rep continues until the play is dead or the defense exits the zone.",
+    "coaching_points": [
+      "Forwards generate speed before entering the attack.",
+      "Support away from the puck and use crossing or pace changes to create space.",
+      "Defenders communicate, hold a tight gap and steer the rush outside."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-turn-up-2-on-2",
+    "source_id": "126306",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-126306-1650553832.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-126306-1650553832.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 349
   }
 ]
