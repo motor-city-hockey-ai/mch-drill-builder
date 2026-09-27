@@ -29874,5 +29874,328 @@
     "member_only": true,
     "status": "verified",
     "number": 924
+  },
+  {
+    "uid": "ihs-4check-moving-shot-blockers",
+    "title": "4Check Moving Shot Blockers",
+    "category": "Shooting / Blue Line / Skill",
+    "drill_types": [
+      "Shooting",
+      "Skill Development",
+      "Defensive"
+    ],
+    "description": "A defenseman works the blue line while moving obstacles simulate changing traffic. The player must scan, adjust laterally and release through the safest available shooting lane.",
+    "coaching_points": [
+      "Scan before and during the rep.",
+      "Use quick lateral steps to change the lane.",
+      "Use deception to shift traffic.",
+      "Prioritize getting the puck through over maximum power."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-moving-shot-blockers-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8586541-0-1762452512.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8586541-0-1762452512.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 925
+  },
+  {
+    "uid": "ihs-o-zone-d-to-d",
+    "title": "O-Zone D to D",
+    "category": "Defense / Puck Handling / Shooting",
+    "drill_types": [
+      "Puck Handling",
+      "Skill Development",
+      "Shooting",
+      "Defensive",
+      "Offensive Zone"
+    ],
+    "description": "Defensemen work two offensive-zone patterns designed to maintain control through transitions, move laterally under pressure and create a shot or passing lane from the blue line.",
+    "coaching_points": [
+      "Keep the head up through the transition.",
+      "Maintain a strong skating base.",
+      "Use deception and quick puck movement.",
+      "Choose shots that create rebounds or second chances."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/o-zone-d-d-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8586416-0-1762452187.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8586416-0-1762452187.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8586416-1-1762452187.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 926
+  },
+  {
+    "uid": "ihs-4check-power-play-options",
+    "title": "4Check Power Play Options",
+    "category": "Power Play / Passing / Shooting",
+    "drill_types": [
+      "Passing",
+      "Power Play",
+      "Shooting"
+    ],
+    "description": "A low player receives from up top for a quick shot, reloads immediately, then receives a second puck and moves it across the zone to a teammate for the next power-play option.",
+    "coaching_points": [
+      "Shoot in stride with a quick release.",
+      "Reload immediately after the first shot.",
+      "Open the hips on the cross-ice pass.",
+      "Lead the target and keep the head up."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-power-play-options-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8547286-0-1762288202.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8547286-0-1762288202.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 927
+  },
+  {
+    "uid": "ihs-4check-1-timers",
+    "title": "4Check 1 Timers",
+    "category": "Power Play / Passing / Shooting",
+    "drill_types": [
+      "Passing",
+      "Power Play",
+      "Shooting",
+      "Warm Up"
+    ],
+    "description": "Players exchange pucks through traffic and finish with one-timers, emphasizing quick puck movement, shooting through screens and clean preparation for the release.",
+    "coaching_points": [
+      "Use quiet hands and proper weight transfer.",
+      "Track the puck while reading the lane.",
+      "Pass firmly to the shooting pocket.",
+      "Shoot through traffic instead of around it."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-1-timers-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8547216-0-1762288039.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8547216-0-1762288039.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 928
+  },
+  {
+    "uid": "ihs-4check-dummy-chaos",
+    "title": "4Check Dummy Chaos",
+    "category": "Puck Handling / Awareness / Small Area",
+    "drill_types": [
+      "Puck Handling",
+      "Puck Control",
+      "Awareness",
+      "Small Area Games"
+    ],
+    "description": "Multiple players stickhandle inside a faceoff circle while navigating teammates and obstacle dummies, forcing constant awareness and tight-area puck control.",
+    "coaching_points": [
+      "Keep the head up at all times.",
+      "Use soft, quick touches in traffic.",
+      "Shoulder check and identify open space.",
+      "Protect the puck while changing direction."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-dummy-chaos-6",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8547086-0-1762287831.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8547086-0-1762287831.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 929
+  },
+  {
+    "uid": "ihs-body-contact-side-wall-angling",
+    "title": "Body contact side wall angling",
+    "category": "Angling / Checking / Net Front",
+    "drill_types": [
+      "Angling",
+      "Checking",
+      "Passing",
+      "Shooting",
+      "Wall Play"
+    ],
+    "description": "A player takes a controlled angle into sidewall contact, retrieves the loose puck, moves it behind the net, then drives to the crease while the puck goes low-to-high for a shot through traffic.",
+    "coaching_points": [
+      "Take a strong controlled angle into contact.",
+      "Keep the head up through the battle.",
+      "Move the puck quickly low-to-high.",
+      "Establish strong net-front position for screens and tips."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-side-wall-angling-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8201201-0-1760633171.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8201201-0-1760633171.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 930
+  },
+  {
+    "uid": "ihs-body-contact-open-ice-hit",
+    "title": "Body Contact open ice hit",
+    "category": "Checking / Angling / Possession",
+    "drill_types": [
+      "Checking",
+      "Angling",
+      "Puck Control",
+      "Shooting"
+    ],
+    "description": "The player works controlled open-ice body contact, immediately recovers possession, advances the puck to a teammate and continues to the net for a screen or tip.",
+    "coaching_points": [
+      "Keep the head up through the middle.",
+      "Stay balanced through contact.",
+      "Angle through the body rather than reaching.",
+      "Recover the puck immediately after contact."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-open-ice-hit-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8200381-0-1760631156.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8200381-0-1760631156.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 931
+  },
+  {
+    "uid": "ihs-body-contact-hip-check",
+    "title": "Body contact Hip Check",
+    "category": "Checking / Skating / Passing",
+    "drill_types": [
+      "Checking",
+      "Skating",
+      "Passing"
+    ],
+    "description": "The player performs a controlled hip-out around a cone, moves laterally into body contact at the wall, releases from contact, retrieves a loose puck and makes the next pass for a shot.",
+    "coaching_points": [
+      "Stay balanced through the hip-out.",
+      "Time the contact under control.",
+      "Release cleanly into puck recovery.",
+      "Make an accurate pass immediately after contact."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-hip-check-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8199916-0-1760629967.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8199916-0-1760629967.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 932
+  },
+  {
+    "uid": "ihs-body-contact-low-corner-drive",
+    "title": "Body Contact Low Corner Drive",
+    "category": "Down Low / Wall Play / Contact",
+    "drill_types": [
+      "Down Low",
+      "Wall Play",
+      "Checking",
+      "Passing",
+      "Shooting"
+    ],
+    "description": "The player drives through light contact in the corner to gain body position and retrieve a puck, moves it to the blue line, then loops open for a return pass and attacks the net.",
+    "coaching_points": [
+      "Stay low and strong through contact.",
+      "Keep the feet moving to win position.",
+      "Move the puck quickly after retrieval.",
+      "Open up for the return pass with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-low-corner-drive-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8156971-0-1760463876.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8156971-0-1760463876.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8156971-1-1760463876.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 933
+  },
+  {
+    "uid": "ihs-body-contact-low-angle-w-shot",
+    "title": "Body Contact Low Angle w Shot",
+    "category": "Angling / Checking / Net Front",
+    "drill_types": [
+      "Angling",
+      "Checking",
+      "Passing",
+      "Shooting",
+      "Down Low"
+    ],
+    "description": "A player takes a strong corner angle, initiates controlled contact, retrieves the puck and passes high before driving the crease for a screen, tip or rebound on the point shot.",
+    "coaching_points": [
+      "Angle under control before contact.",
+      "Stay balanced while retrieving the puck.",
+      "Move the puck quickly to the high option.",
+      "Drive directly to the net after the pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-low-angle-w-shot-7",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8156806-0-1760463671.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8156806-0-1760463671.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8156806-1-1760463671.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 934
+  },
+  {
+    "uid": "ihs-body-contact-puck-protection-skate-touch",
+    "title": "Body Contact Puck Protection - Skate Touch",
+    "category": "Puck Protection / Contact / Battle",
+    "drill_types": [
+      "Puck Protection",
+      "Battle Drills",
+      "Checking",
+      "Puck Control"
+    ],
+    "description": "Two players begin in body contact. The outside player tries to drive through and reach the puck using only a skate while the inside player protects the puck with body position and stick presence without touching it directly.",
+    "coaching_points": [
+      "Stay low and balanced through contact.",
+      "Win inside body position.",
+      "Use hips and leverage to shield the puck.",
+      "Maintain control rather than reaching or lunging."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-puck-protection-skate-touch-6",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8156571-0-1760463204.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8156571-0-1760463204.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 935
   }
 ]
