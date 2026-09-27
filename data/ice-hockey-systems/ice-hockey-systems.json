@@ -11982,5 +11982,105 @@
     "member_only": true,
     "status": "verified",
     "number": 366
+  },
+  {
+    "uid": "ihs-5136996",
+    "title": "Short to Long 2 on 2",
+    "category": "2 on 2 / Transition",
+    "drill_types": [
+      "2 on 2",
+      "Transition",
+      "Zone Entry",
+      "Gap",
+      "Full Ice",
+      "Backwards Skating",
+      "Angling"
+    ],
+    "description": "The same defense pair plays two consecutive 2-on-2 rushes: first a short rush from the near blue line, then a long regrouped rush from the opposite side. The progression forces defenders to reset their gap quickly while forwards attack with changing routes.",
+    "coaching_points": [
+      "Forwards avoid straight-line attacks and use route changes to create confusion.",
+      "Defenders close a tight gap and angle the rush outside.",
+      "Reset quickly between the short and long 2-on-2."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Daniel Paille",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/short-long-2-on-2",
+    "source_id": "5136996",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5136996-0-1728494088.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5136996-0-1728494088.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5136996-1-1728494088.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 367
+  },
+  {
+    "uid": "ihs-2543971",
+    "title": "1 v 1 v 1 Game",
+    "category": "1 on 1 / Small Area Game",
+    "drill_types": [
+      "1 on 1",
+      "Small Area Games",
+      "Puck Handling",
+      "Puck Protection",
+      "Angling",
+      "Battle Drills",
+      "Warm Up",
+      "Half Ice"
+    ],
+    "description": "Three players compete for one puck in a confined area. The puck carrier must protect possession against two opponents while scanning multiple threats. A gate variation awards points for carrying the puck through a central cone gate.",
+    "coaching_points": [
+      "Stay toward middle ice when possible to preserve more escape options.",
+      "Use deception, tight turns and changes of speed to protect possession.",
+      "Keep the head up because pressure can come from two players."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mark Zarbo Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-v-1-game",
+    "source_id": "2543971",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543971-0-1693853847.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543971-0-1693853847.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 368
+  },
+  {
+    "uid": "ihs-7272701",
+    "title": "Rim to Regroup 2v1 Drill",
+    "category": "2 on 1 / Regroup",
+    "drill_types": [
+      "2 on 1",
+      "Re-Group",
+      "Transition",
+      "Wall Play",
+      "Offensive Zone",
+      "Puck Support",
+      "Half Ice",
+      "Gap"
+    ],
+    "description": "The first phase is a rim retrieval battle below the goal line that creates a quick slot shot. The players then transition up ice, recover a coach's puck near the red line, regroup and attack the same defender 2-on-1.",
+    "coaching_points": [
+      "Compete for the rim and move the puck to the slot quickly.",
+      "Forwards accelerate out of the zone and communicate through the regroup.",
+      "Defender times the gap and protects the middle on the 2-on-1."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/rim-regroup-2v1-drill",
+    "source_id": "7272701",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7272701-0-1755007627.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7272701-0-1755007627.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7272701-1-1755007627.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 369
   }
 ]
