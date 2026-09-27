@@ -6774,5 +6774,154 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 456,
+    "title": "Stick Check Take Away Drill (Studio Rink)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stick-check-take-away-drill-studio-rink",
+    "categories": [
+      "Half Ice",
+      "Shooting",
+      "Checking",
+      "Angling",
+      "Puck Protection",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 457,
+    "title": "Horseshoe Re-Group One Goalie - #1 (D to D to Center)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/horseshoe-re-group-one-goalie-1-d-d-center",
+    "categories": [
+      "Flow",
+      "One Goalie",
+      "Full Ice",
+      "Passing",
+      "Transition",
+      "Re-Group",
+      "Backchecking",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 458,
+    "title": "Continuous Pass & Shoot Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-pass-shoot-station",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Stations",
+      "Quarter Ice Station",
+      "Puck Support",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 459,
+    "title": "D to D to F3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-d-f3",
+    "categories": [
+      "Offensive Zone",
+      "Defensive",
+      "Half Ice",
+      "Shooting",
+      "Passing",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 460,
+    "title": "Gretzky 3 on 3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/gretzky-3-3",
+    "categories": [
+      "3 vs 3",
+      "Small Area Games",
+      "Passing",
+      "Puck Support",
+      "Awareness",
+      "Offensive",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 461,
+    "title": "Five Puck Scoring Race - Half Ice",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/five-puck-scoring-race-half-ice",
+    "categories": [
+      "Relay Races",
+      "Shooting",
+      "Half Ice",
+      "Races",
+      "Competition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 462,
+    "title": "Four Shot Half Ice Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-shot-half-ice-shooting-drill",
+    "categories": [
+      "Shooting",
+      "Warm Up",
+      "Half Ice",
+      "Passing",
+      "Puck Protection",
+      "Defensive",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 463,
+    "title": "Continuous 2 on 1 with Backchecker",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-2-1-backchecker",
+    "categories": [
+      "2 vs 1",
+      "Backchecking",
+      "Full Ice",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 464,
+    "title": "Neutral Zone Puck Skills #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-skills-1",
+    "categories": [
+      "Puck Control",
+      "Puck Protection",
+      "Stations",
+      "Third Ice Stations",
+      "Stickhandling",
+      "Puck Handling",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
   }
 ]
