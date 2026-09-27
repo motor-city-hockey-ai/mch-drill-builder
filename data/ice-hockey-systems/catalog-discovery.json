@@ -10960,5 +10960,116 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 701,
+    "title": "Tire Stickhandling Shot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tire-stickhandling-shot",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Passing",
+      "Shooting",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image source verification sweep"
+  },
+  {
+    "discovery_number": 702,
+    "title": "Cornell Under-Handling With Shot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cornell-under-handling-shot",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Shooting",
+      "Skill Development",
+      "Stickhandling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image source verification sweep"
+  },
+  {
+    "discovery_number": 703,
+    "title": "Blue Line Shuffles",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/blue-line-shuffles",
+    "categories": [
+      "Defensive",
+      "Offensive Zone",
+      "Skating",
+      "Skill Development",
+      "Stickhandling",
+      "Passing",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image source verification sweep"
+  },
+  {
+    "discovery_number": 704,
+    "title": "Single Shift Decision",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/single-shift-decision",
+    "categories": [
+      "Puck Control",
+      "Stickhandling",
+      "Shooting",
+      "Awareness",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image source verification sweep"
+  },
+  {
+    "discovery_number": 705,
+    "title": "Be Creative! Puck Skills Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/be-creative-puck-skills-station",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Stickhandling",
+      "Stations",
+      "Third Ice Stations",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image source verification sweep"
+  },
+  {
+    "discovery_number": 706,
+    "title": "Choose a Gate",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/choose-gate",
+    "categories": [
+      "Puck Control",
+      "Shooting",
+      "Awareness",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image source verification sweep"
+  },
+  {
+    "discovery_number": 707,
+    "title": "Skate Cross Station Progression #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/skate-cross-station-progression-1",
+    "categories": [
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Control Turns",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image source verification sweep"
   }
 ]

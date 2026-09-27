@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 864,
-    "catalog_items_verified": 864,
+    "catalog_items_imported": 871,
+    "catalog_items_verified": 871,
     "catalog_target": 1573,
-    "last_batch": "IHS exact-image skating, battle and warm-up sweep #861-#864",
-    "original_diagrams_verified": 864,
+    "last_batch": "IHS exact-image skill and decision batch #865-#871",
+    "original_diagrams_verified": 871,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Live IHS JSON library now contains 864 verified drill records with source URLs, original source diagrams, simplified drill types and coach-readable notes.",
-    "unique_urls_discovered": 876,
+    "unique_urls_discovered": 883,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 0,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue exact-image sweep from #865. Keep Neutral Zone Puck Races #7, unresolved relay gaps and video-only goalie pages deferred until original source diagrams can be verified.",
+    "next_step": "Continue exact-image sweep from #872, prioritizing Skate Cross Station Progression #2, Push Puck and Shoot, remaining station/edgework gaps, and Neutral Zone Puck Races #7 when its original source diagram resolves.",
     "multi_diagram_drills_preserved": 48,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 4,
-    "last_batch_notes": "Added #861 Net Races (3 original source diagrams); #862 Body Contact Competitive Contact Cones; #863 Soft Chip Warm Up Drill; and #864 10 & 2 Edgework Tag. Duplicate audit also corrected stale discovery statuses for four drills already in the live catalog.",
+    "last_batch_imported": 7,
+    "last_batch_notes": "Added #865 Tire Stickhandling Shot; #866 Cornell Under-Handling With Shot; #867 Blue Line Shuffles; #868 Single Shift Decision; #869 Be Creative! Puck Skills Station; #870 Choose a Gate; #871 Skate Cross Station Progression #1. All use original IHS-hosted diagrams.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -78,6 +78,6 @@
       "Offensive to Defensive Zone Coverage Drill - source page currently exposes video instruction but no original drill diagram; keep deferred rather than substituting an AI diagram."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 4
+    "last_batch_discovered": 7
   }
 }
