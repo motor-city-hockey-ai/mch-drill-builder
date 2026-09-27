@@ -4151,7 +4151,7 @@
   {
     "discovery_number": 303,
     "title": "1 v 1 Through Gates",
-    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-through-gates",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-through-gates-2",
     "categories": [
       "1 on 1",
       "Battle Drills",
@@ -4163,13 +4163,13 @@
       "Quarter Ice Station"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Battle/Offensive category discovery"
   },
   {
     "discovery_number": 304,
     "title": "Defend The Gate",
-    "source_url": "https://www.icehockeysystems.com/hockey-drills/defend-gate",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defend-gate-3",
     "categories": [
       "1 on 1",
       "Angling",
@@ -4184,13 +4184,13 @@
       "Stations"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Battle/Offensive category discovery"
   },
   {
     "discovery_number": 305,
     "title": "Corner Houda",
-    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-houda",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-houda-drill",
     "categories": [
       "3 on 3",
       "Battle Drills",
@@ -4208,7 +4208,7 @@
       "Wall Play"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Battle/Offensive category discovery"
   },
   {
@@ -4226,7 +4226,7 @@
       "Wall Play"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Battle/Offensive category discovery"
   },
   {
@@ -4244,7 +4244,290 @@
       "Wall Play"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Battle/Offensive category discovery"
+  },
+  {
+    "discovery_number": 308,
+    "title": "Pearl 4 v 2 Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pearl-4-v-2-game",
+    "categories": [
+      "4 vs 2",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Transition",
+      "Battle Drills",
+      "Half Ice",
+      "Defensive",
+      "One-Timer"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 309,
+    "title": "The Backcheck Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-backcheck-game",
+    "categories": [
+      "Puck Protection",
+      "Small Area Games",
+      "Transition",
+      "2 on 2",
+      "Backchecking",
+      "Battle Drills",
+      "Half Ice",
+      "Coverage",
+      "Passing",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 310,
+    "title": "1 v 1 to 2 v 2 (Stick vs No Stick)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-2-v-2-stick-vs-no-stick",
+    "categories": [
+      "1 on 1",
+      "2 on 2",
+      "Puck Protection",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Coverage",
+      "Defensive",
+      "Down Low"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 311,
+    "title": "Breakaway Backcheck With 1 on 1 Variation",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakaway-backcheck-1-1-variation",
+    "categories": [
+      "1 on 1",
+      "Puck Protection",
+      "2 on 1",
+      "Angling",
+      "Backchecking",
+      "Battle Drills",
+      "Checking",
+      "Conditioning",
+      "Coverage",
+      "Body Contact"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 312,
+    "title": "Bourque 3 on 3 Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bourque-3-on-3-game",
+    "categories": [
+      "Passing",
+      "Re-Group",
+      "Small Area Games",
+      "Transition",
+      "Tryout",
+      "Breakouts",
+      "3 on 3",
+      "Battle Drills",
+      "Half Ice",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 313,
+    "title": "1 v 1 Angle Around The Net Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-angle-around-net-drill",
+    "categories": [
+      "1 on 1",
+      "Puck Protection",
+      "Offensive",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Coverage",
+      "Defensive",
+      "Forechecking",
+      "Retrievals"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 314,
+    "title": "Back to Back 1 vs 1 with Mini Nets",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/back-back-1-vs-1-mini-nets",
+    "categories": [
+      "1 on 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Tight Area"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 315,
+    "title": "2 vs 2 Rebound Battle Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-rebound-battle-drill",
+    "categories": [
+      "2 on 2",
+      "Battle Drills",
+      "Half Ice",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Wall Play",
+      "Rebounds"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 316,
+    "title": "King or Queen of the Hill Puck Control Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/king-hill-puck-control-drill",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations",
+      "Stickhandling",
+      "Warm Up",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 317,
+    "title": "3 v 3 with Down Low Passer",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-down-low-passer",
+    "categories": [
+      "3 on 3",
+      "Awareness",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Down Low",
+      "Half Ice",
+      "Offensive",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 318,
+    "title": "5 v 5 Neutral Zone Face-Off Possession Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-v-5-neutral-zone-face-off-possession-game",
+    "categories": [
+      "5 vs 5",
+      "Battle Drills",
+      "Neutral Zone",
+      "Passing",
+      "Puck Control",
+      "Re-Group",
+      "Small Area Games",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 319,
+    "title": "Cross-Fire Passing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cross-fire-passing",
+    "categories": [
+      "Passing",
+      "Puck Control",
+      "Puck Protection",
+      "Offensive",
+      "Small Area Games",
+      "2 on 2",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 320,
+    "title": "Go Go",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/go-go",
+    "categories": [
+      "1 on 1",
+      "2 on 1",
+      "2 on 2",
+      "3 on 2",
+      "3 on 3",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "Puck Control",
+      "Puck Protection",
+      "Small Area Games",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 321,
+    "title": "Wing Quadrant Play",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wing-quadrant-play",
+    "categories": [
+      "Small Area Games",
+      "3 on 3",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Battle Drills page 2"
   }
 ]
