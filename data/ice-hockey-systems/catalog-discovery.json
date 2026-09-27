@@ -7510,5 +7510,59 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS verified diagram sweep"
+  },
+  {
+    "discovery_number": 498,
+    "title": "2v2 Shooting Board",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2v2-shooting-board",
+    "categories": [
+      "2 vs 2",
+      "3 vs 3",
+      "Battle Drills",
+      "Coverage",
+      "Down Low",
+      "Small Area Games",
+      "Net Front",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS newest/category verified diagram sweep"
+  },
+  {
+    "discovery_number": 499,
+    "title": "2vs2 + Player Behind the Net",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2vs2-player-behind-net",
+    "categories": [
+      "2 vs 2",
+      "3 vs 3",
+      "Awareness",
+      "Down Low",
+      "Puck Support",
+      "Small Area Games",
+      "Offensive",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS newest/category verified diagram sweep"
+  },
+  {
+    "discovery_number": 500,
+    "title": "4Check 1 on 1 Angling",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-1-on-1-angling-5",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Puck Control",
+      "Puck Protection",
+      "Battle Drills",
+      "Checking",
+      "Defensive",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS newest/category verified diagram sweep"
   }
 ]
