@@ -17960,5 +17960,39 @@
     "member_only": true,
     "status": "verified",
     "number": 548
+  },
+  {
+    "uid": "ihs-10527986",
+    "number": 539,
+    "title": "Soft Catch While Attacking Up & Downhill",
+    "category": "Puck Control",
+    "drill_types": [
+      "Half Ice",
+      "Passing",
+      "Puck Control",
+      "Puck Protection",
+      "Skill Development",
+      "Wall Play",
+      "Shooting",
+      "Retrievals"
+    ],
+    "description": "A continuous wall-retrieval skill drill that works the soft catch while attacking in both directions. The player lets a rimmed puck travel across the body, turns with momentum off the wall and immediately attacks the net before continuing to the opposite side for the second repetition.",
+    "coaching_points": [
+      "Start under control and increase speed once the timing is clean.",
+      "Stay slightly off the wall so both escape directions remain available.",
+      "Let the puck travel across the body before cushioning the catch.",
+      "Carry momentum out of the catch and transition directly into the next play or shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Academy of Hockey",
+    "source_url": "https://icehockeysystems.com/hockey-drills/soft-catch-while-attacking-up-downhill",
+    "source_id": "10527986",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10527986-0-1782421873.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10527986-0-1782421873.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
