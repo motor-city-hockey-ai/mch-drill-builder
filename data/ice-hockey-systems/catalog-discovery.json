@@ -11071,5 +11071,95 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Exact-image source verification sweep"
+  },
+  {
+    "discovery_number": 708,
+    "title": "Skate Cross Station Progression #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/skate-cross-station-progression-2",
+    "categories": [
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Control Turns",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image station sweep"
+  },
+  {
+    "discovery_number": 709,
+    "title": "Skate Cross Station Progression #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/skate-cross-station-progression-3",
+    "categories": [
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Control Turns",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image station sweep"
+  },
+  {
+    "discovery_number": 710,
+    "title": "Push Puck and Shoot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/push-puck-and-shoot",
+    "categories": [
+      "Puck Control",
+      "Shooting",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image station sweep"
+  },
+  {
+    "discovery_number": 711,
+    "title": "M & W Control Turns & Shots",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/m-w-control-turns-shots",
+    "categories": [
+      "Puck Control",
+      "Puck Protection",
+      "Shooting",
+      "Stations",
+      "Quarter Ice Station",
+      "Control Turns"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image station sweep"
+  },
+  {
+    "discovery_number": 712,
+    "title": "Corner Tires 3 vs 3 - 1/3 Ice Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-tires-3-vs-3-13-ice-station",
+    "categories": [
+      "3 vs 3",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image station sweep"
+  },
+  {
+    "discovery_number": 713,
+    "title": "2 vs 2 vs 2 with Mini Nets",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-vs-2-mini-nets",
+    "categories": [
+      "2 vs 2",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image station sweep"
   }
 ]
