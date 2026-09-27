@@ -23220,5 +23220,255 @@
     "original_diagram": true,
     "status": "verified",
     "number": 712
+  },
+  {
+    "uid": "ihs-brittish-bulldog-control-turns",
+    "title": "Brittish Bulldog with Control Turns",
+    "category": "Puck Control / Control Turns / Full Ice",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Agility",
+      "Full Ice",
+      "Warm Up",
+      "Awareness"
+    ],
+    "description": "A full-ice Brittish Bulldog variation where puck carriers must complete two control turns inside the neutral zone while avoiding the bulldogs and protecting possession.",
+    "coaching_points": [
+      "Keep the head up before entering the neutral zone.",
+      "Read pressure and choose the control-turn direction that creates the most space.",
+      "Protect the puck through both turns instead of exposing it to the defender.",
+      "Accelerate out of the second turn and escape the neutral zone."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/brittish-bulldog-control-turns",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-154426-0-1685043141.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-154426-0-1685043141.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 713
+  },
+  {
+    "uid": "ihs-superman-relay-races-full-ice",
+    "title": "Superman Relay Races (Full Ice)",
+    "category": "Relay Race / Skating / Full Ice",
+    "drill_types": [
+      "Full Ice",
+      "Relay Races",
+      "Warm Up",
+      "Skating",
+      "Competition"
+    ],
+    "description": "Teams race full ice using borders. Each skater takes a run, dives onto the border in a superman position and slides it forward, then gets up and returns to tag the next teammate until the border reaches the far goal line.",
+    "coaching_points": [
+      "Organize teams with similar numbers and ability.",
+      "Skate hard into the dive while keeping the activity controlled and safe.",
+      "Get back to the line quickly so the next teammate can go.",
+      "Keep the relay competitive and continuous."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/superman-relay-races-full-ice",
+    "image": "https://www.files.icehockeysystems.com/files/drills/superman-relay-races-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/superman-relay-races-web.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 714
+  },
+  {
+    "uid": "ihs-four-lines-1-on-1",
+    "title": "Four Lines 1 on 1",
+    "category": "1 vs 1 / Transition / Gap",
+    "drill_types": [
+      "1 vs 1",
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Gap",
+      "Puck Support",
+      "Defensive",
+      "Offensive"
+    ],
+    "description": "A four-line 1-on-1 progression that connects a defense transition, a neutral-zone support pass and a live rush. The defender controls the puck while moving backward, moves it to the far support line and then becomes the defender on the next attack.",
+    "coaching_points": [
+      "Defense controls the puck while moving backward and creates a clean passing angle.",
+      "The forward times the neutral-zone swing to receive with speed and separation.",
+      "Do not get ahead of the support pass and lose usable space.",
+      "Defenders close gap early and challenge the rush near the blue line."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/styles/large/public/drills/four-lines-1-on-1.jpg.webp?itok=-RhSm1NP",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/large/public/drills/four-lines-1-on-1.jpg.webp?itok=-RhSm1NP"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 715
+  },
+  {
+    "uid": "ihs-two-step-wall-1-on-1",
+    "title": "Two Step Off the Wall 1 on 1",
+    "category": "1 vs 1 / Wall Play / Battle",
+    "drill_types": [
+      "1 vs 1",
+      "Battle Drills",
+      "Wall Play",
+      "Defensive Zone",
+      "Puck Protection",
+      "Checking",
+      "Half Ice",
+      "Defensive"
+    ],
+    "description": "An in-zone 1-on-1 progression with two stages. First, the forward works off the wall against a recovering defender for a coach pass. Then both players compete for a loose puck along the wall and the forward can cycle it to the coach for a return chance at the net.",
+    "coaching_points": [
+      "Forward wins the race to usable ice and attacks back toward the net.",
+      "Defense stays on the defensive side and maintains inside position.",
+      "On the battle rep, compete through the loose puck instead of reaching.",
+      "Eliminate the attacker's stick and deny the return pass from the coach."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/two-step-wall-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/two-step-1-on-1-step1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/two-step-1-on-1-step1.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/two-step-1-on-1-step2.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 716
+  },
+  {
+    "uid": "ihs-bonus-1-on-1",
+    "title": "Bonus 1 on 1",
+    "category": "1 vs 1 / 2 vs 1 / Battle",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Passing",
+      "Small Area Games",
+      "Half Ice"
+    ],
+    "description": "A corner battle begins 1-on-1. The player who wins possession and completes a pass back to their own line earns a teammate, immediately turning the play into a 2-on-1 attack.",
+    "coaching_points": [
+      "Compete for body position before reaching for the puck.",
+      "After winning possession, protect it long enough to find the support pass.",
+      "The bonus player joins immediately and creates width.",
+      "The player who loses possession transitions quickly into the defender."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bonus-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/bonus-1v1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/bonus-1v1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 717
+  },
+  {
+    "uid": "ihs-d-d-half-ice-1-vs-1",
+    "title": "D to D Up Half Ice 1 vs 1",
+    "category": "1 vs 1 / D-to-D / Gap",
+    "drill_types": [
+      "1 vs 1",
+      "Passing",
+      "Transition",
+      "Gap",
+      "Half Ice",
+      "Defensive",
+      "Puck Support"
+    ],
+    "description": "Two players work a defense-to-defense passing sequence with a coach at center ice. After the D-to-D exchange, one player transitions up ice for a return pass from the coach while the partner gaps up and defends the resulting 1-on-1.",
+    "coaching_points": [
+      "Show a clear forehand target on every D-to-D pass.",
+      "Receiving defense moves away from pressure to improve the passing angle.",
+      "Transition forward immediately after the second pass.",
+      "The defending player retakes as much ice as possible before the 1-on-1 begins."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-d-half-ice-1-vs-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/d-d-up-half-ice-1v1-diagram.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/d-d-up-half-ice-1v1-diagram.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 718
+  },
+  {
+    "uid": "ihs-tight-space-1-on-1",
+    "title": "Tight Space 1 on 1",
+    "category": "1 vs 1 / Puck Protection / Half Ice",
+    "drill_types": [
+      "1 vs 1",
+      "Half Ice",
+      "Puck Protection",
+      "Defensive",
+      "Offensive",
+      "Shooting",
+      "Skating"
+    ],
+    "description": "Forward and defender each skate a figure-eight route around staggered cones while carrying pucks. The defender returns their puck to line as the routes finish and then defends the attacking player in a tight-space 1-on-1.",
+    "coaching_points": [
+      "Exit the figure eight with the feet moving and attack immediately.",
+      "Offense protects the puck and reads whether to drive the back shoulder or shoot through the defender.",
+      "Defense closes time and space early.",
+      "Use good stick position and keep the attacker outside."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tight-space-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tight-space-1on1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tight-space-1on1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 719
+  },
+  {
+    "uid": "ihs-breakout-gap-control-1-on-1",
+    "title": "Breakout Gap control 1 on 1",
+    "category": "1 vs 1 / Breakout / Gap",
+    "drill_types": [
+      "1 vs 1",
+      "Breakouts",
+      "Gap",
+      "Full Ice",
+      "Passing",
+      "Transition",
+      "Defensive",
+      "Offensive"
+    ],
+    "description": "A demanding full-ice defense drill. The defender retrieves around the net, gets inside the dots, squares up before making the breakout pass and then must manage speed and gap against the same forward attacking back at them.",
+    "coaching_points": [
+      "Retrieve inside the dots and square the shoulders up ice before passing.",
+      "Make the breakout pass from a position that preserves defensive balance.",
+      "Match the attacker's speed while retaking ice.",
+      "Aim to make the defensive play at or before the blue line."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakout-gap-control-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/styles/large/public/drills/break-out-gap-control-into-1v1.jpg.webp?itok=4Yx_0U-t",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/large/public/drills/break-out-gap-control-into-1v1.jpg.webp?itok=4Yx_0U-t"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 720
   }
 ]
