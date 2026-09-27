@@ -51,18 +51,18 @@ button{cursor:pointer}
       <h2>Quick Add by Drill Number</h2>
       <p>Choose a library, narrow by drill type, then search or add by drill number.</p>
       <div class="quick-grid">
-        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 2,006 Drills</option><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 400 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
+        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 2,014 Drills</option><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 400 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
         <div class="stat-box"><small>FULL ICE DRILLS</small><strong id="fullIceCount">570</strong></div>
         <div class="stat-box"><small>SKILL ZONE DRILLS</small><strong id="skillZoneCount">452</strong></div>
         <div class="field"><label>DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
         <button class="btn red" id="quickAdd">Find Drill</button>
-        <div class="stat-box total"><small>TOTAL DRILLS</small><strong id="totalDrillCount">2,006</strong></div>
+        <div class="stat-box total"><small>TOTAL DRILLS</small><strong id="totalDrillCount">2,014</strong></div>
       </div>
       <div class="type-summary" id="typeSummary">
         <div><small>SELECTED DRILL TYPE</small><strong id="selectedTypeLabel">All Drill Types</strong></div>
         <div><small>IN THIS LIBRARY</small><strong id="typeLibraryCount">—</strong></div>
-        <div><small>ACROSS ALL DRILLS</small><strong id="typeAllCount">2,006</strong></div>
+        <div><small>ACROSS ALL DRILLS</small><strong id="typeAllCount">2,014</strong></div>
       </div>
     </section>
 
@@ -114,7 +114,8 @@ button{cursor:pointer}
   let bookDatabase=null;
   let ihsDatabase=null;
   let allDrillsDatabase=null;
-  let ALL_DRILL_TOTAL=2006;
+  let ALL_DRILL_TOTAL=2014;
+  let libraryCountManifest=null;
   let teamMeta=null;
   let teamByUid=new Map();
   let coachesByUid=new Map();
@@ -322,29 +323,49 @@ button{cursor:pointer}
     const opt=[...$('#librarySelect').options].find(o=>o.value===value);
     if(opt&&Number.isFinite(Number(count)))opt.textContent=label+' — '+Number(count).toLocaleString()+' '+suffix;
   }
+  async function loadLibraryCountManifest(){
+    if(libraryCountManifest)return libraryCountManifest;
+    try{
+      const r=await fetch('data/library-counts.json?v=2',{cache:'no-store'});
+      if(!r.ok)throw new Error('Library counts returned '+r.status);
+      libraryCountManifest=await r.json();
+      refreshLibraryTotals();
+      return libraryCountManifest;
+    }catch(err){
+      console.warn('Library count manifest unavailable',err);
+      return null;
+    }
+  }
+
+  function manifestCount(key,fallback){
+    const n=Number(libraryCountManifest&&libraryCountManifest.libraries&&libraryCountManifest.libraries[key]);
+    return Number.isFinite(n)?n:fallback;
+  }
+
   function refreshLibraryTotals(){
-    if(teamDatabase){
-      const rich=teamDatabase.filter(d=>teamGroup(d)==='rich-full').length;
-      const turk=teamDatabase.filter(d=>teamGroup(d)==='turk').length;
-      const weiss=teamDatabase.filter(d=>teamGroup(d)==='weiss').length;
-      setLibraryOptionCount('rich-full','Rich Full Ice Drills',rich);
-      setLibraryOptionCount('turk','Turk Hockey Drills',turk);
-      setLibraryOptionCount('weiss','Weiss Hockey Drills',weiss);
-      $('#fullIceCount').textContent=(rich+turk+weiss).toLocaleString();
-    }
-    if(travelDatabase){
-      setLibraryOptionCount('rich-skills','Rich Skill Drills',travelDatabase.length);
-      $('#skillZoneCount').textContent=travelDatabase.length.toLocaleString();
-    }
-    if(coachesDatabase)setLibraryOptionCount('coaches','Coaches Site',coachesDatabase.length);
-    if(bookDatabase)setLibraryOptionCount('book','Hockey Drill Book',bookDatabase.length);
-    if(ihsDatabase)setLibraryOptionCount('ihs','Ice Hockey Systems',ihsDatabase.length,'Imported');
-    if(allDrillsDatabase){
-      ALL_DRILL_TOTAL=allDrillsDatabase.length;
-      setLibraryOptionCount('all','All Drills',ALL_DRILL_TOTAL);
-      $('#totalDrillCount').textContent=ALL_DRILL_TOTAL.toLocaleString();
-      if(!$('#category').value&&!exactSearchDrillType())$('#typeAllCount').textContent=ALL_DRILL_TOTAL.toLocaleString();
-    }
+    const rich=teamDatabase?teamDatabase.filter(d=>teamGroup(d)==='rich-full').length:manifestCount('rich-full',92);
+    const turk=teamDatabase?teamDatabase.filter(d=>teamGroup(d)==='turk').length:manifestCount('turk',220);
+    const weiss=teamDatabase?teamDatabase.filter(d=>teamGroup(d)==='weiss').length:manifestCount('weiss',258);
+    const skills=travelDatabase?travelDatabase.length:manifestCount('rich-skills',452);
+    const coaches=coachesDatabase?coachesDatabase.length:manifestCount('coaches',146);
+    const book=bookDatabase?bookDatabase.length:manifestCount('book',446);
+    const ihs=ihsDatabase?ihsDatabase.length:manifestCount('ihs',400);
+
+    setLibraryOptionCount('rich-full','Rich Full Ice Drills',rich);
+    setLibraryOptionCount('turk','Turk Hockey Drills',turk);
+    setLibraryOptionCount('weiss','Weiss Hockey Drills',weiss);
+    setLibraryOptionCount('rich-skills','Rich Skill Drills',skills);
+    setLibraryOptionCount('coaches','Coaches Site',coaches);
+    setLibraryOptionCount('book','Hockey Drill Book',book);
+    setLibraryOptionCount('ihs','Ice Hockey Systems',ihs,'Imported');
+
+    $('#fullIceCount').textContent=(rich+turk+weiss).toLocaleString();
+    $('#skillZoneCount').textContent=skills.toLocaleString();
+
+    ALL_DRILL_TOTAL=allDrillsDatabase?allDrillsDatabase.length:(coaches+book+ihs+skills+rich+turk+weiss);
+    setLibraryOptionCount('all','All Drills',ALL_DRILL_TOTAL);
+    $('#totalDrillCount').textContent=ALL_DRILL_TOTAL.toLocaleString();
+    if(!$('#category').value&&!exactSearchDrillType())$('#typeAllCount').textContent=ALL_DRILL_TOTAL.toLocaleString();
   }
 
   async function loadTeam(){
@@ -820,7 +841,7 @@ button{cursor:pointer}
   const requestedLibrary=new URLSearchParams(location.search).get('library');
   const initialLibrary=requestedLibrary==='travel'?'rich-skills':(requestedLibrary==='team'?'rich-full':(['all','coaches','book','ihs','rich-full','rich-skills','turk','weiss'].includes(requestedLibrary)?requestedLibrary:'coaches'));
   $('#librarySelect').value=initialLibrary;
-  restoreSelected();switchLibrary(initialLibrary);
+  restoreSelected();loadLibraryCountManifest();switchLibrary(initialLibrary);
 })();
 </script>
 </body>
