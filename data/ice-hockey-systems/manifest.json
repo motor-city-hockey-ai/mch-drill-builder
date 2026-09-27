@@ -37,11 +37,11 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 428,
-    "catalog_items_verified": 428,
+    "catalog_items_imported": 432,
+    "catalog_items_verified": 432,
     "catalog_target": 1573,
-    "last_batch": "IHS page 3 + Finnish setup",
-    "original_diagrams_verified": 428,
+    "last_batch": "IHS diagram-backed skill/battle search",
+    "original_diagrams_verified": 432,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
@@ -49,15 +49,17 @@
     "catalog_items_pending_enrichment": 29,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue reconciling the remaining page-3 catalog gaps, then advance to the next catalog page; skip video-only pages and deduplicate by normalized title/source URL.",
+    "next_step": "Continue diagram-backed IHS search by category; keep Shooting Warm-Up Progression and The Ottawa Drill pending until exact original image URLs are resolved.",
     "multi_diagram_drills_preserved": 22,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 18,
-    "last_batch_notes": "Added 18 verified diagram-backed drills from IHS catalog page 3 and Finnish skill-series related content. Preserved multi-frame originals for 2 v 1 Net Play, DZ Corner Battle, D-Zone Coverage Tire Drill, and Weak Side Attack.",
+    "last_batch_imported": 4,
+    "last_batch_notes": "Added Puck In Skates Skill Builder, Layered 1 v 1's, Start & Stop Loose Puck Battle, and Figure 8 Puck Protection Drill with verified original IHS-hosted diagrams.",
     "deferred_items": [
-      "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later."
+      "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
+      "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
+      "The Ottawa Drill - page exposes a Drill Maker image; exact original image URL still needs resolution."
     ],
     "goalie_visuals_pending": 7,
     "last_batch_discovered": 15
