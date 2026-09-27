@@ -23069,5 +23069,156 @@
     "original_diagram": true,
     "status": "verified",
     "number": 707
+  },
+  {
+    "uid": "ihs-short-track-flim-flom",
+    "title": "Short Track Flim Flom",
+    "category": "Skating / Overspeed / Shooting",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Shooting",
+      "Passing",
+      "Full Ice",
+      "Warm Up",
+      "Conditioning"
+    ],
+    "description": "A high-tempo overspeed drill with two skaters leaving together. The lead player races to the far blue line for a shot while the trailing player applies pressure, then the trailing player continues through a four-dot crossover route, receives a pass at speed and attacks the opposite end.",
+    "coaching_points": [
+      "Both players explode immediately and create real chase pressure.",
+      "Maintain speed through the neutral-zone crossover pattern.",
+      "Swing deep enough to receive the pass facing up ice rather than looking backward.",
+      "Receive in stride, make a move inside the blue line and shoot with the feet moving."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/short-track-flim-flom",
+    "image": "https://www.files.icehockeysystems.com/files/drills/short-track-flim-flom.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/short-track-flim-flom.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 708
+  },
+  {
+    "uid": "ihs-brittish-bulldog-full-ice",
+    "title": "Brittish Bulldog - Full Ice",
+    "category": "Puck Control / Warm Up / Full Ice",
+    "drill_types": [
+      "Full Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Warm Up",
+      "Awareness",
+      "Agility"
+    ],
+    "description": "Players start on the goal line with a puck or ringette and try to cross the ice while several bulldogs remain between the blue lines and attempt to steal possession. The activity develops heads-up puck control, awareness and evasive movement in traffic.",
+    "coaching_points": [
+      "Keep the head up while carrying through traffic.",
+      "Change speed and direction instead of skating a predictable straight line.",
+      "Protect the puck with the body when pressure arrives.",
+      "Bulldogs stay inside the neutral-zone boundaries."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/brittish-bulldog-full-ice",
+    "image": "https://www.files.icehockeysystems.com/files/drills/brittish-bulldog-full-ice.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/brittish-bulldog-full-ice.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 709
+  },
+  {
+    "uid": "ihs-torpedo-full-ice",
+    "title": "Torpedo - Full Ice",
+    "category": "Skating / Agility / Warm Up",
+    "drill_types": [
+      "Agility",
+      "Full Ice",
+      "Skating",
+      "Warm Up",
+      "Awareness"
+    ],
+    "description": "A full-ice skating game where players cross from goal line to goal line while coaches stationed along the neutral-zone boards slide or send cones across the ice as torpedoes. Players use awareness, agility and quick direction changes to avoid being hit.",
+    "coaching_points": [
+      "Skate with the head up and scan both sides of the rink.",
+      "Use quick lateral cuts and speed changes to avoid the torpedoes.",
+      "Keep sticks safely off the playing surface for this activity.",
+      "Coaches keep all torpedoes low and controlled."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/torpedo-full-ice",
+    "image": "https://www.files.icehockeysystems.com/files/drills/torpedo-full-ice-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/torpedo-full-ice-web.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 710
+  },
+  {
+    "uid": "ihs-sharks-minnows-full-ice",
+    "title": "Sharks & Minnows - Full Ice",
+    "category": "Skating / Warm Up / Full Ice",
+    "drill_types": [
+      "Skating",
+      "Warm Up",
+      "Full Ice",
+      "Agility",
+      "Awareness",
+      "Puck Control"
+    ],
+    "description": "Players skate from one goal line to the other while the sharks remain between the blue lines and try to tag them. A progression adds two power turns inside the neutral zone, forcing players to read pressure and choose the safer direction before escaping.",
+    "coaching_points": [
+      "Keep the head up and read where the sharks are before entering the neutral zone.",
+      "Change speed and direction to create separation.",
+      "On the power-turn variation, choose the turn direction based on pressure.",
+      "Accelerate immediately out of each turn."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sharks-minnows-full-ice",
+    "image": "https://www.files.icehockeysystems.com/files/drills/sharks-and-minnows-full-ice.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/sharks-and-minnows-full-ice.png",
+      "https://www.files.icehockeysystems.com/files/drills/sharks-and-minnows-full-ice-power-turn-variation.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 711
+  },
+  {
+    "uid": "ihs-bank-robbers",
+    "title": "Bank Robbers",
+    "category": "Puck Control / Warm Up / Full Ice",
+    "drill_types": [
+      "Puck Control",
+      "Warm Up",
+      "Full Ice",
+      "Awareness",
+      "Agility",
+      "Races"
+    ],
+    "description": "Players begin on the goal line and enter the neutral zone to retrieve loose pucks while a small group of police tries to tag them. Successful players carry recovered pucks out of the neutral zone and place them in the far net.",
+    "coaching_points": [
+      "Scan before entering the neutral zone and identify open pucks.",
+      "Use deception and changes of direction to avoid the police.",
+      "Control the puck immediately after retrieval and exit the pressure area.",
+      "Keep the activity fast and competitive while maintaining awareness of other skaters."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bank-robbers",
+    "image": "https://www.files.icehockeysystems.com/files/drills/bank-robbers-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/bank-robbers-web.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 712
   }
 ]
