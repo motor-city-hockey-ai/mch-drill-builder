@@ -25654,5 +25654,131 @@
     "original_diagram": true,
     "status": "verified",
     "number": 788
+  },
+  {
+    "uid": "ihs-body-contact-hip-check-w-breakout-5",
+    "title": "Body Contact Hip Check w/ Breakout",
+    "category": "Breakout / Checking / Retrieval",
+    "drill_types": [
+      "Breakouts",
+      "Checking",
+      "Retrievals",
+      "Defensive",
+      "Passing",
+      "Puck Support",
+      "Wall Play"
+    ],
+    "description": "The strong-side defenseman closes on a wall-side pressure point with controlled hip or shoulder contact, recovers the loose puck and moves it D-to-D. A center swings low for support, receives the next pass and chips around pressure while the backside defenseman completes the retrieval.",
+    "coaching_points": [
+      "Step into the lane with balance and controlled contact.",
+      "Recover the puck quickly with the head up after contact.",
+      "Center times the low swing to support the breakout.",
+      "Keep every pass crisp and preserve spacing through the sequence.",
+      "Backside defense reads and retrieves the chip."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-hip-check-w-breakout-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8209171-0-1760653404.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8209171-0-1760653404.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 789
+  },
+  {
+    "uid": "ihs-body-contact-catching-rim",
+    "title": "Body Contact Catching The Rim",
+    "category": "Checking / Retrieval / Breakout",
+    "drill_types": [
+      "Checking",
+      "Retrievals",
+      "Breakouts",
+      "Wall Play",
+      "Puck Protection",
+      "Puck Control"
+    ],
+    "description": "A winger receives a rim under pressure and must read the attacker's angle before choosing an escape. Options include protecting and controlling the puck to the inside or using a high chip to relieve pressure and advance the breakout.",
+    "coaching_points": [
+      "Read pressure early with the head up before the rim arrives.",
+      "Lead with the inside leg and shoulder to protect the puck.",
+      "Choose the escape based on the pressure angle rather than forcing one option.",
+      "Execute the chip or inside move with control and purpose."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-catching-rim",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8209106-0-1760653132.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8209106-0-1760653132.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 790
+  },
+  {
+    "uid": "ihs-body-contact-sidewall-corner-attack-6",
+    "title": "Body contact sidewall with corner attack",
+    "category": "Angling / Checking / Corner Attack",
+    "drill_types": [
+      "Angling",
+      "Checking",
+      "Puck Protection",
+      "Puck Control",
+      "Battle Drills",
+      "Down Low",
+      "Shooting"
+    ],
+    "description": "The player races a pressure point to a loose puck in the corner, establishes body position through controlled contact, wins possession and immediately turns the battle into offense by cutting from the corner to the net for an in-tight finish.",
+    "coaching_points": [
+      "Arrive low and establish inside shoulder position.",
+      "Keep the feet moving through contact to win possession.",
+      "Transition immediately from the battle to attack mode.",
+      "Keep the head up while cutting through traffic to the net.",
+      "Finish with pace and accuracy from tight space."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-sidewall-corner-attack-6",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8209076-0-1760652943.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8209076-0-1760652943.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 791
+  },
+  {
+    "uid": "ihs-body-contact-corner-pressure-4",
+    "title": "Body contact corner pressure",
+    "category": "Checking / Down Low / Wall Play",
+    "drill_types": [
+      "Checking",
+      "Down Low",
+      "Wall Play",
+      "Puck Protection",
+      "Passing",
+      "Net Front",
+      "Shooting"
+    ],
+    "description": "F1 retrieves a puck under pressure from behind, uses a controlled reverse hit to absorb contact and protect possession, then moves the puck to F2 behind the net. F1 releases from contact and drives the front for a return pass and quick finish.",
+    "coaching_points": [
+      "Use shoulder position and the wall to stabilize the reverse hit.",
+      "Keep the eyes up while initiating and absorbing contact.",
+      "Move quickly from contact to puck control and passing.",
+      "Drive hard to the net immediately after the pass.",
+      "Finish the return pass without unnecessary stickhandling."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-corner-pressure-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8200716-0-1760631994.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8200716-0-1760631994.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 792
   }
 ]
