@@ -17361,5 +17361,141 @@
     ],
     "original_diagram": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-7257446",
+    "number": 531,
+    "title": "Stick Lift to Attack Drill",
+    "category": "Puck Protection",
+    "drill_types": [
+      "Puck Protection",
+      "Passing",
+      "Puck Control",
+      "Shooting",
+      "Offensive",
+      "Neutral Zone",
+      "Skill Development",
+      "Stations"
+    ],
+    "description": "A neutral-zone skill sequence that combines passing, a quick stick lift, puck recovery and an immediate attack. After winning the puck, the player exchanges passes, swings into support and finishes by protecting the puck around pressure before shooting.",
+    "coaching_points": [
+      "Show a clear target and communicate on every pass.",
+      "Make the stick lift quick and controlled, then secure the puck immediately.",
+      "Move the feet through the support route instead of gliding into the pass.",
+      "Use hips and body position to protect the puck on the final attack."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stick-lift-attack-drill",
+    "source_id": "7257446",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7257446-0-1754683588.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7257446-0-1754683588.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-continuous-1vs1-battle",
+    "number": 532,
+    "title": "Continuous 1 vs. 1 Battle Game",
+    "category": "1 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Angling",
+      "Defensive",
+      "Offensive",
+      "Small Area Games",
+      "Conditioning",
+      "Half Ice"
+    ],
+    "description": "A continuous 1-on-1 game where each attacking forward becomes the next defender. The format creates repeated puck-protection battles while the defender works under fatigue to angle the puck outside and end the shift with a clean recovery or exit.",
+    "coaching_points": [
+      "Forwards protect the puck until a real scoring lane opens.",
+      "Defenders keep the stick down and angle the attacker away from the middle.",
+      "Finish every battle through the rebound or puck recovery.",
+      "Transition immediately from offense to defense when the rep changes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-1-vs-1-battle",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-1vs-1-battle-hockey-game.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-1vs-1-battle-hockey-game.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-152391",
+    "number": 533,
+    "title": "Wallee 2 vs. 2 Scoring & Defending Game",
+    "category": "2 vs 2",
+    "drill_types": [
+      "2 vs 2",
+      "Small Area Games",
+      "Skating",
+      "Offensive",
+      "Defensive",
+      "Conditioning",
+      "Coverage",
+      "Full Ice",
+      "Backchecking",
+      "Transition",
+      "Puck Protection"
+    ],
+    "description": "A continuous narrow-ice 2-on-2 game with an offense-to-defense-to-rest rotation. A defensive recovery and outlet launches the next pair down ice while the previous attackers must immediately backcheck and defend at the opposite end.",
+    "coaching_points": [
+      "Attackers isolate a tired defender and create a 2-on-1 whenever possible.",
+      "Defenders communicate, stay between the puck and net, and finish loose-puck battles.",
+      "The previous offensive pair reloads hard through the middle on the transition.",
+      "Possession and shots on net should extend offensive-zone time rather than forcing low-percentage plays."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ben Eaves",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wallee-2-vs-2-scoring-defending-game",
+    "source_id": "152391",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-152391-0-1662728248.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-152391-0-1662728248.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-152751",
+    "number": 534,
+    "title": "KP 2 vs. 2 Neutral Zone Scoring Game",
+    "category": "2 vs 2",
+    "drill_types": [
+      "2 vs 2",
+      "Small Area Games",
+      "Puck Control",
+      "Offensive",
+      "Defensive",
+      "Neutral Zone",
+      "Transition",
+      "Awareness",
+      "Puck Support"
+    ],
+    "description": "Two teams attack opposite nets inside the neutral zone. Each pair must continuously decide whether the off-puck player should defend the opponent or join the puck carrier to create an offensive advantage.",
+    "coaching_points": [
+      "The player without the puck reads offense versus defense before committing.",
+      "The puck carrier identifies whether the situation is 1-on-0, 1-on-1 or 2-on-1.",
+      "Communicate constantly because the advantage changes quickly.",
+      "React immediately when a puck leaves the area and a new attacking opportunity appears."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ben Eaves",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/kp-2-vs-2-neutral-zone-scoring-game",
+    "source_id": "152751",
+    "image": "https://www.files.icehockeysystems.com/files/drills/kp-2vs2-neutral-zone-scoring-game.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/kp-2vs2-neutral-zone-scoring-game.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
   }
 ]
