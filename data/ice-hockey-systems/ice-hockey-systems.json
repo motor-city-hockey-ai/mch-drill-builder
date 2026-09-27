@@ -12618,5 +12618,103 @@
     "member_only": true,
     "status": "verified",
     "number": 385
+  },
+  {
+    "uid": "ihs-8312096",
+    "title": "2vs2 Crossroad Passing",
+    "category": "2 on 2 / Passing / Small Area Game",
+    "drill_types": [
+      "2 on 2",
+      "4 vs 4",
+      "Awareness",
+      "Passing",
+      "Puck Support",
+      "Small Area Games",
+      "Stations"
+    ],
+    "description": "A confined 2-on-2 puck-support game with two stationary support players on opposite sides. The team in possession works to move the puck from one outside support player to the other using movement and quick exchanges through the middle.",
+    "coaching_points": [
+      "Move constantly to create passing options.",
+      "Use body position and deception to protect possession.",
+      "Find soft ice away from defenders.",
+      "Transition immediately after a turnover."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "International Ice Hockey Federation (IIHF)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2vs2-crossroad-passing",
+    "source_id": "8312096",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8312096-0-1761156450.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8312096-0-1761156450.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 386
+  },
+  {
+    "uid": "ihs-8445426",
+    "title": "Pass and Move Circle",
+    "category": "Passing / Warm-Up",
+    "drill_types": [
+      "Awareness",
+      "Passing",
+      "Stations",
+      "Warm Up",
+      "Puck Support"
+    ],
+    "description": "Players form a large circle and continuously pass and move. The receiver skates on the first touch, exchanges a quick one-touch give-and-go with a teammate, then moves the puck to a new target. Additional pucks can be added to raise the tempo.",
+    "coaching_points": [
+      "Skate immediately on the first touch.",
+      "Use clean one-touch passes.",
+      "Keep the head up and communicate.",
+      "Read teammates before choosing the next target."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pass-and-move-circle-0",
+    "source_id": "8445426",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8445426-0-1769599523.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8445426-0-1769599523.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8445426-1-1769599523.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 387
+  },
+  {
+    "uid": "ihs-5259426",
+    "title": "3 x Wall Pick Ups with Shot Around Circle",
+    "category": "Passing / Retrieval / Shooting",
+    "drill_types": [
+      "Breakouts",
+      "Retrievals",
+      "Skill Development",
+      "Stations",
+      "Wall Play",
+      "Passing",
+      "Shooting"
+    ],
+    "description": "The player jumps to the boards to collect a chipped puck and immediately moves it to support. The pickup-and-pass sequence repeats three times around the circle, with the third puck finishing as a shot on net.",
+    "coaching_points": [
+      "Shoulder-check before collecting each wall puck.",
+      "Get the puck off the wall cleanly before making the pass.",
+      "Stay balanced through each pickup.",
+      "Progress to different pickup and shooting techniques."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-x-wall-pick-ups-shot-around-circle",
+    "source_id": "5259426",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5259426-0-1729259474.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5259426-0-1729259474.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 388
   }
 ]
