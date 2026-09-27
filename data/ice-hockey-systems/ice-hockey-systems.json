@@ -27043,5 +27043,229 @@
     "member_only": true,
     "status": "verified",
     "number": 832
+  },
+  {
+    "uid": "ihs-stop-and-start-1-vs-1",
+    "title": "Stop and Start 1 vs. 1",
+    "category": "1 vs 1 / Race / Conditioning",
+    "drill_types": [
+      "1 vs 1",
+      "Races",
+      "Battle Drills",
+      "Conditioning",
+      "Full Ice",
+      "Shooting"
+    ],
+    "description": "Two players complete a stop-and-start skating sequence before racing for a loose puck. The winner attacks for a breakaway while the other player chases from behind and defends.",
+    "coaching_points": [
+      "Explode out of every stop instead of standing upright.",
+      "Race through the loose puck and gain body position.",
+      "The puck winner attacks the net immediately.",
+      "The trailing player backchecks through the hands and stick without giving up."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stop-and-start-1-vs-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/stop-and-start-1-vs-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/stop-and-start-1-vs-1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 833
+  },
+  {
+    "uid": "ihs-neutral-zone-puck-races-2",
+    "title": "Neutral Zone Puck Races #2",
+    "category": "1 vs 1 / Race / Control Turns",
+    "drill_types": [
+      "1 vs 1",
+      "Relay Races",
+      "Races",
+      "Stations",
+      "Third Ice Stations",
+      "Battle Drills",
+      "Skating",
+      "Puck Control"
+    ],
+    "description": "Two players race through mirrored tight control turns around tires in the neutral zone, then compete for a puck and attack the mini net.",
+    "coaching_points": [
+      "Use tight control turns with the inside skate leading slightly.",
+      "Trust the outside edge of the inside skate around each tire.",
+      "Rotate the chest and head toward the exit of the turn.",
+      "Compete through the puck and transition immediately into the scoring chance."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-race-2-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-race-2-web.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 834
+  },
+  {
+    "uid": "ihs-quarter-ice-obstacle-course-1",
+    "title": "Quarter Ice Obstacle Course #1",
+    "category": "Skating / Agility / Quarter Ice",
+    "drill_types": [
+      "Skating",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Agility",
+      "Control Turns",
+      "Balance"
+    ],
+    "description": "A quarter-ice obstacle course combining inside-edge work, one-foot step-overs, a full control turn and two-foot jumps before players race back to their line.",
+    "coaching_points": [
+      "Stay balanced through the staggered-cone inside-edge section.",
+      "Land each one-foot step-over under control before the next obstacle.",
+      "Complete a tight full control turn around the tire.",
+      "Use knee bend and two-foot takeoffs over the final barriers."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-obstacle-course-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/obstacle-course-1-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/obstacle-course-1-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 835
+  },
+  {
+    "uid": "ihs-inside-edges-slalom-relays",
+    "title": "Inside Edges Slalom Relays",
+    "category": "Skating / Inside Edges / Relay",
+    "drill_types": [
+      "Skating",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Agility",
+      "Edges"
+    ],
+    "description": "Players slalom around a row of sticks using the inside edge of the outside skate, transfer weight between feet, complete the turn at the tire and race back to the line.",
+    "coaching_points": [
+      "Use one strong inside edge around each stick.",
+      "Transfer weight cleanly from one foot to the other between obstacles.",
+      "Keep the chest and eyes directed toward the next turn.",
+      "Accelerate out of the final tire turn."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/inside-edges-slalom-relays",
+    "image": "https://www.files.icehockeysystems.com/files/drills/Inside-Edges-Slalom-Relays-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/Inside-Edges-Slalom-Relays-web.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/inside-edges-slalom-relays-sixth-ice-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 836
+  },
+  {
+    "uid": "ihs-tire-turn-relays-control-turns",
+    "title": "Tire Turn Relays - Control Turns",
+    "category": "Skating / Control Turns / Relay",
+    "drill_types": [
+      "Skating",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Control Turns",
+      "Agility"
+    ],
+    "description": "Players race straight to a tire, execute a controlled turn around it and accelerate back to the goal line. The setup can be run as quarter-ice or sixth-ice stations.",
+    "coaching_points": [
+      "Trust the outside edge of the inside skate through the turn.",
+      "Lead slightly with the inside foot.",
+      "Rotate the chest and head toward the direction of travel.",
+      "Accelerate out of the turn with full forward strides."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tire-turn-relays-control-turns",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tire-turn-relays-quarter-ice-control-turns.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tire-turn-relays-quarter-ice-control-turns.png",
+      "https://www.files.icehockeysystems.com/files/drills/control-turn-relays-sixth-ice-station.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 837
+  },
+  {
+    "uid": "ihs-push-pull-relays",
+    "title": "Push & Pull Relays",
+    "category": "Skating / Relay / Forward Stride",
+    "drill_types": [
+      "Skating",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Conditioning"
+    ],
+    "description": "Pairs race to a tire and back using two partner-resistance variations: one player pushes a backward-gliding partner, then the pair switches to a pull/chariot variation before changing roles.",
+    "coaching_points": [
+      "The pushing player uses full forward strides instead of short choppy steps.",
+      "The backward player stays balanced and helps steer the pair.",
+      "In the pull variation, the front skater maintains posture and powerful extension.",
+      "Switch roles so both players perform each skating task."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/push-pull-relays",
+    "image": "https://www.files.icehockeysystems.com/files/drills/push-pull-relays-web.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/push-pull-relays-web.png",
+      "https://www.files.icehockeysystems.com/files/drills/push-pull-relays-sixth-ice-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 838
+  },
+  {
+    "uid": "ihs-steps-jumps-over-sticks-relay-races",
+    "title": "Steps and Jumps Over Sticks Relay Races",
+    "category": "Skating / Relay / Balance",
+    "drill_types": [
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Skating",
+      "Agility",
+      "Balance",
+      "Control Turns"
+    ],
+    "description": "Two relay variations use the same stick-and-tire setup. Players either step over each stick on one foot or use two-foot jumps, then finish with a control turn around the tire and race back.",
+    "coaching_points": [
+      "On step-overs, land and stabilize on one foot before the next obstacle.",
+      "On jump reps, take off and land with both feet under the body.",
+      "Use a tight control turn around the tire.",
+      "Finish every repetition with strong forward strides back to the line."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/steps-and-jumps-over-sticks-relay-races",
+    "image": "https://www.files.icehockeysystems.com/files/drills/steps-jumps-over-sticks.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/steps-jumps-over-sticks.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 839
   }
 ]
