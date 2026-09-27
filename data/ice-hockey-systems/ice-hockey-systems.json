@@ -25780,5 +25780,102 @@
     "original_diagram": true,
     "status": "verified",
     "number": 792
+  },
+  {
+    "uid": "ihs-1-v-1-rush-to-1-v-1-puck-retrieval",
+    "title": "1 v 1 Rush to 1 v 1 Puck Retrieval",
+    "category": "1 vs 1 / Angling / Retrieval",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Gap",
+      "Puck Protection",
+      "Retrievals",
+      "Defensive",
+      "Offensive"
+    ],
+    "description": "A two-part 1-on-1 progression. The first rep has the defender shadow the puck carrier through a cone route before defending a rush. The same two players then transition into a dumped-puck retrieval where the defender tries to escape the zone and the forechecker angles to win the puck back.",
+    "coaching_points": [
+      "Defender uses footwork and body position first instead of relying on the stick.",
+      "Puck carrier attacks with lateral movement and drives toward the middle when available.",
+      "On the retrieval, shoulder-check before arriving at the puck and protect it while escaping.",
+      "Forechecker closes from a good angle and finishes through the hands to create the turnover."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-rush-1-v-1-puck-retrieval",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544206-0-1691763366.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544206-0-1691763366.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 793
+  },
+  {
+    "uid": "ihs-1-v-1-stick-battle",
+    "title": "1 v 1 Stick Battle",
+    "category": "1 vs 1 / Battle / Checking",
+    "drill_types": [
+      "1 vs 1",
+      "Battle Drills",
+      "Checking",
+      "Conditioning",
+      "Strength",
+      "Warm Up"
+    ],
+    "description": "Partners share one stick and compete in short controlled battles, each trying to knock the other player off balance while maintaining a strong skating base. The drill is used as a contact warm-up and to reinforce posture, balance and leverage.",
+    "coaching_points": [
+      "Stay low with a wide, stable base of support.",
+      "Use leg drive and body position rather than twisting the stick.",
+      "Keep the battle controlled and immediately reset after either player loses balance.",
+      "Use short high-effort repetitions with partners of similar size."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mark Zarbo Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-stick-battle",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2541976-0-1691814019.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2541976-0-1691814019.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 794
+  },
+  {
+    "uid": "ihs-hit-through-the-hands",
+    "title": "Hit Through the Hands",
+    "category": "1 vs 1 / Angling / Checking",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Checking",
+      "Coverage",
+      "Wall Play",
+      "Puck Protection",
+      "Defensive"
+    ],
+    "description": "Two players move slowly up the wall with the puck carrier staying tight to the boards. The checker skates alongside and repeatedly finishes through the puck carrier's hands, combining body contact with stick pressure to stop forward progress and separate the player from the puck.",
+    "coaching_points": [
+      "Puck carrier stays close enough to the wall to use it safely when absorbing contact.",
+      "Checker closes alongside the player before making contact instead of charging from distance.",
+      "Finish through the hands to stop forward momentum, not merely into the side of the body.",
+      "Combine body contact with stick-on-stick pressure to separate the puck at the same time."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mark Zarbo Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/hit-through-hands",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2542301-0-1691752825.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2542301-0-1691752825.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 795
   }
 ]
