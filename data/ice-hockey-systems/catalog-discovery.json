@@ -9560,5 +9560,95 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 616,
+    "title": "Half Ice Angle Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-angle-drill",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Checking",
+      "Half Ice",
+      "Defensive",
+      "Offensive",
+      "Puck Protection",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS checking/angling exact-diagram sweep"
+  },
+  {
+    "discovery_number": 617,
+    "title": "4Check Loose Pucks",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-loose-pucks",
+    "categories": [
+      "1 vs 1",
+      "Battle Drills",
+      "Checking",
+      "Angling",
+      "Puck Protection",
+      "Defensive",
+      "Offensive",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS checking/angling exact-diagram sweep"
+  },
+  {
+    "discovery_number": 618,
+    "title": "Belfry Full Ice Angle Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/belfry-full-ice-angle-drill",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Full Ice",
+      "Checking",
+      "Defensive",
+      "Offensive",
+      "Transition",
+      "Competition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS checking/angling exact-diagram sweep"
+  },
+  {
+    "discovery_number": 619,
+    "title": "1 on 1 Angling Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-1-angling-drill-10",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Checking",
+      "Wall Play",
+      "Battle Drills",
+      "Puck Protection",
+      "Defensive",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS checking/angling exact-diagram sweep"
+  },
+  {
+    "discovery_number": 620,
+    "title": "Angling Small Area Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/angling-small-area-game",
+    "categories": [
+      "1 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Angling",
+      "Small Area Games",
+      "Transition",
+      "Checking",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS checking/angling exact-diagram sweep"
   }
 ]
