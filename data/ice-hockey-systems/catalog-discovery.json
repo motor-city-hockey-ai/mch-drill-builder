@@ -6923,5 +6923,58 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 465,
+    "title": "Full Ice Skills Series - 1 Goalie",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-skills-series-1-goalie-0",
+    "categories": [
+      "One Goalie",
+      "Full Ice",
+      "Skill Development",
+      "Stickhandling",
+      "Passing",
+      "Skating",
+      "Shooting",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 466,
+    "title": "The Greatest Drill in the World",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/greatest-drill-world",
+    "categories": [
+      "3 vs 3",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Passing",
+      "Puck Support",
+      "Awareness",
+      "Transition",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 467,
+    "title": "Neutral Zone Passing Station #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-passing-station-1",
+    "categories": [
+      "Passing",
+      "Stations",
+      "Neutral Zone",
+      "Third Ice Stations",
+      "Skill Development",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
   }
 ]
