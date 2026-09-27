@@ -13051,5 +13051,73 @@
     "member_only": true,
     "status": "verified",
     "number": 398
+  },
+  {
+    "uid": "ihs-11208931",
+    "title": "Yellow Runner Rally",
+    "category": "3 on 2 / Battle / Offensive Zone",
+    "drill_types": [
+      "3 on 2",
+      "Battle Drills",
+      "Coverage",
+      "Cycling",
+      "Defensive Zone",
+      "Forechecking",
+      "Half Ice",
+      "Offensive Zone",
+      "Puck Protection",
+      "Puck Support",
+      "Wall Play"
+    ],
+    "description": "Three attackers battle two defenders after a contested rim retrieval. Once the offense wins possession, they build a three-player possession triangle with a climbing player, soft-ice support near the dot, and net-front presence.",
+    "coaching_points": [
+      "First attacker secures the rim with body position and scans before the next touch.",
+      "Second attacker supports the battle while the third becomes a clear outlet.",
+      "After possession is won, spread into three distinct support roles instead of staying clustered."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "John Dean",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/yellow-runner-rally",
+    "source_id": "11208931",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-11208931-0-1790368649.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-11208931-0-1790368649.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 399
+  },
+  {
+    "uid": "ihs-4973356",
+    "title": "3 v 3 with Down Low Passer",
+    "category": "3 on 3 / Small Area Game / Net Front",
+    "drill_types": [
+      "3 on 3",
+      "Small Area Games",
+      "Battle Drills",
+      "Coverage",
+      "Down Low",
+      "Half Ice",
+      "Offensive",
+      "Defensive"
+    ],
+    "description": "Three-on-three net-front game with an unpressured passer behind the net. Offensive players work to get open in scoring areas while defenders play tight coverage in front and deny passing lanes.",
+    "coaching_points": [
+      "Offensive players separate from coverage and present sticks as targets.",
+      "Defenders maintain inside position and keep sticks in passing lanes.",
+      "Use the passer behind the net to force defenders to scan and communicate."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-down-low-passer",
+    "source_id": "4973356",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4973356-0-1729732325.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4973356-0-1729732325.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 400
   }
 ]
