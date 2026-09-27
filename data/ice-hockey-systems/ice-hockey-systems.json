@@ -15274,5 +15274,129 @@
     "member_only": true,
     "status": "verified",
     "number": 469
+  },
+  {
+    "uid": "ihs-cow-continuous-cycle",
+    "title": "COW Hockey's Continuous Cycle Drill",
+    "category": "Cycling",
+    "drill_types": [
+      "Cycling",
+      "Offensive Zone",
+      "Half Ice",
+      "Passing",
+      "Shooting",
+      "Puck Support",
+      "Net Drive"
+    ],
+    "description": "The coach dumps a puck to the corner. F1 retrieves and carries up the wall while F2 supports underneath. After the hash marks F1 cycles the puck down for F2, gets off the wall into the slot, receives the return pass and shoots. F2 continues through the slot as the next puck is sent to the opposite corner.",
+    "coaching_points": [
+      "Communicate early and call for the cycle and return pass.",
+      "Keep the cycle puck off the wall so the supporting player can collect it in stride.",
+      "F1 gets off the wall immediately after the cycle and arrives in the slot ready to shoot.",
+      "Stop at the net for rebounds and keep the drill moving at game pace."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cow-hockeys-continuous-cycle-drill",
+    "image": "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/COW-continuous-cycle-drill.jpg",
+    "images": [
+      "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/COW-continuous-cycle-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 470
+  },
+  {
+    "uid": "ihs-philly-down-low-1",
+    "title": "Philly Down Low Progression #1",
+    "category": "Puck Protection",
+    "drill_types": [
+      "Puck Protection",
+      "Cycling",
+      "Down Low",
+      "Offensive Zone",
+      "Half Ice",
+      "Puck Support",
+      "Shooting"
+    ],
+    "description": "F1 retrieves a soft dump behind the net, uses tight control turns to protect the puck while climbing the wall, then attacks from below the goal line. F2 times a weak-side drive to the far post so F1 can read the goalie and choose between a walkout or backdoor pass.",
+    "coaching_points": [
+      "Move the feet through each control turn instead of gliding.",
+      "Keep the body between pressure and the puck while climbing the wall.",
+      "Use eyes and shoulders to sell deception before changing direction.",
+      "F2 times the backdoor route to arrive moving, not standing in the low slot."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/philly-down-low-progression-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/philly-down-low-progression-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/philly-down-low-progression-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 471
+  },
+  {
+    "uid": "ihs-royal-protection-down-low",
+    "title": "Royal Puck Protection Down Low",
+    "category": "Puck Protection",
+    "drill_types": [
+      "Puck Protection",
+      "Cycling",
+      "Down Low",
+      "Offensive Zone",
+      "Shooting",
+      "One Goalie",
+      "Wall Play"
+    ],
+    "description": "A player carries the puck around a tire and starts up the wall, then uses a control turn to come back below the goal line and attack the net. The next player applies stick pressure so the puck carrier must protect the puck while also managing the goalie.",
+    "coaching_points": [
+      "Use the body and hips to shield the puck from stick pressure.",
+      "Keep the feet moving through the cutback and attack from below the goal line.",
+      "Use eyes and head position to sell a pass or middle-lane move before cutting back.",
+      "Progress to a slot-pass option once players can protect the puck consistently."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/royal-puck-protection-down-low",
+    "image": "https://www.files.icehockeysystems.com/files/drills/royal-protection-down-low.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/royal-protection-down-low.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 472
+  },
+  {
+    "uid": "ihs-cycle-series-1",
+    "title": "Cycle Series #1",
+    "category": "Cycling",
+    "drill_types": [
+      "Cycling",
+      "Half Ice",
+      "Offensive",
+      "Puck Protection",
+      "Puck Support",
+      "Passing",
+      "Shooting"
+    ],
+    "description": "F1 retrieves a puck below the goal line, escapes pressure and carries up the wall. F2 times support underneath, receives a drop or cycle pass, and quickly returns the puck to F1 moving into the slot. The sequence continues with the next player.",
+    "coaching_points": [
+      "Accelerate out of the escape turn and move the feet up the wall.",
+      "Support underneath the puck carrier with a clear passing target.",
+      "Make the exchange early enough that the puck carrier can get off the wall into scoring ice.",
+      "Return the puck quickly and finish at the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cycle-series-1",
+    "image": "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/cycle-series-1.jpg",
+    "images": [
+      "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/cycle-series-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 473
   }
 ]
