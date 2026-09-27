@@ -22697,5 +22697,221 @@
     "original_diagram": true,
     "status": "verified",
     "number": 695
+  },
+  {
+    "uid": "ihs-long-stretch-flow-drill",
+    "title": "Long Stretch Flow Drill",
+    "category": "Flow / Shooting / Full Ice",
+    "drill_types": [
+      "Flow",
+      "Shooting",
+      "Passing",
+      "Full Ice",
+      "Warm Up",
+      "Puck Support"
+    ],
+    "description": "A full-ice flow warm-up that alternates outside-lane shots with a middle-ice support route. After shooting, the player swings back through the middle, receives a pass from the line and one-touches the puck into space for the next skater before the sequence continues.",
+    "coaching_points": [
+      "Attack the first shot with speed and continue skating after the release.",
+      "Swing through the middle with the stick available as a passing target.",
+      "Use a soft one-touch pass into space so the next player can skate onto it.",
+      "Maintain spacing and timing so both ends can run continuously without congestion."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/long-stretch-flow-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/long-stretch-flow-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/long-stretch-flow-drill.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 696
+  },
+  {
+    "uid": "ihs-four-lines-flow-3",
+    "title": "Four Lines Flow #3",
+    "category": "Passing / Flow / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Shooting",
+      "Puck Support",
+      "Warm Up"
+    ],
+    "description": "Opposite lines go together in a four-line passing flow. The first player moves the puck to the line directly across, loops around the center circle, receives it back and then moves it to the next support option before continuing into the attack.",
+    "coaching_points": [
+      "Pass early enough for the skating route to stay continuous.",
+      "Circle with speed and keep the stick presented for the return pass.",
+      "Move the puck immediately after receiving instead of overhandling.",
+      "Keep both sides synchronized so the drill flows cleanly through center ice."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-flow-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/four-line-flow-3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/four-line-flow-3.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 697
+  },
+  {
+    "uid": "ihs-shadow-recovery-drill",
+    "title": "Shadow Recovery Drill",
+    "category": "1 vs 1 / Gap / Recovery",
+    "drill_types": [
+      "1 vs 1",
+      "Skating",
+      "Gap",
+      "Recovery",
+      "Defensive",
+      "Offensive",
+      "Full Ice",
+      "Shooting"
+    ],
+    "description": "Forwards build speed around the faceoff circle and receive a pass in stride through the neutral zone. Defensemen begin backward, transition forward to shadow the rush, then recover and pivot to maintain a tight outside gap as the forward attacks the net.",
+    "coaching_points": [
+      "Forwards accelerate through the circle and receive the pass without breaking stride.",
+      "Defense transitions forward aggressively enough to match the rush.",
+      "Recover with quick feet and pivot before the attacker can gain the middle.",
+      "Keep the forward outside the dots while maintaining stick and body position."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shadow-recovery-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/shadow-recovery-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/shadow-recovery-drill.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 698
+  },
+  {
+    "uid": "ihs-transition-pivot-hockey-races",
+    "title": "Transition Pivot Hockey Races",
+    "category": "Skating / Transition / Race",
+    "drill_types": [
+      "Skating",
+      "Transition",
+      "Races",
+      "Relay Races",
+      "Full Ice",
+      "Backwards Skating",
+      "Overspeed"
+    ],
+    "description": "Two players race through a sequence of forward skating, backward pivots and recovery turns before opening up around the center-ice cone and sprinting for a loose puck. The competitive format forces quick feet and clean forward-to-backward transitions.",
+    "coaching_points": [
+      "Get fully across the blue line before each backward transition.",
+      "Open the hips cleanly and avoid unnecessary crossover steps on the final pivot.",
+      "Explode out of every transition instead of gliding.",
+      "Compete through the puck and continue the play to the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-pivot-hockey-races",
+    "image": "https://www.files.icehockeysystems.com/files/drills/pivot-races.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/pivot-races.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 699
+  },
+  {
+    "uid": "ihs-three-zone-transition-pivots-pucks",
+    "title": "Three Zone Transition Pivots with Pucks",
+    "category": "Skating / Puck Control / Transition",
+    "drill_types": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Transition",
+      "Overspeed",
+      "Full Ice",
+      "Shooting",
+      "Warm Up"
+    ],
+    "description": "Players carry a puck through a full-ice three-zone skating pattern. In each zone they crossover into a circle, transition backward, pivot forward again and maintain puck control before finishing the final zone by cutting into the middle for a shot.",
+    "coaching_points": [
+      "Keep the puck under control through every crossover and pivot.",
+      "Transition backward without standing up or losing speed.",
+      "Push the pace while preserving clean edge work and puck control.",
+      "Finish by attacking laterally through the slot with the head up."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/three-zone-transition-pivots-pucks",
+    "image": "https://www.files.icehockeysystems.com/files/drills/three-zone-tranistion-pivots-with-pucks.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/three-zone-tranistion-pivots-with-pucks.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 700
+  },
+  {
+    "uid": "ihs-full-ice-overspeed-skating-progression-4",
+    "title": "Full Ice Overspeed Skating Progression Drill #4",
+    "category": "Skating / Overspeed / Full Ice",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Full Ice",
+      "Warm Up",
+      "Tryout",
+      "Crossovers",
+      "Conditioning"
+    ],
+    "description": "Players use a large offensive-zone crossover circle to build speed, then accelerate down the ice using repeated pairs of lateral crossovers in each direction. The progression emphasizes cross-under power, full extension and quick lateral movement at speed.",
+    "coaching_points": [
+      "Generate power from the cross-under instead of simply stepping over.",
+      "Use full extension through each stride while building speed around the circle.",
+      "Keep the crossover pairs quick and explosive down the length of the ice.",
+      "Stay balanced and athletic while changing lateral direction."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-overspeed-skating-progression-drill-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/overspeed-progression-4.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/overspeed-progression-4.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 701
+  },
+  {
+    "uid": "ihs-full-ice-overspeed-skating-progression-1",
+    "title": "Full Ice Overspeed Skating Progression #1",
+    "category": "Skating / Overspeed / Full Ice",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Full Ice",
+      "Warm Up",
+      "Crossovers",
+      "Conditioning"
+    ],
+    "description": "Players leave opposite corners and skate an extended full-ice figure pattern around multiple circles. The goal is maximum controlled foot speed through the turns while maintaining sound crossover and cross-under technique.",
+    "coaching_points": [
+      "Move the feet as quickly as possible without sacrificing edge quality.",
+      "Use powerful cross-under pushes through every circle.",
+      "Keep the head up when routes intersect near center ice.",
+      "Maintain speed through the turns rather than coasting between circles."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-overspeed-skating-progression-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/overspeed-progression-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/overspeed-progression-1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 702
   }
 ]
