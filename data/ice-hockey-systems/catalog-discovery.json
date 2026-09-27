@@ -11574,5 +11574,163 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 739,
+    "title": "Puck Tag - Stickhandling and Awareness Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-tag-stickhandling-and-awareness-game",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Stations",
+      "Quarter Ice Station",
+      "Third Ice Stations",
+      "Stickhandling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified source page and original source-image reconciliation"
+  },
+  {
+    "discovery_number": 740,
+    "title": "3 Cone Skills Series #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-cone-skills-series-1",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Stickhandling",
+      "Tryout"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified source page and original source-image reconciliation"
+  },
+  {
+    "discovery_number": 741,
+    "title": "3 Cone Skills Series #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-cone-skills-series-2",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Skill Development",
+      "Stickhandling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified source page and original source-image reconciliation"
+  },
+  {
+    "discovery_number": 742,
+    "title": "Half Ice Open Up Shooting",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-open-shooting",
+    "categories": [
+      "Shooting",
+      "Warm Up",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified source page and original source-image reconciliation"
+  },
+  {
+    "discovery_number": 743,
+    "title": "Footwork Shots",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/footwork-shots",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Shooting",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified source page and original source-image reconciliation"
+  },
+  {
+    "discovery_number": 744,
+    "title": "Dodge Ball - Quarter Ice Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/dodge-ball-quarter-ice-station",
+    "categories": [
+      "Shooting",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified source page and original source-image reconciliation"
+  },
+  {
+    "discovery_number": 745,
+    "title": "Mirror Shoot Out",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/mirror-shoot-out",
+    "categories": [
+      "1 on 1",
+      "Skating",
+      "Small Area Games",
+      "Tryout",
+      "Agility"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified source page and original source-image reconciliation"
+  },
+  {
+    "discovery_number": 746,
+    "title": "McGillney Drop, Shoot, Battle",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/mcgillney-drop-shoot-battle",
+    "categories": [
+      "Shooting",
+      "Stations",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified source page and original source-image reconciliation"
+  },
+  {
+    "discovery_number": 747,
+    "title": "Pass - Pressure - Escape",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pass-pressure-escape",
+    "categories": [
+      "1 on 1",
+      "Puck Control",
+      "Puck Protection",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified source page and original source-image reconciliation"
+  },
+  {
+    "discovery_number": 748,
+    "title": "Two Shot Seal and Walk",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/two-shot-seal-and-walk",
+    "categories": [
+      "Defensive",
+      "Half Ice",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified source page and original source-image reconciliation"
+  },
+  {
+    "discovery_number": 749,
+    "title": "Half Ice Shoot In Stride",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-shoot-stride",
+    "categories": [
+      "One Goalie",
+      "Shooting",
+      "Skill Development",
+      "Warm Up",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified source page and original source-image reconciliation"
   }
 ]
