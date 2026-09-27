@@ -26323,5 +26323,68 @@
     "member_only": true,
     "status": "verified",
     "number": 809
+  },
+  {
+    "uid": "ihs-puck-control-relays",
+    "title": "Puck Control Relays",
+    "category": "Puck Control / Relay Races / Half Ice",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Relay Races",
+      "Stickhandling",
+      "Half Ice",
+      "Skating"
+    ],
+    "description": "A half-ice relay setup that trains three puck-control skills: single-shift moves through a line of pucks, protected control turns around cones, and pushing the puck at speed with one hand rather than overhandling it.",
+    "coaching_points": [
+      "Use clean single-shift moves to move the puck outside each obstacle.",
+      "Protect the puck and keep the head up through the control-turn section.",
+      "Move the puck forehand-to-backhand around cones instead of stickhandling excessively between them.",
+      "On the speed section, push the puck into space with one hand and skate through it."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-control-relays",
+    "image": "https://www.files.icehockeysystems.com/files/drills/puck-control-relays.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/puck-control-relays.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 810
+  },
+  {
+    "uid": "ihs-control-obstacle-course-station",
+    "title": "Control Obstacle Course Station",
+    "category": "Puck Control / Station / Stickhandling",
+    "drill_types": [
+      "Puck Control",
+      "Stations",
+      "Sixth Ice Stations",
+      "Stickhandling",
+      "Passing",
+      "Shooting",
+      "Puck Protection"
+    ],
+    "description": "A skill station combining puck protection, passing, receiving, control turns and shooting. Players weave through cones, exchange a pass with the coach, circle two tires in opposite directions, then make a single-shift move through the final tires and shoot.",
+    "coaching_points": [
+      "Use the body to protect the puck on both forehand and backhand sides of the cones.",
+      "Give the coach a firm pass and receive the return pass with the feet moving.",
+      "Circle each tire with the body between the obstacle and the puck.",
+      "Alternate the direction of the final single-shift move before shooting."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/control-obstacle-course-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/control-obstacle-course-station.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/control-obstacle-course-station.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 811
   }
 ]
