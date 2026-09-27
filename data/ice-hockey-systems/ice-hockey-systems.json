@@ -14371,5 +14371,99 @@
     "member_only": false,
     "status": "verified",
     "number": 440
+  },
+  {
+    "uid": "ihs-355976",
+    "title": "Pop Warm Up Drill",
+    "category": "Passing / Shooting / Full Ice Warm-Up",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Skating",
+      "Warm Up",
+      "Full Ice",
+      "Transition",
+      "Screens"
+    ],
+    "description": "Defensemen collect three pucks from the neutral-zone circle. The first two are passed to forwards on opposite sides for rush shots; the third is used by the defenseman for an escape and a shot while the forwards can remain at the net for tips and screens.",
+    "coaching_points": [
+      "Communicate and present the stick as a target.",
+      "Keep the head up through passes, escapes and rush skating.",
+      "Shoot in stride and use the two forwards around the net for traffic and tips."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Topher Scott",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pop-warm-drill",
+    "source_id": "355976",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-355976-0-1667880304.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-355976-0-1667880304.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 441
+  },
+  {
+    "uid": "ihs-148681",
+    "title": "Puck Protection - Surround Puck",
+    "category": "1 vs 1 / Puck Protection / Battle",
+    "drill_types": [
+      "1 vs 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Puck Control",
+      "Small Area Games"
+    ],
+    "description": "Two players start on opposite sides of a circle with the puck placed slightly closer to the designated protector. On the whistle they battle; the protector uses body position to surround the puck and keep possession inside the circle.",
+    "coaching_points": [
+      "Take away the defender's stick before reaching for the puck.",
+      "Use the body to surround and shield possession.",
+      "Stay low and strong on the edges while keeping the puck inside the circle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "NextGenerationHKY",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-protection-surround-puck",
+    "source_id": "148681",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-148681-0-1659624465.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-148681-0-1659624465.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 442
+  },
+  {
+    "uid": "ihs-5137951",
+    "title": "3 v 2 Puck Protection Game",
+    "category": "3 vs 2 / Puck Protection / Offensive Zone",
+    "drill_types": [
+      "3 vs 2",
+      "Puck Protection",
+      "Puck Support",
+      "Offensive Zone",
+      "Battle Drills",
+      "Small Area Games",
+      "Wall Play"
+    ],
+    "description": "Three attackers play against two defenders on one half of the zone. If the defenders win possession they rim the puck to a weak-side teammate, who activates with the other two players to become the next three-player offensive group.",
+    "coaching_points": [
+      "Offense maintains close triangle support and attacks quickly after winning possession.",
+      "The high forward supports low battles to create a numbers advantage.",
+      "Defenders keep sticks in lanes, force play outside and move the puck quickly to the weak-side outlet."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Daniel Paille",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-3-v-2-puck-protection-game",
+    "source_id": "5137951",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5137951-0-1730912360.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5137951-0-1730912360.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 443
   }
 ]
