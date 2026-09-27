@@ -16485,5 +16485,312 @@
     "member_only": true,
     "status": "verified",
     "number": 505
+  },
+  {
+    "uid": "ihs-10935461",
+    "title": "3 v 2 Backside Ice Balance",
+    "category": "3 vs 2",
+    "drill_types": [
+      "3 vs 2",
+      "Offensive Zone",
+      "Puck Support",
+      "Awareness",
+      "Passing",
+      "Small Area Games",
+      "Offensive"
+    ],
+    "description": "Three attackers play against two defenders and continually rotate through puck-carrier, support, and backside roles as the puck changes sides. The goal is to keep a weak-side option available and preserve offensive ice balance.",
+    "coaching_points": [
+      "Keep a player available on the weak side of the ice.",
+      "Rotate roles as the puck changes sides rather than following the puck.",
+      "Support underneath and beside the puck carrier with useful spacing.",
+      "Use the backside option to stretch defenders and create the next attack."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://icehockeysystems.com/hockey-drills/3-v-2-backside-ice-balance",
+    "source_id": "10935461",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10935461-0-1789141041.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10935461-0-1789141041.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 506
+  },
+  {
+    "uid": "ihs-10934051",
+    "title": "1 v 2 with Backside Presence",
+    "category": "2 vs 1",
+    "drill_types": [
+      "2 vs 1",
+      "Battle Drills",
+      "Wall Play",
+      "Puck Support",
+      "Puck Protection",
+      "Shooting",
+      "Down Low",
+      "Awareness"
+    ],
+    "description": "Two players work together to win a puck from one opponent along the wall. Once possession is established, they immediately find a third player positioned on the backside for a shot before rotating into the next rep.",
+    "coaching_points": [
+      "Win the wall battle in tandem instead of both players attacking independently.",
+      "First secure possession, then immediately scan away from pressure.",
+      "Move the puck to the weak side before the defense can recover.",
+      "Rotate quickly so the next battle begins without delay."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://icehockeysystems.com/hockey-drills/1-v-2-backside-presence",
+    "source_id": "10934051",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10934051-0-1788872567.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10934051-0-1788872567.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 507
+  },
+  {
+    "uid": "ihs-10899056",
+    "title": "3 v 2 Improve the Advantage",
+    "category": "3 vs 2",
+    "drill_types": [
+      "3 vs 2",
+      "Transition",
+      "Neutral Zone",
+      "Puck Support",
+      "Awareness",
+      "Zone Entry",
+      "Offensive"
+    ],
+    "description": "A three-player offensive group begins with a numerical advantage against two defenders and must create an additional advantage through speed, spacing, routes, or getting behind coverage before attacking.",
+    "coaching_points": [
+      "Do more than simply use the extra player—create another advantage inside the 3-on-2.",
+      "Generate speed away from the puck so receivers attack with momentum.",
+      "Use routes and positioning to manipulate defenders.",
+      "Recognize opportunities to get behind coverage rather than staying in front of it."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://icehockeysystems.com/hockey-drills/3-v-2-improve-advantage",
+    "source_id": "10899056",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10899056-0-1788550718.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10899056-0-1788550718.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 508
+  },
+  {
+    "uid": "ihs-10898776",
+    "title": "3 v 3 Using the Weak Side for Possession",
+    "category": "3 vs 3",
+    "drill_types": [
+      "3 vs 3",
+      "2 vs 2",
+      "Passing",
+      "Puck Support",
+      "Awareness",
+      "Offensive Zone",
+      "Puck Protection",
+      "Small Area Games"
+    ],
+    "description": "Two players per team compete for possession while a third teammate remains available on the weak side. The offense uses the backside player to escape pressure, spread the defense, and keep possession moving across the available space.",
+    "coaching_points": [
+      "Avoid bunching around the puck.",
+      "Find the weak-side teammate before forcing a puck into pressure.",
+      "Move after every pass so the next support option is already forming.",
+      "Use patience and multiple sides of the ice to keep possession."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://icehockeysystems.com/hockey-drills/3-v-3-using-weak-side-possession",
+    "source_id": "10898776",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10898776-0-1788514741.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10898776-0-1788514741.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 509
+  },
+  {
+    "uid": "ihs-9325031",
+    "title": "Utah Surf Transition",
+    "category": "Transition",
+    "drill_types": [
+      "Transition",
+      "3 vs 2",
+      "2 vs 1",
+      "Angling",
+      "Backchecking",
+      "Gap",
+      "Retrievals",
+      "Full Ice",
+      "Defensive",
+      "Offensive",
+      "Puck Support"
+    ],
+    "description": "A multi-part full-ice transition sequence develops defensive surfing, tracking, retrievals, and immediate counterattack. It progresses from an angled takeaway into an outlet and shot, then a tracked 2-on-1, and finishes with a full-ice 3-on-2.",
+    "coaching_points": [
+      "Defenders surf from inside position and dictate the route instead of backing in passively.",
+      "Tracking forwards reload above the puck and stay connected from behind.",
+      "Retrieve loose pucks under control and transition them immediately to an outlet.",
+      "Protect the dots, match speed through the gap, and attack quickly when possession changes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mario Duhamel",
+    "source_url": "https://icehockeysystems.com/hockey-drills/utah-surf-transition",
+    "source_id": "9325031",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-9325031-0-1768274764.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-9325031-0-1768274764.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-9325031-1-1768274764.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-9325031-2-1768274764.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 510
+  },
+  {
+    "uid": "ihs-10933786",
+    "title": "1 v 1 Skate Touch Battle to 2 v 1",
+    "category": "2 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Puck Control",
+      "Zone Entry",
+      "Transition",
+      "Awareness"
+    ],
+    "description": "Two players race to a loose puck and battle 1-on-1, with the first touch required to be made with a skate. The winner moves the puck back to a teammate and immediately joins that player to create a 2-on-1 entry.",
+    "coaching_points": [
+      "Win body position before reaching for the puck.",
+      "Use the skate deliberately on the first touch to control the loose puck.",
+      "After winning possession, move the puck and join the attack immediately.",
+      "Turn the skill win into a fast 2-on-1 before the defender can reset."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://icehockeysystems.com/hockey-drills/1-v-1-skate-touch-battle-2-v-1",
+    "source_id": "10933786",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10933786-0-1788871535.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10933786-0-1788871535.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 511
+  },
+  {
+    "uid": "ihs-10933541",
+    "title": "Skate Touch Warm Up",
+    "category": "Puck Control",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Warm Up",
+      "Awareness",
+      "Shooting",
+      "Skates",
+      "Small Area Games"
+    ],
+    "description": "Players work inside a circle and must make their first touch on every puck with a skate. Once the puck is controlled, they transition into normal puck play and look to create a shot.",
+    "coaching_points": [
+      "Make the first touch intentionally with a skate instead of letting the puck simply hit the foot.",
+      "Work both feet and different receiving angles.",
+      "Transition from skate control to the stick quickly.",
+      "After control is established, move immediately into an offensive play."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/skate-touch-warm",
+    "source_id": "10933541",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10933541-0-1788871960.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10933541-0-1788871960.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 512
+  },
+  {
+    "uid": "ihs-10782531",
+    "title": "Buffalo 4 v 3 Continuous D Activation",
+    "category": "4 vs 3",
+    "drill_types": [
+      "4 vs 3",
+      "Transition",
+      "Defense Activation",
+      "Puck Support",
+      "Small Area Games",
+      "Offensive",
+      "Defensive",
+      "Awareness"
+    ],
+    "description": "Three forwards per team play between two repositioned nets with defensemen stationed behind each attack. A team must move the puck to its defense before attacking; one defenseman then activates to create a continuous 4-on-3.",
+    "coaching_points": [
+      "Defensemen read controlled possession before committing to the rush.",
+      "Use D-to-D movement to change the activation lane.",
+      "The activating defender arrives as a useful second wave instead of following directly behind the puck.",
+      "Transition immediately when possession changes and maintain four-player spacing."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/buffalo-4-v-3-continuous-d-activation",
+    "source_id": "10782531",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10782531-0-1788550841.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10782531-0-1788550841.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 513
+  },
+  {
+    "uid": "ihs-10503471",
+    "title": "Alberni Valley Power Play Game",
+    "category": "5 vs 3",
+    "drill_types": [
+      "5 vs 3",
+      "3 vs 2",
+      "Power Play",
+      "Penalty Kill",
+      "Zone Entry",
+      "Puck Support",
+      "Full Ice",
+      "Small Area Games",
+      "Transition"
+    ],
+    "description": "A power-play group works against an outnumbered penalty kill in a transition game built around possession-based entries. Attackers retrieve below the repositioned net, create support around the puck, enter against pressure, and then play live in the attacking space.",
+    "coaching_points": [
+      "Give the puck carrier multiple support options during the entry.",
+      "Use the numerical advantage to possess instead of forcing the first available lane.",
+      "Penalty killers pressure with active sticks while maintaining a connected wedge or triangle.",
+      "Once inside, spread the attack and stay creative with puck movement."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Matt Thomas",
+    "source_url": "https://icehockeysystems.com/hockey-drills/alberni-valley-power-play-game",
+    "source_id": "10503471",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10503471-0-1790305690.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10503471-0-1790305690.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 514
   }
 ]
