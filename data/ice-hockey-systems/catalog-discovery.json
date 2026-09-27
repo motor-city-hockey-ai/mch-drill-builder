@@ -10443,5 +10443,123 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS legacy passing/station exact-diagram sweep"
+  },
+  {
+    "discovery_number": 669,
+    "title": "Stop and Start 1 vs. 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stop-and-start-1-vs-1",
+    "categories": [
+      "1 vs 1",
+      "Races",
+      "Battle Drills",
+      "Conditioning",
+      "Full Ice",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS relay/race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 670,
+    "title": "Neutral Zone Puck Races #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-2",
+    "categories": [
+      "1 vs 1",
+      "Relay Races",
+      "Races",
+      "Stations",
+      "Third Ice Stations",
+      "Battle Drills",
+      "Skating",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS relay/race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 671,
+    "title": "Quarter Ice Obstacle Course #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-obstacle-course-1",
+    "categories": [
+      "Skating",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Agility",
+      "Control Turns",
+      "Balance"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS relay/race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 672,
+    "title": "Inside Edges Slalom Relays",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/inside-edges-slalom-relays",
+    "categories": [
+      "Skating",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Agility",
+      "Edges"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS relay/race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 673,
+    "title": "Tire Turn Relays - Control Turns",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tire-turn-relays-control-turns",
+    "categories": [
+      "Skating",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Control Turns",
+      "Agility"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS relay/race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 674,
+    "title": "Push & Pull Relays",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/push-pull-relays",
+    "categories": [
+      "Skating",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Conditioning"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS relay/race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 675,
+    "title": "Steps and Jumps Over Sticks Relay Races",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/steps-and-jumps-over-sticks-relay-races",
+    "categories": [
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Skating",
+      "Agility",
+      "Balance",
+      "Control Turns"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS relay/race exact-diagram sweep"
   }
 ]
