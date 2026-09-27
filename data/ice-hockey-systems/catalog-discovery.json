@@ -7099,5 +7099,167 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 475,
+    "title": "Double RG to 2-1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/double-rg-2-1",
+    "categories": [
+      "2 vs 1",
+      "Re-Group",
+      "Passing",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Full Ice",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 476,
+    "title": "2F, 1D Shooting Warm-Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2f-1d-shooting-warm",
+    "categories": [
+      "Shooting",
+      "Passing",
+      "Warm Up",
+      "Full Ice",
+      "Defensive",
+      "Offensive",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 477,
+    "title": "2-1 Entry/2-1 Down Low",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-entry2-1-down-low",
+    "categories": [
+      "2 vs 1",
+      "Zone Entry",
+      "Down Low",
+      "Offensive",
+      "Defensive",
+      "Puck Support",
+      "Half Ice",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 478,
+    "title": "2-1 Wall Battle to 2-2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-wall-battle-2-2",
+    "categories": [
+      "2 vs 1",
+      "2 vs 2",
+      "Wall Play",
+      "Battle Drills",
+      "Puck Protection",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 479,
+    "title": "Puck Protection to 2-1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-protection-2-1",
+    "categories": [
+      "2 vs 1",
+      "Puck Protection",
+      "Puck Control",
+      "Battle Drills",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Neutral Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 480,
+    "title": "J-Drill Progression #3 (2-1)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/j-drill-progression-3-2-1",
+    "categories": [
+      "2 vs 1",
+      "Passing",
+      "Gap",
+      "Defensive",
+      "Offensive",
+      "Transition",
+      "Full Ice",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 481,
+    "title": "Rim to scissor, 2 D shots to 3-2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/rim-scissor-2-d-shots-3-2",
+    "categories": [
+      "3 vs 2",
+      "Retrievals",
+      "Wall Play",
+      "Passing",
+      "Shooting",
+      "Offensive",
+      "Defensive",
+      "Transition",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 482,
+    "title": "2-1 Forwards Swinging, RG D 2 shots",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-forwards-swinging-rg-d-2-shots",
+    "categories": [
+      "2 vs 1",
+      "Re-Group",
+      "Breakouts",
+      "Passing",
+      "Shooting",
+      "Transition",
+      "Full Ice",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 483,
+    "title": "3 -n 2v1's (2 low, 1 high)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-n-2v1s-2-low-1-high",
+    "categories": [
+      "2 vs 1",
+      "Battle Drills",
+      "Offensive",
+      "Defensive",
+      "Half Ice",
+      "Small Area Games",
+      "Retrievals"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
   }
 ]
