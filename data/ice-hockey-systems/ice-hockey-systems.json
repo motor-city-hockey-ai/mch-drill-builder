@@ -26004,5 +26004,36 @@
     "member_only": true,
     "status": "verified",
     "number": 799
+  },
+  {
+    "uid": "ihs-neutral-zone-puck-control-setup-1",
+    "title": "Neutral Zone Puck Control Setup #1",
+    "category": "Puck Control / Stickhandling / Neutral Zone Station",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Stickhandling",
+      "Stations",
+      "Third Ice Stations",
+      "Neutral Zone",
+      "Skating"
+    ],
+    "description": "A neutral-zone puck-control station where players first weave through cones using forehand and backhand control, then work control turns around tires and finish with additional control turns around cones. More advanced players can move the puck outside one side of an obstacle while their body travels on the opposite side.",
+    "coaching_points": [
+      "Keep the head up and scan ahead instead of staring at the puck.",
+      "Use both forehand and backhand touches through the opening slalom.",
+      "Protect the puck with the body around the tires and control turns.",
+      "Advanced players separate puck and body around obstacles while maintaining control."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-control-setup-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-control-setup-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-control-setup-1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 800
   }
 ]
