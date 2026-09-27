@@ -12227,5 +12227,83 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Sorted catalog page 13 + verified original IHS Drill Maker image"
+  },
+  {
+    "discovery_number": 783,
+    "title": "Quarter Ice Puck Race #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-2",
+    "categories": [
+      "1 on 1",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Battle Drills",
+      "Races"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 14-15 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 784,
+    "title": "Quarter Ice Puck Race #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-1",
+    "categories": [
+      "1 on 1",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Battle Drills",
+      "Races"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 14-15 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 785,
+    "title": "Neutral Zone Puck Races #7",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-7",
+    "categories": [
+      "1 on 1",
+      "Skating",
+      "Stations",
+      "Third Ice Stations",
+      "Backwards Skating",
+      "Races"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 14-15 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 786,
+    "title": "D-Spinorama",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-spinorama",
+    "categories": [
+      "Passing",
+      "Pre Game",
+      "Warm Up",
+      "Backwards Skating",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 14-15 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 787,
+    "title": "Clean Your Room",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/clean-your-room",
+    "categories": [
+      "Passing",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 14-15 + verified original IHS source image"
   }
 ]
