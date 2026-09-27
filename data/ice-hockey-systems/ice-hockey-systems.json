@@ -18434,5 +18434,66 @@
     "original_diagram": true,
     "status": "verified",
     "number": 563
+  },
+  {
+    "uid": "ihs-speed-2-2-gap-drill",
+    "title": "Speed 2 on 2 Gap Up Drill",
+    "category": "2 vs 2",
+    "drill_types": [
+      "2 vs 2",
+      "Re-Group",
+      "Gap",
+      "Passing",
+      "Transition",
+      "Full Ice"
+    ],
+    "description": "Two forwards work through multiple neutral-zone regroups before attacking two defensemen 2-on-2. The sequence develops support, D-to-D puck movement and the defenders' ability to retake ice and establish a tight gap before the rush.",
+    "coaching_points": [
+      "Forwards stay connected and provide useful support through each regroup.",
+      "Defense moves the puck laterally before advancing it.",
+      "Defenders retake ice early and match the attackers' speed.",
+      "Force the rush outside or into a dump before the blue line."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/speed-2-2-gap-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/speed-gap-up-2v2-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/speed-gap-up-2v2-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 564
+  },
+  {
+    "uid": "ihs-iron-cross-stick-puck",
+    "title": "Iron Cross Stick on Puck",
+    "category": "Skating",
+    "drill_types": [
+      "Skating",
+      "Defensive",
+      "Stick on Puck",
+      "Agility",
+      "Quarter Ice Station"
+    ],
+    "description": "A defender starts on the faceoff dot and explodes to four puck locations around the circle. Each touch is followed by a quick backward transition and pivot before accelerating to the next puck.",
+    "coaching_points": [
+      "Arrive with a strong stick directly on the puck.",
+      "Transition backward immediately after each touch.",
+      "Pivot efficiently without crossing up the feet.",
+      "Explode out of every turn and finish the final sprint through the goal line."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/iron-cross-stick-puck",
+    "image": "https://www.files.icehockeysystems.com/files/drills/iron-cross-stick-on-puck.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/iron-cross-stick-on-puck.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 565
   }
 ]
