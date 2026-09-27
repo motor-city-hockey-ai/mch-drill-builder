@@ -26947,5 +26947,101 @@
     "member_only": true,
     "status": "verified",
     "number": 829
+  },
+  {
+    "uid": "ihs-finders-keepers-teams-passing-puck-control",
+    "title": "Finders Keepers (Teams) - Passing and Puck Control Drill",
+    "category": "Passing / Puck Control / Small Area Game",
+    "drill_types": [
+      "Passing",
+      "Puck Handling",
+      "Puck Protection",
+      "Puck Support",
+      "Awareness",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Third Ice Stations"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/finders-keepers-teams-passing-and-puck-control-drill",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/drill-maker-115826-0-1663799479.png?itok=x1Qs72Ow",
+    "description": "Two teams compete to possess more pucks than the opposition. The coach sends an odd number of pucks into the playing area and players use awareness, communication, puck protection and passing to secure possession before the whistle.",
+    "coaching_points": [
+      "Communicate before receiving so the next play is already identified.",
+      "Protect the puck when pressured and move it to an open teammate when support is available.",
+      "Players without a puck work to surround loose pucks and create support.",
+      "Keep the head up because multiple pucks and opponents are active at the same time."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/drill-maker-115826-0-1663799479.png?itok=x1Qs72Ow"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 830
+  },
+  {
+    "uid": "ihs-3-player-station-passing",
+    "title": "3 Player Station Passing",
+    "category": "Passing / Station / Give & Go",
+    "drill_types": [
+      "Passing",
+      "Stations",
+      "Sixth Ice Stations",
+      "Shooting",
+      "Puck Support"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-player-station-passing",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/3-player-station-passing.jpg?itok=ho-uDfb5",
+    "description": "A three-player station built around repeated give-and-go passes. The active player exchanges the puck with both support players while moving through the station and can finish the sequence with a shot.",
+    "coaching_points": [
+      "Give a target and receive with soft hands.",
+      "Move immediately after every pass instead of standing still.",
+      "Keep the give-and-go passes flat and on time.",
+      "Use the progression with one or two exchanges to match the group's level."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/3-player-station-passing.jpg?itok=ho-uDfb5"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 831
+  },
+  {
+    "uid": "ihs-shoot-curl-pass-neutral-zone-station",
+    "title": "Shoot, Curl, Pass, Neutral Zone Station",
+    "category": "Passing / Shooting / Third Ice Station",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Stations",
+      "Third Ice Stations",
+      "Neutral Zone",
+      "Puck Control",
+      "Awareness"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shoot-curl-pass-neutral-zone-station",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/shoot-curl-pass-neutral-zone-station.jpg?itok=TaT0zugX",
+    "description": "Two cross-ice nets create a neutral-zone station. A player carries a puck to the opposite net for a shot, stops at the net, curls to a nearby puck pile and passes across to the first player in the opposite line, who repeats the sequence the other way.",
+    "coaching_points": [
+      "Carry with the head up before shooting.",
+      "Stop at the net after every shot.",
+      "Curl quickly to the puck pile and make an accurate cross-zone pass.",
+      "The receiving player presents a target and attacks the opposite net immediately."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/shoot-curl-pass-neutral-zone-station.jpg?itok=TaT0zugX"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 832
   }
 ]
