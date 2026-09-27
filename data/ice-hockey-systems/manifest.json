@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 860,
-    "catalog_items_verified": 860,
+    "catalog_items_imported": 864,
+    "catalog_items_verified": 864,
     "catalog_target": 1573,
-    "last_batch": "IHS exact-image skating and skill sweep #851-#860",
-    "original_diagrams_verified": 860,
+    "last_batch": "IHS exact-image skating, battle and warm-up sweep #861-#864",
+    "original_diagrams_verified": 864,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
-    "notes": "Live IHS JSON library now contains 860 verified drill records with source URLs, original source diagrams, simplified drill types and coach-readable notes.",
-    "unique_urls_discovered": 872,
-    "catalog_items_pending_enrichment": 16,
+    "notes": "Live IHS JSON library now contains 864 verified drill records with source URLs, original source diagrams, simplified drill types and coach-readable notes.",
+    "unique_urls_discovered": 876,
+    "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 0,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue exact-image sweep from #861, prioritizing Neutral Zone Puck Races #7, relay and edgework gaps, and remaining visually verifiable catalog holes.",
-    "multi_diagram_drills_preserved": 47,
+    "next_step": "Continue exact-image sweep from #865. Keep Neutral Zone Puck Races #7, unresolved relay gaps and video-only goalie pages deferred until original source diagrams can be verified.",
+    "multi_diagram_drills_preserved": 48,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 10,
-    "last_batch_notes": "Added #851 Neutral Zone Puck Races #4; #852 Open Hips Ladder with Pucks; #853 Open Hips Ladders Without Pucks; #854 3 Cone Skills Series #3; #855 Heads Up Stickhandling Station; #856 Neutral Zone 2 on 0 and Puck Control Station; #857 Find the Lane Shooting Drill; #858 Triple Shot Shooting Drill for Defense; #859 Puck Tag; #860 Chase the Rabbit Without Pucks - Station. All use verified original source diagrams; multi-image source variants are preserved.",
+    "last_batch_imported": 4,
+    "last_batch_notes": "Added #861 Net Races (3 original source diagrams); #862 Body Contact Competitive Contact Cones; #863 Soft Chip Warm Up Drill; and #864 10 & 2 Edgework Tag. Duplicate audit also corrected stale discovery statuses for four drills already in the live catalog.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -78,6 +78,6 @@
       "Offensive to Defensive Zone Coverage Drill - source page currently exposes video instruction but no original drill diagram; keep deferred rather than substituting an AI diagram."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 10
+    "last_batch_discovered": 4
   }
 }

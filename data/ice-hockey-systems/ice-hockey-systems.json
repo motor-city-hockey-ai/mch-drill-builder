@@ -27912,5 +27912,127 @@
     "original_diagram": true,
     "status": "verified",
     "number": 860
+  },
+  {
+    "uid": "ihs-net-races",
+    "title": "Net Races",
+    "category": "Skating / Races / Conditioning",
+    "drill_types": [
+      "Skating",
+      "Races",
+      "Conditioning",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Players race around two closely spaced nets using tight turns, acceleration and body positioning. Run left-turn, right-turn, figure-eight or backward variations.",
+    "coaching_points": [
+      "Make tight turns around each net and accelerate out of every turn.",
+      "Use body position to create and maintain separation.",
+      "Take efficient angles through the race pattern.",
+      "Change turn direction and skating variation to train both sides."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/net-races-28",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4849611-0-1726254261.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4849611-0-1726254261.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4849611-1-1726254261.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4849611-2-1726254261.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 861
+  },
+  {
+    "uid": "ihs-body-contact-competitive-contact-cones",
+    "title": "Body Contact Competitive Contact Cones",
+    "category": "1 vs 1 / Battle / Body Position",
+    "drill_types": [
+      "1 vs 1",
+      "Battle Drills",
+      "Races",
+      "Checking"
+    ],
+    "description": "Two players begin in controlled body contact, then race to a loose puck between the cones. Each player battles for inside position and the winner attacks the net.",
+    "coaching_points": [
+      "Start balanced and strong through controlled shoulder-to-shoulder contact.",
+      "Accelerate immediately when the puck becomes live.",
+      "Use body position to establish the inside lane to the puck.",
+      "Win possession and transition directly into a scoring attack."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-competitive-contact-cones-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4626761-0-1724257160.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4626761-0-1724257160.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 862
+  },
+  {
+    "uid": "ihs-soft-chip-warm-up-drill",
+    "title": "Soft Chip Warm Up Drill",
+    "category": "Passing / Zone Entry / Warm Up",
+    "drill_types": [
+      "Passing",
+      "Zone Entry",
+      "Warm Up",
+      "Skating",
+      "Shooting"
+    ],
+    "description": "Players work from four lines. The puck carrier passes across, receives a soft chip into the zone with speed, retrieves it on inside edges and finds the second player driving the far post.",
+    "coaching_points": [
+      "Create a good passing angle before making the soft chip.",
+      "Time the chip so the attacking player can skate onto the puck with speed.",
+      "Use inside edges and control through the retrieval.",
+      "Find the far-post player with a firm pass and finish the play."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/soft-chip-warm-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/soft-chip-warm-up-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/soft-chip-warm-up-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 863
+  },
+  {
+    "uid": "ihs-10-and-2-edgework-tag",
+    "title": "10 & 2 Edgework Tag",
+    "category": "Skating / Edgework / Tag",
+    "drill_types": [
+      "Skating",
+      "Skill Development",
+      "Agility",
+      "Small Area Games"
+    ],
+    "description": "Two players work inside the station with one chasing the other. Players can change direction, but must use the 10-and-2 open-hip skating technique throughout the tag game.",
+    "coaching_points": [
+      "Stay low and balanced while opening the hips.",
+      "Use clean inside-edge pressure through each 10-and-2 turn.",
+      "Change direction quickly without crossing the feet unnecessarily.",
+      "Progress by adding a puck or changing the skating roles."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/10-2-edgework-tag",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1796-0-1662479781.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1796-0-1662479781.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 864
   }
 ]

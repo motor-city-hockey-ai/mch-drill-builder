@@ -449,7 +449,7 @@
       "Defensive Zone"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
   },
   {
@@ -4445,7 +4445,7 @@
       "Small Area Games"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Battle Drills page 2"
   },
   {
@@ -4939,7 +4939,7 @@
       "Agility"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -4965,7 +4965,7 @@
       "Full Ice"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -10896,6 +10896,66 @@
       "Stations",
       "Third Ice Stations",
       "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 697,
+    "title": "Net Races",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/net-races-28",
+    "categories": [
+      "Skating",
+      "Races",
+      "Conditioning",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 698,
+    "title": "Body Contact Competitive Contact Cones",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-competitive-contact-cones-0",
+    "categories": [
+      "1 vs 1",
+      "Battle Drills",
+      "Races",
+      "Checking"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 699,
+    "title": "Soft Chip Warm Up Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/soft-chip-warm-drill",
+    "categories": [
+      "Passing",
+      "Zone Entry",
+      "Warm Up",
+      "Skating",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 700,
+    "title": "10 & 2 Edgework Tag",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/10-2-edgework-tag",
+    "categories": [
+      "Skating",
+      "Skill Development",
+      "Agility",
+      "Small Area Games"
     ],
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
