@@ -31561,5 +31561,37 @@
     "member_only": true,
     "status": "verified",
     "number": 980
+  },
+  {
+    "uid": "ihs-offensive-advantage-3-vs-3",
+    "number": 981,
+    "title": "Offensive Advantage 3 vs 3",
+    "category": "3 on 3 / Small Area Game / Offensive",
+    "drill_types": [
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Third Ice Stations",
+      "3 on 3"
+    ],
+    "description": "A 3 on 3 small-area game split by a center line. All three attackers may enter the offensive half while only two defenders may enter their defensive half, creating a constant 3 on 2 attacking advantage.",
+    "coaching_points": [
+      "Communicate who stays high when possession changes.",
+      "Attackers recognize and use the extra player quickly.",
+      "Defenders protect the middle and communicate switches.",
+      "Anticipate turnovers so the high player is ready to transition."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/offensive-advantage-3-vs-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/offensive-advantage-3-vs-3-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/offensive-advantage-3-vs-3-web.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/offensive-advantage-3-vs-3-third-ice-station.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
