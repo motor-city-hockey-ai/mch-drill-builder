@@ -22100,5 +22100,164 @@
     "original_diagram": true,
     "status": "verified",
     "number": 676
+  },
+  {
+    "uid": "ihs-strip-transition-low-high-shot",
+    "title": "Strip & Transition to Low-High Shot",
+    "category": "2 vs 0 / Transition / Low-High",
+    "drill_types": [
+      "2 vs 0",
+      "Passing",
+      "Puck Protection",
+      "Transition",
+      "Full Ice",
+      "Warm Up",
+      "Shooting",
+      "Net Front"
+    ],
+    "description": "A full-ice transition warm-up that begins with a forward being stripped of the puck, moves through a defense-to-forward transition pass into a 2-on-0 rush, and finishes with a low-to-high pass for a point shot with traffic at the net.",
+    "coaching_points": [
+      "Defense protects the inside lane and wins the strip with body position before moving the puck.",
+      "Make the transition pass crisp so the forwards can attack with speed.",
+      "Forwards communicate, support each other through the rush and arrive at the net with purpose.",
+      "Finish the sequence with a clean low-to-high pass, a quick point shot and a screen or deflection."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/strip-transition-low-high-shot",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6267976-0-1736381415.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6267976-0-1736381415.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6267976-1-1736381415.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6267976-2-1736381415.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 677
+  },
+  {
+    "uid": "ihs-transition-series-1",
+    "title": "Transition Series #1",
+    "category": "Passing / Transition / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Transition",
+      "Warm Up",
+      "Full Ice"
+    ],
+    "description": "A full-ice transition passing and shooting sequence. The defenseman explodes backward, receives a puck from the coach and quickly moves it to the wall. The forward receives in motion and attacks for a shot while the defenseman recovers and repeats the pattern to the opposite side.",
+    "coaching_points": [
+      "Defense transitions the feet quickly and handles the puck only as long as needed.",
+      "Deliver a firm, accurate outlet pass to a moving target.",
+      "Forwards receive facing up ice with the feet moving.",
+      "Attack the shot with speed and hunt the rebound before exiting the rep."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-series-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/transition-shooting-series-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/transition-shooting-series-1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 678
+  },
+  {
+    "uid": "ihs-neutral-zone-over-speed-transition",
+    "title": "Neutral Zone Over-speed Transition",
+    "category": "Neutral Zone / Overspeed / Transition",
+    "drill_types": [
+      "Passing",
+      "Puck Control",
+      "Transition",
+      "Overspeed",
+      "Neutral Zone",
+      "Full Ice",
+      "Zone Entry",
+      "Shooting"
+    ],
+    "description": "Two players work a neutral-zone overspeed sequence. One builds speed on a looping route while the puck carrier transitions from forward to backward and back to forward before making a flat pass. The receiver attacks the offensive blue line with lateral speed and finishes in the middle.",
+    "coaching_points": [
+      "Build maximum controlled speed through the neutral zone.",
+      "Keep the feet moving while handling the puck through each transition.",
+      "Make the pass flat and on time so the receiver can stay in stride.",
+      "Attack the blue line with lateral crossover movement, then drive into a scoring lane."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-over-speed-transition",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-overspeed-transition.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-overspeed-transition.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 679
+  },
+  {
+    "uid": "ihs-bruins-transition-drill",
+    "title": "Bruins Transition Drill",
+    "category": "Passing / Transition / Zone Entry",
+    "drill_types": [
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Neutral Zone",
+      "Zone Entry",
+      "Shooting",
+      "Skating"
+    ],
+    "description": "A two-player neutral-zone transition drill built around timing, backward-to-forward skating and a return pass. The first player carries through the middle, moves the puck to the transitioning partner, then receives it back while attacking the blue line with speed before cutting inside to shoot.",
+    "coaching_points": [
+      "Time both routes so the puck carrier and support player arrive together.",
+      "Transition backward and forward without losing speed.",
+      "Return the puck flat and early enough for the receiver to attack the blue line in stride.",
+      "Use lateral movement at the line and finish by driving into the middle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bruins-transition-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/bruins-transition-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/bruins-transition-drill.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 680
+  },
+  {
+    "uid": "ihs-3-v-1-wall-play-0",
+    "title": "3 v 1 Wall Play",
+    "category": "3 vs 1 / Wall Play / Small Area Games",
+    "drill_types": [
+      "3 vs 1",
+      "Down Low",
+      "Half Ice",
+      "One Goalie",
+      "Passing",
+      "Small Area Games",
+      "Wall Play",
+      "Offensive",
+      "Defensive"
+    ],
+    "description": "Three attackers play against one defender in a tight-area possession game with a goalie. The offensive group uses quick puck movement, including options from behind the net and off the wall, while the defender works to disrupt passing lanes and protect the middle.",
+    "coaching_points": [
+      "Defender keeps the stick active and works to take away the most dangerous passing lane.",
+      "Offense moves the puck quickly instead of holding it under pressure.",
+      "Use rims, banks and behind-the-net support to change the defender's angle.",
+      "Keep players moving so the 3-on-1 advantage creates new passing and scoring lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "International Ice Hockey Federation (IIHF)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-1-wall-play-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7486386-0-1759248356.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7486386-0-1759248356.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 681
   }
 ]
