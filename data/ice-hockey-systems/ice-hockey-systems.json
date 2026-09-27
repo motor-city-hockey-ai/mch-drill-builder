@@ -15736,5 +15736,224 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-6055571",
+    "title": "Houda Angle",
+    "category": "3 vs 2",
+    "drill_types": [
+      "3 vs 2",
+      "Angling",
+      "Awareness",
+      "Coverage",
+      "Neutral Zone",
+      "Zone Entry",
+      "Transition",
+      "Puck Support",
+      "Defensive",
+      "Offensive"
+    ],
+    "description": "Three defenders loop underneath the neutral-zone dot while two attackers retrieve a coach-placed puck below the blue line. The first defender angles the puck carrier, the second takes away support, and the third reads the play and supports before the group transitions the other way on a turnover.",
+    "coaching_points": [
+      "Protect the middle first and steer the puck carrier toward the outside.",
+      "Second defender stays connected to the supporting attacker instead of chasing the puck.",
+      "Third defender reads the developing play and supports inside the dots.",
+      "On a turnover, transition immediately and attack with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Seth Appert",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/houda-angle-1",
+    "source_id": "6055571",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6055571-0-1734375955.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6055571-0-1734375955.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 484
+  },
+  {
+    "uid": "ihs-5851276",
+    "title": "Swedish Transition Game",
+    "category": "2 vs 2",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 3",
+      "Backchecking",
+      "Battle Drills",
+      "Conditioning",
+      "Defensive",
+      "Explosion",
+      "Offensive",
+      "Small Area Games",
+      "Transition",
+      "Puck Support"
+    ],
+    "description": "Two teams play a cross-ice 2-on-2 between two nets. When the defending team gains possession, it must make an outlet to its waiting line at the blue line; the previous offensive pair immediately tracks and backchecks as the new attackers go the other direction.",
+    "coaching_points": [
+      "Transition immediately when possession changes.",
+      "Outlet players present a clear target and attack on receipt instead of standing still.",
+      "The previous attackers sprint back through the middle and identify coverage early.",
+      "Run it as 2-on-2 or 3-on-3 while keeping shifts short and fast."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jason Lammers",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-swedish-transition-game",
+    "source_id": "5851276",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5851276-0-1732724161.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5851276-0-1732724161.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 485
+  },
+  {
+    "uid": "ihs-5138011",
+    "title": "Offense then Backcheck to DZC",
+    "category": "5 vs 5",
+    "drill_types": [
+      "5 vs 5",
+      "Awareness",
+      "Backchecking",
+      "Battle Drills",
+      "Coverage",
+      "Defensive Zone",
+      "Down Low",
+      "Full Ice",
+      "Offensive Zone",
+      "Transition"
+    ],
+    "description": "A five-player unit attacks in one end until the whistle, then immediately backchecks the full length into its defensive zone where a fresh offensive five is waiting. The sequence continues end to end to rehearse offensive-zone habits, tracking, and defensive-zone coverage.",
+    "coaching_points": [
+      "First player back pressures the puck; second protects the front of the net.",
+      "Third player supports the corner battle, fourth protects the middle slot, and the last fills the strong-side wing area.",
+      "Backcheck in direct lines toward defensive responsibilities instead of drifting toward the puck.",
+      "On offense, find the puck, provide close support, and attack the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Daniel Paille",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/offense-then-backcheck-dzc",
+    "source_id": "5138011",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5138011-0-1729733912.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5138011-0-1729733912.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5138011-1-1729733912.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 486
+  },
+  {
+    "uid": "ihs-5136916",
+    "title": "Alternate 1 on 1 x 3",
+    "category": "1 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 1",
+      "2 vs 2",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "Puck Protection",
+      "Wall Play"
+    ],
+    "description": "Players attack three consecutive 1-on-1 situations from different parts of the offensive zone. A second progression uses the same setup to build from 1-on-1 into 2-on-1 and then 2-on-2 as players join the next phase after each rep.",
+    "coaching_points": [
+      "Defenders keep sticks in lanes and angle attackers toward the outside.",
+      "Forwards protect the puck and work off the wall to create a lane to the net.",
+      "Attack with speed instead of settling for a low-percentage outside shot.",
+      "Progress to the 2-on-1 and 2-on-2 version once the individual angling reads are clean."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Daniel Paille",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/alternate-1-on-1-x-3",
+    "source_id": "5136916",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5136916-0-1728502589.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5136916-0-1728502589.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 487
+  },
+  {
+    "uid": "ihs-4786896",
+    "title": "4 v 3 Pass Between 2 Players",
+    "category": "4 vs 3",
+    "drill_types": [
+      "4 vs 3",
+      "Awareness",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "One Goalie",
+      "Passing",
+      "Puck Support",
+      "Small Area Games"
+    ],
+    "description": "Four attackers play against three defenders in-zone. The offense earns the right to shoot only after completing a pass between two defenders to a teammate who is moving, forcing timing, deception, support, and constant off-puck movement.",
+    "coaching_points": [
+      "Offensive players keep moving and communicate before the passing lane opens.",
+      "Players without the puck time cuts through or behind defenders instead of standing in space.",
+      "Defenders keep sticks on the ice and protect the middle.",
+      "Reward both successful seam passes and goals to reinforce the intended read."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-v-3-pass-between-2-players",
+    "source_id": "4786896",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4786896-0-1729732342.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4786896-0-1729732342.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 488
+  },
+  {
+    "uid": "ihs-4786906",
+    "title": "Triangle Passing Progression with 3 Players",
+    "category": "Passing",
+    "drill_types": [
+      "Passing",
+      "Puck Handling",
+      "Skill Development",
+      "Warm Up"
+    ],
+    "description": "Three players form a triangle and progress through one-touch passing patterns. Start with one puck, emphasize quiet controlled receptions and forehand targets, then advance to two and three pucks to increase scanning and timing demands.",
+    "coaching_points": [
+      "Keep sticks on the ice as clear targets.",
+      "Pass to the receiver's forehand whenever possible to set up the next one-touch play.",
+      "Make each reception quiet and controlled rather than stabbing at the puck.",
+      "Add multiple pucks only after the group can maintain rhythm with one."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/triangle-passing-progression-3-players",
+    "source_id": "4786906",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4786906-0-1726502164.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4786906-0-1726502164.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 489
   }
 ]
