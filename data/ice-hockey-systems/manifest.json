@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 772,
-    "catalog_items_verified": 772,
+    "catalog_items_imported": 776,
+    "catalog_items_verified": 776,
     "catalog_target": 1573,
-    "last_batch": "IHS checking/full-ice exact-image three-drill batch",
-    "original_diagrams_verified": 772,
+    "last_batch": "IHS legacy passing exact-image four-drill batch",
+    "original_diagrams_verified": 776,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 781,
+    "unique_urls_discovered": 785,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue checking, gap, transition and full-ice exact-diagram gaps from #773.",
+    "next_step": "Continue exact-diagram verification from 777, working through the remaining legacy passing and full-ice gaps.",
     "multi_diagram_drills_preserved": 41,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 3,
-    "last_batch_notes": "Added drills 770-772: React and Angle Drill; Transition Angling Drill; 2 on 2 Full Ice.",
+    "last_batch_imported": 4,
+    "last_batch_notes": "Added drills 773-776: 4 Lines - Series 2; 4 Lines - Series 3; 4 Lines - Series 5; Swiss Warm Up Passing Drill. All four use verified original IHS-hosted diagrams.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -69,17 +69,15 @@
       "Backwards Crossover Start - skill-development video; no original drill diagram exposed.",
       "Quick Release & Reaction Shooting - skill-development/video progression; no verified rink diagram exposed.",
       "Exposing vs. Protecting the Puck - skill-development video; no original drill diagram exposed.",
-      "Avalanche Flow Drill - page currently does not expose a resolvable original Drill Image in the crawler; defer.",
       "Sabre D Shooting Drill - page does not currently expose a resolvable original rink diagram; defer.",
       "Sabre Split Ice Attack Drill - page does not currently expose a resolvable original rink diagram; defer.",
       "Sabre 2v2 Support Game - page does not currently expose a resolvable original rink diagram; defer.",
       "Trinity Quick Escape Drill - page does not currently expose a resolvable original rink diagram; defer.",
-      "Sabre O-zone Escape Drill - page does not currently expose a resolvable original rink diagram; defer.",
       "Oswego Passing Station - page does not currently expose a resolvable original rink diagram; defer.",
       "Castleton Puck Protection Drill - page does not currently expose a resolvable original rink diagram; defer.",
       "Offensive to Defensive Zone Coverage Drill - source page currently exposes video instruction but no original drill diagram; keep deferred rather than substituting an AI diagram."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 3
+    "last_batch_discovered": 4
   }
 }
