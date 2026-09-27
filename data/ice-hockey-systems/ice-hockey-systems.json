@@ -18118,5 +18118,37 @@
     "member_only": true,
     "status": "verified",
     "number": 553
+  },
+  {
+    "uid": "ihs-1-1-2-2-3-3-battle-drill",
+    "title": "1 on 1, 2 on 2, 3 on 3 Battle Drill",
+    "category": "3 vs 3",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Battle Drills",
+      "Puck Protection",
+      "Coverage",
+      "Half Ice"
+    ],
+    "description": "The drill builds from a 1-on-1 battle to 2-on-2 and then 3-on-3 below the tops of the circles. Offense protects possession and creates scoring chances while defenders work man-on-man coverage, communication and low-zone positioning.",
+    "coaching_points": [
+      "Offense protects the puck first and attacks when a lane opens.",
+      "Defenders stay connected to assignments and protect inside ice.",
+      "Communicate as each new player joins the battle.",
+      "Keep the play below the tops of the circles so the pressure stays tight."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Denis Savard",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-1-2-2-3-3-battle-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/1-1-2-2-3-3-battle-drill-diagram_0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/1-1-2-2-3-3-battle-drill-diagram_0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 554
   }
 ]
