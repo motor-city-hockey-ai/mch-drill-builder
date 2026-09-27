@@ -13119,5 +13119,217 @@
     "member_only": true,
     "status": "verified",
     "number": 400
+  },
+  {
+    "uid": "ihs-10278191",
+    "title": "False Start Drill: Goalie Tracking",
+    "category": "Goalie / Tracking / Movement",
+    "drill_types": [
+      "Goalie",
+      "Tracking",
+      "Skill Development"
+    ],
+    "description": "Goalie tracking drill that teaches the eyes and head to lead movement before the body reacts. The goalie begins slightly off angle while the shooter waits for an early lower-body move, then releases the puck. Progressions add butterfly recovery and stay-down movement.",
+    "coaching_points": [
+      "Lead every movement with the eyes and head.",
+      "Track the puck all the way into the body or hands.",
+      "Bring the shoulders around with the head so the body arrives square."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/false-start-drill-goalie-tracking",
+    "source_id": "10278191",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10278191-0-1776270164.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10278191-0-1776270164.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10278191-1-1776270164.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 401
+  },
+  {
+    "uid": "ihs-half-ice-finnish-one-net",
+    "title": "Half Ice Finnish Skills Series with one Net",
+    "category": "Half Ice / Puck Control / Passing / Shooting",
+    "drill_types": [
+      "Half Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Passing",
+      "Shooting",
+      "Skill Development",
+      "Stations"
+    ],
+    "description": "Half-ice Finnish skills setup that adds a pass to start each repetition and a shot to finish. Players move through the skill pattern while staying spaced in two lines, then attack the net after completing the sequence.",
+    "coaching_points": [
+      "Present a clear passing target before entering the skill pattern.",
+      "Keep the puck controlled while moving through the obstacles.",
+      "Finish the repetition with pace and a purposeful shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-finnish-skills-series-one-net",
+    "image": "https://www.files.icehockeysystems.com/files/drills/half-ice-finnish-skills-series-setup.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/half-ice-finnish-skills-series-setup.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 402
+  },
+  {
+    "uid": "ihs-half-ice-side-side-skills-series-1",
+    "title": "Half Ice Side By Side Skills Series #1",
+    "category": "Half Ice / Skating / Puck Control",
+    "drill_types": [
+      "Half Ice",
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Stickhandling",
+      "Skill Development",
+      "Stations"
+    ],
+    "description": "Side-by-side half-ice skills series built around control turns, backward puck control, inside-out circles and forward-facing transition work. The setup lets two lines work simultaneously for high repetition volume.",
+    "coaching_points": [
+      "Lead turns with the head and upper body.",
+      "Use strong edges and a closed blade to keep puck control through turns.",
+      "Stay balanced through forward-to-backward and backward-to-forward transitions."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-side-side-skills-series-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/half-ice-side-by-side-skills-control-turns.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/half-ice-side-by-side-skills-control-turns.png",
+      "https://www.files.icehockeysystems.com/files/drills/half-ice-side-by-side-skills-full-circles.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 403
+  },
+  {
+    "uid": "ihs-footwork-shots-3",
+    "title": "Footwork Shots #3",
+    "category": "Puck Control / Shooting / Station",
+    "drill_types": [
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station",
+      "Stickhandling",
+      "Half Ice"
+    ],
+    "description": "Advanced puck-control and shooting station using a tight obstacle pattern near the net. Players work quick feet and hands through the traffic before exiting into a shot.",
+    "coaching_points": [
+      "Keep the feet active while handling through the obstacles.",
+      "Protect the puck from each obstacle instead of reaching around it.",
+      "Exit the pattern under control and finish quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/footwork-shots-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/footwork-shots-3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/footwork-shots-3.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 404
+  },
+  {
+    "uid": "ihs-circle-stickhandling-series",
+    "title": "Circle Stickhandling Series",
+    "category": "Puck Handling / Stickhandling / Station",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Stations",
+      "Sixth Ice Stations",
+      "Stickhandling",
+      "Skill Development"
+    ],
+    "description": "Three-part circle stickhandling progression. Players begin with creative puck control through obstacles, progress to following a moving partner while handling, then add passes to teammates positioned outside the circle.",
+    "coaching_points": [
+      "Keep the head up and stay aware of other players in the circle.",
+      "Maintain full puck control while reacting to changing direction.",
+      "In the passing progression, identify the open target before moving the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/circle-stickhandling-series",
+    "image": "https://www.files.icehockeysystems.com/files/drills/circle-stickhandling-series.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/circle-stickhandling-series.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 405
+  },
+  {
+    "uid": "ihs-continuous-warm-skills-series-1",
+    "title": "Continuous Warm Up Skills Series #1",
+    "category": "Passing / Stickhandling / Full Ice Warm-Up",
+    "drill_types": [
+      "Passing",
+      "Puck Handling",
+      "Stickhandling",
+      "Warm Up",
+      "Full Ice",
+      "Skill Development"
+    ],
+    "description": "Continuous full-ice warm-up that starts with partners passing in stride down the middle. At the far end both players turn outside, return in the outside lanes and work individual puck skills before rotating to the opposite line.",
+    "coaching_points": [
+      "Receive and move the puck in stride.",
+      "Use a clean pass after one controlled stickhandle.",
+      "Keep the return route moving so the drill stays continuous with minimal waiting."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-warm-skills-series-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-warm-up-skills-series-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-warm-up-skills-series-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 406
+  },
+  {
+    "uid": "ihs-continuous-warm-skills-series-2",
+    "title": "Continuous Warm Up Skills Series #2",
+    "category": "Passing / Transition Skating / Warm-Up",
+    "drill_types": [
+      "Passing",
+      "Skating",
+      "Puck Control",
+      "Stickhandling",
+      "Warm Up",
+      "Full Ice",
+      "Skill Development"
+    ],
+    "description": "Second continuous warm-up variation. Partners pass in stride down the ice, then turn outside with pucks and work a forward-backward transition pattern around cones before accelerating out and switching lines.",
+    "coaching_points": [
+      "Make the pass in stride after one controlled touch.",
+      "Accelerate immediately out of every transition.",
+      "Switch lines so players repeat the passing pattern on both forehand and backhand sides."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-warm-skills-series-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-warm-up-skills-series-2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-warm-up-skills-series-2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 407
   }
 ]
