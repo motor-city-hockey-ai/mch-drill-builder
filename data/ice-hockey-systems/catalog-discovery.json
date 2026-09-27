@@ -10608,5 +10608,56 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS relay/race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 679,
+    "title": "Amazing Scoring Race",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/amazing-scoring-race",
+    "categories": [
+      "Relay Races",
+      "Shooting",
+      "Races",
+      "Full Ice",
+      "1 vs 0",
+      "Competition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS race/station exact-diagram sweep"
+  },
+  {
+    "discovery_number": 680,
+    "title": "Neutral Zone Puck Races #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-1",
+    "categories": [
+      "1 vs 1",
+      "Stations",
+      "Third Ice Stations",
+      "Battle Drills",
+      "Races",
+      "Skating",
+      "Control Turns"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS race/station exact-diagram sweep"
+  },
+  {
+    "discovery_number": 681,
+    "title": "Neutral Zone Puck Races #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-3",
+    "categories": [
+      "1 vs 1",
+      "Skating",
+      "Stations",
+      "Third Ice Stations",
+      "Battle Drills",
+      "Races",
+      "Transition",
+      "Backwards Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS race/station exact-diagram sweep"
   }
 ]
