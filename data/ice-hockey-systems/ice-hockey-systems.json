@@ -10809,5 +10809,196 @@
     "member_only": false,
     "status": "verified",
     "number": 330
+  },
+  {
+    "uid": "ihs-3484636",
+    "title": "Buffalo 2 on 1",
+    "category": "2 on 1 / Regroup / Transition",
+    "drill_types": [
+      "2 on 1",
+      "Re-Group",
+      "Transition",
+      "Passing",
+      "Full Ice",
+      "Gap"
+    ],
+    "description": "Two forwards use a pair of defensemen to regroup through the neutral zone, build speed, and then attack one defender in a high-speed 2-on-1.",
+    "coaching_points": [
+      "Communicate before receiving the puck.",
+      "Keep sticks available as passing targets.",
+      "Time the routes so both forwards arrive with speed and usable spacing."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Nik Passero",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/buffalo-2-on-1",
+    "source_id": "3484636",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484636-0-1701358854.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484636-0-1701358854.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 331
+  },
+  {
+    "uid": "ihs-922421",
+    "title": "Sens Regroup",
+    "category": "3 on 2 / Regroup / Offensive Zone",
+    "drill_types": [
+      "3 on 2",
+      "Re-Group",
+      "Transition",
+      "Offensive Zone",
+      "Shooting",
+      "Net Front",
+      "Full Ice"
+    ],
+    "description": "The drill builds net-front pressure from 1-on-1 to 2-on-2 and 3-on-2, then transitions the same forwards and defensemen into a high-tempo neutral-zone regroup and 3-on-2 rush.",
+    "coaching_points": [
+      "Create traffic and compete for positioning around the net.",
+      "Defensemen move laterally before shooting to change the lane.",
+      "Transition quickly on the final whistle and fill lanes for the 3-on-2."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "TJ Manastersky",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sens-regroup",
+    "source_id": "922421",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-922421-0-1674530808.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-922421-0-1674530808.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 332
+  },
+  {
+    "uid": "ihs-4786926",
+    "title": "5 Player - Every Pass a One Touch",
+    "category": "Regroup / Passing",
+    "drill_types": [
+      "Passing",
+      "Re-Group",
+      "Transition",
+      "Zone Entry",
+      "Full Ice",
+      "Puck Support"
+    ],
+    "description": "Five players regroup together in the neutral zone and attack up ice while every pass must be completed with one touch. A missed one-touch ends the repetition.",
+    "coaching_points": [
+      "Scan before the puck arrives so the next play is already identified.",
+      "Communicate continuously and keep sticks on the ice.",
+      "Keep moving and maintain spacing through the regroup and entry."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-player-every-pass-one-touch",
+    "source_id": "4786926",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4786926-0-1726502201.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4786926-0-1726502201.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 333
+  },
+  {
+    "uid": "ihs-6892756",
+    "title": "Weak Side Transition",
+    "category": "2 on 1 / Transition / Regroup",
+    "drill_types": [
+      "2 on 1",
+      "Transition",
+      "Re-Group",
+      "Offensive Zone",
+      "Defensive",
+      "Backchecking",
+      "Shooting"
+    ],
+    "description": "An offensive-zone shot and net-front battle immediately becomes a defensive reload, puck recovery, weak-side regroup and potential 2-on-1 back into the zone.",
+    "coaching_points": [
+      "Reload from offense to defense immediately.",
+      "Close space and regain possession before transitioning back to attack.",
+      "Use weak-side speed and scan before receiving the transition pass.",
+      "Read whether the defender steps up or backs off into the 2-on-1."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Michael Peca",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/weak-side-transition-1",
+    "source_id": "6892756",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6892756-0-1757038778.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6892756-0-1757038778.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6892756-1-1757038778.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 334
+  },
+  {
+    "uid": "ihs-480766",
+    "title": "NEHDA Defenseman Carousel",
+    "category": "Regroup / Passing / Defense",
+    "drill_types": [
+      "Passing",
+      "Re-Group",
+      "Breakouts",
+      "Shooting",
+      "Half Ice",
+      "Transition"
+    ],
+    "description": "A continuous defense-focused passing sequence combining lateral point movement, an exchange behind the net, a breakout pass, point shot and slot activation.",
+    "coaching_points": [
+      "Demand clean passing and clear communication.",
+      "Stay aware of all moving players before receiving the puck.",
+      "Time each route so the next option is ready without rushing the play."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "NewEdge Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/nehda-defenseman-carousel",
+    "source_id": "480766",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-480766-0-1670853644.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-480766-0-1670853644.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 335
+  },
+  {
+    "uid": "ihs-1401661",
+    "title": "4 Corner Possession Game - Defensive Advantage",
+    "category": "2 on 2 / Small Area Game",
+    "drill_types": [
+      "2 on 2",
+      "3 on 3",
+      "Small Area Games",
+      "Puck Support",
+      "Angling",
+      "Passing",
+      "Puck Protection"
+    ],
+    "description": "A 2-on-2 possession game with two stationary support players for each team positioned on its defensive side. Teams use corner support, give-and-go plays and quick puck movement around back-to-back nets.",
+    "coaching_points": [
+      "Defenders keep sticks in lanes and angle attackers away from dangerous ice.",
+      "Attackers use support players and give-and-go movement instead of holding the puck.",
+      "Communicate constantly and scan around the reversed nets."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-corner-possession-game-defensive-advantage",
+    "source_id": "1401661",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1401661-0-1676347399.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1401661-0-1676347399.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 336
   }
 ]
