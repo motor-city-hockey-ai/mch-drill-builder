@@ -21849,5 +21849,256 @@
     "member_only": true,
     "status": "verified",
     "number": 668
+  },
+  {
+    "uid": "ihs-neutral-zone-support-3-on-1-2",
+    "title": "Neutral Zone Support 3 on 1 - #2",
+    "category": "3 vs 1 / Neutral Zone / Puck Support",
+    "drill_types": [
+      "3 vs 1",
+      "Neutral Zone",
+      "Puck Support",
+      "Passing",
+      "Offensive",
+      "Full Ice",
+      "Transition",
+      "Shooting"
+    ],
+    "description": "A neutral-zone support progression where the defenseman activates from the top of the circles, receives from F1, improves the passing angle and returns the puck. F2 times support through the middle while F1 drives the net, giving F2 both a backdoor option and a high-trailer option.",
+    "coaching_points": [
+      "The defenseman moves the feet before and after receiving so the passing angle improves.",
+      "F2 times the support route instead of arriving early and becoming stationary.",
+      "F1 drives hard to the net with the stick available.",
+      "Read the backdoor option first, then use the high trailer if the lane is taken away."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-support-3-1-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-support-3-on-1-var2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-support-3-on-1-var2.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 669
+  },
+  {
+    "uid": "ihs-2-0-drive",
+    "title": "2 - 0 Drive",
+    "category": "2 vs 0 / Passing / Zone Entry",
+    "drill_types": [
+      "2 vs 0",
+      "Passing",
+      "Zone Entry",
+      "Offensive",
+      "Full Ice",
+      "Puck Support",
+      "Shooting"
+    ],
+    "description": "Two players leave together and skate around their cones. The coach chooses one player to receive the puck. The puck carrier gains the offensive blue line while the partner stays onside, drives the far post and receives a cross-ice pass for the finish.",
+    "coaching_points": [
+      "Gain the blue line with control before forcing the cross-ice pass.",
+      "The weak-side player stays onside and drives the far post at full speed.",
+      "Keep the stick on the ice and present a clear target.",
+      "Pass through the available seam instead of sending the puck behind the receiver."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-drive",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2-0-drive.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2-0-drive.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 670
+  },
+  {
+    "uid": "ihs-2-on-0-escape",
+    "title": "2 on 0 Escape",
+    "category": "2 vs 0 / Escape / Zone Entry",
+    "drill_types": [
+      "2 vs 0",
+      "Passing",
+      "Zone Entry",
+      "Offensive",
+      "Full Ice",
+      "Puck Support",
+      "Shooting"
+    ],
+    "description": "The coach passes to either forward. The receiver attacks the blue line and uses an escape just inside the zone while the partner drives the far post. After the first scoring chance, the far-side player retrieves a second puck in the corner and finds the original shooter in the slot.",
+    "coaching_points": [
+      "Attack the blue line with speed before using the escape.",
+      "The off-puck forward drives through the far-post lane and keeps the stick available.",
+      "After the first shot, transition immediately to the second puck.",
+      "The original shooter reloads into open slot ice instead of standing at the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-escape",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2-on-0-escape.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2-on-0-escape.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 671
+  },
+  {
+    "uid": "ihs-neutral-zone-attack-speed-2",
+    "title": "Neutral Zone Attack with Speed #2",
+    "category": "Neutral Zone / Puck Protection / Shooting",
+    "drill_types": [
+      "Neutral Zone",
+      "Offensive",
+      "Puck Protection",
+      "Skating",
+      "Shooting",
+      "Zone Entry",
+      "Full Ice"
+    ],
+    "description": "A speed-entry skill drill. The forward attacks through the neutral zone, works around the cone as a defender reference, protects the puck through the turn and drives hard to the net for a finish.",
+    "coaching_points": [
+      "Carry speed through the neutral zone before making the move.",
+      "Use body position to shield the puck around the defender cone.",
+      "Keep the feet moving after the move instead of gliding.",
+      "Drive directly into a scoring area and finish the rep at the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-attack-speed-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-attack-w-speed-2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-attack-w-speed-2.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 672
+  },
+  {
+    "uid": "ihs-neutral-zone-turnover-2-2",
+    "title": "Neutral Zone Turnover 2 on 2",
+    "category": "2 vs 2 / Neutral Zone / Transition",
+    "drill_types": [
+      "2 vs 2",
+      "Neutral Zone",
+      "Defensive",
+      "Gap",
+      "Transition",
+      "Full Ice",
+      "Offensive",
+      "Puck Support"
+    ],
+    "description": "Two defensemen begin in an offensive transition sequence through the neutral zone. On the whistle the forwards immediately attack them 2-on-2, forcing the defense to shift from offense to defense, recover its gap and defend the blue line.",
+    "coaching_points": [
+      "Defense transitions from offense to defense immediately on the whistle.",
+      "Retake ice before settling into the backward gap.",
+      "Defenders communicate and try to stand the rush up at the blue line.",
+      "Forwards attack with pace, width and support before the gap is established."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-turnover-2-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-turnover-2v2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-turnover-2v2.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 673
+  },
+  {
+    "uid": "ihs-4-2-d-zone-coverage",
+    "title": "4 on 2 D-Zone Coverage",
+    "category": "4 vs 2 / Defensive Zone / Coverage",
+    "drill_types": [
+      "4 vs 2",
+      "Defensive Zone",
+      "Down Low",
+      "Coverage",
+      "Defensive",
+      "Half Ice",
+      "One Goalie",
+      "Net Front"
+    ],
+    "description": "Two puck carriers work behind the net while two offensive forwards operate in front against two defenders. The players behind the net move the puck back and forth looking for an opening while the defenders track both puck and threats in front.",
+    "coaching_points": [
+      "Defenders keep heels oriented toward the net and maintain inside position.",
+      "Check over the shoulder constantly so both puck and player locations are known.",
+      "Use active sticks to take away passes into the slot.",
+      "Offensive players change position and timing rather than standing in front."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-2-d-zone-coverage",
+    "image": "https://www.files.icehockeysystems.com/files/drills/4-on-2-down-low.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/4-on-2-down-low.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 674
+  },
+  {
+    "uid": "ihs-quick-transition-2-1",
+    "title": "Quick Transition 2 on 1",
+    "category": "2 vs 1 / Transition / Shooting",
+    "drill_types": [
+      "2 vs 1",
+      "Defensive",
+      "Offensive",
+      "Transition",
+      "Full Ice",
+      "Shooting",
+      "Passing",
+      "Gap"
+    ],
+    "description": "D1 skates to the blue line, receives a pass from F1, walks toward the middle and shoots. F1 and F2 work around the net, receive a pass from the next forward in line and immediately transition up ice against D1 in a live 2-on-1.",
+    "coaching_points": [
+      "The defenseman gets the first shot through quickly and then transitions immediately to defend.",
+      "Forwards move around the net with purpose and receive the transition pass in motion.",
+      "Attack the 2-on-1 before the defenseman can reset the gap.",
+      "Keep the off-puck forward available as a real passing threat."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-transition-2-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quick-transition-2-on-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quick-transition-2-on-1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 675
+  },
+  {
+    "uid": "ihs-transition-passing-sequence-2",
+    "title": "Transition Passing Sequence #2",
+    "category": "Passing / Transition / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Warm Up",
+      "Skill Development",
+      "Puck Support"
+    ],
+    "description": "The second variation in a transition passing series adds an extra pass. The player moves the puck to the opposite line, receives it back, makes another pass and then transitions toward the boards to continue the flow.",
+    "coaching_points": [
+      "Move the puck quickly and receive with soft hands.",
+      "Transition the feet immediately after passing rather than watching the puck.",
+      "Keep spacing between lines so passes stay flat and direct.",
+      "Increase pace only when the passing sequence remains clean."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-passing-sequence-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/transition-passing-sequence-2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/transition-passing-sequence-2.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 676
   }
 ]
