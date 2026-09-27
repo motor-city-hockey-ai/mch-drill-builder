@@ -11245,5 +11245,103 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Verified U8 station source-image sweep"
+  },
+  {
+    "discovery_number": 719,
+    "title": "Turns & Stops With Shots (Quarter Ice)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/turns-stops-shots-quarter-ice",
+    "categories": [
+      "Skating",
+      "Shooting",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Source-page and public practice-plan exact-image verification"
+  },
+  {
+    "discovery_number": 720,
+    "title": "Hand Soccer",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/hand-soccer",
+    "categories": [
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Skating",
+      "Agility"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Source-page and public practice-plan exact-image verification"
+  },
+  {
+    "discovery_number": 721,
+    "title": "Freeze Tag",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/freeze-tag",
+    "categories": [
+      "Small Area Games",
+      "Skating",
+      "Agility",
+      "Awareness",
+      "Stations",
+      "Quarter Ice Station",
+      "Third Ice Stations",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Source-page and public practice-plan exact-image verification"
+  },
+  {
+    "discovery_number": 722,
+    "title": "Tennis Ball Astroids",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tennis-ball-astroids",
+    "categories": [
+      "Small Area Games",
+      "Skating",
+      "Agility",
+      "Awareness",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Source-page and public practice-plan exact-image verification"
+  },
+  {
+    "discovery_number": 723,
+    "title": "2 vs 2 with Regular Nets - Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-regular-nets-station",
+    "categories": [
+      "2 vs 2",
+      "Small Area Games",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Source-page and public practice-plan exact-image verification"
+  },
+  {
+    "discovery_number": 724,
+    "title": "Puck Tag with Ringettes",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-tag-ringettes",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Awareness",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Source-page and public practice-plan exact-image verification"
   }
 ]

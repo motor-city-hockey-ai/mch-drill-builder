@@ -28587,5 +28587,199 @@
     "member_only": true,
     "status": "verified",
     "number": 882
+  },
+  {
+    "uid": "ihs-turns-stops-shots-quarter-ice",
+    "title": "Turns & Stops With Shots (Quarter Ice)",
+    "category": "Skating / Stops & Starts / Shooting",
+    "drill_types": [
+      "Skating",
+      "Shooting",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "description": "Players work opposite sides of a quarter-ice station: one side emphasizes two-foot stops at staggered cones, the other control turns. After the cone sequence, players collect a puck and finish with a shot.",
+    "coaching_points": [
+      "Use a complete two-foot stop and stay balanced at each stop cone.",
+      "Rotate the head and shoulders through every control turn.",
+      "Accelerate out of each stop or turn.",
+      "Collect the puck under control and finish with a quick shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/turns-stops-shots-quarter-ice",
+    "image": "https://www.files.icehockeysystems.com/files/drills/turns-stops-with-shots-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/turns-stops-with-shots-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 883
+  },
+  {
+    "uid": "ihs-hand-soccer",
+    "title": "Hand Soccer",
+    "category": "Small Area Game / Balance / Agility",
+    "drill_types": [
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Skating",
+      "Agility"
+    ],
+    "description": "Players use their hands to move a ball through wide cone goals in a small area. The game forces players to stay low, use their edges and compete for space without relying on their sticks.",
+    "coaching_points": [
+      "Keep a deep knee bend while moving the ball.",
+      "Use edges and quick direction changes to create separation.",
+      "Move into open space when a teammate controls the ball.",
+      "Keep the game continuous and competitive."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/hand-soccer",
+    "image": "https://www.files.icehockeysystems.com/files/drills/hand-soccer.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/hand-soccer.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/soccer-sixth-ice-station-web_0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 884
+  },
+  {
+    "uid": "ihs-freeze-tag",
+    "title": "Freeze Tag",
+    "category": "Small Area Game / Skating / Awareness",
+    "drill_types": [
+      "Small Area Games",
+      "Skating",
+      "Agility",
+      "Awareness",
+      "Stations",
+      "Quarter Ice Station",
+      "Third Ice Stations",
+      "Sixth Ice Stations"
+    ],
+    "description": "Designated taggers chase the other skaters inside the station. Tagged players freeze until a teammate completes the chosen release action, creating a continuous awareness and agility game.",
+    "coaching_points": [
+      "Keep the head up and scan for taggers and open space.",
+      "Use quick starts, stops and direction changes.",
+      "Stay balanced when dropping to or recovering from the frozen position.",
+      "Rotate taggers often to keep the pace high."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/freeze-tag",
+    "image": "https://www.files.icehockeysystems.com/files/drills/freeze-tag.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/freeze-tag.png",
+      "https://www.files.icehockeysystems.com/files/drills/freeze-tag-third-ice-station-web.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/freeze-tag-sixth-ice-station-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 885
+  },
+  {
+    "uid": "ihs-tennis-ball-astroids",
+    "title": "Tennis Ball Astroids",
+    "category": "Small Area Game / Agility / Awareness",
+    "drill_types": [
+      "Small Area Games",
+      "Skating",
+      "Agility",
+      "Awareness",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "description": "Coaches shoot tennis balls across the station while players skate inside the designated area trying to avoid being hit. Tagged players drop to their knees and can be reactivated by a teammate.",
+    "coaching_points": [
+      "Keep the head up and track threats from both directions.",
+      "Use edges and quick changes of direction to avoid tennis balls.",
+      "Stay inside the designated playing area.",
+      "Encourage players to help re-activate teammates when safe."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tennis-ball-astroids",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tennis-ball-astroids-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tennis-ball-astroids-web.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/astroids-tennis-balls-sixth-ice-station.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 886
+  },
+  {
+    "uid": "ihs-2-vs-2-regular-nets-station",
+    "title": "2 vs 2 with Regular Nets - Station",
+    "category": "2 vs 2 / Small Area Game / Station",
+    "drill_types": [
+      "2 vs 2",
+      "Small Area Games",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "description": "Two teams play 2-on-2 in a compact station using full-size nets and goalies when available. Short shifts keep every player involved and create repeated puck-protection and support situations.",
+    "coaching_points": [
+      "Compete through possession and protect the puck in tight space.",
+      "Support the puck carrier with a short passing option.",
+      "Defend the middle and communicate with the goalie.",
+      "Use 60-90 second shifts and restart with a new puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-regular-nets-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2v2-with-regular-nets.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2v2-with-regular-nets.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/2-vs-2-with-regular-nets-sixth-ice-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 887
+  },
+  {
+    "uid": "ihs-puck-tag-with-ringettes",
+    "title": "Puck Tag with Ringettes",
+    "category": "Puck Control / Awareness / Small Area Game",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Awareness",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "description": "Every player controls a ringette while designated taggers chase. Tagged players freeze until a teammate controls a ringette through their legs, forcing constant scanning and puck-control awareness.",
+    "coaching_points": [
+      "Handle the ringette with the head up.",
+      "Scan for taggers while identifying frozen teammates.",
+      "Use changes of direction to protect possession.",
+      "Free teammates only when the passing lane is safe."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-tag-ringettes",
+    "image": "https://www.files.icehockeysystems.com/files/drills/puck-tag-with-ringettes.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/puck-tag-with-ringettes.png",
+      "https://www.files.icehockeysystems.com/files/drills/puck-tag-sixth-ice-station-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 888
   }
 ]
