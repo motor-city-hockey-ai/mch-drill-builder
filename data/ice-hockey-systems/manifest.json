@@ -37,28 +37,27 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 959,
-    "catalog_items_verified": 959,
+    "catalog_items_imported": 964,
+    "catalog_items_verified": 964,
     "catalog_target": 1573,
-    "last_batch": "IHS verified batch #952-#959",
-    "original_diagrams_verified": 959,
+    "last_batch": "IHS verified batch #960-#964",
+    "original_diagrams_verified": 964,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
-    "notes": "Live IHS JSON library now contains 959 verified drill records with source URLs, original source diagrams, simplified drill types and coach-readable notes.",
-    "unique_urls_discovered": 971,
+    "notes": "Live IHS JSON library now contains 964 verified drill records with source URLs, original source diagrams, simplified drill types and coach-readable notes.",
+    "unique_urls_discovered": 976,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 0,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue from #960. Reconcile the remaining page 16-17 gaps only when exact original images resolve, then proceed deeper into sorted pagination. Quarter Ice Obstacle Course #2 remains deferred rather than substituting a visual.",
-    "multi_diagram_drills_preserved": 65,
+    "next_step": "Continue from #965. Shooting Warm-Up Progression is now resolved with both original diagrams. Keep unresolved video-only/member visual gaps deferred while continuing deeper sorted-pagination reconciliation.",
+    "multi_diagram_drills_preserved": 66,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 8,
-    "last_batch_notes": "Added verified drills #952-#959: Tire Moves, D-Zone D to D, O-Zone Sticklift Regroup, Body Contact Boardside Puck Protection, Dodge Ball with Tennis Balls - Third Ice Station, 1 vs 1 Multiple games - Third Ice Station, 3 vs 3 Cross Ice, and Explosive Skating with Tires. Body Contact Boardside Puck Protection preserves both original source diagrams. No AI or replacement visuals.",
+    "last_batch_imported": 5,
+    "last_batch_notes": "Added #960-#964: Royal Puck Protection Drill, Umbrella Roll Power Play Drill, Shooting Warm-Up Progression (2 original diagrams), 4Check body contact corner race, and Body Contact Angle with Sticklift. No AI or replacement visuals.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
-      "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
       "The Ottawa Drill - page exposes a Drill Maker image; exact original image URL still needs resolution.",
       "1 on 1 to 2 on 2 Battle Drill - source page was found, but no original drill diagram is currently exposed; do not substitute an AI diagram.",
       "Goalie Edgework: Single-Leg Hops - source page currently exposes video but no original drill diagram; keep deferred until the source visual can be verified.",
@@ -78,6 +77,6 @@
       "Offensive to Defensive Zone Coverage Drill - source page currently exposes video instruction but no original drill diagram; keep deferred rather than substituting an AI diagram."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 8
+    "last_batch_discovered": 5
   }
 }
