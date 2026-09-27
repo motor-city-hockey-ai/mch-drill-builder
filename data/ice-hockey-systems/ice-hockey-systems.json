@@ -13423,5 +13423,587 @@
     "member_only": true,
     "status": "verified",
     "number": 410
+  },
+  {
+    "uid": "ihs-7520746",
+    "title": "1 v 1, 2 v 2, 3 v 3",
+    "category": "1 vs 1 / 2 vs 2 / 3 vs 3 Small Area Game",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Awareness",
+      "Battle Drills",
+      "Coverage",
+      "Small Area Games"
+    ],
+    "description": "Cross-ice small-area game that grows from 1-on-1 to 2-on-2 to 3-on-3, then works back down as players rotate out on successive whistles.",
+    "coaching_points": [
+      "Know who is entering and leaving on every whistle.",
+      "Defenders keep sticks in lanes and angle to the outside.",
+      "Attackers move the puck quickly and look for fast shots."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-2-v-2-3-v-3-30",
+    "source_id": "7520746",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7520746-0-1759248294.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7520746-0-1759248294.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 411
+  },
+  {
+    "uid": "ihs-7535376",
+    "title": "3 v 3 Pass to Coach",
+    "category": "3 vs 3 / Passing / Puck Support",
+    "drill_types": [
+      "3 vs 3",
+      "Coverage",
+      "Half Ice",
+      "Passing",
+      "Puck Support",
+      "Small Area Games"
+    ],
+    "description": "Three-on-three possession game where all three teammates must touch the puck before the group can pass back to the coach for a point.",
+    "coaching_points": [
+      "Players without the puck win space and become passing options.",
+      "Support the puck carrier in tight areas.",
+      "React immediately after turnovers to regain possession."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-pass-coach-9",
+    "source_id": "7535376",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7535376-0-1759248304.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7535376-0-1759248304.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 412
+  },
+  {
+    "uid": "ihs-7531796",
+    "title": "2 v 1 Keep Away",
+    "category": "2 vs 1 / Puck Protection / Passing",
+    "drill_types": [
+      "2 vs 1",
+      "Half Ice",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection"
+    ],
+    "description": "Two attackers play keep-away against one defender inside a circle, counting completed passes while the defender works to steal and protect possession.",
+    "coaching_points": [
+      "Off-puck players move to open ice with sticks ready.",
+      "Puck carrier uses deception and protection to create lanes.",
+      "Defender stays between the two attackers with an active stick."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-1-keep-away-12",
+    "source_id": "7531796",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7531796-0-1759258356.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7531796-0-1759258356.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 413
+  },
+  {
+    "uid": "ihs-7272776",
+    "title": "Sabre Half-Ice 2v2 With Outlets",
+    "category": "2 vs 2 / Small Area Game / Outlets",
+    "drill_types": [
+      "2 vs 2",
+      "Half Ice",
+      "Puck Support",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Half-ice 2-on-2 game with outlet players available along the goal line and blue line. Players can use the outlets to create offense and extend possession.",
+    "coaching_points": [
+      "Pass hard and quickly to outlet targets.",
+      "Keep eyes up and communicate before the puck arrives.",
+      "After using an outlet, move immediately to open ice for support."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabre-half-ice-2v2-outlets",
+    "source_id": "7272776",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7272776-0-1753758865.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7272776-0-1753758865.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 414
+  },
+  {
+    "uid": "ihs-7228811",
+    "title": "1 v 1 Race to Puck to 2 v 2",
+    "category": "Race / 2 vs 1 / 2 vs 2",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 1",
+      "2 vs 2",
+      "Backchecking",
+      "Battle Drills",
+      "Races",
+      "Transition",
+      "Zone Entry"
+    ],
+    "description": "Two players race for a puck at center. The winner finds a teammate to create a 2-on-1 rush while the losing side backchecks, turning the play into a 2-on-2.",
+    "coaching_points": [
+      "Win body position before reaching for the race puck.",
+      "Dot players anticipate whether they are joining offense or backchecking.",
+      "Transition immediately once possession is established."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-race-puck-2-v-2",
+    "source_id": "7228811",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7228811-0-1751918492.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7228811-0-1751918492.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 415
+  },
+  {
+    "uid": "ihs-6959541",
+    "title": "Use the Nets Puck Protection",
+    "category": "1 vs 1 / Puck Protection / Retrieval",
+    "drill_types": [
+      "1 vs 1",
+      "Agility",
+      "Half Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Retrievals"
+    ],
+    "description": "Defenseman retrieves behind a net while a forechecker applies pressure. Two closely spaced nets create a shield the puck carrier can use to escape pressure and find a breakout option.",
+    "coaching_points": [
+      "Use the net as protection instead of exposing the puck.",
+      "Sell escapes with head, shoulders and stick position.",
+      "Stay patient until the passing lane is available."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Phillip Barski",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/use-nets-puck-protection",
+    "source_id": "6959541",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6959541-0-1743783272.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6959541-0-1743783272.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 416
+  },
+  {
+    "uid": "ihs-6373331",
+    "title": "Power Play Game Long Short",
+    "category": "Power Play / 5 vs 3 / Small Area Game",
+    "drill_types": [
+      "5 vs 3",
+      "Coverage",
+      "Half Ice",
+      "Offensive",
+      "Passing",
+      "Penalty Kill",
+      "Power Play"
+    ],
+    "description": "Two power-play groups work on opposite halves of the zone. A coach starts one side with a rim; when the penalty killers clear it, the puck transfers to the other side and the next group attacks.",
+    "coaching_points": [
+      "Make quick decisions in condensed space.",
+      "Use crisp puck movement to maintain possession.",
+      "Penalty killers clear decisively and protect the middle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Wes Wolfe",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/power-play-game-long-short",
+    "source_id": "6373331",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6373331-0-1737153546.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6373331-0-1737153546.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 417
+  },
+  {
+    "uid": "ihs-6372041",
+    "title": "Power Play Face-Off Loss Drill",
+    "category": "Power Play / Retrieval / Face-Off",
+    "drill_types": [
+      "5 vs 3",
+      "5 vs 4",
+      "Battle Drills",
+      "Half Ice",
+      "Offensive Zone",
+      "Penalty Kill",
+      "Power Play",
+      "Retrievals",
+      "Wall Play"
+    ],
+    "description": "Power-play unit starts from a lost faceoff scenario and must retrieve a spotted puck before the penalty kill can clear, then create a shot quickly.",
+    "coaching_points": [
+      "Win inside body position on retrievals.",
+      "Move the puck immediately after possession is recovered.",
+      "Generate the first shot within a few passes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Wes Wolfe",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/power-play-face-loss-drill",
+    "source_id": "6372041",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6372041-0-1737153528.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6372041-0-1737153528.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 418
+  },
+  {
+    "uid": "ihs-5993311",
+    "title": "The D Initiate",
+    "category": "3 vs 0 / Transition / Zone Entry",
+    "drill_types": [
+      "3 vs 0",
+      "Explosion",
+      "Offensive",
+      "Passing",
+      "Transition",
+      "Zone Entry",
+      "Shooting"
+    ],
+    "description": "Defenseman initiates the rush with a quick cross-ice pass, joins the attack as a late option, and receives a return pass for the final shot.",
+    "coaching_points": [
+      "Sticks stay on the ice and ready for passes.",
+      "Defenseman pushes the pace and joins the rush.",
+      "Forwards gain middle ice and support underneath."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Cail MacLean",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-d-initiate",
+    "source_id": "5993311",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5993311-0-1738097198.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5993311-0-1738097198.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 419
+  },
+  {
+    "uid": "ihs-half-ice-finnish-series-setup",
+    "title": "Half Ice Finnish Series Setup",
+    "category": "Half Ice / Puck Handling / Skating",
+    "drill_types": [
+      "Half Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Skill Development",
+      "Stations",
+      "Warm Up"
+    ],
+    "description": "Half-ice Finnish skill-development setup that can be reused for many variations, including mohawk pivots, backward underhandling, escapes and long-reach puck control.",
+    "coaching_points": [
+      "Keep hips and shoulders controlled through pivots.",
+      "Cradle the puck smoothly while skating backward.",
+      "Use full reach and strong edges around every obstacle."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-finnish-series-setup",
+    "image": "https://www.files.icehockeysystems.com/files/drills/half-ice-finish-series-warm-setup.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/half-ice-finish-series-warm-setup.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 420
+  },
+  {
+    "uid": "ihs-5741436",
+    "title": "2 v 1 Net Play Drills for Defensemen",
+    "category": "2 vs 1 / Net Front / Defensive",
+    "drill_types": [
+      "2 vs 1",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Net Front"
+    ],
+    "description": "Three-location 2-on-1 net-front series where forwards attack from behind the net or corners while one defender protects the slot and manages both threats.",
+    "coaching_points": [
+      "Defender keeps the stick in passing lanes and scans both attackers.",
+      "Stay in a strong stance and protect the middle first.",
+      "Forwards attack the net and separate into open scoring space."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Marty Wilford",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-1-net-play-drills-defensemen",
+    "source_id": "5741436",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5741436-0-1740603835.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5741436-0-1740603835.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5741436-1-1740603835.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 421
+  },
+  {
+    "uid": "ihs-5137691",
+    "title": "DZ Corner Battle 1 v 2 to 2 v 3",
+    "category": "1 vs 2 / 2 vs 3 / Defensive Zone Battle",
+    "drill_types": [
+      "1 vs 2",
+      "2 vs 3",
+      "Awareness",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Puck Protection"
+    ],
+    "description": "Defensive-zone battle progression that starts with one attacker against two defenders, then builds to two attackers against three defenders to train support, communication and coverage.",
+    "coaching_points": [
+      "First defender pressures while the second supports.",
+      "Defenders communicate before switching pressure.",
+      "Attackers protect the puck and use support to create a scoring chance."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Daniel Paille",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/dz-corner-battle-1-v-2-2-v-3",
+    "source_id": "5137691",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5137691-0-1728502509.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5137691-0-1728502509.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5137691-1-1728502509.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 422
+  },
+  {
+    "uid": "ihs-4786866",
+    "title": "Pass Through 2 Players out of the Corner",
+    "category": "Passing / Puck Support / Shooting",
+    "drill_types": [
+      "Awareness",
+      "Down Low",
+      "Offensive",
+      "Offensive Zone",
+      "Passing",
+      "Puck Protection",
+      "Puck Support",
+      "Shooting"
+    ],
+    "description": "Corner passing sequence where the puck carrier curls up the wall, gives the puck to the next player, then jumps into the slot to receive a return pass through two stationary defenders.",
+    "coaching_points": [
+      "Jump into open ice with the stick presented.",
+      "Lead the moving player with the return pass.",
+      "Progress from passive to active sticks as execution improves."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pass-through-2-players-out-corner",
+    "source_id": "4786866",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4786866-0-1726502107.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4786866-0-1726502107.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 423
+  },
+  {
+    "uid": "ihs-3541981",
+    "title": "D-Zone Coverage Tire Drill",
+    "category": "5 vs 5 / Defensive Zone Coverage",
+    "drill_types": [
+      "5 vs 5",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Half Ice",
+      "Transition"
+    ],
+    "description": "Five-on-five defensive-zone coverage drill with a second phase where all three defending forwards skate around tires in the neutral zone before racing back to re-establish coverage.",
+    "coaching_points": [
+      "Defenders keep sticks in lanes and sort coverage verbally.",
+      "Protect the middle while the forwards recover back into the zone.",
+      "Offense moves to open space while defenders are temporarily out of structure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Tyler Bielby",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-zone-coverage-tire-drill",
+    "source_id": "3541981",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541981-0-1729733935.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541981-0-1729733935.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541981-1-1729733935.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 424
+  },
+  {
+    "uid": "ihs-3422561",
+    "title": "Outlet Game",
+    "category": "2 vs 2 / 3 vs 3 / Outlets",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 3",
+      "Passing",
+      "Puck Control",
+      "Puck Protection",
+      "Offensive",
+      "Small Area Games",
+      "Transition"
+    ],
+    "description": "Cross-ice game where a team must pass to one of two outside outlets before it can attack. Possession changes require the new attacking team to use an outlet first.",
+    "coaching_points": [
+      "Transition quickly after winning the puck.",
+      "Use give-and-go movement after passing to an outlet.",
+      "Defenders keep sticks in lanes and angle play outside."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-outlet-game",
+    "source_id": "3422561",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3422561-0-1701269768.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3422561-0-1701269768.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 425
+  },
+  {
+    "uid": "ihs-3123286",
+    "title": "3 on 2 Keep Away Game",
+    "category": "3 vs 2 / Keep Away / Special Teams",
+    "drill_types": [
+      "3 vs 2",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Small Area Games",
+      "Stations"
+    ],
+    "description": "Two 3-on-2 keep-away areas are set up around the faceoff circles. One group plays at a time while attackers maintain possession and defenders work to block and deflect passes.",
+    "coaching_points": [
+      "Offense keeps sticks available and uses flat, crisp passes.",
+      "Use deception instead of forcing passes through pressure.",
+      "Defenders keep sticks on the ice and recover to the middle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jeff Meredith",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-2-keep-away-game",
+    "source_id": "3123286",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3123286-0-1698178425.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3123286-0-1698178425.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 426
+  },
+  {
+    "uid": "ihs-3123246",
+    "title": "4 vs 2 Transition Game",
+    "category": "4 vs 2 / Transition / Small Area Game",
+    "drill_types": [
+      "4 vs 2",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Puck Protection",
+      "Offensive",
+      "Transition",
+      "Small Area Games"
+    ],
+    "description": "Continuous 4-on-2 possession game. When the defenders win the puck, two teammates jump in as outlets and the previous attackers rotate so the possession immediately flips.",
+    "coaching_points": [
+      "Blue-line players stay alert for instant transitions.",
+      "Defenders keep sticks in lanes and identify outlets quickly.",
+      "Attackers move without the puck to create support."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jeff Meredith",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4vs2-transition-game",
+    "source_id": "3123246",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3123246-0-1698283203.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3123246-0-1698283203.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 427
+  },
+  {
+    "uid": "ihs-3050076",
+    "title": "Weak Side Attack",
+    "category": "2 vs 1 / 3 vs 2 / Weak-Side Attack",
+    "drill_types": [
+      "2 vs 1",
+      "3 vs 2",
+      "Coverage",
+      "Defensive",
+      "Full Ice",
+      "Gap",
+      "Offensive",
+      "Transition",
+      "Zone Entry"
+    ],
+    "description": "Two-part rush drill. The first puck creates a 2-on-1; a second puck then activates a third forward who attacks the weak side while teammates join to create a 3-on-2.",
+    "coaching_points": [
+      "Second puck carrier attacks the weak side with patience.",
+      "Scan for late support before forcing the play.",
+      "Defenders keep sticks in lanes and communicate through the transition."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Wes Wolfe",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/weak-side-attack",
+    "source_id": "3050076",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3050076-0-1726495680.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3050076-0-1726495680.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3050076-1-1726495680.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 428
   }
 ]
