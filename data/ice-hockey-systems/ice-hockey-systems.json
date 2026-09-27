@@ -9206,5 +9206,112 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-351831",
+    "title": "Use The Net 2 vs. 1 Drill",
+    "category": "2 on 1 / Breakout / Retrieval",
+    "drill_types": [
+      "2 on 1",
+      "Breakouts",
+      "Retrievals",
+      "Angling",
+      "Half Ice",
+      "Full Ice",
+      "Puck Protection",
+      "Transition"
+    ],
+    "description": "A defenseman retrieves a chipped puck under forecheck pressure, scans before the pickup, and uses the net to escape or cut back. The defenseman then makes a breakout pass to two forwards who curl up ice and attack the original defenseman 2-on-1.",
+    "coaching_points": [
+      "Defenseman shoulder-checks before the retrieval and uses the net to protect the puck.",
+      "Use deception on the breakout pass rather than telegraphing the outlet.",
+      "Forwards read the breakout, time their curls and present sticks as targets.",
+      "Forechecker angles with the stick on the ice to take away lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Topher Scott / hockeythinktank",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/use-net-2-vs-1-drill",
+    "print_url": "https://www.icehockeysystems.com/print/standard/351831",
+    "source_id": "351831",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-351831-0-1671506412.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-351831-0-1671506412.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 282
+  },
+  {
+    "uid": "ihs-6959501",
+    "title": "Breakouts to 3 Forecheckers",
+    "category": "Breakout / Forecheck Progression",
+    "drill_types": [
+      "Breakouts",
+      "Forechecking",
+      "5 vs 1",
+      "5 vs 2",
+      "5 vs 3",
+      "Full Ice",
+      "Defensive Zone",
+      "Angling",
+      "Puck Support"
+    ],
+    "description": "Progressive breakout drill that increases forechecking pressure one player at a time. The breakout unit retrieves and exits against one forechecker, then two, then three as new forecheckers activate after receiving the puck and dumping it back into the zone.",
+    "coaching_points": [
+      "Breakout group communicates and maintains its normal structure under pressure.",
+      "Defensemen scan before retrievals and support each other.",
+      "Center supports low and slow underneath the puck.",
+      "Forecheckers angle with active sticks and remove passing lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Phillip Barski",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakouts-3-forecheckers",
+    "print_url": "https://www.icehockeysystems.com/print/standard/6959501",
+    "source_id": "6959501",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6959501-0-1744053897.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6959501-0-1744053897.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6959501-1-1744053897.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 283
+  },
+  {
+    "uid": "ihs-5679556",
+    "title": "2 on 1 with D Activation",
+    "category": "2 on 1 / D Activation / Transition",
+    "drill_types": [
+      "2 on 1",
+      "3 on 1",
+      "3 on 2",
+      "Transition",
+      "Full Ice",
+      "Offensive",
+      "Gap",
+      "Zone Entry",
+      "Puck Support"
+    ],
+    "description": "Two forwards exchange the puck with a defenseman, curl back up ice, and attack 2-on-1. The defenseman who made the transition pass follows the play and activates into an open lane, turning the rush into a 3-on-1. The drill can progress to a 3-on-2.",
+    "coaching_points": [
+      "Defenseman extends the play with feet, lateral movement and deception before passing.",
+      "Activated defenseman accelerates to join quickly and fills an open lane.",
+      "Forwards time their routes so they stay available without getting too far ahead.",
+      "Read the numerical advantage before deciding whether to pass, shoot or delay."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Marty Wilford",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-1-d-activation",
+    "source_id": "5679556",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5679556-0-1740430318.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5679556-0-1740430318.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 284
   }
 ]
