@@ -26789,5 +26789,163 @@
     "member_only": true,
     "status": "verified",
     "number": 824
+  },
+  {
+    "uid": "ihs-tic-tac-passing",
+    "title": "Tic Tac Passing",
+    "category": "Passing / Shooting / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Full Ice",
+      "Warm Up",
+      "Puck Support",
+      "Transition"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tic-tac-passing",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tic-tac-tic-tac-passing.jpg",
+    "description": "A continuous neutral-zone passing warm-up. The active skater moves the puck through multiple stationary support players, accelerates around the line, receives a return pass before center, then completes another give-and-go before entering for a shot.",
+    "coaching_points": [
+      "Move the puck quickly between support players instead of holding it.",
+      "Active skater accelerates through the route and presents the stick early.",
+      "Time each return pass so it reaches the skater in stride.",
+      "Finish the sequence with a shot, then rotate to the opposite side."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tic-tac-tic-tac-passing.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 825
+  },
+  {
+    "uid": "ihs-shooting-gallery",
+    "title": "Shooting Gallery",
+    "category": "Passing / Shooting / One Timer",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "One Timer",
+      "Half Ice",
+      "One Goalie",
+      "Power Play"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shooting-gallery",
+    "image": "https://www.files.icehockeysystems.com/files/drills/shooting-gallery.jpg",
+    "description": "Four players operate in two pairs inside one zone. Each shooter passes to a partner, receives a one-touch return and immediately shoots off the pass while the opposite pair alternates the next repetition.",
+    "coaching_points": [
+      "Set up on the off-hand side to shorten the release.",
+      "Use firm one-touch passes and receive ready to shoot.",
+      "Shoot quickly off the return pass without extra stickhandling.",
+      "Focus on hard, low shots that hit the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/shooting-gallery.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 826
+  },
+  {
+    "uid": "ihs-3-player-passing-series-station",
+    "title": "3 Player Passing Series Station",
+    "category": "Passing / Station / Third Ice",
+    "drill_types": [
+      "Passing",
+      "Stations",
+      "Third Ice Stations",
+      "Skating",
+      "Transition",
+      "Control Turns"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-player-passing-series-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/3-player-passing-series-station-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/3-player-passing-series-station-1.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/3-player-passing-series-station-2.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/3-player-passing-series-station-3.jpg"
+    ],
+    "description": "A three-player passing station with three progressions: one-touch passes while skating toward the target, repeated passing with control turns around the receiver, and passing while transitioning backward and forward so the moving player stays facing the puck.",
+    "coaching_points": [
+      "Use soft hands rather than slapping at one-touch passes.",
+      "Keep the stick presented and call for the puck.",
+      "Control-turn variations should stay tight around the receiver.",
+      "On transition reps, stay facing the puck and pivot cleanly back to forward."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 827
+  },
+  {
+    "uid": "ihs-tornado-pivot-passing",
+    "title": "Tornado Pivot Passing",
+    "category": "Passing / Transition / Neutral Zone",
+    "drill_types": [
+      "Passing",
+      "Transition",
+      "Neutral Zone",
+      "Backwards Skating",
+      "Defensive",
+      "Skating"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tornado-pivot-passing",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tornado-pivot-passing.jpg",
+    "description": "A defense-focused passing and skating pattern around the center circle. The active player works around the circle, exchanges passes with stationary players and controls the puck while skating backward and transitioning forward.",
+    "coaching_points": [
+      "Make accurate passes to stationary targets.",
+      "Call for the puck and present a clear target.",
+      "Control the puck while skating backward.",
+      "Transition forward cleanly without losing puck control."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tornado-pivot-passing.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 828
+  },
+  {
+    "uid": "ihs-tornado-passing-drill-2",
+    "title": "Tornado Passing Drill #2",
+    "category": "Passing / Puck Control / Neutral Zone",
+    "drill_types": [
+      "Passing",
+      "Neutral Zone",
+      "Puck Control",
+      "Transition",
+      "Backwards Skating",
+      "Defensive"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tornado-passing-drill-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tornado-pivot-passing-2.jpg",
+    "description": "A more demanding Tornado progression where the active player attempts a pass with every stationary player around the circle. The drill emphasizes rapid puck movement, quick pivots and body control rather than pure skating speed.",
+    "coaching_points": [
+      "Start at a pace that allows every pass to be completed cleanly.",
+      "Move the puck quickly from one target to the next.",
+      "Use quick controlled pivots around the circle.",
+      "Increase skating speed only after passing and body control stay clean."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tornado-pivot-passing-2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 829
   }
 ]
