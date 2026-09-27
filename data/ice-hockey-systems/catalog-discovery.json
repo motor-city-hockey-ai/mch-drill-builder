@@ -5217,5 +5217,319 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS drill page / category backfill"
+  },
+  {
+    "discovery_number": 362,
+    "title": "1 v 1, 2 v 2, 3 v 3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-2-v-2-3-v-3-30",
+    "categories": [
+      "1 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Awareness",
+      "Battle Drills",
+      "Coverage",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 363,
+    "title": "3 v 3 Pass to Coach",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-pass-coach-9",
+    "categories": [
+      "3 vs 3",
+      "Coverage",
+      "Half Ice",
+      "Passing",
+      "Puck Support",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 364,
+    "title": "2 v 1 Keep Away",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-1-keep-away-12",
+    "categories": [
+      "2 vs 1",
+      "Half Ice",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 365,
+    "title": "Sabre Half-Ice 2v2 With Outlets",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabre-half-ice-2v2-outlets",
+    "categories": [
+      "2 vs 2",
+      "Half Ice",
+      "Puck Support",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 366,
+    "title": "1 v 1 Race to Puck to 2 v 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-race-puck-2-v-2",
+    "categories": [
+      "1 vs 1",
+      "2 vs 1",
+      "2 vs 2",
+      "Backchecking",
+      "Battle Drills",
+      "Races",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 367,
+    "title": "Use the Nets Puck Protection",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/use-nets-puck-protection",
+    "categories": [
+      "1 vs 1",
+      "Agility",
+      "Half Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Retrievals"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 368,
+    "title": "Power Play Game Long Short",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/power-play-game-long-short",
+    "categories": [
+      "5 vs 3",
+      "Coverage",
+      "Half Ice",
+      "Offensive",
+      "Passing",
+      "Penalty Kill",
+      "Power Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 369,
+    "title": "Power Play Face-Off Loss Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/power-play-face-loss-drill",
+    "categories": [
+      "5 vs 3",
+      "5 vs 4",
+      "Battle Drills",
+      "Half Ice",
+      "Offensive Zone",
+      "Penalty Kill",
+      "Power Play",
+      "Retrievals",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 370,
+    "title": "The D Initiate",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-d-initiate",
+    "categories": [
+      "3 vs 0",
+      "Explosion",
+      "Offensive",
+      "Passing",
+      "Transition",
+      "Zone Entry",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 371,
+    "title": "Half Ice Finnish Series Setup",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-finnish-series-setup",
+    "categories": [
+      "Half Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Skill Development",
+      "Stations",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 372,
+    "title": "2 v 1 Net Play Drills for Defensemen",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-1-net-play-drills-defensemen",
+    "categories": [
+      "2 vs 1",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 373,
+    "title": "DZ Corner Battle 1 v 2 to 2 v 3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/dz-corner-battle-1-v-2-2-v-3",
+    "categories": [
+      "1 vs 2",
+      "2 vs 3",
+      "Awareness",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 374,
+    "title": "Pass Through 2 Players out of the Corner",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pass-through-2-players-out-corner",
+    "categories": [
+      "Awareness",
+      "Down Low",
+      "Offensive",
+      "Offensive Zone",
+      "Passing",
+      "Puck Protection",
+      "Puck Support",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 375,
+    "title": "D-Zone Coverage Tire Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-zone-coverage-tire-drill",
+    "categories": [
+      "5 vs 5",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Half Ice",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 376,
+    "title": "Outlet Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-outlet-game",
+    "categories": [
+      "2 vs 2",
+      "3 vs 3",
+      "Passing",
+      "Puck Control",
+      "Puck Protection",
+      "Offensive",
+      "Small Area Games",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 377,
+    "title": "3 on 2 Keep Away Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-2-keep-away-game",
+    "categories": [
+      "3 vs 2",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Small Area Games",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 378,
+    "title": "4 vs 2 Transition Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4vs2-transition-game",
+    "categories": [
+      "4 vs 2",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Puck Protection",
+      "Offensive",
+      "Transition",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 379,
+    "title": "Weak Side Attack",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/weak-side-attack",
+    "categories": [
+      "2 vs 1",
+      "3 vs 2",
+      "Coverage",
+      "Defensive",
+      "Full Ice",
+      "Gap",
+      "Offensive",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 3 / related skills"
   }
 ]
