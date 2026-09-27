@@ -4840,7 +4840,7 @@
       "Half Ice"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -4854,7 +4854,7 @@
       "Backchecking"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -4869,7 +4869,7 @@
       "Half Ice"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -4884,7 +4884,7 @@
       "Retrievals"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -4903,7 +4903,7 @@
       "Quarter Ice Station"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -4923,7 +4923,7 @@
       "Full Ice"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -4952,7 +4952,7 @@
       "Full Ice"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -4980,7 +4980,7 @@
       "Puck Support"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -4999,7 +4999,7 @@
       "Zone Entry"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -5016,7 +5016,7 @@
       "Zone Entry"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -5034,7 +5034,7 @@
       "Zone Entry"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -5051,7 +5051,7 @@
       "Gap"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -5067,7 +5067,7 @@
       "Full Ice"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts page 2"
   },
   {
@@ -10749,5 +10749,156 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS puck-race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 687,
+    "title": "Neutral Zone Puck Races #4",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-4",
+    "categories": [
+      "1 vs 1",
+      "Skating",
+      "Races",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 688,
+    "title": "Open Hips Ladder with Pucks",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/open-hips-ladder-pucks",
+    "categories": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 689,
+    "title": "Open Hips Ladders Without Pucks",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/open-hips-ladders-without-pucks",
+    "categories": [
+      "Skating",
+      "Skill Development",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 690,
+    "title": "3 Cone Skills Series #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-cone-skills-series-3",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Skill Development",
+      "Transition",
+      "Stickhandling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 691,
+    "title": "Heads Up Stickhandling Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/heads-stickhandling-station",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Stickhandling",
+      "Awareness",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 692,
+    "title": "Neutral Zone 2 on 0 and Puck Control Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-2-0-and-puck-control-station",
+    "categories": [
+      "2 vs 0",
+      "Passing",
+      "Puck Control",
+      "Shooting",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 693,
+    "title": "Find the Lane Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/find-lane-shooting-drill",
+    "categories": [
+      "Shooting",
+      "Defensive",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 694,
+    "title": "Triple Shot Shooting Drill for Defense",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/triple-shot-shooting-drill-defense",
+    "categories": [
+      "Shooting",
+      "Defensive",
+      "Passing",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 695,
+    "title": "Puck Tag",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-tag",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Awareness",
+      "Warm Up",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
+  },
+  {
+    "discovery_number": 696,
+    "title": "Chase the Rabbit Without Pucks - Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chase-rabbit-without-pucks-station",
+    "categories": [
+      "Skating",
+      "Agility",
+      "Backwards Skating",
+      "Stations",
+      "Third Ice Stations",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Exact-image gap sweep"
   }
 ]

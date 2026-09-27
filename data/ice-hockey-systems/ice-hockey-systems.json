@@ -27619,5 +27619,298 @@
     "member_only": true,
     "status": "verified",
     "number": 850
+  },
+  {
+    "uid": "ihs-neutral-zone-puck-races-4",
+    "title": "Neutral Zone Puck Races #4",
+    "category": "1 vs 1 / Skating / Race",
+    "drill_types": [
+      "1 vs 1",
+      "Skating",
+      "Races",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Two skaters work through tight control turns around the tire pattern, turn around the far tire, then race for a coach-played puck and attack the mini net.",
+    "coaching_points": [
+      "Use tight control turns in both directions.",
+      "Accelerate out of every turn.",
+      "Match skaters with similar speed when possible.",
+      "Compete through the puck and finish the scoring chance."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-race-4-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-race-4-web.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 851
+  },
+  {
+    "uid": "ihs-open-hips-ladder-pucks",
+    "title": "Open Hips Ladder with Pucks",
+    "category": "Skating / Puck Control / Open Hips",
+    "drill_types": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Players move through a stick ladder while opening the hips around each stick and maintaining puck control, alternating the direction of each rotation.",
+    "coaching_points": [
+      "Open the lead foot and hips before entering each turn.",
+      "Ride the inside edges through the rotation.",
+      "Keep the puck under control while the feet change direction.",
+      "Build the skating pattern first, then increase puck-handling speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/open-hips-ladder-pucks",
+    "image": "https://www.files.icehockeysystems.com/files/drills/open-hips-with-pucks-third-ice-station.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/open-hips-with-pucks-third-ice-station.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 852
+  },
+  {
+    "uid": "ihs-open-hips-ladders-without-pucks",
+    "title": "Open Hips Ladders Without Pucks",
+    "category": "Skating / Open Hips / Edgework",
+    "drill_types": [
+      "Skating",
+      "Skill Development",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Players skate through a stick ladder using open-hip turns around each stick, completing the rotation and alternating direction from one stick to the next.",
+    "coaching_points": [
+      "Open both hips and keep the knees bent through each turn.",
+      "Stay on the inside edges while rotating around the stick.",
+      "Complete the full circle before moving to the next stick.",
+      "Alternate direction to train both sides evenly."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/open-hips-ladders-without-pucks",
+    "image": "https://www.files.icehockeysystems.com/files/drills/open-hips-without-pucks-third-ice-station.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/open-hips-without-pucks-third-ice-station.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-154721-0-1770007098.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 853
+  },
+  {
+    "uid": "ihs-3-cone-skills-series-3",
+    "title": "3 Cone Skills Series #3",
+    "category": "Puck Control / Transition / Skating",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Skill Development",
+      "Transition",
+      "Stickhandling"
+    ],
+    "description": "Players make a puck move at the first cone, transition backward while handling the puck to the top of the triangle, then transition forward and continue into the next three-cone setup.",
+    "coaching_points": [
+      "Attack the first cone with speed before making the move.",
+      "Keep the puck controlled during the forward-to-backward transition.",
+      "Stay low while skating backward.",
+      "Explode forward out of the final transition."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-cone-skills-series-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/3-cones-skills-series-3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/3-cones-skills-series-3.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 854
+  },
+  {
+    "uid": "ihs-heads-up-stickhandling-station",
+    "title": "Heads Up Stickhandling Station",
+    "category": "Puck Control / Stickhandling / Awareness",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Stickhandling",
+      "Awareness",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Four skaters enter the center circle with pucks at the same time, handle in traffic with their heads up, then exit diagonally on the next whistle as the next group enters.",
+    "coaching_points": [
+      "Keep the head up and scan for other skaters.",
+      "Protect the puck while changing direction in traffic.",
+      "Use creative puck moves without losing control.",
+      "Exit quickly on the whistle so the next group can enter."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/heads-stickhandling-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8276-0-1659615762.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8276-0-1659615762.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 855
+  },
+  {
+    "uid": "ihs-neutral-zone-2-on-0-and-puck-control-station",
+    "title": "Neutral Zone 2 on 0 and Puck Control Station",
+    "category": "2 vs 0 / Passing / Puck Control",
+    "drill_types": [
+      "2 vs 0",
+      "Passing",
+      "Puck Control",
+      "Shooting",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Two players pass together toward the net for a 2-on-0 finish, then each retrieves a wall puck, works through the opposite puck-control course and finishes with another shot.",
+    "coaching_points": [
+      "Pass in stride and support underneath the puck.",
+      "Finish the first attack with a purposeful shot.",
+      "Keep the head up through the puck-control course.",
+      "Switch lines so players work both forehand and backhand patterns."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-2-0-and-puck-control-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-2-on-0-and-puck-control-station.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-2-on-0-and-puck-control-station.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 856
+  },
+  {
+    "uid": "ihs-find-the-lane-shooting-drill",
+    "title": "Find the Lane Shooting Drill",
+    "category": "Shooting / Defense / Point Shot",
+    "drill_types": [
+      "Shooting",
+      "Defensive",
+      "Skill Development"
+    ],
+    "description": "A defenseman works from the point, first shooting from a stationary position and then pulling the puck laterally along the blue line to find a shooting lane before releasing.",
+    "coaching_points": [
+      "Keep the head up while moving laterally.",
+      "Keep the puck on the forehand so the shot can be released quickly.",
+      "Change the shooting lane before releasing.",
+      "Shoot low and through the available lane."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/find-lane-shooting-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/find-the-lane-shooting-drill-diagram.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/find-the-lane-shooting-drill-diagram.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 857
+  },
+  {
+    "uid": "ihs-triple-shot-shooting-drill-defense",
+    "title": "Triple Shot Shooting Drill for Defense",
+    "category": "Shooting / Defense / Three Shot",
+    "drill_types": [
+      "Shooting",
+      "Defensive",
+      "Passing",
+      "Skill Development"
+    ],
+    "description": "A defenseman receives a coach pass and shoots after moving along the blue line, receives a second pass for another shot or one-timer, then goes to the net for a third pass and finish.",
+    "coaching_points": [
+      "Receive the first pass in a position to move the puck laterally.",
+      "Release the point shot quickly after creating a lane.",
+      "Be ready for the second pass and one-timer option.",
+      "Finish the repetition by attacking the net for the third puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/triple-shot-shooting-drill-defense",
+    "image": "https://www.files.icehockeysystems.com/files/drills/triple-shot-defense-shooting-drill.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/triple-shot-defense-shooting-drill.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 858
+  },
+  {
+    "uid": "ihs-puck-tag",
+    "title": "Puck Tag",
+    "category": "Puck Control / Awareness / Warm Up",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Awareness",
+      "Warm Up",
+      "Small Area Games"
+    ],
+    "description": "Every player handles a puck while several taggers chase. Tagged players freeze and can be released when a teammate controls the puck through the triangle formed by the frozen player's skates and stick.",
+    "coaching_points": [
+      "Keep the head up while handling the puck.",
+      "Use quick direction changes to avoid taggers.",
+      "Protect the puck while scanning for frozen teammates.",
+      "Encourage continuous movement and awareness."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-tag",
+    "image": "https://www.files.icehockeysystems.com/files/drills/puck-tag.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/puck-tag.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 859
+  },
+  {
+    "uid": "ihs-chase-the-rabbit-without-pucks-station",
+    "title": "Chase the Rabbit Without Pucks - Station",
+    "category": "Skating / Agility / Follow the Leader",
+    "drill_types": [
+      "Skating",
+      "Agility",
+      "Backwards Skating",
+      "Stations",
+      "Third Ice Stations",
+      "Sixth Ice Stations"
+    ],
+    "description": "Players work in pairs with one skater leading through creative skating patterns around barriers while the second skater mirrors the route, then switch roles after the interval.",
+    "coaching_points": [
+      "The leader should use varied turns, stops, backward skating and direction changes.",
+      "The chasing player mirrors the route as closely as possible.",
+      "Keep the feet moving and maintain control through tight spaces.",
+      "Switch leaders regularly so both players create and react."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chase-rabbit-without-pucks-station",
+    "image": "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/chase-the-rabbit-third-ice-web.png",
+    "images": [
+      "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/chase-the-rabbit-third-ice-web.png",
+      "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/chase-the-rabbit-sixth-ice-station-web.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 860
   }
 ]
