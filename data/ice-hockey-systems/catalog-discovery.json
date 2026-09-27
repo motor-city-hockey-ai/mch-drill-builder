@@ -8012,5 +8012,91 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 527,
+    "title": "Half Horse Shoe Give & Go",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-horse-shoe-give-go",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Full Ice",
+      "Flow",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 528,
+    "title": "The U Transition Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/u-transition-drill",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Transition",
+      "Full Ice",
+      "Puck Support",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 529,
+    "title": "Quick Gap 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-gap-1-1",
+    "categories": [
+      "1 vs 1",
+      "Gap",
+      "Transition",
+      "Passing",
+      "Full Ice",
+      "Defensive",
+      "Offensive",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 530,
+    "title": "Shoot and Shadow 1 vs. 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shoot-and-shadow-1-vs-1",
+    "categories": [
+      "1 vs 1",
+      "Shooting",
+      "Gap",
+      "Breakouts",
+      "Passing",
+      "Puck Support",
+      "Full Ice",
+      "Defensive",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 531,
+    "title": "Warm Up Delay",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/warm-delay",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Full Ice",
+      "Transition",
+      "Zone Entry",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
   }
 ]
