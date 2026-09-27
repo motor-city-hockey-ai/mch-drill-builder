@@ -5770,5 +5770,73 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS category search - diagram verified"
+  },
+  {
+    "discovery_number": 395,
+    "title": "Corner Tires - Small Area Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-tires-small-area-game",
+    "categories": [
+      "1 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS small-area category search"
+  },
+  {
+    "discovery_number": 396,
+    "title": "Offense to Defense 2 on 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/offense-defense-2-on-2",
+    "categories": [
+      "2 vs 2",
+      "Small Area Games",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS small-area category search"
+  },
+  {
+    "discovery_number": 397,
+    "title": "7 Pass 2 vs. 1 Small Area Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/7-pass-2-vs-1-small-area-game",
+    "categories": [
+      "2 vs 1",
+      "Passing",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS small-area category search"
+  },
+  {
+    "discovery_number": 398,
+    "title": "Swiss 4 vs. 2 Scoring Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swiss-4-vs-2-scoring-game",
+    "categories": [
+      "4 vs 2",
+      "2 vs 1",
+      "Passing",
+      "Shooting",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS small-area category search"
+  },
+  {
+    "discovery_number": 399,
+    "title": "Chute Angling 1 V 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chute-angling-1-v-1",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Retrievals"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS small-area category search"
   }
 ]
