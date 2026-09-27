@@ -9833,5 +9833,38 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS checking exact-diagram sweep"
+  },
+  {
+    "discovery_number": 632,
+    "title": "Norwegian Flow Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/norwegian-flow-drill",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Flow",
+      "Warm Up",
+      "Shooting",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 633,
+    "title": "Scissors Warm Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/scissors-warm",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Warm Up",
+      "Shooting",
+      "One Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
   }
 ]
