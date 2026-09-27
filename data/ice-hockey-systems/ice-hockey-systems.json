@@ -30539,5 +30539,156 @@
     "member_only": true,
     "status": "verified",
     "number": 946
+  },
+  {
+    "uid": "ihs-quarter-ice-puck-race-2",
+    "title": "Quarter Ice Puck Race #2",
+    "category": "1 on 1 / Skating / Battle",
+    "drill_types": [
+      "1 on 1",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Battle Drills",
+      "Races"
+    ],
+    "description": "Two players start between staggered tires, skate a complete figure-eight using tight control turns, then accelerate with crossovers toward the middle and race for a loose puck.",
+    "coaching_points": [
+      "Stay low through each control turn.",
+      "Keep the feet moving through the figure-eight.",
+      "Explode out of the final turn with crossovers.",
+      "Compete through the puck and finish the play."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quarter-ice-puck-race-2-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quarter-ice-puck-race-2-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 947
+  },
+  {
+    "uid": "ihs-quarter-ice-puck-race-1",
+    "title": "Quarter Ice Puck Race #1",
+    "category": "1 on 1 / Skating / Battle",
+    "drill_types": [
+      "1 on 1",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Battle Drills",
+      "Races"
+    ],
+    "description": "Two players skate forward through two tight control turns around staggered tires and then accelerate into the middle to race for a puck played by the coach.",
+    "coaching_points": [
+      "Use tight turns without losing speed.",
+      "Accelerate immediately out of each turn.",
+      "Keep the head up when entering the race.",
+      "Compete through the loose puck and attack the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quarter-ice-puck-race-1-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quarter-ice-puck-race-1-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 948
+  },
+  {
+    "uid": "ihs-neutral-zone-puck-races-7",
+    "title": "Neutral Zone Puck Races #7",
+    "category": "1 on 1 / Skating / Race",
+    "drill_types": [
+      "1 on 1",
+      "Skating",
+      "Stations",
+      "Third Ice Stations",
+      "Backwards Skating",
+      "Races"
+    ],
+    "description": "Players begin skating backward through a tire pattern, transition forward and backward through the course, then turn forward and race for a puck played into open space by the coach.",
+    "coaching_points": [
+      "Start backward with strong first pushes.",
+      "Make clean backward-to-forward transitions.",
+      "Keep balance and speed around each tire.",
+      "Accelerate hard into the final puck race."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-7",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-race-7-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-race-7-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 949
+  },
+  {
+    "uid": "ihs-d-spinorama",
+    "title": "D-Spinorama",
+    "category": "Passing / Pre Game / Warm Up",
+    "drill_types": [
+      "Passing",
+      "Pre Game",
+      "Warm Up",
+      "Backwards Skating",
+      "Skating"
+    ],
+    "description": "Partners move toward each other with one player skating forward and the other backward. They exchange the puck near center, then the receiver uses a spin or escape move before reversing the roles.",
+    "coaching_points": [
+      "Use eyes and stick position to sell the fake.",
+      "Practice escape moves to both sides.",
+      "Transition backward smoothly after making the pass.",
+      "Keep the pass flat and on the receiver's stick."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Hockey Coach Vision",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-spinorama",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-153506-1615353891.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-153506-1615353891.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 950
+  },
+  {
+    "uid": "ihs-clean-your-room",
+    "title": "Clean Your Room",
+    "category": "Small Area Game / Passing / Station",
+    "drill_types": [
+      "Passing",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Awareness"
+    ],
+    "description": "Two teams stay on opposite halves of a small area and try to clear every puck from their own side by passing pucks along the ice into the opponent's half.",
+    "coaching_points": [
+      "Use proper passing technique instead of lifting pucks.",
+      "Retrieve and move pucks continuously.",
+      "Scan for open lanes before passing.",
+      "Read opponents and look to intercept incoming pucks."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/clean-your-room",
+    "image": "https://www.files.icehockeysystems.com/files/drills/clean-your-room.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/clean-your-room.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 951
   }
 ]
