@@ -8302,5 +8302,85 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 544,
+    "title": "Short Track Flim Flom",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/short-track-flim-flom",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Shooting",
+      "Passing",
+      "Full Ice",
+      "Warm Up",
+      "Conditioning"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy youth/full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 545,
+    "title": "Brittish Bulldog - Full Ice",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/brittish-bulldog-full-ice",
+    "categories": [
+      "Full Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Warm Up",
+      "Awareness",
+      "Agility"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy youth/full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 546,
+    "title": "Torpedo - Full Ice",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/torpedo-full-ice",
+    "categories": [
+      "Agility",
+      "Full Ice",
+      "Skating",
+      "Warm Up",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy youth/full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 547,
+    "title": "Sharks & Minnows - Full Ice",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sharks-minnows-full-ice",
+    "categories": [
+      "Skating",
+      "Warm Up",
+      "Full Ice",
+      "Agility",
+      "Awareness",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy youth/full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 548,
+    "title": "Bank Robbers",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bank-robbers",
+    "categories": [
+      "Puck Control",
+      "Warm Up",
+      "Full Ice",
+      "Awareness",
+      "Agility",
+      "Races"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy youth/full-ice exact-diagram sweep"
   }
 ]
