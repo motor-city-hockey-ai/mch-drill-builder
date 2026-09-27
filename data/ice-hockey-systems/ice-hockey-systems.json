@@ -25158,5 +25158,124 @@
     "original_diagram": true,
     "status": "verified",
     "number": 772
+  },
+  {
+    "uid": "ihs-4-lines-series-2",
+    "title": "4 Lines - Series 2",
+    "category": "Passing / Shooting / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Shooting",
+      "Warm Up"
+    ],
+    "description": "A progression from Series 1 where the moving player works the puck through each line before it is returned. The sequence forces players to track where the puck is coming from, where it goes next, and maintain timing through the neutral zone.",
+    "coaching_points": [
+      "Know the next pass before the puck arrives.",
+      "Use crisp tape-to-tape passes so the pattern stays on time.",
+      "Keep the feet moving through every reception.",
+      "Communicate and present a clear target to the passer."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-lines-series-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/4-lines-series2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/4-lines-series2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 773
+  },
+  {
+    "uid": "ihs-4-lines-series-3",
+    "title": "4 Lines - Series 3",
+    "category": "Passing / Shooting / Warm Up",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Full Ice",
+      "Overspeed"
+    ],
+    "description": "The third four-line progression adds repeated give-and-go exchanges with each line. The moving player must read the pattern while the second player in each line stays engaged because they often receive and return the pass.",
+    "coaching_points": [
+      "Use crisp passes and strong stick presentation.",
+      "Keep the pace high with crossovers and active feet.",
+      "Use touch passes when the timing allows.",
+      "Second players in line stay alert and ready to return the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-lines-series-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/4-lines-series3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/4-lines-series3.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 774
+  },
+  {
+    "uid": "ihs-4-lines-series-5",
+    "title": "4 Lines - Series 5",
+    "category": "Passing / Shooting / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Warm Up"
+    ],
+    "description": "A four-line passing progression where the skater passes to the opposite blue-line line, receives it back, returns it again, then continues around center ice expecting another pass from the opposite side before finishing the sequence.",
+    "coaching_points": [
+      "Pay attention to both where the puck is passed and where the return pass will come from.",
+      "Make the first give-and-go quickly without stopping the feet.",
+      "Continue the route immediately after returning the puck.",
+      "Receive the final pass in motion and finish at pace."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-lines-series-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/4-lines-series5.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/4-lines-series5.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 775
+  },
+  {
+    "uid": "ihs-swiss-warm-passing-drill",
+    "title": "Swiss Warm Up Passing Drill",
+    "category": "Passing / Full Ice / Shooting",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Flow",
+      "Puck Support"
+    ],
+    "description": "A continuous full-ice passing warm-up that relies on timing and flat passing angles. Players must stay connected to the puck and avoid getting too far ahead of the play so the next pass can be delivered cleanly.",
+    "coaching_points": [
+      "Give the passer a flat, usable passing angle.",
+      "Do not skate ahead of the puck and break the timing.",
+      "Receive and move the puck without unnecessary stickhandling.",
+      "Maintain continuous flow from both ends."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swiss-warm-passing-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/swiss-passing.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/swiss-passing.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 776
   }
 ]
