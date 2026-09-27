@@ -10163,5 +10163,135 @@
     "member_only": false,
     "status": "verified",
     "number": 310
+  },
+  {
+    "uid": "ihs-continuous-rim-drill",
+    "title": "Continuous Rim Drill",
+    "category": "Breakout / Wall Play",
+    "drill_types": [
+      "Breakouts",
+      "Full Ice",
+      "Offensive",
+      "Shooting",
+      "Wall Play",
+      "Passing",
+      "1 on 1"
+    ],
+    "description": "A continuous wall-retrieval and support drill. The first player shoots, follows the rebound, then sprints to the opposite corner to receive a rim. A supporting player times a middle swing, receives a direct pass or chip off the wall, attacks the far end for a shot, and becomes the next wall player.",
+    "coaching_points": [
+      "Wall player gets to the rim early and controls it before making the next play.",
+      "Support player times the swing through the middle rather than arriving too early.",
+      "Use a direct pass or chip based on pressure and available space.",
+      "Progress by adding a give-and-go or a defender for a live 1-on-1."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-rim-drill",
+    "source_id": "continuous-rim-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-rim-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-rim-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 311
+  },
+  {
+    "uid": "ihs-patrick-perpetual-breakout",
+    "title": "Patrick Perpetual Breakout Drill",
+    "category": "Breakout / Flow",
+    "drill_types": [
+      "Breakouts",
+      "Passing",
+      "Shooting",
+      "Full Ice",
+      "Flow",
+      "Puck Support"
+    ],
+    "description": "A continuous breakout sequence. The initiating player shoots, retrieves a puck behind the net, and starts the breakout. The low forward works as the winger on the boards while the high forward swings through as center support. The winger one-touches to the center, who attacks the far end and starts the next breakout.",
+    "coaching_points": [
+      "Low forward arrives as a reliable wall outlet.",
+      "Center times the middle route underneath the puck.",
+      "Use a quick touch from winger to center when the lane is available.",
+      "Keep the drill moving continuously after the initial whistle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/patrick-perpetual-breakout-drill",
+    "source_id": "patrick-perpetual-breakout-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/patrick_perpetual_breakout.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/patrick_perpetual_breakout.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 312
+  },
+  {
+    "uid": "ihs-blue-devils-flow",
+    "title": "Blue Devils Flow Drill",
+    "category": "Breakout / Passing / Flow",
+    "drill_types": [
+      "Passing",
+      "Breakouts",
+      "Full Ice",
+      "Flow",
+      "Shooting",
+      "Warm Up"
+    ],
+    "description": "Both ends begin with a shot, then the shooters retrieve corner pucks and start continuous passing breakouts. The next two players time deep support routes so the puck moves horizontally through the breakout, and the final receiver becomes the next shooter to keep the drill flowing.",
+    "coaching_points": [
+      "Support players take deep routes and time them to receive horizontal passes.",
+      "Keep both sides separated and continue the route even after a missed pass.",
+      "Communicate early so the flow stays synchronized.",
+      "Restart both ends together only if the timing completely breaks down."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/blue-devils-flow-drill",
+    "source_id": "blue-devils-flow-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/blue-devil-flow-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/blue-devil-flow-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 313
+  },
+  {
+    "uid": "ihs-crash-2-1",
+    "title": "Crash 2 on 1",
+    "category": "2 on 1 / Breakout / Backcheck",
+    "drill_types": [
+      "2 on 1",
+      "Breakouts",
+      "Backchecking",
+      "Full Ice",
+      "Passing",
+      "Puck Support",
+      "Transition"
+    ],
+    "description": "A winger receives a breakout pass under point pressure and uses the supporting defenseman instead of forcing the puck up the wall. The weak-side forward fills the middle lane, and the breakout turns into an odd-man attack. The pressure player transitions into the backchecker.",
+    "coaching_points": [
+      "Winger recognizes pressure and uses the supporting defenseman when the wall is closed.",
+      "Weak-side forward times the middle route to become an outlet.",
+      "Attack quickly after beating the pressure to create the odd-man advantage.",
+      "Pressure player works immediately into the backcheck after the puck escapes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/crash-2-1",
+    "source_id": "crash-2-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/crash-2v1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/crash-2v1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 314
   }
 ]
