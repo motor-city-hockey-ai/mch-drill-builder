@@ -51,18 +51,18 @@ button{cursor:pointer}
       <h2>Quick Add by Drill Number</h2>
       <p>Choose a library, narrow by drill type, then search or add by drill number.</p>
       <div class="quick-grid">
-        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 1,894 Drills</option><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 280 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
+        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 1,895 Drills</option><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 281 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
         <div class="stat-box"><small>FULL ICE DRILLS</small><strong id="fullIceCount">570</strong></div>
         <div class="stat-box"><small>SKILL ZONE DRILLS</small><strong id="skillZoneCount">452</strong></div>
         <div class="field"><label>DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
         <button class="btn red" id="quickAdd">Find Drill</button>
-        <div class="stat-box total"><small>TOTAL DRILLS</small><strong id="totalDrillCount">1,894</strong></div>
+        <div class="stat-box total"><small>TOTAL DRILLS</small><strong id="totalDrillCount">1,895</strong></div>
       </div>
       <div class="type-summary" id="typeSummary">
         <div><small>SELECTED DRILL TYPE</small><strong id="selectedTypeLabel">All Drill Types</strong></div>
         <div><small>IN THIS LIBRARY</small><strong id="typeLibraryCount">—</strong></div>
-        <div><small>ACROSS ALL DRILLS</small><strong id="typeAllCount">1,894</strong></div>
+        <div><small>ACROSS ALL DRILLS</small><strong id="typeAllCount">1,895</strong></div>
       </div>
     </section>
 
@@ -84,6 +84,9 @@ button{cursor:pointer}
     <div class="viewer-head"><h2 id="viewerNum"></h2><h3 id="viewerTitle"></h3><div class="viewer-cat" id="viewerCat"></div></div>
     <div class="viewer-image-wrap" id="viewerImageWrap"><img id="viewerImg" alt=""></div>
     <div class="viewer-tools">
+      <button class="btn light" id="prevDiagram" hidden>← Diagram</button>
+      <span id="diagramCount" style="display:none;align-self:center;font-size:11px;font-weight:900"></span>
+      <button class="btn light" id="nextDiagram" hidden>Diagram →</button>
       <button class="btn light" id="zoomOut">− Zoom</button>
       <button class="btn light" id="zoomFit">Fit</button>
       <button class="btn light" id="zoomIn">+ Zoom</button>
@@ -111,7 +114,7 @@ button{cursor:pointer}
   let bookDatabase=null;
   let ihsDatabase=null;
   let allDrillsDatabase=null;
-  let ALL_DRILL_TOTAL=1894;
+  let ALL_DRILL_TOTAL=1895;
   let teamMeta=null;
   let teamByUid=new Map();
   let coachesByUid=new Map();
@@ -125,6 +128,7 @@ button{cursor:pointer}
   let visibleLimit=60;
   let activeLibrary='team';
   let viewerDrill=null;
+  let viewerImageIndex=0;
   let zoom=100;
   const $=s=>document.querySelector(s);
   const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
@@ -166,7 +170,9 @@ button{cursor:pointer}
     }
     let html='';
     if(main.length) html+='<div class="viewer-section-title">How It Works</div><ul>'+main.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>';
-    if(keys.length) html+='<div class="viewer-key"><div class="viewer-section-title" style="margin-top:0">Key Points</div><ul>'+keys.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>';
+    const storedKeys=Array.isArray(d&&d.coaching_points)?d.coaching_points.filter(Boolean):[];
+    const allKeys=[...keys,...storedKeys.filter(x=>!keys.some(k=>String(k).toLowerCase()===String(x).toLowerCase()))];
+    if(allKeys.length) html+='<div class="viewer-key"><div class="viewer-section-title" style="margin-top:0">Key Points</div><ul>'+allKeys.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>';
     return html;
   }
 
@@ -714,6 +720,24 @@ button{cursor:pointer}
     updateTypeSummary(false);
   }
 
+  function viewerImages(d){
+    if(d&&Array.isArray(d.images)&&d.images.filter(Boolean).length)return d.images.filter(Boolean);
+    return [imageFor(d)];
+  }
+  function showViewerImage(index){
+    if(!viewerDrill)return;
+    const imgs=viewerImages(viewerDrill);
+    viewerImageIndex=Math.max(0,Math.min(imgs.length-1,Number(index)||0));
+    $('#viewerImg').src=imgs[viewerImageIndex]||imageFor(viewerDrill);
+    $('#viewerImg').alt='Drill '+viewerDrill.number+' — '+(viewerDrill.title||'')+(imgs.length>1?' — Diagram '+(viewerImageIndex+1)+' of '+imgs.length:'');
+    const multi=imgs.length>1;
+    $('#prevDiagram').hidden=!multi;
+    $('#nextDiagram').hidden=!multi;
+    $('#diagramCount').style.display=multi?'inline-block':'none';
+    $('#diagramCount').textContent=multi?('Diagram '+(viewerImageIndex+1)+' of '+imgs.length):'';
+    zoom=100;setZoom(100);
+  }
+
   function setZoom(v){
     zoom=Math.max(70,Math.min(220,v));
     const img=$('#viewerImg');
@@ -732,9 +756,9 @@ button{cursor:pointer}
   }
   async function openViewer(d){
     if(!d)return;
-    viewerDrill=d;zoom=100;setZoom(100);
+    viewerDrill=d;viewerImageIndex=0;
     try{await ensureDrillImage(d);}catch(err){console.warn('Original diagram load failed',d.uid,err);}
-    $('#viewerImg').src=imageFor(d);$('#viewerImg').alt='Drill '+d.number+' — '+(d.title||'');
+    showViewerImage(0);
     $('#viewerNum').textContent='Drill '+d.number+(d.kind==='system'?' · SYSTEM':'');
     $('#viewerTitle').textContent=d.title||'';$('#viewerCat').textContent=d.category||'';
     $('#viewerDesc').innerHTML=formatDescription(d);
@@ -747,6 +771,8 @@ button{cursor:pointer}
   function closeViewer(){$('#viewer').classList.remove('open');$('#viewer').setAttribute('aria-hidden','true');viewerDrill=null;document.body.style.overflow='';}
 
   $('#viewerClose').onclick=closeViewer;$('#viewerDone').onclick=closeViewer;$('#viewer').onclick=e=>{if(e.target===$('#viewer'))closeViewer();};
+  $('#prevDiagram').onclick=()=>showViewerImage(viewerImageIndex-1);
+  $('#nextDiagram').onclick=()=>showViewerImage(viewerImageIndex+1);
   $('#zoomIn').onclick=()=>setZoom(zoom+25);$('#zoomOut').onclick=()=>setZoom(zoom-25);$('#zoomFit').onclick=()=>setZoom(100);
   $('#addDiagram').onclick=async()=>{if(!viewerDrill)return;if(!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureDrillImage(viewerDrill);addSelected(viewerDrill,false);openViewer(viewerDrill);};
   $('#addNotes').onclick=async()=>{if(!viewerDrill)return;if(!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureDrillImage(viewerDrill);addSelected(viewerDrill,true);openViewer(viewerDrill);};
