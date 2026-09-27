@@ -25531,5 +25531,128 @@
     "original_diagram": true,
     "status": "verified",
     "number": 784
+  },
+  {
+    "uid": "ihs-4check-sticklift-and-drive",
+    "title": "4Check Sticklift and Drive",
+    "category": "Checking / Down Low / Puck Protection",
+    "drill_types": [
+      "Checking",
+      "Down Low",
+      "Puck Protection",
+      "Puck Control",
+      "Battle Drills",
+      "Shooting"
+    ],
+    "description": "The player drops into the zone, initiates controlled body contact and uses a stick lift on the first pressure point to gain possession. After winning the puck, the player reads a second layer of pressure along the wall, protects possession and attacks the middle for a play on net.",
+    "coaching_points": [
+      "Close the gap quickly with a balanced base.",
+      "Use the stick lift to separate the opponent from the puck.",
+      "Get the head up immediately after gaining possession.",
+      "Absorb the second contact with hips and shoulders while protecting the puck.",
+      "Escape pressure and drive the middle with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-sticklift-and-drive",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8572536-0-1762379461.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8572536-0-1762379461.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 785
+  },
+  {
+    "uid": "ihs-4check-hip-flips-5",
+    "title": "4Check Hip Flips",
+    "category": "Checking / Puck Protection / Wall Play",
+    "drill_types": [
+      "Checking",
+      "Puck Control",
+      "Puck Protection",
+      "Wall Play",
+      "Battle Drills"
+    ],
+    "description": "A wall-play puck-protection drill that teaches players to use their hips, body position and the boards to shield the puck under pressure while staying balanced enough to escape or make the next play.",
+    "coaching_points": [
+      "Use hips and body position to keep the defender on the back side.",
+      "Close the hips toward the boards to create a barrier around the puck.",
+      "Stay low and balanced with the knees bent.",
+      "Keep the head up to read pressure and locate the next option.",
+      "Absorb contact without surrendering possession."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-hip-flips-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8572491-0-1762379207.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8572491-0-1762379207.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 786
+  },
+  {
+    "uid": "ihs-4check-breakout-options-6",
+    "title": "4Check Breakout options",
+    "category": "Breakout / Checking / Wall Play",
+    "drill_types": [
+      "Breakouts",
+      "Checking",
+      "Wall Play",
+      "Passing",
+      "Puck Protection",
+      "Puck Support"
+    ],
+    "description": "A breakout progression that starts with body contact down low. The player wins body position, retrieves the puck and moves it to a wall-side teammate, then accelerates up ice to support the breakout and read whether the next option is a give-and-go or a chip under pressure.",
+    "coaching_points": [
+      "Initiate contact from a low, stable base.",
+      "Separate the opponent from the puck before retrieving it.",
+      "Communicate early with the wall-side teammate.",
+      "Accelerate after the pass to become a support option.",
+      "Read pressure and choose the give-and-go or chip-out option."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-breakout-options-6",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8572376-0-1762378941.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8572376-0-1762378941.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 787
+  },
+  {
+    "uid": "ihs-4check-body-contact-swing-5",
+    "title": "4Check Body Contact Swing",
+    "category": "Checking / Passing / Shooting",
+    "drill_types": [
+      "Checking",
+      "Passing",
+      "Shooting",
+      "Angling",
+      "Puck Support",
+      "Offensive"
+    ],
+    "description": "The player angles a puck carrier or dummy up the wall, finishes controlled contact to separate the puck, then immediately finds a supporting defenseman. After making the pass, the player drives the slot for a return pass and a quick shot.",
+    "coaching_points": [
+      "Establish a strong angle before initiating contact.",
+      "After contact, get the head up and find the next play immediately.",
+      "Move the puck quickly to the supporting defenseman.",
+      "Drive the slot with purpose after the pass.",
+      "Catch and release the return pass quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-body-contact-swing-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8561306-0-1762355915.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8561306-0-1762355915.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 788
   }
 ]
