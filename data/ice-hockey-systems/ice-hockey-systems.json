@@ -15955,5 +15955,76 @@
     "member_only": true,
     "status": "verified",
     "number": 489
+  },
+  {
+    "uid": "ihs-2639391",
+    "title": "Designated Shooters Umbrella Power Play Game",
+    "category": "3 vs 3",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 3",
+      "Penalty Kill",
+      "Power Play",
+      "Passing",
+      "Shooting",
+      "Small Area Games",
+      "Coverage",
+      "Net Front",
+      "One Timers"
+    ],
+    "description": "Two teams battle 2-on-2 or 3-on-3 around back-to-back nets while each side has designated umbrella point players. The team in possession can use the point players for give-and-go plays, one-timers, shots through traffic, and tips.",
+    "coaching_points": [
+      "Use the point players, then move immediately to open ice for the return option.",
+      "Point players move the puck quickly and look for one-timers or tip passes.",
+      "Defenders box out, eliminate sticks, and let the goalie see the puck.",
+      "Keep defensive sticks in lanes and force the puck toward the outside."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/designated-shooters-umbrella-power-play-game",
+    "source_id": "2639391",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2639391-0-1693852734.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2639391-0-1693852734.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 490
+  },
+  {
+    "uid": "ihs-2626811",
+    "title": "Red Baron Game",
+    "category": "3 vs 3",
+    "drill_types": [
+      "3 vs 3",
+      "4 vs 3",
+      "Power Play",
+      "Penalty Kill",
+      "Passing",
+      "Puck Control",
+      "Small Area Games",
+      "Half Ice",
+      "Coverage",
+      "Puck Support"
+    ],
+    "description": "Teams play 3-on-3 cross-ice with one neutral Red Baron who always joins the team in possession, creating a continuous 4-on-3 offensive advantage whenever the puck changes hands.",
+    "coaching_points": [
+      "Offense spreads out and uses the extra player instead of forcing plays through pressure.",
+      "Support the puck carrier on both sides so the 4-on-3 advantage stays usable.",
+      "Defenders keep sticks in lanes and protect the middle.",
+      "Transition quickly when possession changes because the neutral player switches sides immediately."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/red-baron-game-2",
+    "source_id": "2626811",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2626811-0-1693851435.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2626811-0-1693851435.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 491
   }
 ]
