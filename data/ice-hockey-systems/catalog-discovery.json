@@ -7925,5 +7925,92 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS full-ice legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 522,
+    "title": "Four Lines Overspeed Shooting #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-overspeed-shooting-1",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Shooting",
+      "Passing",
+      "Full Ice",
+      "Puck Support",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 523,
+    "title": "Four Lines Overspeed Shooting #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-overspeed-shooting-3",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Passing",
+      "Shooting",
+      "Full Ice",
+      "Puck Support",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 524,
+    "title": "Chip and Chase Angle Checking Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chip-and-chase-angle-checking-drill",
+    "categories": [
+      "1 vs 1",
+      "One Goalie",
+      "Angling",
+      "Checking",
+      "Full Ice",
+      "Puck Protection",
+      "Zone Entry",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 525,
+    "title": "Double Chip Flow Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/double-chip-flow-drill",
+    "categories": [
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Puck Support",
+      "Zone Entry",
+      "Shooting",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 526,
+    "title": "Half Horse Shoe Chip",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-horse-shoe-chip",
+    "categories": [
+      "2 vs 0",
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Wall Play",
+      "Zone Entry",
+      "Puck Support",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
   }
 ]
