@@ -15398,5 +15398,71 @@
     "member_only": true,
     "status": "verified",
     "number": 473
+  },
+  {
+    "uid": "ihs-philly-down-low-2",
+    "title": "Philly Down Low Progression #2",
+    "category": "Cycling",
+    "drill_types": [
+      "Cycling",
+      "Down Low",
+      "Offensive Zone",
+      "Half Ice",
+      "Puck Protection",
+      "Puck Support",
+      "Passing",
+      "Shooting"
+    ],
+    "description": "F1 retrieves a dump behind the net and climbs the wall with possession while F2 gets underneath for support. F1 cycles to F2, immediately re-supports for a second cycle, then takes the puck below the goal line while F2 times a move into the high slot for the scoring play.",
+    "coaching_points": [
+      "Win the loose puck with speed and keep the feet moving up the wall.",
+      "Support underneath the puck carrier and communicate on both cycle exchanges.",
+      "After making a cycle pass, immediately move to become the next support option.",
+      "Time the high-slot route so the receiver arrives as the puck moves below the goal line.",
+      "Both players finish around the net for rebounds."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/philly-down-low-progression-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/philly-down-low-progression-2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/philly-down-low-progression-2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 474
+  },
+  {
+    "uid": "ihs-3422426",
+    "title": "Cross-Fire Passing",
+    "category": "2 vs 2",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 3",
+      "Passing",
+      "Puck Support",
+      "Puck Protection",
+      "Small Area Games",
+      "Awareness",
+      "Battle Drills"
+    ],
+    "description": "Two teams compete inside a defined box with teammates stationed on opposite outside edges. Teams score by moving the puck from one outside player through the players in the middle to the teammate on the far side, rewarding support, give-and-go movement and possession under pressure.",
+    "coaching_points": [
+      "Off-puck players keep sticks available and jump into open passing lanes.",
+      "Use quick give-and-go support instead of holding the puck.",
+      "Defenders keep active sticks in lanes and angle the puck carrier away from the middle.",
+      "Shrink the box to increase pressure or expand it to give younger players more time."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/crossfire-passing-game",
+    "source_id": "3422426",
+    "image": "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/drill-maker-3422426-0-1701179196.png",
+    "images": [
+      "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/drill-maker-3422426-0-1701179196.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 475
   }
 ]
