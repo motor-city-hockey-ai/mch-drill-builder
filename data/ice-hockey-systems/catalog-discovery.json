@@ -9713,5 +9713,72 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS 4Check/body-contact exact-diagram sweep"
+  },
+  {
+    "discovery_number": 625,
+    "title": "Body Contact Hip Check w/ Breakout",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-hip-check-w-breakout-5",
+    "categories": [
+      "Breakouts",
+      "Checking",
+      "Retrievals",
+      "Defensive",
+      "Passing",
+      "Puck Support",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS body-contact exact-diagram sweep"
+  },
+  {
+    "discovery_number": 626,
+    "title": "Body Contact Catching The Rim",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-catching-rim",
+    "categories": [
+      "Checking",
+      "Retrievals",
+      "Breakouts",
+      "Wall Play",
+      "Puck Protection",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS body-contact exact-diagram sweep"
+  },
+  {
+    "discovery_number": 627,
+    "title": "Body contact sidewall with corner attack",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-sidewall-corner-attack-6",
+    "categories": [
+      "Angling",
+      "Checking",
+      "Puck Protection",
+      "Puck Control",
+      "Battle Drills",
+      "Down Low",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS body-contact exact-diagram sweep"
+  },
+  {
+    "discovery_number": 628,
+    "title": "Body contact corner pressure",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-corner-pressure-4",
+    "categories": [
+      "Checking",
+      "Down Low",
+      "Wall Play",
+      "Puck Protection",
+      "Passing",
+      "Net Front",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS body-contact exact-diagram sweep"
   }
 ]
