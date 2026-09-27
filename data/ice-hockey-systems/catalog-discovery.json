@@ -5595,5 +5595,131 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS diagram-backed search"
+  },
+  {
+    "discovery_number": 384,
+    "title": "Corner Boards 1 V 1 Loose Puck Battle",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-boards-1-v-1-battle",
+    "categories": [
+      "1 vs 1",
+      "2 vs 2",
+      "Battle Drills",
+      "Puck Protection",
+      "Small Area Games",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category search - diagram verified"
+  },
+  {
+    "discovery_number": 385,
+    "title": "1 v 1 Puck Battle to 2 v 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-puck-battle-2-v-2",
+    "categories": [
+      "1 vs 1",
+      "2 vs 2",
+      "Battle Drills",
+      "Puck Protection",
+      "Puck Support",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category search - diagram verified"
+  },
+  {
+    "discovery_number": 386,
+    "title": "Simple Passing & Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/simple-passing-shooting-drill",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Stations",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category search - diagram verified"
+  },
+  {
+    "discovery_number": 387,
+    "title": "Up and Back Progression Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/up-and-back-progression-drill",
+    "categories": [
+      "1 vs 1",
+      "2 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Full Ice",
+      "Transition",
+      "Backchecking",
+      "Communication"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category search - diagram verified"
+  },
+  {
+    "discovery_number": 388,
+    "title": "Rondo Circle Passing Progression",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/rondo-circle-passing-progression",
+    "categories": [
+      "Passing",
+      "Awareness",
+      "Puck Control",
+      "Small Area Games",
+      "Warm Up",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category search - diagram verified"
+  },
+  {
+    "discovery_number": 389,
+    "title": "Give and Go Shooting Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/give-and-go-shooting-station",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Stations",
+      "Quarter Ice Station",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category search - diagram verified"
+  },
+  {
+    "discovery_number": 390,
+    "title": "Battery Quick Release Shooting Series",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-release-shooting-series",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Skill Development",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category search - diagram verified"
+  },
+  {
+    "discovery_number": 391,
+    "title": "Howie's Warm Up Skating Evaluation Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/howies-warm-skating-evaluation-drill",
+    "categories": [
+      "Skating",
+      "Warm Up",
+      "Full Ice",
+      "Agility",
+      "Edgework",
+      "Backwards Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category search - diagram verified"
   }
 ]
