@@ -11343,5 +11343,22 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Source-page and public practice-plan exact-image verification"
+  },
+  {
+    "discovery_number": 725,
+    "title": "Toy Finder",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/toy-finder",
+    "categories": [
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Skating",
+      "Agility",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified practice-page source-image sweep"
   }
 ]
