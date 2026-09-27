@@ -7856,5 +7856,74 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS U16/U18 legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 518,
+    "title": "1 vs 1 Fox and Hound",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-vs-1-fox-and-hound",
+    "categories": [
+      "1 vs 1",
+      "Battle Drills",
+      "Conditioning",
+      "Full Ice",
+      "Races",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS full-ice legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 519,
+    "title": "2 vs. 2 Finnish Buffet Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-finnish-buffet",
+    "categories": [
+      "2 vs 2",
+      "Passing",
+      "Puck Control",
+      "Small Area Games",
+      "Offensive Zone",
+      "Defensive Zone",
+      "Full Ice",
+      "Transition",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS full-ice legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 520,
+    "title": "Full Ice Overspeed Skating Progression #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-overspeed-skating-progression-2",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Full Ice",
+      "Warm Up",
+      "Conditioning",
+      "Crossovers"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS full-ice legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 521,
+    "title": "Michigan Neutral Zone Timing Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/michigan-neutral-zone-timing-drill",
+    "categories": [
+      "3 vs 0",
+      "Passing",
+      "Transition",
+      "Neutral Zone",
+      "Full Ice",
+      "Zone Entry",
+      "Puck Support",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS full-ice legacy exact-diagram sweep"
   }
 ]
