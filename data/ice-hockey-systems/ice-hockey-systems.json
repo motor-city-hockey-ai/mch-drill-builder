@@ -30197,5 +30197,347 @@
     "member_only": true,
     "status": "verified",
     "number": 935
+  },
+  {
+    "uid": "ihs-body-contact-corner-protection-reverse-hit",
+    "title": "Body Contact Corner protection - reverse hit",
+    "category": "Checking / Retrievals / Puck Protection",
+    "drill_types": [
+      "Checking",
+      "Retrievals",
+      "Puck Protection",
+      "Wall Play"
+    ],
+    "description": "A player retrieves a loose puck in the corner, uses a controlled reverse hit against pressure, secures possession and moves the puck to a teammate in the high slot.",
+    "coaching_points": [
+      "Keep the head up before contact.",
+      "Stop under control with two feet and leave space from the boards.",
+      "Use body position to absorb pressure and secure the puck.",
+      "Move the puck quickly after winning possession."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-corner-protection-reverse-hit",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4626726-0-1724257685.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4626726-0-1724257685.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 936
+  },
+  {
+    "uid": "ihs-forward-backward-passing-drill",
+    "title": "Forward-Backward Passing Drill",
+    "category": "Passing / Warm Up / Skating",
+    "drill_types": [
+      "Passing",
+      "Puck Handling",
+      "Warm Up",
+      "Skating",
+      "Backwards Skating"
+    ],
+    "description": "Partners move together while continuously exchanging passes, with one player skating forward and the other backward. At the end of the lane they return with the skating roles reversed.",
+    "coaching_points": [
+      "Pass while both players stay in motion.",
+      "Present a clear stick target.",
+      "Receive on both forehand and backhand.",
+      "Keep the head up and maintain spacing with the partner."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/forward-backward-passing-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4578536-0-1723231386.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4578536-0-1723231386.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 937
+  },
+  {
+    "uid": "ihs-puck-protection-with-ringettes",
+    "title": "Puck Protection With Ringettes",
+    "category": "1 on 1 / Puck Protection / Battle",
+    "drill_types": [
+      "1 on 1",
+      "Puck Protection",
+      "Skill Development",
+      "Battle Drills",
+      "Coverage"
+    ],
+    "description": "Partners battle inside a circle while the offensive player protects a ringette or puck using skating, body position and stick placement against live pressure.",
+    "coaching_points": [
+      "Use the body to shield possession.",
+      "Stay low and balanced while changing direction.",
+      "Keep possession on the far side from pressure.",
+      "Use tight turns and edges instead of reaching."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-protection-with-ringettes",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2632416-0-1693852756.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2632416-0-1693852756.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 938
+  },
+  {
+    "uid": "ihs-pass-bumper-underhandle-shot",
+    "title": "Pass Off Bumper Underhandle With Shot",
+    "category": "Shooting / Puck Handling / Station",
+    "drill_types": [
+      "Puck Handling",
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "description": "Players bank a puck off a bumper in the slot, collect it in motion and push or pull it around the obstacle in one movement before releasing a quick shot.",
+    "coaching_points": [
+      "Use deception before choosing a side of the bumper.",
+      "Underhandle the puck instead of adding extra stickhandles.",
+      "Keep the eyes up to read the net.",
+      "Release immediately after clearing the obstacle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pass-bumper-underhandle-shot",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2629086-0-1743906724.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2629086-0-1743906724.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 939
+  },
+  {
+    "uid": "ihs-brunner-catch-and-shoot",
+    "title": "Brunner Catch And Shoot",
+    "category": "Shooting / Passing / Quick Release",
+    "drill_types": [
+      "Shooting",
+      "Passing",
+      "Skill Development",
+      "Half Ice"
+    ],
+    "description": "Players drive toward the net from the blue line, receive a cross-ice pass from the opposite line and catch-and-shoot without breaking stride or adding an extra stickhandle.",
+    "coaching_points": [
+      "Keep the stick on the ice as a target.",
+      "Receive the pass in the shooting pocket.",
+      "Shoot without breaking stride.",
+      "Practice both strong-side and backhand receptions."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/brunner-catch-and-shoot-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2629066-0-1693851294.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2629066-0-1693851294.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 940
+  },
+  {
+    "uid": "ihs-wise-drill",
+    "title": "Wise Drill",
+    "category": "Zone Entry / Transition / Offensive",
+    "drill_types": [
+      "Zone Entry",
+      "Passing",
+      "Offensive",
+      "Offensive Zone",
+      "Neutral Zone",
+      "2 on 0",
+      "Transition"
+    ],
+    "description": "Forwards and defensemen exchange passes through the neutral zone to create a timed entry, then continue into an offensive-zone sequence that adds net-front presence, a corner puck and a point option.",
+    "coaching_points": [
+      "Time the neutral-zone support to arrive with speed.",
+      "Move the puck flat and early through the entry.",
+      "Maintain width and layered support.",
+      "After the first shot, reload immediately into offensive-zone roles."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "TJ Manastersky",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wise-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-922386-0-1674530836.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-922386-0-1674530836.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 941
+  },
+  {
+    "uid": "ihs-4-v-2-down-low-game",
+    "title": "4 v 2 Down Low Game",
+    "category": "4 vs 2 / Down Low / Small Area Game",
+    "drill_types": [
+      "4 vs 2",
+      "One Goalie",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development",
+      "Down Low",
+      "Small Area Games"
+    ],
+    "description": "Two forwards battle two defenders in front while two stationary offensive support players work below the goal line. The offense uses support and quick puck movement to create scoring chances; a progression adds point players.",
+    "coaching_points": [
+      "Create separation without the puck.",
+      "Scan before receiving and move the puck quickly.",
+      "Defenders protect the middle and maintain body position.",
+      "Use the low support players to change the point of attack."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Kendall Coyne Schofield",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-v-2-down-low-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-920651-0-1675711768.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-920651-0-1675711768.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-920651-1-1675711768.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 942
+  },
+  {
+    "uid": "ihs-1-v-1-to-2-v-2-down-low",
+    "title": "1 V 1 to 2 V 2 Down Low",
+    "category": "1 on 1 / 2 on 2 / Battle",
+    "drill_types": [
+      "1 on 1",
+      "2 on 2",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Small Area Games",
+      "Down Low"
+    ],
+    "description": "Players compete in a very tight area below the goal line between two opposing nets. The game begins 1 on 1 and progresses to 2 on 2 to emphasize wall work, protection and quick scoring decisions.",
+    "coaching_points": [
+      "Win pucks along the wall with strong body position.",
+      "Protect possession using the wall when useful.",
+      "Use deception and self-passes in tight space.",
+      "Release shots quickly when a scoring window opens."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Kendall Coyne Schofield",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-2-v-2-down-low",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-920621-1642813651.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-920621-1642813651.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 943
+  },
+  {
+    "uid": "ihs-two-pucks-2-v-2-circle-battle",
+    "title": "Two Pucks 2 v 2 Circle Battle",
+    "category": "2 on 2 / Battle / Small Area Game",
+    "drill_types": [
+      "2 on 2",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Small Area Games",
+      "Stations",
+      "Battle Drills"
+    ],
+    "description": "Two teams of two enter a faceoff circle with two live pucks and may score on either of two opposing nets. Both pucks remain active until they are scored or leave the circle.",
+    "coaching_points": [
+      "Protect the puck in tight traffic.",
+      "Communicate constantly with the teammate.",
+      "Use quick touches and quick releases.",
+      "Track both pucks and both nets before committing."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Kendall Coyne Schofield",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/two-pucks-2-v-2-circle-battle",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-919531-1642813682.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-919531-1642813682.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 944
+  },
+  {
+    "uid": "ihs-ring-of-fire-5",
+    "title": "Ring of Fire",
+    "category": "3 on 3 / Passing / Small Area Game",
+    "drill_types": [
+      "3 on 3",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development",
+      "Offensive",
+      "Small Area Games"
+    ],
+    "description": "A 3 on 3 game is played around a faceoff circle with one player from each team inside and the remaining teammates outside. Teams use quick support, passing and shooting to attack either end.",
+    "coaching_points": [
+      "Move the puck quickly.",
+      "Get open off the puck and communicate.",
+      "Present the stick as a clear passing target.",
+      "Defenders keep sticks in lanes and pressure without losing shape."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Kendall Coyne Schofield",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/ring-fire-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-919046-1642813498.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-919046-1642813498.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 945
+  },
+  {
+    "uid": "ihs-honey-hole",
+    "title": "Honey Hole",
+    "category": "Shooting / Defense / Blue Line",
+    "drill_types": [
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station",
+      "Offensive Zone",
+      "Defensive"
+    ],
+    "description": "A defenseman receives a sequence of passes at the blue line and works three releases around a net used as traffic: shoot around it, fake behind it, then jump laterally into open ice for the final shot.",
+    "coaching_points": [
+      "Communicate and present the stick for each pass.",
+      "Move laterally to clear traffic before shooting.",
+      "Pull the puck toward the toes to create a new lane.",
+      "Receive and release quickly when jumping into the open lane."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "NewEdge Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/honey-hole",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-475991-0-1670516004.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-475991-0-1670516004.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 946
   }
 ]
