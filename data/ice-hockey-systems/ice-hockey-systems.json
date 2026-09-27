@@ -24754,5 +24754,314 @@
     "original_diagram": true,
     "status": "verified",
     "number": 759
+  },
+  {
+    "uid": "ihs-full-ice-overspeed-skating-progression-3",
+    "title": "Full Ice Overspeed Skating Progression #3",
+    "category": "Skating / Overspeed / Full Ice",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Full Ice",
+      "Warm Up",
+      "Crossovers",
+      "Conditioning"
+    ],
+    "description": "Players leave from opposite corners, use quick crossovers around the top of one circle and bottom of the next, then continue down the ice with three crossovers toward the middle followed by three back toward the outside.",
+    "coaching_points": [
+      "Move the feet as fast as possible through the circle work.",
+      "Complete a full three crossovers in each lateral direction.",
+      "Create power from the outside edge of the skate crossing underneath.",
+      "Stay balanced and keep speed through the entire full-ice route."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-overspeed-skating-progression-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/overspeed-progression-3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/overspeed-progression-3.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 760
+  },
+  {
+    "uid": "ihs-swedish-transition-series-1",
+    "title": "Swedish Transition Series #1",
+    "category": "3 vs 0 / Transition / Neutral Zone",
+    "drill_types": [
+      "3 vs 0",
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Neutral Zone",
+      "Puck Support",
+      "Offensive",
+      "Defensive"
+    ],
+    "description": "A defense-to-forward transition sequence focused on gaining the middle and timing neutral-zone support. D1 receives while moving backward, gets between the cones and finds F2 in stride; F1 fills underneath, while F2 attacks wide and looks for F1 arriving high.",
+    "coaching_points": [
+      "Defense receives the puck while moving and faces up ice through the transition.",
+      "Gain the middle before making the next pass.",
+      "F2 times the neutral-zone route so the puck arrives in stride.",
+      "After the pass, D1 follows the play and transitions backward as if possession has changed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swedish-transition-series-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/swedish-transition-series-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/swedish-transition-series-1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 761
+  },
+  {
+    "uid": "ihs-full-ice-overspeed-skating-progression-2-pucks",
+    "title": "Full Ice Overspeed Skating Progression #2 with Pucks",
+    "category": "Skating / Overspeed / Puck Control",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Puck Control",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Zone Entry"
+    ],
+    "description": "The puck-carrying variation of the full-ice overspeed progression. Two players build speed through the route, then one attacks wide for a moving shot while the other cuts to the middle on the inside edge for a high-slot finish.",
+    "coaching_points": [
+      "Do not let puck handling slow the skating cadence.",
+      "Push the puck into space instead of overhandling it.",
+      "The outside player shoots with the feet moving from the wide lane.",
+      "The second player gains the middle on the inside edge and finishes from the high slot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-overspeed-skating-progression-2-pucks",
+    "image": "https://www.files.icehockeysystems.com/files/drills/overspeed-progression-2-with-pucks.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/overspeed-progression-2-with-pucks.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 762
+  },
+  {
+    "uid": "ihs-full-ice-overspeed-transitions",
+    "title": "Full Ice Overspeed Transitions",
+    "category": "Skating / Transition / Full Ice",
+    "drill_types": [
+      "Backwards Skating",
+      "Skating",
+      "Transition",
+      "Full Ice",
+      "Warm Up",
+      "Tryout",
+      "Overspeed"
+    ],
+    "description": "Players start backward, transition forward at the top of the first circle, skate forward to the bottom of the next circle, then transition back to backward skating and use C-cuts down the rest of the ice.",
+    "coaching_points": [
+      "Stay low and balanced on the balls of the feet.",
+      "Open the hips cleanly before accelerating forward.",
+      "When transitioning backward, keep the chest square to the end boards.",
+      "Use as few unnecessary crossovers as possible before settling into strong backward C-cuts."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-overspeed-transitions",
+    "image": "https://www.files.icehockeysystems.com/files/drills/full-ice-overspeed-progression-transitions-diagram.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/full-ice-overspeed-progression-transitions-diagram.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 763
+  },
+  {
+    "uid": "ihs-stretch-and-go-flow",
+    "title": "Stretch and Go Flow",
+    "category": "Passing / Shooting / Flow",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Flow",
+      "Full Ice",
+      "Warm Up",
+      "Puck Support"
+    ],
+    "description": "Four corner lines run a staggered full-ice warm-up. P1 advances up the wall and finds P2 swinging through the middle. P2 enters wide, delays below the dots and returns the puck to P1 arriving in the high slot for a quick shot.",
+    "coaching_points": [
+      "Time the middle swing so the pass is received in motion.",
+      "Enter the offensive zone wide and stay under control below the dots.",
+      "Present a clear high-slot target after making the first pass.",
+      "Receive and release the final shot as quickly as possible."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stretch-and-go-flow",
+    "image": "https://www.files.icehockeysystems.com/files/drills/stretch-n-go-flow.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/stretch-n-go-flow.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 764
+  },
+  {
+    "uid": "ihs-avalanche-flow-drill",
+    "title": "Avalanche Flow Drill",
+    "category": "2 vs 0 / Flow / Transition",
+    "drill_types": [
+      "2 vs 0",
+      "Flow",
+      "Full Ice",
+      "Passing",
+      "Transition",
+      "Shooting",
+      "Puck Support"
+    ],
+    "description": "A continuous full-ice passing and timing drill with multiple shots. Players exchange short passes, transition through the corners, create horizontal passing angles through the middle and finish the sequence by joining a 2-on-0 rush at the opposite end.",
+    "coaching_points": [
+      "Create horizontal passing angles instead of relying on long vertical passes.",
+      "Forwards face up ice quickly after transitioning through the corner.",
+      "Defense gains the middle while controlling the puck before moving it.",
+      "Time the final support so the two-player rush attacks with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/avalanche-flow-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1234-0-1722097809.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1234-0-1722097809.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 765
+  },
+  {
+    "uid": "ihs-lulea-2-v-0-warm-up",
+    "title": "Lulea 2 v 0 Neutral Zone Warm Up",
+    "category": "2 vs 0 / Neutral Zone / Passing",
+    "drill_types": [
+      "2 vs 0",
+      "Passing",
+      "Warm Up",
+      "Neutral Zone",
+      "Flow",
+      "Puck Support",
+      "Zone Entry",
+      "Shooting"
+    ],
+    "description": "A neutral-zone warm-up built around manipulating passive pressure and finding passing lanes. Two forwards work the puck through players stationed on the blue lines, then join for a 2-on-0 rush with a coach providing passive resistance.",
+    "coaching_points": [
+      "Players without the puck move to create a clear passing lane.",
+      "Puck carriers use lateral movement to manipulate the passive defender.",
+      "Join the 2-on-0 with a strong middle-lane drive and wide support.",
+      "Goalie warm-up shots should come from outside the dots with attention to rebound control."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ben Eaves",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/lulea-2-v-0-warm-up",
+    "image": "https://www.files.icehockeysystems.com/files/drills/lulea-2vs0-neutral-zone-warm-up.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/lulea-2vs0-neutral-zone-warm-up.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 766
+  },
+  {
+    "uid": "ihs-double-swing-full-ice-flow-drill",
+    "title": "Double Swing Full Ice Flow Drill",
+    "category": "Passing / Flow / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Warm Up",
+      "Shooting",
+      "Puck Support"
+    ],
+    "description": "A higher-level full-ice flow drill built around three consecutive passes. P1 shoots and continues into the corner, P2 leaves a puck and turns inside for a return pass, then P3 swings outside to receive the next pass before attacking the opposite net.",
+    "coaching_points": [
+      "Keep all three passes crisp and on time.",
+      "After shooting, continue immediately into the next support role.",
+      "Turn toward the puck and present the stick before receiving.",
+      "Once timing is clean, run the sequence from both ends to increase pace."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/double-swing-full-ice-flow-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/double-swing-flow-drill-diagram.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/double-swing-flow-drill-diagram.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 767
+  },
+  {
+    "uid": "ihs-2-0-continuous-chip-flow",
+    "title": "2 on 0 Continuous Chip Flow",
+    "category": "2 vs 0 / Flow / Chip",
+    "drill_types": [
+      "2 vs 0",
+      "Flow",
+      "Full Ice",
+      "Passing",
+      "Wall Play",
+      "Puck Support",
+      "Shooting",
+      "Zone Entry"
+    ],
+    "description": "A continuous 2-on-0 flow with a neutral-zone chip. P1 moves the puck across to P2, P2 attacks the coach and chips the puck off the wall to a swinging P3, then drives hard to the net while P3 enters wide and shoots for a rebound.",
+    "coaching_points": [
+      "P2 attacks the coach before placing a controlled chip into space.",
+      "P3 calls for the chip and times the swing to receive it with speed.",
+      "After chipping, P2 drives directly to the net and hunts the rebound.",
+      "Keep the sequence continuous by rotating the original puck carrier into the next support role."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-continuous-chip-flow",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2-on-0-Continuous-Chip-Flow.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2-on-0-Continuous-Chip-Flow.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 768
+  },
+  {
+    "uid": "ihs-4-lines-series-4",
+    "title": "4 Lines - Series 4",
+    "category": "Passing / Shooting / Flow",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Tryout",
+      "Flow",
+      "Full Ice",
+      "Warm Up"
+    ],
+    "description": "A four-line warm-up variation that requires players to track where the next pass comes from and where their next support route goes. The receiver in neutral ice attacks the blue line with speed and finishes with a moving shot.",
+    "coaching_points": [
+      "Players stay engaged so they know both the next passing target and next receiving lane.",
+      "Receive the neutral-zone pass in motion.",
+      "Attack the blue line with speed rather than slowing before entry.",
+      "Shoot with the feet moving and continue through the play."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-lines-series-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/4-lines-series4.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/4-lines-series4.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 769
   }
 ]
