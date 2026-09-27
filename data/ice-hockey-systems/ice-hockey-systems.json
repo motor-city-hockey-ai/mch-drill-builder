@@ -11684,5 +11684,102 @@
     "member_only": true,
     "status": "verified",
     "number": 357
+  },
+  {
+    "uid": "ihs-5137771",
+    "title": "NZ Regroup",
+    "category": "3 on 2 / Regroup",
+    "drill_types": [
+      "3 on 2",
+      "4 on 2",
+      "Re-Group",
+      "Transition",
+      "Passing",
+      "Full Ice",
+      "Neutral Zone",
+      "Gap"
+    ],
+    "description": "Three forwards work through a neutral-zone regroup with defensemen before attacking up ice. The progression uses a second regroup option and can add a tracking player to create a four-player attack against two defenders.",
+    "coaching_points": [
+      "Forwards time their routes so they stay underneath the puck and available.",
+      "Defensemen move the puck quickly D-to-D before finding the best outlet.",
+      "Attack the final rush with width, middle support and speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Daniel Paille",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-nz-regroup",
+    "source_id": "5137771",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5137771-0-1729732358.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5137771-0-1729732358.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5137771-1-1729732358.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 358
+  },
+  {
+    "uid": "ihs-5850576",
+    "title": "2 on 2 Transition & Track",
+    "category": "2 on 2 / Transition",
+    "drill_types": [
+      "2 on 2",
+      "Transition",
+      "Tracking",
+      "Backchecking",
+      "Small Area Games",
+      "Neutral Zone",
+      "Puck Support"
+    ],
+    "description": "A continuous 2-on-2 transition game through the middle of the ice. New attackers activate as the puck changes direction while previous attackers track back and become part of the defensive pressure.",
+    "coaching_points": [
+      "Transition immediately when possession changes.",
+      "Track through the middle and identify the most dangerous attacker.",
+      "Offense supports the puck with staggered lanes rather than skating side-by-side."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jason Lammers",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-2-transition-track",
+    "source_id": "5850576",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5850576-0-1736788405.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5850576-0-1736788405.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 359
+  },
+  {
+    "uid": "ihs-4786846",
+    "title": "Side Middle Side",
+    "category": "Passing / Warm-Up",
+    "drill_types": [
+      "Passing",
+      "Warm Up",
+      "Puck Control",
+      "Awareness",
+      "Full Ice",
+      "Flow"
+    ],
+    "description": "A whole-team passing warm-up with players stationed on both sides of the neutral zone. Pucks move side-to-middle-to-side while players exchange lanes and keep their heads up in traffic.",
+    "coaching_points": [
+      "Scan before receiving because multiple pucks and players are moving at once.",
+      "Present a clear target and make firm passes.",
+      "Move immediately after passing instead of watching the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/side-middle-side-passing",
+    "source_id": "4786846",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4786846-0-1726502088.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4786846-0-1726502088.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 360
   }
 ]
