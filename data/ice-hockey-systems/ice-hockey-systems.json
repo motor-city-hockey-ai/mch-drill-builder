@@ -9914,5 +9914,254 @@
     "member_only": false,
     "status": "verified",
     "number": 302
+  },
+  {
+    "uid": "ihs-half-ice-full-length-breakout-pass",
+    "title": "Half Ice (Full Length) Breakout Pass",
+    "category": "Passing / Breakout / Backcheck",
+    "drill_types": [
+      "Breakouts",
+      "Passing",
+      "Backchecking",
+      "Stations",
+      "Full Ice",
+      "Shooting"
+    ],
+    "description": "A station-based full-length passing drill. A player passes to the coach, opens along the wall for the return pass, then attacks the length of the ice for a shot. The progression adds a second player who follows the initial pass and backchecks the puck carrier.",
+    "coaching_points": [
+      "Open up to the puck along the wall so the return pass can be received in stride.",
+      "Accelerate after the catch and carry speed the full length of the ice.",
+      "On the progression, the backchecker follows with real pressure instead of coasting."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-full-length-breakout-pass",
+    "source_id": "half-ice-full-length-breakout-pass",
+    "image": "https://www.files.icehockeysystems.com/files/drills/half-ice-full-length-breakout-pass-diagram.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/half-ice-full-length-breakout-pass-diagram.png",
+      "https://www.files.icehockeysystems.com/files/drills/half-ice-full-length-breakout-pass-with-backchecker-diagram.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 303
+  },
+  {
+    "uid": "ihs-simple-breakout-reverse-2-1",
+    "title": "Simple Breakout Reverse to 2 on 1",
+    "category": "2 on 1 / Breakout",
+    "drill_types": [
+      "2 on 1",
+      "Breakouts",
+      "Full Ice",
+      "Passing",
+      "Retrievals",
+      "Transition"
+    ],
+    "description": "Two defensemen execute a reverse breakout after a dump-in. The strong-side defenseman wheels behind the net and banks the reverse to the partner, who moves the puck to the wall. Two forwards support the breakout and then attack the defender from the opposite end 2-on-1.",
+    "coaching_points": [
+      "Weak-side defenseman communicates the reverse early and arrives ready to receive it.",
+      "Forwards provide wall and middle support rather than leaving the zone too early.",
+      "Defender who made the breakout pass retakes ice quickly for the incoming 2-on-1."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/simple-breakout-reverse-2-1",
+    "source_id": "simple-breakout-reverse-2-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/simple-breakout-reverse-2v1.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/simple-breakout-reverse-2v1.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 304
+  },
+  {
+    "uid": "ihs-simple-breakout-d-d-1-1",
+    "title": "Simple Breakout - D to D to 1 on 1",
+    "category": "1 on 1 / Breakout",
+    "drill_types": [
+      "1 on 1",
+      "Breakouts",
+      "Full Ice",
+      "Passing",
+      "Gap",
+      "Transition"
+    ],
+    "description": "Two defensemen move the puck D-to-D on the breakout before finding the forward through the middle. The forward then attacks the defender from the opposite end in a live 1-on-1.",
+    "coaching_points": [
+      "Defensemen work in tandem so the receiving D is facing up ice when the puck arrives.",
+      "Forward times the swing to receive a horizontal pass with speed.",
+      "After moving the puck, the defending player retakes ice immediately to establish gap."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/simple-breakout-d-d-1-1",
+    "source_id": "simple-breakout-d-d-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/simple-breakout-d-to-d-1v1.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/simple-breakout-d-to-d-1v1.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 305
+  },
+  {
+    "uid": "ihs-simple-breakout-control-2-1",
+    "title": "Simple Breakout - Control to 2 on 1",
+    "category": "2 on 1 / Breakout",
+    "drill_types": [
+      "2 on 1",
+      "Breakouts",
+      "Full Ice",
+      "Passing",
+      "Puck Support",
+      "Transition"
+    ],
+    "description": "The defenseman recognizes time, controls the puck behind the net, and starts a controlled breakout. One forward swings low while the second forward initially holds the wall before filling middle ice. The play develops into a 2-on-1.",
+    "coaching_points": [
+      "Defenseman uses available time instead of rushing the first play.",
+      "Low forward times the swing below the goal line while the second forward creates width.",
+      "Once the breakout starts, fill separate lanes and attack the 2-on-1 with pace."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/simple-breakout-control-2-1",
+    "source_id": "simple-breakout-control-2-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/control-breakout-2-on-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/control-breakout-2-on-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 306
+  },
+  {
+    "uid": "ihs-simple-breakout-counter-1-1",
+    "title": "Simple Breakout - Counter - 1 on 1",
+    "category": "1 on 1 / Breakout",
+    "drill_types": [
+      "1 on 1",
+      "Breakouts",
+      "Full Ice",
+      "Passing",
+      "Retrievals",
+      "Gap"
+    ],
+    "description": "A defenseman retrieves the dump, wheels toward the far post, stops and counters back the other direction. The forward works down to the half wall and transitions up ice for the breakout pass, then attacks the opposite defender 1-on-1.",
+    "coaching_points": [
+      "Sell the wheel before stopping and countering back the other way.",
+      "Forward gets low enough to remain a usable outlet and accelerates after the pass.",
+      "Defenseman retakes as much ice as possible after making the breakout pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/simple-breakout-counter-1-1",
+    "source_id": "simple-breakout-counter-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/simple-breakout-counter-1v1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/simple-breakout-counter-1v1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 307
+  },
+  {
+    "uid": "ihs-34811",
+    "title": "Simple Breakout 1 on 1",
+    "category": "1 on 1 / Breakout",
+    "drill_types": [
+      "1 on 1",
+      "Breakouts",
+      "Full Ice",
+      "Passing",
+      "Retrievals",
+      "Gap"
+    ],
+    "description": "The forward dumps the puck, opens on the wall and receives a breakout pass from a defenseman who retrieves and wheels around the net. The forward then attacks the opposite-end defenseman 1-on-1 while the passer follows up ice to defend the next rush.",
+    "coaching_points": [
+      "Defenseman retrieves under control and makes a strong first pass.",
+      "Forward opens to the puck on the wall and receives the pass in stride.",
+      "After the outlet, the defenseman closes space quickly for the incoming 1-on-1."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/simple-breakout-1-1",
+    "source_id": "34811",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-34811-0-1661866371.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-34811-0-1661866371.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 308
+  },
+  {
+    "uid": "ihs-continuous-breakouts-designated-forechecker",
+    "title": "Continuous Breakouts with Designated Forechecker",
+    "category": "Breakout / Forecheck",
+    "drill_types": [
+      "Breakouts",
+      "Forechecking",
+      "Full Ice",
+      "Flow",
+      "Transition",
+      "Puck Support"
+    ],
+    "description": "A continuous breakout variation where the coach designates one forward position to stay out and forecheck after the dump. The remaining players rotate while the next unit breaks out against that pressure.",
+    "coaching_points": [
+      "Forechecker applies real pressure and angles the next breakout group.",
+      "Breakout unit communicates early and maintains normal support routes.",
+      "Use the rotation to rehearse changing on the fly while one player maintains pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-breakouts-designated-forechecker",
+    "source_id": "continuous-breakouts-designated-forechecker",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-breakouts-designated-forechecker.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-breakouts-designated-forechecker.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 309
+  },
+  {
+    "uid": "ihs-savys-continuous-breakout",
+    "title": "Savy's Continuous Breakout Drill",
+    "category": "Breakout / Flow",
+    "drill_types": [
+      "Breakouts",
+      "Passing",
+      "Full Ice",
+      "Flow",
+      "Warm Up",
+      "Retrievals"
+    ],
+    "description": "Five-player units continuously retrieve a dump and execute a pre-called breakout. As one unit exits, the next unit moves into position. The breakout call can be changed every few repetitions to rehearse wheel, strong-side, reverse, counter and other options.",
+    "coaching_points": [
+      "Run the called breakout with game-speed routes and communication.",
+      "Next unit prepares early so the drill remains continuous.",
+      "Change the breakout call regularly rather than allowing players to run one pattern on autopilot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/savys-continuous-breakout-drill",
+    "source_id": "savys-continuous-breakout-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-breakouts-D-to-C.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-breakouts-D-to-C.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 310
   }
 ]
