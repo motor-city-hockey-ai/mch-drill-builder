@@ -37,11 +37,11 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 756,
-    "catalog_items_verified": 756,
+    "catalog_items_imported": 757,
+    "catalog_items_verified": 757,
     "catalog_target": 1573,
-    "last_batch": "IHS master page 12 exact-image six-drill batch",
-    "original_diagrams_verified": 756,
+    "last_batch": "IHS Sabre exact-image import",
+    "original_diagrams_verified": 757,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
@@ -49,13 +49,13 @@
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue master-catalog page 13 reconciliation; only import source records with verified IHS rink diagrams.",
+    "next_step": "Continue exact-diagram verification from drill 758, prioritizing missing full-ice, transition and backchecking records.",
     "multi_diagram_drills_preserved": 41,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 6,
-    "last_batch_notes": "Added drills 751-756: Horseshoe Re-Group Drill; Transition, Protect & Shoot; Four Cone Neutral Zone Drill; Quick Hinge Warm Up Hockey Drill; Split Passing Game; Transition Sequence 1 on 1 to 2 on 1.",
+    "last_batch_imported": 1,
+    "last_batch_notes": "Added drill 757: Sabre O-zone Escape Drill using the verified original IHS Drill Maker image.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -79,6 +79,6 @@
       "Castleton Puck Protection Drill - page does not currently expose a resolvable original rink diagram; defer."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 6
+    "last_batch_discovered": 1
   }
 }
