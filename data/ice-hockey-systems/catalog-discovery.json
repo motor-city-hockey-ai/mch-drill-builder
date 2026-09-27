@@ -10561,5 +10561,52 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS relay/race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 676,
+    "title": "Defensive Pivot Races",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defensive-pivot-races",
+    "categories": [
+      "Skating",
+      "Relay Races",
+      "Agility",
+      "Half Ice",
+      "Backwards Skating",
+      "Races"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS relay/race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 677,
+    "title": "Sweet Heart Relay Scoring Race",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sweet-heart-relay-scoring-race",
+    "categories": [
+      "Relay Races",
+      "Shooting",
+      "Small Area Games",
+      "Tryout",
+      "Half Ice",
+      "1 vs 0"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS relay/race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 678,
+    "title": "3 Puck Break Away Races",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-puck-break-away-races",
+    "categories": [
+      "Full Ice",
+      "Relay Races",
+      "Shooting",
+      "Conditioning",
+      "Races"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS relay/race exact-diagram sweep"
   }
 ]
