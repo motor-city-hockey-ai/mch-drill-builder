@@ -7982,5 +7982,514 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-7535826",
+    "number": 248,
+    "title": "1 v 1 Through Gates",
+    "category": "1 on 1 / Puck Protection / Gap",
+    "drill_types": [
+      "1 on 1",
+      "Battle Drills",
+      "Checking",
+      "Gap",
+      "Half Ice",
+      "Puck Protection",
+      "Stations",
+      "Quarter Ice Station",
+      "Angling",
+      "Deception"
+    ],
+    "description": "A live 1-on-1 where each player attacks the opponent's gate. Players score by carrying the puck through the gate, so possession changes instantly flip offense and defense.",
+    "coaching_points": [
+      "Defender keeps a tight gap, watches the player and forces outside.",
+      "Keep the stick on the ice to close lanes.",
+      "Offense uses body position, deception and dekes to create space.",
+      "Make gates smaller or the area tighter to increase difficulty."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_license_note": "Content licensed from the International Ice Hockey Federation (IIHF).",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-through-gates-2",
+    "source_id": "7535826",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7535826-0-1759248254.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7535826-0-1759248254.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-7515146",
+    "number": 249,
+    "title": "Defend The Gate",
+    "category": "1 on 1 / Angling / Gap Control",
+    "drill_types": [
+      "1 on 1",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Half Ice",
+      "Offensive",
+      "Puck Control",
+      "Puck Protection",
+      "Stations",
+      "Gap"
+    ],
+    "description": "The attacker starts ahead with the puck and tries to reach a gate while the trailing defender works to angle the puck carrier outside and prevent the middle attack.",
+    "coaching_points": [
+      "Defender wins with body angle and stick position rather than chasing the puck.",
+      "Match the attacker's speed before closing.",
+      "Offense protects the puck and uses deception to gain middle ice.",
+      "Change gate size to adjust difficulty."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_license_note": "Content licensed from the International Ice Hockey Federation (IIHF).",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defend-gate-3",
+    "source_id": "7515146",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7515146-0-1759248315.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7515146-0-1759248315.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-7017076",
+    "number": 250,
+    "title": "Corner Houda",
+    "category": "Wall Play / Retrievals / Defensive Zone",
+    "drill_types": [
+      "3 on 3",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "Penalty Kill",
+      "Power Play",
+      "Small Area Games",
+      "Transition",
+      "Wall Play",
+      "Retrievals"
+    ],
+    "description": "A rim starts a live corner battle. The offensive group retrieves and attacks while the defenders protect structure, then the defensive group must skate or pass the puck out to transition. The format can scale from 3-on-3 into 5-on-3 or 5-on-4 special-teams work.",
+    "coaching_points": [
+      "Win the wall retrieval with body position and communication.",
+      "Defenders maintain layers, net-front coverage and sticks in lanes.",
+      "Offense creates quickly after gaining the rim.",
+      "Use different manpower situations to teach d-zone, PP and PK habits."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Dave Smith",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-houda-drill",
+    "source_id": "7017076",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7017076-0-1744907440.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7017076-0-1744907440.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-6056416",
+    "number": 251,
+    "title": "2 on 2 Net to Corner",
+    "category": "2 on 2 / Wall Play / Puck Protection",
+    "drill_types": [
+      "2 on 2",
+      "Battle Drills",
+      "Down Low",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Wall Play",
+      "Scanning"
+    ],
+    "description": "A 2-on-2 battle is played in a tight corner with the net angled toward the middle. After each possession change, the new attacking team must tag the puck back behind the goal-line boundary before attacking again.",
+    "coaching_points": [
+      "Use body position to shield the puck along the wall.",
+      "Shoulder-check before receiving or escaping pressure.",
+      "Make quick give-and-go plays instead of holding the puck.",
+      "Defenders pressure the puck and anticipate the next play."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-2-net-corner",
+    "source_id": "6056416",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6056416-0-1744834840.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6056416-0-1744834840.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-7778331",
+    "number": 252,
+    "title": "2 v 0 High Roll",
+    "category": "Wall Retrieval / Switch / High Roll",
+    "drill_types": [
+      "2 on 0",
+      "Cycling",
+      "Offensive Zone",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations",
+      "Wall Play",
+      "Retrievals",
+      "Shooting"
+    ],
+    "description": "One player rims the puck down the wall. The low player picks it cleanly off the boards, gets off the wall, meets the original passer for a switch, then rolls high into space for a return pass and in-stride shot.",
+    "coaching_points": [
+      "Absorb the rim and move off the wall immediately.",
+      "Time the switch so both players keep speed.",
+      "High roll creates separation and a clear passing lane.",
+      "Catch and release the final pass without breaking stride."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-0-high-roll",
+    "source_id": "7778331",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7778331-0-1758563771.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7778331-0-1758563771.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-3208176",
+    "number": 253,
+    "title": "Pearl 4 v 2 Game",
+    "category": "Special Teams / 4 on 2 / Competition",
+    "drill_types": [
+      "4 vs 2",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Transition",
+      "Battle Drills",
+      "Half Ice",
+      "Defensive",
+      "One-Timer"
+    ],
+    "description": "A cross-ice 4-on-2 special-teams game uses a scoring system that rewards power-play goals, one-timers and shorthanded goals. Teams alternate which group receives the power play.",
+    "coaching_points": [
+      "Power play supports the puck with multiple outlets and moves it faster than the PK can recover.",
+      "Penalty killers keep sticks in lanes and angle play outside.",
+      "Swarm loose pucks after turnovers.",
+      "Change the scoring system to reward the skill or behavior you want."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pearl-4-v-2-game",
+    "source_id": "3208176",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3208176-0-1698842267.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3208176-0-1698842267.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-2631176",
+    "number": 254,
+    "title": "The Backcheck Game",
+    "category": "Backchecking / Transition / Small Area Game",
+    "drill_types": [
+      "Puck Protection",
+      "Small Area Games",
+      "Transition",
+      "2 on 2",
+      "Backchecking",
+      "Battle Drills",
+      "Half Ice",
+      "Coverage",
+      "Passing",
+      "Shooting"
+    ],
+    "description": "A high-tempo cross-ice game begins 2-on-0 with two opponents backchecking. When the backcheckers win the puck, they break out fresh teammates waiting in the neutral-zone lane to attack the other way.",
+    "coaching_points": [
+      "Offense attacks quickly and looks for shots off the pass.",
+      "Backcheckers keep sticks in lanes and angle attackers.",
+      "After a takeaway, lift the head and find the breakout option.",
+      "The shift naturally flows offense to backcheck to defense to breakout."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-backcheck-game",
+    "source_id": "2631176",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2631176-0-1699892193.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2631176-0-1699892193.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2631176-1-1699892193.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-two-original-diagrams"
+  },
+  {
+    "uid": "ihs-2544201",
+    "number": 255,
+    "title": "1 v 1 to 2 v 2 (Stick vs No Stick)",
+    "category": "Checking / Angling / Defensive Zone",
+    "drill_types": [
+      "1 on 1",
+      "2 on 2",
+      "Puck Protection",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Coverage",
+      "Defensive",
+      "Down Low"
+    ],
+    "description": "The progression starts with a corner 1-on-1 and then adds the opposite pair to create 2-on-2. Defenders can begin without a usable stick to force proper footwork, angle and body position before progressing to normal stick use.",
+    "coaching_points": [
+      "Defender wins with feet, angle and body position before relying on the stick.",
+      "Offense retrieves the loose puck and attacks under pressure.",
+      "Progress from no stick, to an inverted stick, to normal stick use.",
+      "When the drill becomes 2-on-2, communicate and sort coverage quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mark Zarbo Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-2-v-2-stick-vs-no-stick",
+    "source_id": "2544201",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544201-0-1693853449.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544201-0-1693853449.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-2543886",
+    "number": 256,
+    "title": "Breakaway Backcheck With 1 on 1 Variation",
+    "category": "Backcheck / Body Position / 1 on 1",
+    "drill_types": [
+      "1 on 1",
+      "Puck Protection",
+      "2 on 1",
+      "Angling",
+      "Backchecking",
+      "Battle Drills",
+      "Checking",
+      "Conditioning",
+      "Coverage",
+      "Body Contact"
+    ],
+    "description": "The offensive player starts with a step while the defender has the better angle to the net. They race through a live backcheck battle, and the progression can add a defenseman so the same rep becomes a 1-on-1 with a backchecker.",
+    "coaching_points": [
+      "Backchecker takes the direct angle and works through the hands, not only the puck.",
+      "Offensive player cuts off the defender and protects inside ice.",
+      "Win body position before trying to win possession.",
+      "Use the second progression to combine rush defense with back pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mark Zarbo Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakaway-backcheck-1-1-variation",
+    "source_id": "2543886",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543886-0-1693853509.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543886-0-1693853509.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543886-1-1693853509.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-two-original-diagrams"
+  },
+  {
+    "uid": "ihs-bourque-3on3",
+    "number": 257,
+    "title": "Bourque 3 on 3 Game",
+    "category": "3 on 3 / Breakout Support / Small Area Game",
+    "drill_types": [
+      "Passing",
+      "Re-Group",
+      "Small Area Games",
+      "Transition",
+      "Tryout",
+      "Breakouts",
+      "3 on 3",
+      "Battle Drills",
+      "Half Ice",
+      "Puck Support"
+    ],
+    "description": "Three-on-three is played cross-ice with a designated support player behind each team's own goal line. After every possession change, the team must use its 'Bourque' to initiate the breakout before it can attack.",
+    "coaching_points": [
+      "Support player behind the net makes a clean first pass.",
+      "Use deception to move forecheckers before the breakout.",
+      "Players return underneath the puck to support the Bourque.",
+      "Fill three lanes and attack open ice after the breakout."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bourque-3-on-3-game",
+    "source_id": "bourque-3on3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/bourque3-on-3-game.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/bourque3-on-3-game.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-image"
+  },
+  {
+    "uid": "ihs-284711",
+    "number": 258,
+    "title": "1 v 1 Angle Around The Net Drill",
+    "category": "Angling / Retrieval / 1 on 1",
+    "drill_types": [
+      "1 on 1",
+      "Puck Protection",
+      "Offensive",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Coverage",
+      "Defensive",
+      "Forechecking",
+      "Retrievals"
+    ],
+    "description": "A defenseman retrieves a chipped puck and must escape through a gate while a forechecker starts on the coach's signal and tries to angle, strip the puck and score.",
+    "coaching_points": [
+      "Forechecker keeps the stick down, matches speed and takes the correct route.",
+      "Retriever shoulder-checks before arriving at the puck.",
+      "Retrieve at an angle to preserve speed.",
+      "Use deception with skates, hips, shoulders and stick to shake pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "The Battery Hockey Academy",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-angle-around-net-drill",
+    "source_id": "284711",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-284711-0-1744828780.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-284711-0-1744828780.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-160626",
+    "number": 259,
+    "title": "Back to Back 1 vs 1 with Mini Nets",
+    "category": "1 on 1 / Puck Protection / Small Area Game",
+    "drill_types": [
+      "1 on 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Tight Area"
+    ],
+    "description": "Two mini nets sit back-to-back inside a small playing area. A coach dumps in a puck and two players battle for possession, with either net available as a scoring target.",
+    "coaching_points": [
+      "Protect the puck before attacking a net.",
+      "Use tight turns and changes of direction to escape pressure.",
+      "Scan because either net can be attacked.",
+      "Keep shifts short and continuously reload pucks after goals or exits."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "The Battery Hockey Academy",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/back-back-1-vs-1-mini-nets",
+    "source_id": "160626",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-160626-0-1744822463.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-160626-0-1744822463.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-117141",
+    "number": 260,
+    "title": "2 vs 2 Rebound Battle Drill",
+    "category": "2 on 2 / Rebound Battle / Wall Play",
+    "drill_types": [
+      "2 on 2",
+      "Battle Drills",
+      "Half Ice",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Wall Play",
+      "Rebounds"
+    ],
+    "description": "The goalie plays an initial puck to a corner and two players race to win it. The winner must find a point player, which turns the play into a live 2-on-1; a progression can activate the second point player to make it 2-on-2.",
+    "coaching_points": [
+      "First player to the puck uses deception and body position to escape the corner.",
+      "Get the head up and find the point quickly.",
+      "Defender protects middle ice and keeps a stable stick position.",
+      "Point player stays active as a passing target."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-rebound-battle-drill",
+    "source_id": "117141",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-117141-0-1757873759.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-117141-0-1757873759.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-82186",
+    "number": 261,
+    "title": "King or Queen of the Hill Puck Control Drill",
+    "category": "Puck Control / Battle / Warm Up",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations",
+      "Stickhandling",
+      "Warm Up",
+      "Battle Drills"
+    ],
+    "description": "Every player starts with a puck inside a defined area and tries to keep possession while knocking opponents' pucks away. Eliminated players leave until one player remains.",
+    "coaching_points": [
+      "Protect your own puck before attacking someone else's.",
+      "Keep the head up to scan for pressure.",
+      "Use body position and controlled stick checks.",
+      "Shrink the area as players are eliminated to raise difficulty."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/king-hill-puck-control-drill",
+    "source_id": "82186",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-82186-0-1744828819.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-82186-0-1744828819.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
   }
 ]
