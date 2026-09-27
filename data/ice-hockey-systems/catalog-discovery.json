@@ -5838,5 +5838,130 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS small-area category search"
+  },
+  {
+    "discovery_number": 400,
+    "title": "World Passing & Stickhandling Warm-Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/world-passing-stickhandling-warm-up",
+    "categories": [
+      "Passing",
+      "Puck Handling",
+      "Stickhandling",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram category sweep"
+  },
+  {
+    "discovery_number": 401,
+    "title": "Blueline Agility Reps",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/blueline-agility-reps",
+    "categories": [
+      "Agility",
+      "Defensive",
+      "Passing",
+      "Retrievals",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram category sweep"
+  },
+  {
+    "discovery_number": 402,
+    "title": "Neutral Zone Support 2 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-support-2-1",
+    "categories": [
+      "2 vs 1",
+      "Neutral Zone",
+      "Puck Support",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram category sweep"
+  },
+  {
+    "discovery_number": 403,
+    "title": "3 v 3 Mystery Player Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-mystery-player-game",
+    "categories": [
+      "3 vs 3",
+      "Awareness",
+      "One Goalie",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram category sweep"
+  },
+  {
+    "discovery_number": 404,
+    "title": "2 vs 2 Game (With 1 Goalie & Tire Nets)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-game-1-goalie-tire-nets",
+    "categories": [
+      "2 vs 2",
+      "One Goalie",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram category sweep"
+  },
+  {
+    "discovery_number": 405,
+    "title": "3 vs. 3 Split Zone Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-vs-3-split-zone-game",
+    "categories": [
+      "3 vs 3",
+      "Defensive Zone",
+      "One Goalie",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram category sweep"
+  },
+  {
+    "discovery_number": 406,
+    "title": "Shooting Off The Pass - Corners",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shooting-off-the-pass-corners",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "One Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram category sweep"
+  },
+  {
+    "discovery_number": 407,
+    "title": "5 V 5 to 5 V 3 Face-off Game On The Circle",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-v-5-5-v-3-face-game-on-circle",
+    "categories": [
+      "5 vs 5",
+      "5 vs 3",
+      "Face-Off",
+      "Power Play",
+      "Penalty Kill"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram category sweep"
+  },
+  {
+    "discovery_number": 408,
+    "title": "Angle Through The Dot 1 V 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/angle-through-dot-1-v-1",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram category sweep"
   }
 ]
