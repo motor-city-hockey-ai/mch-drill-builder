@@ -9072,5 +9072,110 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS master catalog pages 10-11 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 587,
+    "title": "Horseshoe Re-Group Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/horseshoe-re-group-drill",
+    "categories": [
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Re-Group",
+      "Shooting",
+      "Transition",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog page 12 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 588,
+    "title": "Transition, Protect & Shoot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-protect-shoot",
+    "categories": [
+      "2 vs 0",
+      "Transition",
+      "Puck Protection",
+      "Half Ice",
+      "Passing",
+      "Shooting",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog page 12 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 589,
+    "title": "Four Cone Neutral Zone Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-cone-neutral-zone-drill",
+    "categories": [
+      "1 vs 1",
+      "2 vs 1",
+      "Backchecking",
+      "Full Ice",
+      "Neutral Zone",
+      "Gap",
+      "Passing",
+      "Transition",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog page 12 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 590,
+    "title": "Quick Hinge Warm Up Hockey Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-hinge-warm-hockey-drill",
+    "categories": [
+      "Passing",
+      "Transition",
+      "Warm Up",
+      "Flow",
+      "Full Ice",
+      "Re-Group",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog page 12 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 591,
+    "title": "Split Passing Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/split-passing-game",
+    "categories": [
+      "Passing",
+      "Small Area Games",
+      "Half Ice",
+      "Puck Support",
+      "Awareness",
+      "Defensive",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog page 12 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 592,
+    "title": "Transition Sequence 1 on 1 to 2 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-sequence-1-1-2-1",
+    "categories": [
+      "1 vs 1",
+      "2 vs 1",
+      "3 vs 1",
+      "Transition",
+      "Neutral Zone",
+      "Battle Drills",
+      "Puck Protection",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog page 12 exact-diagram reconciliation"
   }
 ]
