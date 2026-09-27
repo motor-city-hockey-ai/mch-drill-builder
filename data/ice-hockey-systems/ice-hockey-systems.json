@@ -18557,5 +18557,171 @@
     "member_only": true,
     "status": "verified",
     "number": 567
+  },
+  {
+    "uid": "ihs-7017051",
+    "title": "Bing Bang Bong 2 v 1",
+    "category": "2 on 1 / Flow / Passing / Warm-Up",
+    "drill_types": [
+      "2 vs 1",
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Warm Up",
+      "Transition",
+      "3 vs 1"
+    ],
+    "description": "Continuous full-ice passing flow that builds into a 2-on-1. The sequence starts with puck movement through the neutral zone, then progresses from a short-pass variation to a long-pass variation and finally a defenseman activation option that creates a 3-on-1.",
+    "coaching_points": [
+      "Keep the puck moving while skating instead of standing to pass.",
+      "Match the timing of the neutral-zone exchanges so the attack stays onside.",
+      "Defensemen should gap quickly when they become the defender.",
+      "In the activation progression, the joining defenseman must arrive with speed and good spacing."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Dave Smith",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bing-bang-bong-2-v-1",
+    "source_id": "7017051",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7017051-0-1744909461.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7017051-0-1744909461.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7017051-1-1744909461.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7017051-2-1744909461.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7017051-3-1744909461.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 568
+  },
+  {
+    "uid": "ihs-7016966",
+    "title": "Pens 3 Shot",
+    "category": "Shooting / Retrieval / Offensive Zone",
+    "drill_types": [
+      "Shooting",
+      "Offensive",
+      "Warm Up",
+      "Retrievals",
+      "Half Ice"
+    ],
+    "description": "Three-shot offensive-zone sequence. A forward attacks for the first shot, retrieves a second puck for another quick chance, then moves a third puck low-to-high to a defenseman for a point shot and rebound opportunity before the next repetition begins.",
+    "coaching_points": [
+      "Keep the forward moving between shots instead of resetting.",
+      "Defensemen should get the puck off the stick quickly and shoot for a useful rebound.",
+      "Attack rebounds with the stick available and maintain net-front timing.",
+      "Communicate on the low-to-high exchange."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Dave Smith",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pens-3-shot-2",
+    "source_id": "7016966",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016966-0-1744913507.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016966-0-1744913507.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016966-1-1744913507.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 569
+  },
+  {
+    "uid": "ihs-7016956",
+    "title": "Wooley Up",
+    "category": "Flow / Passing / Transition",
+    "drill_types": [
+      "Flow",
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Shooting",
+      "Warm Up"
+    ],
+    "description": "Continuous timing drill built around defenseman puck movement, a neutral-zone escape and a stretch pass. The rush finishes with a shot, then players follow the play for rebounds before a low-to-high puck activates the defenseman for a second shot.",
+    "coaching_points": [
+      "Defensemen should move their feet before passing.",
+      "Forwards need to time their routes so the stretch option stays onside.",
+      "Use loud communication and present the stick as a target.",
+      "After the first shot, transition immediately into the low-to-high second-shot sequence."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Dave Smith",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wooley-up-drill",
+    "source_id": "7016956",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016956-0-1744913655.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016956-0-1744913655.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016956-1-1744913655.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 570
+  },
+  {
+    "uid": "ihs-6373086",
+    "title": "Power Play Flank Shooting",
+    "category": "Power Play / Shooting / Half Ice",
+    "drill_types": [
+      "Power Play",
+      "Shooting",
+      "Passing",
+      "Half Ice",
+      "Offensive",
+      "Skill Development"
+    ],
+    "description": "Power-play shooting progression using a bumper, a high player and a flank attacker. The puck moves through the bumper to the top, the top player walks the line and then feeds the flank attacker, who uses the bumper as a screen or token defender before cutting into a shot.",
+    "coaching_points": [
+      "Catch and release the puck quickly on each exchange.",
+      "The high player should move laterally with pace before making the seam pass.",
+      "The flank attacker climbs into space before receiving the puck.",
+      "Use the bumper to create traffic and force a game-like shooting lane."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Wes Wolfe",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/power-play-flank-shooting",
+    "source_id": "6373086",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6373086-0-1737153554.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6373086-0-1737153554.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 571
+  },
+  {
+    "uid": "ihs-6372731",
+    "title": "Fimmer Rimmer",
+    "category": "Shooting / Wall Retrieval / Power Play",
+    "drill_types": [
+      "Shooting",
+      "Wall Play",
+      "Retrievals",
+      "Power Play",
+      "Half Ice",
+      "Skill Development"
+    ],
+    "description": "Two-shot wall-retrieval drill. The player first picks up a rim, moves off the wall into better ice and attacks the net. After the first shot, the player climbs into the high slot and receives a seam pass for a second catch-and-release shot.",
+    "coaching_points": [
+      "Meet the rim with speed and control.",
+      "Get off the wall immediately after the retrieval instead of staying outside.",
+      "On the second shot, arrive in the high slot ready to shoot without extra stickhandles.",
+      "Use the progression to reinforce power-play flank habits and quick releases."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Wes Wolfe",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/fimmer-rimmer",
+    "source_id": "6372731",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6372731-0-1737153565.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6372731-0-1737153565.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6372731-1-1737153565.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 572
   }
 ]
