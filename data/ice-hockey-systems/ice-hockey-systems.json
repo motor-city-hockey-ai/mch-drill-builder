@@ -27358,5 +27358,101 @@
     "member_only": true,
     "status": "verified",
     "number": 842
+  },
+  {
+    "uid": "ihs-amazing-scoring-race",
+    "title": "Amazing Scoring Race",
+    "category": "Relay Race / Shooting / Full Ice",
+    "drill_types": [
+      "Relay Races",
+      "Shooting",
+      "Races",
+      "Full Ice",
+      "1 vs 0",
+      "Competition"
+    ],
+    "description": "Two teams run alternating breakaways. P1 receives a diagonal pass from P2 and attacks the opposite goalie. A goal releases P2 immediately; after a miss, P1 must retrieve a loose puck and deliver it to P2 before the next player can attack.",
+    "coaching_points": [
+      "Make the opening diagonal pass flat and on time.",
+      "Attack the goalie with speed and finish the breakaway.",
+      "After a miss, recover the replacement puck immediately.",
+      "Keep the race continuous and compete to a goal target or time limit."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/amazing-scoring-race",
+    "image": "https://www.files.icehockeysystems.com/files/drills/amazing-scoring-race.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/amazing-scoring-race.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 843
+  },
+  {
+    "uid": "ihs-neutral-zone-puck-races-1",
+    "title": "Neutral Zone Puck Races #1",
+    "category": "1 vs 1 / Puck Race / Control Turn",
+    "drill_types": [
+      "1 vs 1",
+      "Stations",
+      "Third Ice Stations",
+      "Battle Drills",
+      "Races",
+      "Skating",
+      "Control Turns"
+    ],
+    "description": "Two players leave opposite lines, skate around one tire, complete a control turn around the second tire, then race for a puck played by the coach. The player who wins possession attacks the mini net.",
+    "coaching_points": [
+      "Stay low and balanced through both tire turns.",
+      "Use a tight control turn around the second tire.",
+      "Accelerate immediately out of the turn.",
+      "Race through the puck and protect inside position before shooting."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-race-1-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-race-1-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 844
+  },
+  {
+    "uid": "ihs-neutral-zone-puck-races-3",
+    "title": "Neutral Zone Puck Races #3",
+    "category": "1 vs 1 / Transition / Puck Race",
+    "drill_types": [
+      "1 vs 1",
+      "Skating",
+      "Stations",
+      "Third Ice Stations",
+      "Battle Drills",
+      "Races",
+      "Transition",
+      "Backwards Skating"
+    ],
+    "description": "Two players race through a neutral-zone route that adds forward-to-backward and backward-to-forward transitions plus tight control turns. They finish by racing for the puck and attacking the mini net.",
+    "coaching_points": [
+      "Flip the hips quickly when transitioning from forward to backward.",
+      "Stay low while skating backward and keep the feet active.",
+      "Transition back to forward without drifting wide.",
+      "Explode through the final control turn and compete through the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-race-3-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-race-3-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 845
   }
 ]
