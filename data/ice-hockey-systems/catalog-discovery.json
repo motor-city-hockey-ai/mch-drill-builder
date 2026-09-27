@@ -4704,7 +4704,7 @@
       "Transition"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts category page 1"
   },
   {
@@ -4720,7 +4720,7 @@
       "Transition"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts category page 1"
   },
   {
@@ -4737,7 +4737,7 @@
       "Zone Entry"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts category page 1"
   },
   {
@@ -4758,7 +4758,7 @@
       "Transition"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts category page 1"
   },
   {
@@ -4776,7 +4776,7 @@
       "Zone Entry"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts category page 1"
   },
   {
@@ -4792,7 +4792,7 @@
       "Gap"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts category page 1"
   },
   {
@@ -4811,7 +4811,7 @@
       "Zone Entry"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts category page 1"
   },
   {
@@ -4827,7 +4827,247 @@
       "Shooting"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Breakouts category page 1"
+  },
+  {
+    "discovery_number": 338,
+    "title": "Eagles Half Ice 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/eagles-half-ice-1-1",
+    "categories": [
+      "1 on 1",
+      "Breakouts",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 339,
+    "title": "Half Ice (Full Length) Breakout Pass",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-full-length-breakout-pass",
+    "categories": [
+      "Stations",
+      "Breakouts",
+      "Passing",
+      "Backchecking"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 340,
+    "title": "Tigers Half Ice Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tigers-half-ice-shooting-drill",
+    "categories": [
+      "One Goalie",
+      "Passing",
+      "Shooting",
+      "Breakouts",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 341,
+    "title": "Breakouts to 3 Forecheckers",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakouts-3-forecheckers",
+    "categories": [
+      "Breakouts",
+      "Forechecking",
+      "Passing",
+      "Puck Support",
+      "Retrievals"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 342,
+    "title": "1 on 1 Retrievals",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-on-1-retrievals",
+    "categories": [
+      "1 on 1",
+      "Angling",
+      "Breakouts",
+      "Defensive",
+      "Defensive Zone",
+      "Forechecking",
+      "Puck Handling",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 343,
+    "title": "Use The Net 2 vs. 1 Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/use-net-2-vs-1-drill",
+    "categories": [
+      "1 on 1",
+      "Puck Control",
+      "Offensive",
+      "Breakouts",
+      "2 on 1",
+      "Angling",
+      "Half Ice",
+      "Defensive",
+      "Forechecking",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 344,
+    "title": "Behind the Net and Out With Pressure",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/behind-net-and-out-pressure",
+    "categories": [
+      "Defensive",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Breakouts",
+      "Agility"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 345,
+    "title": "Simple Breakout 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/simple-breakout-1-1",
+    "categories": [
+      "1 on 1",
+      "Breakouts",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 346,
+    "title": "Savy's Continuous Breakout Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/savys-continuous-breakout-drill",
+    "categories": [
+      "Passing",
+      "Breakouts",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 347,
+    "title": "1 Man, 2 Man Forecheck",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-man-2-man-forecheck",
+    "categories": [
+      "Breakouts",
+      "Flow",
+      "Forechecking",
+      "Full Ice",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 348,
+    "title": "IFK 3 v 1 + 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/ifk-3-v-1-1-2",
+    "categories": [
+      "3 on 1",
+      "Backchecking",
+      "Breakouts",
+      "Defensive Zone",
+      "Full Ice",
+      "Gap",
+      "Offensive Zone",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 349,
+    "title": "Lambo Track",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/lambo-track-drill",
+    "categories": [
+      "Backchecking",
+      "Breakouts",
+      "Down Low",
+      "Forechecking",
+      "Neutral Zone",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 350,
+    "title": "3 v 0 Breakout to 2 v 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-0-breakout-2-v-1-1",
+    "categories": [
+      "2 on 1",
+      "Breakouts",
+      "Defensive",
+      "Full Ice",
+      "Gap",
+      "Offensive",
+      "Puck Support",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 351,
+    "title": "2 on 1 Continuous Dump Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-continuous-dump-drill",
+    "categories": [
+      "Transition",
+      "Breakouts",
+      "2 on 1",
+      "Defensive",
+      "Forechecking",
+      "Full Ice",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 352,
+    "title": "Strong Side Breakout Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/strong-side-breakout-drill",
+    "categories": [
+      "Zone Entry",
+      "Offensive Zone",
+      "Breakouts",
+      "Defensive Zone",
+      "Down Low",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts page 2"
   }
 ]
