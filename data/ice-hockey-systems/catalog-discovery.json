@@ -9917,5 +9917,126 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS neutral-zone puck-control exact-diagram sweep"
+  },
+  {
+    "discovery_number": 637,
+    "title": "COW Hockey's Continuous 2 on 0",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cow-hockeys-continuous-2-0",
+    "categories": [
+      "2 vs 0",
+      "Passing",
+      "Warm Up",
+      "Full Ice",
+      "Puck Support",
+      "Shooting",
+      "Flow"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 638,
+    "title": "Four Lines Flow #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-flow-2",
+    "categories": [
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Warm Up",
+      "Puck Support",
+      "Shooting",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 639,
+    "title": "Outside Loop Passing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/outside-loop-passing",
+    "categories": [
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Warm Up",
+      "Puck Control",
+      "Skating",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 640,
+    "title": "2 on 0 Quick Re-Group",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-quick-re-group",
+    "categories": [
+      "2 vs 0",
+      "Re-Group",
+      "Passing",
+      "Warm Up",
+      "Full Ice",
+      "Puck Support",
+      "Shooting",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 641,
+    "title": "Pre-Game Three Lane Transition Shooting",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pre-game-three-lane-transition-shooting",
+    "categories": [
+      "Pre Game",
+      "Transition",
+      "Shooting",
+      "Passing",
+      "Warm Up",
+      "Full Ice",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 642,
+    "title": "2 on 0 React and Support Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-react-and-support-drill",
+    "categories": [
+      "2 vs 0",
+      "Puck Support",
+      "Transition",
+      "Passing",
+      "Half Ice",
+      "Zone Entry",
+      "Offensive",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 643,
+    "title": "Transition Passing Sequence #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-passing-sequence-3",
+    "categories": [
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Zone Entry",
+      "Shooting",
+      "Puck Support",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
   }
 ]
