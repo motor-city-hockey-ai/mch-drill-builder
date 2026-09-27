@@ -27454,5 +27454,170 @@
     "member_only": true,
     "status": "verified",
     "number": 845
+  },
+  {
+    "uid": "ihs-neutral-zone-puck-races-5",
+    "title": "Neutral Zone Puck Races #5",
+    "category": "1 vs 1 / Overspeed / Control Turns",
+    "drill_types": [
+      "1 vs 1",
+      "Skating",
+      "Overspeed",
+      "Stations",
+      "Third Ice Stations",
+      "Races",
+      "Control Turns",
+      "Battle Drills"
+    ],
+    "description": "Two players race through a square of four tires using forward crossovers, complete a full lap, then skate to the far tire for a tight control turn before racing for a puck played into space by the coach.",
+    "coaching_points": [
+      "Use fast, controlled crossovers around the four-tire square.",
+      "Keep the head up when the racers cross through the middle.",
+      "Stay low through the far control turn and accelerate out of it.",
+      "Compete through the puck and attack the net immediately."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-races-5-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-races-5-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 846
+  },
+  {
+    "uid": "ihs-neutral-zone-puck-races-6",
+    "title": "Neutral Zone Puck Races #6",
+    "category": "1 vs 1 / Transition / Race",
+    "drill_types": [
+      "1 vs 1",
+      "Stations",
+      "Third Ice Stations",
+      "Backwards Skating",
+      "Battle Drills",
+      "Races",
+      "Transition",
+      "Control Turns"
+    ],
+    "description": "Players race through two sets of forward-to-backward and backward-to-forward transitions, then skate to a far tire, execute a tight control turn and compete for a puck played by the coach.",
+    "coaching_points": [
+      "Transition forward to backward quickly without losing balance.",
+      "Keep the feet active while skating backward between tires.",
+      "Explode back to forward around each second tire.",
+      "Finish with a tight control turn and race through the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-6",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-race-6-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-puck-race-6-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 847
+  },
+  {
+    "uid": "ihs-quarter-ice-puck-race-3",
+    "title": "Quarter Ice Puck Race #3",
+    "category": "1 vs 1 / Transition / Quarter Ice",
+    "drill_types": [
+      "1 vs 1",
+      "Backwards Skating",
+      "Transition",
+      "Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Battle Drills"
+    ],
+    "description": "Players race forward to a low tire, transition backward while staying square to the net, skate backward to a higher staggered tire and then transition forward to battle for a puck.",
+    "coaching_points": [
+      "Approach the first tire with speed and transition backward cleanly.",
+      "Stay low and balanced while skating backward.",
+      "Transition back to forward explosively at the high tire.",
+      "Race through the puck and immediately turn possession into offense."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-3",
+    "image": "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/quarter-ice-puck-race-3-web.jpg",
+    "images": [
+      "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/quarter-ice-puck-race-3-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 848
+  },
+  {
+    "uid": "ihs-quarter-ice-puck-race-4",
+    "title": "Quarter Ice Puck Race #4",
+    "category": "1 vs 1 / Backwards Crossovers / Quarter Ice",
+    "drill_types": [
+      "1 vs 1",
+      "Skating",
+      "Backwards Skating",
+      "Transition",
+      "Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Battle Drills"
+    ],
+    "description": "Players skate forward to a low tire, transition backward, weave through three staggered tires using backward crossovers, then race to a loose puck played by the coach.",
+    "coaching_points": [
+      "Make the forward-to-backward transition tight around the first tire.",
+      "Use strong backward crossovers through the staggered tires.",
+      "Keep the chest and eyes up while weaving backward.",
+      "Transition to the puck quickly and compete through possession."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-4",
+    "image": "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/quarter-ice-puck-race-4-web.jpg",
+    "images": [
+      "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/quarter-ice-puck-race-4-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 849
+  },
+  {
+    "uid": "ihs-quarter-ice-puck-race-5",
+    "title": "Quarter Ice Puck Race #5",
+    "category": "1 vs 1 / Crossovers / Transition",
+    "drill_types": [
+      "1 vs 1",
+      "Skating",
+      "Overspeed",
+      "Stations",
+      "Quarter Ice Station",
+      "Races",
+      "Backwards Skating",
+      "Transition",
+      "Battle Drills"
+    ],
+    "description": "Players start forward and use crossovers around the bottom of a four-tire box, transition backward between the far tires, transition forward around the third tire and race for a puck to create a scoring chance.",
+    "coaching_points": [
+      "Keep the head up as the two racers cross near the bottom of the box.",
+      "Use powerful crossovers through the first section.",
+      "Transition backward smoothly without losing speed.",
+      "Explode forward out of the last transition and win the race to the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quarter-ice-puck-race-5-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quarter-ice-puck-race-5-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 850
   }
 ]
