@@ -7630,5 +7630,231 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 505,
+    "title": "Neutral Zone Support 3 on 1 - #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-support-3-1-2",
+    "categories": [
+      "3 vs 1",
+      "Neutral Zone",
+      "Puck Support",
+      "Passing",
+      "Offensive",
+      "Full Ice",
+      "Transition",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep reconciliation"
+  },
+  {
+    "discovery_number": 506,
+    "title": "2 - 0 Drive",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-drive",
+    "categories": [
+      "2 vs 0",
+      "Passing",
+      "Zone Entry",
+      "Offensive",
+      "Full Ice",
+      "Puck Support",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep reconciliation"
+  },
+  {
+    "discovery_number": 507,
+    "title": "2 on 0 Escape",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-escape",
+    "categories": [
+      "2 vs 0",
+      "Passing",
+      "Zone Entry",
+      "Offensive",
+      "Full Ice",
+      "Puck Support",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep reconciliation"
+  },
+  {
+    "discovery_number": 508,
+    "title": "Neutral Zone Attack with Speed #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-attack-speed-2",
+    "categories": [
+      "Neutral Zone",
+      "Offensive",
+      "Puck Protection",
+      "Skating",
+      "Shooting",
+      "Zone Entry",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep reconciliation"
+  },
+  {
+    "discovery_number": 509,
+    "title": "Neutral Zone Turnover 2 on 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-turnover-2-2",
+    "categories": [
+      "2 vs 2",
+      "Neutral Zone",
+      "Defensive",
+      "Gap",
+      "Transition",
+      "Full Ice",
+      "Offensive",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep reconciliation"
+  },
+  {
+    "discovery_number": 510,
+    "title": "4 on 2 D-Zone Coverage",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-2-d-zone-coverage",
+    "categories": [
+      "4 vs 2",
+      "Defensive Zone",
+      "Down Low",
+      "Coverage",
+      "Defensive",
+      "Half Ice",
+      "One Goalie",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep reconciliation"
+  },
+  {
+    "discovery_number": 511,
+    "title": "Quick Transition 2 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-transition-2-1",
+    "categories": [
+      "2 vs 1",
+      "Defensive",
+      "Offensive",
+      "Transition",
+      "Full Ice",
+      "Shooting",
+      "Passing",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep reconciliation"
+  },
+  {
+    "discovery_number": 512,
+    "title": "Transition Passing Sequence #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-passing-sequence-2",
+    "categories": [
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Warm Up",
+      "Skill Development",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep reconciliation"
+  },
+  {
+    "discovery_number": 513,
+    "title": "Strip & Transition to Low-High Shot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/strip-transition-low-high-shot",
+    "categories": [
+      "2 vs 0",
+      "Passing",
+      "Puck Protection",
+      "Transition",
+      "Full Ice",
+      "Warm Up",
+      "Shooting",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS U16/U18 legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 514,
+    "title": "Transition Series #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-series-1",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Transition",
+      "Warm Up",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS U16/U18 legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 515,
+    "title": "Neutral Zone Over-speed Transition",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-over-speed-transition",
+    "categories": [
+      "Passing",
+      "Puck Control",
+      "Transition",
+      "Overspeed",
+      "Neutral Zone",
+      "Full Ice",
+      "Zone Entry",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS U16/U18 legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 516,
+    "title": "Bruins Transition Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bruins-transition-drill",
+    "categories": [
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Neutral Zone",
+      "Zone Entry",
+      "Shooting",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS U16/U18 legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 517,
+    "title": "3 v 1 Wall Play",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-1-wall-play-0",
+    "categories": [
+      "3 vs 1",
+      "Down Low",
+      "Half Ice",
+      "One Goalie",
+      "Passing",
+      "Small Area Games",
+      "Wall Play",
+      "Offensive",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS U16/U18 legacy exact-diagram sweep"
   }
 ]
