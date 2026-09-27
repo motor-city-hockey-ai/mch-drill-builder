@@ -9177,5 +9177,24 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS master catalog page 12 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 593,
+    "title": "Sabre O-zone Escape Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabre-o-zone-escape-drill",
+    "categories": [
+      "2 vs 1",
+      "Full Ice",
+      "Offensive",
+      "Passing",
+      "Puck Handling",
+      "Zone Entry",
+      "Escape",
+      "Puck Support",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram verification sweep"
   }
 ]
