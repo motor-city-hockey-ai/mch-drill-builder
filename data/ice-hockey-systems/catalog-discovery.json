@@ -7410,5 +7410,105 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 492,
+    "title": "Dig, Pass & Shoot!",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/dig-pass-and-shoot",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Skill Development",
+      "Wall Play",
+      "Half Ice",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram sweep"
+  },
+  {
+    "discovery_number": 493,
+    "title": "Puck Elevation Rebound Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-elevation-rebound-drill",
+    "categories": [
+      "Shooting",
+      "Skill Development",
+      "Net Front",
+      "Rebounds",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram sweep"
+  },
+  {
+    "discovery_number": 494,
+    "title": "Net Awareness Shooting - Pass, Spin & Shoot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/net-awareness-pass-spin-shoot",
+    "categories": [
+      "Shooting",
+      "Skill Development",
+      "Awareness",
+      "Passing",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram sweep"
+  },
+  {
+    "discovery_number": 495,
+    "title": "Feed Or Lead",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/feed-or-lead",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Offensive",
+      "Stations",
+      "Third Ice Stations",
+      "Offensive Zone",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram sweep"
+  },
+  {
+    "discovery_number": 496,
+    "title": "Underhandle Defense Passing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/underhandle-defense-passing",
+    "categories": [
+      "Half Ice",
+      "Passing",
+      "Puck Handling",
+      "Retrievals",
+      "Stations",
+      "Quarter Ice Station",
+      "Defensive",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram sweep"
+  },
+  {
+    "discovery_number": 497,
+    "title": "Position Over Possession Circle",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/position-over-possession-circle",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Puck Control",
+      "Puck Protection",
+      "Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Third Ice Stations",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS verified diagram sweep"
   }
 ]
