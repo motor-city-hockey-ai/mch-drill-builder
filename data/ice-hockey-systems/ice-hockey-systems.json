@@ -18854,5 +18854,322 @@
     "member_only": true,
     "status": "verified",
     "number": 576
+  },
+  {
+    "uid": "ihs-4029336",
+    "title": "1-3-1 Mad Attacker",
+    "category": "Power Play / Penalty Kill / Half Ice",
+    "drill_types": [
+      "Power Play",
+      "Penalty Kill",
+      "Half Ice",
+      "Puck Support",
+      "Offensive",
+      "Defensive"
+    ],
+    "description": "A staged pressure game for a 1-3-1 power play. The power-play unit starts in structure and retrieves a dump-in while one designated penalty killer attacks the puck everywhere. Coaches progressively add more attackers as the unit learns to retrieve, support and make simple plays under pressure.",
+    "coaching_points": [
+      "Outnumber pressure on loose pucks before settling into formation.",
+      "Use short support options instead of forcing passes through pressure.",
+      "Penalty killers attack with an active stick and constant pressure.",
+      "Add pressure progressively so the power-play unit must solve increasingly difficult reads."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-3-1-mad-attacker",
+    "source_id": "4029336",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4029336-0-1737569003.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4029336-0-1737569003.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": null
+  },
+  {
+    "uid": "ihs-3900671",
+    "title": "Swedish 2 on 0 Half Ice",
+    "category": "2 on 0 / Passing / Shooting / Warm-Up",
+    "drill_types": [
+      "2 vs 0",
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Half Ice",
+      "Offensive"
+    ],
+    "description": "Two-player half-ice passing warm-up. The first player begins backward with the puck, exchanges passes with a partner and then escapes into the zone while the second player drives the net. The puck carrier can shoot, create a tip or rebound, or pass across.",
+    "coaching_points": [
+      "Pass in stride and keep both players moving.",
+      "Time the net drive so the second attacker arrives as a scoring option.",
+      "The puck carrier should read the goalie and choose shot, tip, rebound or pass.",
+      "Keep the drill flowing as a warm-up rather than slowing to set up each rep."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swedish-2-0-half-ice",
+    "source_id": "3900671",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3900671-0-1705981804.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3900671-0-1705981804.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": null
+  },
+  {
+    "uid": "ihs-3879831",
+    "title": "Transition Pull Outside - Defense Skills",
+    "category": "Defense / Retrieval / Transition",
+    "drill_types": [
+      "Defensive",
+      "Retrievals",
+      "Transition",
+      "Neutral Zone",
+      "Passing",
+      "Skill Development"
+    ],
+    "description": "Defense skill drill for retrieving a loose puck while moving back toward the defensive end. The player explodes to the puck, pivots up ice quickly, pulls the puck laterally to the outside and finishes with a hard forehand pass to the next player.",
+    "coaching_points": [
+      "Retrieve with the feet moving through the puck.",
+      "Get shoulders and eyes up ice immediately after possession.",
+      "Use one strong lateral pull rather than several extra stickhandles.",
+      "Finish with a firm forehand pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-pull-outside-defense-skills",
+    "source_id": "3879831",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3879831-0-1705941676.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3879831-0-1705941676.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": null
+  },
+  {
+    "uid": "ihs-3781441",
+    "title": "Hit The Tire With 1 Goalie Game",
+    "category": "3 on 3 / Small Area Game / Goalie",
+    "drill_types": [
+      "3 vs 3",
+      "Small Area Games",
+      "Passing",
+      "Puck Control",
+      "Battle Drills",
+      "Goalie",
+      "Offensive",
+      "Defensive"
+    ],
+    "description": "Three-on-three small-area game played around a tire or cone in the middle of the zone. One goalie protects the target while both teams can attack it after gaining possession, creating constant changes of direction and quick offensive-to-defensive transitions.",
+    "coaching_points": [
+      "Offense should support the puck and shoot quickly after passes while the goalie is moving.",
+      "Defenders keep sticks in lanes and angle attackers away from the middle.",
+      "The goalie reads play from every direction and works edges around the target.",
+      "Keep shifts short and highly competitive."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/hit-tire-1-goalie-game",
+    "source_id": "3781441",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3781441-0-1704744359.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3781441-0-1704744359.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": null
+  },
+  {
+    "uid": "ihs-3541931",
+    "title": "DV3 Warm Up",
+    "category": "Passing / Flow / Full Ice Warm-Up",
+    "drill_types": [
+      "Passing",
+      "Warm Up",
+      "Flow",
+      "Full Ice",
+      "Transition",
+      "Shooting"
+    ],
+    "description": "Three-version continuous full-ice warm-up built around defense-to-defense puck movement and timed forward routes. The progressions move from D-to-D to wall, to a middle option, and finally to a hinge before the puck is advanced to a forward for a shot.",
+    "coaching_points": [
+      "Defensemen move the puck crisply and support the next option.",
+      "Forwards time their routes so they arrive as the passing lane opens.",
+      "Keep sticks on the ice and communicate throughout the sequence.",
+      "Maintain pace through all three versions."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/dv3-warm-up",
+    "source_id": "3541931",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541931-0-1702057083.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541931-0-1702057083.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541931-1-1702057083.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541931-2-1702057083.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": null
+  },
+  {
+    "uid": "ihs-3484556",
+    "title": "Admirals 2 Shot",
+    "category": "Passing / Zone Entry / Shooting / Warm-Up",
+    "drill_types": [
+      "Passing",
+      "Zone Entry",
+      "Shooting",
+      "Warm Up",
+      "Puck Handling",
+      "Full Ice"
+    ],
+    "description": "Two-part warm-up. In the first sequence a forward and defenseman exchange passes down ice before the defenseman escapes and hits the forward through the middle for the attack. The second sequence moves a puck to the point for a walk-and-shoot opportunity with traffic at the net.",
+    "coaching_points": [
+      "Pass and receive while moving.",
+      "Defensemen use a purposeful escape before advancing the puck.",
+      "Forwards time the middle route and create net-front traffic after the rush.",
+      "Point shots should arrive through traffic with players ready for tips and rebounds."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/admirals-2-shot",
+    "source_id": "3484556",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484556-0-1701370815.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484556-0-1701370815.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484556-1-1701370815.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": null
+  },
+  {
+    "uid": "ihs-3396561",
+    "title": "SD Thomas 1 v 1",
+    "category": "1 on 1 / Puck Protection / Battle",
+    "drill_types": [
+      "1 vs 1",
+      "Puck Protection",
+      "Offensive",
+      "Battle Drills",
+      "Quarter Ice Station",
+      "Stations"
+    ],
+    "description": "One-on-one battle in a compact corner area with the net moved away from the boards. The coach chips a puck into play and the two players compete for possession; whoever owns the puck attacks while the other player defends and tries to create a turnover.",
+    "coaching_points": [
+      "The puck carrier uses the body to shield the puck and attack space.",
+      "The defender stays stick-on-puck and uses body position to create a turnover.",
+      "Transition immediately from defense to offense when possession changes.",
+      "Keep the battle active instead of allowing the puck carrier to stall along the wall."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sd-thomas-1-v-1",
+    "source_id": "3396561",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3396561-0-1700251336.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3396561-0-1700251336.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": null
+  },
+  {
+    "uid": "ihs-3206661",
+    "title": "Out Of The Corner",
+    "category": "1 on 1 / Puck Protection / Down Low",
+    "drill_types": [
+      "1 vs 1",
+      "Down Low",
+      "Puck Protection",
+      "Puck Control",
+      "Offensive",
+      "Battle Drills",
+      "Half Ice"
+    ],
+    "description": "Down-low puck-protection drill that starts with the offensive player collecting a puck near the corner and attacking off the wall against pressure. The defender begins with controlled resistance and can progress to a live one-on-one battle.",
+    "coaching_points": [
+      "The attacker initiates contact, protects the puck and works off the wall.",
+      "Cut the hands across the body as the route turns toward the net.",
+      "Defenders keep the stick down and angle the attacker away from scoring ice.",
+      "Increase pressure gradually as players master the puck-protection technique."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/out-of-the-corner",
+    "source_id": "3206661",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3206661-0-1730755696.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3206661-0-1730755696.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": null
+  },
+  {
+    "uid": "ihs-2627186",
+    "title": "Off-Side Game",
+    "category": "3 on 3 / Small Area Game / Regroup",
+    "drill_types": [
+      "3 vs 3",
+      "Small Area Games",
+      "Passing",
+      "Re-Group",
+      "Zone Entry",
+      "Transition",
+      "Offensive"
+    ],
+    "description": "Cross-ice three-on-three game with a center-ice offsides line. Before a team can attack, it must regroup in its own half and then enter the attacking half onside. An offsides play immediately creates a turnover.",
+    "coaching_points": [
+      "Support underneath the puck during the regroup.",
+      "Attackers time their routes through the center line instead of racing ahead of the puck.",
+      "Defenders keep sticks in lanes and angle play outside.",
+      "Use the rule to reinforce possession and controlled entries."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/off-side-game",
+    "source_id": "2627186",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627186-0-1693851403.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627186-0-1693851403.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": null
+  },
+  {
+    "uid": "ihs-2626766",
+    "title": "Black vs White Stick Tape Keep Away",
+    "category": "Keep Away / Awareness / Puck Protection",
+    "drill_types": [
+      "Passing",
+      "Puck Protection",
+      "Small Area Games",
+      "Awareness",
+      "Puck Support",
+      "Half Ice"
+    ],
+    "description": "Keep-away game where teams are identified by stick-tape color rather than jersey color. A point is earned for completing a tape-to-tape pass to a teammate with the same tape color, forcing players to scan and identify teammates before moving the puck.",
+    "coaching_points": [
+      "Scan constantly to identify teammates by stick tape.",
+      "Get open quickly when your team has possession.",
+      "Protect the puck with the body until a passing lane opens.",
+      "Move the puck tape-to-tape instead of throwing it into space blindly."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/black-vs-white-stick-tape-keep-away",
+    "source_id": "2626766",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2626766-0-1704368111.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2626766-0-1704368111.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": null
   }
 ]
