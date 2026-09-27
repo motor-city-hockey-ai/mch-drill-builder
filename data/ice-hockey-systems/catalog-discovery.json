@@ -10659,5 +10659,95 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS race/station exact-diagram sweep"
+  },
+  {
+    "discovery_number": 682,
+    "title": "Neutral Zone Puck Races #5",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-5",
+    "categories": [
+      "1 vs 1",
+      "Skating",
+      "Overspeed",
+      "Stations",
+      "Third Ice Stations",
+      "Races",
+      "Control Turns",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS puck-race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 683,
+    "title": "Neutral Zone Puck Races #6",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-6",
+    "categories": [
+      "1 vs 1",
+      "Stations",
+      "Third Ice Stations",
+      "Backwards Skating",
+      "Battle Drills",
+      "Races",
+      "Transition",
+      "Control Turns"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS puck-race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 684,
+    "title": "Quarter Ice Puck Race #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-3",
+    "categories": [
+      "1 vs 1",
+      "Backwards Skating",
+      "Transition",
+      "Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS puck-race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 685,
+    "title": "Quarter Ice Puck Race #4",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-4",
+    "categories": [
+      "1 vs 1",
+      "Skating",
+      "Backwards Skating",
+      "Transition",
+      "Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS puck-race exact-diagram sweep"
+  },
+  {
+    "discovery_number": 686,
+    "title": "Quarter Ice Puck Race #5",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-puck-race-5",
+    "categories": [
+      "1 vs 1",
+      "Skating",
+      "Overspeed",
+      "Stations",
+      "Quarter Ice Station",
+      "Races",
+      "Backwards Skating",
+      "Transition",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS puck-race exact-diagram sweep"
   }
 ]
