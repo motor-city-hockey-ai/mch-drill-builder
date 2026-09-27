@@ -9742,5 +9742,177 @@
     "member_only": true,
     "status": "verified",
     "number": 297
+  },
+  {
+    "uid": "ihs-6771",
+    "title": "High Speed Chase",
+    "category": "Breakout / Forecheck / Backcheck",
+    "drill_types": [
+      "Breakouts",
+      "Passing",
+      "Forechecking",
+      "Backchecking",
+      "Full Ice",
+      "Goalie",
+      "Retrievals",
+      "Transition"
+    ],
+    "description": "The coach rims a puck for the goalie to stop behind the net. A defenseman pivots back to retrieve under hard forecheck pressure, uses the net for protection, and moves the puck to a supporting forward with speed. The forechecker continues through the play as a backchecker. The rush finishes with a second puck moved back to the defenseman for a shot.",
+    "coaching_points": [
+      "Defenseman retrieves with urgency and uses the net to create separation from pressure.",
+      "Supporting forward times the swing so the passing lane stays available without getting too far ahead.",
+      "Forechecker pressures with purpose and continues the effort on the backcheck.",
+      "Goalie controls the rim and sets the puck cleanly for the retrieval."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/high-speed-chase",
+    "print_url": "https://www.icehockeysystems.com/print/standard/6771",
+    "source_id": "6771",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6771-1631307607.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6771-1631307607.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 298
+  },
+  {
+    "uid": "ihs-1615",
+    "title": "Tigers Half Ice Shooting Drill",
+    "category": "Shooting / Breakout / Half Ice",
+    "drill_types": [
+      "Shooting",
+      "Passing",
+      "Breakouts",
+      "Half Ice",
+      "One Goalie",
+      "Retrievals"
+    ],
+    "description": "A defenseman starts with a point shot and follows for a rebound, then retrieves a corner puck and makes an outlet to a forward curling from the faceoff dot. The forward attacks the slot for a shot. The defenseman repeats the outlet on the opposite side, then retrieves a third puck and moves it to the next defenseman at the blue line.",
+    "coaching_points": [
+      "Defensemen follow the first shot, then transition quickly into the retrieval.",
+      "Forwards time their curl to become a clean outlet target.",
+      "Make firm tape-to-tape breakout passes before attacking the slot.",
+      "Shooters follow their shots for rebounds before clearing the net area."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tigers-half-ice-shooting-drill",
+    "print_url": "https://www.icehockeysystems.com/print/standard/1615",
+    "source_id": "1615",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1615-1631310419.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1615-1631310419.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 299
+  },
+  {
+    "uid": "ihs-3984",
+    "title": "Danger Zone 1 on 1",
+    "category": "1 on 1 / Zone Entry",
+    "drill_types": [
+      "1 on 1",
+      "Zone Entry",
+      "Offensive",
+      "Defensive",
+      "Half Ice",
+      "Full Ice",
+      "Stations",
+      "Gap",
+      "Transition"
+    ],
+    "description": "Forward and defenseman start near the blue line, skate to the red line, stop, and transition back toward the zone. The forward receives a pass and attacks with speed while the defender matches pace and closes space before or at the blue line. The attacker can drive outside, chip through pressure, or attack middle ice when it opens.",
+    "coaching_points": [
+      "Forward keeps the feet moving through the entry and changes speed or direction to create separation.",
+      "Defender matches the attacker's speed and keeps the stick on the ice.",
+      "Defender focuses on the attacker's chest and closes the gap before the blue line.",
+      "Avoid excessive lateral crossovers that make the defender easier to beat."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/danger-zone-1-1",
+    "print_url": "https://www.icehockeysystems.com/print/standard/3984",
+    "source_id": "3984",
+    "image": "https://www.files.icehockeysystems.com/files/drills/danger-zone-1-on-1.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/danger-zone-1-on-1.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 300
+  },
+  {
+    "uid": "ihs-902",
+    "title": "Whip One on One",
+    "category": "1 on 1 / Defensive Gap",
+    "drill_types": [
+      "1 on 1",
+      "Defensive",
+      "Full Ice",
+      "Stations",
+      "Gap",
+      "Backwards Skating",
+      "Zone Entry"
+    ],
+    "description": "A forward and defender transition around their routes so the defender begins at a slight disadvantage. The forward receives or picks up a puck with speed and attacks toward the near post. The defender works to contain the rush outside and recover to the post if beaten.",
+    "coaching_points": [
+      "Forward attacks with speed and forces the defender to manage a difficult gap.",
+      "Defender contains the puck carrier to the outside and protects the near post.",
+      "If beaten, open up and sprint instead of continuing to drift backward.",
+      "Adjust the starting spacing so both players arrive at the transition with a competitive gap."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/whip-one-one",
+    "print_url": "https://www.icehockeysystems.com/print/standard/902",
+    "source_id": "902",
+    "image": "https://www.files.icehockeysystems.com/files/drills/whip-whip-1-on-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/whip-whip-1-on-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 301
+  },
+  {
+    "uid": "ihs-152076",
+    "title": "3 on 2 Dot Jumper",
+    "category": "3 on 2 / Small Area Game",
+    "drill_types": [
+      "3 on 2",
+      "Small Area Games",
+      "Battle Drills",
+      "Puck Protection",
+      "Puck Support",
+      "Offensive Zone",
+      "Compete"
+    ],
+    "description": "A small-area game starts with one player from each team stationary on a faceoff dot while the other players compete for possession. A team activates its dot player by completing a pass to them, creating a temporary 3-on-2 advantage.",
+    "coaching_points": [
+      "Compete hard for loose pucks and establish possession first.",
+      "Use explosive stops and starts and move immediately without the puck.",
+      "Communicate before activating the extra player.",
+      "Protect possession once the 3-on-2 advantage is created and follow shots to the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Hockey Coach Vision",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-2-dot-jumper",
+    "print_url": "https://www.icehockeysystems.com/print/standard/152076",
+    "source_id": "152076",
+    "image": "https://www.files.icehockeysystems.com/files/drills/3vs2-dot-jumpers-small-area-game.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/3vs2-dot-jumpers-small-area-game.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 302
   }
 ]
