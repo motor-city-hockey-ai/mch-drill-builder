@@ -17497,5 +17497,76 @@
     ],
     "original_diagram": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-2478221",
+    "number": 535,
+    "title": "3 V 3 Keep Away With Team Bumpers",
+    "category": "3 vs 3",
+    "drill_types": [
+      "3 vs 3",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Puck Support",
+      "Awareness",
+      "Offensive",
+      "Small Area Games",
+      "Warm Up",
+      "Neutral Zone",
+      "Battle Drills",
+      "Coverage"
+    ],
+    "description": "A center-ice 3-on-3 possession game with three teammates positioned as moving bumpers on the blue line. Teams score through completed passes while the outside players create support angles and rotate into the game on each change.",
+    "coaching_points": [
+      "Outside bumpers stay alert and move laterally to remain available.",
+      "Players without the puck scan, communicate and create a passing lane.",
+      "Use give-and-go movement and deception to keep possession away from pressure.",
+      "On a turnover, transition immediately from pressure to support."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/print/standard/2478221",
+    "source_id": "2478221",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2478221-0-1686754514.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2478221-0-1686754514.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-four-zone-1v1",
+    "number": 536,
+    "title": "Four Zone 1 on 1",
+    "category": "1 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "Defensive",
+      "Coverage",
+      "Battle Drills",
+      "Conditioning",
+      "Defensive Zone",
+      "Half Ice",
+      "Angling",
+      "Gap"
+    ],
+    "description": "One defender handles four consecutive 1-on-1 attacks from four different corner starting points. The coach calls the next attacker, forcing the defender to recover quickly, identify the new threat and close time and space from changing angles.",
+    "coaching_points": [
+      "React to the coach's call and establish inside position immediately.",
+      "Close space under control instead of lunging at the puck carrier.",
+      "Keep the stick in a useful lane and steer the attacker away from the middle.",
+      "Recover quickly between reps and maintain defensive habits under fatigue."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/print/practice/standard/7121",
+    "image": "https://www.files.icehockeysystems.com/files/drills/four-zone-1v1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/four-zone-1v1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified"
   }
 ]
