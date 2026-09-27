@@ -16026,5 +16026,170 @@
     "original_diagram": true,
     "status": "verified",
     "number": 491
+  },
+  {
+    "uid": "ihs-cross-fire-possession",
+    "title": "Cross Fire Possession Game",
+    "category": "Passing",
+    "drill_types": [
+      "Passing",
+      "Puck Control",
+      "Puck Protection",
+      "Puck Support",
+      "Offensive",
+      "Small Area Games",
+      "Coverage",
+      "Awareness",
+      "Give and Go"
+    ],
+    "description": "Two players from each team compete inside a square while teammates are positioned on opposite outside edges. A team scores by moving the puck from one outside player, through support inside the box, to its teammate on the far side.",
+    "coaching_points": [
+      "Protect the puck until a clean play is available.",
+      "Move immediately after passing to create the next support lane.",
+      "Use give-and-go plays instead of standing after the pass.",
+      "Adjust the square size to match the players' skill level."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cross-fire-possession-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cross-fire.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cross-fire.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 492
+  },
+  {
+    "uid": "ihs-61296",
+    "title": "Seven Pass 2 on 1",
+    "category": "2 vs 1",
+    "drill_types": [
+      "2 vs 1",
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Shooting",
+      "Transition",
+      "Awareness",
+      "Gap"
+    ],
+    "description": "A high-tempo full-ice sequence uses at least seven passes before two forwards attack the defenseman who started the rep. The defenseman also receives a cross-zone pass for a quick shot, recovers ice, and then defends the returning 2-on-1.",
+    "coaching_points": [
+      "Communicate throughout the passing sequence and present clear targets.",
+      "Headman the puck so the lead forward stays ahead of the play.",
+      "Defenseman gets the shot off quickly, then recovers gap before the rush arrives.",
+      "Enter the final 2-on-1 with speed and force the defender to make a decision."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Denis Savard",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/seven-pass-2-1",
+    "source_id": "61296",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-61296-0-1652238568.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-61296-0-1652238568.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 493
+  },
+  {
+    "uid": "ihs-6-pass-shooting",
+    "title": "6 Pass Shooting Drill",
+    "category": "Shooting",
+    "drill_types": [
+      "One Goalie",
+      "Passing",
+      "Shooting",
+      "Skill Development",
+      "Half Ice",
+      "One Touch Passing",
+      "Pivots",
+      "Puck Control"
+    ],
+    "description": "A half-ice sequence creates six passes before the final shot. Players work one-touch exchanges, pivots, handling the puck while moving backward, changing passing angles, and receiving the final pass high in the zone for a shot.",
+    "coaching_points": [
+      "Keep the feet moving through the entire rep, including the shot.",
+      "Show a clear target and communicate for each pass.",
+      "Use one-touch passes when the lane and timing are available.",
+      "The corner player opens up on the breakout-style pass instead of firing blindly up the wall."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/6-pass-shooting-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/6-pass-shooting-drill.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/6-pass-shooting-drill.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 494
+  },
+  {
+    "uid": "ihs-continuous-one-touch-shooting",
+    "title": "Continuous One Touch Shooting Drill",
+    "category": "Shooting",
+    "drill_types": [
+      "One Goalie",
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "One Touch Passing",
+      "Transition",
+      "Quick Release",
+      "Net Drive"
+    ],
+    "description": "A player from the blue-line line exchanges repeated one-touch passes with a stationary goal-line player while skating down, transitioning up the wall, and curling into the slot. The final reception becomes a quick shot, and both players drive the net before rotating.",
+    "coaching_points": [
+      "Make flat passes with soft hands instead of slapping at the puck.",
+      "Transition while facing the puck throughout the route.",
+      "Receive and shoot in one motion in the slot.",
+      "Both players follow the shot to the net for rebounds."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-one-touch-shooting-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-one-touch-shooting-drill.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-one-touch-shooting-drill.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 495
+  },
+  {
+    "uid": "ihs-23771",
+    "title": "Four Corners Possession Game",
+    "category": "2 vs 2",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Passing",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Awareness",
+      "Communication"
+    ],
+    "description": "Two players from each team compete in the middle while one teammate from each side is fixed inside designated corner boxes. Teams score points by completing clean passes to their corner players while maintaining possession.",
+    "coaching_points": [
+      "Play with the head up to identify the next scoring option before receiving.",
+      "Protect the puck first when pressure removes the immediate pass.",
+      "Use both verbal and non-verbal communication with teammates.",
+      "Rotate inside and corner players every short shift to keep pace high."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-corners",
+    "source_id": "23771",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-23771-0-1677591028.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-23771-0-1677591028.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 496
   }
 ]
