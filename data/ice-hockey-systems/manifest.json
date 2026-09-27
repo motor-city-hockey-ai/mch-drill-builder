@@ -37,29 +37,29 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 247,
-    "catalog_items_verified": 247,
+    "catalog_items_imported": 261,
+    "catalog_items_verified": 261,
     "catalog_target": 1573,
     "last_batch": "featured/current catalog batch 1",
-    "original_diagrams_verified": 247,
+    "original_diagrams_verified": 261,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 265,
+    "unique_urls_discovered": 279,
     "catalog_items_pending_enrichment": 18,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Enrich newly discovered battle/offensive-zone drills and continue category discovery. Video-only goalie edgework remains pending.",
+    "next_step": "Enrich the newly discovered battle-game records, continue Battle Drills pagination, and keep video-only goalie edgework pages pending.",
     "multi_diagram_drills_preserved": 16,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 12,
-    "last_batch_notes": "Imported Golden Cross, Quarter Ice Puck Races #6-#8, Merrimack Wall Drill, 1 v 1 Three Gates, Neutral Zone Game with Outlets, Long Bomb, Battle Dome 1 on 1, Fran Gow 3 on 2 or 3 on 3, 3 vs 2 Three Pucks Game, and 2 on 2 Angle Game using directly verified source images.",
+    "last_batch_imported": 14,
+    "last_batch_notes": "Imported five previously pending gate/wall-play drills plus nine Battle Drills page-2 records. Preserved two-image progressions for The Backcheck Game and Breakaway Backcheck With 1 on 1 Variation.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 13
+    "last_batch_discovered": 14
   }
 }
