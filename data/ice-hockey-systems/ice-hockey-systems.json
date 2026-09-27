@@ -28814,5 +28814,415 @@
     "member_only": true,
     "status": "verified",
     "number": 889
+  },
+  {
+    "uid": "ihs-criss-cross-drop-passing",
+    "title": "Criss Cross Drop Passing",
+    "category": "2 vs 0 / Passing / Puck Support",
+    "drill_types": [
+      "2 vs 0",
+      "Passing",
+      "Puck Support",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "description": "Two players pass into the station, cross through a series of barriers and execute repeated forehand drop passes before the off-puck player drives the net for a final pass.",
+    "coaching_points": [
+      "Make sharp lateral cuts before each drop pass.",
+      "Leave the drop pass on the receiver's forehand.",
+      "Communicate through every exchange.",
+      "Drive the net hard after the final cross."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/criss-cross-drop-passing-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4578251-0-1723226765.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4578251-0-1723226765.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 890
+  },
+  {
+    "uid": "ihs-zone-entry-drives",
+    "title": "Zone Entry Drives",
+    "category": "3 vs 0 / Zone Entry / Puck Support",
+    "drill_types": [
+      "3 vs 0",
+      "Zone Entry",
+      "Offensive",
+      "Puck Support",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "description": "Three forwards rehearse a small-area entry: the puck carrier drives the wall, one player attacks the middle lane and the third stays wide or folds underneath to create a second scoring option.",
+    "coaching_points": [
+      "Drive the middle lane hard to the net.",
+      "The third attacker must create time and space rather than crowd the puck.",
+      "Read the available passing option before forcing the play.",
+      "Vary the entry pattern once the base timing is clean."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/zone-entry-drives",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4577791-0-1723226712.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4577791-0-1723226712.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 891
+  },
+  {
+    "uid": "ihs-last-one-out",
+    "title": "Last One Out",
+    "category": "Puck Protection / Small Area Game",
+    "drill_types": [
+      "Puck Control",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Awareness"
+    ],
+    "description": "Most players carry pucks while a smaller group of defenders tries to knock them away. A player exits after losing possession, and the last puck carrier remaining wins the round.",
+    "coaching_points": [
+      "Protect the puck with the body and free hand.",
+      "Keep the head up to track pressure.",
+      "Change speed and direction before defenders arrive.",
+      "Defenders should angle rather than chase from behind."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/last-one-out",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-157226-0-1675098261.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-157226-0-1675098261.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 892
+  },
+  {
+    "uid": "ihs-1-vs-1-in-a-box",
+    "title": "1 vs 1 in a box",
+    "category": "1 vs 1 / Small Area Game / Battle",
+    "drill_types": [
+      "1 vs 1",
+      "Small Area Games",
+      "Battle Drills",
+      "Puck Protection",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Two players compete inside a tight bordered area after the coach introduces a puck. The small space creates repeated 50/50 battles, puck-protection decisions and immediate scoring opportunities.",
+    "coaching_points": [
+      "Win body position before reaching for the puck.",
+      "Protect possession with hips and shoulders.",
+      "Attack the net quickly once separation is created.",
+      "Match players by ability so battles stay competitive."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-vs-1-box",
+    "image": "https://www.files.icehockeysystems.com/files/drills/1vs1-in-box.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/1vs1-in-box.png",
+      "https://www.files.icehockeysystems.com/files/drills/1v1-in-a-box-sixth-ice-station-web.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/1vs1-in-a-box-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 893
+  },
+  {
+    "uid": "ihs-half-ice-six-shooter",
+    "title": "Half Ice Six Shooter",
+    "category": "Shooting / Passing / Half Ice",
+    "drill_types": [
+      "Shooting",
+      "Passing",
+      "Half Ice",
+      "Stations",
+      "Sixth Ice Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Three player lines cycle through six quick shooting actions around two nets. Players receive passes, shoot, hunt rebounds and rotate to the next shooting position.",
+    "coaching_points": [
+      "Receive each pass in a shooting-ready position.",
+      "Release quickly rather than overhandling.",
+      "Stop at the net for rebounds.",
+      "Keep the rotation moving so both goalies see a steady shot rhythm."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-six-shooter",
+    "image": "https://www.files.icehockeysystems.com/files/drills/half-ice-six-shooter.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/half-ice-six-shooter.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 894
+  },
+  {
+    "uid": "ihs-weave-shots",
+    "title": "Weave Shots",
+    "category": "Puck Control / Shooting / Station",
+    "drill_types": [
+      "Puck Control",
+      "Skating",
+      "Shooting",
+      "Passing",
+      "Skill Development",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "description": "A player weaves through cones while protecting the puck, turns toward the net for a first shot, then loops to the opposite side to receive a coach pass for a second shot.",
+    "coaching_points": [
+      "Use inside edges and keep the puck away from each cone.",
+      "Exit the final turn ready to shoot.",
+      "Circle out with the head up and present the stick for the coach pass.",
+      "Catch and release the second puck quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/weave-shots",
+    "image": "https://www.files.icehockeysystems.com/files/drills/weave-shots.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/weave-shots.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 895
+  },
+  {
+    "uid": "ihs-neutral-zone-three-shot-station",
+    "title": "Neutral Zone Three Shot Station",
+    "category": "Shooting / Transition / Station",
+    "drill_types": [
+      "Shooting",
+      "Skating",
+      "Backwards Skating",
+      "Transition",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "description": "A player receives three separate coach passes for three shots, with stops, backward skating and a backward-to-forward transition built between the scoring attempts.",
+    "coaching_points": [
+      "Keep the stick available for each coach pass.",
+      "Stop under control before changing direction.",
+      "Stay square to the coach while skating backward.",
+      "Transition forward around the tire and attack the third shot with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-three-shot-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-3-shot-drill_0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-3-shot-drill_0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 896
+  },
+  {
+    "uid": "ihs-cutting-hands-partner-pressure",
+    "title": "Cutting Hands - Partner Pressure",
+    "category": "Puck Protection / Puck Handling",
+    "drill_types": [
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Partners work through three puck-protection variations that train players to lead tight turns with the inside leg, cut the hands across the body and keep the puck shielded from pressure.",
+    "coaching_points": [
+      "Lead the turn with the inside leg.",
+      "Trust the outside edge of the inside skate.",
+      "Keep the stick blade closed through the tight turn.",
+      "Use body and hand position to separate the puck from pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "NextGenerationHKY",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cutting-hands-partner-pressure",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cutting-hands-partner-pressure.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cutting-hands-partner-pressure.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 897
+  },
+  {
+    "uid": "ihs-forehand-shooting-fundamentals-4",
+    "title": "Forehand Shooting Fundamentals #4",
+    "category": "Shooting / Puck Control / Fundamentals",
+    "drill_types": [
+      "Shooting",
+      "Puck Control",
+      "Skill Development",
+      "Stations",
+      "Sixth Ice Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Players approach a pad from the off-hand side, keep the puck on the forehand while surrounding the obstacle and arrive on the far side with the puck already in shooting position.",
+    "coaching_points": [
+      "Keep the puck on the forehand around the pad.",
+      "Move the puck into shooting position off the back foot.",
+      "Keep the head over the puck through the release.",
+      "Transfer weight toward the net and stop at the crease."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/forehand-shooting-fundamentals-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/forehand-shooting-fundamentals-series-4-diagram.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/forehand-shooting-fundamentals-series-4-diagram.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 898
+  },
+  {
+    "uid": "ihs-figure-eight-tire-shots",
+    "title": "Figure Eight Tire Shots",
+    "category": "Skating / Shooting / Puck Retrieval",
+    "drill_types": [
+      "Skating",
+      "Shooting",
+      "Puck Control",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "description": "Players skate a figure-eight route around two tires, collect a puck at each side and return to the middle for two quick shots during the same repetition.",
+    "coaching_points": [
+      "Use tight turns around both tires.",
+      "Gain control of each puck quickly.",
+      "Move the puck to the forehand before shooting.",
+      "Shoot with the head up and continue skating through the pattern."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/figure-eight-tire-shots",
+    "image": "https://www.files.icehockeysystems.com/files/drills/figure-eight-tire-shots.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/figure-eight-tire-shots.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 899
+  },
+  {
+    "uid": "ihs-tire-turn-relays-forwards-backwards-transition",
+    "title": "Tire Turn Relays - Forwards to Backwards Transition - Station",
+    "category": "Skating / Transition / Relay",
+    "drill_types": [
+      "Skating",
+      "Backwards Skating",
+      "Transition",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "description": "Players skate forward to a tire, transition around it to backward skating and race backward to the goal line. The drill can be run as a technical station or competitive relay.",
+    "coaching_points": [
+      "Flip the hips as the skater reaches the tire.",
+      "Push off the outside edge of the inside skate.",
+      "Limit the transition to one crossover when possible.",
+      "Move immediately into strong backward C-cuts."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tire-turn-relays-forwards-backwards-transition",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tire-turn-relays-forwards-backwards-transition.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tire-turn-relays-forwards-backwards-transition.png",
+      "https://www.files.icehockeysystems.com/files/drills/tire-turn-relays-sixth-ice-station-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 900
+  },
+  {
+    "uid": "ihs-tire-turn-relays-full-360-control-turns-quarter-ice",
+    "title": "Tire Turn Relays - Full 360 Control Turns - Quarter Ice",
+    "category": "Skating / Control Turns / Relay",
+    "drill_types": [
+      "Skating",
+      "Control Turns",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "description": "Players race straight to a tire, complete a full 360-degree control turn and accelerate back to the goal line, emphasizing edge control and forward-stride power.",
+    "coaching_points": [
+      "Turn the chest and eyes toward the exit.",
+      "Trust the outside edge of the inside skate.",
+      "Keep the inside skate slightly ahead through the turn.",
+      "Accelerate immediately after completing the circle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tire-turn-relays-full-360-control-turns-quarter-ice",
+    "image": "https://www.files.icehockeysystems.com/files/drills/control-turns-around-tires-with-relays.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/control-turns-around-tires-with-relays.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 901
+  },
+  {
+    "uid": "ihs-iron-cross-passing-drill",
+    "title": "Iron Cross Passing Drill",
+    "category": "Passing / Stops & Starts / Station",
+    "drill_types": [
+      "Passing",
+      "Puck Control",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Warm Up"
+    ],
+    "description": "One player performs an iron-cross skating pattern inside the circle while repeatedly exchanging give-and-go passes with a stationary teammate at the bottom of the circle.",
+    "coaching_points": [
+      "Communicate before every pass.",
+      "Keep the stick on the ice as a target.",
+      "Use quick stops and explosive starts to move into open space.",
+      "Progress to backhand receptions or light pressure when execution is clean."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/iron-cross-passing-drill-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4580401-0-1743988367.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4580401-0-1743988367.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 902
   }
 ]

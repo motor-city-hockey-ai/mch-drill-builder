@@ -11360,5 +11360,219 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Verified practice-page source-image sweep"
+  },
+  {
+    "discovery_number": 726,
+    "title": "Criss Cross Drop Passing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/criss-cross-drop-passing-0",
+    "categories": [
+      "2 vs 0",
+      "Passing",
+      "Puck Support",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 727,
+    "title": "Zone Entry Drives",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/zone-entry-drives",
+    "categories": [
+      "3 vs 0",
+      "Zone Entry",
+      "Offensive",
+      "Puck Support",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 728,
+    "title": "Last One Out",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/last-one-out",
+    "categories": [
+      "Puck Control",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 729,
+    "title": "1 vs 1 in a box",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-vs-1-box",
+    "categories": [
+      "1 vs 1",
+      "Small Area Games",
+      "Battle Drills",
+      "Puck Protection",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 730,
+    "title": "Half Ice Six Shooter",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-six-shooter",
+    "categories": [
+      "Shooting",
+      "Passing",
+      "Half Ice",
+      "Stations",
+      "Sixth Ice Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 731,
+    "title": "Weave Shots",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/weave-shots",
+    "categories": [
+      "Puck Control",
+      "Skating",
+      "Shooting",
+      "Passing",
+      "Skill Development",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 732,
+    "title": "Neutral Zone Three Shot Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-three-shot-station",
+    "categories": [
+      "Shooting",
+      "Skating",
+      "Backwards Skating",
+      "Transition",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 733,
+    "title": "Cutting Hands - Partner Pressure",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cutting-hands-partner-pressure",
+    "categories": [
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 734,
+    "title": "Forehand Shooting Fundamentals #4",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/forehand-shooting-fundamentals-4",
+    "categories": [
+      "Shooting",
+      "Puck Control",
+      "Skill Development",
+      "Stations",
+      "Sixth Ice Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 735,
+    "title": "Figure Eight Tire Shots",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/figure-eight-tire-shots",
+    "categories": [
+      "Skating",
+      "Shooting",
+      "Puck Control",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 736,
+    "title": "Tire Turn Relays - Forwards to Backwards Transition - Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tire-turn-relays-forwards-backwards-transition",
+    "categories": [
+      "Skating",
+      "Backwards Skating",
+      "Transition",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 737,
+    "title": "Tire Turn Relays - Full 360 Control Turns - Quarter Ice",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tire-turn-relays-full-360-control-turns-quarter-ice",
+    "categories": [
+      "Skating",
+      "Control Turns",
+      "Relay Races",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
+  },
+  {
+    "discovery_number": 738,
+    "title": "Iron Cross Passing Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/iron-cross-passing-drill-0",
+    "categories": [
+      "Passing",
+      "Puck Control",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "High-volume verified source-image sweep"
   }
 ]
