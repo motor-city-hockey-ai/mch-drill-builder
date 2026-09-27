@@ -6976,5 +6976,38 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 468,
+    "title": "Five Puck Scoring Race",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/five-puck-scoring-race",
+    "categories": [
+      "Relay Races",
+      "Shooting",
+      "Full Ice",
+      "Races",
+      "Competition",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 469,
+    "title": "Savy's Continuous Breakout Drill with Forecheckers",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/savys-continuous-breakout-drill-forecheckers",
+    "categories": [
+      "Backchecking",
+      "Forechecking",
+      "Full Ice",
+      "Breakouts",
+      "Defensive",
+      "Transition",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
   }
 ]
