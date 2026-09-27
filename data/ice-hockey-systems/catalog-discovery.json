@@ -5531,5 +5531,69 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS catalog page 3 / related skills"
+  },
+  {
+    "discovery_number": 380,
+    "title": "Puck In Skates Skill Builder",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-skates-skill-builder",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS diagram-backed search"
+  },
+  {
+    "discovery_number": 381,
+    "title": "Layered 1 v 1's",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/layered-1-v-1s",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Awareness",
+      "Defensive",
+      "Puck Control",
+      "Skating",
+      "Skill Development",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS diagram-backed search"
+  },
+  {
+    "discovery_number": 382,
+    "title": "Start & Stop Loose Puck Battle",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/start-stop-loose-puck-battle",
+    "categories": [
+      "1 vs 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Races",
+      "Skating",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS diagram-backed search"
+  },
+  {
+    "discovery_number": 383,
+    "title": "Figure 8 Puck Protection Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/figure-8-corner-puck-protection-drill",
+    "categories": [
+      "Puck Protection",
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Shooting",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS diagram-backed search"
   }
 ]
