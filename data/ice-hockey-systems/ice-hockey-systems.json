@@ -11138,5 +11138,68 @@
     "member_only": true,
     "status": "verified",
     "number": 340
+  },
+  {
+    "uid": "ihs-347471",
+    "title": "3 Regroup 3 vs. 2 Drill",
+    "category": "3 on 2 / Regroup",
+    "drill_types": [
+      "3 on 2",
+      "Re-Group",
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Gap"
+    ],
+    "description": "Three forwards regroup three times between two defense pairs, then attack the final pair in a 3-on-2. The drill emphasizes timing, lane spacing and quick puck movement through repeated regroups.",
+    "coaching_points": [
+      "Forwards avoid getting ahead of the puck and fill separate lanes.",
+      "Defensemen scan up ice before moving the puck.",
+      "Keep the regroup passes crisp so the final 3-on-2 develops with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Topher Scott / hockeythinktank",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-regroup-3-vs-2-drill",
+    "source_id": "347471",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-347471-0-1670272864.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-347471-0-1670272864.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 341
+  },
+  {
+    "uid": "ihs-2627686",
+    "title": "Breakout Regroup Shooting",
+    "category": "Passing / Shooting / Breakout",
+    "drill_types": [
+      "Breakouts",
+      "Re-Group",
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Edgework"
+    ],
+    "description": "A continuous give-and-go breakout sequence. A player opens to the wall for a return pass, gives the puck back, then jumps into the slot for a quick one-timer before rotating to the goal line for the next repetition.",
+    "coaching_points": [
+      "Present the stick as a target on the wall.",
+      "Communicate before receiving the return pass.",
+      "Keep the head up while moving into breakout position.",
+      "Release the shot quickly after the give-and-go."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakout-regroup-shooting",
+    "source_id": "2627686",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627686-0-1693851278.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627686-0-1693851278.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 342
   }
 ]
