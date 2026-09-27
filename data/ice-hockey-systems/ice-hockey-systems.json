@@ -30929,5 +30929,94 @@
     "member_only": true,
     "status": "verified",
     "number": 959
+  },
+  {
+    "uid": "ihs-royal-puck-protection-drill",
+    "title": "Royal Puck Protection Drill",
+    "category": "Puck Protection / Shooting / Half Ice",
+    "drill_types": [
+      "Puck Protection",
+      "Shooting",
+      "Skill Development",
+      "Offensive Zone",
+      "Half Ice"
+    ],
+    "description": "A puck carrier works a figure-eight pattern around two stationary pressure players, using body position and moving feet to protect the puck before attacking out of the turn for a quick shot.",
+    "coaching_points": [
+      "Keep the feet moving while protecting the puck.",
+      "Use the body and hips to shield possession.",
+      "Attack out of the final turn with speed.",
+      "Release quickly and stop at the crease."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/royal-puck-protection-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/royal-puck-protection-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/royal-puck-protection-drill.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 960
+  },
+  {
+    "uid": "ihs-umbrella-roll-power-play-drill",
+    "title": "Umbrella Roll Power Play Drill",
+    "category": "Power Play / Passing / Shooting",
+    "drill_types": [
+      "Power Play",
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Half Ice"
+    ],
+    "description": "A forward moves up the wall and pivots backward to receive a pass while the defense shifts laterally along the blue line. The puck goes forward-to-defense and back into the seam for a shot.",
+    "coaching_points": [
+      "Time the pivot so the forward receives while moving.",
+      "Defense stays available along the blue line.",
+      "Move the puck quickly through the exchange.",
+      "Explode into the seam after the return pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/umbrella-roll-power-play-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/umbrella-roll-power-play-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/umbrella-roll-power-play-drill.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 961
+  },
+  {
+    "uid": "ihs-shooting-warm-up-progression",
+    "title": "Shooting Warm-Up Progression",
+    "category": "Shooting / Passing / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Full Ice",
+      "Flow"
+    ],
+    "description": "A full-ice two-part warm-up progression. Players cross and exchange one-touch passes through center before finishing with quick-release shots, then progress to outside-lane entries with seam and backdoor options.",
+    "coaching_points": [
+      "Communicate before each pass.",
+      "Keep sticks on the ice as clear targets.",
+      "Maintain spacing through the neutral zone.",
+      "Use quick, crisp passes and quick-release shots."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Marty Wilford",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shooting-warm-up-progression",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5711706-0-1740517814.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5711706-0-1740517814.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5711706-1-1740517814.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 962
   }
 ]
