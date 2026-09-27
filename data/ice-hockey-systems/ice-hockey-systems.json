@@ -20630,5 +20630,68 @@
     "member_only": true,
     "status": "verified",
     "number": 631
+  },
+  {
+    "uid": "ihs-five-puck-scoring-race",
+    "title": "Five Puck Scoring Race",
+    "category": "Relay Race / Shooting / Full Ice",
+    "drill_types": [
+      "Relay Races",
+      "Shooting",
+      "Full Ice",
+      "Races",
+      "Competition",
+      "Offensive"
+    ],
+    "description": "A full-ice relay scoring race. Two teams start from the benches with five pucks placed across each blue line. One player at a time attacks a puck on a breakaway; a goal allows the next teammate to go after the skater returns to the blue line, while a miss must be retrieved and reset before the next player can leave.",
+    "coaching_points": [
+      "Attack the puck and net at game speed.",
+      "Finish the scoring chance before racing back to release the next player.",
+      "On a miss, retrieve and reset the puck quickly.",
+      "Keep the race competitive while maintaining safe spacing between players."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/five-puck-scoring-race",
+    "image": "https://www.files.icehockeysystems.com/files/drills/five-puck-scoring-race.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/five-puck-scoring-race.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 632
+  },
+  {
+    "uid": "ihs-savys-continuous-breakout-forecheckers",
+    "title": "Savy's Continuous Breakout Drill with Forecheckers",
+    "category": "Breakout / Forecheck / Full Ice",
+    "drill_types": [
+      "Backchecking",
+      "Forechecking",
+      "Full Ice",
+      "Breakouts",
+      "Defensive",
+      "Transition",
+      "Puck Support"
+    ],
+    "description": "A continuous breakout drill with three designated forecheckers available. The coach controls the pressure by releasing one, two or all three forecheckers against the next breakout group, creating progressively harder breakout reads under live pressure.",
+    "coaching_points": [
+      "Breakout players communicate early and support underneath the puck.",
+      "Defense retrieves with the head up and identifies the first available outlet.",
+      "Forecheckers pressure with purpose and take away time, space and passing lanes.",
+      "Vary the number of released forecheckers so the breakout group must read changing pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/savys-continuous-breakout-drill-forecheckers",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-breakouts-with-forechecker.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-breakouts-with-forechecker.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 633
   }
 ]
