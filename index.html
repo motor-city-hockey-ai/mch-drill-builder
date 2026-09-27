@@ -468,12 +468,22 @@ button{cursor:pointer}
     return d.library||'Drill Library';
   }
 
+  function exactSearchDrillType(){
+    const q=$('#search').value.trim();
+    const m=q.match(/^(\d+)\s*(?:v|vs\.?|on)\s*(\d+)$/i);
+    return m?(m[1]+' vs '+m[2]):'';
+  }
+
   async function updateTypeSummary(loadGlobal=false){
     const cat=$('#category').value;
-    const currentCount=database.filter(d=>!cat||drillTypeTags(d).includes(cat)).length;
-    $('#selectedTypeLabel').textContent=cat||'All Drill Types';
+    const searchedType=!cat?exactSearchDrillType():'';
+    const type=cat||searchedType;
+    const currentCount=type
+      ? database.filter(d=>drillTypeTags(d).includes(type)).length
+      : database.length;
+    $('#selectedTypeLabel').textContent=type||'All Drill Types';
     $('#typeLibraryCount').textContent=currentCount.toLocaleString();
-    if(!cat){
+    if(!type){
       $('#typeAllCount').textContent=ALL_DRILL_TOTAL.toLocaleString();
       return;
     }
@@ -482,14 +492,14 @@ button{cursor:pointer}
       return;
     }
     if(!allDrillsDatabase&&!loadGlobal){
-      $('#typeAllCount').textContent='Select type to count';
+      $('#typeAllCount').textContent='Counting…';
       return;
     }
     if(!allDrillsDatabase&&loadGlobal){
       $('#typeAllCount').textContent='Counting…';
       try{await loadAllDrills();hideLoading();}catch(err){$('#typeAllCount').textContent='—';return;}
     }
-    const globalCount=allDrillsDatabase.filter(d=>drillTypeTags(d).includes(cat)).length;
+    const globalCount=allDrillsDatabase.filter(d=>drillTypeTags(d).includes(type)).length;
     $('#typeAllCount').textContent=globalCount.toLocaleString();
   }
 
@@ -618,8 +628,14 @@ button{cursor:pointer}
   }
 
   function filtered(){
-    const cat=$('#category').value,q=$('#search').value.trim().toLowerCase();
-    const rows=database.filter(d=>(!cat||drillTypeTags(d).includes(cat))&&(!q||[d.number,d.title,d.teaser,d.category,d.description,d.source,d.author,d.source_collection,d.chapter,libraryDisplayName(d),(d.tags||[]).join(' ')].join(' ').toLowerCase().includes(q)));
+    const cat=$('#category').value,q=$('#search').value.trim().toLowerCase(),searchedType=exactSearchDrillType();
+    const rows=database.filter(d=>{
+      const types=drillTypeTags(d);
+      if(cat&&!types.includes(cat))return false;
+      if(!q)return true;
+      if(searchedType)return types.includes(searchedType);
+      return [d.number,d.title,d.teaser,d.category,d.description,d.source,d.author,d.source_collection,d.chapter,libraryDisplayName(d),(d.tags||[]).join(' ')].join(' ').toLowerCase().includes(q);
+    });
     return rows.sort((a,b)=>activeLibrary==='all'?(libraryDisplayName(a).localeCompare(libraryDisplayName(b))||Number(a.number)-Number(b.number)):(Number(a.number)-Number(b.number)));
   }
 
@@ -703,7 +719,12 @@ button{cursor:pointer}
 
   $('#librarySelect').addEventListener('change',()=>switchLibrary($('#librarySelect').value));
   $('#category').addEventListener('change',()=>{renderGrid(true);updateTypeSummary(true);});
-  $('#search').addEventListener('input',()=>renderGrid(true));
+  let searchCountTimer=null;
+  $('#search').addEventListener('input',()=>{
+    renderGrid(true);
+    clearTimeout(searchCountTimer);
+    if(exactSearchDrillType())searchCountTimer=setTimeout(()=>updateTypeSummary(true),180);
+  });
   $('#moreBtn').onclick=()=>{visibleLimit+=activeLibrary==='coaches'?36:60;renderGrid(false);};
   $('#showAllBtn').onclick=()=>{visibleLimit=filtered().length;renderGrid(false);};
   let autoLoadLock=false;
