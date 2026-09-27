@@ -24659,5 +24659,38 @@
     "member_only": true,
     "status": "verified",
     "number": 756
+  },
+  {
+    "uid": "ihs-sabre-o-zone-escape-drill",
+    "title": "Sabre O-zone Escape Drill",
+    "category": "2 vs 1 / Passing / Zone Entry",
+    "drill_types": [
+      "2 vs 1",
+      "Full Ice",
+      "Offensive",
+      "Passing",
+      "Puck Handling",
+      "Zone Entry",
+      "Escape",
+      "Puck Support",
+      "Shooting"
+    ],
+    "description": "A full-ice touch-and-escape progression. A player receives a long pass, attacks controlled stick pressure from a coach, escapes toward the wall and then finds a supporting teammate through the middle for a shot. The shooter stays at the net to begin the next repetition.",
+    "coaching_points": [
+      "Make the long pass tape-to-tape and receive it with the feet moving.",
+      "Attack pressure before using the escape instead of turning away too early.",
+      "Accelerate immediately after the escape to create separation.",
+      "Support through the middle with timing so the passing lane stays available."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Buffalo Sabres / Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabre-o-zone-escape-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7275036-0-1754108093.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7275036-0-1754108093.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 757
   }
 ]
