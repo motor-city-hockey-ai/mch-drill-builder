@@ -9452,5 +9452,64 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS exact-diagram checking/full-ice sweep"
+  },
+  {
+    "discovery_number": 609,
+    "title": "4 Lines - Series 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-lines-series-2",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Shooting",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 610,
+    "title": "4 Lines - Series 3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-lines-series-3",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Full Ice",
+      "Overspeed"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 611,
+    "title": "4 Lines - Series 5",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-lines-series-5",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 612,
+    "title": "Swiss Warm Up Passing Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swiss-warm-passing-drill",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Flow",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
   }
 ]
