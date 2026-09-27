@@ -11732,5 +11732,166 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Verified source page and original source-image reconciliation"
+  },
+  {
+    "discovery_number": 750,
+    "title": "Brooksy Utah Mammoth",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/brooksy-utah-mammoth",
+    "categories": [
+      "2 on 1",
+      "2 on 2",
+      "Battle Drills",
+      "Half Ice",
+      "Offensive",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + original Drill Maker image"
+  },
+  {
+    "discovery_number": 751,
+    "title": "Houda Skin",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/houda-skin",
+    "categories": [
+      "2 on 1",
+      "Breakouts",
+      "Forechecking",
+      "Gap",
+      "Retrievals",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + original Drill Maker image"
+  },
+  {
+    "discovery_number": 752,
+    "title": "4Corner puck protection",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4corner-puck-protection-0",
+    "categories": [
+      "1 on 1",
+      "Battle Drills",
+      "Puck Control",
+      "Puck Protection",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + original Drill Maker image"
+  },
+  {
+    "discovery_number": 753,
+    "title": "4Check Warmup Progressions",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-warmup-progressions",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Passing",
+      "Shooting",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + original Drill Maker image"
+  },
+  {
+    "discovery_number": 754,
+    "title": "2 on 1 Corner Traffic",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-1-corner-traffic",
+    "categories": [
+      "2 on 1",
+      "Down Low",
+      "Passing",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + original Drill Maker image"
+  },
+  {
+    "discovery_number": 755,
+    "title": "4Check Punch Escapes",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-punch-escapes",
+    "categories": [
+      "1 on 1",
+      "Awareness",
+      "Battle Drills",
+      "Skill Development",
+      "Wall Play",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + original Drill Maker image"
+  },
+  {
+    "discovery_number": 756,
+    "title": "Stick Battle with Shots",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stick-battle-shots-5",
+    "categories": [
+      "Puck Handling",
+      "Shooting",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + original Drill Maker image"
+  },
+  {
+    "discovery_number": 757,
+    "title": "Low Rim Pickup with Screens",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/low-rim-pickup-screens-4",
+    "categories": [
+      "Puck Handling",
+      "Retrievals",
+      "Shooting",
+      "Down Low"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + original Drill Maker image"
+  },
+  {
+    "discovery_number": 758,
+    "title": "Blue Line Shots with Screens",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/blue-line-shots-screens-4",
+    "categories": [
+      "Shooting",
+      "Skill Development",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + original Drill Maker image"
+  },
+  {
+    "discovery_number": 759,
+    "title": "4Check 1 Zone Passing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-1-zone-passing-6",
+    "categories": [
+      "Breakouts",
+      "Passing",
+      "Re-Group",
+      "Defensive",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + original Drill Maker image"
+  },
+  {
+    "discovery_number": 760,
+    "title": "Blue Line Shot Pass",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/blue-line-shot-pass-4",
+    "categories": [
+      "Passing",
+      "Skill Development",
+      "Shooting",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + original Drill Maker image"
   }
 ]
