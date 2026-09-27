@@ -18150,5 +18150,73 @@
     "member_only": true,
     "status": "verified",
     "number": 554
+  },
+  {
+    "uid": "ihs-9045411",
+    "title": "Toronto 4 Shot Warm-Up",
+    "category": "Shooting",
+    "drill_types": [
+      "Flow",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Passing",
+      "Offensive",
+      "Puck Support",
+      "Retrievals"
+    ],
+    "description": "A four-shot full-ice warm-up that gives skaters and goalies four different reads: a downhill dot-lane shot, a weak-side seam shot, a stretch-pass attack, and a final blue-line walk with layered net-front traffic.",
+    "coaching_points": [
+      "Drive the shooting lanes with pace and receive passes in stride.",
+      "Time the stretch route so the puck arrives with speed.",
+      "Keep net-front players layered and available for screens and rebounds.",
+      "On the final shot, walk the blue line to improve the lane before release."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Spiros Anastas",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/toronto-4-shot-warm-up",
+    "source_id": "9045411",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-9045411-0-1765219885.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-9045411-0-1765219885.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 555
+  },
+  {
+    "uid": "ihs-4578546",
+    "title": "Datsyuk Shooting",
+    "category": "Shooting",
+    "drill_types": [
+      "One Goalie",
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Puck Control",
+      "Deception"
+    ],
+    "description": "A quick-release shooting station where the shooter receives a pass, attacks the first obstacle with purpose, pulls the puck inside the next obstacle, and releases the shot while staying in stride.",
+    "coaching_points": [
+      "Attack the first obstacle with speed instead of drifting into it.",
+      "Use the eyes and upper body to sell a fake before pulling the puck inside.",
+      "Keep the feet moving through the release.",
+      "Shift body weight through the shot and finish toward the target."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/datsyuk-shooting-12",
+    "source_id": "4578546",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4578546-0-1723230568.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4578546-0-1723230568.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 556
   }
 ]
