@@ -19234,5 +19234,180 @@
     "member_only": false,
     "status": "verified",
     "number": 588
+  },
+  {
+    "uid": "ihs-329746",
+    "title": "Skilled Passing to 1 on 1 Battle Drill",
+    "category": "1 vs 1 / Passing / Battle Drill",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 0",
+      "Battle Drills",
+      "Half Ice",
+      "Offensive",
+      "Passing",
+      "Shooting",
+      "Skill Development"
+    ],
+    "description": "Two players begin with a skilled passing sequence through the neutral zone, race to finish a backdoor chance, then immediately compete in a live 1-on-1 battle after the coach sends a new puck to the corner.",
+    "coaching_points": [
+      "Execute the drop pass and obstacle pass with pace and control.",
+      "Attack the backdoor with timing and a stick available for the finish.",
+      "Transition immediately from the scoring chance into the 1-on-1 battle.",
+      "Compete through the puck and finish the battle at the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Dwayne Blais",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/skilled-passing-1-1-battle-drill",
+    "source_id": "329746",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-329746-0-1722887705.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-329746-0-1722887705.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 589
+  },
+  {
+    "uid": "ihs-332386",
+    "title": "Neutral Zone 3 vs. 3 Game",
+    "category": "3 vs 3 / Neutral Zone / Small Area Game",
+    "drill_types": [
+      "3 vs 3",
+      "Passing",
+      "Offensive",
+      "Defensive",
+      "Small Area Games",
+      "Neutral Zone",
+      "Battle Drills",
+      "Transition",
+      "Puck Support"
+    ],
+    "description": "A neutral-zone 3-on-3 game with each team supported by an outlet on its blue line. New pucks enter quickly after goals, saves or pucks leaving the area, creating constant turnovers, transition reads and support decisions.",
+    "coaching_points": [
+      "Keep the head up and scan before receiving or pressuring the puck.",
+      "Keep sticks on the ice for passing targets and defensive lanes.",
+      "Communicate through every turnover and new-puck situation.",
+      "Move into open space immediately when supporting away from the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-3-vs-3-game",
+    "source_id": "332386",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-332386-0-1665465050.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-332386-0-1665465050.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 590
+  },
+  {
+    "uid": "ihs-256651",
+    "title": "Continuous In Zone 2 vs. 2 Game",
+    "category": "2 vs 2 / Small Area Game / Conditioning",
+    "drill_types": [
+      "2 vs 2",
+      "Puck Protection",
+      "Offensive",
+      "Defensive",
+      "Small Area Games",
+      "Offensive Zone",
+      "Battle Drills",
+      "Conditioning",
+      "Coverage",
+      "Half Ice"
+    ],
+    "description": "A continuous in-zone 2-on-2 where the attacking pair becomes the next defending pair. The defenders effectively double shift, forcing strong positioning, communication and puck decisions while tired.",
+    "coaching_points": [
+      "Defenders stay connected, keep sticks down and protect the middle under fatigue.",
+      "Hold and protect the puck until a useful play is available.",
+      "Communicate verbally and non-verbally with the partner.",
+      "Transition immediately when the rep changes from offense to defense."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-zone-2-vs-2",
+    "source_id": "256651",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continious-2-vs-2-hockey-game.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continious-2-vs-2-hockey-game.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 591
+  },
+  {
+    "uid": "ihs-243941",
+    "title": "Finnish 5 Puck - Rotating Zones",
+    "category": "Warm Up / Puck Skills / Third Ice",
+    "drill_types": [
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Skill Development",
+      "Third Ice Stations",
+      "Warm Up",
+      "Awareness"
+    ],
+    "description": "Five-player groups rotate through three zones in short sets. The outside zones cycle through edgework, puckhandling, passing and keep-away activities while the middle zone provides stationary passing and recovery.",
+    "coaching_points": [
+      "Stay active and creative in the working zones while keeping the head up.",
+      "Use strong inside edges and clean transitions before adding speed.",
+      "Players without the puck stay ready, communicate and create passing options.",
+      "Keep each set short so the rotations maintain tempo."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/finnish-5-puck-rotating-zones",
+    "source_id": "243941",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-243941-1632324333.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-243941-1632324333.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 592
+  },
+  {
+    "uid": "ihs-163776",
+    "title": "High Tempo 2 vs. 2 to Net",
+    "category": "2 vs 2 / Small Area Game / Transition",
+    "drill_types": [
+      "2 vs 2",
+      "Passing",
+      "Puck Control",
+      "Offensive",
+      "Defensive",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Transition",
+      "Half Ice"
+    ],
+    "description": "A fast 2-on-2 game where the forwards can attack either net while the defenders protect both. If the defense wins the puck, it scores by completing four consecutive passes, creating immediate transition and communication demands.",
+    "coaching_points": [
+      "Attack with pace as soon as the coach starts the puck.",
+      "Communicate so the defenders sort the backward-skating and backchecking roles.",
+      "Keep the head up and use deception to change the point of attack.",
+      "Protect possession and make quick decisions as the available space shrinks."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/high-tempo-2-vs-2-net",
+    "source_id": "163776",
+    "image": "https://www.files.icehockeysystems.com/files/drills/High%20Tempo%202%20vs.%202%20Game%20With%20Puck.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/High%20Tempo%202%20vs.%202%20Game%20With%20Puck.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 593
   }
 ]
