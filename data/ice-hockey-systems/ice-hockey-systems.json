@@ -24465,5 +24465,199 @@
     "member_only": true,
     "status": "verified",
     "number": 750
+  },
+  {
+    "uid": "ihs-horseshoe-re-group-drill",
+    "title": "Horseshoe Re-Group Drill",
+    "category": "Passing / Flow / Regroup",
+    "drill_types": [
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Re-Group",
+      "Shooting",
+      "Transition",
+      "Puck Support"
+    ],
+    "description": "A high-tempo horseshoe flow with two players leaving each corner. One attacks for an initial shot and then reloads to the net while the second swings through the neutral zone, regroups D-to-D and receives the puck back for a wide-angle shot designed to create a rebound.",
+    "coaching_points": [
+      "First shooter follows the shot, stops at the net and reloads for the rebound.",
+      "Second forward times the neutral-zone swing instead of arriving early.",
+      "Defense moves the puck D-to-D quickly and returns it to the moving forward.",
+      "Shoot for a playable rebound with the net-front player arriving on time."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/horseshoe-re-group-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/horsseshoe-regroup.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/horsseshoe-regroup.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 751
+  },
+  {
+    "uid": "ihs-transition-protect-shoot",
+    "title": "Transition, Protect & Shoot",
+    "category": "2 vs 0 / Puck Protection / Transition",
+    "drill_types": [
+      "2 vs 0",
+      "Transition",
+      "Puck Protection",
+      "Half Ice",
+      "Passing",
+      "Shooting",
+      "Offensive"
+    ],
+    "description": "A two-variation transition drill where the defense receives while moving backward and advances the puck to a forward entering with speed. The forward protects the puck against passive pressure, gets inside the dots and shoots to create a rebound for the defenseman driving the far post.",
+    "coaching_points": [
+      "Defense transitions quickly and creates a clean outlet angle.",
+      "Forward receives in motion and keeps the body between pressure and puck.",
+      "Attack inside the dots before releasing the shot.",
+      "Shoot for the far pad when the defenseman is arriving for the rebound."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-protect-shoot",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tranistion-protect-shoot.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tranistion-protect-shoot.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 752
+  },
+  {
+    "uid": "ihs-four-cone-neutral-zone-drill",
+    "title": "Four Cone Neutral Zone Drill",
+    "category": "1 vs 1 / 2 vs 1 / Neutral Zone",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 1",
+      "Backchecking",
+      "Full Ice",
+      "Neutral Zone",
+      "Gap",
+      "Passing",
+      "Transition",
+      "Puck Support"
+    ],
+    "description": "A multi-action neutral-zone drill built around four cones. Defense retrieves and outlets under pressure while two forwards create support and a net drive; simultaneously another forward attacks the opposite direction against a defender recovering gap for a live 1-on-1.",
+    "coaching_points": [
+      "Defense retrieves on the forehand and prepares to move the puck quickly.",
+      "Support forward times the neutral-zone swing and stays available for a direct or bank pass.",
+      "Backchecker works to stay defensive-side of the net-driving forward.",
+      "Recovering defense retakes as much ice as possible before the opposite 1-on-1."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-cone-neutral-zone-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/four-cone-neutral-zone-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/four-cone-neutral-zone-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 753
+  },
+  {
+    "uid": "ihs-quick-hinge-warm-up-hockey-drill",
+    "title": "Quick Hinge Warm Up Hockey Drill",
+    "category": "Passing / Hinge / Transition",
+    "drill_types": [
+      "Passing",
+      "Transition",
+      "Warm Up",
+      "Flow",
+      "Full Ice",
+      "Re-Group",
+      "Puck Support"
+    ],
+    "description": "A high-tempo flow warm-up built around a quick defensive hinge. The puck moves outside on the first D-to-D pass, back to the middle on the second, and then to a forward timing a neutral-zone support route before attacking the blue line for a long shot.",
+    "coaching_points": [
+      "First defensive pass moves the puck outside.",
+      "Second defenseman hinges the puck back toward the middle.",
+      "Forward times support so the final pass is not a vertical stationary pass.",
+      "Attack the blue line with speed and finish with a long shot on net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-hinge-warm-hockey-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quick-hinge-warm-up.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quick-hinge-warm-up.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 754
+  },
+  {
+    "uid": "ihs-split-passing-game",
+    "title": "Split Passing Game",
+    "category": "Passing / Possession / Small Area Game",
+    "drill_types": [
+      "Passing",
+      "Small Area Games",
+      "Half Ice",
+      "Puck Support",
+      "Awareness",
+      "Defensive",
+      "Offensive"
+    ],
+    "description": "A small-area passing game played around a rectangular box. Two offensive teams occupy opposite sides and work together to pass through the box while defenders inside try to intercept. Offense scores by connecting through the box; defense scores by taking passes away.",
+    "coaching_points": [
+      "Move immediately after passing to create a new lane.",
+      "Use minimal stickhandling and move the puck before pressure closes.",
+      "Defenders stop and start with active sticks instead of circling.",
+      "Receivers show a clear target and stay available on opposite sides."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/split-passing-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/split-passing-game.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/split-passing-game.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 755
+  },
+  {
+    "uid": "ihs-transition-sequence-1-on-1-to-2-on-1",
+    "title": "Transition Sequence 1 on 1 to 2 on 1",
+    "category": "1 vs 1 / 2 vs 1 / Transition",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 1",
+      "3 vs 1",
+      "Transition",
+      "Neutral Zone",
+      "Battle Drills",
+      "Puck Protection",
+      "Full Ice"
+    ],
+    "description": "The sequence begins with a down-low 1-on-1 battle. On the whistle that puck dies, a new puck is placed in the neutral zone and the high defenseman retrieves it to transition with two forwards into a 2-on-1. The transitioning defenseman can also join to create a 3-on-1 variation.",
+    "coaching_points": [
+      "Compete through the initial 1-on-1 and protect possession until the whistle.",
+      "React instantly to the new puck and transition up ice.",
+      "Forwards attack the 2-on-1 with width and pace.",
+      "If the defense joins, recognize the new numerical advantage without slowing the attack."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-sequence-1-1-2-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/transition-sequence-1on1-to-2on1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/transition-sequence-1on1-to-2on1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 756
   }
 ]
