@@ -16191,5 +16191,171 @@
     "original_diagram": true,
     "status": "verified",
     "number": 496
+  },
+  {
+    "uid": "ihs-311126",
+    "title": "Shoot Around The Traffic!",
+    "category": "Shooting",
+    "drill_types": [
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "Passing",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development",
+      "Deception",
+      "Quick Release"
+    ],
+    "description": "A three-part shooting progression teaches players to move the puck around traffic before releasing. Players push or pull around an obstacle, add escape moves while moving backward or forward, and then time a jump into open ice for the shot.",
+    "coaching_points": [
+      "Keep the head up while moving the puck around traffic.",
+      "Receive, move, shoot—avoid unnecessary stickhandling before release.",
+      "When moving backward, pull the puck toward the toe caps to clear the obstacle sooner.",
+      "Communicate for passes and shoot to a target rather than simply throwing the puck at the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "NewEdge Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shoot-around-traffic",
+    "source_id": "311126",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-311126-0-1743734248.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-311126-0-1743734248.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 497
+  },
+  {
+    "uid": "ihs-cloverleaf-cutting-hands",
+    "title": "Cloverleaf - Cutting Hands",
+    "category": "Puck Protection",
+    "drill_types": [
+      "Puck Control",
+      "Puck Protection",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Stickhandling",
+      "Skill Development",
+      "Control Turns"
+    ],
+    "description": "Players work through a cloverleaf pattern around four markers, first without a puck, then with a puck, and finally with passive pressure. The progression emphasizes hand position, blade control, and foot placement through tight control turns.",
+    "coaching_points": [
+      "Close the blade through each turn so the puck stays connected to the stick.",
+      "Keep the inside leg in front to help shield the puck.",
+      "Separate the hands enough to control forehand and backhand turns.",
+      "Master the footwork first, then add the puck and passive pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Next Generation HKY",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cloverleaf-cutting-hands",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cloverleaf-cutting-hands.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cloverleaf-cutting-hands.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 498
+  },
+  {
+    "uid": "ihs-quick-2v1-attack",
+    "title": "Quick 2 vs 1 Attack Situational Drill",
+    "category": "2 vs 1",
+    "drill_types": [
+      "2 vs 1",
+      "One Goalie",
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "Half Ice",
+      "Quarter Ice Station",
+      "Transition",
+      "Deception",
+      "Defensive"
+    ],
+    "description": "A passer starts the rep to one of two forwards, who cross and attack immediately in a tight 2-on-1. The drill recreates an offensive-zone turnover where the attacking team must transition to the net before the defender can reset.",
+    "coaching_points": [
+      "Puck carrier attacks quickly and uses width, drop options, or deception to create a lane.",
+      "Off-puck forward reads the play, communicates, and jumps into available space.",
+      "Defender protects the middle and forces a poor-angle shot when possible.",
+      "Defender keeps the blade flat in the lane instead of sweeping the stick."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ben Eaves",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-2-vs-1-attack-situational-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quick-2v1-attack.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quick-2v1-attack.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 499
+  },
+  {
+    "uid": "ihs-100226",
+    "title": "Deceptive Point Shooting Progression",
+    "category": "Shooting",
+    "drill_types": [
+      "Defensive",
+      "Offensive",
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Stickhandling",
+      "Deception",
+      "Blue Line"
+    ],
+    "description": "Defensemen work three point-shooting progressions designed to move the puck around pressure and find a clean lane. Reps include pulling from backhand to forehand, changing the release point around a coach, and using a shot fake before escaping to a new lane.",
+    "coaching_points": [
+      "Keep the head up while receiving and moving laterally.",
+      "Explode after the puck move to create separation from the shot blocker.",
+      "Get the shot off quickly once the lane opens.",
+      "Add tips, screens, or a net-driving forward once the shooting movement is clean."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ben Eaves",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/deceptive-point-shooting",
+    "source_id": "100226",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-100226-0-1743734336.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-100226-0-1743734336.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 500
+  },
+  {
+    "uid": "ihs-give-go-rover",
+    "title": "Give & Go Rover",
+    "category": "1 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "Small Area Games",
+      "Passing",
+      "Puck Protection",
+      "Puck Support",
+      "Give and Go",
+      "Awareness",
+      "Stations"
+    ],
+    "description": "Two players compete inside a small box with one neutral rover. After gaining possession, a player earns a point by passing to the rover, moving into open space, and receiving the return pass.",
+    "coaching_points": [
+      "Protect the puck until the passing lane is available.",
+      "Pass and immediately move to new space for the return.",
+      "Keep every player moving—no standing after the puck changes hands.",
+      "Adjust the box size to increase or reduce pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/give-go-rover",
+    "image": "https://www.files.icehockeysystems.com/files/drills/give-n-go-rover-diagram.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/give-n-go-rover-diagram.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 501
   }
 ]
