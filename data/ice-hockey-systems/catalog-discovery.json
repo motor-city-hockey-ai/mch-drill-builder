@@ -6196,5 +6196,36 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS catalog page 8"
+  },
+  {
+    "discovery_number": 423,
+    "title": "3 vs. 3 Handball Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-vs-3-handball-game",
+    "categories": [
+      "3 vs 3",
+      "Small Area Games",
+      "Passing",
+      "Awareness",
+      "Puck Support",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 10"
+  },
+  {
+    "discovery_number": 424,
+    "title": "Battery Hockey Figure 8 Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/battery-hockey-figure-8-shooting-drill",
+    "categories": [
+      "Shooting",
+      "Passing",
+      "Skill Development",
+      "Stations",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 10"
   }
 ]
