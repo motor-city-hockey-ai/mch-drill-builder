@@ -37,29 +37,29 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 272,
-    "catalog_items_verified": 272,
+    "catalog_items_imported": 280,
+    "catalog_items_verified": 280,
     "catalog_target": 1573,
     "last_batch": "featured/current catalog batch 1",
-    "original_diagrams_verified": 272,
+    "original_diagrams_verified": 280,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 295,
-    "catalog_items_pending_enrichment": 23,
+    "unique_urls_discovered": 310,
+    "catalog_items_pending_enrichment": 30,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Enrich the newly discovered breakout records, continue breakouts/checking pagination, and leave video-only goalie edgework plus diagram-unresolved pages pending.",
+    "next_step": "Enrich page-2 breakout records, continue breakouts pagination, and keep unresolved/video-only pages out of the live library.",
     "multi_diagram_drills_preserved": 16,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 11,
-    "last_batch_notes": "Imported 11 checking, breakout and transition drills with verified source diagrams. Preserved all three Owls 2 v 2 frames and both Renegade Line Rush frames. Added eight breakout-category records to the enrichment queue.",
+    "last_batch_imported": 8,
+    "last_batch_notes": "Imported eight breakout/forecheck drills with verified IHS-hosted source images. Preserved multi-frame originals for 2 on 2 Long Transition, Breakout to 2 Forecheckers, Tag Up Forecheck, and The Andy Murray. Added 15 page-2 breakout records to the discovery queue.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 16
+    "last_batch_discovered": 15
   }
 }
