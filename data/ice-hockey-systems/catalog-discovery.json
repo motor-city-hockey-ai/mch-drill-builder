@@ -5169,5 +5169,53 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS related drill/category discovery"
+  },
+  {
+    "discovery_number": 359,
+    "title": "Puck Protection Skill Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-protection-skill-drill",
+    "categories": [
+      "Puck Protection",
+      "Puck Control",
+      "Shooting",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS drill page / category backfill"
+  },
+  {
+    "discovery_number": 360,
+    "title": "2 on 0 Race for Puck",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-race-puck-0",
+    "categories": [
+      "2 vs 0",
+      "1 vs 1",
+      "Passing",
+      "Full Ice",
+      "Races",
+      "Offensive",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS drill page / category backfill"
+  },
+  {
+    "discovery_number": 361,
+    "title": "Corner Cycle Continuous Give & Go",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-cycle-continuous-give-go",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Offensive",
+      "Stations",
+      "Sixth Ice Stations",
+      "Cycling",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS drill page / category backfill"
   }
 ]
