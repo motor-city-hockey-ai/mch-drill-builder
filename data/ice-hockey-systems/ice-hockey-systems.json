@@ -14005,5 +14005,127 @@
     "member_only": true,
     "status": "verified",
     "number": 428
+  },
+  {
+    "uid": "ihs-10933426",
+    "title": "Puck In Skates Skill Builder",
+    "category": "Puck Control / Puck Handling / Skill Development",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Skill Development",
+      "Stations"
+    ],
+    "description": "Players work the puck into their skates while moving, then use either skate to redirect it cleanly back to the stick. The drill builds comfort handling pucks that arrive in the feet and teaches quick recovery without losing skating rhythm.",
+    "coaching_points": [
+      "Use both the front and back skate to control the puck.",
+      "Move the puck from the feet back to the stick quickly and cleanly.",
+      "Keep skating through the touch instead of stopping to find the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-skates-skill-builder",
+    "source_id": "10933426",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10933426-0-1788870046.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10933426-0-1788870046.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 429
+  },
+  {
+    "uid": "ihs-498711",
+    "title": "Layered 1 v 1's",
+    "category": "1 vs 1 / Angling / Small Area Skill",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Awareness",
+      "Defensive",
+      "Puck Control",
+      "Skating",
+      "Skill Development",
+      "Small Area Games"
+    ],
+    "description": "A forward attacks through two separate defensive layers. The first defender can pressure only in the upper zone and the second defender activates in the lower zone, forcing the puck carrier to solve two consecutive 1-on-1 problems in tight space.",
+    "coaching_points": [
+      "Forward scans each defender's body and stick position before attacking.",
+      "Defenders angle and close space without leaving their assigned layer.",
+      "Encourage quick, creative puck and skating decisions between the two layers."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Alyssa Gagliardi",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/layered-1-v-1s",
+    "source_id": "498711",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-498711-1631278909.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-498711-1631278909.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 430
+  },
+  {
+    "uid": "ihs-3395976",
+    "title": "Start & Stop Loose Puck Battle",
+    "category": "1 vs 1 / Battle / Race",
+    "drill_types": [
+      "1 vs 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Races",
+      "Skating",
+      "Small Area Games"
+    ],
+    "description": "Two players explode from the hash marks to the blue line, stop, then race back to a loose puck near the top of the circle. The player who wins possession attacks the net while the other immediately defends.",
+    "coaching_points": [
+      "Use explosive starts and complete stops to win the race.",
+      "Puck winner protects with body position before attacking the net.",
+      "Defender closes quickly with stick-on-puck and good body position."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/start-stop-loose-puck-battle",
+    "source_id": "3395976",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3395976-0-1700252753.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3395976-0-1700252753.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 431
+  },
+  {
+    "uid": "ihs-312581",
+    "title": "Figure 8 Puck Protection Drill",
+    "category": "Puck Protection / Tight Turns / Shooting",
+    "drill_types": [
+      "Puck Protection",
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Shooting",
+      "Skill Development"
+    ],
+    "description": "The puck carrier works a figure-eight around two stationary defenders before attacking the net for a quick shot. The format teaches body positioning, puck placement and tight turns while pressure can be increased as players improve.",
+    "coaching_points": [
+      "Use hips, arms and legs to keep the body between the defender and puck.",
+      "Keep the puck outside and away from pressure.",
+      "Use tight, powerful turns to stay strong on the puck and build speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/figure-8-corner-puck-protection-drill",
+    "source_id": "312581",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-312581-1629574589.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-312581-1629574589.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 432
   }
 ]
