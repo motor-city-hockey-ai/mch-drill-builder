@@ -9780,5 +9780,58 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS body-contact exact-diagram sweep"
+  },
+  {
+    "discovery_number": 629,
+    "title": "1 v 1 Rush to 1 v 1 Puck Retrieval",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-rush-1-v-1-puck-retrieval",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Gap",
+      "Puck Protection",
+      "Retrievals",
+      "Defensive",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS checking exact-diagram sweep"
+  },
+  {
+    "discovery_number": 630,
+    "title": "1 v 1 Stick Battle",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-stick-battle",
+    "categories": [
+      "1 vs 1",
+      "Battle Drills",
+      "Checking",
+      "Conditioning",
+      "Strength",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS checking exact-diagram sweep"
+  },
+  {
+    "discovery_number": 631,
+    "title": "Hit Through the Hands",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/hit-through-hands",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Checking",
+      "Coverage",
+      "Wall Play",
+      "Puck Protection",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS checking exact-diagram sweep"
   }
 ]
