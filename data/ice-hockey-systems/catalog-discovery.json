@@ -8216,5 +8216,91 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 539,
+    "title": "Four Lines Flow #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-flow-1",
+    "categories": [
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 540,
+    "title": "4 Lines Below the Puck Zone Rush",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-lines-below-puck-zone-rush",
+    "categories": [
+      "3 vs 0",
+      "Passing",
+      "Full Ice",
+      "Transition",
+      "Zone Entry",
+      "Puck Support",
+      "Neutral Zone",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 541,
+    "title": "1 on 1 Recovery Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-1-recovery-drill",
+    "categories": [
+      "1 vs 1",
+      "Defensive",
+      "Full Ice",
+      "Gap",
+      "Recovery",
+      "Skating",
+      "Offensive",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 542,
+    "title": "2 Dot Overspeed Skating Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-dot-overspeed-skating-drill",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Full Ice",
+      "Warm Up",
+      "Conditioning",
+      "Crossovers"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 543,
+    "title": "Extended Chip & Chase",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/extended-chip-chase",
+    "categories": [
+      "One Goalie",
+      "Backchecking",
+      "Flow",
+      "Full Ice",
+      "Passing",
+      "Puck Protection",
+      "Shooting",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
   }
 ]
