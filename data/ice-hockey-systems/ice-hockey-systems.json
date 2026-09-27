@@ -25371,5 +25371,165 @@
     "member_only": true,
     "status": "verified",
     "number": 779
+  },
+  {
+    "uid": "ihs-half-ice-angle-drill",
+    "title": "Half Ice Angle Drill",
+    "category": "1 vs 1 / Angling / Half Ice",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Checking",
+      "Half Ice",
+      "Defensive",
+      "Offensive",
+      "Puck Protection",
+      "Shooting"
+    ],
+    "description": "A half-ice angling and checking drill where the offensive player carries around a center-ice obstacle and attacks the net while the defender takes a speed-matched angle from below the hash marks to keep the puck outside.",
+    "coaching_points": [
+      "Defender takes the angle with speed instead of chasing from behind.",
+      "Match the attacker's pace and stay roughly a half-step behind.",
+      "Protect the middle and deny the cutback lane.",
+      "Offense uses puck protection and edge work to expose a poor angle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-angle-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/half-ice-angle-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/half-ice-angle-drill.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 780
+  },
+  {
+    "uid": "ihs-4check-loose-pucks",
+    "title": "4Check Loose Pucks",
+    "category": "1 vs 1 / Battle / Checking",
+    "drill_types": [
+      "1 vs 1",
+      "Battle Drills",
+      "Checking",
+      "Angling",
+      "Puck Protection",
+      "Defensive",
+      "Offensive",
+      "Shooting"
+    ],
+    "description": "A forward and defenseman race around separate obstacles toward a loose puck and compete for possession. The defender works for inside body position and an outside angle, while the forward tries to gain inside leverage, win the puck and attack the net.",
+    "coaching_points": [
+      "Establish inside body position before arriving at the puck.",
+      "Use hips and shoulders to engage while staying balanced.",
+      "Keep the stick active in the opponent's lane.",
+      "Win the battle, recover immediately and transition to offense or defense."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-loose-pucks",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8665206-0-1763049610.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8665206-0-1763049610.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 781
+  },
+  {
+    "uid": "ihs-belfry-full-ice-angle-drill",
+    "title": "Belfry Full Ice Angle Drill",
+    "category": "1 vs 1 / Angling / Full Ice",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Full Ice",
+      "Checking",
+      "Defensive",
+      "Offensive",
+      "Transition",
+      "Competition"
+    ],
+    "description": "Players start on opposite blue lines, skate around their assigned cones and react to a coach's wall pass. The player opposite the puck must identify the angling role immediately, then both players compete live 1-on-1 the full length of the ice.",
+    "coaching_points": [
+      "Read the wall pass immediately and identify offense versus defense.",
+      "Defender takes ice away on an angle rather than skating directly at the puck carrier.",
+      "Match speed and protect the middle lane.",
+      "Play the rush live to the far net and compete through the finish."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/belfry-full-ice-angle-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544166-0-1691764283.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544166-0-1691764283.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 782
+  },
+  {
+    "uid": "ihs-1-on-1-angling-drill-10",
+    "title": "1 on 1 Angling Drill",
+    "category": "1 vs 1 / Angling / Wall Play",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Checking",
+      "Wall Play",
+      "Battle Drills",
+      "Puck Protection",
+      "Defensive",
+      "Offensive"
+    ],
+    "description": "Two staggered lines create a deliberate puck-retrieval advantage. The lead player retrieves a puck in the corner and tries to advance it up the wall while the trailing player works to angle, separate the puck carrier from possession and turn the play the other way.",
+    "coaching_points": [
+      "If you cannot meet or beat the puck carrier, establish a proper angling route.",
+      "Defender closes from inside-out and prevents the cut to the middle.",
+      "Use body contact through the hands while maintaining balance.",
+      "Puck carrier protects the puck, reads the angle and tries to expose any open lane."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mark Zarbo Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-1-angling-drill-10",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544096-0-1701718077.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544096-0-1701718077.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 783
+  },
+  {
+    "uid": "ihs-angling-small-area-game",
+    "title": "Angling Small Area Game",
+    "category": "1 vs 1 / 2 vs 2 / Angling",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Angling",
+      "Small Area Games",
+      "Transition",
+      "Checking",
+      "Puck Support"
+    ],
+    "description": "A cross-ice game where the team receiving the coach's pass must first skate around its net before attacking. That delay gives the opposing team an angling cue, creating repeated opportunities to close space, force turnovers and transition the other way.",
+    "coaching_points": [
+      "Defenders recognize the angling cue and close space immediately.",
+      "Keep tight gaps while removing middle and passing options.",
+      "Use the small-area 1-on-1 version first, then progress to 2-on-2 or 3-on-3.",
+      "After a turnover, transition quickly to offense instead of stopping the play."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/angling-small-area-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544176-0-1691764440.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544176-0-1691764440.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 784
   }
 ]
