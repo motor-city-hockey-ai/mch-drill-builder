@@ -11068,5 +11068,40 @@
     "member_only": false,
     "status": "verified",
     "number": 338
+  },
+  {
+    "uid": "ihs-2853021",
+    "title": "Bernie Burner",
+    "category": "2 on 0 / 3 on 0 / Regroup",
+    "drill_types": [
+      "2 on 0",
+      "3 on 0",
+      "Re-Group",
+      "Transition",
+      "Zone Entry",
+      "Passing",
+      "Shooting",
+      "Full Ice",
+      "Overspeed"
+    ],
+    "description": "A timing and rush-entry drill where a forward and defenseman exchange the puck, a second forward builds speed through the neutral zone, and the group enters with a delayed support route before creating a second scoring chance.",
+    "coaching_points": [
+      "Prioritize timing over simply skating at maximum speed.",
+      "Keep sticks on the ice and communicate passing targets.",
+      "Enter with spacing so the secondary forward remains available.",
+      "After the first shot, recover the second puck quickly for the follow-up play."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Steve Wiedler",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bernie-burner",
+    "source_id": "2853021",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2853021-0-1695913414.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2853021-0-1695913414.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 339
   }
 ]
