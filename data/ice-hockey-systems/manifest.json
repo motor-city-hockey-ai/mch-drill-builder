@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 779,
-    "catalog_items_verified": 779,
+    "catalog_items_imported": 784,
+    "catalog_items_verified": 784,
     "catalog_target": 1573,
-    "last_batch": "IHS legacy passing exact-image three-drill batch",
-    "original_diagrams_verified": 779,
+    "last_batch": "IHS checking/angling exact-image batch",
+    "original_diagrams_verified": 784,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 788,
+    "unique_urls_discovered": 793,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue exact-diagram verification from 780 through remaining legacy passing/full-ice gaps.",
+    "next_step": "Continue checking-page legacy gaps from #785, preserving source diagrams and deferring unresolved visuals.",
     "multi_diagram_drills_preserved": 41,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 3,
-    "last_batch_notes": "Added drills 777-779: Stretch Pass 3 on 0; Cyclone Passing Drill; Big W Warm Up. All three use verified original IHS-hosted rink diagrams.",
+    "last_batch_imported": 5,
+    "last_batch_notes": "Added 780 Half Ice Angle Drill; 781 4Check Loose Pucks; 782 Belfry Full Ice Angle Drill; 783 1 on 1 Angling Drill; 784 Angling Small Area Game. All use verified original IHS-hosted diagrams.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -78,6 +78,6 @@
       "Offensive to Defensive Zone Coverage Drill - source page currently exposes video instruction but no original drill diagram; keep deferred rather than substituting an AI diagram."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 3
+    "last_batch_discovered": 5
   }
 }
