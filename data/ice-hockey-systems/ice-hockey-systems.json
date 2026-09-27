@@ -16792,5 +16792,44 @@
     "member_only": true,
     "status": "verified",
     "number": 514
+  },
+  {
+    "uid": "ihs-10072506",
+    "number": 515,
+    "title": "2v1 4v2",
+    "category": "2 vs 1",
+    "drill_types": [
+      "2 vs 1",
+      "4 vs 2",
+      "Backchecking",
+      "Conditioning",
+      "Defensive",
+      "Explosion",
+      "Full Ice",
+      "Gap",
+      "Offensive",
+      "Transition",
+      "Zone Entry"
+    ],
+    "description": "The sequence begins with two forwards attacking one defenseman, then immediately flips into a four-player rush against two new defenders. The high forward from the 4-on-2 tracks back to pressure the next 2-on-1, creating a continuous offense-to-defense transition drill.",
+    "coaching_points": [
+      "Attack the opening 2-on-1 with speed and force the defender to make a decision.",
+      "Defenseman manages gap and protects the most dangerous lane.",
+      "React immediately when the whistle changes the situation into a 4-on-2.",
+      "The high forward tracks hard through the middle and applies back pressure on the next rush."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jim Midgley",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2v1-4v2-2",
+    "source_id": "10072506",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10072506-0-1772642769.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10072506-0-1772642769.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10072506-1-1772642769.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10072506-2-1772642769.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
