@@ -8382,5 +8382,142 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS legacy youth/full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 549,
+    "title": "Brittish Bulldog with Control Turns",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/brittish-bulldog-control-turns",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Agility",
+      "Full Ice",
+      "Warm Up",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS source-image recovery and legacy gap sweep"
+  },
+  {
+    "discovery_number": 550,
+    "title": "Superman Relay Races (Full Ice)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/superman-relay-races-full-ice",
+    "categories": [
+      "Full Ice",
+      "Relay Races",
+      "Warm Up",
+      "Skating",
+      "Competition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS source-image recovery and legacy gap sweep"
+  },
+  {
+    "discovery_number": 551,
+    "title": "Four Lines 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-1-1",
+    "categories": [
+      "1 vs 1",
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Gap",
+      "Puck Support",
+      "Defensive",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS source-image recovery and legacy gap sweep"
+  },
+  {
+    "discovery_number": 552,
+    "title": "Two Step Off the Wall 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/two-step-wall-1-1",
+    "categories": [
+      "1 vs 1",
+      "Battle Drills",
+      "Wall Play",
+      "Defensive Zone",
+      "Puck Protection",
+      "Checking",
+      "Half Ice",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS source-image recovery and legacy gap sweep"
+  },
+  {
+    "discovery_number": 553,
+    "title": "Bonus 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bonus-1-1",
+    "categories": [
+      "1 vs 1",
+      "2 vs 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Passing",
+      "Small Area Games",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS source-image recovery and legacy gap sweep"
+  },
+  {
+    "discovery_number": 554,
+    "title": "D to D Up Half Ice 1 vs 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-d-half-ice-1-vs-1",
+    "categories": [
+      "1 vs 1",
+      "Passing",
+      "Transition",
+      "Gap",
+      "Half Ice",
+      "Defensive",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS source-image recovery and legacy gap sweep"
+  },
+  {
+    "discovery_number": 555,
+    "title": "Tight Space 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tight-space-1-1",
+    "categories": [
+      "1 vs 1",
+      "Half Ice",
+      "Puck Protection",
+      "Defensive",
+      "Offensive",
+      "Shooting",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS source-image recovery and legacy gap sweep"
+  },
+  {
+    "discovery_number": 556,
+    "title": "Breakout Gap control 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakout-gap-control-1-1",
+    "categories": [
+      "1 vs 1",
+      "Breakouts",
+      "Gap",
+      "Full Ice",
+      "Passing",
+      "Transition",
+      "Defensive",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS source-image recovery and legacy gap sweep"
   }
 ]
