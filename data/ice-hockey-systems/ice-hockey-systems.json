@@ -16831,5 +16831,40 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-6892886",
+    "number": 516,
+    "title": "1, 2, 3 Bumper Game",
+    "category": "2 vs 2",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 3",
+      "Puck Support",
+      "Small Area Games",
+      "Transition",
+      "Passing",
+      "Give and Go",
+      "Defensive",
+      "Offensive",
+      "Half Ice"
+    ],
+    "description": "Two teams battle 2-on-2 for possession while each team has an offensive-only bumper across the top of the zone. The team that wins the puck can attack after carrying below the goal line or using its bumper to create a give-and-go or weak-side scoring chance.",
+    "coaching_points": [
+      "Use the bumper to relieve pressure and create a new attack lane.",
+      "Move immediately after passing so the give-and-go stays available.",
+      "Defenders protect the middle with active sticks and recover loose pucks quickly.",
+      "Transition to offense immediately after winning possession."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Michael Peca",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-2-3-bumper-game",
+    "source_id": "6892886",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6892886-0-1755108378.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6892886-0-1755108378.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
   }
 ]
