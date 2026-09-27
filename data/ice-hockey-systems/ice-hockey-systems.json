@@ -20858,5 +20858,302 @@
     "original_diagram": true,
     "status": "verified",
     "number": 638
+  },
+  {
+    "uid": "ihs-527466",
+    "title": "Double RG to 2-1",
+    "category": "Regroup / 2 vs 1 / Transition",
+    "drill_types": [
+      "2 vs 1",
+      "Re-Group",
+      "Passing",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Full Ice",
+      "Puck Support"
+    ],
+    "description": "Two forwards leave the red line with a puck and complete two consecutive one-touch regroups with defensemen on opposite sides of the neutral zone. After the second regroup they re-attack the original defender in a live 2-on-1.",
+    "coaching_points": [
+      "Forwards stay available underneath the puck and time their swings with speed.",
+      "Defense presents a clean target and moves the puck one-touch when possible.",
+      "Communicate through both regroups so spacing stays connected.",
+      "After the second regroup, attack the 2-on-1 immediately before the defender can reset."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/double-rg-2-1",
+    "source_id": "527466",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-527466-1631728560.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-527466-1631728560.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 639
+  },
+  {
+    "uid": "ihs-559541",
+    "title": "2F, 1D Shooting Warm-Up",
+    "category": "Shooting / Passing / Warm Up",
+    "drill_types": [
+      "Shooting",
+      "Passing",
+      "Warm Up",
+      "Full Ice",
+      "Defensive",
+      "Offensive",
+      "Puck Support"
+    ],
+    "description": "A continuous shooting warm-up using two forwards and one defenseman. The defender backpedals, receives from the opposite defense line and feeds forwards down the wall for shots, then follows the play to receive a final puck for a net-front shooting sequence.",
+    "coaching_points": [
+      "Defense keeps the feet moving while receiving and moving the puck.",
+      "Forwards time wall routes to receive passes with speed.",
+      "Use the coach as passive pressure and shoot around the screen.",
+      "Finish with both forwards creating useful net-front presence."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2f-1d-shooting-warm",
+    "source_id": "559541",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-559541-1632704837.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-559541-1632704837.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 640
+  },
+  {
+    "uid": "ihs-654936",
+    "title": "2-1 Entry/2-1 Down Low",
+    "category": "2 vs 1 / Zone Entry / Down Low",
+    "drill_types": [
+      "2 vs 1",
+      "Zone Entry",
+      "Down Low",
+      "Offensive",
+      "Defensive",
+      "Puck Support",
+      "Half Ice",
+      "Transition"
+    ],
+    "description": "Two attackers exchange one-touch passes with a coach before entering against a defender for a 2-on-1. After the initial rush, the coach places a second puck into a corner and the same players continue in a live down-low 2-on-1.",
+    "coaching_points": [
+      "The puck carrier scans before entry and reads shot versus pass.",
+      "The off-puck forward creates width and keeps a passing lane available.",
+      "The defender protects the middle and lets the goalie handle the outside shot.",
+      "On the second puck, transition immediately into down-low support and coverage."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-entry2-1-down-low",
+    "source_id": "654936",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-654936-1634850085.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-654936-1634850085.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 641
+  },
+  {
+    "uid": "ihs-654986",
+    "title": "2-1 Wall Battle to 2-2",
+    "category": "Wall Battle / 2 vs 1 / 2 vs 2",
+    "drill_types": [
+      "2 vs 1",
+      "2 vs 2",
+      "Wall Play",
+      "Battle Drills",
+      "Puck Protection",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Half Ice"
+    ],
+    "description": "A wall retrieval and battle develops into a quick 2-on-1, then transitions on a second whistle into a live 2-on-2. Players tag designated lines before entering each phase, forcing fast changes between support, pressure and rush defense.",
+    "coaching_points": [
+      "Retrieve the rim with the head up and protect it along the wall.",
+      "The supporting forward gets inside and available quickly.",
+      "After the second whistle, transition immediately instead of watching the first play finish.",
+      "Defenders communicate and sort the 2-on-2 before the attackers gain speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-wall-battle-2-2",
+    "source_id": "654986",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-654986-1634850610.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-654986-1634850610.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 642
+  },
+  {
+    "uid": "ihs-733521",
+    "title": "Puck Protection to 2-1",
+    "category": "Puck Protection / 2 vs 1",
+    "drill_types": [
+      "2 vs 1",
+      "Puck Protection",
+      "Puck Control",
+      "Battle Drills",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Neutral Zone"
+    ],
+    "description": "Players begin with a puck-protection battle along the neutral-zone wall. On the second whistle a third player joins as support, the offensive pair regroups back toward the line and re-attacks the former pressure player in a 2-on-1.",
+    "coaching_points": [
+      "Keep hips and body between pressure and the puck.",
+      "Support arrives underneath the puck with a clear passing target.",
+      "The pressure player transitions quickly into gap control when the play turns.",
+      "Attack the resulting 2-on-1 with width and communication."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-protection-2-1",
+    "source_id": "733521",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-733521-1636493502.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-733521-1636493502.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 643
+  },
+  {
+    "uid": "ihs-1090381",
+    "title": "J-Drill Progression #3 (2-1)",
+    "category": "2 vs 1 / Passing / Gap",
+    "drill_types": [
+      "2 vs 1",
+      "Passing",
+      "Gap",
+      "Defensive",
+      "Offensive",
+      "Transition",
+      "Full Ice",
+      "Awareness"
+    ],
+    "description": "Players line up at the hash marks. The first player curls inside the opposite blue line without a puck, receives a pass from the next player, and the passer joins to create a 2-on-1 against a third player who has skated up ice to establish gap.",
+    "coaching_points": [
+      "The curling forward scans, communicates and presents a target.",
+      "The passer delivers a flat pass then accelerates into support.",
+      "The defender gets up ice before setting the gap instead of backing in early.",
+      "Attackers communicate shot and pass options while the defender protects the middle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/j-drill-progression-3-2-1",
+    "source_id": "1090381",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1090381-1647527961.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1090381-1647527961.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 644
+  },
+  {
+    "uid": "ihs-1148631",
+    "title": "Rim to scissor, 2 D shots to 3-2",
+    "category": "3 vs 2 / Rim Retrieval / Shooting",
+    "drill_types": [
+      "3 vs 2",
+      "Retrievals",
+      "Wall Play",
+      "Passing",
+      "Shooting",
+      "Offensive",
+      "Defensive",
+      "Transition",
+      "Full Ice"
+    ],
+    "description": "A layered progression beginning with a forward rim retrieval and scissor exchange, followed by two defense point shots from opposite sides. A final coach pass sends the three forwards up ice against two defensemen in a full-ice 3-on-2.",
+    "coaching_points": [
+      "The first forward retrieves under control and uses the scissor to create separation.",
+      "The high forward stays available in soft ice while the low forward attacks the net.",
+      "Defense gets both point shots through quickly after the rim.",
+      "On the final 3-on-2, fill three lanes and transition with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/rim-scissor-2-d-shots-3-2",
+    "source_id": "1148631",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1148631-1651165713.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1148631-1651165713.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 645
+  },
+  {
+    "uid": "ihs-1219016",
+    "title": "2-1 Forwards Swinging, RG D 2 shots",
+    "category": "2 vs 1 / Regroup / Shooting",
+    "drill_types": [
+      "2 vs 1",
+      "Re-Group",
+      "Breakouts",
+      "Passing",
+      "Shooting",
+      "Transition",
+      "Full Ice",
+      "Net Front"
+    ],
+    "description": "A defenseman retrieves a spotted puck while two forwards swing off the blue lines to gain speed. The forwards break out, regroup with a far defenseman and re-attack the original defender 2-on-1. The regroup defenseman follows and finishes with two point shots through the forwards.",
+    "coaching_points": [
+      "Forwards time their swings so they receive the breakout pass with speed.",
+      "Keep the regroup connected and attack immediately after the return pass.",
+      "The original defender establishes gap early for the 2-on-1.",
+      "After the rush, forwards create screens and tip options for the two point shots."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-forwards-swinging-rg-d-2-shots",
+    "source_id": "1219016",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1219016-0-1658328950.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1219016-0-1658328950.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 646
+  },
+  {
+    "uid": "ihs-1219026",
+    "title": "3 -n 2v1's (2 low, 1 high)",
+    "category": "2 vs 1 / Small Area / Competition",
+    "drill_types": [
+      "2 vs 1",
+      "Battle Drills",
+      "Offensive",
+      "Defensive",
+      "Half Ice",
+      "Small Area Games",
+      "Retrievals"
+    ],
+    "description": "Three separate 2-on-1 situations are staged in one zone: two low in the corners and one high near the blue line. The coach rims or spots a new puck on each whistle and players compete for several seconds before immediately moving to the next 2-on-1.",
+    "coaching_points": [
+      "Attackers create a quick passing lane rather than overhandling.",
+      "Defenders protect the middle and keep sticks in useful lanes.",
+      "React to each whistle immediately and locate the new puck.",
+      "Use short competitive windows so every rep stays intense."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-n-2v1s-2-low-1-high",
+    "source_id": "1219026",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1219026-0-1658329191.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1219026-0-1658329191.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 647
   }
 ]
