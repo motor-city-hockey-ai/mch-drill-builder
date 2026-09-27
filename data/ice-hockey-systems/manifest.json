@@ -37,33 +37,35 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 702,
-    "catalog_items_verified": 702,
+    "catalog_items_imported": 707,
+    "catalog_items_verified": 707,
     "catalog_target": 1573,
-    "last_batch": "IHS legacy full-ice exact-image seven-drill batch",
-    "original_diagrams_verified": 702,
+    "last_batch": "IHS legacy exact-image five-drill batch",
+    "original_diagrams_verified": 707,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 714,
+    "unique_urls_discovered": 719,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue legacy full-ice, transition, flow and matchup sweeps; only import when the original IHS-hosted diagram is resolved.",
+    "next_step": "Continue full-ice and transition gap sweep. Video-only records remain deferred unless an original drill diagram is exposed.",
     "multi_diagram_drills_preserved": 37,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 7,
-    "last_batch_notes": "Added drills 696-702: Long Stretch Flow Drill; Four Lines Flow #3; Shadow Recovery Drill; Transition Pivot Hockey Races; Three Zone Transition Pivots with Pucks; Full Ice Overspeed Skating Progression Drill #4; Full Ice Overspeed Skating Progression #1.",
+    "last_batch_imported": 5,
+    "last_batch_notes": "Added drills 703-707: Four Lines Flow #1; 4 Lines Below the Puck Zone Rush; 1 on 1 Recovery Drill; 2 Dot Overspeed Skating Drill; Extended Chip & Chase.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
       "The Ottawa Drill - page exposes a Drill Maker image; exact original image URL still needs resolution.",
       "1 on 1 to 2 on 2 Battle Drill - source page was found, but no original drill diagram is currently exposed; do not substitute an AI diagram.",
-      "Goalie Edgework: Single-Leg Hops - source page currently exposes video but no original drill diagram; keep deferred until the source visual can be verified."
+      "Goalie Edgework: Single-Leg Hops - source page currently exposes video but no original drill diagram; keep deferred until the source visual can be verified.",
+      "Continuous Forechecking Hockey Drill - source currently presents the Denis Savard video/contributor visual rather than a verifiable drill diagram; keep deferred.",
+      "Regroup to Backcheck Drill - source currently presents video-based instruction and no resolved original drill diagram; keep deferred."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 7
+    "last_batch_discovered": 5
   }
 }
