@@ -22384,5 +22384,162 @@
     "original_diagram": true,
     "status": "verified",
     "number": 685
+  },
+  {
+    "uid": "ihs-four-lines-overspeed-shooting-1",
+    "title": "Four Lines Overspeed Shooting #1",
+    "category": "Skating / Overspeed / Shooting",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Shooting",
+      "Passing",
+      "Full Ice",
+      "Puck Support",
+      "Zone Entry"
+    ],
+    "description": "Players sprint to the blue line, use tight high-tempo crossovers through the neutral zone, then support across the middle for a pass. They receive in motion, attack wide with speed and finish with a shot before hunting the next rebound.",
+    "coaching_points": [
+      "Make the neutral-zone crossovers tight and fast.",
+      "Support the puck through the middle and call for the pass.",
+      "Receive in stride and keep the feet moving through the shot.",
+      "Stop at the net and hunt the next rebound."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-overspeed-shooting-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/four-lines-overspeed-shooting-series-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/four-lines-overspeed-shooting-series-1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 686
+  },
+  {
+    "uid": "ihs-four-lines-overspeed-shooting-3",
+    "title": "Four Lines Overspeed Shooting #3",
+    "category": "Skating / Overspeed / Passing",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Passing",
+      "Shooting",
+      "Full Ice",
+      "Puck Support",
+      "Zone Entry"
+    ],
+    "description": "A passing progression in the four-line overspeed series. The skater follows the same high-tempo route, receives a pass after the first turn, moves the puck back to the original line, then supports through the middle to receive it again before attacking up ice.",
+    "coaching_points": [
+      "Keep the feet moving through both turns and every puck touch.",
+      "Move the puck quickly after the first reception.",
+      "Support through the middle instead of drifting away from the play.",
+      "Call for the return pass and attack the zone with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-overspeed-shooting-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/four-lines-overspeed-shooting-series-3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/four-lines-overspeed-shooting-series-3.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 687
+  },
+  {
+    "uid": "ihs-chip-and-chase-angle-checking-drill",
+    "title": "Chip and Chase Angle Checking Drill",
+    "category": "1 vs 1 / Angling / Checking",
+    "drill_types": [
+      "1 vs 1",
+      "One Goalie",
+      "Angling",
+      "Checking",
+      "Full Ice",
+      "Puck Protection",
+      "Zone Entry",
+      "Shooting"
+    ],
+    "description": "A full-ice angling and checking progression that starts with a quick give-and-go shot, then turns into a chip-and-chase race. The puck carrier attacks the far cone and offensive zone while the checker works from the back shoulder to angle the play outside.",
+    "coaching_points": [
+      "Checker matches the puck carrier's speed before applying pressure.",
+      "Stay on the back shoulder to remove the cutback to the middle.",
+      "Puck carrier protects the puck and attacks the blue line with speed.",
+      "At minimum, force the rush outside and deny a quality middle-lane scoring chance."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chip-and-chase-angle-checking-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1410-0-1674567508.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1410-0-1674567508.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 688
+  },
+  {
+    "uid": "ihs-double-chip-flow-drill",
+    "title": "Double Chip Flow Drill",
+    "category": "Passing / Flow / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Puck Support",
+      "Zone Entry",
+      "Shooting",
+      "Warm Up"
+    ],
+    "description": "A high-tempo full-ice flow drill using two chip passes. P1 carries up ice, P2 swings through the slot for the first chip, and P3 times a neutral-zone route for the second chip. P2 then drives the net while P3 attacks wide and feeds the finish.",
+    "coaching_points": [
+      "Time each swing so the receiver skates into the chip instead of waiting for it.",
+      "Keep both chip passes playable and into space.",
+      "After making the second chip, drive the net hard.",
+      "Attack wide with speed, read the delay and deliver a hard pass to the net driver."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/double-chip-flow-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/double-chip-flow-drill.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/double-chip-flow-drill.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 689
+  },
+  {
+    "uid": "ihs-half-horse-shoe-chip",
+    "title": "Half Horse Shoe Chip",
+    "category": "2 vs 0 / Passing / Chip",
+    "drill_types": [
+      "2 vs 0",
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Wall Play",
+      "Zone Entry",
+      "Puck Support",
+      "Shooting"
+    ],
+    "description": "Two diagonal players go at the same time in a four-line flow. The puck carrier crosses the neutral zone and passes to the opposite line. The receiver steps inside for a better wall-chip angle, the original passer collects the chip with speed, and the second player drives the far post for the return pass.",
+    "coaching_points": [
+      "Open up early to receive the cross-ice pass.",
+      "Step inside before chipping so the puck comes off the wall at a useful angle.",
+      "The original passer retrieves the chip at speed and attacks the zone.",
+      "The supporting player sprints to the far post with the stick available."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-horse-shoe-chip",
+    "image": "https://www.files.icehockeysystems.com/files/drills/half-horse-shoe-chip.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/half-horse-shoe-chip.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 690
   }
 ]
