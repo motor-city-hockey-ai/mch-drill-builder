@@ -23470,5 +23470,165 @@
     "original_diagram": true,
     "status": "verified",
     "number": 720
+  },
+  {
+    "uid": "ihs-breakout-pass-1-on-1",
+    "title": "Breakout Pass 1 on 1",
+    "category": "1 vs 1 / Breakout / Station",
+    "drill_types": [
+      "1 vs 1",
+      "Breakouts",
+      "Passing",
+      "Half Ice",
+      "Stations",
+      "Defensive",
+      "Offensive",
+      "Puck Support"
+    ],
+    "description": "A compact breakout-to-1-on-1 station. The defender retrieves a coach dump beside the net, skates behind the goal and moves the puck to a forward opening along the wall. The forward then circles the cone and attacks the same defender.",
+    "coaching_points": [
+      "Defender shoulder-checks and retrieves with control.",
+      "Forward gets low and opens to the puck along the wall.",
+      "Make the breakout pass to the forward's tape and into usable space.",
+      "After the pass, the defender closes the gap and keeps the rush outside."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakout-pass-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/styles/large/public/drills/breakout-pass-1v1.jpg.webp?itok=qMVRdtFU",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/large/public/drills/breakout-pass-1v1.jpg.webp?itok=qMVRdtFU"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 721
+  },
+  {
+    "uid": "ihs-2-1-2-2-full-ice-regroup",
+    "title": "2 on 1 - 2 on 2 Full Ice Regroup",
+    "category": "2 vs 1 / 2 vs 2 / Regroup",
+    "drill_types": [
+      "2 vs 1",
+      "2 vs 2",
+      "Re-Group",
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Gap",
+      "Transition",
+      "Puck Support"
+    ],
+    "description": "A full-ice flow drill that starts with a forward give-and-go and criss-cross, moves into a regroup with the defense, and finishes with either a 2-on-1 or 2-on-2 rush depending on the variation.",
+    "coaching_points": [
+      "Forwards exchange the first passes while keeping speed through the criss-cross.",
+      "Use the defense as a true regroup option instead of forcing the puck vertically.",
+      "Support the puck after the regroup and attack with spacing.",
+      "Defense steps up quickly after the pass to close the gap."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-2-2-full-ice-regroup",
+    "image": "https://www.files.icehockeysystems.com/files/styles/large/public/drills/2on1-2on2-full-ice-situation.jpg.webp?itok=Gxs5PBGW",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/large/public/drills/2on1-2on2-full-ice-situation.jpg.webp?itok=Gxs5PBGW"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 722
+  },
+  {
+    "uid": "ihs-2-on-1-with-backchecker",
+    "title": "2 on 1 with Backchecker",
+    "category": "2 vs 1 / Backcheck / Full Ice",
+    "drill_types": [
+      "2 vs 1",
+      "Backchecking",
+      "Full Ice",
+      "Gap",
+      "Defensive",
+      "Offensive",
+      "Shooting",
+      "Transition"
+    ],
+    "description": "A full-ice 2-on-1 with pressure from a backchecker. The defense establishes gap while two forwards swing into the rush. The backchecker releases when the coach passes and tracks the weak-side forward to remove the backdoor option.",
+    "coaching_points": [
+      "Forwards move their feet and drive hard to the net.",
+      "Weak-side forward keeps the stick available while attacking the far post.",
+      "Backchecker identifies the non-puck carrier and works to get defensive-side position.",
+      "Defense communicates with the backchecker and keeps the puck carrier from crossing the middle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-backchecker",
+    "image": "https://www.files.icehockeysystems.com/files/styles/large/public/drills/2-on-1-with-backcheck.jpg.webp?itok=kL5UM_bf",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/large/public/drills/2-on-1-with-backcheck.jpg.webp?itok=kL5UM_bf"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 723
+  },
+  {
+    "uid": "ihs-defense-read-2-on-1",
+    "title": "Defense Read 2 on 1",
+    "category": "2 vs 1 / Defensive Read / Half Ice",
+    "drill_types": [
+      "2 vs 1",
+      "Half Ice",
+      "Defensive",
+      "Gap",
+      "Shooting",
+      "Transition",
+      "Offensive"
+    ],
+    "description": "Two forwards sprint around cones and receive a coach pass while a defender steps out, transitions away from the pass and plays the rush. The drill isolates the defender's read between denying the passing lane and controlling the puck carrier's path.",
+    "coaching_points": [
+      "Defense protects the middle first and keeps the stick in the passing lane.",
+      "Do not overplay the pass and give the puck carrier a free lane to the net.",
+      "Force the shot from an angle the goalie can handle.",
+      "Forwards attack with speed and make the defender choose."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defense-read-2-1",
+    "image": "https://www.files.icehockeysystems.com/files/styles/large/public/drills/defense-read-2v%60.jpg.webp?itok=FkBjld-M",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/large/public/drills/defense-read-2v%60.jpg.webp?itok=FkBjld-M"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 724
+  },
+  {
+    "uid": "ihs-cross-ice-2-on-1",
+    "title": "Cross Ice 2 on 1",
+    "category": "2 vs 1 / Cross Ice / Station",
+    "drill_types": [
+      "2 vs 1",
+      "Half Ice",
+      "Stations",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Puck Support",
+      "Competition"
+    ],
+    "description": "A one-zone 2-on-1 that alternates teams. Two attackers use different routes around the net and cone to time their rush while the opposing defender loops around the far net and meets them in a live 2-on-1.",
+    "coaching_points": [
+      "Time both offensive routes so the attackers arrive together.",
+      "The second forward gets even with the puck carrier before the rush develops.",
+      "Defender establishes inside position and protects the passing lane.",
+      "Play through the rep until a goal, save, turnover or clear."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cross-ice-2-1",
+    "image": "https://www.files.icehockeysystems.com/files/styles/large/public/drills/cross-ice-2-on-1.jpg.webp?itok=xP9iy1Tx",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/large/public/drills/cross-ice-2-on-1.jpg.webp?itok=xP9iy1Tx"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 725
   }
 ]
