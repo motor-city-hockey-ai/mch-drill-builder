@@ -51,18 +51,18 @@ button{cursor:pointer}
       <h2>Quick Add by Drill Number</h2>
       <p>Choose a library, narrow by drill type, then search or add by drill number.</p>
       <div class="quick-grid">
-        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 2,076 Drills</option><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 462 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
+        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 2,138 Drills</option><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 524 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
         <div class="stat-box"><small>FULL ICE DRILLS</small><strong id="fullIceCount">570</strong></div>
         <div class="stat-box"><small>SKILL ZONE DRILLS</small><strong id="skillZoneCount">452</strong></div>
         <div class="field"><label>DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
         <button class="btn red" id="quickAdd">Find Drill</button>
-        <div class="stat-box total"><small>TOTAL DRILLS</small><strong id="totalDrillCount">2,076</strong></div>
+        <div class="stat-box total"><small>TOTAL DRILLS</small><strong id="totalDrillCount">2,138</strong></div>
       </div>
       <div class="type-summary" id="typeSummary">
         <div><small>SELECTED DRILL TYPE</small><strong id="selectedTypeLabel">All Drill Types</strong></div>
         <div><small>IN THIS LIBRARY</small><strong id="typeLibraryCount">—</strong></div>
-        <div><small>ACROSS ALL DRILLS</small><strong id="typeAllCount">2,076</strong></div>
+        <div><small>ACROSS ALL DRILLS</small><strong id="typeAllCount">2,138</strong></div>
       </div>
     </section>
 
@@ -114,7 +114,7 @@ button{cursor:pointer}
   let bookDatabase=null;
   let ihsDatabase=null;
   let allDrillsDatabase=null;
-  let ALL_DRILL_TOTAL=2076;
+  let ALL_DRILL_TOTAL=2138;
   let libraryCountManifest=null;
   let teamMeta=null;
   let teamByUid=new Map();
@@ -349,7 +349,7 @@ button{cursor:pointer}
     const skills=travelDatabase?travelDatabase.length:manifestCount('rich-skills',452);
     const coaches=coachesDatabase?coachesDatabase.length:manifestCount('coaches',146);
     const book=bookDatabase?bookDatabase.length:manifestCount('book',446);
-    const ihs=ihsDatabase?ihsDatabase.length:manifestCount('ihs',400);
+    const ihs=ihsDatabase?ihsDatabase.length:manifestCount('ihs',524);
 
     setLibraryOptionCount('rich-full','Rich Full Ice Drills',rich);
     setLibraryOptionCount('turk','Turk Hockey Drills',turk);
@@ -494,7 +494,7 @@ button{cursor:pointer}
   async function loadIHS(){
     if(ihsDatabase)return ihsDatabase;
     showLoading('Loading Ice Hockey Systems library…');
-    const r=await fetch('data/ice-hockey-systems/ice-hockey-systems.json?v=19',{cache:'no-store'});
+    const r=await fetch('data/ice-hockey-systems/ice-hockey-systems.json?v=20',{cache:'no-store'});
     if(!r.ok)throw new Error('Ice Hockey Systems metadata returned '+r.status);
     const rows=await r.json();
     ihsDatabase=(Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({
