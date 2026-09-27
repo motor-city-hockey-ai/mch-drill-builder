@@ -8098,5 +8098,123 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 532,
+    "title": "Long Stretch Flow Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/long-stretch-flow-drill",
+    "categories": [
+      "Flow",
+      "Shooting",
+      "Passing",
+      "Full Ice",
+      "Warm Up",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 533,
+    "title": "Four Lines Flow #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-flow-3",
+    "categories": [
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Shooting",
+      "Puck Support",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 534,
+    "title": "Shadow Recovery Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shadow-recovery-drill",
+    "categories": [
+      "1 vs 1",
+      "Skating",
+      "Gap",
+      "Recovery",
+      "Defensive",
+      "Offensive",
+      "Full Ice",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 535,
+    "title": "Transition Pivot Hockey Races",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-pivot-hockey-races",
+    "categories": [
+      "Skating",
+      "Transition",
+      "Races",
+      "Relay Races",
+      "Full Ice",
+      "Backwards Skating",
+      "Overspeed"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 536,
+    "title": "Three Zone Transition Pivots with Pucks",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/three-zone-transition-pivots-pucks",
+    "categories": [
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Transition",
+      "Overspeed",
+      "Full Ice",
+      "Shooting",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 537,
+    "title": "Full Ice Overspeed Skating Progression Drill #4",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-overspeed-skating-progression-drill-4",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Full Ice",
+      "Warm Up",
+      "Tryout",
+      "Crossovers",
+      "Conditioning"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
+  },
+  {
+    "discovery_number": 538,
+    "title": "Full Ice Overspeed Skating Progression #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-overspeed-skating-progression-1",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Full Ice",
+      "Warm Up",
+      "Crossovers",
+      "Conditioning"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy full-ice exact-diagram sweep"
   }
 ]
