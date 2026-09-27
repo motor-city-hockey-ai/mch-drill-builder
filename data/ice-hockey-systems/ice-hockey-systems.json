@@ -21620,5 +21620,108 @@
     "original_diagram": true,
     "status": "verified",
     "number": 661
+  },
+  {
+    "uid": "ihs-8314161",
+    "title": "2v2 Shooting Board",
+    "category": "2 vs 2 / Net Front / Small Area Game",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 3",
+      "Battle Drills",
+      "Coverage",
+      "Down Low",
+      "Small Area Games",
+      "Net Front",
+      "Shooting"
+    ],
+    "description": "Two players from each team battle around the net while a designated shooting-board player waits near the top of the circle. After every turnover, the team gaining possession must first move the puck to its shooting board before attacking the net.",
+    "coaching_points": [
+      "Defenders protect the middle and cut off passing lanes.",
+      "Battle for net-front position and box out away from the puck.",
+      "Offensive players create screens, tips and deflection lanes.",
+      "Recover loose pucks quickly and move possession to the shooting board before re-attacking."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2v2-shooting-board",
+    "source_id": "8314161",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8314161-0-1761158725.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8314161-0-1761158725.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 662
+  },
+  {
+    "uid": "ihs-8312916",
+    "title": "2vs2 + Player Behind the Net",
+    "category": "2 vs 2 / Puck Support / Down Low",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 3",
+      "Awareness",
+      "Down Low",
+      "Puck Support",
+      "Small Area Games",
+      "Offensive",
+      "Defensive"
+    ],
+    "description": "A 2-on-2 small-area game with one support player from each team stationed behind the net. Before a team can score, it must complete a pass to its support player below the goal line, creating movement and down-low support reads.",
+    "coaching_points": [
+      "Work into open ice to become a scoring threat.",
+      "Lose the defender and find soft areas when the puck goes below the goal line.",
+      "Transition immediately between attack and recovery after turnovers.",
+      "Maintain puck support through movement and quick exchanges."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "IIHF",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2vs2-player-behind-net",
+    "source_id": "8312916",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8312916-0-1761156412.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8312916-0-1761156412.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 663
+  },
+  {
+    "uid": "ihs-8209231",
+    "title": "4Check 1 on 1 Angling",
+    "category": "1 vs 1 / Angling / Puck Protection",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Puck Control",
+      "Puck Protection",
+      "Battle Drills",
+      "Checking",
+      "Defensive",
+      "Offensive"
+    ],
+    "description": "Two players first race to a puck on the faceoff dot and battle inside the circle for possession. On the second whistle, the puck carrier attacks around the top cone while the player without the puck stays forward-facing and angles the attacker toward the outside.",
+    "coaching_points": [
+      "Use hips, legs and body leverage to win and protect possession.",
+      "Control the middle and shield the puck before trying to escape.",
+      "The defender keeps an active stick and takes away the cutback.",
+      "Maintain forward skating and controlled edges while angling the attacker."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-1-on-1-angling-5",
+    "source_id": "8209231",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8209231-0-1760653576.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8209231-0-1760653576.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8209231-1-1760653576.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 664
   }
 ]
