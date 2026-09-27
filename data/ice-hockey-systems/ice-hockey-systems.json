@@ -12082,5 +12082,104 @@
     "member_only": false,
     "status": "verified",
     "number": 369
+  },
+  {
+    "uid": "ihs-7228991",
+    "title": "2 v 2 Net Front Corner Battles with Support",
+    "category": "2 on 2 / Small Area Game",
+    "drill_types": [
+      "2 on 2",
+      "4 vs 4",
+      "Small Area Games",
+      "Battle Drills",
+      "Cycling",
+      "Down Low",
+      "Wall Play",
+      "Puck Support",
+      "Net Front"
+    ],
+    "description": "A competitive 2-on-2 game with nets in the corners and two support players at the points for each team. Players battle for possession, use rims or board passes to the point, then work for shots, tips and redirects around the net.",
+    "coaching_points": [
+      "Win body position before trying to make the next play.",
+      "Use the boards and point support instead of forcing pucks through traffic.",
+      "Defenders keep sticks in lanes and box out at the net front."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-2-net-front-corner-battles-support",
+    "source_id": "7228991",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7228991-0-1751920162.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7228991-0-1751920162.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 370
+  },
+  {
+    "uid": "ihs-7781566",
+    "title": "2 v 2 High Roll",
+    "category": "2 on 2 / Offensive Zone",
+    "drill_types": [
+      "2 on 2",
+      "Cycling",
+      "Offensive Zone",
+      "Puck Support",
+      "Retrievals",
+      "Wall Play",
+      "Puck Protection"
+    ],
+    "description": "One forward rims a puck to a teammate down low, who retrieves under pressure. The two attackers work against two defenders and use switches or high rolls to create separation and a scoring lane.",
+    "coaching_points": [
+      "Retrieve cleanly and get off the wall quickly.",
+      "Supporting forward stays close enough to help while finding an open lane.",
+      "Use the high roll to separate from coverage and create a shooting window."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-2-high-roll",
+    "source_id": "7781566",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7781566-0-1758570289.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7781566-0-1758570289.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 371
+  },
+  {
+    "uid": "ihs-7272666",
+    "title": "Sabre Half-line Keep Away",
+    "category": "3 on 2 / Small Area Game",
+    "drill_types": [
+      "3 on 2",
+      "Small Area Games",
+      "Battle Drills",
+      "Passing",
+      "Puck Control",
+      "Puck Protection",
+      "Puck Support",
+      "Half Ice"
+    ],
+    "description": "Two teams of three play keep-away across a dividing line. The team in possession can use all three players on its side, while only two opponents may cross the line to defend, creating repeated 3-on-2 possession situations.",
+    "coaching_points": [
+      "Defenders pressure aggressively with stick-on-puck and active feet.",
+      "Offense keeps heads up and moves to create passing lanes.",
+      "Maintain one player on the possession side as support instead of all three chasing the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabre-half-line-keep-away",
+    "source_id": "7272666",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7272666-0-1754683470.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7272666-0-1754683470.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 372
   }
 ]
