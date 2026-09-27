@@ -12446,5 +12446,177 @@
     "member_only": true,
     "status": "verified",
     "number": 380
+  },
+  {
+    "uid": "ihs-7281526",
+    "title": "Elmira Transition Retrieval Drill",
+    "category": "Skating / Passing / Retrieval",
+    "drill_types": [
+      "Backwards Skating",
+      "Defensive",
+      "Passing",
+      "Retrievals",
+      "Skill Development",
+      "Stations",
+      "Wall Play",
+      "Skating"
+    ],
+    "description": "A defense-focused retrieval progression. The player transitions backward, opens back to forward speed, retrieves three separate pucks and moves each puck to support players positioned on the hashmarks.",
+    "coaching_points": [
+      "Shoulder-check before every retrieval.",
+      "Use deceptive toes before committing to the pickup.",
+      "Escape both inside and toward the wall.",
+      "Keep eyes up and communicate on every outlet."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Salt City Prospects",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/elmira-transition-retrieval-drill",
+    "source_id": "7281526",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7281526-0-1758192854.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7281526-0-1758192854.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 381
+  },
+  {
+    "uid": "ihs-7262011",
+    "title": "Oswego Double Retrieval Drill",
+    "category": "Retrieval / Passing / Shooting",
+    "drill_types": [
+      "Defensive",
+      "Retrievals",
+      "Skill Development",
+      "Passing",
+      "Shooting",
+      "Down Low",
+      "Stations",
+      "Puck Protection"
+    ],
+    "description": "A two-retrieval sequence. The player first retrieves and escapes a corner puck, then circles for a second retrieval, carries behind the net, makes the outlet to the blue line and finishes by screening or redirecting the point shot.",
+    "coaching_points": [
+      "Use shoulder checks before both retrievals.",
+      "Sell deception with the feet before escaping.",
+      "Face up ice behind the net before making the outlet.",
+      "Finish the rep with real net-front presence."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Salt City Prospects",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/oswego-double-retrieval-drill",
+    "source_id": "7262011",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7262011-0-1758193917.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7262011-0-1758193917.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 382
+  },
+  {
+    "uid": "ihs-7231746",
+    "title": "Merrimack Deception Retrieval Drill",
+    "category": "Retrieval / Puck Protection",
+    "drill_types": [
+      "Defensive Zone",
+      "Retrievals",
+      "Puck Protection",
+      "Wall Play",
+      "Stations",
+      "Skill Development"
+    ],
+    "description": "A continuous corner retrieval drill with passive forecheck pressure. The retriever sells one direction with the feet, escapes the other way, protects the puck and moves it back to the line before becoming the next pressure player.",
+    "coaching_points": [
+      "Make the foot deception obvious enough to move the forechecker.",
+      "Protect the puck immediately after the pickup.",
+      "Stay quick and decisive under passive pressure.",
+      "Build the drill toward more realistic pressure as players improve."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ryan Durocher / Merrimack College",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/merrimack-deception-retrieval-drill",
+    "source_id": "7231746",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7231746-0-1752087353.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7231746-0-1752087353.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 383
+  },
+  {
+    "uid": "ihs-7251311",
+    "title": "Canisius D Retrieval Options",
+    "category": "Breakout / Retrieval / Passing",
+    "drill_types": [
+      "Breakouts",
+      "Defensive Zone",
+      "Passing",
+      "Retrievals",
+      "Wall Play",
+      "Stations",
+      "Shooting",
+      "Puck Protection"
+    ],
+    "description": "A multi-option defense retrieval progression using different pressure cues. The defenseman works net-side escapes, wall-side pressure, an overspeed route behind the net and a rim pickup before moving pucks to outlets or finishing with a quick shot.",
+    "coaching_points": [
+      "Shoulder-check before every retrieval.",
+      "Use feet and body position to sell deception.",
+      "Read whether pressure is arriving net-side or wall-side.",
+      "Make the outlet quickly once separation is created."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Salt City Prospects",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/canisius-d-retrieval-options",
+    "source_id": "7251311",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7251311-0-1753367038.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7251311-0-1753367038.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7251311-1-1753367038.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7251311-2-1753367038.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 384
+  },
+  {
+    "uid": "ihs-7231691",
+    "title": "Kings Defense Retrieval",
+    "category": "Breakout / Retrieval / Passing",
+    "drill_types": [
+      "Breakouts",
+      "Defensive Zone",
+      "Retrievals",
+      "Passing",
+      "Wall Play",
+      "Stations",
+      "Shooting",
+      "Puck Support"
+    ],
+    "description": "A three-part defense retrieval progression in a compact space. Defensemen work an individual outlet, partner support behind the net and a switch-style exchange before moving the puck up ice for quick shots.",
+    "coaching_points": [
+      "Shoulder-check before each pickup.",
+      "Use deception before entering the wall.",
+      "Mirror the partner to provide support on the opposite side.",
+      "Move the puck quickly after gaining control."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Tom Seravalli / Kings College",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/kings-defense-retrieval",
+    "source_id": "7231691",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7231691-0-1752087070.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7231691-0-1752087070.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7231691-1-1752087070.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7231691-2-1752087070.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 385
   }
 ]
