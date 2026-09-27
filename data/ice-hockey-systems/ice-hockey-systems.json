@@ -8491,5 +8491,407 @@
     "original_diagram": true,
     "member_only": false,
     "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-3780036",
+    "number": 262,
+    "title": "5 v 5 Neutral Zone Face-Off Possession Game",
+    "category": "5 on 5 / Neutral Zone / Possession",
+    "drill_types": [
+      "5 vs 5",
+      "Battle Drills",
+      "Neutral Zone",
+      "Passing",
+      "Puck Control",
+      "Re-Group",
+      "Small Area Games",
+      "Zone Entry",
+      "Face-Offs"
+    ],
+    "description": "Teams begin with a neutral-zone faceoff and compete to carry the puck through scoring gates on the red line. Different gates can be worth different points, so players must support possession and recognize the best attacking lane.",
+    "coaching_points": [
+      "Support the puck carrier with clear outlets.",
+      "Defend middle ice first and keep sticks in lanes.",
+      "Communicate through the faceoff and possession change.",
+      "Use the scoring gates to reward controlled entries rather than hopeful passes."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-v-5-neutral-zone-face-off-possession-game",
+    "source_id": "3780036",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3780036-0-1729733956.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3780036-0-1729733956.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-3124176",
+    "number": 263,
+    "title": "Wing Quadrant Play",
+    "category": "Defensive Zone / Winger Coverage",
+    "drill_types": [
+      "Small Area Games",
+      "3 on 3",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Winger Coverage"
+    ],
+    "description": "A 3-on-3 is played on one side of the zone with a defined winger quadrant. The winger's job is to prevent the puck carrier from skating through that area while still reacting quickly to point passes.",
+    "coaching_points": [
+      "Winger protects the quadrant first and angles play outside.",
+      "Keep the stick down to block lanes.",
+      "Close quickly when the puck reaches the point.",
+      "Communicate with the defenseman and opposite winger when coverage changes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jeff Meredith",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wing-quadrant-play",
+    "source_id": "3124176",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3124176-0-1698261270.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3124176-0-1698261270.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-3206691",
+    "number": 264,
+    "title": "Go Go",
+    "category": "Small Area Game / Progressive Numbers",
+    "drill_types": [
+      "1 on 1",
+      "2 on 1",
+      "2 on 2",
+      "3 on 2",
+      "3 on 3",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Offensive",
+      "Puck Control",
+      "Puck Protection",
+      "Small Area Games",
+      "Wall Play"
+    ],
+    "description": "A corner battle begins 1-on-1. Each time the coach calls 'Go,' the next player from alternating teams enters, creating changing situations such as 2-on-1, 2-on-2, 3-on-2 and 3-on-3.",
+    "coaching_points": [
+      "First attacker protects the puck and gets off the wall.",
+      "New players jump in immediately as support.",
+      "Defense communicates as the numbers change.",
+      "Keep the pace high so players must recognize new situations quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "TJ Manastersky / Brock University",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-go-go",
+    "source_id": "3206691",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3206691-0-1730755728.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3206691-0-1730755728.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-5711336",
+    "number": 265,
+    "title": "2 on 2 Angling with Defensive Reward",
+    "category": "2 on 2 / Angling / Turnover Reward",
+    "drill_types": [
+      "2 on 2",
+      "3 on 2",
+      "Angling",
+      "Checking",
+      "Defensive",
+      "Half Ice",
+      "Offensive",
+      "Small Area Games",
+      "Transition"
+    ],
+    "description": "Two attackers rush two defenders in half ice. If the defenders create a quick turnover, a third teammate is activated to reward the defensive play and create a 3-on-2 transition the other way.",
+    "coaching_points": [
+      "Defenders steer attackers into low-risk ice.",
+      "Match speed before closing the gap.",
+      "Keep sticks on the ice to remove passing lanes.",
+      "Activated third player jumps into the play immediately and communicates."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Marty Wilford",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-2-angling-defensive-reward",
+    "source_id": "5711336",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5711336-0-1740489185.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5711336-0-1740489185.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-3484581",
+    "number": 266,
+    "title": "Owls 2 v 2",
+    "category": "2 on 2 / Net Front / Rush",
+    "drill_types": [
+      "Offensive",
+      "Offensive Zone",
+      "2 on 2",
+      "3 on 2",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Full Ice",
+      "Net Front"
+    ],
+    "description": "A three-part battle progression starts with net-front box-outs on a point shot, moves into an in-zone 2-on-2, then finishes with a full-ice 2-on-2 or 3-on-2 rush.",
+    "coaching_points": [
+      "Forwards battle for inside net-front position.",
+      "Defenders eliminate sticks and clear the goalie's sightline.",
+      "Transition quickly when the second and third pucks are introduced.",
+      "If using the 3-on-2 variation, the third forward joins at full speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Nik Passero",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/owls-2-v-2",
+    "source_id": "3484581",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484581-0-1701372457.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484581-0-1701372457.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484581-1-1701372457.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484581-2-1701372457.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-three-original-diagrams"
+  },
+  {
+    "uid": "ihs-3231636",
+    "number": 267,
+    "title": "Purple Eagle Angle Drill",
+    "category": "1 on 1 / Angling / Puck Protection",
+    "drill_types": [
+      "1 on 1",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Stickhandling",
+      "Neutral Zone",
+      "Angling",
+      "Checking",
+      "Full Ice",
+      "Shooting"
+    ],
+    "description": "Players pass across the neutral-zone dots, then the passer immediately becomes the angler while the receiver attacks up ice. The puck carrier works to protect the puck and gain inside ice before shooting.",
+    "coaching_points": [
+      "Defender keeps the stick down and steers the rush outside.",
+      "Puck carrier keeps the head up and protects through the defender's hands.",
+      "Attack middle ice after entering the zone.",
+      "Shoot in stride or change the shooting angle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "TJ Manastersky / Brock University",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-purple-eagle-angle-drill",
+    "source_id": "3231636",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3231636-0-1699029335.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3231636-0-1699029335.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-3231616",
+    "number": 268,
+    "title": "Cutting Hands Warm-Up",
+    "category": "Puck Protection / Backcheck / Angling",
+    "drill_types": [
+      "1 on 1",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Stickhandling",
+      "Warm Up",
+      "Backchecking",
+      "Checking",
+      "Angling"
+    ],
+    "description": "A puck carrier moves up the wall while a backchecker angles in, lifts the stick and takes possession. The new puck carrier then uses deception, escapes back up ice and practices protecting the puck through the defender's hands.",
+    "coaching_points": [
+      "Backchecker approaches on a useful angle rather than directly from behind.",
+      "Separate the player from the puck before taking possession.",
+      "Use a deceptive escape immediately after the takeaway.",
+      "Puck carrier gets off the wall and protects with body position."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "TJ Manastersky / Brock University",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cutting-hands-warm-up",
+    "source_id": "3231616",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3231616-0-1699030640.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3231616-0-1699030640.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-2852966",
+    "number": 269,
+    "title": "Beaver Track",
+    "category": "Tracking / Regroup / 2 on 0",
+    "drill_types": [
+      "Passing",
+      "Re-Group",
+      "Transition",
+      "2 on 0",
+      "Angling",
+      "Checking",
+      "Flow",
+      "Full Ice",
+      "Backchecking"
+    ],
+    "description": "One forward carries at controlled speed while a second player tracks, angles and steals the puck. The tracking player then moves the puck to a defenseman as a regroup outlet and joins the original forward for a 2-on-0 attack.",
+    "coaching_points": [
+      "Tracker takes a hard inside-out route and attacks the hands.",
+      "Communicate through the turnover and regroup.",
+      "Keep sticks available as passing targets.",
+      "Transition from takeaway to offense immediately."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Steve Wiedler",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/beaver-track",
+    "source_id": "2852966",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2852966-0-1695911971.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2852966-0-1695911971.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-2681331",
+    "number": 270,
+    "title": "The Breakout Game",
+    "category": "Breakout / Forecheck / Team Game",
+    "drill_types": [
+      "Passing",
+      "Small Area Games",
+      "Transition",
+      "Breakouts",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Forechecking",
+      "5 on 3"
+    ],
+    "description": "A five-player breakout unit retrieves a coach dump while a smaller forechecking group pressures. The breakout team tries to exit cleanly and score on the far net; the forecheckers are rewarded more heavily for creating a turnover and scoring.",
+    "coaching_points": [
+      "Defense supports its partner on retrievals.",
+      "Center comes low as a clear outlet and wingers recover into breakout spots.",
+      "Forecheckers angle to the wall with sticks in lanes.",
+      "Scale the number of forecheckers to match the group's breakout ability."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jason Lammers",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-breakout-game",
+    "source_id": "2681331",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2681331-0-1695328807.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2681331-0-1695328807.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-3231591",
+    "number": 271,
+    "title": "Cloverleaf Drill",
+    "category": "Puck Protection / Tight Turns / Pressure",
+    "drill_types": [
+      "Puck Protection",
+      "Puck Control",
+      "Skating",
+      "Tight Turns",
+      "Skill Development",
+      "Checking",
+      "Angling",
+      "Warm Up"
+    ],
+    "description": "A puck carrier skates a cloverleaf route around a center marker and four outside markers while a defender follows with passive stick pressure. The route creates repeated chances to use body position and tight turns.",
+    "coaching_points": [
+      "Stay low through every turn.",
+      "Use body position to create separation from the defender.",
+      "Protect through the defender's hands instead of only moving the puck.",
+      "Run reps without pressure first when players are learning the route."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "TJ Manastersky / Brock University",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-cloverleaf-drill",
+    "source_id": "3231591",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3231591-0-1744579240.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3231591-0-1744579240.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified-page-and-original-diagram"
+  },
+  {
+    "uid": "ihs-2052066",
+    "number": 272,
+    "title": "Renegade Line Rush",
+    "category": "3 on 2 / 5 on 5 / Transition",
+    "drill_types": [
+      "3 on 2",
+      "5 vs 5",
+      "Down Low",
+      "Full Ice",
+      "Transition",
+      "Coverage",
+      "Zone Entry",
+      "Conditioning"
+    ],
+    "description": "The first whistle starts a tight 3-on-2 around a turned net. The second whistle sends the puck to a forward outside the battle, and the same players expand into a full 5-on-5 rush up ice.",
+    "coaching_points": [
+      "Defense communicates and sorts coverage quickly in tight space.",
+      "Offense attacks immediately on the first puck.",
+      "On the second whistle, move the puck forward through the blue line and enter inside the dots.",
+      "Net drive and tracking continue into the 5-on-5 rush."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "TJ Manastersky / Brock University",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-renegade-line-rush",
+    "source_id": "2052066",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2052066-0-1674760764.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2052066-0-1674760764.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2052066-1-1674760764.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified-page-and-two-original-diagrams"
   }
 ]
