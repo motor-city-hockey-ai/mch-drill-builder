@@ -24692,5 +24692,67 @@
     "original_diagram": true,
     "status": "verified",
     "number": 757
+  },
+  {
+    "uid": "ihs-four-wise-men-warm",
+    "title": "Four Wise Men Warm Up",
+    "category": "Passing / Shooting / Warm Up",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Full Ice",
+      "Puck Support",
+      "Flow"
+    ],
+    "description": "Four players are active at once in a full-ice warm-up. The first skater receives a pass while moving down the wall, attacks the blue line inside-out and shoots from the outside lane. The passer then swings low across the opposite blue line, receives a flat pass and takes the second shot while the first shooter hunts the rebound.",
+    "coaching_points": [
+      "Receive every pass under control and with the feet moving.",
+      "Attack the blue line with speed before shooting from the outside lane.",
+      "The second shooter swings low enough to receive a flat pass.",
+      "The first shooter immediately hunts the rebound and arrives at the net for the second shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-wise-men-warm",
+    "image": "https://www.files.icehockeysystems.com/files/drills/four-wise-men-warm-up.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/four-wise-men-warm-up.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 758
+  },
+  {
+    "uid": "ihs-transition-chip-2-0",
+    "title": "Transition Chip 2 on 0",
+    "category": "2 vs 0 / Transition / Passing",
+    "drill_types": [
+      "2 vs 0",
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Wall Play",
+      "Zone Entry",
+      "Puck Support",
+      "Shooting"
+    ],
+    "description": "A full-ice 2-on-0 transition drill built around a soft chip off the boards. The puck moves from the corner line to support through the middle, then to a player who opens to the outside and chips the puck into space. The weak-side player times the entry to retrieve the chip with speed while the chipper drives the slot for a return pass.",
+    "coaching_points": [
+      "Create separation from the wall before making the chip.",
+      "Chip the puck softly enough that the receiver can skate onto it.",
+      "The weak-side player times the entry and retrieves with speed.",
+      "After the chip, drive immediately to the slot and present the stick for the return pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-chip-2-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/transition-chip-2-on-0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/transition-chip-2-on-0.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 759
   }
 ]
