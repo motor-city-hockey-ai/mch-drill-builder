@@ -6032,5 +6032,169 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS page 7 verification"
+  },
+  {
+    "discovery_number": 413,
+    "title": "1-3-1 Mad Attacker",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-3-1-mad-attacker",
+    "categories": [
+      "Power Play",
+      "Penalty Kill",
+      "Half Ice",
+      "Puck Support",
+      "Offensive",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 8"
+  },
+  {
+    "discovery_number": 414,
+    "title": "Swedish 2 on 0 Half Ice",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swedish-2-0-half-ice",
+    "categories": [
+      "2 vs 0",
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Half Ice",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 8"
+  },
+  {
+    "discovery_number": 415,
+    "title": "Transition Pull Outside - Defense Skills",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-pull-outside-defense-skills",
+    "categories": [
+      "Defensive",
+      "Retrievals",
+      "Transition",
+      "Neutral Zone",
+      "Passing",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 8"
+  },
+  {
+    "discovery_number": 416,
+    "title": "Hit The Tire With 1 Goalie Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/hit-tire-1-goalie-game",
+    "categories": [
+      "3 vs 3",
+      "Small Area Games",
+      "Passing",
+      "Puck Control",
+      "Battle Drills",
+      "Goalie",
+      "Offensive",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 8"
+  },
+  {
+    "discovery_number": 417,
+    "title": "DV3 Warm Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/dv3-warm-up",
+    "categories": [
+      "Passing",
+      "Warm Up",
+      "Flow",
+      "Full Ice",
+      "Transition",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 8"
+  },
+  {
+    "discovery_number": 418,
+    "title": "Admirals 2 Shot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/admirals-2-shot",
+    "categories": [
+      "Passing",
+      "Zone Entry",
+      "Shooting",
+      "Warm Up",
+      "Puck Handling",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 8"
+  },
+  {
+    "discovery_number": 419,
+    "title": "SD Thomas 1 v 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sd-thomas-1-v-1",
+    "categories": [
+      "1 vs 1",
+      "Puck Protection",
+      "Offensive",
+      "Battle Drills",
+      "Quarter Ice Station",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 8"
+  },
+  {
+    "discovery_number": 420,
+    "title": "Out Of The Corner",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/out-of-the-corner",
+    "categories": [
+      "1 vs 1",
+      "Down Low",
+      "Puck Protection",
+      "Puck Control",
+      "Offensive",
+      "Battle Drills",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 8"
+  },
+  {
+    "discovery_number": 421,
+    "title": "Off-Side Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/off-side-game",
+    "categories": [
+      "3 vs 3",
+      "Small Area Games",
+      "Passing",
+      "Re-Group",
+      "Zone Entry",
+      "Transition",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 8"
+  },
+  {
+    "discovery_number": 422,
+    "title": "Black vs White Stick Tape Keep Away",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/black-vs-white-stick-tape-keep-away",
+    "categories": [
+      "Passing",
+      "Puck Protection",
+      "Small Area Games",
+      "Awareness",
+      "Puck Support",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 8"
   }
 ]
