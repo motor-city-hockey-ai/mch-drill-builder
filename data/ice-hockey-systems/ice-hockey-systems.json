@@ -18372,5 +18372,67 @@
     "member_only": true,
     "status": "verified",
     "number": 561
+  },
+  {
+    "uid": "ihs-475946",
+    "title": "Fullback Puck Possession",
+    "category": "1 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "Puck Protection",
+      "Awareness",
+      "Skating",
+      "Quarter Ice Station"
+    ],
+    "description": "A puck carrier uses two nets as traffic and protection while a pursuing defender tries to close the route. The puck carrier reads the defender, stays tight to the nets and uses controlled cutbacks to maintain possession.",
+    "coaching_points": [
+      "Keep the head up and track pressure with peripheral vision.",
+      "Stay tight to the nets so they remove the defender's direct attack lane.",
+      "Use tight turns and controlled cutbacks instead of drifting into open ice.",
+      "Protect the puck before trying to attack or escape."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "NewEdge Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/fullback-puck-possession",
+    "source_id": "475946",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-475946-1642018350.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-475946-1642018350.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 562
+  },
+  {
+    "uid": "ihs-336366",
+    "title": "3 vs 3 Picket Fences",
+    "category": "3 vs 3",
+    "drill_types": [
+      "3 vs 3",
+      "Forechecking",
+      "Breakouts",
+      "Puck Support",
+      "Defensive Zone",
+      "Small Area Games"
+    ],
+    "description": "Three attackers forecheck against three defenders in-zone. The offense tries to create a turnover and score, while the defenders must regain possession and skate the puck with control through one of two gates near the top of the circles.",
+    "coaching_points": [
+      "Defenders use support and deception instead of throwing the puck away.",
+      "Attackers stay relentless on the forecheck and recover loose pucks quickly.",
+      "Scan before possession changes so the next play is already identified.",
+      "Support underneath the puck and communicate through the exit."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-vs-3-picket-fences",
+    "source_id": "336366",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-336366-0-1676666392.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-336366-0-1676666392.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 563
   }
 ]
