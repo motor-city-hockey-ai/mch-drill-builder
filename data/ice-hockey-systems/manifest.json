@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 807,
-    "catalog_items_verified": 807,
+    "catalog_items_imported": 809,
+    "catalog_items_verified": 809,
     "catalog_target": 1573,
-    "last_batch": "IHS legacy exact-image continuation batch",
-    "original_diagrams_verified": 807,
+    "last_batch": "IHS puck-control exact-image batch",
+    "original_diagrams_verified": 809,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 816,
+    "unique_urls_discovered": 818,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue old catalog and full-ice/transition exact-image gaps from #808.",
+    "next_step": "Continue old station/puck-control exact-image gaps from #810.",
     "multi_diagram_drills_preserved": 41,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 7,
-    "last_batch_notes": "Added 801 COW Hockey's Continuous 2 on 0; 802 Four Lines Flow #2; 803 Outside Loop Passing; 804 2 on 0 Quick Re-Group; 805 Pre-Game Three Lane Transition Shooting; 806 2 on 0 React and Support Drill; 807 Transition Passing Sequence #3 using verified original IHS diagrams.",
+    "last_batch_imported": 2,
+    "last_batch_notes": "Added 808 Control Turn Puck Control; 809 Trinity Puck Control Drill using verified original IHS-hosted diagrams.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -78,6 +78,6 @@
       "Offensive to Defensive Zone Coverage Drill - source page currently exposes video instruction but no original drill diagram; keep deferred rather than substituting an AI diagram."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 7
+    "last_batch_discovered": 2
   }
 }
