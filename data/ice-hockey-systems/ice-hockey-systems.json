@@ -15057,5 +15057,222 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-61411",
+    "title": "Continuous Cycle Drill",
+    "category": "Cycling",
+    "drill_types": [
+      "Cycling",
+      "Puck Protection",
+      "Shooting",
+      "Offensive Zone",
+      "Half Ice",
+      "Conditioning"
+    ],
+    "description": "Two forwards work a continuous wall-cycle pattern. The first player protects the puck and leaves it down the wall for support; the second player collects it, attacks inside for a quick shot, and the sequence continues from the opposite side.",
+    "coaching_points": [
+      "Protect the puck with the body and boards during the cycle.",
+      "Leave the cycle puck at an angle the supporting player can collect cleanly.",
+      "Attack off the wall with feet moving and release the shot quickly.",
+      "Finish at the net for rebounds and communicate throughout the rep."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Denis Savard",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-cycle-drill",
+    "print_url": "https://www.icehockeysystems.com/print/with-notes/61411",
+    "source_id": "61411",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-61411-0-1671116457.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-61411-0-1671116457.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 463
+  },
+  {
+    "uid": "ihs-quickie-2v1-scissor",
+    "title": "Quickie 2 vs. 1 with Scissor Cycle",
+    "category": "2 vs 1",
+    "drill_types": [
+      "2 vs 1",
+      "Cycling",
+      "Offensive Zone",
+      "Half Ice",
+      "Shooting",
+      "Puck Support",
+      "Backchecking"
+    ],
+    "description": "Two forwards begin with a quick 2-on-1 read near the slot, then retrieve a second puck from the corner and use a scissor-cycle exchange to create another scoring chance. Both players finish by sprinting out of the zone as a backcheck.",
+    "coaching_points": [
+      "Read whether the defender takes the puck carrier or passing lane before deciding to shoot or pass.",
+      "Explode to the corner for the second puck and support underneath with timing.",
+      "Use the scissor exchange to create separation and a new lane to the net.",
+      "Stop at the net after each chance, then finish the rep with a hard backcheck."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quickie-2-vs-1-scissor-cycle",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quickie-2v1-scissor-cycle.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quickie-2v1-scissor-cycle.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 464
+  },
+  {
+    "uid": "ihs-cycle-support-1",
+    "title": "Cycle Support Drill - Option #1",
+    "category": "Cycling",
+    "drill_types": [
+      "Cycling",
+      "Shooting",
+      "Half Ice",
+      "Puck Support",
+      "Net Front",
+      "Offensive"
+    ],
+    "description": "The rep begins with a screened shot and rebound play. A new puck is then sent to the corner, the first forward moves it up the wall, the second forward supports underneath for the cycle, and the puck is returned quickly for a shot.",
+    "coaching_points": [
+      "Build speed up the wall before making the cycle play.",
+      "Supporting forward gets below the puck and communicates for the exchange.",
+      "Return the puck quickly so the shooter can attack before coverage resets.",
+      "Both forwards finish at the net for rebound position."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cycle-support-drill-option-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cycle-support-drill-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cycle-support-drill-1.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 465
+  },
+  {
+    "uid": "ihs-cycle-support-2",
+    "title": "Cycle Support Drill - Option #2",
+    "category": "Cycling",
+    "drill_types": [
+      "Cycling",
+      "Shooting",
+      "Half Ice",
+      "Puck Support",
+      "Wall Play",
+      "Offensive"
+    ],
+    "description": "This variation replaces the standard cycle with a wall switch. The first forward retrieves the puck, climbs the wall and turns back; the supporting forward comes up the outside, receives the exchange and attacks the seam for a shot.",
+    "coaching_points": [
+      "Puck carrier creates separation from the wall before the switch.",
+      "Supporting forward times the outside route so the exchange is clean.",
+      "Receive the puck in motion and attack the seam immediately.",
+      "Both players finish at the net before rotating roles."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cycle-support-drill-option-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cycle-support-variation-2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cycle-support-variation-2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 466
+  },
+  {
+    "uid": "ihs-quick-cycle",
+    "title": "Quick Cycle Drill",
+    "category": "Cycling",
+    "drill_types": [
+      "Cycling",
+      "Half Ice",
+      "Offensive",
+      "Puck Support",
+      "Passing",
+      "Shooting",
+      "Net Drive"
+    ],
+    "description": "Three forwards work together after a soft corner dump. F1 retrieves and moves up the wall, F2 supports underneath for the cycle, and F3 drives the net while the puck is moved into a scoring option.",
+    "coaching_points": [
+      "F1 retrieves with speed and protects the puck before moving up the wall.",
+      "F2 stays connected underneath and communicates for the cycle.",
+      "F3 times the net drive to arrive as the puck moves into the scoring area.",
+      "After the cycle, read the return pass or direct pass to the net-driving player."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-cycle-drill",
+    "image": "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/quick-cycling-drill.jpg",
+    "images": [
+      "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/quick-cycling-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 467
+  },
+  {
+    "uid": "ihs-109781",
+    "title": "Levels 3 vs 3 Small Area Game",
+    "category": "3 vs 3",
+    "drill_types": [
+      "3 vs 3",
+      "Small Area Games",
+      "Transition",
+      "Puck Support",
+      "Awareness",
+      "Passing",
+      "Two Goalies"
+    ],
+    "description": "Three players per side compete in a compact game with two goals and outside bumpers. A team must connect with a bumper to establish possession before attacking, forcing quick changes from defense to offense.",
+    "coaching_points": [
+      "Transition immediately after gaining possession and find the bumper early.",
+      "Communicate constantly because either net can become a scoring option.",
+      "Create separation away from the puck instead of crowding the play.",
+      "Keep heads up around the reversed-net setup and adjust net orientation when needed for safety."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/levels-3-vs-3-small-area-game",
+    "source_id": "109781",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-109781-1642017925.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-109781-1642017925.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 468
+  },
+  {
+    "uid": "ihs-back-to-back-small-area",
+    "title": "Back to Back Small Area Game",
+    "category": "3 vs 3",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Small Area Games",
+      "Stations",
+      "Sixth Ice Stations",
+      "Battle Drills",
+      "Puck Protection"
+    ],
+    "description": "Two nets sit back to back in the middle of a small station. Equal teams compete freely around the nets, and the coach immediately introduces a new puck after a goal to keep the game moving.",
+    "coaching_points": [
+      "Protect the puck while using the back of the nets as natural screens.",
+      "Off-puck players move to open scoring space on either side of the setup.",
+      "Defenders stay aware of threats wrapping around both nets.",
+      "Use short, competitive shifts so pace stays high."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Hockey Coach Vision",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/back-back-small-area-game",
+    "image": "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/back-to-back-3v3-web_0.jpg",
+    "images": [
+      "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/back-to-back-3v3-web_0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 469
   }
 ]
