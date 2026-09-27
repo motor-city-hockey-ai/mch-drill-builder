@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 809,
-    "catalog_items_verified": 809,
+    "catalog_items_imported": 824,
+    "catalog_items_verified": 824,
     "catalog_target": 1573,
-    "last_batch": "IHS puck-control exact-image batch",
-    "original_diagrams_verified": 809,
+    "last_batch": "IHS legacy exact-diagram continuation batch",
+    "original_diagrams_verified": 824,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 818,
+    "unique_urls_discovered": 833,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue old station/puck-control exact-image gaps from #810.",
+    "next_step": "Continue exact-image station, passing, transition and old-catalog gaps from #825.",
     "multi_diagram_drills_preserved": 41,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 2,
-    "last_batch_notes": "Added 808 Control Turn Puck Control; 809 Trinity Puck Control Drill using verified original IHS-hosted diagrams.",
+    "last_batch_imported": 13,
+    "last_batch_notes": "Added 812 D-Zone 1 on 1 Give and GO; 813 In-Zone 5 Player Pass and Follow; 814 Head Up Circle Passing Drill; 815 Center Circle Tire Skating - Tight Transitions; 816 Center Circle Tire Skating - Control Turns; 817 2 to 1 Puck Protection Drill; 818 Four Cone Control Turn Station; 819 5 Puck Breakaway Races (Cross-Ice); 820 Neutral Zone 2 on 2; 821 Transition Passing Sequence #4; 822 Transition Control & Outlet Passing; 823 Red River Skating and Passing Drill; 824 Pass and Move Quick Puck Movement Drill using verified IHS-hosted drill diagrams/renditions.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -78,6 +78,6 @@
       "Offensive to Defensive Zone Coverage Drill - source page currently exposes video instruction but no original drill diagram; keep deferred rather than substituting an AI diagram."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 2
+    "last_batch_discovered": 13
   }
 }
