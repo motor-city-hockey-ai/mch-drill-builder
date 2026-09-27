@@ -14899,5 +14899,132 @@
     "original_diagram": true,
     "status": "verified",
     "number": 457
+  },
+  {
+    "uid": "ihs-2480936",
+    "title": "Circle Scoring Game",
+    "category": "3 vs 1 / Passing / Shooting / Small Area Game",
+    "drill_types": [
+      "3 vs 1",
+      "Passing",
+      "Shooting",
+      "Puck Support",
+      "Small Area Games",
+      "Awareness",
+      "One Goalie"
+    ],
+    "description": "Two groups race to score in separate faceoff circles. Three offensive players move around the outside of the circle while one defender works inside to disrupt passes and clear the puck.",
+    "coaching_points": [
+      "Use eyes and body language to disguise passes and shots.",
+      "Move the puck quickly and release shots without extra handling.",
+      "Defender keeps an active stick in passing and shooting lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/circle-scoring-game",
+    "source_id": "2480936",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2480936-0-1686947246.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2480936-0-1686947246.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 458
+  },
+  {
+    "uid": "ihs-779",
+    "title": "Run Ragged Small Area Game",
+    "category": "3 vs 1 / Passing / Small Area Game",
+    "drill_types": [
+      "3 vs 1",
+      "3 vs 2",
+      "Passing",
+      "Puck Support",
+      "Small Area Games",
+      "Half Ice",
+      "Shooting"
+    ],
+    "description": "Three forwards occupy three corners of a four-cone box with one open cone. After every pass, the passer moves to the open cone. After five consecutive passes the forwards may attack the net.",
+    "coaching_points": [
+      "Pass and immediately move to the open support position.",
+      "Players without the puck stay available as clear targets.",
+      "Defender uses stops, starts and an active stick to disrupt possession."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/run-ragged-small-area-game",
+    "source_id": "779",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-779-0-1664797409.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-779-0-1664797409.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 459
+  },
+  {
+    "uid": "ihs-3397436",
+    "title": "Pass Through The Cones 2 v 2 Game",
+    "category": "2 vs 2 / Passing / Small Area Game",
+    "drill_types": [
+      "2 vs 2",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Puck Support",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Battle Drills"
+    ],
+    "description": "Two-on-two station game where teams score by completing a pass through small cone or tire gates. Players cannot score through the same gate twice in a row, forcing constant movement and awareness.",
+    "coaching_points": [
+      "Puck carrier keeps the head up to find open gates and teammates.",
+      "Off-puck player jumps to open space after every pass.",
+      "Defenders communicate and keep sticks in passing lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pass-through-the-cones-game",
+    "source_id": "3397436",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3397436-0-1700536276.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3397436-0-1700536276.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 460
+  },
+  {
+    "uid": "ihs-gretzky-3v2",
+    "title": "Gretzky 3 vs 2 Behind the Net",
+    "category": "3 vs 2 / Small Area Game / Down Low",
+    "drill_types": [
+      "3 vs 2",
+      "Defensive",
+      "Half Ice",
+      "Offensive",
+      "One Goalie",
+      "Small Area Games",
+      "Down Low",
+      "Puck Support"
+    ],
+    "description": "Three attackers play against two defenders below the tops of the circles. The offensive team must always keep one player below the goal line, creating rotations and switches around the back of the net.",
+    "coaching_points": [
+      "Defenders communicate through every switch behind the net.",
+      "Attackers rotate the below-goal-line player to create confusion and new lanes.",
+      "Maintain useful spacing instead of clustering around the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Hockey Coach Vision",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/gretzky-3-vs-2-behind-net",
+    "image": "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/gretzky-3v2-web.jpg",
+    "images": [
+      "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/gretzky-3v2-web.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 461
   }
 ]
