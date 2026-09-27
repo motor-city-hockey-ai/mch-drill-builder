@@ -7261,5 +7261,154 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 484,
+    "title": "Lateral Passing Progress to 2-1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/lateral-passing-progress-2-1",
+    "categories": [
+      "2 vs 1",
+      "Passing",
+      "Shooting",
+      "Transition",
+      "Full Ice",
+      "Offensive",
+      "Defensive",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 485,
+    "title": "2 on 1 to 4 on 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-4-2-2",
+    "categories": [
+      "2 vs 1",
+      "4 vs 2",
+      "Transition",
+      "Zone Entry",
+      "Puck Support",
+      "Offensive",
+      "Defensive",
+      "Full Ice",
+      "Backchecking"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 486,
+    "title": "4X 2v1's from centre",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4x-2v1s-centre",
+    "categories": [
+      "2 vs 1",
+      "1 vs 1",
+      "Transition",
+      "Gap",
+      "Offensive",
+      "Defensive",
+      "Full Ice",
+      "Competition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 487,
+    "title": "3 Man Pass G-F Exchange to 2-1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-man-pass-g-f-exchange-2-1",
+    "categories": [
+      "2 vs 1",
+      "Passing",
+      "Breakouts",
+      "Transition",
+      "Full Ice",
+      "Goalie",
+      "Puck Support",
+      "Offensive",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 488,
+    "title": "Union Small Area Scoring Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/union-scoring-game",
+    "categories": [
+      "3 vs 3",
+      "Small Area Games",
+      "Offensive",
+      "Defensive",
+      "Awareness",
+      "Puck Support",
+      "Half Ice",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 489,
+    "title": "USA 2 VS. 2 Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/usa-2-v-2-drill",
+    "categories": [
+      "2 vs 2",
+      "Angling",
+      "Gap",
+      "Defensive",
+      "Offensive",
+      "Transition",
+      "Half Ice",
+      "Battle Drills",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 490,
+    "title": "Continuous 2 on 2 to 4 on 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-2-2-4-2",
+    "categories": [
+      "2 vs 2",
+      "4 vs 2",
+      "Transition",
+      "Breakouts",
+      "Net Front",
+      "Defensive",
+      "Offensive",
+      "Full Ice",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 491,
+    "title": "2 vs. 3 Cross Drop Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-3-cross-drop-drill",
+    "categories": [
+      "2 vs 3",
+      "Zone Entry",
+      "Angling",
+      "Gap",
+      "Puck Support",
+      "Offensive",
+      "Defensive",
+      "Transition",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
   }
 ]
