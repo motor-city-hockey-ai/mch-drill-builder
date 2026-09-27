@@ -31438,5 +31438,128 @@
     "member_only": true,
     "status": "verified",
     "number": 976
+  },
+  {
+    "uid": "ihs-isolated-bump-go",
+    "title": "Isolated Bump & Go",
+    "category": "1 on 1 / Puck Protection / Contact",
+    "drill_types": [
+      "1 on 1",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Offensive"
+    ],
+    "description": "Two players skate up the wall together. The offensive player uses controlled body contact to bump the defender, turns back toward the wall, creates separation and attacks the net.",
+    "coaching_points": [
+      "Use controlled contact to create separation.",
+      "Keep the feet moving through the bump.",
+      "Turn back toward the wall with the puck protected.",
+      "Explode away from pressure and attack the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mark Zarbo Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/isolated-bump-go",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543996-0-1691757163.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543996-0-1691757163.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 977
+  },
+  {
+    "uid": "ihs-puck-protection-weight-shifting-standing-still",
+    "title": "Puck Protection Weight Shifting (Standing Still)",
+    "category": "Puck Protection / Skill Development",
+    "drill_types": [
+      "Puck Handling",
+      "Skill Development",
+      "Stickhandling",
+      "Warm Up",
+      "Puck Protection"
+    ],
+    "description": "Players rehearse the puck-protection base position while stationary, shifting body weight away from the puck side before repeating the same movement with a puck.",
+    "coaching_points": [
+      "Shift weight away from the puck side.",
+      "Keep the inside knee bent and the puck protected behind the leg.",
+      "Stay balanced through the lower body instead of dropping the shoulder.",
+      "Practice both forehand and backhand protection positions."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mark Zarbo Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-protection-weight-shifting-standing-still",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543776-0-1691753334.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543776-0-1691753334.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 978
+  },
+  {
+    "uid": "ihs-2-on-2-jets",
+    "title": "2 On 2 Jets",
+    "category": "2 on 2 / Battle / Net Front",
+    "drill_types": [
+      "Offensive",
+      "Small Area Games",
+      "Offensive Zone",
+      "2 on 2",
+      "Battle Drills",
+      "Half Ice"
+    ],
+    "description": "The drill begins with a 2 on 2 rush, then immediately becomes a 2 on 2 net-front battle with additional offensive support players around the perimeter moving pucks quickly into scoring areas.",
+    "coaching_points": [
+      "Use timing and tempo on the rush to create separation.",
+      "Forwards establish body position and free sticks at the net.",
+      "Defenders protect the middle and keep sticks in lanes.",
+      "Perimeter players move pucks and shots quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Todd Knott",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-2-jets",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-429071-0-1675696482.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-429071-0-1675696482.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-429071-1-1675696482.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 979
+  },
+  {
+    "uid": "ihs-center-circle-tire-skating-cross-overs-transitions",
+    "title": "Center Circle Tire Skating - Cross-Overs / Transitions",
+    "category": "Skating / Transition / Station",
+    "drill_types": [
+      "Skating",
+      "Stations",
+      "Third Ice Stations",
+      "Backwards Skating",
+      "Transition"
+    ],
+    "description": "Two players work around four tires positioned at center ice, using crossovers plus forward-to-backward and backward-to-forward transitions before accelerating out of the pattern.",
+    "coaching_points": [
+      "Use controlled crossovers around the circle.",
+      "Open the hips cleanly into transitions.",
+      "Make the backward-to-forward transition without extra crossovers.",
+      "Increase speed as footwork improves."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/center-circle-tire-skating-cross-overs-transitions",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/center-circle-tire-skating-cross-overs-tranistions.jpg?itok=GOskxcAO",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/center-circle-tire-skating-cross-overs-tranistions.jpg?itok=GOskxcAO"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 980
   }
 ]
