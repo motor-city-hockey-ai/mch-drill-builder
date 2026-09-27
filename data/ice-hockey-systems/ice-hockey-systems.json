@@ -17640,5 +17640,325 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-2632376",
+    "title": "Shot Into Gap Up 1 v 1",
+    "category": "1 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Gap",
+      "Checking",
+      "Puck Protection",
+      "Quarter Ice Station"
+    ],
+    "description": "One player shoots, then immediately gaps up to defend a second player attacking from the blue line. The rep becomes a tight-area 1-on-1 focused on matching speed, protecting the middle and driving the puck toward the net.",
+    "coaching_points": [
+      "Defender closes space under control and matches the attacker's speed.",
+      "Keep inside position and angle the puck carrier toward the boards.",
+      "Use stick-on-puck and body position instead of reaching.",
+      "Offense keeps feet moving, protects the puck and attacks middle ice when it opens."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shot-gap-1-v-1",
+    "source_id": "2632376",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2632376-0-1693852700.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2632376-0-1693852700.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 539
+  },
+  {
+    "uid": "ihs-2627846",
+    "title": "Nobles 2 V 2 + 2 Teammates Transition Game",
+    "category": "4 vs 2",
+    "drill_types": [
+      "4 vs 2",
+      "2 vs 2",
+      "Passing",
+      "Puck Support",
+      "Transition",
+      "Small Area Games"
+    ],
+    "description": "A 2-on-2 battle becomes a 4-on-2 once the team in possession connects with its two support players along the boards. Possession changes immediately flip the support and attacking roles.",
+    "coaching_points": [
+      "Win the first puck and find support quickly.",
+      "Support players move the puck back into useful space instead of holding it.",
+      "Offense uses switches, give-and-goes and quick-release shots.",
+      "Defenders protect the middle, keep sticks in lanes and transition the puck out quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/nobles-2-v-2-2-teammates-transition-game",
+    "source_id": "2627846",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627846-0-1693851371.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627846-0-1693851371.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 540
+  },
+  {
+    "uid": "ihs-2627761",
+    "title": "Nobles 2 v 2 Transition Game",
+    "category": "2 vs 2",
+    "drill_types": [
+      "2 vs 2",
+      "Transition",
+      "Puck Support",
+      "Passing",
+      "Battle Drills",
+      "Small Area Games"
+    ],
+    "description": "Two teams play 2-on-2 in-zone while the defending team has two teammates waiting along the boards. A defensive possession becomes offense only after the puck is moved to those outlets, creating a continuous transition game.",
+    "coaching_points": [
+      "Defenders keep the puck outside and block the middle with active sticks.",
+      "On a turnover, move the puck to the outlets immediately.",
+      "New attackers enter with pace and create width.",
+      "Offense attacks the net quickly before the defense can fully reset."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/nobles-2-v-2-transition-game",
+    "source_id": "2627761",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627761-0-1693851387.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627761-0-1693851387.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 541
+  },
+  {
+    "uid": "ihs-2625176",
+    "title": "Larionov 5 V 3 Alternating Warm-Up Drill",
+    "category": "5 vs 3",
+    "drill_types": [
+      "5 vs 3",
+      "Passing",
+      "Puck Control",
+      "Puck Support",
+      "Power Play",
+      "Warm Up"
+    ],
+    "description": "Five attackers keep possession against three defenders in a confined area. The drill is built as a warm-up that forces constant scanning, support movement, deception and quick puck decisions.",
+    "coaching_points": [
+      "Puck carriers use cutbacks, pace changes and deception to create lanes.",
+      "Players without the puck move into open support and present sticks early.",
+      "Avoid passing back to the same player when using a pass-count scoring rule.",
+      "Defenders stay connected and use active sticks to take away the middle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/larionov-5-v-3-alternating-warm-drill",
+    "source_id": "2625176",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625176-0-1693851242.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625176-0-1693851242.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 542
+  },
+  {
+    "uid": "ihs-2622501",
+    "title": "Add-On Game",
+    "category": "2 vs 2",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 2",
+      "Puck Support",
+      "Passing",
+      "Puck Control",
+      "Small Area Games"
+    ],
+    "description": "The game begins 2-on-2. A team can add another attacker by connecting with the first teammate in line and receiving a return pass, so possession and support can progressively create an advantage.",
+    "coaching_points": [
+      "Compete to gain the first clean possession.",
+      "After winning the puck, identify the next available support player immediately.",
+      "Support away from pressure instead of standing behind defenders.",
+      "Defenders keep sticks in lanes and force the attack outside."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/add-on-game",
+    "source_id": "2622501",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2622501-0-1693851116.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2622501-0-1693851116.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 543
+  },
+  {
+    "uid": "ihs-2544151",
+    "title": "Net Drive & Angle Drill",
+    "category": "1 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Checking",
+      "Gap",
+      "Puck Protection",
+      "Zone Entry"
+    ],
+    "description": "An attacker loops through the neutral-zone cones and drives back toward the net while a defender takes a shorter route to establish inside position and angle the rush toward the wall.",
+    "coaching_points": [
+      "Defender stays patient, takes back ice and protects the middle.",
+      "Steer with the stick, then close body-on-body when the lane is controlled.",
+      "Attacker changes speed, protects the puck and drives through the defender's hands.",
+      "Do not drift willingly into the corner; keep a scoring-route mindset."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mark Zarbo Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/net-drive-angle-drill",
+    "source_id": "2544151",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544151-0-1758769478.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544151-0-1758769478.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 544
+  },
+  {
+    "uid": "ihs-2544011",
+    "title": "Continuous 1 on 1 Puck Retrieval Drill",
+    "category": "1 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "Retrievals",
+      "Puck Protection",
+      "Checking",
+      "Wall Play",
+      "Half Ice"
+    ],
+    "description": "Players alternate corner retrievals while a trailing player provides controlled pressure along the wall. The puck carrier creates separation with body position, gets off the wall and attacks the net before the next retrieval begins.",
+    "coaching_points": [
+      "Retrieve with awareness of the pressure arriving from behind.",
+      "Establish body position before exposing the puck.",
+      "Use contact and an escape turn to separate from the defender.",
+      "Accelerate off the wall and attack the net immediately after creating space."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mark Zarbo Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-1-1-puck-retrieval-drill",
+    "source_id": "2544011",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544011-0-1693853875.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544011-0-1693853875.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 545
+  },
+  {
+    "uid": "ihs-2543826",
+    "title": "Puck Race to 1 v 1",
+    "category": "1 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "Races",
+      "Puck Protection",
+      "Checking",
+      "Battle Drills",
+      "Stations"
+    ],
+    "description": "Two players race from the goal line to a loose puck on the dot. The winner becomes the puck protector while the other player defends, creating an immediate possession battle inside the circle.",
+    "coaching_points": [
+      "Win position before reaching for the puck.",
+      "Puck winner gets the body between pressure and the puck.",
+      "Defender closes through the body rather than reaching from behind.",
+      "Progress from no-stick or upside-down-stick defending to a fully live 1-on-1."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mark Zarbo Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-race-1-v-1-1",
+    "source_id": "2543826",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543826-0-1693853773.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543826-0-1693853773.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 546
+  },
+  {
+    "uid": "ihs-2542346",
+    "title": "1 v 1 Circle (Stick vs. No Stick)",
+    "category": "1 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "Puck Protection",
+      "Checking",
+      "Angling",
+      "Battle Drills",
+      "Quarter Ice Station"
+    ],
+    "description": "A puck carrier works inside a faceoff circle against a defender who initially has no stick. The constraint teaches body positioning, puck protection and contact before progressing to a normal live 1-on-1.",
+    "coaching_points": [
+      "Puck carrier uses body position, deception and speed changes to protect possession.",
+      "Defender angles first and closes through the body instead of chasing the puck.",
+      "Avoid turning the back into pressure or exposing the puck through the middle.",
+      "Progress to an upside-down stick, then both players with normal sticks."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Mark Zarbo Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-circle-stick-vs-no-stick",
+    "source_id": "2542346",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2542346-0-1693853750.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2542346-0-1693853750.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 547
+  },
+  {
+    "uid": "ihs-2220646",
+    "title": "4 Corner Possession Game - Offensive Advantage",
+    "category": "2 vs 2",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 3",
+      "Puck Support",
+      "Passing",
+      "Small Area Games",
+      "Offensive Zone"
+    ],
+    "description": "Two teams play around back-to-back nets with two offensive support players stationed in corner areas. The extra options create give-and-go opportunities, point support, net-front movement and rapid possession changes.",
+    "coaching_points": [
+      "Use the corner support players to escape pressure and attack a new lane.",
+      "Move after every pass and arrive at the net with purpose.",
+      "Defenders protect inside ice, box out and clear rebounds quickly.",
+      "Communicate constantly because the reversed nets create changing threats on both sides."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-corner-possession-game-offensive-advantage-1",
+    "source_id": "2220646",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2220646-0-1676377160.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2220646-0-1676377160.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 548
   }
 ]
