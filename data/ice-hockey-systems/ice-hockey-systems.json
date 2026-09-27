@@ -31018,5 +31018,64 @@
     "member_only": true,
     "status": "verified",
     "number": 962
+  },
+  {
+    "uid": "ihs-4check-body-contact-corner-race",
+    "title": "4Check body contact corner race",
+    "category": "Checking / Battle / Offensive Zone",
+    "drill_types": [
+      "Checking",
+      "Battle Drills",
+      "Offensive Zone",
+      "Passing",
+      "Shooting"
+    ],
+    "description": "A forward angles a dummy away from a loose corner puck, wins body position, retrieves the puck and moves it to support before the sequence finishes with a point shot.",
+    "coaching_points": [
+      "Take a smart angle before initiating contact.",
+      "Separate the opponent from the puck, not just the body.",
+      "Recover the loose puck immediately.",
+      "Move the puck quickly to support and get to the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-body-contact-corner-race-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7530586-0-1756931735.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7530586-0-1756931735.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 963
+  },
+  {
+    "uid": "ihs-body-contact-angle-sticklift-7",
+    "title": "Body Contact Angle with Sticklift",
+    "category": "Angling / Checking / Shooting",
+    "drill_types": [
+      "Angling",
+      "Checking",
+      "Shooting",
+      "Wall Play"
+    ],
+    "description": "A player takes a controlled angle to force a puck carrier up the wall, initiates body contact with stick-on-stick detail, separates the player from the puck and immediately attacks the net.",
+    "coaching_points": [
+      "Get in front of the puck carrier before contact.",
+      "Use stick-on-stick and body-on-body together.",
+      "Keep the head up through contact.",
+      "Attack the net immediately after creating the turnover."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-angle-sticklift-7",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7126406-0-1747667443.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7126406-0-1747667443.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 964
   }
 ]
