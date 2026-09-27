@@ -583,24 +583,22 @@ button{cursor:pointer}
     return m?(m[1]+' vs '+m[2]):s;
   }
 
+  const DRILL_TYPE_ORDER=[
+    '1 vs 0','1 vs 1','2 vs 0','2 vs 1','2 vs 2','3 vs 0','3 vs 1','3 vs 2','3 vs 3','4 vs 2','4 vs 3','4 vs 4','5 vs 5',
+    'Skating','Passing','Shooting','Puckhandling','Small Area Games','Battle / Compete',
+    'Breakouts','Regroups','Transition','Zone Entries','Forecheck / Backcheck',
+    'Defensive Zone','Offensive Zone','Special Teams','Faceoffs','Goalie','Warm-Up'
+  ];
+
   function drillTypeTags(d){
     const tags=new Set();
-    if(d&&d.category)tags.add(normalizeDrillTypeTag(d.category));
-    if(d&&Array.isArray(d.drill_types))d.drill_types.filter(Boolean).forEach(x=>tags.add(normalizeDrillTypeTag(x)));
-    const text=[d&&d.title,d&&d.teaser,d&&d.category,d&&d.description,d&&d.source_collection,(d&&d.tags||[]).join(' ')].filter(Boolean).join(' ').toLowerCase();
-    const rules=[
-      ['Warm-Up / Flow',/warm[ -]?up|\bflow\b/],
-      ['Skating / Edgework / Agility',/skating|agility|edgework|edges|mohawk|pivot|overspeed|crossover/],
-      ['Passing / Puck Movement',/passing|\bpass\b|give[ -]?and[ -]?go|puck movement|one[ -]?touch|seam/],
-      ['Shooting / Scoring',/shooting|\bshot\b|scoring|one[ -]?timer|tip|rebound/],
-      ['Puckhandling / Puck Protection',/puckhandling|stickhandling|puck protection|protect the puck|protecting the puck/],
-      ['Breakouts',/breakout|quick[ -]?up/],
-      ['Regroups',/regroup/],
-      ['Transition',/transition|turnover/],
-      ['Zone Entries',/zone entr|entry/],
-      ['Forecheck',/forecheck/],
-      ['Backcheck',/backcheck/],
-      ['Angling / Checking',/angling|\bangle\b|checking|body contact/],
+    const text=[
+      d&&d.title,d&&d.teaser,d&&d.category,d&&d.description,d&&d.source_collection,
+      (d&&d.tags||[]).join(' '),(d&&d.drill_types||[]).join(' ')
+    ].filter(Boolean).join(' ').toLowerCase();
+
+    const matchups=[
+      ['1 vs 0',/\b1\s*(?:v|vs\.?|on)\s*0\b/],
       ['1 vs 1',/\b1\s*(?:v|vs\.?|on)\s*1\b/],
       ['2 vs 0',/\b2\s*(?:v|vs\.?|on)\s*0\b/],
       ['2 vs 1',/\b2\s*(?:v|vs\.?|on)\s*1\b/],
@@ -612,26 +610,41 @@ button{cursor:pointer}
       ['4 vs 2',/\b4\s*(?:v|vs\.?|on)\s*2\b/],
       ['4 vs 3',/\b4\s*(?:v|vs\.?|on)\s*3\b/],
       ['4 vs 4',/\b4\s*(?:v|vs\.?|on)\s*4\b/],
-      ['5 vs 5',/\b5\s*(?:v|vs\.?|on)\s*5\b/],
-      ['Small Area Games',/small area|battle game|competitive game|competition/],
-      ['Faceoffs',/face[ -]?off/],
-      ['Defensive Zone',/defensive zone|d[ -]?zone|\bdz\b/],
-      ['Offensive Zone',/offensive zone|o[ -]?zone|\boz\b/],
-      ['Net Front',/net[ -]?front|box out|screen|tips? and rebounds?/],
-      ['Special Teams',/power play|penalty kill|\bpp\b|\bpk\b/],
-      ['Retrievals',/retrieval|retrieve the puck|puck retrieval/],
-      ['Conditioning / Compete',/conditioning|sprint|race|compete/],
-      ['Goalie',/goalie|goaltender/],
-      ['Systems',/systems?|coverage|structure/]
+      ['5 vs 5',/\b5\s*(?:v|vs\.?|on)\s*5\b/]
     ];
-    for(const [label,re] of rules)if(re.test(text))tags.add(label);
+    for(const [label,re] of matchups)if(re.test(text))tags.add(label);
+
+    const broad=[
+      ['Skating',/skating|agility|edgework|edges|mohawk|pivot|overspeed|crossover|backwards skating/],
+      ['Passing',/passing|\bpass\b|give[ -]?and[ -]?go|puck movement|one[ -]?touch|seam/],
+      ['Shooting',/shooting|\bshot\b|scoring|one[ -]?timer|tip|rebound/],
+      ['Puckhandling',/puck ?handling|stickhandling|puck control|puck protection|protect the puck/],
+      ['Small Area Games',/small area|small-area|cross ice game|cross-ice game/],
+      ['Battle / Compete',/battle|compete|competition|race|puck pursuit|checking|angling/],
+      ['Breakouts',/breakout|quick[ -]?up/],
+      ['Regroups',/regroup|re-group/],
+      ['Transition',/transition|turnover/],
+      ['Zone Entries',/zone entr|entry/],
+      ['Forecheck / Backcheck',/forecheck|backcheck|tracking/],
+      ['Defensive Zone',/defensive zone|d[ -]?zone|\bdz\b|coverage/],
+      ['Offensive Zone',/offensive zone|o[ -]?zone|\boz\b|cycle|net[ -]?front/],
+      ['Special Teams',/power play|penalty kill|\bpp\b|\bpk\b/],
+      ['Faceoffs',/face[ -]?off/],
+      ['Goalie',/goalie|goaltender/],
+      ['Warm-Up',/warm[ -]?up|pre game|pregame/]
+    ];
+    for(const [label,re] of broad)if(re.test(text))tags.add(label);
     return [...tags];
   }
 
   function populateCategories(){
     const counts=new Map();
     database.forEach(d=>drillTypeTags(d).forEach(tag=>counts.set(tag,(counts.get(tag)||0)+1)));
-    const categories=[...counts.keys()].sort((a,b)=>a.localeCompare(b));
+    const categories=[...counts.keys()].sort((a,b)=>{
+      const ai=DRILL_TYPE_ORDER.indexOf(a),bi=DRILL_TYPE_ORDER.indexOf(b);
+      if(ai>=0||bi>=0)return (ai<0?999:ai)-(bi<0?999:bi);
+      return a.localeCompare(b);
+    });
     const names={
       'all':'ALL DRILLS',
       'coaches':'COACHES SITE',
