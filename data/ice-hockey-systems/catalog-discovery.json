@@ -9230,5 +9230,174 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS exact-diagram verification sweep"
+  },
+  {
+    "discovery_number": 596,
+    "title": "Full Ice Overspeed Skating Progression #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-overspeed-skating-progression-3",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Full Ice",
+      "Warm Up",
+      "Crossovers",
+      "Conditioning"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram full-ice/flow sweep"
+  },
+  {
+    "discovery_number": 597,
+    "title": "Swedish Transition Series #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swedish-transition-series-1",
+    "categories": [
+      "3 vs 0",
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Neutral Zone",
+      "Puck Support",
+      "Offensive",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram full-ice/flow sweep"
+  },
+  {
+    "discovery_number": 598,
+    "title": "Full Ice Overspeed Skating Progression #2 with Pucks",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-overspeed-skating-progression-2-pucks",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Puck Control",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram full-ice/flow sweep"
+  },
+  {
+    "discovery_number": 599,
+    "title": "Full Ice Overspeed Transitions",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-overspeed-transitions",
+    "categories": [
+      "Backwards Skating",
+      "Skating",
+      "Transition",
+      "Full Ice",
+      "Warm Up",
+      "Tryout",
+      "Overspeed"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram full-ice/flow sweep"
+  },
+  {
+    "discovery_number": 600,
+    "title": "Stretch and Go Flow",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stretch-and-go-flow",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Flow",
+      "Full Ice",
+      "Warm Up",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram full-ice/flow sweep"
+  },
+  {
+    "discovery_number": 601,
+    "title": "Avalanche Flow Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/avalanche-flow-drill",
+    "categories": [
+      "2 vs 0",
+      "Flow",
+      "Full Ice",
+      "Passing",
+      "Transition",
+      "Shooting",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram full-ice/flow sweep"
+  },
+  {
+    "discovery_number": 602,
+    "title": "Lulea 2 v 0 Neutral Zone Warm Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/lulea-2-v-0-warm-up",
+    "categories": [
+      "2 vs 0",
+      "Passing",
+      "Warm Up",
+      "Neutral Zone",
+      "Flow",
+      "Puck Support",
+      "Zone Entry",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram full-ice/flow sweep"
+  },
+  {
+    "discovery_number": 603,
+    "title": "Double Swing Full Ice Flow Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/double-swing-full-ice-flow-drill",
+    "categories": [
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Warm Up",
+      "Shooting",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram full-ice/flow sweep"
+  },
+  {
+    "discovery_number": 604,
+    "title": "2 on 0 Continuous Chip Flow",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-continuous-chip-flow",
+    "categories": [
+      "2 vs 0",
+      "Flow",
+      "Full Ice",
+      "Passing",
+      "Wall Play",
+      "Puck Support",
+      "Shooting",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram full-ice/flow sweep"
+  },
+  {
+    "discovery_number": 605,
+    "title": "4 Lines - Series 4",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-lines-series-4",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Tryout",
+      "Flow",
+      "Full Ice",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram full-ice/flow sweep"
   }
 ]
