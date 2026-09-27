@@ -9313,5 +9313,260 @@
     "member_only": true,
     "status": "verified",
     "number": 284
+  },
+  {
+    "uid": "ihs-5680701",
+    "title": "3 on 2 with D Activation",
+    "category": "3 on 2 / D Activation / Transition",
+    "drill_types": [
+      "3 on 2",
+      "Transition",
+      "Full Ice",
+      "Offensive",
+      "Gap",
+      "Puck Support"
+    ],
+    "description": "Two forwards connect with a defenseman and all three swing back up ice to attack two defenders. The defenseman becomes part of the rush, creating repeated 3-on-2 reads at speed.",
+    "coaching_points": [
+      "Activated D joins quickly and fills an open lane.",
+      "Forwards support underneath the puck and avoid getting too far ahead.",
+      "Defenders close gap early and protect middle ice."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Marty Wilford",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-on-2-d-activation",
+    "source_id": "5680701",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5680701-0-1740491762.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5680701-0-1740491762.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 285
+  },
+  {
+    "uid": "ihs-5993691",
+    "title": "Avery 3 on 2 Drill",
+    "category": "3 on 2 / Regroup / Transition",
+    "drill_types": [
+      "3 on 2",
+      "Passing",
+      "Re-Group",
+      "Transition",
+      "Zone Entry",
+      "Gap",
+      "Full Ice"
+    ],
+    "description": "A two-part 3-on-2 progression. First, a defender moves the puck to any forward to trigger a rush. On the next whistle, the players in the zone reload into the neutral zone for a second 3-on-2 with fresh defenders.",
+    "coaching_points": [
+      "React immediately to whichever player receives the first pass.",
+      "Forwards fill separate lanes and support through middle ice.",
+      "Defenders establish gap early and defend the middle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Cail MacLean",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/avery-3-on-2-drill",
+    "source_id": "5993691",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5993691-0-1738097228.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5993691-0-1738097228.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5993691-1-1738097228.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 286
+  },
+  {
+    "uid": "ihs-922436",
+    "title": "Billy Purcell Breakout",
+    "category": "Breakout / 3 on 0 / Zone Entry",
+    "drill_types": [
+      "3 on 0",
+      "Breakouts",
+      "Passing",
+      "Zone Entry",
+      "Full Ice",
+      "Puck Support"
+    ],
+    "description": "A defenseman retrieves a chipped puck and reads two breakout options while a coach removes one lane. The unit exits cleanly and turns the breakout into a 3-on-0 rush with a zone-entry finish.",
+    "coaching_points": [
+      "Defenseman scans before coming around the net.",
+      "Forwards return with timing and give clear wall and middle options.",
+      "Make the first breakout pass under control before accelerating the attack."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "TJ Manastersky / Union Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/billy-purcell-breakout",
+    "print_url": "https://www.icehockeysystems.com/print/standard/922436",
+    "source_id": "922436",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-922436-0-1674530784.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-922436-0-1674530784.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 287
+  },
+  {
+    "uid": "ihs-57951",
+    "title": "Bump Back",
+    "category": "Breakout / Passing / Shooting",
+    "drill_types": [
+      "Breakouts",
+      "Passing",
+      "Shooting",
+      "Full Ice",
+      "Puck Support"
+    ],
+    "description": "A full-ice breakout sequence run from both ends. The defenseman retrieves, uses a bump-back exchange, hits a stretch option, then the group layers in a backdoor pass and point shot with traffic.",
+    "coaching_points": [
+      "Defensemen use clean pivots and transitions on retrievals.",
+      "Forwards control speed so stretch-pass timing stays available.",
+      "Drive the net with the stick presented and finish at the crease.",
+      "Create a real screen or tip on the final point shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bump-back",
+    "print_url": "https://www.icehockeysystems.com/print/standard/57951",
+    "source_id": "57951",
+    "image": "https://www.files.icehockeysystems.com/files/drills/bump-back.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/bump-back.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 288
+  },
+  {
+    "uid": "ihs-6959476",
+    "title": "1 on 1 Retrievals",
+    "category": "1 on 1 / Retrieval / Angling",
+    "drill_types": [
+      "1 on 1",
+      "Retrievals",
+      "Angling",
+      "Breakouts",
+      "Defensive Zone",
+      "Puck Protection"
+    ],
+    "description": "A defenseman retrieves a dumped puck under direct pressure and uses deception to escape. The rep finishes with the defender exiting strong side or around the net before advancing the puck and shooting.",
+    "coaching_points": [
+      "Retrieving D shoulder-checks and sells deception before choosing an exit.",
+      "Use the net and body position to protect the puck.",
+      "Forechecker angles with the stick in the lane instead of chasing from behind."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Phillip Barski",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-on-1-retrievals",
+    "source_id": "6959476",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6959476-0-1744038498.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6959476-0-1744038498.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 289
+  },
+  {
+    "uid": "ihs-5305611",
+    "title": "3 v 0 Breakout to 2 v 1",
+    "category": "3 on 0 / 2 on 1 / Breakout",
+    "drill_types": [
+      "3 on 0",
+      "2 on 1",
+      "Breakouts",
+      "Full Ice",
+      "Gap",
+      "Offensive",
+      "Transition"
+    ],
+    "description": "Three players execute a breakout, then the center and winger transition immediately into a 2-on-1 against the defenseman from the opposite end. Both ends operate continuously.",
+    "coaching_points": [
+      "Center stays low and slow to support the wall outlet.",
+      "Winger shoulder-checks before moving the puck off the wall.",
+      "Defender retrieves with head up, then manages gap on the returning rush.",
+      "Rush players time the entry so both lanes remain usable."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-0-breakout-2-v-1-1",
+    "source_id": "5305611",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5305611-0-1729526969.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5305611-0-1729526969.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 290
+  },
+  {
+    "uid": "ihs-6959371",
+    "title": "1 Man, 2 Man Forecheck",
+    "category": "Forecheck / Breakout / Continuous",
+    "drill_types": [
+      "Breakouts",
+      "Forechecking",
+      "Full Ice",
+      "Puck Support",
+      "Transition"
+    ],
+    "description": "A continuous breakout and forecheck progression. One forechecker pressures two defensemen, support forwards join the breakout, and the play turns into a rush. The drill can progress to two active forecheckers.",
+    "coaching_points": [
+      "Breakout group stays connected and provides short support options.",
+      "Defensemen communicate on retrievals and outlets.",
+      "Forecheckers angle with sticks in lanes and pressure with purpose."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Phillip Barski",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-man-2-man-forecheck",
+    "source_id": "6959371",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6959371-0-1744053794.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6959371-0-1744053794.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6959371-1-1744053794.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 291
+  },
+  {
+    "uid": "ihs-317",
+    "title": "Eagles Half Ice 1 on 1",
+    "category": "1 on 1 / Breakout / Half Ice",
+    "drill_types": [
+      "1 on 1",
+      "Breakouts",
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Gap"
+    ],
+    "description": "A half-ice sequence combining a pass-and-shot, breakout timing, and a live 1-on-1. After the first shot, the defenseman retrieves another puck, makes a breakout pass, and gaps up to defend the returning forward.",
+    "coaching_points": [
+      "Forward stays available for the breakout instead of leaving too early.",
+      "Defenseman follows the play and establishes gap before the 1-on-1.",
+      "Keep feet moving through the passing and shooting portions."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/eagles-half-ice-1-1",
+    "print_url": "https://www.icehockeysystems.com/print/standard/317",
+    "source_id": "317",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-317-1631326967.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-317-1631326967.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 292
   }
 ]
