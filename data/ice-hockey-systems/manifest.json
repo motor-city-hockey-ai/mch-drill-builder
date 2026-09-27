@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 681,
-    "catalog_items_verified": 681,
+    "catalog_items_imported": 685,
+    "catalog_items_verified": 685,
     "catalog_target": 1573,
-    "last_batch": "IHS U16/U18 legacy exact-image five-drill batch",
-    "original_diagrams_verified": 681,
+    "last_batch": "IHS full-ice legacy exact-image four-drill batch",
+    "original_diagrams_verified": 685,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 693,
+    "unique_urls_discovered": 697,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue U16/U18 and legacy-category gaps; import only when the original IHS diagram can be verified.",
+    "next_step": "Continue full-ice/U16-U18 gap sweep; resolve source-hosted diagram URLs before importing each drill.",
     "multi_diagram_drills_preserved": 37,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 5,
-    "last_batch_notes": "Added drills 677-681: Strip & Transition to Low-High Shot; Transition Series #1; Neutral Zone Over-speed Transition; Bruins Transition Drill; 3 v 1 Wall Play. Preserved all 3 original diagram frames for #677.",
+    "last_batch_imported": 4,
+    "last_batch_notes": "Added drills 682-685: 1 vs 1 Fox and Hound; 2 vs. 2 Finnish Buffet Game; Full Ice Overspeed Skating Progression #2; Michigan Neutral Zone Timing Drill.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -64,6 +64,6 @@
       "Goalie Edgework: Single-Leg Hops - source page currently exposes video but no original drill diagram; keep deferred until the source visual can be verified."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 13
+    "last_batch_discovered": 4
   }
 }
