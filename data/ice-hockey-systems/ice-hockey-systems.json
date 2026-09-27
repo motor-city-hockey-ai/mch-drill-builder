@@ -26386,5 +26386,408 @@
     "member_only": true,
     "status": "verified",
     "number": 811
+  },
+  {
+    "uid": "ihs-d-zone-1-on-1-give-and-go",
+    "title": "D-Zone 1 on 1 Give and GO",
+    "category": "1 vs 1 / Defensive Zone / Give & Go",
+    "drill_types": [
+      "1 vs 1",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Coverage",
+      "Angling",
+      "Half Ice"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-zone-1-1-give-and-go",
+    "image": "https://www.files.icehockeysystems.com/files/drills/d-zone-give-go-1v1.jpg",
+    "description": "A defensive-zone 1-on-1 where the forward starts along the wall and can attack or move the puck low to a coach for a give-and-go. The defender angles from inside ice and stays defensive-side of the forward after the low pass instead of following the puck.",
+    "coaching_points": [
+      "Angle the puck carrier up the wall while protecting the middle.",
+      "Stay with the offensive player after the puck is moved low.",
+      "Maintain inside body position on the route back to the net.",
+      "The forward reads whether to attack directly or use the give-and-go."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/d-zone-give-go-1v1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 812
+  },
+  {
+    "uid": "ihs-in-zone-5-player-pass-and-follow",
+    "title": "In-Zone 5 Player Pass and Follow",
+    "category": "Passing / Shooting / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Warm Up",
+      "Puck Support",
+      "Stations"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/zone-5-player-pass-and-follow",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/in-zone-5-man-pass-and-follow.jpg?itok=PKxvmkVX",
+    "description": "Five players are positioned around one zone. P1 passes to P2 and follows the pass into P2's spot; each player repeats the pass-and-follow pattern until the puck reaches P5, who finishes with a shot.",
+    "coaching_points": [
+      "Pass before accelerating into the vacated spot.",
+      "Receive with the stick presented and move the puck quickly.",
+      "Stop and start hard between positions so the drill serves as a warm-up.",
+      "P5 gets the shot away quickly after the final reception."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/in-zone-5-man-pass-and-follow.jpg?itok=PKxvmkVX"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 813
+  },
+  {
+    "uid": "ihs-head-up-circle-passing-drill",
+    "title": "Head Up Circle Passing Drill",
+    "category": "Passing / Awareness / Station",
+    "drill_types": [
+      "Passing",
+      "Awareness",
+      "Stations",
+      "Sixth Ice Stations",
+      "Puck Control",
+      "Puck Support"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/head-circle-passing-drill",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/head-up-circle-passing-station.jpg?itok=tiyIAzR7",
+    "description": "Two puck carriers skate inside a circle while four to six players remain around the outside. The inside players make as many give-and-go passes as possible, finding available outside players and avoiding the same target twice in a row.",
+    "coaching_points": [
+      "Carry with the head up and scan before passing.",
+      "Use different outside targets instead of repeating the same option.",
+      "Outside players stay ready with sticks presented.",
+      "Keep moving between passes so awareness is trained under motion."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/head-up-circle-passing-station.jpg?itok=tiyIAzR7"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 814
+  },
+  {
+    "uid": "ihs-center-circle-tire-skating-tight-transitions",
+    "title": "Center Circle Tire Skating - Tight Transitions",
+    "category": "Skating / Transitions / Stations",
+    "drill_types": [
+      "Skating",
+      "Stations",
+      "Backwards Skating",
+      "Transition",
+      "Agility"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/center-circle-tire-skating-tight-transitions",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/center-circle-tire-skating-tight-tranistions.jpg?itok=qQ91VnL3",
+    "description": "Players weave around four tires near center ice while facing the same direction throughout the pattern. Alternating clockwise and counter-clockwise routes force repeated forward-to-backward and backward-to-forward transitions.",
+    "coaching_points": [
+      "Keep the chest facing the designated direction around every tire.",
+      "Transition cleanly rather than adding unnecessary crossover steps.",
+      "Alternate the direction around each tire.",
+      "Accelerate immediately after every transition."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/center-circle-tire-skating-tight-tranistions.jpg?itok=qQ91VnL3"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 815
+  },
+  {
+    "uid": "ihs-center-circle-tire-skating-control-turns",
+    "title": "Center Circle Tire Skating - Control Turns",
+    "category": "Skating / Control Turns / Stations",
+    "drill_types": [
+      "Skating",
+      "Stations",
+      "Agility",
+      "Control Turns"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/center-circle-tire-skating-control-turns",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/center-circle-tire-skating-control-turns.jpg?itok=KN5wrZX1",
+    "description": "Four tires create a neutral-zone control-turn pattern. Players make a tight control turn at each tire and alternate turning direction from one tire to the next.",
+    "coaching_points": [
+      "Enter each tire under control with knees bent.",
+      "Use both inside and outside edges through the turn.",
+      "Alternate left and right control turns throughout the pattern.",
+      "Accelerate immediately after each turn."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/center-circle-tire-skating-control-turns.jpg?itok=KN5wrZX1"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 816
+  },
+  {
+    "uid": "ihs-2-to-1-puck-protection-drill",
+    "title": "2 to 1 Puck Protection Drill",
+    "category": "2 vs 1 / Puck Protection / Battle",
+    "drill_types": [
+      "2 vs 1",
+      "Puck Protection",
+      "Puck Control",
+      "Small Area Games",
+      "Stations",
+      "Battle Drills"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-puck-protection-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2-to-1-puck-protection-game.jpg",
+    "description": "Two offensive players each protect a puck inside a faceoff circle while one defender tries to knock both pucks outside the circle. The rep ends when both pucks are removed or the coach stops play.",
+    "coaching_points": [
+      "Use body position and the stick to shield the puck.",
+      "Keep the feet moving instead of protecting from a stationary position.",
+      "The defender changes targets and attacks exposed pucks.",
+      "Rotate roles so every player works both protection and defensive pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2-to-1-puck-protection-game.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 817
+  },
+  {
+    "uid": "ihs-four-cone-control-turn-station",
+    "title": "Four Cone Control Turn Station",
+    "category": "Skating / Control Turns / Station",
+    "drill_types": [
+      "Skating",
+      "Stations",
+      "Agility",
+      "Sixth Ice Stations"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-cone-control-turn-station",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/four-cone-control-turns.jpg?itok=2Jnv9vnL",
+    "description": "Four cones create a compact skating station focused on control turns. Players move through each cone in sequence, first turning one direction around every cone and then repeating the pattern in the opposite direction.",
+    "coaching_points": [
+      "Enter each cone under control before initiating the turn.",
+      "Keep the knees bent and weight balanced through the edges.",
+      "Accelerate out of every control turn.",
+      "Train both left and right turns equally."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/four-cone-control-turns.jpg?itok=2Jnv9vnL"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 818
+  },
+  {
+    "uid": "ihs-5-puck-breakaway-races-cross-ice",
+    "title": "5 Puck Breakaway Races (Cross-Ice)",
+    "category": "Race / Shooting / Cross Ice",
+    "drill_types": [
+      "Shooting",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Races",
+      "Cross Ice"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-puck-breakaway-races-cross-ice",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/drill-maker-3727-0-1671459404.png?itok=64vuYgMz",
+    "description": "Two teams race to score five goals. The first player from each team carries a puck around their own net and attacks the opposite net. A goal releases the next teammate immediately; a miss must be retrieved and passed back before the next player can go.",
+    "coaching_points": [
+      "Attack the far net with speed and finish under pressure.",
+      "After a miss, retrieve quickly and make a clean pass to the next player.",
+      "Every player must route around their own net before attacking.",
+      "Keep the competition continuous until one team scores all five."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/drill-maker-3727-0-1671459404.png?itok=64vuYgMz"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 819
+  },
+  {
+    "uid": "ihs-neutral-zone-2-on-2",
+    "title": "Neutral Zone 2 on 2",
+    "category": "2 vs 2 / Neutral Zone / Small Area Game",
+    "drill_types": [
+      "2 vs 2",
+      "Neutral Zone",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Tryout",
+      "Battle Drills"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-2-2",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/neutral-zone-2-on-2.jpg?itok=yYAGAeKr",
+    "description": "Two players from each team enter the center-circle playing area and compete 2-on-2. Coaches feed new pucks when a goal is scored, the puck is frozen or it leaves play, creating repeated tight-space battles.",
+    "coaching_points": [
+      "Support the puck in a small area instead of isolating into 1-on-1 play.",
+      "Defend inside position and communicate switches.",
+      "Use quick puck movement to create short 2-on-1 advantages.",
+      "Players on the outside can bump loose pucks back into play."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/neutral-zone-2-on-2.jpg?itok=yYAGAeKr"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 820
+  },
+  {
+    "uid": "ihs-transition-passing-sequence-4",
+    "title": "Transition Passing Sequence #4",
+    "category": "Passing / Transition / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Zone Entry",
+      "Puck Support"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-passing-sequence-4",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/transition-passing-sequence-4.jpg?itok=UGOSjnyS",
+    "description": "The fourth transition-passing progression adds a coach or stationary player at center ice. After receiving the transition pass, the skater completes another quick give-and-go at center before attacking the blue line for an inside cut or outside shot.",
+    "coaching_points": [
+      "Make the center-ice pass and return quickly enough to preserve speed.",
+      "Receive every pass while moving.",
+      "Read the entry option before reaching the blue line.",
+      "Finish with either a hard inside cut or a purposeful outside shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/transition-passing-sequence-4.jpg?itok=UGOSjnyS"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 821
+  },
+  {
+    "uid": "ihs-transition-control-outlet-passing",
+    "title": "Transition Control & Outlet Passing",
+    "category": "Passing / Transition / Neutral Zone",
+    "drill_types": [
+      "Passing",
+      "Transition",
+      "Neutral Zone",
+      "Puck Control",
+      "Defensive",
+      "Half Ice",
+      "Backwards Skating"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-control-outlet-passing",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/transition-control-passing.jpg?itok=K1JEQb7k",
+    "description": "A player skates backward between two neutral-zone cones, receives an outlet pass, controls the puck while transitioning forward to the opposite side and moves it back to the wall. The player then returns to the cones and repeats.",
+    "coaching_points": [
+      "Receive the puck under control while skating backward.",
+      "Transition toward the opposite side from the passer.",
+      "Handle the puck only as much as needed before making the outlet.",
+      "Keep the feet moving through every transition and reception."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/transition-control-passing.jpg?itok=K1JEQb7k"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 822
+  },
+  {
+    "uid": "ihs-red-river-skating-and-passing-drill",
+    "title": "Red River Skating and Passing Drill",
+    "category": "Passing / Skating / Half Ice",
+    "drill_types": [
+      "Skating",
+      "Passing",
+      "Half Ice",
+      "Transition",
+      "Backwards Skating",
+      "Shooting",
+      "Puck Support"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/red-river-skating-and-passing-drill",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/red-river-skating-passing.jpg?itok=RkJL5UiR",
+    "description": "A half-ice skating and passing sequence using three stationary passers. The active player works up the wall, transitions to face the puck, exchanges passes through the neutral-zone area, pivots forward, then transitions backward into the slot for a final return pass and shot.",
+    "coaching_points": [
+      "Face the puck during every transition.",
+      "Make multiple clean passes without slowing the feet.",
+      "Pivot forward with possession before moving to the final passer.",
+      "Back into the slot under control and receive the final puck in a shooting position."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/red-river-skating-passing.jpg?itok=RkJL5UiR"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 823
+  },
+  {
+    "uid": "ihs-pass-and-move-quick-puck-movement-drill",
+    "title": "Pass and Move Quick Puck Movement Drill",
+    "category": "Passing / Quick Puck Movement / Offensive Zone",
+    "drill_types": [
+      "Passing",
+      "Offensive Zone",
+      "Shooting",
+      "Puck Support",
+      "One Timer",
+      "Half Ice"
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pass-and-move-quick-puck-movement-drill",
+    "image": "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/pass-n-move-quick-puck-movement.jpg?itok=nTzkYC5c",
+    "description": "A quick-puck-movement sequence where F1 carries around the net to F2, F2 moves it immediately to the point, and F3 walks the blue line before returning the puck. F2 then sends the puck through the box to F4, who finds F3 arriving in the middle for a one-timer.",
+    "coaching_points": [
+      "Receive every pass ready to move the puck immediately.",
+      "Avoid unnecessary stickhandling that slows the sequence.",
+      "Point player walks laterally before returning the puck to change the passing lane.",
+      "Time the middle drive for the final one-timer."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/card_images/public/drills/pass-n-move-quick-puck-movement.jpg?itok=nTzkYC5c"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 824
   }
 ]
