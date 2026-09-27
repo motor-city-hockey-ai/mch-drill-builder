@@ -11490,5 +11490,133 @@
     "member_only": true,
     "status": "verified",
     "number": 351
+  },
+  {
+    "uid": "ihs-5762601",
+    "title": "3 Man Shooting Warm-Up",
+    "category": "Passing / Shooting / Warm-Up",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Flow",
+      "Full Ice"
+    ],
+    "description": "Three-player full-ice warm-up. The first player attacks for a shot, curls behind the net for a coach pass, then connects with the second player in the middle. The puck moves to the third player on the far side for the final shot while the first two drive for rebounds.",
+    "coaching_points": [
+      "Communicate and present the stick as a target.",
+      "Time each route so nobody gets too far ahead or behind the puck.",
+      "Drive the net after moving the puck and look for rebounds."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Nolan Baumgartner",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-man-shooting-warm-up",
+    "source_id": "5762601",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5762601-0-1739378351.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5762601-0-1739378351.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 352
+  },
+  {
+    "uid": "ihs-5774486",
+    "title": "3 v 3 Neutral Zone Break Game",
+    "category": "3 on 3 / Small Area Game / Transition",
+    "drill_types": [
+      "3 on 3",
+      "Small Area Games",
+      "Transition",
+      "Passing",
+      "Neutral Zone",
+      "Coverage",
+      "Puck Support"
+    ],
+    "description": "A competitive 3-on-3 neutral-zone game with goals on the blue lines. A team can send the puck behind its own blue line to activate a fresh pass from its coach, creating quick transition and fast-break opportunities.",
+    "coaching_points": [
+      "Be ready for immediate transition when a new puck is activated.",
+      "Offensive players keep sticks available and jump into open ice.",
+      "Defenders scan all three attackers and keep sticks in passing lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Nolan Baumgartner",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-neutral-zone-break-game",
+    "source_id": "5774486",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5774486-0-1739471851.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5774486-0-1739471851.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 353
+  },
+  {
+    "uid": "ihs-5763621",
+    "title": "Duck Shooting",
+    "category": "Passing / Shooting",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Flow",
+      "Full Ice",
+      "Net Front",
+      "Transition"
+    ],
+    "description": "Forwards and defensemen work a continuous passing and shooting sequence. The defenseman receives and returns pucks in transition, forwards attack for shots and tips, and the final puck moves low-to-high for a point shot with traffic.",
+    "coaching_points": [
+      "Communicate and keep sticks available on every exchange.",
+      "Time the skating routes so passes arrive in stride.",
+      "Net-front players screen the goalie and work for deflections.",
+      "Defenseman walks the line before the final shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Nolan Baumgartner",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/duck-shooting",
+    "source_id": "5763621",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5763621-0-1739379214.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5763621-0-1739379214.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5763621-1-1739379214.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 354
+  },
+  {
+    "uid": "ihs-5235296",
+    "title": "Neutral Zone Puck Races With Support",
+    "category": "2 on 2 / 3 on 2 / Transition",
+    "drill_types": [
+      "2 on 2",
+      "3 on 2",
+      "Transition",
+      "Passing",
+      "Neutral Zone",
+      "Puck Support",
+      "Races",
+      "Retrievals"
+    ],
+    "description": "Two players race for a loose puck in the neutral zone. Winning possession activates support and a weak-side option, while the losing side becomes the defense. The possession team must escape pressure and connect through support before entering the zone.",
+    "coaching_points": [
+      "Use body position to win the puck race.",
+      "Escape pressure with tight turns and deception before passing.",
+      "Support players communicate loudly and become immediate outlets."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-races-support",
+    "source_id": "5235296",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5235296-0-1728927422.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5235296-0-1728927422.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 355
   }
 ]
