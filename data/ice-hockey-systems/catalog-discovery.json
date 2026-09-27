@@ -10103,5 +10103,213 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS station exact-diagram sweep"
+  },
+  {
+    "discovery_number": 648,
+    "title": "D-Zone 1 on 1 Give and GO",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-zone-1-1-give-and-go",
+    "categories": [
+      "1 vs 1",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Coverage",
+      "Angling",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 649,
+    "title": "In-Zone 5 Player Pass and Follow",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/zone-5-player-pass-and-follow",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Warm Up",
+      "Puck Support",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 650,
+    "title": "Head Up Circle Passing Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/head-circle-passing-drill",
+    "categories": [
+      "Passing",
+      "Awareness",
+      "Stations",
+      "Sixth Ice Stations",
+      "Puck Control",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 651,
+    "title": "Center Circle Tire Skating - Tight Transitions",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/center-circle-tire-skating-tight-transitions",
+    "categories": [
+      "Skating",
+      "Stations",
+      "Backwards Skating",
+      "Transition",
+      "Agility"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 652,
+    "title": "Center Circle Tire Skating - Control Turns",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/center-circle-tire-skating-control-turns",
+    "categories": [
+      "Skating",
+      "Stations",
+      "Agility",
+      "Control Turns"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 653,
+    "title": "2 to 1 Puck Protection Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-puck-protection-drill",
+    "categories": [
+      "2 vs 1",
+      "Puck Protection",
+      "Puck Control",
+      "Small Area Games",
+      "Stations",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 654,
+    "title": "Four Cone Control Turn Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-cone-control-turn-station",
+    "categories": [
+      "Skating",
+      "Stations",
+      "Agility",
+      "Sixth Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 655,
+    "title": "5 Puck Breakaway Races (Cross-Ice)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-puck-breakaway-races-cross-ice",
+    "categories": [
+      "Shooting",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Races",
+      "Cross Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 656,
+    "title": "Neutral Zone 2 on 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-2-2",
+    "categories": [
+      "2 vs 2",
+      "Neutral Zone",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Tryout",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 657,
+    "title": "Transition Passing Sequence #4",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-passing-sequence-4",
+    "categories": [
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Zone Entry",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 658,
+    "title": "Transition Control & Outlet Passing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-control-outlet-passing",
+    "categories": [
+      "Passing",
+      "Transition",
+      "Neutral Zone",
+      "Puck Control",
+      "Defensive",
+      "Half Ice",
+      "Backwards Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 659,
+    "title": "Red River Skating and Passing Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/red-river-skating-and-passing-drill",
+    "categories": [
+      "Skating",
+      "Passing",
+      "Half Ice",
+      "Transition",
+      "Backwards Skating",
+      "Shooting",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 660,
+    "title": "Pass and Move Quick Puck Movement Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pass-and-move-quick-puck-movement-drill",
+    "categories": [
+      "Passing",
+      "Offensive Zone",
+      "Shooting",
+      "Puck Support",
+      "One Timer",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram continuation"
   }
 ]
