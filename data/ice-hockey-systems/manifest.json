@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 902,
-    "catalog_items_verified": 902,
+    "catalog_items_imported": 913,
+    "catalog_items_verified": 913,
     "catalog_target": 1573,
-    "last_batch": "IHS high-volume verified batch #890-#902",
-    "original_diagrams_verified": 902,
+    "last_batch": "IHS verified batch #903-#913",
+    "original_diagrams_verified": 913,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
-    "notes": "Live IHS JSON library now contains 864 verified drill records with source URLs, original source diagrams, simplified drill types and coach-readable notes.",
-    "unique_urls_discovered": 914,
+    "notes": "Live IHS JSON library now contains 913 verified drill records with source URLs, original source diagrams, simplified drill types and coach-readable notes.",
+    "unique_urls_discovered": 925,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 0,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue from #903 with larger verified batches. Next targets: Quarter Ice Obstacle Course #2, Dodge Ball - Quarter Ice Station and other missing category-page drills only when exact source-image URLs are resolved; continue broader sixth-ice/quarter-ice gap reconciliation.",
-    "multi_diagram_drills_preserved": 57,
+    "next_step": "Continue from #914 with larger verified batches. Prioritize missing catalog/category-page drills only when exact original IHS diagram URLs are resolved; keep video-only or unresolved visuals deferred.",
+    "multi_diagram_drills_preserved": 58,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 13,
-    "last_batch_notes": "Added 13 verified-source drills: Criss Cross Drop Passing, Zone Entry Drives, Last One Out, 1 vs 1 in a box, Half Ice Six Shooter, Weave Shots, Neutral Zone Three Shot Station, Cutting Hands - Partner Pressure, Forehand Shooting Fundamentals #4, Figure Eight Tire Shots, Tire Turn Relays - Forwards to Backwards Transition, Tire Turn Relays - Full 360 Control Turns, and Iron Cross Passing Drill. Multi-image layouts are preserved where the source exposes them.",
+    "last_batch_imported": 11,
+    "last_batch_notes": "Added 11 verified-source drills #903-#913: Puck Tag - Stickhandling and Awareness Game (2 original diagrams), 3 Cone Skills Series #1, 3 Cone Skills Series #2, Half Ice Open Up Shooting, Footwork Shots, Dodge Ball - Quarter Ice Station, Mirror Shoot Out, McGillney Drop, Shoot, Battle, Pass - Pressure - Escape, Two Shot Seal and Walk, and Half Ice Shoot In Stride. No AI or replacement diagrams were used.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -78,6 +78,6 @@
       "Offensive to Defensive Zone Coverage Drill - source page currently exposes video instruction but no original drill diagram; keep deferred rather than substituting an AI diagram."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 13
+    "last_batch_discovered": 11
   }
 }
