@@ -17155,5 +17155,211 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-7230931",
+    "number": 525,
+    "title": "3 v 3 Neutral Zone Rush Attack Game",
+    "category": "3 vs 3",
+    "drill_types": [
+      "3 vs 3",
+      "Angling",
+      "Defensive",
+      "Gap",
+      "Neutral Zone",
+      "Offensive",
+      "Puck Support",
+      "Small Area Games",
+      "Transition",
+      "Full Ice"
+    ],
+    "description": "A full-ice 3-on-3 transition game where one group begins the rush from behind its net while three defenders step up through the neutral zone. Both groups play live after the entry, creating repeated rush-attack, gap and transition decisions.",
+    "coaching_points": [
+      "Attack with pace and width before the defense can establish a comfortable gap.",
+      "Defenders keep sticks in lanes and angle the rush toward the outside.",
+      "Communicate through the neutral zone so support stays connected.",
+      "On turnovers, transition immediately instead of drifting out of the play."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-neutral-zone-rush-attack-game",
+    "source_id": "7230931",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7230931-0-1756404050.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7230931-0-1756404050.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-257131",
+    "number": 526,
+    "title": "Continuous In Zone 3 vs. 3 Game",
+    "category": "3 vs 3",
+    "drill_types": [
+      "3 vs 3",
+      "Battle Drills",
+      "Conditioning",
+      "Defensive",
+      "Defensive Zone",
+      "Offensive",
+      "Offensive Zone",
+      "Puck Protection",
+      "Puck Support",
+      "Small Area Games"
+    ],
+    "description": "A continuous in-zone 3-on-3 where the defending trio stays for the next shift after possession changes. The format creates fatigue and forces players to maintain defensive habits, communicate and protect possession under pressure.",
+    "coaching_points": [
+      "Defenders stay connected and keep sticks in useful lanes even when tired.",
+      "Protect the puck until a real play is available instead of forcing possession away.",
+      "Communicate through every change of possession.",
+      "Transition quickly because the former attacking group immediately becomes the next defending group."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-zone-3-vs-3",
+    "source_id": "257131",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-257131-0-1676666084.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-257131-0-1676666084.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-931926",
+    "number": 527,
+    "title": "Thread The Needle Passing Game",
+    "category": "Passing",
+    "drill_types": [
+      "Passing",
+      "Puck Control",
+      "Puck Support",
+      "Awareness",
+      "Deception",
+      "Small Area Games",
+      "Power Play",
+      "Warm Up"
+    ],
+    "description": "A keep-away passing game played around a faceoff circle with a small target gate in the middle. The offensive group must move the puck and create a lane through the center gate while one or two defenders protect the interior.",
+    "coaching_points": [
+      "Scan before receiving so the next pass is already identified.",
+      "Move after every pass to create a new angle around the circle.",
+      "Use eyes, stick and body position to sell false passing lanes.",
+      "Defenders keep sticks on the ice and protect the middle without chasing outside the area."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/thread-needle-passing-game",
+    "source_id": "931926",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-931926-1642219797.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-931926-1642219797.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-620786",
+    "number": 528,
+    "title": "Neutral Zone Angle 2 V 2 to 3 V 2",
+    "category": "2 vs 2",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 2",
+      "Angling",
+      "Checking",
+      "Defensive",
+      "Full Ice",
+      "Gap",
+      "Neutral Zone",
+      "Offensive",
+      "Passing",
+      "Transition",
+      "Zone Entry"
+    ],
+    "description": "A neutral-zone attack and angling drill that begins 2-on-2 and can progress to 3-on-2. Attackers must make a play instead of dumping the puck while defenders step up, manage gap and try to end the rush before the offensive blue line.",
+    "coaching_points": [
+      "Defenders match speed, maintain inside position and angle toward the wall.",
+      "Keep defensive sticks in lanes and close through the hands when the gap is right.",
+      "Attackers use width, cutbacks and give-and-go support instead of skating straight at defenders.",
+      "Keep the drill continuous so players repeatedly transition between attack and defend reads."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-angle-2v2-3v2",
+    "source_id": "620786",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-620786-1648062228.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-620786-1648062228.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-57831",
+    "number": 529,
+    "title": "Neutral Zone Bump Back 1 vs. 1",
+    "category": "1 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "Passing",
+      "Transition",
+      "Neutral Zone",
+      "Defensive",
+      "Offensive",
+      "Gap",
+      "Full Ice",
+      "Warm Up"
+    ],
+    "description": "A full-ice 1-on-1 flow drill where the forward exchanges a bump-back pass with a stationary player at the red line before attacking the defender from the opposite end. The defender advances into the neutral zone, then transitions backward to establish gap.",
+    "coaching_points": [
+      "Start with firm tape-to-tape passes.",
+      "The attacking forward gets off the wall to create more options through the neutral zone.",
+      "The defender retakes ice before pivoting rather than backing up too early.",
+      "Transition through the middle and match the attacker's speed before closing the gap."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-bump-back-1-vs-1",
+    "source_id": "57831",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-bump-back.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-bump-back.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-647541",
+    "number": 530,
+    "title": "3 Part Wrist Shot Progression",
+    "category": "Shooting",
+    "drill_types": [
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Half Ice",
+      "Offensive",
+      "Passing",
+      "Warm Up"
+    ],
+    "description": "A three-step wrist-shot teaching progression that moves from stationary mechanics to shooting in motion and then to shooting after receiving a pass. The sequence lets players establish clean mechanics before adding timing and movement.",
+    "coaching_points": [
+      "Keep the hands away from the body so the stick can load and release cleanly.",
+      "Keep the puck in a usable shooting position rather than too far ahead or behind the feet.",
+      "Transfer weight through the shot and finish the follow-through toward the target.",
+      "When adding a pass, present a clear target and prepare the puck for a quick release."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Dwayne Blais",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-part-wrist-shot-progression",
+    "source_id": "647541",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-647541-0-1722875901.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-647541-0-1722875901.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
   }
 ]
