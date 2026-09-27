@@ -15026,5 +15026,36 @@
     "original_diagram": true,
     "status": "verified",
     "number": 461
+  },
+  {
+    "uid": "ihs-2631581",
+    "number": 462,
+    "title": "Bump Pass & Attack The Net Drill",
+    "category": "Passing / Cycling / Attack The Net",
+    "drill_types": [
+      "Passing",
+      "Cycling",
+      "Stations",
+      "Quarter Ice Station",
+      "Offensive",
+      "Puck Support",
+      "Shooting"
+    ],
+    "description": "Players work a continuous bump-pass sequence along the wall. The first player banks the puck into space for a supporting teammate, who collects it and immediately attacks the net before the drill repeats from the opposite side.",
+    "coaching_points": [
+      "Bank the puck into usable space instead of pinning it tight to the boards.",
+      "Support underneath the puck carrier so the bump pass has a clear target.",
+      "After collecting the bump pass, attack the net immediately."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bump-pass-attack-net-drill",
+    "source_id": "2631581",
+    "image": "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/drill-maker-2631581-0-1693851802.png",
+    "images": [
+      "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/drill-maker-2631581-0-1693851802.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
