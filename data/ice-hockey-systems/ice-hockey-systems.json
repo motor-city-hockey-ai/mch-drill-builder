@@ -14720,5 +14720,126 @@
     "original_diagram": true,
     "status": "verified",
     "number": 451
+  },
+  {
+    "uid": "ihs-1171651",
+    "title": "3 v 3 Mystery Player Game",
+    "category": "3 vs 3 / Small Area Game / Awareness",
+    "drill_types": [
+      "3 vs 3",
+      "Awareness",
+      "One Goalie",
+      "Puck Support",
+      "Retrievals",
+      "Small Area Games"
+    ],
+    "description": "Before each rep, each three-player team secretly sets an order for who must take the first, second and third shots. The opposing team does not know the order, creating a 3-on-3 problem-solving game that rewards communication, puck movement and retrievals.",
+    "coaching_points": [
+      "Create time and space for the designated shooter instead of forcing the puck.",
+      "After each shot, win the retrieval and reorganize for the next shooter.",
+      "Talk between reps about what created or removed scoring space."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Alyssa Gagliardi",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-mystery-player-game",
+    "source_id": "1171651",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1171651-0-1653330239.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1171651-0-1653330239.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 452
+  },
+  {
+    "uid": "ihs-868586",
+    "title": "2 vs 2 Game (With 1 Goalie & Tire Nets)",
+    "category": "2 vs 2 / One Goalie / Small Area Game",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 3",
+      "4 vs 4",
+      "One Goalie",
+      "Puck Support",
+      "Small Area Games"
+    ],
+    "description": "Cross-ice game built for practices with one goalie. One team attacks the goalie while the other team scores by hitting tire targets at the opposite end. Teams rotate so everyone gets reps attacking both types of targets.",
+    "coaching_points": [
+      "Play with the head up and communicate.",
+      "Move after passing to create give-and-go options.",
+      "Use different target numbers or rink sizes to adjust difficulty."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Alyssa Gagliardi",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-game-1-goalie-tire-nets",
+    "source_id": "868586",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-868586-0-1757874379.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-868586-0-1757874379.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 453
+  },
+  {
+    "uid": "ihs-347221",
+    "title": "3 vs. 3 Split Zone Game",
+    "category": "3 vs 3 / Offensive-Defensive Zone Game",
+    "drill_types": [
+      "3 vs 3",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Offensive",
+      "One Goalie",
+      "Puck Protection",
+      "Puck Support",
+      "Small Area Games"
+    ],
+    "description": "The zone is divided in half for a 3-on-3 with one goalie. Offense works to score while defense must gain possession, complete a pass and exit its half of the zone to earn a point.",
+    "coaching_points": [
+      "Offense protects possession and uses the boards to create time and space.",
+      "Off-puck players stay available as outlets.",
+      "Defenders communicate, keep sticks in lanes and make a clean pass before exiting."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-vs-3-split-zone-game",
+    "source_id": "347221",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-347221-0-1730755751.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-347221-0-1730755751.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 454
+  },
+  {
+    "uid": "ihs-123061",
+    "title": "Shooting Off The Pass - Corners",
+    "category": "Passing / Quick Release Shooting",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "One Goalie",
+      "Skill Development",
+      "Stations"
+    ],
+    "description": "A passer jumps from the net-front area into the corner to receive a puck from the half wall. The original puck carrier then jumps to open space toward the net, receives the return pass and releases the shot immediately.",
+    "coaching_points": [
+      "Use verbal and non-verbal communication before the pass.",
+      "Both players jump to open space instead of standing still.",
+      "Shoot off the return pass with as little settling time as possible."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ben Eaves",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shooting-off-the-pass-corners",
+    "source_id": "123061",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-123061-0-1743905521.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-123061-0-1743905521.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 455
   }
 ]
