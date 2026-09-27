@@ -22913,5 +22913,161 @@
     "original_diagram": true,
     "status": "verified",
     "number": 702
+  },
+  {
+    "uid": "ihs-four-lines-flow-1",
+    "title": "Four Lines Flow #1",
+    "category": "Passing / Flow / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Puck Support"
+    ],
+    "description": "The first drill in a four-line flow series. Opposite lines start together, exchange a quick give-and-go across the neutral-zone dots, and then the original puck carrier attacks the zone for a long shot while the passer feeds the next repetition.",
+    "coaching_points": [
+      "Start both sides together so the timing remains consistent.",
+      "Make the give-and-go flat and quick.",
+      "Attack the zone immediately after the return pass.",
+      "Keep the drill moving by feeding the next player as soon as the first sequence clears."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-flow-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/four-line-flow-1_0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/four-line-flow-1_0.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 703
+  },
+  {
+    "uid": "ihs-4-lines-below-puck-zone-rush",
+    "title": "4 Lines Below the Puck Zone Rush",
+    "category": "3 vs 0 / Passing / Zone Entry",
+    "drill_types": [
+      "3 vs 0",
+      "Passing",
+      "Full Ice",
+      "Transition",
+      "Zone Entry",
+      "Puck Support",
+      "Neutral Zone",
+      "Offensive"
+    ],
+    "description": "A four-line timing progression that develops a three-player zone entry. Players exchange passes across the neutral zone, repeatedly swing underneath the puck for support, then head-man the puck so three forwards enter with width and controlled spacing.",
+    "coaching_points": [
+      "Stay below the puck while timing every support route.",
+      "Keep the early passes more lateral than vertical to preserve spacing.",
+      "Head-man the puck when the lead forward has created separation.",
+      "Enter as a connected three-player unit with a middle lane and weak-side width."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-lines-below-puck-zone-rush",
+    "image": "https://www.files.icehockeysystems.com/files/drills/4-line-below-puck-zone-rush.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/4-line-below-puck-zone-rush.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 704
+  },
+  {
+    "uid": "ihs-1-on-1-recovery-drill",
+    "title": "1 on 1 Recovery Drill",
+    "category": "1 vs 1 / Recovery / Gap",
+    "drill_types": [
+      "1 vs 1",
+      "Defensive",
+      "Full Ice",
+      "Gap",
+      "Recovery",
+      "Skating",
+      "Offensive",
+      "Zone Entry"
+    ],
+    "description": "A recovery-focused one-on-one. The defender first skates to the neutral-zone dot and transitions toward the middle while the forward waits to attack. Once released, the forward drives outside and the defender must recover toward the near post, re-establish inside position and defend the rush.",
+    "coaching_points": [
+      "Defense recovers toward the post instead of chasing from the outside.",
+      "Pivot and sprint before re-engaging the puck carrier.",
+      "Forward keeps the feet moving and drives the far-post lane.",
+      "Defender protects inside ice and forces the play away from the middle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-1-recovery-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-674-0-1662480426.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-674-0-1662480426.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 705
+  },
+  {
+    "uid": "ihs-2-dot-overspeed-skating-drill",
+    "title": "2 Dot Overspeed Skating Drill",
+    "category": "Skating / Overspeed / Full Ice",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Full Ice",
+      "Warm Up",
+      "Conditioning",
+      "Crossovers"
+    ],
+    "description": "A full-ice overspeed skating route that weaves players around the faceoff dots from one end to the other. The emphasis is sustained foot speed through repeated turns rather than coasting between patterns.",
+    "coaching_points": [
+      "Keep the feet moving continuously through the entire route.",
+      "Use clean edge work and crossover mechanics around each dot.",
+      "Push the pace above normal comfort while staying under control.",
+      "Keep the head up as players travel through the middle of the rink."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-dot-overspeed-skating-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2-dot-overspeed-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2-dot-overspeed-drill.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 706
+  },
+  {
+    "uid": "ihs-extended-chip-chase",
+    "title": "Extended Chip & Chase",
+    "category": "Backchecking / Flow / Full Ice",
+    "drill_types": [
+      "One Goalie",
+      "Backchecking",
+      "Flow",
+      "Full Ice",
+      "Passing",
+      "Puck Protection",
+      "Shooting",
+      "Zone Entry"
+    ],
+    "description": "A long continuous repetition combining a give-and-go shot, a chip-and-chase race, back pressure, a second rush and a net drive. The sequence forces both players to skate hard over a large area while generating multiple shots and recovery situations.",
+    "coaching_points": [
+      "Make the opening give-and-go quickly and stop at the net after the shot.",
+      "Chip the puck into playable space and apply real pressure from behind.",
+      "Puck carrier protects the puck while attacking through the far cone and blue line.",
+      "Finish the final rush with width, a hard outside shot and a committed net drive."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/extended-chip-chase",
+    "image": "https://www.files.icehockeysystems.com/files/drills/extended-chip-n-chase.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/extended-chip-n-chase.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 707
   }
 ]
