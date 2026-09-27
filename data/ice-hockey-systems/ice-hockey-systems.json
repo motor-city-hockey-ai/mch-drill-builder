@@ -9568,5 +9568,179 @@
     "member_only": false,
     "status": "verified",
     "number": 292
+  },
+  {
+    "uid": "ihs-7016976",
+    "title": "Lambo Track",
+    "category": "2 on 2 / Backcheck / Transition",
+    "drill_types": [
+      "2 on 2",
+      "Backchecking",
+      "Breakouts",
+      "Forechecking",
+      "Full Ice",
+      "Gap",
+      "Transition"
+    ],
+    "description": "A continuous 2-on-2 transition drill where tracking players join at blue-line triggers. The attacking group must manage the puck deep, the defenders retrieve under pressure, and a successful breakout immediately starts the next rush the other way.",
+    "coaching_points": [
+      "Manage the puck through the neutral zone and get it deep with purpose.",
+      "Trackers communicate and pressure without losing structure.",
+      "Defensemen shoulder-check and support each other on retrievals.",
+      "Defenders maintain tight gaps with active sticks on the rush."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Dave Smith",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/lambo-track-drill",
+    "source_id": "7016976",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016976-0-1744918419.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016976-0-1744918419.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016976-1-1744918419.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016976-2-1744918419.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 293
+  },
+  {
+    "uid": "ihs-3541886",
+    "title": "2 on 1 Continuous Dump Drill",
+    "category": "2 on 1 / Breakout / Retrieval",
+    "drill_types": [
+      "2 on 1",
+      "2 on 2",
+      "Breakouts",
+      "Forechecking",
+      "Full Ice",
+      "Gap",
+      "Retrievals",
+      "Transition"
+    ],
+    "description": "A continuous full-ice 2-on-1 that finishes with a purposeful dump into the opposite corner. The defending D retrieves the dump, escapes pressure and breaks out the next forwards to start the drill in the other direction.",
+    "coaching_points": [
+      "Forwards place the dump away from the goalie and tight to the wall.",
+      "Defender controls gap on the rush before transitioning into the retrieval.",
+      "Shoulder-check and use deception before picking up the puck.",
+      "Find the next outlet quickly after gaining possession."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Tyler Bielby",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-continuous-dump-drill",
+    "source_id": "3541886",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541886-0-1702057063.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541886-0-1702057063.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3541886-1-1702057063.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 294
+  },
+  {
+    "uid": "ihs-3484466",
+    "title": "Strong Side Breakout Drill",
+    "category": "Breakout / Zone Entry / Offensive Zone",
+    "drill_types": [
+      "Breakouts",
+      "Defensive Zone",
+      "Offensive Zone",
+      "Zone Entry",
+      "Full Ice",
+      "Retrievals",
+      "Shooting"
+    ],
+    "description": "A two-part progression connecting a strong-side breakout to a zone entry and then an offensive-zone puck recovery. The group finishes by moving the puck low-to-high for a point shot with traffic.",
+    "coaching_points": [
+      "Defenseman shoulder-checks before the retrieval.",
+      "Winger gets to the wall early and presents a target.",
+      "Center stays low and slow underneath the puck.",
+      "Net-front players arrive with purpose for screens, tips and rebounds."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Nik Passero",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/strong-side-breakout-drill",
+    "source_id": "3484466",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484466-0-1701426565.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484466-0-1701426565.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3484466-1-1701426565.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 295
+  },
+  {
+    "uid": "ihs-623166",
+    "title": "Continuous 2 on 2 Tag Up",
+    "category": "2 on 2 / Breakout / Forecheck",
+    "drill_types": [
+      "2 on 2",
+      "Angling",
+      "Backchecking",
+      "Breakouts",
+      "Forechecking",
+      "Full Ice",
+      "Transition"
+    ],
+    "description": "A full-ice 2-on-2 rush flows into a tagged-up transition. After the first rush ends, all four players transition back, a new puck is dumped in, and the defenders break out new forwards while the original forwards forecheck.",
+    "coaching_points": [
+      "Communicate through every transition.",
+      "Transition hard through middle ice with sticks available.",
+      "Defensemen use partners and deception on the breakout.",
+      "Forecheckers angle instead of chasing directly from behind."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jeff Hill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-2-2-tag",
+    "source_id": "623166",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-623166-0-1671480834.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-623166-0-1671480834.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 296
+  },
+  {
+    "uid": "ihs-7016986",
+    "title": "IFK 3 v 1 + 1",
+    "category": "3 on 1 / Backcheck / Transition",
+    "drill_types": [
+      "3 on 1",
+      "Backchecking",
+      "Breakouts",
+      "Defensive Zone",
+      "Full Ice",
+      "Gap",
+      "Offensive Zone",
+      "Transition",
+      "Zone Entry"
+    ],
+    "description": "A continuous odd-man transition drill that starts as a 3-on-1 with a tracking backchecker. Additional players join to create a defensive-zone sequence, and the next possession immediately becomes a breakout and attack in the opposite direction.",
+    "coaching_points": [
+      "Communicate early to sort defensive responsibilities.",
+      "Backchecker tracks through the middle and identifies the most dangerous option.",
+      "Transition immediately when possession changes.",
+      "Keep support close enough for a clean breakout under pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Dave Smith",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/ifk-3-v-1-1-2",
+    "source_id": "7016986",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016986-0-1744913193.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016986-0-1744913193.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016986-1-1744913193.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7016986-2-1744913193.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 297
   }
 ]
