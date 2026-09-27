@@ -14658,5 +14658,67 @@
     ],
     "original_diagram": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-3396911",
+    "title": "Blueline Agility Reps",
+    "category": "Defense / Agility / Retrieval / Shooting",
+    "drill_types": [
+      "Agility",
+      "Defensive",
+      "Half Ice",
+      "Passing",
+      "Retrievals",
+      "Shooting",
+      "Stations",
+      "Net Front"
+    ],
+    "description": "Forwards retrieve pucks from the corner or goalie, pass to the point, then move to the net while a defenseman walks the blue line and gets a shot through traffic. The sequence gives defenders repeated lateral blue-line footwork and forwards repeated retrieval-to-point habits.",
+    "coaching_points": [
+      "Forwards shoulder-check before retrieval and then create a screen or tip at the net.",
+      "Defenseman moves laterally as soon as the puck arrives to create a new shooting lane.",
+      "Get the point shot through sticks quickly instead of overhandling."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/blueline-agility-reps",
+    "source_id": "3396911",
+    "image": "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/drill-maker-3396911-0-1744579134.png",
+    "images": [
+      "https://s3.amazonaws.com/www.files.ihsqc.icehockeysystems.com/files/drills/drill-maker-3396911-0-1744579134.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 450
+  },
+  {
+    "uid": "ihs-7091",
+    "title": "Neutral Zone Support 2 on 1",
+    "category": "2 vs 1 / Neutral Zone / Support",
+    "drill_types": [
+      "2 vs 1",
+      "Agility",
+      "Backwards Skating",
+      "Neutral Zone",
+      "Puck Support",
+      "Transition",
+      "Zone Entry"
+    ],
+    "description": "Both forwards sprint to the blue line, work tight control turns back around cones, then attack together after one player collects a puck. The defenseman performs a backward-forward transition pattern before defending the 2-on-1.",
+    "coaching_points": [
+      "Second forward times support so the puck carrier has both a direct and wall-chip option.",
+      "Defenseman controls the gap through the transition and protects the middle.",
+      "Forwards attack with speed and maintain useful spacing."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-support-2-1",
+    "source_id": "7091",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7091-1631307072.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7091-1631307072.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 451
   }
 ]
