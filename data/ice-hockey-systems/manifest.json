@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 839,
-    "catalog_items_verified": 839,
+    "catalog_items_imported": 842,
+    "catalog_items_verified": 842,
     "catalog_target": 1573,
-    "last_batch": "IHS relay/race exact-image seven-drill batch",
-    "original_diagrams_verified": 839,
+    "last_batch": "IHS relay/race exact-image three-drill batch",
+    "original_diagrams_verified": 842,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 848,
+    "unique_urls_discovered": 851,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue exact-image catalog sweep from #840, prioritizing missing relay, station, race, transition and full-ice drills.",
+    "next_step": "Continue exact-image catalog sweep from #843, prioritizing missing relay, station, transition and full-ice drills.",
     "multi_diagram_drills_preserved": 45,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 7,
-    "last_batch_notes": "Added drills 833-839: Stop and Start 1 vs. 1; Neutral Zone Puck Races #2; Quarter Ice Obstacle Course #1; Inside Edges Slalom Relays; Tire Turn Relays - Control Turns; Push & Pull Relays; Steps and Jumps Over Sticks Relay Races. Preserved multiple original layouts for Inside Edges, Tire Turn and Push & Pull.",
+    "last_batch_imported": 3,
+    "last_batch_notes": "Corrected #833 to verified IHS source file stop-start-1v1.jpg. Added #840 Defensive Pivot Races, #841 Sweet Heart Relay Scoring Race, and #842 3 Puck Break Away Races with verified original IHS-hosted diagrams.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -78,6 +78,6 @@
       "Offensive to Defensive Zone Coverage Drill - source page currently exposes video instruction but no original drill diagram; keep deferred rather than substituting an AI diagram."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 7
+    "last_batch_discovered": 3
   }
 }
