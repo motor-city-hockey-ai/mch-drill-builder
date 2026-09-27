@@ -7564,5 +7564,71 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS newest/category verified diagram sweep"
+  },
+  {
+    "discovery_number": 501,
+    "title": "Basic Cross Over Skating Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/basic-cross-over-skating-station",
+    "categories": [
+      "Skating",
+      "Stations",
+      "Sixth Ice Stations",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 502,
+    "title": "Quick Coach 2 on 1 with Backcheck",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-coach-2-1-backcheck",
+    "categories": [
+      "Full Ice",
+      "Backchecking",
+      "2 vs 1",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 503,
+    "title": "2 vs. 2 Stop & Starts",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-stop-starts",
+    "categories": [
+      "2 vs 2",
+      "Backchecking",
+      "Full Ice",
+      "Conditioning",
+      "Races",
+      "Transition",
+      "Offensive",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 504,
+    "title": "Swedish Transition Series #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swedish-transition-series-2",
+    "categories": [
+      "One Goalie",
+      "Passing",
+      "Transition",
+      "3 vs 0",
+      "Full Ice",
+      "Puck Support",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep"
   }
 ]
