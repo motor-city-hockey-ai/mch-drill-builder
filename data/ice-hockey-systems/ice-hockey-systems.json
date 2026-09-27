@@ -20531,5 +20531,104 @@
     "original_diagram": true,
     "status": "verified",
     "number": 628
+  },
+  {
+    "uid": "ihs-full-ice-skills-series-1-goalie-0",
+    "title": "Full Ice Skills Series - 1 Goalie",
+    "category": "Full Ice / One Goalie / Skill Development",
+    "drill_types": [
+      "One Goalie",
+      "Full Ice",
+      "Skill Development",
+      "Stickhandling",
+      "Passing",
+      "Skating",
+      "Shooting",
+      "Puck Control"
+    ],
+    "description": "A full-ice skill series designed for practices with one goalie. Players work through a tire or cone skill pattern down one side, pass to a coach in the opposite corner, support through the slot for a return pass, then push the puck with one hand while working a full forward stride before finishing with a shot.",
+    "coaching_points": [
+      "Support the puck through the slot and present a clear target for the return pass.",
+      "Stay low with full extension and full recovery during the forward stride.",
+      "Push the puck instead of over-stickhandling when building speed.",
+      "Keep the puck close to the blade and slightly outside the body when working the backhand side."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-skills-series-1-goalie-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/full-ice-skills-series-1-goalie_0.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/full-ice-skills-series-1-goalie_0.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 629
+  },
+  {
+    "uid": "ihs-greatest-drill-world",
+    "title": "The Greatest Drill in the World",
+    "category": "3 vs 3 / Small Area Game / Passing",
+    "drill_types": [
+      "3 vs 3",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Passing",
+      "Puck Support",
+      "Awareness",
+      "Transition",
+      "Puck Protection"
+    ],
+    "description": "A cross-ice 3-on-3 game with two coaches or designated players stationed as outlets along the outside of the playing area. The team in possession can use either outlet, effectively creating a temporary 5-on-3 advantage and encouraging quick puck movement and give-and-go support.",
+    "coaching_points": [
+      "Move the puck quickly and use the outside outlets before pressure collapses.",
+      "Move immediately after passing to create the next support option.",
+      "Communicate constantly and recognize local 2-on-1 opportunities.",
+      "Protect the puck under pressure and transition quickly after turnovers."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/greatest-drill-world",
+    "source_id": "25316",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-25316-0-1671460558.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-25316-0-1671460558.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 630
+  },
+  {
+    "uid": "ihs-neutral-zone-passing-station-1",
+    "title": "Neutral Zone Passing Station #1",
+    "category": "Passing / Neutral Zone / Station",
+    "drill_types": [
+      "Passing",
+      "Stations",
+      "Neutral Zone",
+      "Third Ice Stations",
+      "Skill Development",
+      "Puck Support"
+    ],
+    "description": "A neutral-zone passing station that can be run as three lanes or two longer lanes. Two players pass between each cone set, switch sides at the end with a forehand drop pass, then continue passing through the cones on the return route.",
+    "coaching_points": [
+      "Deliver firm forehand and backhand passes with a clear target.",
+      "Receive with soft hands and prepare the puck immediately for the next pass.",
+      "Time the side switch so the drop pass lands on the partner's forehand.",
+      "Alternate sides on each repetition so players work both forehand and backhand receptions."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-passing-station-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-passing-station-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-passing-station-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 631
   }
 ]
