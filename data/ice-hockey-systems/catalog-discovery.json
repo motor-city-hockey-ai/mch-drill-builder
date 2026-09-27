@@ -5721,5 +5721,54 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS category search - diagram verified"
+  },
+  {
+    "discovery_number": 392,
+    "title": "Pop Warm Up Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pop-warm-drill",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Skating",
+      "Warm Up",
+      "Full Ice",
+      "Transition",
+      "Screens"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category search - diagram verified"
+  },
+  {
+    "discovery_number": 393,
+    "title": "Puck Protection - Surround Puck",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-protection-surround-puck",
+    "categories": [
+      "1 vs 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Puck Control",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category search - diagram verified"
+  },
+  {
+    "discovery_number": 394,
+    "title": "3 v 2 Puck Protection Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-3-v-2-puck-protection-game",
+    "categories": [
+      "3 vs 2",
+      "Puck Protection",
+      "Puck Support",
+      "Offensive Zone",
+      "Battle Drills",
+      "Small Area Games",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category search - diagram verified"
   }
 ]
