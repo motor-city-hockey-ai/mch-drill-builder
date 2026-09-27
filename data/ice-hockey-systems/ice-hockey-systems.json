@@ -14626,5 +14626,37 @@
     "member_only": false,
     "status": "verified",
     "number": 448
+  },
+  {
+    "uid": "ihs-1520426",
+    "number": 449,
+    "title": "World Passing & Stickhandling Warm-Up",
+    "category": "Passing / Stickhandling / Warm-Up",
+    "drill_types": [
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Stickhandling",
+      "Warm Up",
+      "Awareness",
+      "Skill Development"
+    ],
+    "description": "Four to six players form around a faceoff circle while two players work inside with pucks. The inside players use creative stickhandling, edgework, escapes and deception, then pass to an outside player who rotates into the circle.",
+    "coaching_points": [
+      "Keep the head up while handling inside the circle.",
+      "Use edges, escapes and deception instead of repeating one move.",
+      "Outside players keep sticks ready as clear passing targets."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "NewEdge Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/world-passing-stickhandling-warm-up",
+    "source_id": "1520426",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1520426-0-1665606126.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1520426-0-1665606126.png"
+    ],
+    "original_diagram": true,
+    "status": "verified"
   }
 ]
