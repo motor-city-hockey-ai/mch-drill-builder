@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 720,
-    "catalog_items_verified": 720,
+    "catalog_items_imported": 725,
+    "catalog_items_verified": 725,
     "catalog_target": 1573,
-    "last_batch": "IHS source-image recovery eight-drill batch",
-    "original_diagrams_verified": 720,
+    "last_batch": "IHS related-skill exact-image five-drill batch",
+    "original_diagrams_verified": 725,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 732,
+    "unique_urls_discovered": 737,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue source-image recovery through related skill/practice pages, prioritizing missing 1v1, 2v1, transition and full-ice records.",
+    "next_step": "Continue exact-image recovery from IHS supporting-fundamental pages and dedupe against the live 725-drill IHS library.",
     "multi_diagram_drills_preserved": 39,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 8,
-    "last_batch_notes": "Added drills 713-720: Brittish Bulldog with Control Turns; Superman Relay Races (Full Ice); Four Lines 1 on 1; Two Step Off the Wall 1 on 1; Bonus 1 on 1; D to D Up Half Ice 1 vs 1; Tight Space 1 on 1; Breakout Gap control 1 on 1. Preserved both original diagrams for Two Step Off the Wall 1 on 1.",
+    "last_batch_imported": 5,
+    "last_batch_notes": "Added drills 721-725: Breakout Pass 1 on 1; 2 on 1 - 2 on 2 Full Ice Regroup; 2 on 1 with Backchecker; Defense Read 2 on 1; Cross Ice 2 on 1.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -63,9 +63,10 @@
       "1 on 1 to 2 on 2 Battle Drill - source page was found, but no original drill diagram is currently exposed; do not substitute an AI diagram.",
       "Goalie Edgework: Single-Leg Hops - source page currently exposes video but no original drill diagram; keep deferred until the source visual can be verified.",
       "Continuous Forechecking Hockey Drill - source currently presents the Denis Savard video/contributor visual rather than a verifiable drill diagram; keep deferred.",
-      "Regroup to Backcheck Drill - source currently presents video-based instruction and no resolved original drill diagram; keep deferred."
+      "Regroup to Backcheck Drill - source currently presents video-based instruction and no resolved original drill diagram; keep deferred.",
+      "Point to Half Wall 2 vs 1 - related-skill page exposes a photo thumbnail, not a verified rink diagram; defer rather than substitute the photo."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 8
+    "last_batch_discovered": 5
   }
 }
