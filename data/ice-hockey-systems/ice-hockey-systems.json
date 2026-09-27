@@ -12309,5 +12309,142 @@
     "member_only": true,
     "status": "verified",
     "number": 376
+  },
+  {
+    "uid": "ihs-4578456",
+    "title": "Sparta Agility Skating & Passing Progression",
+    "category": "3 on 0 / Skating / Passing",
+    "drill_types": [
+      "3 on 0",
+      "Skating",
+      "Agility",
+      "Passing",
+      "Puck Handling",
+      "Puck Protection",
+      "Awareness",
+      "Stations",
+      "Small Area Games"
+    ],
+    "description": "A three-part progression in a tight obstacle area: first skate without pucks, then skate with individual pucks and finish with shots, then use one puck among three players while continuously moving and passing before attacking the net.",
+    "coaching_points": [
+      "Keep the head up and scan through traffic.",
+      "Use deception and puck protection around obstacles.",
+      "Create passing lanes and support the puck continuously.",
+      "Keep moving through exchanges and switches."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sparta-agility-skating-passing-progression",
+    "source_id": "4578456",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4578456-0-1723228758.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4578456-0-1723228758.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4578456-1-1723228758.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4578456-2-1723228758.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 377
+  },
+  {
+    "uid": "ihs-7183266",
+    "title": "ROC (Retrieval-Outlet-Continuous) Drill",
+    "category": "Passing / Retrieval / Flow",
+    "drill_types": [
+      "Passing",
+      "Retrievals",
+      "Puck Support",
+      "Awareness",
+      "Flow",
+      "Half Ice",
+      "Offensive Zone",
+      "Skating"
+    ],
+    "description": "A continuous retrieval-and-outlet flow. A player shoots, retrieves a corner puck with a cutback, finds wall support, then the support player moves the puck to the next player and re-enters the zone for a quick shot.",
+    "coaching_points": [
+      "Shoulder-check before every retrieval.",
+      "Use deception on the wall before escaping pressure.",
+      "Time support so the outlet is available at the right moment.",
+      "Catch and release quickly on the final shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Newedge Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/roc-retrieval-outlet-continuous-drill",
+    "source_id": "7183266",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7183266-0-1750945059.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7183266-0-1750945059.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 378
+  },
+  {
+    "uid": "ihs-7257416",
+    "title": "Oswego Facing the Puck Passing Drill",
+    "category": "Passing / Shooting / Skating",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Skating",
+      "Backwards Skating",
+      "Transition",
+      "Stations",
+      "Awareness"
+    ],
+    "description": "A give-and-go passing drill built around always facing the puck. The player attacks one tire, exchanges a pass, transitions backward while staying open to the puck, then catches and shoots before repeating in the opposite direction.",
+    "coaching_points": [
+      "Never turn the back to the puck.",
+      "Transition backward while staying ready to receive.",
+      "Communicate and present the stick as a target.",
+      "Catch and shoot with control after the transition."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Salt City Prospects",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/oswego-facing-puck-passing-drill",
+    "source_id": "7257416",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7257416-0-1752887215.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7257416-0-1752887215.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7257416-1-1752887215.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 379
+  },
+  {
+    "uid": "ihs-7196281",
+    "title": "Up Wall Exchange",
+    "category": "Passing / Shooting / Skating",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Backwards Skating",
+      "Flow",
+      "Half Ice",
+      "Awareness"
+    ],
+    "description": "A three-player passing flow along the wall. Players exchange passes while one skates backward, rotate through the middle and net-side support, then finish with a quick catch-and-release shot.",
+    "coaching_points": [
+      "Maintain spacing and communicate through each exchange.",
+      "Open up facing the puck instead of turning away from the play.",
+      "Move the puck off the hip quickly and get the eyes up.",
+      "Shoot immediately after receiving the final pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Newedge Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/up-wall-exchange",
+    "source_id": "7196281",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7196281-0-1757300225.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7196281-0-1757300225.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 380
   }
 ]
