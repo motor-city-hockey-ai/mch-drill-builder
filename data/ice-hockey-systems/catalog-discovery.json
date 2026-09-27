@@ -6638,5 +6638,141 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS catalog page 10"
+  },
+  {
+    "discovery_number": 448,
+    "title": "5 Pass 2 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-pass-2-1",
+    "categories": [
+      "2 vs 1",
+      "Passing",
+      "Full Ice",
+      "Offensive",
+      "Defensive",
+      "Transition",
+      "Puck Support",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 449,
+    "title": "Finders Keepers - Station",
+    "source_url": "https://www.icehockeysystems.com/print/practice/condensed/89676",
+    "categories": [
+      "Puck Control",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Third Ice Stations",
+      "Sixth Ice Stations",
+      "Awareness",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 450,
+    "title": "Forehand Shooting Fundamentals #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/forehand-shooting-fundamentals-3",
+    "categories": [
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Half Ice",
+      "Backwards Skating",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 451,
+    "title": "Forehand Shooting Fundamentals #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/forehand-shooting-fundamentals-2",
+    "categories": [
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Half Ice",
+      "Puck Control",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 452,
+    "title": "Forehand Shooting Fundamentals #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/forehand-shooting-fundamentals-1",
+    "categories": [
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Half Ice",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 453,
+    "title": "5 Cone 2 Shot Station Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-cone-2-shot-station-drill",
+    "categories": [
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Sixth Ice Stations",
+      "Puck Control",
+      "Puck Handling",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 454,
+    "title": "Quarter Ice Angle 1 vs 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-angle-1-vs-1",
+    "categories": [
+      "1 vs 1",
+      "Stations",
+      "Quarter Ice Station",
+      "Angling",
+      "Checking",
+      "Defensive",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 455,
+    "title": "Three Sided Box Retrieval Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/three-sided-box-retrieval-station",
+    "categories": [
+      "Puck Control",
+      "Shooting",
+      "Stations",
+      "Quarter Ice Station",
+      "Backwards Skating",
+      "Retrievals",
+      "Transition",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 11"
   }
 ]
