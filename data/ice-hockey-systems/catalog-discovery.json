@@ -8519,5 +8519,95 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS source-image recovery and legacy gap sweep"
+  },
+  {
+    "discovery_number": 557,
+    "title": "Breakout Pass 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakout-pass-1-1",
+    "categories": [
+      "1 vs 1",
+      "Breakouts",
+      "Passing",
+      "Half Ice",
+      "Stations",
+      "Defensive",
+      "Offensive",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS related-skill exact-image recovery"
+  },
+  {
+    "discovery_number": 558,
+    "title": "2 on 1 - 2 on 2 Full Ice Regroup",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-2-2-full-ice-regroup",
+    "categories": [
+      "2 vs 1",
+      "2 vs 2",
+      "Re-Group",
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Gap",
+      "Transition",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS related-skill exact-image recovery"
+  },
+  {
+    "discovery_number": 559,
+    "title": "2 on 1 with Backchecker",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-backchecker",
+    "categories": [
+      "2 vs 1",
+      "Backchecking",
+      "Full Ice",
+      "Gap",
+      "Defensive",
+      "Offensive",
+      "Shooting",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS related-skill exact-image recovery"
+  },
+  {
+    "discovery_number": 560,
+    "title": "Defense Read 2 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defense-read-2-1",
+    "categories": [
+      "2 vs 1",
+      "Half Ice",
+      "Defensive",
+      "Gap",
+      "Shooting",
+      "Transition",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS related-skill exact-image recovery"
+  },
+  {
+    "discovery_number": 561,
+    "title": "Cross Ice 2 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cross-ice-2-1",
+    "categories": [
+      "2 vs 1",
+      "Half Ice",
+      "Stations",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Puck Support",
+      "Competition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS related-skill exact-image recovery"
   }
 ]
