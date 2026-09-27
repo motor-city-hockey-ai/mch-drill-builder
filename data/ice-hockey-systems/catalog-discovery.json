@@ -9196,5 +9196,39 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS exact-diagram verification sweep"
+  },
+  {
+    "discovery_number": 594,
+    "title": "Four Wise Men Warm Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-wise-men-warm",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Full Ice",
+      "Puck Support",
+      "Flow"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram verification sweep"
+  },
+  {
+    "discovery_number": 595,
+    "title": "Transition Chip 2 on 0",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-chip-2-0",
+    "categories": [
+      "2 vs 0",
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Wall Play",
+      "Zone Entry",
+      "Puck Support",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS exact-diagram verification sweep"
   }
 ]
