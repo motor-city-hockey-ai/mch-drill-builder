@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 695,
-    "catalog_items_verified": 695,
+    "catalog_items_imported": 702,
+    "catalog_items_verified": 702,
     "catalog_target": 1573,
-    "last_batch": "IHS legacy full-ice exact-image five-drill batch",
-    "original_diagrams_verified": 695,
+    "last_batch": "IHS legacy full-ice exact-image seven-drill batch",
+    "original_diagrams_verified": 702,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 707,
+    "unique_urls_discovered": 714,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue the legacy full-ice and matchup-type sweep; exact IHS diagram resolution remains required before import.",
+    "next_step": "Continue legacy full-ice, transition, flow and matchup sweeps; only import when the original IHS-hosted diagram is resolved.",
     "multi_diagram_drills_preserved": 37,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 5,
-    "last_batch_notes": "Added drills 691-695: Half Horse Shoe Give & Go; The U Transition Drill; Quick Gap 1 on 1; Shoot and Shadow 1 vs. 1; Warm Up Delay.",
+    "last_batch_imported": 7,
+    "last_batch_notes": "Added drills 696-702: Long Stretch Flow Drill; Four Lines Flow #3; Shadow Recovery Drill; Transition Pivot Hockey Races; Three Zone Transition Pivots with Pucks; Full Ice Overspeed Skating Progression Drill #4; Full Ice Overspeed Skating Progression #1.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -64,6 +64,6 @@
       "Goalie Edgework: Single-Leg Hops - source page currently exposes video but no original drill diagram; keep deferred until the source visual can be verified."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 5
+    "last_batch_discovered": 7
   }
 }
