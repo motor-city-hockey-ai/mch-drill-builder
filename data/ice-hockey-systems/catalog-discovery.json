@@ -9511,5 +9511,54 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 613,
+    "title": "Stretch Pass 3 on 0",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stretch-pass-3-0",
+    "categories": [
+      "3 vs 0",
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Puck Support",
+      "Zone Entry",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 614,
+    "title": "Cyclone Passing Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cyclone-passing-drill",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Warm Up",
+      "Backwards Skating",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 615,
+    "title": "Big W Warm Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/big-w-warm",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Puck Support",
+      "Flow"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
   }
 ]
