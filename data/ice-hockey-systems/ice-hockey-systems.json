@@ -26035,5 +26035,231 @@
     "original_diagram": true,
     "status": "verified",
     "number": 800
+  },
+  {
+    "title": "COW Hockey's Continuous 2 on 0",
+    "uid": "ihs-cow-hockeys-continuous-2-on-0",
+    "category": "2 vs 0 / Passing / Warm Up",
+    "drill_types": [
+      "2 vs 0",
+      "Passing",
+      "Warm Up",
+      "Full Ice",
+      "Puck Support",
+      "Shooting",
+      "Flow"
+    ],
+    "description": "A continuous two-player passing warm-up. The first pair exchanges the puck with the opposite line, curls outside the dots while facing the puck, receives the return pass, makes one neutral-zone pass and attacks the net 2-on-0. As soon as the return pass is made, the next pair starts in the opposite direction.",
+    "coaching_points": [
+      "Face the puck throughout both curls.",
+      "Keep the give-and-go passes flat and on time.",
+      "Make the neutral-zone pass while both players stay in motion.",
+      "Both attackers stop at the net and finish rebounds before exiting."
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cow-hockeys-continuous-2-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cow-continuous-2-on-0.jpg",
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cow-continuous-2-on-0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 801
+  },
+  {
+    "title": "Four Lines Flow #2",
+    "uid": "ihs-four-lines-flow-2",
+    "category": "Passing / Flow / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Flow",
+      "Full Ice",
+      "Warm Up",
+      "Puck Support",
+      "Shooting",
+      "Zone Entry"
+    ],
+    "description": "The second four-line flow progression. Players swing through the neutral zone and complete a give-and-go with each line before attacking the offensive zone, creating repeated touches while maintaining speed and timing.",
+    "coaching_points": [
+      "Keep the feet moving through every pass and reception.",
+      "Present a clear target while swinging through the neutral zone.",
+      "Make the give-and-go passes quickly so the route stays connected.",
+      "Enter the zone with speed and use the rep to reinforce shooting angles."
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/four-lines-flow-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/four-line-flow-2_0.jpg",
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/four-line-flow-2_0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 802
+  },
+  {
+    "title": "Outside Loop Passing",
+    "uid": "ihs-outside-loop-passing",
+    "category": "Passing / Transition / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Warm Up",
+      "Puck Control",
+      "Skating",
+      "Puck Support"
+    ],
+    "description": "Two players move down the ice exchanging as many passes as possible. At the far blue line they loop outside: the puck carrier power-turns with control while the support player transitions to remain facing the puck, then both accelerate back up ice.",
+    "coaching_points": [
+      "Pass frequently while skating at pace.",
+      "Puck carrier keeps the head up through the outside power turn.",
+      "The support player stays open to the puck through the transition.",
+      "Accelerate out of the turn instead of coasting back up ice."
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/outside-loop-passing",
+    "image": "https://www.files.icehockeysystems.com/files/drills/outside-loop-passing.jpg",
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/outside-loop-passing.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 803
+  },
+  {
+    "title": "2 on 0 Quick Re-Group",
+    "uid": "ihs-2-on-0-quick-regroup",
+    "category": "2 vs 0 / Re-Group / Warm Up",
+    "drill_types": [
+      "2 vs 0",
+      "Re-Group",
+      "Passing",
+      "Warm Up",
+      "Full Ice",
+      "Puck Support",
+      "Shooting",
+      "Transition"
+    ],
+    "description": "Two players pass down the ice toward a coach or stationary player near the far blue line. After moving the puck to the coach just beyond center, both forwards swing underneath for support, receive it back and immediately transition into a 2-on-0 attack.",
+    "coaching_points": [
+      "Exchange the puck while both skaters keep moving.",
+      "Time the regroup swing underneath the puck rather than getting ahead of it.",
+      "Receive the return pass with speed and separation.",
+      "Attack the net immediately after the regroup and finish the rebound."
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-quick-re-group",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2-on-0-quick-regroup.jpg",
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2-on-0-quick-regroup.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 804
+  },
+  {
+    "title": "Pre-Game Three Lane Transition Shooting",
+    "uid": "ihs-pre-game-three-lane-transition-shooting",
+    "category": "Pre Game / Transition / Shooting",
+    "drill_types": [
+      "Pre Game",
+      "Transition",
+      "Shooting",
+      "Passing",
+      "Warm Up",
+      "Full Ice",
+      "Skating"
+    ],
+    "description": "Three shooting lanes operate at once. Each skater passes to a stationary player at the red line, skates forward, transitions outside, receives the puck back and carries into the zone for a long shot from a different angle.",
+    "coaching_points": [
+      "Move the feet from the first pass all the way through the shot.",
+      "Transition outside while keeping the chest and stick available to the passer.",
+      "Receive the return pass in stride.",
+      "Use all three lanes so the goalie sees shots from changing angles."
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pre-game-three-lane-transition-shooting",
+    "image": "https://www.files.icehockeysystems.com/files/drills/pre-game-three-lane-transition-shooting.jpg",
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/pre-game-three-lane-transition-shooting.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 805
+  },
+  {
+    "title": "2 on 0 React and Support Drill",
+    "uid": "ihs-2-on-0-react-and-support-drill",
+    "category": "2 vs 0 / Puck Support / Transition",
+    "drill_types": [
+      "2 vs 0",
+      "Puck Support",
+      "Transition",
+      "Passing",
+      "Half Ice",
+      "Zone Entry",
+      "Offensive",
+      "Shooting"
+    ],
+    "description": "Two forwards skate toward the coach, who sends a loose puck to one side. The strong-side forward attacks the puck while the weak-side forward stays below it and provides support. The pair then enters the zone, with the puck carrier going wide and the support player driving the high slot for a return pass.",
+    "coaching_points": [
+      "React immediately to which side the coach sends the puck.",
+      "Weak-side support stays below the puck instead of getting ahead of the play.",
+      "Communicate and use a chip or pass when pressure arrives.",
+      "On entry, create width first and then fill the high slot for the return pass."
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-react-and-support-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2-on-0-react-support-drill.jpg",
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2-on-0-react-support-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 806
+  },
+  {
+    "title": "Transition Passing Sequence #3",
+    "uid": "ihs-transition-passing-sequence-3",
+    "category": "Passing / Transition / Zone Entry",
+    "drill_types": [
+      "Passing",
+      "Transition",
+      "Full Ice",
+      "Zone Entry",
+      "Shooting",
+      "Puck Support",
+      "Warm Up"
+    ],
+    "description": "The third variation in the transition passing series. The player works through the passing sequence, attacks the offensive blue line from the inside out, then makes a sharp cut toward the middle after gaining the zone and finishes with a shot.",
+    "coaching_points": [
+      "Keep the passing sequence quick and clean before the entry.",
+      "Attack the blue line with the feet moving.",
+      "Make the inside-out entry at speed, then cut decisively to the middle.",
+      "Shoot in stride and follow the shot for a rebound."
+    ],
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-passing-sequence-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/transition-passing-sequence-3.jpg",
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/transition-passing-sequence-3.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 807
   }
 ]
