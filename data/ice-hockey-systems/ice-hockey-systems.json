@@ -19171,5 +19171,68 @@
     "member_only": true,
     "status": "verified",
     "number": 586
+  },
+  {
+    "uid": "ihs-346681",
+    "title": "3 vs. 3 Handball Game",
+    "category": "3 on 3 / Small Area Game / Awareness",
+    "drill_types": [
+      "3 vs 3",
+      "Small Area Games",
+      "Passing",
+      "Awareness",
+      "Puck Support",
+      "Half Ice"
+    ],
+    "description": "Three-on-three handball game played without sticks or pucks. Players use a ball and must move it quickly, creating constant give-and-go situations, support reads and off-puck movement.",
+    "coaching_points": [
+      "Move the ball quickly instead of holding it.",
+      "Support the ball carrier by getting open immediately.",
+      "Use give-and-go movement after every pass.",
+      "Keep shifts short and competitive."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Topher Scott",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-vs-3-handball-game",
+    "source_id": "346681",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-346681-0-1664419123.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-346681-0-1664419123.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 587
+  },
+  {
+    "uid": "ihs-342631",
+    "title": "Battery Hockey Figure 8 Shooting Drill",
+    "category": "Shooting / Passing / Skill Development",
+    "drill_types": [
+      "Shooting",
+      "Passing",
+      "Skill Development",
+      "Stations",
+      "Half Ice"
+    ],
+    "description": "Six-shot shooting progression with passers on both sides. The shooter begins with stationary catch-and-release shots, progresses to pivots around a cone for quick shots, then finishes with controlled turns and additional catch-and-release attempts.",
+    "coaching_points": [
+      "Keep the stick on the ice to give the passer a clear target.",
+      "Receive and release quickly with the hands away from the body.",
+      "Stay facing the passer through pivots and controlled turns.",
+      "Rotate shooters and passers so the drill stays continuous."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "The Battery",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/battery-hockey-figure-8-shooting-drill",
+    "source_id": "342631",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-342631-0-1743906587.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-342631-0-1743906587.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 588
   }
 ]
