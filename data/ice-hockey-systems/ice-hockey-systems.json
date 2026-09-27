@@ -14841,5 +14841,63 @@
     "original_diagram": true,
     "status": "verified",
     "number": 455
+  },
+  {
+    "uid": "ihs-2640521",
+    "title": "5 V 5 to 5 V 3 Face-off Game On The Circle",
+    "category": "5 vs 5 / 5 vs 3 / Face-Off Game",
+    "drill_types": [
+      "5 vs 5",
+      "5 vs 3",
+      "Face-Off",
+      "Puck Support",
+      "Small Area Games",
+      "Power Play",
+      "Penalty Kill"
+    ],
+    "description": "A half-zone game begins with a 5-on-5 faceoff. Once possession is clear, the losing team removes two players, creating a 5-on-3 advantage for the faceoff winner while both teams continue trying to score.",
+    "coaching_points": [
+      "Centers get low and strong on the stick during the faceoff.",
+      "Wingers react immediately to support loose-puck possession.",
+      "The five-player group moves the puck quickly while the three defenders keep sticks in lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-v-5-5-v-3-face-game-on-circle",
+    "source_id": "2640521",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2640521-0-1729733982.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2640521-0-1729733982.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 456
+  },
+  {
+    "uid": "ihs-2626161",
+    "title": "Angle Through The Dot 1 V 1",
+    "category": "1 vs 1 / Angling / Puck Protection",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Puck Protection",
+      "Half Ice",
+      "Battle Drills"
+    ],
+    "description": "The defender passes to an attacker moving down the wall, then skates through a narrow obstacle gate before angling into the 1-on-1. The puck carrier attacks with speed and works to protect the puck while driving through the check.",
+    "coaching_points": [
+      "Defender matches speed, steers with the stick and closes through the hands.",
+      "Puck carrier keeps feet moving and protects the puck on the outside.",
+      "Both players work to stay balanced through contact and direction changes."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/angle-through-dot-1-v-1",
+    "source_id": "2626161",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2626161-0-1693851310.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2626161-0-1693851310.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 457
   }
 ]
