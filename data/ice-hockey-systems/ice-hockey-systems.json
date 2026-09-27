@@ -30690,5 +30690,244 @@
     "original_diagram": true,
     "status": "verified",
     "number": 951
+  },
+  {
+    "uid": "ihs-tire-moves",
+    "title": "Tire Moves",
+    "category": "Shooting / Stickhandling / Neutral Zone",
+    "drill_types": [
+      "Shooting",
+      "Stickhandling",
+      "Puck Control",
+      "Neutral Zone",
+      "Stations"
+    ],
+    "description": "Players attack two tires or cones with the puck, make a single shift to the outside at the first obstacle and a single shift to the inside at the second, then finish with a shot on the small net.",
+    "coaching_points": [
+      "Approach each obstacle with speed.",
+      "Move the puck outside the defender's reach.",
+      "Practice the move to both forehand and backhand sides.",
+      "Accelerate out of the second move and shoot quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tire-moves",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tire-moves.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tire-moves.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 952
+  },
+  {
+    "uid": "ihs-d-zone-d-to-d-0",
+    "title": "D-Zone D to D",
+    "category": "Breakout / Passing / Re-Group",
+    "drill_types": [
+      "Breakouts",
+      "Passing",
+      "Re-Group",
+      "Defensive Zone",
+      "Retrievals"
+    ],
+    "description": "A defenseman retrieves a coach dump, shoulder checks and turns up ice before moving the puck D-to-D behind the net. The supporting defenseman receives in motion, advances and can regroup again before adding center support.",
+    "coaching_points": [
+      "Shoulder check before retrieval.",
+      "Use deception when turning up ice.",
+      "Support below the puck for the D-to-D pass.",
+      "Receive with the head up and feet moving."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-zone-d-d-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4626766-0-1756930806.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4626766-0-1756930806.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 953
+  },
+  {
+    "uid": "ihs-o-zone-sticklift-regroup-0",
+    "title": "O-Zone Sticklift Regroup",
+    "category": "Defensive / Offensive Zone / Puck Retrieval",
+    "drill_types": [
+      "Defensive",
+      "Offensive Zone",
+      "Retrievals",
+      "Passing",
+      "Puck Control"
+    ],
+    "description": "A forward rims the puck to the opposite wall. The defenseman pinches, uses a stick lift to gain control, passes to a forward coming through the middle, then the players switch in the high slot and attack a central obstacle.",
+    "coaching_points": [
+      "Arrive at the wall under control.",
+      "Use the stick lift to establish clean possession.",
+      "Move the puck quickly to middle support.",
+      "Time the high-slot switch with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/o-zone-sticklift-regroup-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4626751-0-1724257182.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4626751-0-1724257182.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 954
+  },
+  {
+    "uid": "ihs-body-contact-boardside-puck-protection-0",
+    "title": "Body Contact Boardside Puck Protection",
+    "category": "Puck Protection / Wall Play / Defensive Zone",
+    "drill_types": [
+      "Breakouts",
+      "Defensive Zone",
+      "Puck Protection",
+      "Wall Play",
+      "Checking"
+    ],
+    "description": "Players race to a loose puck along the wall while controlled pressure arrives with a dummy. The player uses body position to protect the puck, moves it to a teammate, then circles into space for a return pass.",
+    "coaching_points": [
+      "Get body position between pressure and the puck.",
+      "Stay low and balanced through contact.",
+      "Secure possession before moving the puck.",
+      "Release from the wall and become an immediate passing option."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-boardside-puck-protection-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4626736-0-1761850223.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4626736-0-1761850223.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4626736-1-1761850223.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 955
+  },
+  {
+    "uid": "ihs-dodge-ball-tennis-balls-third-ice-station",
+    "title": "Dodge Ball with Tennis Balls - Third Ice Station",
+    "category": "Shooting / Small Area Game / Station",
+    "drill_types": [
+      "Shooting",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Two teams begin on opposite sides of a third-ice station with tennis balls placed through the middle. On the whistle they collect balls and use controlled shooting motions to try to hit opponents.",
+    "coaching_points": [
+      "Use controlled shooting mechanics.",
+      "Keep shots low and safe.",
+      "Keep the head up while retrieving balls.",
+      "Stay active and aware of traffic."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/dodge-ball-tennis-balls-third-ice-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/dodge-ball-third-ice-station-web.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/dodge-ball-third-ice-station-web.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 956
+  },
+  {
+    "uid": "ihs-1-vs-1-multiple-games-third-ice-station",
+    "title": "1 vs 1 Multiple games - Third Ice Station",
+    "category": "1 on 1 / Small Area Game / Battle",
+    "drill_types": [
+      "1 on 1",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Battle Drills",
+      "Awareness"
+    ],
+    "description": "Several 1-on-1 games run simultaneously inside the same third-ice area, forcing players to compete for their own puck while constantly reading traffic from the other battles.",
+    "coaching_points": [
+      "Compete hard for possession.",
+      "Keep the head up in traffic.",
+      "Use body position to protect the puck.",
+      "Adjust the number of simultaneous games to the group's age and pace."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-vs-1-multiple-games-third-ice-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/1-vs-1-multiple-games-third-ice.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/1-vs-1-multiple-games-third-ice.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 957
+  },
+  {
+    "uid": "ihs-3-vs-3-cross-ice",
+    "title": "3 vs 3 Cross Ice",
+    "category": "3 on 3 / Small Area Game / Station",
+    "drill_types": [
+      "3 on 3",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "description": "Three players per side play cross-ice with the nets moved toward the faceoff dots, creating additional space behind both nets and encouraging quick puck touches, support and attacks from below the goal line.",
+    "coaching_points": [
+      "Keep shifts short and competitive.",
+      "Support the puck on both sides.",
+      "Use the space behind the nets.",
+      "Move the puck quickly to create scoring chances."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-vs-3-cross-ice",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cross-ice-3-vs-3.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cross-ice-3-vs-3.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 958
+  },
+  {
+    "uid": "ihs-explosive-skating-tires",
+    "title": "Explosive Skating with Tires",
+    "category": "Skating / Backwards Skating / Conditioning",
+    "drill_types": [
+      "Skating",
+      "Backwards Skating",
+      "Conditioning",
+      "Explosion",
+      "Full Ice"
+    ],
+    "description": "Forwards accelerate from a standstill, optionally pushing tires for resistance through their first strides, while defensemen explode backward, build speed with C-cuts and pivot to race the forwards to the red line.",
+    "coaching_points": [
+      "Explode through the first three to five strides.",
+      "Defensemen use a powerful cross-under into backward C-cuts.",
+      "Pivot at speed without crossing the feet inefficiently.",
+      "Forwards continue accelerating after releasing the tire."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/explosive-skating-tires",
+    "image": "https://www.files.icehockeysystems.com/files/drills/explosive-skating-with-tires.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/explosive-skating-with-tires.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 959
   }
 ]
