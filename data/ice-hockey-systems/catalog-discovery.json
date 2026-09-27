@@ -9004,5 +9004,73 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 583,
+    "title": "Split Ice Full Length Backcheck Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/split-ice-full-length-backcheck-game",
+    "categories": [
+      "Backchecking",
+      "Conditioning",
+      "Full Ice",
+      "Stations",
+      "Shooting",
+      "1 vs 1",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 10-11 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 584,
+    "title": "Horseshoe Regroup One Goalie #2 (Hinge)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/horseshoe-regroup-one-goalie-2-hinge",
+    "categories": [
+      "Full Ice",
+      "One Goalie",
+      "Transition",
+      "Passing",
+      "Re-Group",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 10-11 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 585,
+    "title": "Drop Pass Angle 1 on 1 Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/drop-pass-angle-1-1-drill",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Half Ice",
+      "One Goalie",
+      "Defensive",
+      "Offensive",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 10-11 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 586,
+    "title": "Neutral Zone Puck Skills #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-puck-skills-2",
+    "categories": [
+      "Puck Control",
+      "Puck Protection",
+      "Puck Handling",
+      "Stickhandling",
+      "Stations",
+      "Third Ice Stations",
+      "Neutral Zone",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 10-11 exact-diagram reconciliation"
   }
 ]
