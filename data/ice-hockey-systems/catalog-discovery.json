@@ -564,7 +564,7 @@
       "Goalie"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills"
   },
   {
@@ -5069,5 +5069,105 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "discovered-needs-enrichment",
     "discovered_from": "Breakouts page 2"
+  },
+  {
+    "discovery_number": 353,
+    "title": "Half Ice Finnish Skills Series with one Net",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-finnish-skills-series-one-net",
+    "categories": [
+      "Half Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Passing",
+      "Shooting",
+      "Skill Development",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS related drill/category discovery"
+  },
+  {
+    "discovery_number": 354,
+    "title": "Half Ice Side By Side Skills Series #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-side-side-skills-series-1",
+    "categories": [
+      "Half Ice",
+      "Skating",
+      "Puck Control",
+      "Puck Handling",
+      "Stickhandling",
+      "Skill Development",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS related drill/category discovery"
+  },
+  {
+    "discovery_number": 355,
+    "title": "Footwork Shots #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/footwork-shots-3",
+    "categories": [
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station",
+      "Stickhandling",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS related drill/category discovery"
+  },
+  {
+    "discovery_number": 356,
+    "title": "Circle Stickhandling Series",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/circle-stickhandling-series",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Stations",
+      "Sixth Ice Stations",
+      "Stickhandling",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS related drill/category discovery"
+  },
+  {
+    "discovery_number": 357,
+    "title": "Continuous Warm Up Skills Series #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-warm-skills-series-1",
+    "categories": [
+      "Passing",
+      "Puck Handling",
+      "Stickhandling",
+      "Warm Up",
+      "Full Ice",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS related drill/category discovery"
+  },
+  {
+    "discovery_number": 358,
+    "title": "Continuous Warm Up Skills Series #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-warm-skills-series-2",
+    "categories": [
+      "Passing",
+      "Skating",
+      "Puck Control",
+      "Stickhandling",
+      "Warm Up",
+      "Full Ice",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS related drill/category discovery"
   }
 ]
