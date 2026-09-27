@@ -10325,5 +10325,134 @@
     "member_only": false,
     "status": "verified",
     "number": 315
+  },
+  {
+    "uid": "ihs-922471",
+    "title": "Special Teams Entry Game",
+    "category": "Special Teams / Zone Entry",
+    "drill_types": [
+      "Special Teams",
+      "Zone Entry",
+      "Power Play",
+      "Penalty Kill",
+      "5 vs 4",
+      "Neutral Zone",
+      "Forechecking"
+    ],
+    "description": "A special-teams entry game that gives repeated 5-on-4 blue-line entry reps. The power play starts without much speed and must create space to gain the zone while the penalty kill protects the line, forces chips or dumps, and tries to clear possession.",
+    "coaching_points": [
+      "Penalty killers keep sticks in lanes and force the entry toward low-percentage options.",
+      "Power-play players support the puck and use movement or deception to create an entry lane.",
+      "Keep score to reward clean entries, clears and goals."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "TJ Manastersky / Union Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/union-special-teams-entry-game",
+    "source_id": "922471",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-922471-0-1674530712.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-922471-0-1674530712.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 316
+  },
+  {
+    "uid": "ihs-2625056",
+    "title": "Angling Through The Circles Progression",
+    "category": "1 on 1 / Angling / Small Area Game",
+    "drill_types": [
+      "1 on 1",
+      "2 on 2",
+      "3 on 3",
+      "Angling",
+      "Small Area Games",
+      "Checking",
+      "Half Ice",
+      "Forechecking"
+    ],
+    "description": "A cross-ice angling game that starts 1-on-1 and can progress to 2-on-2 or 3-on-3. The puck carrier wheels around the net to attack while the defender must skate through the circles and arrive with a controlled angle before the live battle continues.",
+    "coaching_points": [
+      "Match the puck carrier's speed before closing the angle.",
+      "Keep the stick on the ice and finish stick-on-puck before using body position.",
+      "Supporting defenders react quickly to loose pucks and transition to offense."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/angling-through-circles-progression",
+    "source_id": "2625056",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625056-0-1694119690.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625056-0-1694119690.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625056-1-1694119690.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 317
+  },
+  {
+    "uid": "ihs-61431",
+    "title": "3 Swing Neutral Zone Forecheck Drill",
+    "category": "Forecheck / Neutral Zone",
+    "drill_types": [
+      "Forechecking",
+      "Neutral Zone",
+      "Re-Group",
+      "Full Ice",
+      "Systems"
+    ],
+    "description": "A neutral-zone forecheck progression where players rehearse individual responsibilities one step at a time before the offensive group attempts to break through the completed forecheck and attack the zone.",
+    "coaching_points": [
+      "Build each forechecking responsibility separately before going live.",
+      "Players hold their spacing and route responsibilities instead of chasing the puck.",
+      "Finish the progression with a live read against the complete forecheck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Denis Savard",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-swing-neutral-zone-forecheck-drill",
+    "source_id": "61431",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-61431-0-1652241052.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-61431-0-1652241052.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-61431-1-1652241052.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-61431-2-1652241052.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 318
+  },
+  {
+    "uid": "ihs-2625086",
+    "title": "2 V 1 Puck Pursuit Angling",
+    "category": "2 on 1 / Forecheck / Angling",
+    "drill_types": [
+      "2 on 1",
+      "Angling",
+      "Forechecking",
+      "Retrievals",
+      "Puck Protection",
+      "Half Ice",
+      "Quarter Ice Station"
+    ],
+    "description": "A defender retrieves a chipped puck and tries to escape past a target near the blue line while two forecheckers pressure together. The first forechecker takes the primary angle and the second supports underneath. If they win the puck, the pair attacks the net.",
+    "coaching_points": [
+      "F1 angles with stick-on-puck pressure and works through the defender's hands.",
+      "F2 takes a flatter support route and is ready for a loose puck.",
+      "The defender protects the puck and uses deceptive skating to escape pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Global Hockey Network",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-1-puck-pursuit-angling",
+    "source_id": "2625086",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625086-0-1693927796.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625086-0-1693927796.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 319
   }
 ]
