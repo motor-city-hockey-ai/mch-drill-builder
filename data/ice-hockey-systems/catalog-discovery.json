@@ -10311,5 +10311,86 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS legacy exact-diagram continuation"
+  },
+  {
+    "discovery_number": 661,
+    "title": "Tic Tac Passing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tic-tac-passing",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Full Ice",
+      "Warm Up",
+      "Puck Support",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 662,
+    "title": "Shooting Gallery",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shooting-gallery",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "One Timer",
+      "Half Ice",
+      "One Goalie",
+      "Power Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 663,
+    "title": "3 Player Passing Series Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-player-passing-series-station",
+    "categories": [
+      "Passing",
+      "Stations",
+      "Third Ice Stations",
+      "Skating",
+      "Transition",
+      "Control Turns"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 664,
+    "title": "Tornado Pivot Passing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tornado-pivot-passing",
+    "categories": [
+      "Passing",
+      "Transition",
+      "Neutral Zone",
+      "Backwards Skating",
+      "Defensive",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 665,
+    "title": "Tornado Passing Drill #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tornado-passing-drill-2",
+    "categories": [
+      "Passing",
+      "Neutral Zone",
+      "Puck Control",
+      "Transition",
+      "Backwards Skating",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing exact-diagram sweep"
   }
 ]
