@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 725,
-    "catalog_items_verified": 725,
+    "catalog_items_imported": 728,
+    "catalog_items_verified": 728,
     "catalog_target": 1573,
-    "last_batch": "IHS related-skill exact-image five-drill batch",
-    "original_diagrams_verified": 725,
+    "last_batch": "IHS 3-on-2 exact-image three-drill batch",
+    "original_diagrams_verified": 728,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Initial 10 records are now live in the IHS JSON library with source URLs, original source images, detailed categories and rewritten coach-readable notes.",
-    "unique_urls_discovered": 737,
+    "unique_urls_discovered": 740,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 8,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue exact-image recovery from IHS supporting-fundamental pages and dedupe against the live 725-drill IHS library.",
-    "multi_diagram_drills_preserved": 39,
+    "next_step": "Continue category-page reconciliation beyond already-covered matchup groups; exact IHS-hosted diagrams remain mandatory.",
+    "multi_diagram_drills_preserved": 40,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 5,
-    "last_batch_notes": "Added drills 721-725: Breakout Pass 1 on 1; 2 on 1 - 2 on 2 Full Ice Regroup; 2 on 1 with Backchecker; Defense Read 2 on 1; Cross Ice 2 on 1.",
+    "last_batch_imported": 3,
+    "last_batch_notes": "Added drills 726-728: Panda 2 on 1 with Backcheck; Toronto 3 on 2; 3 zone 3 puck. Preserved all three original IHS diagram frames for Toronto 3 on 2.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "Shooting Warm-Up Progression - page exposes two Drill Maker images; exact original image URLs still need resolution.",
@@ -67,6 +67,6 @@
       "Point to Half Wall 2 vs 1 - related-skill page exposes a photo thumbnail, not a verified rink diagram; defer rather than substitute the photo."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 5
+    "last_batch_discovered": 3
   }
 }
