@@ -4463,7 +4463,7 @@
       "Zone Entry"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Battle Drills page 2"
   },
   {
@@ -4486,7 +4486,7 @@
   {
     "discovery_number": 320,
     "title": "Go Go",
-    "source_url": "https://www.icehockeysystems.com/hockey-drills/go-go",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-go-go",
     "categories": [
       "1 on 1",
       "2 on 1",
@@ -4508,7 +4508,7 @@
       "Wall Play"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Battle Drills page 2"
   },
   {
@@ -4527,7 +4527,307 @@
       "Defensive Zone"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Battle Drills page 2"
+  },
+  {
+    "discovery_number": 322,
+    "title": "2 on 2 Angling with Defensive Reward",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-2-angling-defensive-reward",
+    "categories": [
+      "2 on 2",
+      "3 on 2",
+      "Angling",
+      "Checking",
+      "Defensive",
+      "Half Ice",
+      "Offensive",
+      "Small Area Games",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Checking/Breakouts category"
+  },
+  {
+    "discovery_number": 323,
+    "title": "Owls 2 v 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/owls-2-v-2",
+    "categories": [
+      "Offensive",
+      "Offensive Zone",
+      "2 on 2",
+      "3 on 2",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Full Ice",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Checking/Breakouts category"
+  },
+  {
+    "discovery_number": 324,
+    "title": "Purple Eagle Angle Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-purple-eagle-angle-drill",
+    "categories": [
+      "1 on 1",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Stickhandling",
+      "Neutral Zone",
+      "Angling",
+      "Checking",
+      "Full Ice",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Checking/Breakouts category"
+  },
+  {
+    "discovery_number": 325,
+    "title": "Cutting Hands Warm-Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cutting-hands-warm-up",
+    "categories": [
+      "1 on 1",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Stickhandling",
+      "Warm Up",
+      "Backchecking",
+      "Checking",
+      "Angling"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Checking/Breakouts category"
+  },
+  {
+    "discovery_number": 326,
+    "title": "Beaver Track",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/beaver-track",
+    "categories": [
+      "Passing",
+      "Re-Group",
+      "Transition",
+      "2 on 0",
+      "Angling",
+      "Checking",
+      "Flow",
+      "Full Ice",
+      "Backchecking"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Checking/Breakouts category"
+  },
+  {
+    "discovery_number": 327,
+    "title": "The Breakout Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-breakout-game",
+    "categories": [
+      "Passing",
+      "Small Area Games",
+      "Transition",
+      "Breakouts",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Forechecking",
+      "5 on 3"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Checking/Breakouts category"
+  },
+  {
+    "discovery_number": 328,
+    "title": "Cloverleaf Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-cloverleaf-drill",
+    "categories": [
+      "Puck Protection",
+      "Puck Control",
+      "Skating",
+      "Tight Turns",
+      "Skill Development",
+      "Checking",
+      "Angling",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Checking/Breakouts category"
+  },
+  {
+    "discovery_number": 329,
+    "title": "Renegade Line Rush",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-renegade-line-rush",
+    "categories": [
+      "3 on 2",
+      "5 vs 5",
+      "Down Low",
+      "Full Ice",
+      "Transition",
+      "Coverage",
+      "Zone Entry",
+      "Conditioning"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Checking/Breakouts category"
+  },
+  {
+    "discovery_number": 330,
+    "title": "2 on 2 Long Transition",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-2-long-transition",
+    "categories": [
+      "2 on 2",
+      "Backchecking",
+      "Breakouts",
+      "Conditioning",
+      "Defensive",
+      "Full Ice",
+      "Offensive",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts category page 1"
+  },
+  {
+    "discovery_number": 331,
+    "title": "3 on 3 Carryout",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-on-3-carryout",
+    "categories": [
+      "3 on 3",
+      "Breakouts",
+      "Half Ice",
+      "Puck Protection",
+      "Zone Entry",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts category page 1"
+  },
+  {
+    "discovery_number": 332,
+    "title": "Breakout to 2 Forecheckers",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakout-to-2-forecheckers",
+    "categories": [
+      "Breakouts",
+      "Forechecking",
+      "Offensive",
+      "Puck Support",
+      "Retrievals",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts category page 1"
+  },
+  {
+    "discovery_number": 333,
+    "title": "Tag Up Forecheck",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tag-up-forecheck",
+    "categories": [
+      "5 vs 5",
+      "Angling",
+      "Breakouts",
+      "Coverage",
+      "Defensive",
+      "Forechecking",
+      "Full Ice",
+      "Offensive",
+      "Re-Group",
+      "Small Area Games",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts category page 1"
+  },
+  {
+    "discovery_number": 334,
+    "title": "Wilkie Rim's",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wilkie-rims-drill",
+    "categories": [
+      "3 on 2",
+      "Breakouts",
+      "Defensive",
+      "Full Ice",
+      "Gap",
+      "Offensive",
+      "Wall Play",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts category page 1"
+  },
+  {
+    "discovery_number": 335,
+    "title": "Outside 2 on 1's",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/outside-2-1s",
+    "categories": [
+      "Zone Entry",
+      "Passing",
+      "Breakouts",
+      "2 on 1",
+      "Full Ice",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts category page 1"
+  },
+  {
+    "discovery_number": 336,
+    "title": "The Andy Murray",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-andy-murray",
+    "categories": [
+      "2 on 1",
+      "Backchecking",
+      "Backwards Skating",
+      "Breakouts",
+      "Conditioning",
+      "Full Ice",
+      "Gap",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts category page 1"
+  },
+  {
+    "discovery_number": 337,
+    "title": "D to D Reverse With Shot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-d-reverse-shot",
+    "categories": [
+      "Passing",
+      "Breakouts",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "discovered-needs-enrichment",
+    "discovered_from": "Breakouts category page 1"
   }
 ]
