@@ -22259,5 +22259,130 @@
     "original_diagram": true,
     "status": "verified",
     "number": 681
+  },
+  {
+    "uid": "ihs-1-vs-1-fox-and-hound",
+    "title": "1 vs 1 Fox and Hound",
+    "category": "1 vs 1 / Race / Battle",
+    "drill_types": [
+      "1 vs 1",
+      "Battle Drills",
+      "Conditioning",
+      "Full Ice",
+      "Races",
+      "Puck Protection"
+    ],
+    "description": "Two players race around separate cones after the coach sends a puck off the boards. Both players compete to win possession and turn the race into a live 1-on-1 scoring chance.",
+    "coaching_points": [
+      "Keep the feet moving through the puck instead of reaching for it.",
+      "Win inside ice after gaining possession.",
+      "Protect the puck with the body while driving toward a scoring lane.",
+      "Compete through the finish instead of ending the rep at first contact."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Hockey Coach Vision",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-vs-1-fox-and-hound",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4048131-0-1707924042.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4048131-0-1707924042.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 682
+  },
+  {
+    "uid": "ihs-2-vs-2-finnish-buffet",
+    "title": "2 vs. 2 Finnish Buffet Game",
+    "category": "2 vs 2 / Transition / Full Ice",
+    "drill_types": [
+      "2 vs 2",
+      "Passing",
+      "Puck Control",
+      "Small Area Games",
+      "Offensive Zone",
+      "Defensive Zone",
+      "Full Ice",
+      "Transition",
+      "Puck Support"
+    ],
+    "description": "A continuous full-ice 2-on-2 game that repeatedly moves players from offense to defense and back into transition. Possession must advance through a neutral-zone support player before the next attack develops.",
+    "coaching_points": [
+      "Defenders communicate switches and manage gap in a large space.",
+      "The puck carrier reads whether the attack is 1-on-1, 2-on-1 or 2-on-2 before forcing a play.",
+      "The off-puck attacker works to create a support lane and an odd-player advantage.",
+      "Transition immediately when possession changes and change hard when the game calls for it."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ben Eaves",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-finnish-buffet",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-154906-0-1660313480.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-154906-0-1660313480.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 683
+  },
+  {
+    "uid": "ihs-full-ice-overspeed-skating-progression-2",
+    "title": "Full Ice Overspeed Skating Progression #2",
+    "category": "Skating / Overspeed / Full Ice",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Full Ice",
+      "Warm Up",
+      "Conditioning",
+      "Crossovers"
+    ],
+    "description": "Players leave from opposite corners, use quick crossovers around the circles, then change gears down the length of the ice. The route alternates controlled full strides with a short maximum-foot-speed segment.",
+    "coaching_points": [
+      "Use quick feet through the crossover sections without losing body control.",
+      "At controlled speed, emphasize long and powerful full strides.",
+      "Increase foot speed sharply through the overspeed segment.",
+      "Maintain posture and edge control while changing gears."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-overspeed-skating-progression-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/overspeed-progression-2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/overspeed-progression-2.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 684
+  },
+  {
+    "uid": "ihs-michigan-neutral-zone-timing-drill",
+    "title": "Michigan Neutral Zone Timing Drill",
+    "category": "3 vs 0 / Neutral Zone / Timing",
+    "drill_types": [
+      "3 vs 0",
+      "Passing",
+      "Transition",
+      "Neutral Zone",
+      "Full Ice",
+      "Zone Entry",
+      "Puck Support",
+      "Shooting"
+    ],
+    "description": "A three-player neutral-zone timing sequence built around a defenseman receiving while moving backward, using an escape, and connecting the forwards through a timed regroup. The entry finishes with a delay and a late defenseman joining the attack.",
+    "coaching_points": [
+      "Defense calls for the puck and controls it while moving instead of stopping the feet.",
+      "Forwards time support routes so they receive with speed and separation.",
+      "Use the one-touch wall connection to keep the regroup moving.",
+      "Net drive creates room for the delay pass to the late defenseman."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/michigan-neutral-zone-timing-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/michigan-neutral-zone-timing.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/michigan-neutral-zone-timing.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 685
   }
 ]
