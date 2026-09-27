@@ -16357,5 +16357,133 @@
     "original_diagram": true,
     "status": "verified",
     "number": 501
+  },
+  {
+    "uid": "ihs-342",
+    "title": "Eagles Half Ice 2 on 1",
+    "category": "2 vs 1",
+    "drill_types": [
+      "2 vs 1",
+      "Half Ice",
+      "Passing",
+      "Shooting",
+      "Transition",
+      "Breakouts",
+      "Gap",
+      "One Goalie"
+    ],
+    "description": "Two forwards begin with separate pass-and-shot touches, then work into a breakout and timed middle-support route. The pair exits the zone, regroups through the neutral area and attacks back 2-on-1 against the defenseman.",
+    "coaching_points": [
+      "Time the middle support route so the breakout receiver has a clean second option.",
+      "Move the puck before pressure closes and attack the return rush with speed.",
+      "Defenseman recovers through the middle, establishes gap and protects the passing lane.",
+      "Both forwards finish at the net after the 2-on-1."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/eagles-half-ice-2-1",
+    "source_id": "342",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-342-0-1667227391.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-342-0-1667227391.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 502
+  },
+  {
+    "uid": "ihs-351",
+    "title": "Quarter Ice 3 vs. 3",
+    "category": "3 vs 3",
+    "drill_types": [
+      "3 vs 3",
+      "Passing",
+      "Small Area Games",
+      "Stations",
+      "Sixth Ice Stations",
+      "Quarter Ice",
+      "Battle Drills",
+      "Awareness"
+    ],
+    "description": "Three players per side compete in a tight quarter-ice game with the two nets set on opposite sides of a faceoff circle. One player from each team is restricted to the defensive half of the circle while two teammates work the offensive side.",
+    "coaching_points": [
+      "Use quick puck movement because time and space disappear fast.",
+      "Off-puck players create passing lanes instead of standing beside the puck carrier.",
+      "Defenders stay goal-side and communicate through switches.",
+      "Keep shifts short and competitive to maintain pace."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-3-vs-3",
+    "source_id": "351",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quarter-ice-3v3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quarter-ice-3v3.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 503
+  },
+  {
+    "uid": "ihs-ring-it-1v1",
+    "title": "Ring It 1 on 1",
+    "category": "1 vs 1",
+    "drill_types": [
+      "1 vs 1",
+      "Full Ice",
+      "Defensive",
+      "Gap",
+      "Breakouts",
+      "Wall Play",
+      "Retrievals",
+      "Zone Entry",
+      "Tryout"
+    ],
+    "description": "A forward rims the puck around the boards to a teammate on the opposite side. The receiver transitions inside-out to collect it in motion and attacks up ice while the defenseman times the route, closes gap and defends the zone entry.",
+    "coaching_points": [
+      "Receiver times the route so the puck is collected with speed rather than from a standstill.",
+      "Use the wall cleanly and accelerate immediately after possession.",
+      "Defenseman keeps inside positioning and closes the gap before the blue line.",
+      "Forward attacks the defender's feet and uses speed or deception to gain the zone."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/ring-it-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/ring-it-1v1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/ring-it-1v1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 504
+  },
+  {
+    "uid": "ihs-cross-poke-shoot",
+    "title": "Cross, Poke, Shoot",
+    "category": "Shooting",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Defensive",
+      "Footwork",
+      "Poke Check",
+      "Backwards Skating",
+      "Puck Control"
+    ],
+    "description": "Defensemen work lateral footwork and poke checks on two loose pucks, transition backward around a marker, then receive a coach pass while moving backward before controlling the puck and getting a hard shot through from the blue line.",
+    "coaching_points": [
+      "Stay balanced through the lateral crossover and poke-check movements.",
+      "Recover quickly to backward skating after each puck touch.",
+      "Receive the pass under control while moving backward, then walk toward the middle when possible.",
+      "Get the shot off quickly and through the shooting lane."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cross-poke-shoot",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cross-poke-shoot.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cross-poke-shoot.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 505
   }
 ]
