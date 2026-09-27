@@ -20693,5 +20693,170 @@
     "member_only": true,
     "status": "verified",
     "number": 633
+  },
+  {
+    "uid": "ihs-507376",
+    "title": "2-1 Low/2-1 Long",
+    "category": "2 vs 1 / Transition / Full Ice",
+    "drill_types": [
+      "2 vs 1",
+      "Full Ice",
+      "Offensive",
+      "Defensive",
+      "Transition",
+      "Passing",
+      "Shooting",
+      "Net Front"
+    ],
+    "description": "A two-part 2-on-1 progression. The first rep starts with a coach rim and a low 2-on-1, followed by a point shot with net-front traffic. The forwards then transition the other direction for a full-ice 2-on-1 against the opposite defenseman.",
+    "coaching_points": [
+      "Handle the rim cleanly and create width before attacking the low 2-on-1.",
+      "Drive the net after the first attack and establish useful screen or rebound position.",
+      "Defense gets the second puck to the net quickly through traffic.",
+      "On the long 2-on-1, attack with speed and force the defender to make a decision."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-low2-1-long",
+    "source_id": "507376",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-507376-1631100211.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-507376-1631100211.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 634
+  },
+  {
+    "uid": "ihs-511176",
+    "title": "2 Shot Rim/Players adding pressure",
+    "category": "Rim Retrieval / Shooting / Pressure",
+    "drill_types": [
+      "Shooting",
+      "Retrievals",
+      "Puck Protection",
+      "Passing",
+      "Offensive",
+      "Defensive",
+      "Full Ice",
+      "Pressure"
+    ],
+    "description": "A two-shot rim and pressure drill. Players retrieve coach rims and attack a stationary pressure player for the first shot, then curl low, receive a cross-ice pass, protect the puck around pressure near the red line and attack a second pressure player for another shot.",
+    "coaching_points": [
+      "Shoulder-check before arriving at the rim and get the puck off the wall under control.",
+      "Attack the pressure player's feet and use body position to protect the puck.",
+      "Accelerate after escaping pressure instead of gliding into the shot.",
+      "Rotate through the pressure role so players learn both sides of the contact."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-shot-rimplayers-adding-pressure",
+    "source_id": "511176",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-511176-1631205019.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-511176-1631205019.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 635
+  },
+  {
+    "uid": "ihs-515056",
+    "title": "Wall to Saucer Pass 6 Shooter (2-1)",
+    "category": "Saucer Passing / Shooting / 2 vs 1",
+    "drill_types": [
+      "2 vs 1",
+      "Passing",
+      "Shooting",
+      "Skill Development",
+      "Puck Control",
+      "Full Ice",
+      "Offensive"
+    ],
+    "description": "A multi-shot saucer-passing progression. The wall player receives from the coach and makes saucer passes over stick obstacles to teammates for shots, then works around the obstacles for another shot. The progression finishes with two forwards attacking a defender 2-on-1.",
+    "coaching_points": [
+      "Keep saucer passes flat and land them beyond the obstacle.",
+      "Receivers present a target and prepare for a quick release.",
+      "Move the feet immediately after each pass to stay involved in the sequence.",
+      "Finish the progression by attacking the 2-on-1 with width and pace."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wall-saucer-pass-6-shooter-2-1",
+    "source_id": "515056",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-515056-1631314115.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-515056-1631314115.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 636
+  },
+  {
+    "uid": "ihs-520496",
+    "title": "Puck Protect to 2-1",
+    "category": "Puck Protection / 2 vs 1 / Transition",
+    "drill_types": [
+      "2 vs 1",
+      "Puck Protection",
+      "Puck Control",
+      "Offensive",
+      "Defensive",
+      "Transition",
+      "Passing",
+      "Full Ice"
+    ],
+    "description": "A puck-protection battle transitions into a 2-on-1. One player protects the puck between the blue line and wall while a partner applies pressure. On the whistle, the puck protector attacks for a quick shot, then becomes the defender against the next two-player rush.",
+    "coaching_points": [
+      "Use hips and body position to keep the defender away from the puck.",
+      "Explode out of the protection area when the whistle sounds.",
+      "The new defender retakes ice quickly and establishes inside position.",
+      "The two attackers use width and a clear passing lane on the 2-on-1."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-protect-2-1",
+    "source_id": "520496",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-520496-1631556086.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-520496-1631556086.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 637
+  },
+  {
+    "uid": "ihs-524121",
+    "title": "BO Stretch to 2-1",
+    "category": "Breakout / Stretch Pass / 2 vs 1",
+    "drill_types": [
+      "2 vs 1",
+      "Breakouts",
+      "Passing",
+      "Puck Support",
+      "Transition",
+      "Zone Entry",
+      "Full Ice",
+      "Offensive",
+      "Defensive"
+    ],
+    "description": "A breakout-to-rush progression. Two forwards work around the faceoff dot while the defense gaps up. After the puck is sent deep, the defender retrieves and hits a forward stretching to the far blue line. The second forward supports through the middle and the pair attacks the opposite defender 2-on-1.",
+    "coaching_points": [
+      "The retrieving defender gets the head up early and delivers the stretch pass on time.",
+      "The supporting forward stays underneath the puck and arrives with speed.",
+      "Use the wall, middle or bump option based on the defender's position.",
+      "Attack the 2-on-1 with pace and keep the passing lane available."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bo-stretch-2-1",
+    "source_id": "524121",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-524121-1631643526.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-524121-1631643526.png"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 638
   }
 ]
