@@ -12305,5 +12305,124 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Sorted catalog pages 14-15 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 788,
+    "title": "Tire Moves",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tire-moves",
+    "categories": [
+      "Shooting",
+      "Stickhandling",
+      "Puck Control",
+      "Neutral Zone",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 16-17 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 789,
+    "title": "D-Zone D to D",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-zone-d-d-0",
+    "categories": [
+      "Breakouts",
+      "Passing",
+      "Re-Group",
+      "Defensive Zone",
+      "Retrievals"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 16-17 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 790,
+    "title": "O-Zone Sticklift Regroup",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/o-zone-sticklift-regroup-0",
+    "categories": [
+      "Defensive",
+      "Offensive Zone",
+      "Retrievals",
+      "Passing",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 16-17 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 791,
+    "title": "Body Contact Boardside Puck Protection",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-boardside-puck-protection-0",
+    "categories": [
+      "Breakouts",
+      "Defensive Zone",
+      "Puck Protection",
+      "Wall Play",
+      "Checking"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 16-17 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 792,
+    "title": "Dodge Ball with Tennis Balls - Third Ice Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/dodge-ball-tennis-balls-third-ice-station",
+    "categories": [
+      "Shooting",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 16-17 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 793,
+    "title": "1 vs 1 Multiple games - Third Ice Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-vs-1-multiple-games-third-ice-station",
+    "categories": [
+      "1 on 1",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Battle Drills",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 16-17 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 794,
+    "title": "3 vs 3 Cross Ice",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-vs-3-cross-ice",
+    "categories": [
+      "3 on 3",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 16-17 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 795,
+    "title": "Explosive Skating with Tires",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/explosive-skating-tires",
+    "categories": [
+      "Skating",
+      "Backwards Skating",
+      "Conditioning",
+      "Explosion",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted catalog pages 16-17 + verified original IHS source image"
   }
 ]
