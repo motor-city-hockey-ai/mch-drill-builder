@@ -5963,5 +5963,74 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS verified diagram category sweep"
+  },
+  {
+    "discovery_number": 409,
+    "title": "2 on 2 Down Low Rim",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-2-down-low-rim",
+    "categories": [
+      "2 vs 2",
+      "Battle Drills",
+      "Down Low",
+      "Defensive",
+      "Defensive Zone",
+      "Puck Protection",
+      "Wall Play",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS page 7 verification"
+  },
+  {
+    "discovery_number": 410,
+    "title": "Picking Up Rims with Front Pressure",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/picking-up-rims-front-pressure",
+    "categories": [
+      "Retrievals",
+      "Wall Play",
+      "Puck Protection",
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS page 7 verification"
+  },
+  {
+    "discovery_number": 411,
+    "title": "Picking Up Rims with Back Pressure",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/picking-up-rims-back-pressure",
+    "categories": [
+      "Retrievals",
+      "Wall Play",
+      "Puck Protection",
+      "Puck Control",
+      "Backchecking",
+      "Skill Development",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS page 7 verification"
+  },
+  {
+    "discovery_number": 412,
+    "title": "3 v 2 with Angling Backchecker Continuous",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-2-angling-backchecker-continuous",
+    "categories": [
+      "3 vs 2",
+      "Backchecking",
+      "Angling",
+      "Transition",
+      "Full Ice",
+      "Offensive",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS page 7 verification"
   }
 ]
