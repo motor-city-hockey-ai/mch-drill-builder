@@ -7009,5 +7009,95 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS catalog page 11"
+  },
+  {
+    "discovery_number": 470,
+    "title": "2-1 Low/2-1 Long",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-low2-1-long",
+    "categories": [
+      "2 vs 1",
+      "Full Ice",
+      "Offensive",
+      "Defensive",
+      "Transition",
+      "Passing",
+      "Shooting",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 471,
+    "title": "2 Shot Rim/Players adding pressure",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-shot-rimplayers-adding-pressure",
+    "categories": [
+      "Shooting",
+      "Retrievals",
+      "Puck Protection",
+      "Passing",
+      "Offensive",
+      "Defensive",
+      "Full Ice",
+      "Pressure"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 472,
+    "title": "Wall to Saucer Pass 6 Shooter (2-1)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wall-saucer-pass-6-shooter-2-1",
+    "categories": [
+      "2 vs 1",
+      "Passing",
+      "Shooting",
+      "Skill Development",
+      "Puck Control",
+      "Full Ice",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 473,
+    "title": "Puck Protect to 2-1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-protect-2-1",
+    "categories": [
+      "2 vs 1",
+      "Puck Protection",
+      "Puck Control",
+      "Offensive",
+      "Defensive",
+      "Transition",
+      "Passing",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
+  },
+  {
+    "discovery_number": 474,
+    "title": "BO Stretch to 2-1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bo-stretch-2-1",
+    "categories": [
+      "2 vs 1",
+      "Breakouts",
+      "Passing",
+      "Puck Support",
+      "Transition",
+      "Zone Entry",
+      "Full Ice",
+      "Offensive",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS content-search verified diagram batch"
   }
 ]
