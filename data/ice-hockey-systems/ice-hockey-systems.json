@@ -11426,5 +11426,69 @@
     "member_only": false,
     "status": "verified",
     "number": 349
+  },
+  {
+    "uid": "ihs-1317",
+    "title": "Speed 2 on 1",
+    "category": "2 on 1 / Regroup / Transition",
+    "drill_types": [
+      "2 on 1",
+      "Re-Group",
+      "Transition",
+      "Passing",
+      "Full Ice",
+      "Gap",
+      "Zone Entry"
+    ],
+    "description": "A high-tempo regroup drill that turns into a fast 2-on-1. The defenseman receives a pass while skating backward, transitions up ice and moves the puck to either forward. The forwards use a second regroup before attacking the original defender 2-on-1.",
+    "coaching_points": [
+      "Forwards time middle and wide support so the defenseman has short passing options.",
+      "Attack the final 2-on-1 with speed and staggered lanes.",
+      "Defender protects the middle and keeps the stick in the passing lane."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/speed-2-1",
+    "source_id": "1317",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1317-1631320653.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1317-1631320653.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 350
+  },
+  {
+    "uid": "ihs-4786931",
+    "title": "3 v 3 with 3 Ways to Score",
+    "category": "3 on 3 / Small Area Game",
+    "drill_types": [
+      "3 on 3",
+      "Small Area Games",
+      "Passing",
+      "Puck Protection",
+      "Puck Support",
+      "Coverage",
+      "Half Ice"
+    ],
+    "description": "A 3-on-3 game with three scoring methods: complete a pass through two defenders, complete a one-touch pass, or score a goal. Teams keep score throughout the game.",
+    "coaching_points": [
+      "Defenders keep sticks in passing lanes and angle attackers outside.",
+      "Offense moves without the puck to create passing lanes.",
+      "Look for one-touch opportunities instead of holding the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Darryl Belfry",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-with-3-ways-score",
+    "source_id": "4786931",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4786931-0-1726502228.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4786931-0-1726502228.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 351
   }
 ]
