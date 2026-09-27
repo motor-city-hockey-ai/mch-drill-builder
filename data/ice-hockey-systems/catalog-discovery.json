@@ -9866,5 +9866,39 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 634,
+    "title": "Tight Swivel Puck Control",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tight-swivel-puck-control",
+    "categories": [
+      "Puck Control",
+      "Stations",
+      "Sixth Ice Stations",
+      "Third Ice Stations",
+      "Stickhandling",
+      "Skating",
+      "Agility"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep"
+  },
+  {
+    "discovery_number": 635,
+    "title": "Retrieval Races",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/retrieval-races",
+    "categories": [
+      "Skating",
+      "Backwards Skating",
+      "Half Ice",
+      "Retrievals",
+      "Races",
+      "Shooting",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy exact-diagram sweep"
   }
 ]
