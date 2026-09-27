@@ -31625,5 +31625,98 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-overload-power-play-drill",
+    "number": 983,
+    "title": "Overload Power Play Drill",
+    "category": "Power Play / Shooting / Offensive Zone",
+    "drill_types": [
+      "Power Play",
+      "Shooting",
+      "Passing",
+      "Offensive",
+      "Offensive Zone",
+      "Half Ice"
+    ],
+    "description": "A half-ice power-play shooting drill built around an overload setup. A forward moves the puck to the point and follows up the wall while the defenseman walks the blue line. The puck returns to the wall for a seam attack and shot; the next repetition adds a low give-and-go before the seam shot.",
+    "coaching_points": [
+      "Defenseman walks the puck inside before returning it to the wall.",
+      "Forward receives in a shooting position and attacks the seam with feet moving.",
+      "Follow the shot to the crease.",
+      "On the second action, use the low give-and-go to create the seam shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/overload-power-play-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/overload-power-play-drill-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/overload-power-play-drill-1.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/overload-power-play-drill-2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-westminster-3-on-3",
+    "number": 984,
+    "title": "Westminster 3 on 3",
+    "category": "3 on 3 / Small Area Game / Half Ice",
+    "drill_types": [
+      "3 on 3",
+      "Small Area Games",
+      "Half Ice",
+      "Passing",
+      "Puck Support",
+      "Offensive"
+    ],
+    "description": "A 3 on 3 game where teams play until a goal. The scoring team stays on the ice, while the losing team is replaced by the players lined up as bumpers at the blue line. The incoming team is the only team allowed to use the bumpers, creating an immediate possession advantage.",
+    "coaching_points": [
+      "Use the available bumpers to create an advantage.",
+      "Move the puck quickly and keep the feet moving.",
+      "Recognize the transition immediately after a goal.",
+      "Support the puck and attack open space."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/westminster-3-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/westminster-3-on-3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/westminster-3-on-3.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-1-vs-1-mini-nets-multiple-games",
+    "number": 985,
+    "title": "1 vs 1 with Mini Nets - Multiple Games",
+    "category": "1 on 1 / Small Area Game / Mini Nets",
+    "drill_types": [
+      "1 on 1",
+      "Small Area Games",
+      "Stations",
+      "Puck Protection",
+      "Awareness"
+    ],
+    "description": "A mini-net 1 on 1 game that can run in several areas at the same time without goalies. Multiple simultaneous games force players to scan, keep their heads up and compete while navigating traffic around them.",
+    "coaching_points": [
+      "Compete hard for possession.",
+      "Keep the head up and scan for surrounding traffic.",
+      "Protect the puck in tight space.",
+      "Let players solve the 1 on 1 situation rather than over-coaching the rep."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Hockey Coach Vision",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-vs-1-mini-nets-multiple-games",
+    "image": "https://www.files.icehockeysystems.com/files/drills/1v1-multiple-games.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/1v1-multiple-games.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
