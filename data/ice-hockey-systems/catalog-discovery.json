@@ -12498,5 +12498,48 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Verified original IHS source image reconciliation"
+  },
+  {
+    "discovery_number": 801,
+    "title": "Overload Power Play Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/overload-power-play-drill",
+    "categories": [
+      "Power Play",
+      "Shooting",
+      "Passing",
+      "Offensive Zone",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Fresh IHS catalog reconciliation + verified original source diagram"
+  },
+  {
+    "discovery_number": 802,
+    "title": "Westminster 3 on 3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/westminster-3-3",
+    "categories": [
+      "3 on 3",
+      "Small Area Games",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Fresh IHS catalog reconciliation + verified original source diagram"
+  },
+  {
+    "discovery_number": 803,
+    "title": "1 vs 1 with Mini Nets - Multiple Games",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-vs-1-mini-nets-multiple-games",
+    "categories": [
+      "1 on 1",
+      "Small Area Games",
+      "Stations",
+      "Puck Protection",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Fresh IHS catalog reconciliation + verified original source diagram"
   }
 ]
