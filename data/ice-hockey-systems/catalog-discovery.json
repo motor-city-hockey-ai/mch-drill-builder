@@ -6227,5 +6227,100 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS catalog page 10"
+  },
+  {
+    "discovery_number": 425,
+    "title": "Skilled Passing to 1 on 1 Battle Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/skilled-passing-1-1-battle-drill",
+    "categories": [
+      "1 vs 1",
+      "2 vs 0",
+      "Battle Drills",
+      "Half Ice",
+      "Offensive",
+      "Passing",
+      "Shooting",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 10"
+  },
+  {
+    "discovery_number": 426,
+    "title": "Neutral Zone 3 vs. 3 Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-3-vs-3-game",
+    "categories": [
+      "3 vs 3",
+      "Passing",
+      "Offensive",
+      "Defensive",
+      "Small Area Games",
+      "Neutral Zone",
+      "Battle Drills",
+      "Transition",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 10"
+  },
+  {
+    "discovery_number": 427,
+    "title": "Continuous In Zone 2 vs. 2 Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-zone-2-vs-2",
+    "categories": [
+      "2 vs 2",
+      "Puck Protection",
+      "Offensive",
+      "Defensive",
+      "Small Area Games",
+      "Offensive Zone",
+      "Battle Drills",
+      "Conditioning",
+      "Coverage",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 10"
+  },
+  {
+    "discovery_number": 428,
+    "title": "Finnish 5 Puck - Rotating Zones",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/finnish-5-puck-rotating-zones",
+    "categories": [
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Skating",
+      "Skill Development",
+      "Third Ice Stations",
+      "Warm Up",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 10"
+  },
+  {
+    "discovery_number": 429,
+    "title": "High Tempo 2 vs. 2 to Net",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/high-tempo-2-vs-2-net",
+    "categories": [
+      "2 vs 2",
+      "Passing",
+      "Puck Control",
+      "Offensive",
+      "Defensive",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Transition",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS catalog page 10"
   }
 ]
