@@ -8668,5 +8668,341 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS 3-on-2 category gap sweep"
+  },
+  {
+    "discovery_number": 565,
+    "title": "3 v 3 Pass Through The Cones",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-pass-through-cones-game",
+    "categories": [
+      "3 vs 3",
+      "2 vs 2",
+      "Passing",
+      "Puck Support",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Offensive",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 566,
+    "title": "Picking Up Rims with No Pressure",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/picking-up-rims-no-pressure",
+    "categories": [
+      "Wall Play",
+      "Puck Handling",
+      "Puck Control",
+      "Skill Development",
+      "Shooting",
+      "Awareness",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 567,
+    "title": "Gretzky Coffey Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/gretzky-coffey-game",
+    "categories": [
+      "3 vs 3",
+      "2 vs 2",
+      "Awareness",
+      "Coverage",
+      "Down Low",
+      "Half Ice",
+      "Puck Support",
+      "Small Area Games",
+      "Passing"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 568,
+    "title": "2 vs 2 with Point Shot - Box Out",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-point-shot-box-out",
+    "categories": [
+      "2 vs 2",
+      "Offensive Zone",
+      "Defensive Zone",
+      "Half Ice",
+      "Down Low",
+      "Coverage",
+      "Net Front",
+      "Shooting",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 569,
+    "title": "Poker 2 V 2 Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/poker-2-v-2-game",
+    "categories": [
+      "2 vs 2",
+      "3 vs 3",
+      "Puck Control",
+      "Puck Protection",
+      "Shooting",
+      "Skill Development",
+      "Small Area Games",
+      "Awareness",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 570,
+    "title": "Pass Through The Circle Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pass-through-circle-game",
+    "categories": [
+      "4 vs 2",
+      "4 vs 3",
+      "3 vs 2",
+      "Passing",
+      "Puck Protection",
+      "Awareness",
+      "Half Ice",
+      "Power Play",
+      "Penalty Kill",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 571,
+    "title": "Escape The Circle",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/escape-the-circle",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Offensive",
+      "Stations",
+      "Awareness",
+      "Agility"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 572,
+    "title": "Griffs Entry Skills",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/griffs-entry-skills",
+    "categories": [
+      "Zone Entry",
+      "Skating",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Stickhandling",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 573,
+    "title": "Summerside Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/summerside-drill",
+    "categories": [
+      "Zone Entry",
+      "Passing",
+      "Shooting",
+      "Transition",
+      "Neutral Zone",
+      "Full Ice",
+      "Retrievals",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 574,
+    "title": "4 V 2 Two Touch Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-v-2-two-touch-game",
+    "categories": [
+      "4 vs 2",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 575,
+    "title": "2 vs 2 Corner Battle Tag Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-corner-battle-tag-up",
+    "categories": [
+      "2 vs 2",
+      "1 vs 1",
+      "Puck Protection",
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 576,
+    "title": "Double Goals Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/double-goals-game",
+    "categories": [
+      "3 vs 3",
+      "2 vs 2",
+      "4 vs 4",
+      "Passing",
+      "Puck Control",
+      "Skill Development",
+      "Offensive",
+      "Small Area Games",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 577,
+    "title": "Rondo Circle Keep Away",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/rondo-circle-keep-away",
+    "categories": [
+      "Passing",
+      "Pre Game",
+      "Puck Handling",
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "Warm Up",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 578,
+    "title": "Protect The Puck Warm-Up (Individual & Team)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/protect-the-puck-warm-up",
+    "categories": [
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Offensive",
+      "Small Area Games",
+      "Warm Up",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 579,
+    "title": "The Chaos Weave",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chaos-weave",
+    "categories": [
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Relay Races",
+      "Shooting",
+      "Offensive",
+      "Full Ice",
+      "Awareness",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 580,
+    "title": "NEHDA 3 Puck",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/nehda-3-puck",
+    "categories": [
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "Passing",
+      "Power Play",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 581,
+    "title": "Cross-Ice Situational Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cross-ice-situational-game",
+    "categories": [
+      "1 vs 1",
+      "2 vs 1",
+      "2 vs 2",
+      "3 vs 1",
+      "3 vs 2",
+      "Offensive",
+      "Small Area Games",
+      "Angling",
+      "Battle Drills",
+      "Half Ice",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
+  },
+  {
+    "discovery_number": 582,
+    "title": "6 vs. 3 Alley Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/6-vs-3-alley-game",
+    "categories": [
+      "6 vs 3",
+      "6 vs 2",
+      "4 vs 2",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Offensive",
+      "Small Area Games",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS master catalog pages 7-9 exact-diagram reconciliation"
   }
 ]
