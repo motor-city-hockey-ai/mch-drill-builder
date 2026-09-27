@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 982,
-    "catalog_items_verified": 982,
+    "catalog_items_imported": 985,
+    "catalog_items_verified": 985,
     "catalog_target": 1573,
-    "last_batch": "IHS verified through #982",
-    "original_diagrams_verified": 982,
+    "last_batch": "IHS verified through #985",
+    "original_diagrams_verified": 985,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
-    "notes": "Live IHS JSON library now contains 982 verified drill records; database and library counts are synchronized.",
+    "notes": "Live IHS JSON library now contains 985 verified drill records; database, discovery index, manifest, and library counts are synchronized.",
     "unique_urls_discovered": 976,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 0,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue from #983 with exact original IHS diagrams only.",
-    "multi_diagram_drills_preserved": 67,
+    "next_step": "Continue from #986 with exact original IHS/site-hosted diagrams only.",
+    "multi_diagram_drills_preserved": 68,
     "last_completed_catalog_page": 2,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 1,
-    "last_batch_notes": "Added Around The Circle Progression Drill as #982 using the exact original IHS rink diagram; no AI replacement.",
+    "last_batch_imported": 3,
+    "last_batch_notes": "Added Overload Power Play Drill (#983) with both original IHS diagrams, Westminster 3 on 3 (#984) with its original IHS diagram, and 1 vs 1 with Mini Nets - Multiple Games (#985) with the exact IHS-hosted source diagram credited on the source page to Hockey Coach Vision. No AI diagrams or substitutes.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "The Ottawa Drill - page exposes a Drill Maker image; exact original image URL still needs resolution.",
@@ -77,6 +77,6 @@
       "Offensive to Defensive Zone Coverage Drill - source page currently exposes video instruction but no original drill diagram; keep deferred rather than substituting an AI diagram."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 1
+    "last_batch_discovered": 3
   }
 }
