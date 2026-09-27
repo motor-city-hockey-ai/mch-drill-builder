@@ -10392,5 +10392,56 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS legacy passing exact-diagram sweep"
+  },
+  {
+    "discovery_number": 666,
+    "title": "Finders Keepers (Teams) - Passing and Puck Control Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/finders-keepers-teams-passing-and-puck-control-drill",
+    "categories": [
+      "Passing",
+      "Puck Handling",
+      "Puck Protection",
+      "Puck Support",
+      "Awareness",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing/station exact-diagram sweep"
+  },
+  {
+    "discovery_number": 667,
+    "title": "3 Player Station Passing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-player-station-passing",
+    "categories": [
+      "Passing",
+      "Stations",
+      "Sixth Ice Stations",
+      "Shooting",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing/station exact-diagram sweep"
+  },
+  {
+    "discovery_number": 668,
+    "title": "Shoot, Curl, Pass, Neutral Zone Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shoot-curl-pass-neutral-zone-station",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Stations",
+      "Third Ice Stations",
+      "Neutral Zone",
+      "Puck Control",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS legacy passing/station exact-diagram sweep"
   }
 ]
