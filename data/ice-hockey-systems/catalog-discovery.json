@@ -12424,5 +12424,79 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Sorted catalog pages 16-17 + verified original IHS source image"
+  },
+  {
+    "discovery_number": 796,
+    "title": "Royal Puck Protection Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/royal-puck-protection-drill",
+    "categories": [
+      "Puck Protection",
+      "Shooting",
+      "Skill Development",
+      "Offensive Zone",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified original IHS source image reconciliation"
+  },
+  {
+    "discovery_number": 797,
+    "title": "Umbrella Roll Power Play Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/umbrella-roll-power-play-drill",
+    "categories": [
+      "Power Play",
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified original IHS source image reconciliation"
+  },
+  {
+    "discovery_number": 798,
+    "title": "Shooting Warm-Up Progression",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shooting-warm-up-progression",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Full Ice",
+      "Flow"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified original IHS source image reconciliation"
+  },
+  {
+    "discovery_number": 799,
+    "title": "4Check body contact corner race",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-body-contact-corner-race-0",
+    "categories": [
+      "Checking",
+      "Battle Drills",
+      "Offensive Zone",
+      "Passing",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified original IHS source image reconciliation"
+  },
+  {
+    "discovery_number": 800,
+    "title": "Body Contact Angle with Sticklift",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/body-contact-angle-sticklift-7",
+    "categories": [
+      "Angling",
+      "Checking",
+      "Shooting",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified original IHS source image reconciliation"
   }
 ]
