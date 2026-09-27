@@ -11234,5 +11234,101 @@
     "member_only": true,
     "status": "verified",
     "number": 343
+  },
+  {
+    "uid": "ihs-31141",
+    "title": "2 vs. 0 Rush Series #1",
+    "category": "2 on 0 / Passing / Warm-Up",
+    "drill_types": [
+      "2 on 0",
+      "Passing",
+      "Warm Up",
+      "Full Ice",
+      "Zone Entry",
+      "Shooting"
+    ],
+    "description": "Two players exchange passes down one side, enter the zone with the outside player wide and the inside player driving the far post, then reverse direction for a second rush with transition skating and a wide shot.",
+    "coaching_points": [
+      "Make multiple clean passes before the blue line.",
+      "Inside player drives the net with the stick available.",
+      "Outside player attacks wide before making the scoring play.",
+      "Keep the second rush moving with controlled transition skating."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-0-rush-series-1",
+    "source_id": "31141",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-31141-1604850704.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-31141-1604850704.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 344
+  },
+  {
+    "uid": "ihs-31146",
+    "title": "2 vs. 0 Rush Series #2",
+    "category": "2 on 0 / Passing / Warm-Up",
+    "drill_types": [
+      "2 on 0",
+      "Passing",
+      "Warm Up",
+      "Full Ice",
+      "Zone Entry",
+      "Shooting"
+    ],
+    "description": "Two players pass up ice, then the outside player uses an escape around a tire to attack the slot while the inside player drives the net. On the return trip they use drop passes before creating a second scoring chance.",
+    "coaching_points": [
+      "Outside player sells the wide route before cutting inside.",
+      "Net driver gets to the crease with timing and purpose.",
+      "Use controlled drop passes on the return rush.",
+      "Finish with a quick release from the high slot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-0-rush-series-2",
+    "source_id": "31146",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-31146-1604893418.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-31146-1604893418.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 345
+  },
+  {
+    "uid": "ihs-31196",
+    "title": "2 vs. 0 Rush Series #3",
+    "category": "2 on 0 / Passing / Warm-Up",
+    "drill_types": [
+      "2 on 0",
+      "Passing",
+      "Warm Up",
+      "Full Ice",
+      "Zone Entry",
+      "Shooting"
+    ],
+    "description": "Two players pass up ice, then the outside player cuts toward the middle and drops the puck to the inside player. The inside player takes the puck wide around the tire and returns it to the high slot for a quick shot, then the pair repeats the concept in the opposite direction.",
+    "coaching_points": [
+      "Time the middle cut and drop pass so both players maintain speed.",
+      "Outside support stays available high in the slot.",
+      "Shoot quickly off the return pass.",
+      "Keep the route continuous and game-paced."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-0-rush-series-3",
+    "source_id": "31196",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-31196-1604894356.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-31196-1604894356.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 346
   }
 ]
