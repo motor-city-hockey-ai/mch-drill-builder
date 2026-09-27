@@ -25063,5 +25063,100 @@
     "original_diagram": true,
     "status": "verified",
     "number": 769
+  },
+  {
+    "uid": "ihs-react-and-angle-drill",
+    "title": "React and Angle Drill",
+    "category": "1 vs 1 / Angling / Checking",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Checking",
+      "Full Ice",
+      "Defensive",
+      "Offensive",
+      "Skating"
+    ],
+    "description": "Two players skate to the blue line, make tight turns and return toward center. The coach passes to either player, instantly defining offense and defense. The defender must react and angle the puck carrier away from the middle and toward the outside.",
+    "coaching_points": [
+      "React immediately when the coach identifies the puck carrier.",
+      "Defender closes on an angle that removes the middle of the ice.",
+      "Keep the feet moving while matching the puck carrier's speed.",
+      "Do not allow the attacker to cut back behind the angle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/react-and-angle-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/read-react-angling.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/read-react-angling.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 770
+  },
+  {
+    "uid": "ihs-transition-angling-drill",
+    "title": "Transition Angling Drill",
+    "category": "1 vs 1 / Angling / Transition",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Checking",
+      "Full Ice",
+      "Transition",
+      "Defensive",
+      "Offensive",
+      "Zone Entry"
+    ],
+    "description": "A defensive progression built from a neutral-zone overspeed transition. The defender first angles the supporting puck carrier to force the play toward the wall, then closes on the receiver and works to deny the cutback to the middle before competing to the net.",
+    "coaching_points": [
+      "Move the feet while keeping the stick in the passing lane.",
+      "Force the first puck carrier toward the strong-side wall.",
+      "Close shoulder-to-shoulder on the receiver and take away the middle.",
+      "Finish the repetition by competing all the way to the near post."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-angling-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/transition-angling-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/transition-angling-drill.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 771
+  },
+  {
+    "uid": "ihs-2-on-2-full-ice",
+    "title": "2 on 2 Full Ice",
+    "category": "2 vs 2 / Gap / Full Ice",
+    "drill_types": [
+      "2 vs 2",
+      "Full Ice",
+      "Gap",
+      "Defensive",
+      "Offensive",
+      "Transition",
+      "Zone Entry",
+      "Tryout"
+    ],
+    "description": "Two defenders receive the puck at the blue line and create a middle shot before two forwards release into a full-ice 2-on-2. The defense is challenged to manage an intentionally tight gap and stop the rush before clean offensive-zone possession is established.",
+    "coaching_points": [
+      "Defense establishes the gap early instead of backing into the zone.",
+      "Force the rush to dump the puck, go offside or lose possession before the blue line.",
+      "Forwards attack with speed, width and support.",
+      "Defenders communicate and protect inside ice through the rush."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-2-full-ice",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2-on-2-full-ice.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2-on-2-full-ice.jpg"
+    ],
+    "original_diagram": true,
+    "status": "verified",
+    "number": 772
   }
 ]
