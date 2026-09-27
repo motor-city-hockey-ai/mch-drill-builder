@@ -11781,5 +11781,206 @@
     "member_only": true,
     "status": "verified",
     "number": 360
+  },
+  {
+    "uid": "ihs-5997391",
+    "title": "3 on 3 Transition Game",
+    "category": "3 on 3 / Small Area Game",
+    "drill_types": [
+      "3 on 3",
+      "Small Area Games",
+      "Transition",
+      "Passing",
+      "Shooting",
+      "Puck Support",
+      "Half Ice"
+    ],
+    "description": "A continuous 3-on-3 game in one zone. Three attackers try to score while three defenders work to win possession and pass to the next group waiting outside the play, which immediately activates the next transition.",
+    "coaching_points": [
+      "Attack quickly after transition instead of allowing the defense to reset.",
+      "Look for quick shots, tips and net drives.",
+      "Defenders support each other and move the puck cleanly to the next attacking group."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Cail MacLean",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-on-3-transition-game",
+    "source_id": "5997391",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5997391-0-1744835115.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5997391-0-1744835115.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 361
+  },
+  {
+    "uid": "ihs-7230766",
+    "title": "2 v 2 Play Fast with Support",
+    "category": "2 on 2 / Small Area Game",
+    "drill_types": [
+      "2 on 2",
+      "3 on 3",
+      "Small Area Games",
+      "Transition",
+      "Passing",
+      "Shooting",
+      "Puck Support",
+      "Full Ice"
+    ],
+    "description": "A high-tempo 2-on-2 game through center ice with two stationary support players in each team's offensive end. Players can use support for quick one- or two-touch passes and shots before immediately transitioning the other direction.",
+    "coaching_points": [
+      "Use support early and sprint to become the next outlet.",
+      "Support players scan before the puck arrives so they can play quickly.",
+      "Defenders keep sticks in lanes and force play away from middle ice."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-2-play-fast-support",
+    "source_id": "7230766",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7230766-0-1752027491.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7230766-0-1752027491.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 362
+  },
+  {
+    "uid": "ihs-5764256",
+    "title": "2 v 2 Shawzy",
+    "category": "2 on 2 / Transition",
+    "drill_types": [
+      "2 on 2",
+      "3 on 2",
+      "Angling",
+      "Transition",
+      "Gap",
+      "Full Ice",
+      "Small Area Games",
+      "Puck Support"
+    ],
+    "description": "A coach randomly activates one of four lines to start a 2-on-2. The receiving team immediately attacks while the other side must step up, surf and angle the rush to the outside.",
+    "coaching_points": [
+      "All four players stay ready to instantly become offense or defense.",
+      "Defenders step up and angle instead of retreating backward.",
+      "Forwards support each other and chip pucks into soft areas when pressure closes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Nolan Baumgartner",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-2-shawzy",
+    "source_id": "5764256",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5764256-0-1739469519.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5764256-0-1739469519.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified",
+    "number": 363
+  },
+  {
+    "uid": "ihs-6046501",
+    "title": "Drop Down 4 on 2",
+    "category": "4 on 2 / Transition",
+    "drill_types": [
+      "4 vs 2",
+      "Transition",
+      "Zone Entry",
+      "Neutral Zone",
+      "Full Ice",
+      "Puck Support"
+    ],
+    "description": "A defenseman starts the attack while three forwards drop into different neutral-zone support routes. The four-player unit organizes into a line rush against two defenders, then the opposite team retrieves a new puck and attacks back the other direction.",
+    "coaching_points": [
+      "Mix low support, stretches and middle cuts instead of running one fixed route.",
+      "Maintain speed and spacing through the neutral zone.",
+      "Fill wide, kick-out and middle support roles naturally as players interchange."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/drop-down-4-on-2",
+    "source_id": "6046501",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6046501-0-1738097051.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6046501-0-1738097051.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 364
+  },
+  {
+    "uid": "ihs-3888066",
+    "title": "Continuous 2 on 2 with Ozone D Options",
+    "category": "2 on 2 / Transition",
+    "drill_types": [
+      "2 on 2",
+      "4 vs 2",
+      "Transition",
+      "Gap",
+      "Full Ice",
+      "Offensive Zone",
+      "Net Front"
+    ],
+    "description": "A continuous 2-on-2 rush becomes a 4-on-2 offensive-zone situation when the attacking team's defensemen activate at the blue line. A turnover triggers the waiting forwards to attack back the other direction against the opposite defense.",
+    "coaching_points": [
+      "Get the puck deep on the rush rather than turning it over high.",
+      "Defenders maintain strong gap on the initial 2-on-2.",
+      "Use the point options to create traffic, tips and side-lane plays.",
+      "On possession change, transition immediately into the counterattack."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-2-2-ozone-d-options",
+    "source_id": "3888066",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3888066-0-1705941653.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3888066-0-1705941653.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3888066-1-1705941653.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3888066-2-1705941653.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 365
+  },
+  {
+    "uid": "ihs-3540461",
+    "title": "3 v 2 to 5 v 5 Backcheck",
+    "category": "3 on 2 / 5 on 5 / Backcheck",
+    "drill_types": [
+      "3 on 2",
+      "5 vs 5",
+      "Backchecking",
+      "Transition",
+      "Zone Entry",
+      "Defensive Zone",
+      "Offensive Zone",
+      "Full Ice",
+      "Coverage"
+    ],
+    "description": "The drill starts with a live 3-on-2 down low. A second puck then triggers a 3-on-2 rush the other direction while the original five players backcheck and join, turning the play into full 5-on-5 in the far zone.",
+    "coaching_points": [
+      "Backcheck through middle ice in straight lines.",
+      "Defenders keep sticks in lanes and force the rush outside.",
+      "Offense supports the puck and enters with structure.",
+      "Finish by sorting full 5-on-5 defensive-zone coverage."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Tyler Bielby",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-2-5-v-5-backcheck",
+    "source_id": "3540461",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3540461-0-1702057043.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3540461-0-1702057043.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3540461-1-1702057043.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3540461-2-1702057043.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 366
   }
 ]
