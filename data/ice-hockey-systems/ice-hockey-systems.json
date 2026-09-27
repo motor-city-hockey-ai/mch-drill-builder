@@ -25940,5 +25940,69 @@
     "member_only": true,
     "status": "verified",
     "number": 797
+  },
+  {
+    "uid": "ihs-tight-swivel-puck-control",
+    "title": "Tight Swivel Puck Control",
+    "category": "Puck Control / Stations / Tight Turns",
+    "drill_types": [
+      "Puck Control",
+      "Stations",
+      "Sixth Ice Stations",
+      "Third Ice Stations",
+      "Stickhandling",
+      "Skating",
+      "Agility"
+    ],
+    "description": "Players control a puck through a tight pattern around pucks or cones arranged near a faceoff circle. The route requires repeated tight control turns and quick hip rotation while keeping the puck protected and close to the body.",
+    "coaching_points": [
+      "Start slowly enough to execute clean control turns before increasing speed.",
+      "Lead each direction change with the hips and upper body.",
+      "Keep the puck protected on the safe side of the body through each turn.",
+      "Keep the head up as technique improves and build toward game-speed feet."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tight-swivel-puck-control",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tight-swivel-puck-control-station.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tight-swivel-puck-control-station.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 798
+  },
+  {
+    "uid": "ihs-retrieval-races",
+    "title": "Retrieval Races",
+    "category": "Skating / Retrievals / Half Ice",
+    "drill_types": [
+      "Skating",
+      "Backwards Skating",
+      "Half Ice",
+      "Retrievals",
+      "Races",
+      "Shooting",
+      "Transition"
+    ],
+    "description": "Players skate forward around the first cone, transition backward, then pivot toward the corner at the second cone to retrieve a puck. After the retrieval they accelerate out of the corner, attack the slot from the half wall and finish with a shot.",
+    "coaching_points": [
+      "Use a clean forward-to-backward transition around the first cone.",
+      "Open the hips on the backward-to-forward pivot instead of crossing over.",
+      "Keep the feet moving through the puck retrieval.",
+      "Attack the slot immediately after exiting the corner and shoot inside the scoring area."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/retrieval-races",
+    "image": "https://www.files.icehockeysystems.com/files/drills/retrieval-races.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/retrieval-races.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 799
   }
 ]
