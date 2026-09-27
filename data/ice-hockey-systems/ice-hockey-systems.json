@@ -29546,5 +29546,333 @@
     "original_diagram": true,
     "status": "verified",
     "number": 913
+  },
+  {
+    "uid": "ihs-brooksy-utah-mammoth",
+    "title": "Brooksy Utah Mammoth",
+    "category": "2 on 1 / 2 on 2 / Battle",
+    "drill_types": [
+      "2 on 1",
+      "2 on 2",
+      "Battle Drills",
+      "Half Ice",
+      "Offensive",
+      "Puck Protection"
+    ],
+    "description": "Players race for a loose puck, turn the win into an immediate 2 on 1 with support, then react to a second rimmed puck and continue into a live 2 on 2.",
+    "coaching_points": [
+      "Win body position before the loose puck.",
+      "Move the puck to support immediately after possession is won.",
+      "Retrieve the rim under pressure with feet moving.",
+      "Transition quickly from the first attack into the 2 on 2."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "John Dean",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/brooksy-utah-mammoth",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-11186911-0-1790264034.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-11186911-0-1790264034.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-11186911-1-1790264034.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 914
+  },
+  {
+    "uid": "ihs-houda-skin",
+    "title": "Houda Skin",
+    "category": "Breakout / Forecheck / 2 on 1",
+    "drill_types": [
+      "2 on 1",
+      "Breakouts",
+      "Forechecking",
+      "Gap",
+      "Retrievals",
+      "Zone Entry"
+    ],
+    "description": "A defenseman retrieves a dump while a supporting forward delays the forechecker to create time for the first pass. After the breakout, the two forwards transition back at the defenseman in a 2 on 1.",
+    "coaching_points": [
+      "Scan before retrieval and identify pressure early.",
+      "Supporting forward creates time without losing the passing lane.",
+      "Make a clean first pass under pressure.",
+      "Transition immediately into the 2 on 1 attack."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jeff Ulmer",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/houda-skin",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10643161-0-1785790972.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10643161-0-1785790972.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 915
+  },
+  {
+    "uid": "ihs-4corner-puck-protection",
+    "title": "4Corner puck protection",
+    "category": "Puck Protection / 1 on 1 / Battle",
+    "drill_types": [
+      "1 on 1",
+      "Battle Drills",
+      "Puck Control",
+      "Puck Protection",
+      "Small Area Games"
+    ],
+    "description": "Pairs work from all four corners. On the first whistle they race to a puck and play keepaway inside the circle; on the second whistle the puck carrier attacks the net while the other player defends.",
+    "coaching_points": [
+      "Arrive low and establish inside body position.",
+      "Protect the puck on the hip with quick turns.",
+      "Accelerate immediately on the second whistle.",
+      "Defender takes an efficient angle and protects the middle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4corner-puck-protection-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-9722286-0-1769797638.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-9722286-0-1769797638.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 916
+  },
+  {
+    "uid": "ihs-4check-warmup-progressions",
+    "title": "4Check Warmup Progressions",
+    "category": "Puck Control / Passing / Warm Up",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Passing",
+      "Shooting",
+      "Warm Up"
+    ],
+    "description": "A two-part warm-up progression through neutral-zone obstacles. Players first stickhandle through the traffic and shoot, then repeat while using stationary passing options to pass through the obstacles before finishing.",
+    "coaching_points": [
+      "Keep the head up through traffic.",
+      "Use controlled puck touches around obstacles.",
+      "Deliver crisp passes through sticks and bodies.",
+      "Maintain foot speed before finishing with a shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-warmup-progressions",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8686456-0-1763052563.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8686456-0-1763052563.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8686456-1-1763052563.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 917
+  },
+  {
+    "uid": "ihs-2-on-1-corner-traffic",
+    "title": "2 on 1 Corner Traffic",
+    "category": "2 on 1 / Down Low",
+    "drill_types": [
+      "2 on 1",
+      "Down Low",
+      "Passing",
+      "Offensive"
+    ],
+    "description": "Two forwards and one defender exchange at least four passes around corner obstacles before the forwards attack out of the corner in a live 2 on 1.",
+    "coaching_points": [
+      "Move the puck quickly with purpose.",
+      "Maintain spacing around the obstacles.",
+      "Do not attack until the required passes are complete.",
+      "Explode into the 2 on 1 and read the defender."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-1-corner-traffic",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8666046-0-1763050836.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8666046-0-1763050836.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 918
+  },
+  {
+    "uid": "ihs-4check-punch-escapes",
+    "title": "4Check Punch Escapes",
+    "category": "1 on 1 / Puck Protection / Wall Play",
+    "drill_types": [
+      "1 on 1",
+      "Awareness",
+      "Battle Drills",
+      "Skill Development",
+      "Wall Play",
+      "Puck Protection"
+    ],
+    "description": "A forward and defender skate up the wall together. The forward uses a hard punch turn to escape controlled pressure, times a pass from the coach, then attacks the net through traffic.",
+    "coaching_points": [
+      "Stay low through the punch turn.",
+      "Use hips and shoulders to protect the puck.",
+      "Time the escape with the coach's pass.",
+      "Attack the net immediately after separation."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-punch-escapes",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8665556-0-1763050887.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8665556-0-1763050887.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 919
+  },
+  {
+    "uid": "ihs-stick-battle-with-shots",
+    "title": "Stick Battle with Shots",
+    "category": "Puck Handling / Shooting / Skill",
+    "drill_types": [
+      "Puck Handling",
+      "Shooting",
+      "Skill Development"
+    ],
+    "description": "The skater approaches an obstacle, executes a stick lift to gain possession, flips the hips to face the net and releases a quick shot through the screen before repeating from the opposite side.",
+    "coaching_points": [
+      "Approach with strong body and stick position.",
+      "Lift through the hands with control.",
+      "Flip the hips quickly into shooting posture.",
+      "Release through traffic without overhandling."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stick-battle-shots-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8589066-0-1762456895.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8589066-0-1762456895.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 920
+  },
+  {
+    "uid": "ihs-low-rim-pickup-with-screens",
+    "title": "Low Rim Pickup with Screens",
+    "category": "Retrieval / Puck Handling / Shooting",
+    "drill_types": [
+      "Puck Handling",
+      "Retrievals",
+      "Shooting",
+      "Down Low"
+    ],
+    "description": "A puck is rimmed around the wall for a retrieval. The player controls it, makes a creative move around the first obstacle, cuts to the net and shoots through a second screen.",
+    "coaching_points": [
+      "Angle the retrieval to maintain puck speed.",
+      "Scan before collecting the rim.",
+      "Use deception around the first obstacle.",
+      "Drive inside and release quickly through the screen."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/low-rim-pickup-screens-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8588976-0-1762456740.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8588976-0-1762456740.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 921
+  },
+  {
+    "uid": "ihs-blue-line-shots-with-screens",
+    "title": "Blue Line Shots with Screens",
+    "category": "Defense / Shooting / Blue Line",
+    "drill_types": [
+      "Shooting",
+      "Skill Development",
+      "Defensive"
+    ],
+    "description": "Defensemen walk the blue line while reading traffic and changing their angle to get shots through layered screens to the net.",
+    "coaching_points": [
+      "Keep the head up while walking the line.",
+      "Use lateral footwork to change the lane.",
+      "Control the puck close enough for a quick release.",
+      "Prioritize getting the puck through traffic."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/blue-line-shots-screens-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8588291-0-1762455832.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8588291-0-1762455832.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 922
+  },
+  {
+    "uid": "ihs-4check-1-zone-passing",
+    "title": "4Check 1 Zone Passing",
+    "category": "Breakout / Passing / Re-Group",
+    "drill_types": [
+      "Breakouts",
+      "Passing",
+      "Re-Group",
+      "Defensive",
+      "Transition"
+    ],
+    "description": "Two defensemen retrieve a coach dump, execute a D-to-D breakout, carry up ice and work passes through obstacles before finishing the sequence at the net.",
+    "coaching_points": [
+      "Communicate retrieval responsibility early.",
+      "Shoulder check before collecting the puck.",
+      "Make firm D-to-D passes while moving.",
+      "Enter with the head up and find passing lanes through traffic."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-1-zone-passing-6",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8587821-0-1762455111.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8587821-0-1762455111.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 923
+  },
+  {
+    "uid": "ihs-blue-line-shot-pass",
+    "title": "Blue Line Shot Pass",
+    "category": "Passing / Blue Line / Skill",
+    "drill_types": [
+      "Passing",
+      "Skill Development",
+      "Shooting",
+      "Defensive"
+    ],
+    "description": "A defenseman receives at the blue line, walks laterally to open a lane and sends a controlled backdoor shot-pass through traffic to a teammate at the far post.",
+    "coaching_points": [
+      "Read the backdoor option before moving the puck.",
+      "Use lateral movement and deception to open the lane.",
+      "Keep the puck in a quick-release position.",
+      "Deliver a firm but redirectable shot-pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/blue-line-shot-pass-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8587391-0-1779981833.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8587391-0-1779981833.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 924
   }
 ]
