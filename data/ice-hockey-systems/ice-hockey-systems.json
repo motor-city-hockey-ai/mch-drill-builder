@@ -28427,5 +28427,165 @@
     "member_only": true,
     "status": "verified",
     "number": 877
+  },
+  {
+    "uid": "ihs-coachs-call-mini-nets",
+    "title": "Coach's Call With Mini Nets",
+    "category": "Small Area Game / Variable Numbers",
+    "drill_types": [
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "1 vs 1",
+      "2 vs 1",
+      "2 vs 2",
+      "3 vs 1",
+      "3 vs 2",
+      "3 vs 3"
+    ],
+    "description": "Two teams line up beside the coach with a net at each end of the station. The coach calls how many players from each team enter, creating changing numerical situations from 1-on-1 through 3-on-3.",
+    "coaching_points": [
+      "React immediately to the numbers called by the coach.",
+      "Recognize whether the situation is even-strength or an advantage.",
+      "Support the puck and attack open ice.",
+      "Keep rounds short so players experience many different numbers."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/coachs-call-mini-nets",
+    "image": "https://www.files.icehockeysystems.com/files/drills/coaches-call-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/coaches-call-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 878
+  },
+  {
+    "uid": "ihs-soccer-on-ice-station",
+    "title": "Soccer on Ice - Station",
+    "category": "Small Area Game / Skating / Agility",
+    "drill_types": [
+      "Small Area Games",
+      "Skating",
+      "Agility",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "description": "Players play soccer on the ice inside a station, using wide cone goals and their skating to move into space, defend, balance and change direction without relying on normal stickhandling.",
+    "coaching_points": [
+      "Encourage constant movement and quick changes of direction.",
+      "Use the edges to stay balanced while competing for the ball.",
+      "Create width and open space for teammates.",
+      "Adjust the game from quarter-ice to sixth-ice based on group size."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/soccer-ice-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/soccer-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/soccer-web.jpg",
+      "https://www.files.icehockeysystems.com/files/drills/soccer-sixth-ice-station-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 879
+  },
+  {
+    "uid": "ihs-border-tag-station",
+    "title": "Border Tag - Station",
+    "category": "Skating / Agility / Tag",
+    "drill_types": [
+      "Skating",
+      "Agility",
+      "Backwards Skating",
+      "Stations",
+      "Sixth Ice Stations",
+      "Transition"
+    ],
+    "description": "Two players stay within a stick length of a border while one tries to tag the other. Progressions change the skating requirement from forward to backward, transitions and open-hip skating.",
+    "coaching_points": [
+      "Stay close enough to the border that the game remains tight and reactive.",
+      "Use quick starts, stops and changes of direction.",
+      "Progress from forward skating to backward and transition patterns.",
+      "Keep the knees bent and maintain balance through every turn."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/border-tag-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/border-tag-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/border-tag-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 880
+  },
+  {
+    "uid": "ihs-3-vs-3-mini-nets-sixth-ice-station",
+    "title": "3 vs 3 with mini nets - sixth ice station",
+    "category": "3 vs 3 / Small Area Game / Sixth Ice",
+    "drill_types": [
+      "3 vs 3",
+      "Small Area Games",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "description": "Two teams play 3-on-3 in a sixth-ice station using mini nets. A new puck is introduced after a goal and groups rotate after short competitive shifts.",
+    "coaching_points": [
+      "Compete immediately for each new puck.",
+      "Support the puck with short passing options.",
+      "Use the small space to practice quick decisions and puck protection.",
+      "Keep shifts short and high-energy."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-vs-3-mini-nets-sixth-ice-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/3-vs-3-with-mini-nets-sixth-ice-station-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/3-vs-3-with-mini-nets-sixth-ice-station-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 881
+  },
+  {
+    "uid": "ihs-coachs-call-third-ice-station",
+    "title": "Coach's Call - Third Ice Station",
+    "category": "Small Area Game / Variable Numbers / Third Ice",
+    "drill_types": [
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "1 vs 1",
+      "2 vs 1",
+      "2 vs 2",
+      "3 vs 1",
+      "3 vs 2",
+      "3 vs 3"
+    ],
+    "description": "Two teams line up at the blue line beside the coach. Before each round the coach calls the number of players entering from each team, dumps in a puck and lets the group compete until a goal or whistle.",
+    "coaching_points": [
+      "Listen for the numbers before jumping into the play.",
+      "Identify numerical advantages and disadvantages quickly.",
+      "Use puck support and spacing when your team has extra players.",
+      "Defend the middle and communicate when outnumbered."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/coachs-call-third-ice-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/coachs-call-third-ice-station-web.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/coachs-call-third-ice-station-web.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 882
   }
 ]
