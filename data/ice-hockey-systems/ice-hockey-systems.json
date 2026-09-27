@@ -12922,5 +12922,134 @@
     "member_only": true,
     "status": "verified",
     "number": 394
+  },
+  {
+    "uid": "ihs-1532456",
+    "title": "3 Shot Off The Wall",
+    "category": "Shooting / Passing",
+    "drill_types": [
+      "Shooting",
+      "Passing",
+      "Wall Play",
+      "Skill Development",
+      "Warm Up"
+    ],
+    "description": "A continuous three-shot sequence off the wall. The player comes off the boards for the first quick shot, uses a give-and-go for a second shot or one-timer, then drives the net for a third catch-and-release chance before passing to the next player.",
+    "coaching_points": [
+      "Communicate and call for the puck.",
+      "Keep the stick on the ice as a clear target.",
+      "Release each shot quickly instead of overhandling.",
+      "Stay facing the puck through the entire sequence."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Rob Sedia / NewEdge Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-shot-wall-0",
+    "source_id": "1532456",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1532456-0-1743904926.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1532456-0-1743904926.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 395
+  },
+  {
+    "uid": "ihs-475966",
+    "title": "Mid Pair Wall Retrievals",
+    "category": "Passing / Retrieval / Warm-Up",
+    "drill_types": [
+      "Passing",
+      "Retrievals",
+      "Wall Play",
+      "Defensive",
+      "Warm Up",
+      "Skill Development",
+      "Puck Protection"
+    ],
+    "description": "Partners continuously chip pucks to the wall, retrieve them and pass back to each other. The progression emphasizes fake-forehand reverse curls, head-up quick passes and additional deceptive retrieval variations.",
+    "coaching_points": [
+      "Shoulder-check before every retrieval.",
+      "Keep the head up after controlling the puck.",
+      "Use toes, hips, stick, head and eyes to sell deception.",
+      "Move the puck cleanly back to the partner."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "NewEdge Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/mid-pair-wall-retrievals",
+    "source_id": "475966",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-475966-0-1744572654.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-475966-0-1744572654.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 396
+  },
+  {
+    "uid": "ihs-9539046",
+    "title": "Quick Touch Passing & Shooting",
+    "category": "Passing / Shooting / Warm-Up",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Warm Up",
+      "Skill Development",
+      "Stations"
+    ],
+    "description": "A quick-touch passing and shooting sequence around the circle. Players exchange several short passes, open up around the circle, move the puck to the next player in line, then cut to the slot for a quick return pass and shot.",
+    "coaching_points": [
+      "Communicate and make crisp passes.",
+      "Keep sticks on the ice and ready to receive.",
+      "Open the body to the puck while moving around the circle.",
+      "Shoot immediately off the final pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jason Lammers",
+    "source_url": "https://icehockeysystems.com/hockey-drills/quick-touch-passing-shooting",
+    "source_id": "9539046",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-9539046-0-1768582050.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-9539046-0-1768582050.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 397
+  },
+  {
+    "uid": "ihs-9539441",
+    "title": "4 v 2 Continuous Zone Entry",
+    "category": "4 on 2 / Zone Entry / Small Area Game",
+    "drill_types": [
+      "4 vs 2",
+      "Zone Entry",
+      "Small Area Games",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Puck Support",
+      "Half Ice"
+    ],
+    "description": "Four attackers enter against two defenders and try to score quickly off the rush. If the defense wins possession and moves the puck to waiting teammates, the next group immediately attacks while two previous attackers stay to defend.",
+    "coaching_points": [
+      "Attack quickly before the defenders can organize.",
+      "Use a net driver and weak-side scoring option.",
+      "Defenders protect middle ice and keep sticks in passing lanes.",
+      "Transition immediately when possession changes."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jason Lammers",
+    "source_url": "https://icehockeysystems.com/hockey-drills/4-v-2-continuous-zone-entry",
+    "source_id": "9539441",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-9539441-0-1768584064.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-9539441-0-1768584064.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified",
+    "number": 398
   }
 ]
