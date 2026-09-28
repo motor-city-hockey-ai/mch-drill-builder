@@ -14751,5 +14751,82 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 945,
+    "title": "Utah Surf Transition",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/utah-surf-transition",
+    "categories": [
+      "Angling",
+      "Defensive",
+      "Gap",
+      "Retrievals",
+      "Transition",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 946,
+    "title": "D Double Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-double-up-0",
+    "categories": [
+      "Breakouts",
+      "Flow",
+      "Retrievals",
+      "Passing",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 947,
+    "title": "Toronto 4 Shot Warm-Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/toronto-4-shot-warm-up",
+    "categories": [
+      "Flow",
+      "Full Ice",
+      "Shooting",
+      "Warm-Up",
+      "Goalie"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 948,
+    "title": "Pass and Move Circle",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pass-and-move-circle-0",
+    "categories": [
+      "Awareness",
+      "Passing",
+      "Stations",
+      "Third Ice Stations",
+      "Warm-Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 949,
+    "title": "2vs2 Crossroad Passing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2vs2-crossroad-passing",
+    "categories": [
+      "2 vs 2",
+      "4 vs 4",
+      "Awareness",
+      "Passing",
+      "Puck Support",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
   }
 ]
