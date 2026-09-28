@@ -12910,5 +12910,154 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Sorted IHS catalog reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 829,
+    "title": "Wisconsin Shooting Drill",
+    "source_url": "https://icehockeysystems.com/hockey-drills/wisconsin-shooting-drill",
+    "categories": [
+      "Power Play",
+      "Shooting",
+      "Offensive Zone",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 30 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 830,
+    "title": "High Horse Defensive Skills",
+    "source_url": "https://icehockeysystems.com/hockey-drills/high-horse-defensive-skills",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Defensive",
+      "Backwards Skating",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 30 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 831,
+    "title": "Soft Chip Overlap Possession Hockey Drill",
+    "source_url": "https://icehockeysystems.com/hockey-drills/soft-chip-overlap-possession-hockey-drill",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Cycling",
+      "Zone Entry",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 30 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 832,
+    "title": "Offensive Blue Line Drill",
+    "source_url": "https://icehockeysystems.com/hockey-drills/offensive-blue-line-drill",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Cycling",
+      "Offensive Zone",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 30 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 833,
+    "title": "Swiss 3 Shot Transition",
+    "source_url": "https://icehockeysystems.com/hockey-drills/swiss-3-shot-transition",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Transition",
+      "Half Ice",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 30 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 834,
+    "title": "Protect IT!",
+    "source_url": "https://icehockeysystems.com/hockey-drills/protect-it",
+    "categories": [
+      "Shooting",
+      "Small Area Games",
+      "Stickhandling",
+      "Battle Drills",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 30 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 835,
+    "title": "4 Timer Shooting Drill",
+    "source_url": "https://icehockeysystems.com/hockey-drills/4-timer-shooting-drill",
+    "categories": [
+      "Shooting",
+      "Half Ice",
+      "Skill Development",
+      "One-Timer"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 30 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 836,
+    "title": "Criss Cross Overspeed",
+    "source_url": "https://icehockeysystems.com/hockey-drills/criss-cross-overspeed",
+    "categories": [
+      "Skating",
+      "Overspeed",
+      "Shooting",
+      "Half Ice",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 30 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 837,
+    "title": "Austrian Two Shot Drill",
+    "source_url": "https://icehockeysystems.com/hockey-drills/austrian-two-shot-drill",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Offensive Zone",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 30 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 838,
+    "title": "PK Conditioning",
+    "source_url": "https://icehockeysystems.com/hockey-drills/pk-conditioning",
+    "categories": [
+      "Skating",
+      "Half Ice",
+      "Conditioning",
+      "Penalty Kill"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 30 + verified original IHS-hosted drill diagram"
   }
 ]
