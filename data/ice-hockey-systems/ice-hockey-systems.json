@@ -35584,5 +35584,153 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-4-lines-series-6",
+    "number": 1111,
+    "title": "4 Lines Series #6",
+    "category": "Passing / Skating / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Skating",
+      "Full Ice",
+      "Warm Up",
+      "Shooting"
+    ],
+    "description": "Four lines set up along the boards at the blue lines. Opposite players carry to the far blue line, transition backward while controlling the puck, complete a give-and-go with the line, transition forward, exchange another pass with the far line, then attack the net for a shot.",
+    "coaching_points": [
+      "Keep the feet moving through both forward-to-backward and backward-to-forward transitions.",
+      "Make crisp return passes and present a clear target.",
+      "Receive each pass in motion instead of stopping the feet.",
+      "Attack the final lane with speed and release the shot by the tops of the circles."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-lines-series-6",
+    "image": "https://www.files.icehockeysystems.com/files/drills/4-lines-series-6.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/4-lines-series-6.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-triple-give-go-half-ice",
+    "number": 1112,
+    "title": "Triple Give & Go - Half Ice",
+    "category": "Passing / Shooting / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Warm Up"
+    ],
+    "description": "D1 carries around the net and starts a give-and-go with F1. D2 works another exchange with F2 while both forwards continue to the net. As D1 loops back into the zone, D1 exchanges one more pass with the last player in line and finishes with a high-slot shot.",
+    "coaching_points": [
+      "Keep all give-and-go passes moving quickly and accurately.",
+      "Forwards continue to the net after their exchange instead of watching the puck.",
+      "D2 must stay aware of both passing options near the net.",
+      "D1 times the loop so the final return pass arrives in stride for the shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/triple-give-go-half-ice",
+    "image": "https://www.files.icehockeysystems.com/files/drills/triple-give-go-half-ice.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/triple-give-go-half-ice.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-catch-and-release",
+    "number": 1113,
+    "title": "Catch and Release",
+    "category": "Shooting / Half Ice / Goalie",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Goalie",
+      "Quick Release"
+    ],
+    "description": "A forward accelerates around the cone while the coach times a pass into the route. The player receives and shoots in one motion, then the opposite line repeats. The drill isolates a fast catch-and-release without extra puckhandling.",
+    "coaching_points": [
+      "Accelerate around the cone so the pass arrives at game speed.",
+      "Present the stick early and receive the puck in shooting position.",
+      "Catch and release in one motion with no extra stickhandling.",
+      "Keep reps short and sharp so both shooters and goalie maintain quality."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/catch-and-release",
+    "image": "https://www.files.icehockeysystems.com/files/drills/catch-and-release.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/catch-and-release.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-half-ice-three-lanes",
+    "number": 1114,
+    "title": "Half Ice Three Lanes",
+    "category": "Shooting / Skating / Half Ice",
+    "drill_types": [
+      "Shooting",
+      "Skating",
+      "Half Ice",
+      "Warm Up"
+    ],
+    "description": "Three players leave the same corner on different routes. One uses the outside lane, one attacks the high slot lane, and one takes the inside lane near the top of the circle. Each receives a pass from the opposite corner and finishes from a different shooting angle.",
+    "coaching_points": [
+      "Keep the three routes separated so the goalie sees distinct shooting lanes.",
+      "Time the passes so players receive the puck while moving.",
+      "Use the outside, middle, and inside lanes exactly as shown in the diagram.",
+      "Finish each rep quickly and clear the net before the next group."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-three-lanes",
+    "image": "https://www.files.icehockeysystems.com/files/drills/half-ice-three-lanes.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/half-ice-three-lanes.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-finland-warm-up-skate-1-on-1",
+    "number": 1115,
+    "title": "Finland Warm Up Skate 1 on 1",
+    "category": "Skating / Agility / Full Ice",
+    "drill_types": [
+      "Skating",
+      "Agility",
+      "Full Ice",
+      "Warm Up",
+      "Passing",
+      "Shooting"
+    ],
+    "description": "Players begin at the goal line, side-step to the wall, skate forward around the top of the circle, transition backward, then exchange passes near the bottom of the circle. They transition forward again, attack the blue line with speed, move inside-out and finish with a long shot.",
+    "coaching_points": [
+      "Stay facing up ice through the footwork and transitions.",
+      "Control the puck while changing from backward to forward skating.",
+      "Make each pass while moving and immediately continue the route.",
+      "Build speed through the blue line and finish the shot without gliding."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/print/standard/600",
+    "image": "https://www.files.icehockeysystems.com/files/drills/finland-warm-up-skate-1-on-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/finland-warm-up-skate-1-on-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
