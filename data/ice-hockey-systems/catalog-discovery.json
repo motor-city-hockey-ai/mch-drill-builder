@@ -12741,5 +12741,174 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Verified IHS source page + exact IHS-hosted Drill Maker image"
+  },
+  {
+    "discovery_number": 818,
+    "title": "Quarter Ice Obstacle Course #2",
+    "source_url": "https://icehockeysystems.com/hockey-drills/quarter-ice-obstacle-course-2",
+    "categories": [
+      "Backwards Skating",
+      "Relay Races",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 819,
+    "title": "D-Zone 1 on 1 Give and GO - #2",
+    "source_url": "https://icehockeysystems.com/hockey-drills/d-zone-1-1-give-and-go-2",
+    "categories": [
+      "1 on 1",
+      "Stations",
+      "Half Ice",
+      "Defensive Zone",
+      "Angling",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 820,
+    "title": "Neutral Zone Six Shooter",
+    "source_url": "https://icehockeysystems.com/hockey-drills/neutral-zone-six-shooter",
+    "categories": [
+      "Shooting",
+      "Stations",
+      "Neutral Zone",
+      "Puck Control",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 821,
+    "title": "Two Tire Shooting Warm Up",
+    "source_url": "https://icehockeysystems.com/hockey-drills/two-tire-shooting-warm",
+    "categories": [
+      "Stickhandling",
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Warm Up",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 822,
+    "title": "Four Corner Shooting Warm Up #1",
+    "source_url": "https://icehockeysystems.com/hockey-drills/four-corner-shooting-warm-1",
+    "categories": [
+      "Shooting",
+      "Warm Up",
+      "Half Ice",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 823,
+    "title": "Murphy's Down Low Drill",
+    "source_url": "https://icehockeysystems.com/hockey-drills/murphys-down-low-drill",
+    "categories": [
+      "Shooting",
+      "Offensive Zone",
+      "Half Ice",
+      "Down Low",
+      "Puck Protection",
+      "Passing"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 824,
+    "title": "Spartan Warm up Shooting Drill",
+    "source_url": "https://icehockeysystems.com/hockey-drills/spartan-warm-shooting-drill",
+    "categories": [
+      "Shooting",
+      "Half Ice",
+      "Cycling",
+      "Passing",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 825,
+    "title": "Winnipeg Shooting Warm Up",
+    "source_url": "https://icehockeysystems.com/hockey-drills/winnipeg-shooting-warm",
+    "categories": [
+      "Puck Control",
+      "Shooting",
+      "Warm Up",
+      "Half Ice",
+      "Passing",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 826,
+    "title": "Flames O-Zone Give and Gos",
+    "source_url": "https://icehockeysystems.com/hockey-drills/flames-o-zone-give-and-gos",
+    "categories": [
+      "Offensive Zone",
+      "Half Ice",
+      "Cycling",
+      "Passing",
+      "Shooting",
+      "Puck Retrieval"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 827,
+    "title": "Half Ice Three Lane Control Turn Shooting",
+    "source_url": "https://icehockeysystems.com/hockey-drills/half-ice-three-lane-control-turn-shooting",
+    "categories": [
+      "Shooting",
+      "Warm Up",
+      "Half Ice",
+      "Puck Control",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 828,
+    "title": "Wisconsin Shooting Drill - Part II",
+    "source_url": "https://icehockeysystems.com/hockey-drills/wisconsin-shooting-drill-part-ii",
+    "categories": [
+      "Power Play",
+      "Shooting",
+      "Offensive Zone",
+      "Half Ice",
+      "Passing"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog reconciliation + verified original IHS-hosted drill diagram"
   }
 ]
