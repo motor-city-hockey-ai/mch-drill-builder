@@ -74,7 +74,7 @@ button{cursor:pointer}
   <main class="main" id="drillMain">
     <section class="quick">
       <div class="quick-grid">
-        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 2,464 Drills</option><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 850 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
+        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 2,464 Drills</option><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 850 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Skill Drills — 455 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
         <div class="field"><label>LOOK UP DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
         <button class="btn red" id="quickAdd">Find Drill</button>
@@ -384,20 +384,24 @@ button{cursor:pointer}
     const coaches=coachesDatabase?coachesDatabase.length:manifestCount('coaches',146);
     const book=bookDatabase?bookDatabase.length:manifestCount('book',446);
     const ihs=ihsDatabase?ihsDatabase.length:manifestCount('ihs',1206);
+    const ihsIndividual=ihsDatabase
+      ? ihsDatabase.filter(d=>d&&((d.skill_station_featured)||String(d.category||'').toLowerCase()==='individual skills')).length
+      : manifestCount('ihs-individual-skills',3);
+    const skillDrillsTotal=skills+ihsIndividual;
 
     setLibraryOptionCount('rich-full','Rich Full Ice Drills',rich);
     setLibraryOptionCount('turk','Turk Hockey Drills',turk);
     setLibraryOptionCount('weiss','Weiss Hockey Drills',weiss);
-    setLibraryOptionCount('rich-skills','Rich Skill Drills',skills);
+    setLibraryOptionCount('rich-skills','Skill Drills',skillDrillsTotal);
     setLibraryOptionCount('coaches','Coaches Site',coaches);
     setLibraryOptionCount('book','Hockey Drill Book',book);
     setLibraryOptionCount('ihs','Ice Hockey Systems',ihs,'Imported');
 
-    const fullIceTotal=coaches+book+ihs+rich+turk+weiss;
+    const fullIceTotal=coaches+book+(ihs-ihsIndividual)+rich+turk+weiss;
     if($('#fullIceCount'))$('#fullIceCount').textContent=fullIceTotal.toLocaleString();
-    if($('#skillZoneCount'))$('#skillZoneCount').textContent=skills.toLocaleString();
+    if($('#skillZoneCount'))$('#skillZoneCount').textContent=skillDrillsTotal.toLocaleString();
 
-    ALL_DRILL_TOTAL=allDrillsDatabase?allDrillsDatabase.length:(fullIceTotal+skills);
+    ALL_DRILL_TOTAL=allDrillsDatabase?allDrillsDatabase.length:(fullIceTotal+skillDrillsTotal);
     setLibraryOptionCount('all','All Drills',ALL_DRILL_TOTAL);
     if($('#totalDrillCount'))$('#totalDrillCount').textContent=ALL_DRILL_TOTAL.toLocaleString();
   }
@@ -488,6 +492,12 @@ button{cursor:pointer}
     return travelDatabase;
   }
 
+  async function loadSkillDrills(){
+    const [richSkills,ihs]=await Promise.all([loadTravel(),loadIHS()]);
+    const ihsSkills=(ihs||[]).filter(d=>d&&((d.skill_station_featured)||String(d.category||'').toLowerCase()==='individual skills'));
+    return [...richSkills,...ihsSkills];
+  }
+
   async function loadCoaches(){
     if(coachesDatabase)return coachesDatabase;
     showLoading('Loading Coaches Site Drills library…');
@@ -550,7 +560,7 @@ button{cursor:pointer}
       'data/ice-hockey-systems/ihs-batch-1287-1296.json?v=1',
       'data/ice-hockey-systems/ihs-batch-1297-1306.json?v=1',
       'data/ice-hockey-systems/ihs-batch-1307-1316.json?v=1',
-      'data/ice-hockey-systems/ihs-batch-1317-1319.json?v=1'
+      'data/ice-hockey-systems/ihs-batch-1317-1319.json?v=2'
     ];
     const responses=await Promise.all(urls.map(url=>fetch(url,{cache:'no-store'})));
     if(!responses[0].ok)throw new Error('Ice Hockey Systems metadata returned '+responses[0].status);
@@ -614,7 +624,7 @@ button{cursor:pointer}
     try{
       if(lib==='all') database=await loadAllDrills();
       else if(lib==='coaches') database=await loadCoaches();
-      else if(lib==='rich-skills') database=await loadTravel();
+      else if(lib==='rich-skills') database=await loadSkillDrills();
       else if(lib==='book') database=await loadBook();
       else if(lib==='ihs') database=await loadIHS();
       else database=await loadFullIceLibrary(lib);
@@ -627,14 +637,14 @@ button{cursor:pointer}
         'book':'Hockey Drill Book',
         'ihs':'Ice Hockey Systems',
         'rich-full':'Rich Full Ice Drills',
-        'rich-skills':'Rich Skill Drills',
+        'rich-skills':'Skill Drills',
         'turk':'Turk Hockey Drills',
         'weiss':'Weiss Hockey Drills'
       };
       const name=names[lib]||'Drill Library';
       $('#browseTitle').textContent='Browse '+name;
       $('#browseSub').textContent=lib==='rich-skills'
-        ? 'Skill-zone drills organized by drill type. Tap a drill to add or remove it.'
+        ? 'Individual skill drills from Rich Skills and Ice Hockey Systems. Tap a drill to add or remove it.'
         : 'Diagram + short title. Tap a drill to view details and add it to your practice set.';
       setStatus(lib==='ihs'&&!database.length ? 'Ice Hockey Systems section is ready for authorized imports. Original diagrams stay original; written instructions are stored separately.' : 'Loaded '+database.length+' '+name+'. Use Drill Type or Search to narrow the library.','ok');
       renderSelected();renderGrid(true);updateTypeSummary(false);
