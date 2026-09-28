@@ -34508,5 +34508,193 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-tight-transition-1-1",
+    "number": 1077,
+    "title": "Tight Transition 1 on 1",
+    "category": "1 on 1 / Half Ice / Defensive",
+    "drill_types": [
+      "1 on 1",
+      "Half Ice",
+      "Defensive",
+      "Backwards Skating",
+      "Gap",
+      "Transition"
+    ],
+    "description": "A difficult half-ice 1 on 1 that forces the defender to transition quickly from forward skating to backward gap control. The forward and defender skate to the red line, stop, and race back toward the zone, with the forward collecting a puck and attacking immediately.",
+    "coaching_points": [
+      "Defender comes to a complete stop at the red line before transitioning backward.",
+      "Keep the attacker to the outside as long as possible.",
+      "If beaten, open up and recover hard to the near post.",
+      "Forward attacks with speed immediately after collecting the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tight-transition-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tight-transition-1v1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tight-transition-1v1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-high-slot-give-gos",
+    "number": 1078,
+    "title": "High Slot Give & Gos",
+    "category": "Passing / Half Ice / Skating",
+    "drill_types": [
+      "Passing",
+      "Half Ice",
+      "Skating",
+      "Agility",
+      "Shooting",
+      "Footwork"
+    ],
+    "description": "A high-slot passing and footwork drill. The active player skates figure eights around two cones while always facing the net, receives passes from alternating stationary players and quickly moves the puck to the opposite passer before finishing with a shot.",
+    "coaching_points": [
+      "Stay facing the net throughout every pivot around the cones.",
+      "Keep the feet moving instead of gliding between passes.",
+      "Control each reception and move the puck to the opposite passer quickly.",
+      "Maintain balance and edge control through the figure-eight pattern."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/high-slot-give-gos",
+    "image": "https://www.files.icehockeysystems.com/files/drills/high-slot-give-go.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/high-slot-give-go.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-2-0-1-vs-1",
+    "number": 1079,
+    "title": "2 on 0 into 1 vs. 1",
+    "category": "1 on 1 / 2 on 0 / Full Ice",
+    "drill_types": [
+      "Full Ice",
+      "2 on 0",
+      "1 on 1",
+      "Transition",
+      "Defensive",
+      "Gap",
+      "Shooting"
+    ],
+    "description": "A full-ice transition progression that begins as a 2 on 0 and then immediately turns into a counterattack 1 on 1. After the defense joins the first rush and takes a point shot, a coach feeds a third forward through the slot for a quick full-ice attack against that same defenseman.",
+    "coaching_points": [
+      "Defense must be ready to defend immediately after taking the point shot.",
+      "Forward times the counterattack swing through the slot.",
+      "Defense recovers ice quickly and establishes the gap early.",
+      "Treat the second phase like a turnover and transition without hesitation."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-1-vs-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2-on-0-to-1v1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2-on-0-to-1v1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-1-1-center-ice",
+    "number": 1080,
+    "title": "1 on 1 from Center Ice",
+    "category": "1 on 1 / Full Ice / Defensive",
+    "drill_types": [
+      "1 on 1",
+      "Full Ice",
+      "Defensive",
+      "Gap",
+      "Backwards Skating",
+      "Transition"
+    ],
+    "description": "A full-ice 1 on 1 starting from center ice. The defender passes to a forward in the corner, then skates around a cone and pivots from forward to backward while the forward attacks straight down the ice.",
+    "coaching_points": [
+      "Forward cannot leave until the pass is received.",
+      "Defender pivots early enough to establish a controlled gap.",
+      "Protect the blue line rather than retreating too deep.",
+      "Use angle and stick position to steer the attacker outside."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-1-center-ice",
+    "image": "https://www.files.icehockeysystems.com/files/drills/1-on-1-from-center-ice.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/1-on-1-from-center-ice.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-2-0-neutral-zone-swing",
+    "number": 1081,
+    "title": "2 on 0 Neutral Zone Swing",
+    "category": "2 on 0 / Full Ice / Transition",
+    "drill_types": [
+      "2 on 0",
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Passing",
+      "Defensive"
+    ],
+    "description": "A neutral-zone transition drill where the defense receives and moves the puck while skating backward, then transitions forward and finds one of two swinging forwards. The forwards attack 2 on 0 while the defense resets for the next repetition.",
+    "coaching_points": [
+      "Defense receives passes with the feet moving.",
+      "Make clean D-to-D passes because poor puck movement breaks down the timing.",
+      "Second defenseman transitions forward before making the outlet pass.",
+      "Forwards time their swings to receive the puck with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-neutral-zone-swing",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2-on-0-neutral-zone-swing.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2-on-0-neutral-zone-swing.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-center-ice-figure-eight-one-touches",
+    "number": 1082,
+    "title": "Center Ice Figure Eight One Touches",
+    "category": "Passing / Full Ice / Skating",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "One Touch",
+      "Agility",
+      "Shooting",
+      "Awareness"
+    ],
+    "description": "An advanced one-touch passing and footwork drill at center ice. One player skates a figure-eight around two cones while continuously exchanging one-touch passes with four stationary players positioned around the neutral-zone faceoff dots, then attacks for a shot.",
+    "coaching_points": [
+      "Active player faces the puck at all times.",
+      "Keep the feet moving through every figure-eight turn.",
+      "Use one-touch passes whenever possible.",
+      "Maintain awareness of all four passing options while navigating the cones."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/center-ice-figure-eight-one-touches",
+    "image": "https://www.files.icehockeysystems.com/files/drills/center-ice-figure-eight-one-touches.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/center-ice-figure-eight-one-touches.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
