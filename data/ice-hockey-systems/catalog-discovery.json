@@ -15624,5 +15624,173 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=4&tid=All"
+  },
+  {
+    "discovery_number": 998,
+    "title": "2 V 1 Quick Strike Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-v-1-quick-strike-game",
+    "categories": [
+      "2 vs 1",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development",
+      "Offensive",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=5&tid=All"
+  },
+  {
+    "discovery_number": 999,
+    "title": "Special Teams Entry Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/union-special-teams-entry-game",
+    "categories": [
+      "5 vs 4",
+      "Penalty Kill",
+      "Zone Entry",
+      "Passing",
+      "Power Play",
+      "Offensive",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=5&tid=All"
+  },
+  {
+    "discovery_number": 1000,
+    "title": "Billy Purcell Breakout",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/billy-purcell-breakout",
+    "categories": [
+      "3 vs 0",
+      "Zone Entry",
+      "Passing",
+      "Offensive",
+      "Breakouts",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=5&tid=All"
+  },
+  {
+    "discovery_number": 1001,
+    "title": "Sticks In Lanes Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sticks-lanes-game",
+    "categories": [
+      "4 vs 2",
+      "6 vs 2",
+      "6 vs 3",
+      "Penalty Kill",
+      "One Goalie",
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=5&tid=All"
+  },
+  {
+    "discovery_number": 1002,
+    "title": "Rondo Circle Passing to 2 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/rondo-circle-passing-2-1",
+    "categories": [
+      "2 vs 1",
+      "Passing",
+      "Puck Handling",
+      "Offensive",
+      "Small Area Games",
+      "Transition",
+      "Neutral Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=5&tid=All"
+  },
+  {
+    "discovery_number": 1003,
+    "title": "NEHDA 2 Puck",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/nehda-2-puck",
+    "categories": [
+      "Passing",
+      "Puck Handling",
+      "Puck Protection",
+      "Skill Development",
+      "Transition",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=5&tid=All"
+  },
+  {
+    "discovery_number": 1004,
+    "title": "Fullback Puck Possession",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/fullback-puck-possession",
+    "categories": [
+      "1 vs 1",
+      "Puck Control",
+      "Puck Protection",
+      "Quarter Ice Station",
+      "Battle Drills",
+      "Coverage"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=5&tid=All"
+  },
+  {
+    "discovery_number": 1005,
+    "title": "Decision Time 2 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/decision-time-2-1",
+    "categories": [
+      "2 vs 1",
+      "Offensive",
+      "Stations",
+      "Quarter Ice Station",
+      "Passing",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=5&tid=All"
+  },
+  {
+    "discovery_number": 1006,
+    "title": "3 vs 3 Picket Fences",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-vs-3-picket-fences",
+    "categories": [
+      "3 vs 3",
+      "Offensive",
+      "Small Area Games",
+      "Offensive Zone",
+      "Half Ice",
+      "Coverage"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=5&tid=All"
+  },
+  {
+    "discovery_number": 1007,
+    "title": "Shoot Around The Traffic!",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shoot-around-traffic",
+    "categories": [
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "Passing",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=5&tid=All"
   }
 ]
