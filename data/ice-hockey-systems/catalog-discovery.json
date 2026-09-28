@@ -13938,5 +13938,103 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 895,
+    "title": "Tight Transition 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tight-transition-1-1",
+    "categories": [
+      "1 on 1",
+      "Half Ice",
+      "Defensive",
+      "Backwards Skating",
+      "Gap",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 896,
+    "title": "High Slot Give & Gos",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/high-slot-give-gos",
+    "categories": [
+      "Passing",
+      "Half Ice",
+      "Skating",
+      "Agility",
+      "Shooting",
+      "Footwork"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 897,
+    "title": "2 on 0 into 1 vs. 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-1-vs-1",
+    "categories": [
+      "Full Ice",
+      "2 on 0",
+      "1 on 1",
+      "Transition",
+      "Defensive",
+      "Gap",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 898,
+    "title": "1 on 1 from Center Ice",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-1-center-ice",
+    "categories": [
+      "1 on 1",
+      "Full Ice",
+      "Defensive",
+      "Gap",
+      "Backwards Skating",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 899,
+    "title": "2 on 0 Neutral Zone Swing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-neutral-zone-swing",
+    "categories": [
+      "2 on 0",
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Passing",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 900,
+    "title": "Center Ice Figure Eight One Touches",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/center-ice-figure-eight-one-touches",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "One Touch",
+      "Agility",
+      "Shooting",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
   }
 ]
