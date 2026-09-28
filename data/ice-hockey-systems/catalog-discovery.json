@@ -13215,5 +13215,144 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Sorted IHS catalog page 31 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 849,
+    "title": "Break Out Timing #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/break-out-timing-1",
+    "categories": [
+      "Full Ice",
+      "Breakouts",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 850,
+    "title": "Break Out Timing #2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/break-out-timing-2",
+    "categories": [
+      "Full Ice",
+      "Breakouts",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 851,
+    "title": "Break Out Timing #4",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/break-out-timing-4",
+    "categories": [
+      "Half Ice",
+      "Breakouts",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 852,
+    "title": "Three Lane Shooting",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/three-lane-shooting",
+    "categories": [
+      "Shooting",
+      "Warm Up",
+      "Goalie",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 853,
+    "title": "Perpetual Forecheck",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/perpetual-forecheck",
+    "categories": [
+      "Forechecking",
+      "Breakouts",
+      "Defensive Zone",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 854,
+    "title": "Swoop Warm Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swoop-warm",
+    "categories": [
+      "Shooting",
+      "Warm Up",
+      "Half Ice",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 855,
+    "title": "Continuous Breakouts - #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-breakouts-1",
+    "categories": [
+      "Full Ice",
+      "Breakouts",
+      "Defensive",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 856,
+    "title": "Continuous Chip Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-chip-drill",
+    "categories": [
+      "Full Ice",
+      "Breakouts",
+      "Defensive",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 857,
+    "title": "Double Chip Off Boards",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/double-chip-boards",
+    "categories": [
+      "Full Ice",
+      "Breakouts",
+      "Defensive",
+      "Wall Play",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 858,
+    "title": "Center Timing Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/center-timing-drill",
+    "categories": [
+      "Full Ice",
+      "Breakouts",
+      "Defensive",
+      "Passing",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap reconciliation + verified original IHS-hosted drill diagram"
   }
 ]
