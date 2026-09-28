@@ -57,7 +57,7 @@ button{cursor:pointer}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
 <body>
-<div class="app" id="app">
+<div class="app" id="app" data-build="20260928-1045">
   <header class="header">
     <div class="brand"><div class="logo"><img src="assets/mch-logo.png?v=1" alt="Motor City Hockey logo"></div><div><h1>MOTOR CITY HOCKEY</h1><small>MISSION: FOREVER IMPACT</small></div></div>
     <div class="pill"><b>Build fast.</b> Export only what you need.</div>
@@ -80,7 +80,7 @@ button{cursor:pointer}
         <button class="btn red" id="quickAdd">Find Drill</button>
         <div class="stat-box"><small>FULL ICE DRILLS</small><strong id="fullIceCount">570</strong></div>
         <div class="stat-box"><small>SKILL ZONE DRILLS</small><strong id="skillZoneCount">452</strong></div>
-        <div class="stat-box total"><small>TOTAL DRILLS</small><strong id="totalDrillCount">2,464</strong></div>
+        <div class="stat-box total"><small>TOTAL DRILLS</small><strong id="totalDrillCount">2,464</strong></div><span id="typeAllCount" hidden aria-hidden="true"></span>
       </div>
     </section>
 
@@ -393,12 +393,12 @@ button{cursor:pointer}
     setLibraryOptionCount('book','Hockey Drill Book',book);
     setLibraryOptionCount('ihs','Ice Hockey Systems',ihs,'Imported');
 
-    $('#fullIceCount').textContent=(rich+turk+weiss).toLocaleString();
-    $('#skillZoneCount').textContent=skills.toLocaleString();
+    if($('#fullIceCount'))$('#fullIceCount').textContent=(rich+turk+weiss).toLocaleString();
+    if($('#skillZoneCount'))$('#skillZoneCount').textContent=skills.toLocaleString();
 
     ALL_DRILL_TOTAL=allDrillsDatabase?allDrillsDatabase.length:(coaches+book+ihs+skills+rich+turk+weiss);
     setLibraryOptionCount('all','All Drills',ALL_DRILL_TOTAL);
-    $('#totalDrillCount').textContent=ALL_DRILL_TOTAL.toLocaleString();
+    if($('#totalDrillCount'))$('#totalDrillCount').textContent=ALL_DRILL_TOTAL.toLocaleString();
   }
 
   async function loadTeam(){
