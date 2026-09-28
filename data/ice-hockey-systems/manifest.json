@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 1316,
-    "catalog_items_verified": 1316,
+    "catalog_items_imported": 1319,
+    "catalog_items_verified": 1319,
     "catalog_target": 1573,
-    "last_batch": "IHS verified through #1316",
-    "original_diagrams_verified": 1316,
+    "last_batch": "IHS skill stations verified through #1319",
+    "original_diagrams_verified": 1319,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
     "notes": "Live IHS loader now exposes 1,316 verified drill records across the master file and continuation batches; manifest, loader, and library counts are synchronized.",
-    "unique_urls_discovered": 1316,
+    "unique_urls_discovered": 1319,
     "catalog_items_pending_enrichment": 11,
     "goalies_discovered_in_current_batch": 0,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue from #1317 with exact original IHS/site-hosted diagrams only.",
+    "next_step": "Prioritize verified Ice Hockey Systems skill-station drills with original source diagrams, grouping multiple versions under one drill when they are one concept.",
     "multi_diagram_drills_preserved": 94,
     "last_completed_catalog_page": 31,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 10,
-    "last_batch_notes": "Added 10 verified IHS drills (#1307-#1316), including verified original source images for Five Puck Scoring Race (half/full ice), Four Shot Half Ice Shooting, Continuous 2 on 1 with Backchecker, Neutral Zone Puck Skills #1, Full Ice Skills Series - 1 Goalie, Greatest Drill in the World, Neutral Zone Passing Station #1, Savy's Continuous Breakout with Forecheckers, and 2-1 Low/2-1 Long. No AI diagrams were used.",
+    "last_batch_imported": 3,
+    "last_batch_notes": "Added Max Skill Station Series #1-#3, Half Ice Side By Side Skills Series #1, and Circle Stickhandling Series. All are real Ice Hockey Systems drills with exact source-hosted diagrams verified from the IHS pages. Featured skill stations now sort to the top of the IHS library.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "1 on 1 to 2 on 2 Battle Drill - source page was found, but no original drill diagram is currently exposed; do not substitute an AI diagram.",
@@ -70,6 +70,6 @@
       "Body Contact And Dummy Fundamentals - source page currently exposes video only and no verifiable original rink diagram; defer rather than substitute."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 10
+    "last_batch_discovered": 3
   }
 }
