@@ -869,7 +869,36 @@ button{cursor:pointer}
     if(!selected.length){setStatus('Select at least one drill before exporting.','err');return;}
     const w=window.open('','_blank');if(!w){setStatus('Your browser blocked the print window. Allow pop-ups for this page.','err');return;}
     const cards=selected.map(d=>'<section class="p"><div class="n">Drill '+esc(d.number)+(d.title?' — '+esc(d.title):'')+'</div><img src="'+imageFor(d)+'">'+(d.includeDescription&&d.description?'<div class="desc">'+formatDescription(d)+'</div>':'')+'</section>').join('');
-    w.document.write('<!doctype html><html><head><title>MCH Practice Set</title><style>@page{size:letter landscape;margin:.25in}body{font-family:Arial;margin:0}.g{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.p{border:1px solid #aaa;padding:7px;break-inside:avoid}.p img{width:100%;height:3.1in;object-fit:contain}.n{font-weight:bold;margin-bottom:5px;font-size:12px}.desc{font-size:9px;line-height:1.25;margin-top:5px}.desc ul{margin:4px 0 6px;padding-left:16px}.desc li{margin-bottom:2px}.viewer-section-title{font-weight:bold;margin:5px 0 3px}.viewer-key{border-left:2px solid #111;padding-left:6px}</style></head><body><div class="g">'+cards+'</div><script>setTimeout(()=>window.print(),700)<\/script><script id="mikeJohnstonVideoLoader">
+    w.document.write('<!doctype html><html><head><title>MCH Practice Set</title><style>@page{size:letter landscape;margin:.25in}body{font-family:Arial;margin:0}.g{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.p{border:1px solid #aaa;padding:7px;break-inside:avoid}.p img{width:100%;height:3.1in;object-fit:contain}.n{font-weight:bold;margin-bottom:5px;font-size:12px}.desc{font-size:9px;line-height:1.25;margin-top:5px}.desc ul{margin:4px 0 6px;padding-left:16px}.desc li{margin-bottom:2px}.viewer-section-title{font-weight:bold;margin:5px 0 3px}.viewer-key{border-left:2px solid #111;padding-left:6px}</style></head><body><div class="g">'+cards+'</div><script>setTimeout(()=>window.print(),700)<\/script></body></html>');
+    w.document.close();
+  };
+
+  const requestedLibrary=new URLSearchParams(location.search).get('library');
+  const initialLibrary=requestedLibrary==='travel'?'rich-skills':(requestedLibrary==='team'?'rich-full':(['all','coaches','book','ihs','rich-full','rich-skills','turk','weiss'].includes(requestedLibrary)?requestedLibrary:'coaches'));
+  $('#librarySelect').value=initialLibrary;
+  restoreSelected();loadLibraryCountManifest();switchLibrary(initialLibrary);
+})();
+</script>
+<script>
+(() => {
+  const app=document.getElementById('app');
+  const tabs=[...document.querySelectorAll('.hub-tab')];
+  function setHubView(view,updateUrl=false){
+    const videos=view==='videos';
+    app.classList.toggle('videos-mode',videos);
+    tabs.forEach(btn=>btn.classList.toggle('active',btn.dataset.hubView===(videos?'videos':'drills')));
+    if(updateUrl){
+      const u=new URL(location.href);
+      if(videos)u.searchParams.set('view','videos'); else u.searchParams.delete('view');
+      history.replaceState(null,'',u);
+    }
+    window.scrollTo({top:0,behavior:'auto'});
+  }
+  tabs.forEach(btn=>btn.addEventListener('click',()=>setHubView(btn.dataset.hubView,true)));
+  if(new URLSearchParams(location.search).get('view')==='videos')setHubView('videos');
+})();
+</script>
+<script id="mikeJohnstonVideoLoader">
 (() => {
   const grid=document.getElementById('videoGrid');
   const search=document.getElementById('videoSearch');
@@ -933,35 +962,6 @@ button{cursor:pointer}
       status.className='status err';
     });
   if(search)search.addEventListener('input',render);
-})();
-</script>
-</body></html>');
-    w.document.close();
-  };
-
-  const requestedLibrary=new URLSearchParams(location.search).get('library');
-  const initialLibrary=requestedLibrary==='travel'?'rich-skills':(requestedLibrary==='team'?'rich-full':(['all','coaches','book','ihs','rich-full','rich-skills','turk','weiss'].includes(requestedLibrary)?requestedLibrary:'coaches'));
-  $('#librarySelect').value=initialLibrary;
-  restoreSelected();loadLibraryCountManifest();switchLibrary(initialLibrary);
-})();
-</script>
-<script>
-(() => {
-  const app=document.getElementById('app');
-  const tabs=[...document.querySelectorAll('.hub-tab')];
-  function setHubView(view,updateUrl=false){
-    const videos=view==='videos';
-    app.classList.toggle('videos-mode',videos);
-    tabs.forEach(btn=>btn.classList.toggle('active',btn.dataset.hubView===(videos?'videos':'drills')));
-    if(updateUrl){
-      const u=new URL(location.href);
-      if(videos)u.searchParams.set('view','videos'); else u.searchParams.delete('view');
-      history.replaceState(null,'',u);
-    }
-    window.scrollTo({top:0,behavior:'auto'});
-  }
-  tabs.forEach(btn=>btn.addEventListener('click',()=>setHubView(btn.dataset.hubView,true)));
-  if(new URLSearchParams(location.search).get('view')==='videos')setHubView('videos');
 })();
 </script>
 </body>
