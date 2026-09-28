@@ -4469,18 +4469,17 @@
   {
     "discovery_number": 319,
     "title": "Cross-Fire Passing",
-    "source_url": "https://www.icehockeysystems.com/hockey-drills/cross-fire-passing",
+    "source_url": "https://icehockeysystems.com/hockey-drills/crossfire-passing-game",
     "categories": [
+      "2 vs 2",
       "Passing",
       "Puck Control",
       "Puck Protection",
       "Offensive",
-      "Small Area Games",
-      "2 on 2",
-      "Battle Drills"
+      "Small Area Games"
     ],
     "source": "Ice Hockey Systems",
-    "discovery_status": "discovered-needs-enrichment",
+    "discovery_status": "enriched-and-imported",
     "discovered_from": "Battle Drills page 2"
   },
   {
@@ -14828,5 +14827,204 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 950,
+    "title": "2 v 2 Play Fast with Support",
+    "source_url": "https://icehockeysystems.com/hockey-drills/2-v-2-play-fast-support",
+    "categories": [
+      "2 vs 2",
+      "4 vs 4",
+      "Puck Support",
+      "Small Area Games",
+      "Full Ice",
+      "Competition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=3"
+  },
+  {
+    "discovery_number": 951,
+    "title": "1 on 1 Re-Gap Transition",
+    "source_url": "https://icehockeysystems.com/hockey-drills/1-on-1-re-gap-transition",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Gap",
+      "Neutral Zone",
+      "Zone Entry",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=3"
+  },
+  {
+    "discovery_number": 952,
+    "title": "Weak Side Transition",
+    "source_url": "https://icehockeysystems.com/hockey-drills/weak-side-transition-1",
+    "categories": [
+      "2 vs 1",
+      "Backchecking",
+      "Transition",
+      "Re-Group",
+      "Zone Entry",
+      "Offensive Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=3"
+  },
+  {
+    "discovery_number": 953,
+    "title": "3 on 3 Transition Game",
+    "source_url": "https://icehockeysystems.com/hockey-drills/3-on-3-transition-game",
+    "categories": [
+      "3 vs 3",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Half Ice",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=3"
+  },
+  {
+    "discovery_number": 954,
+    "title": "Avery 3 on 2 Drill",
+    "source_url": "https://icehockeysystems.com/hockey-drills/avery-3-on-2-drill",
+    "categories": [
+      "3 vs 2",
+      "Defensive",
+      "Gap",
+      "Neutral Zone",
+      "Offensive",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=3"
+  },
+  {
+    "discovery_number": 955,
+    "title": "2 v 2 Shawzy",
+    "source_url": "https://icehockeysystems.com/hockey-drills/2-v-2-shawzy",
+    "categories": [
+      "2 vs 2",
+      "Angling",
+      "Coverage",
+      "Defensive",
+      "Full Ice",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=3"
+  },
+  {
+    "discovery_number": 956,
+    "title": "3 v 3 Neutral Zone Break Game",
+    "source_url": "https://icehockeysystems.com/hockey-drills/3-v-3-neutral-zone-break-game",
+    "categories": [
+      "3 vs 3",
+      "Awareness",
+      "Battle Drills",
+      "Coverage",
+      "Neutral Zone",
+      "Passing",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=3"
+  },
+  {
+    "discovery_number": 957,
+    "title": "L-Support - Basic Triangle Movement",
+    "source_url": "https://icehockeysystems.com/hockey-drills/l-support-basic-triangle-movement",
+    "categories": [
+      "3 vs 0",
+      "3 vs 1",
+      "3 vs 2",
+      "Awareness",
+      "Offensive",
+      "Passing",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=3"
+  },
+  {
+    "discovery_number": 958,
+    "title": "Neutral Zone Puck Races With Support",
+    "source_url": "https://icehockeysystems.com/hockey-drills/neutral-zone-puck-races-support",
+    "categories": [
+      "2 vs 2",
+      "3 vs 2",
+      "Awareness",
+      "Neutral Zone",
+      "Passing",
+      "Puck Support",
+      "Competition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=3"
+  },
+  {
+    "discovery_number": 959,
+    "title": "Short to Long 2 on 2",
+    "source_url": "https://icehockeysystems.com/hockey-drills/short-long-2-on-2",
+    "categories": [
+      "2 vs 2",
+      "Backwards Skating",
+      "Coverage",
+      "Defensive",
+      "Full Ice",
+      "Gap",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=3"
+  },
+  {
+    "discovery_number": 960,
+    "title": "Continuous 2 on 2 with Ozone D Options",
+    "source_url": "https://icehockeysystems.com/hockey-drills/continuous-2-2-ozone-d-options",
+    "categories": [
+      "2 vs 2",
+      "Full Ice",
+      "Gap",
+      "Offensive Zone",
+      "Transition",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=3"
+  },
+  {
+    "discovery_number": 961,
+    "title": "3 v 2 to 5 v 5 Backcheck",
+    "source_url": "https://icehockeysystems.com/hockey-drills/3-v-2-5-v-5-backcheck",
+    "categories": [
+      "3 vs 2",
+      "5 vs 5",
+      "Backchecking",
+      "Coverage",
+      "Neutral Zone",
+      "Offensive Zone",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=3"
   }
 ]
