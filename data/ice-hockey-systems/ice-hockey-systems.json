@@ -34951,5 +34951,319 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-wildcat-one-time-drill",
+    "number": 1091,
+    "title": "Wildcat One-Time Drill",
+    "category": "Passing / Shooting / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "One Timer",
+      "Warm Up"
+    ],
+    "description": "A quick half-ice passing and one-timer drill. A forward moves the puck to the defense, the defense makes a hard return pass across the zone, and the shooter times a route out of the corner to arrive in a one-time shooting position.",
+    "coaching_points": [
+      "Passes should be hard and accurate.",
+      "Shooter times the route so the puck arrives in the shooting window.",
+      "Set the feet and stick early for the one-timer.",
+      "Goalie tracks the lateral puck movement before the shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wildcat-one-time-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/wild-cat-one-timers.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/wild-cat-one-timers.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-wildcat-one-timer-variation-1",
+    "number": 1092,
+    "title": "Wildcat One-Timer Drill - Variation #1",
+    "category": "Passing / Shooting / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "One Timer",
+      "Defensive"
+    ],
+    "description": "A Wildcat one-timer progression that adds defense movement. The defense receives a pass, skates around a cone, returns the puck, transitions backward to the blue line and then opens up to find a forward timing into the slot for a one-time shot.",
+    "coaching_points": [
+      "Defense keeps the feet moving through the cone and backward transition.",
+      "Exchange the puck quickly without overhandling.",
+      "Shooter times the slot route instead of arriving early.",
+      "Final pass should lead the shooter into the one-timer."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wildcat-one-timer-drill-variation-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/wild-cat-one-timers-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/wild-cat-one-timers-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-wildcat-one-timer-variation-3",
+    "number": 1093,
+    "title": "Wildcat One-Timer Drill - Variation #3",
+    "category": "Passing / Shooting / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "One Timer",
+      "Power Play",
+      "Offensive"
+    ],
+    "description": "A power-play style one-timer progression. The puck moves from the forward to the defense at the point, back down the wall, then immediately across to a forward timing into the slot for a one-time finish.",
+    "coaching_points": [
+      "Move the puck quickly from low to high and back down the wall.",
+      "Wall player delivers the final pass without holding the puck.",
+      "Shooter times the route to arrive outside the hash marks in a scoring window.",
+      "Follow the one-timer to the net for a rebound."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wildcat-one-timer-drill-variation-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/wild-cat-one-timers-3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/wild-cat-one-timers-3.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-3-0-regroup-whistle",
+    "number": 1094,
+    "title": "3 on 0 Regroup on Whistle",
+    "category": "3 on 0 / Full Ice / Transition",
+    "drill_types": [
+      "3 on 0",
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Breakouts",
+      "Re-Group",
+      "Passing"
+    ],
+    "description": "A full-ice transition drill that begins with a simple breakout. Once the forwards cross the red line, the coach's whistle triggers a turnover-style regroup: the puck is dumped to the opposite corner, the defense retrieves, and the forwards reorganize before attacking 3 on 0.",
+    "coaching_points": [
+      "Forwards stay available underneath the puck during the regroup.",
+      "Defense retrieves with urgency and faces up ice before making the first pass.",
+      "React immediately to the whistle as if possession has changed.",
+      "Attack the final 3 on 0 with proper width and puck support."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-0-regroup-whistle",
+    "image": "https://www.files.icehockeysystems.com/files/drills/3-on-0-regroup-on-whistle.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/3-on-0-regroup-on-whistle.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-open-double-pass",
+    "number": 1095,
+    "title": "Open Up Double Pass",
+    "category": "Passing / Full Ice / Shooting",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Skating",
+      "Awareness"
+    ],
+    "description": "A full-ice passing warm-up run from four neutral-zone lines. Players pass across the ice, skate through the middle while opening their hips to stay facing the puck, receive the return pass and then attack the net for a shot.",
+    "coaching_points": [
+      "Open the body so the puck stays in view while crossing center ice.",
+      "Present the stick as a target for the return pass.",
+      "Keep the feet moving through the entire exchange.",
+      "Finish with a shot in stride and then clear the shooting lane."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/open-double-pass",
+    "image": "https://www.files.icehockeysystems.com/files/drills/open-up-double-pass.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/open-up-double-pass.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-neutral-zone-offense-swing",
+    "number": 1096,
+    "title": "Neutral Zone Offense Swing",
+    "category": "Full Ice / Transition / Neutral Zone",
+    "drill_types": [
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Passing",
+      "Defensive",
+      "Zone Entry",
+      "2 on 0"
+    ],
+    "description": "A neutral-zone transition drill that starts with a soft puck to the boards. The defense pivots back, retrieves and moves the puck D-to-D, while the forwards time their routes so one receives the outlet at speed and the second drives the far post.",
+    "coaching_points": [
+      "Defense retrieves with the head up and uses the partner underneath as support.",
+      "F1 cannot get ahead of the puck; time the swing for a flat pass.",
+      "Receive the outlet at full speed before the red line.",
+      "Puck carrier attacks the dot while the second forward drives the far post."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-offense-swing",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-offense-swing.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-offense-swing.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-neutral-zone-offense-chip",
+    "number": 1097,
+    "title": "Neutral Zone Offense Chip",
+    "category": "Full Ice / Transition / Neutral Zone",
+    "drill_types": [
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Wall Play",
+      "Zone Entry",
+      "Passing",
+      "2 on 0"
+    ],
+    "description": "A neutral-zone transition and chip-entry drill. The defense retrieves a soft puck and chips it off the boards into open space for a forward arriving with speed, while a second forward drives through the middle to create a far-post option.",
+    "coaching_points": [
+      "Defense faces up ice before making the chip.",
+      "Place the chip into space instead of simply rimming it away.",
+      "Forward times the route to skate onto the puck at speed.",
+      "Attack off the wall with speed and read the shot versus far-post pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-offense-chip",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-offense-chip.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-offense-chip.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-neutral-zone-offense-double-chip",
+    "number": 1098,
+    "title": "Neutral Zone Offense Double Chip",
+    "category": "Full Ice / Transition / Neutral Zone",
+    "drill_types": [
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Wall Play",
+      "Zone Entry",
+      "Passing",
+      "Puck Support"
+    ],
+    "description": "A double-chip neutral-zone entry. The defense retrieves and chips the puck to the first forward along the wall. That forward carries toward the middle to create a new angle, chips the puck into space for the second forward swinging into the zone, then drives the far post.",
+    "coaching_points": [
+      "First chip must lead the forward into space.",
+      "F1 carries toward the middle to improve the angle for the second chip.",
+      "Second forward times the swing to receive the chip at speed.",
+      "After moving the puck, F1 drives the far post as a scoring option."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-offense-double-chip",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-offense-double-chip.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-offense-double-chip.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-breakout-backcheck-drill",
+    "number": 1099,
+    "title": "Breakout Backcheck Drill",
+    "category": "Full Ice / Breakouts / Backchecking",
+    "drill_types": [
+      "Full Ice",
+      "Breakouts",
+      "Backchecking",
+      "Defensive",
+      "Passing",
+      "Transition",
+      "Shooting"
+    ],
+    "description": "A full-ice breakout and backcheck drill. The defense carries around the net and makes a breakout pass to the forward. On a second whistle the backchecker releases, the forward moves the puck to a defenseman at center ice, and the backchecker works to disrupt the return pass and scoring chance.",
+    "coaching_points": [
+      "Breakout defenseman moves the puck in stride.",
+      "Forward moves the puck to the middle option quickly after the breakout.",
+      "Backchecker takes away the return lane instead of chasing from directly behind.",
+      "Forward stays available for the return pass and attacks immediately if it arrives."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakout-backcheck-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/breakout-backcheck-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/breakout-backcheck-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-moose-simple-timing-drill-1",
+    "number": 1100,
+    "title": "Moose Simple Timing Drill #1",
+    "category": "Full Ice / Transition / Neutral Zone",
+    "drill_types": [
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Passing",
+      "Defensive",
+      "2 on 0",
+      "Puck Support"
+    ],
+    "description": "A neutral-zone timing drill focused on receiving the outlet at full speed. One defenseman receives from a partner while skating backward, transitions forward toward the middle and finds F1 crossing center ice. F2 curls back while facing the puck, then drives the near post for a pass or rebound.",
+    "coaching_points": [
+      "D1 keeps the feet moving through the backward-to-forward transition.",
+      "F1 times the route so the pass arrives at full speed without getting ahead of the play.",
+      "F2 stays facing the puck during the curl and then sprints to the near post.",
+      "Puck carrier attacks wide with speed and reads shot versus pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/moose-simple-timing-drill-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/moose-simple-timing-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/moose-simple-timing-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
