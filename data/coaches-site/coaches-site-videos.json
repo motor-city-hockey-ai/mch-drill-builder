@@ -1,37 +1,508 @@
 [
   {
-    "uid": "coaches-video-0015",
-    "number": 15,
-    "title": "The Forecheck Drill",
-    "coach": "Mike Johnston",
-    "category": "Forechecking / Breakout",
-    "format": "2 vs 2",
-    "duration_seconds": 90,
-    "source": "The Coaches Site",
-    "source_article_title": "The Forecheck Drill and Boucher Drill",
-    "source_article_url": "https://members.thecoachessite.com/article/the-forecheck-drill-and-boucher-drill",
-    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston-the-forecheck-drill?modestbranding=1&showinfo=1&controls=1&t=0&objectFit=",
+    "uid": "mj-001",
+    "number": 1,
+    "title": "Aussie Chip",
+    "duration_seconds": 134,
+    "category": "Shooting / Goaltending",
+    "article": "/article/aussie-chip-and-moog-shooting-1",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---aussie-chip-1",
     "notes": [
-      "Competitive 2-on-2 forecheck-versus-breakout drill.",
-      "Forechecking side works on pressure, reads, puck recovery and winning possession.",
-      "Breakout side works on support, outlets and escaping pressure under game-like resistance."
-    ]
+      "Four varied shot looks for the goalie.",
+      "Useful as a shooting and goalie warm-up."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/aussie-chip-and-moog-shooting-1",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---aussie-chip-1?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
   },
   {
-    "uid": "coaches-video-0016",
+    "uid": "mj-002",
+    "number": 2,
+    "title": "Moog Shooting",
+    "duration_seconds": 97,
+    "category": "Shooting / Goaltending",
+    "article": "/article/aussie-chip-and-moog-shooting-1",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---moog-shooting-1",
+    "notes": [
+      "One-end shooting drill.",
+      "Primary emphasis is goaltender work and shot variety."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/aussie-chip-and-moog-shooting-1",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---moog-shooting-1?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-003",
+    "number": 3,
+    "title": "Strip and Go",
+    "duration_seconds": 97,
+    "category": "Transition / Backcheck",
+    "article": "/article/strip-and-go-and-alain-2-on-2-game",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---strip-and-go",
+    "notes": [
+      "Game-like hard backcheck into transition.",
+      "Win/strip the puck, transition quickly, then attack."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/strip-and-go-and-alain-2-on-2-game",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---strip-and-go?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-004",
+    "number": 4,
+    "title": "Alain 2 on 2 Game",
+    "duration_seconds": 87,
+    "category": "Small Area Game / Team Play",
+    "article": "/article/strip-and-go-and-alain-2-on-2-game",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston-alain-2-on-2-game",
+    "notes": [
+      "Competitive 2-on-2 game.",
+      "Works multiple team-play habits while keeping score."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/strip-and-go-and-alain-2-on-2-game",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston-alain-2-on-2-game?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-005",
+    "number": 5,
+    "title": "Net Drive, Pass Out",
+    "duration_seconds": 127,
+    "category": "Offense / Competition",
+    "article": "/article/net-drive-pass-out-and-2-vs-3-backcheck",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---net-drive-pass-out-1",
+    "notes": [
+      "Competitive drill that forces offensive reads.",
+      "Emphasizes getting into useful attack positions."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/net-drive-pass-out-and-2-vs-3-backcheck",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---net-drive-pass-out-1?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-006",
+    "number": 6,
+    "title": "2 vs 3 Backcheck",
+    "duration_seconds": 101,
+    "category": "Transition / Backcheck",
+    "article": "/article/net-drive-pass-out-and-2-vs-3-backcheck",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---2-vs-3-backcheck-1",
+    "notes": [
+      "Transition drill working both sides of the puck.",
+      "Includes attack options plus defensive backcheck responsibilities."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/net-drive-pass-out-and-2-vs-3-backcheck",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---2-vs-3-backcheck-1?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-007",
+    "number": 7,
+    "title": "Victoria Drive Drill",
+    "duration_seconds": 91,
+    "category": "Net Drive / Offense",
+    "article": "/article/victoria-drive-and-box-game",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---victoria-drive-1",
+    "notes": [
+      "Drive the middle lane hard.",
+      "Continue through rebounds and keep the rep moving."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/victoria-drive-and-box-game",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---victoria-drive-1?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-008",
+    "number": 8,
+    "title": "Box Game",
+    "duration_seconds": 102,
+    "category": "Small Area Game",
+    "article": "/article/victoria-drive-and-box-game",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---box-game",
+    "notes": [
+      "Competitive half-ice game.",
+      "Emphasizes finding open space and coordinated offense/defense."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/victoria-drive-and-box-game",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---box-game?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-009",
+    "number": 9,
+    "title": "2 on 1 Breakdown",
+    "duration_seconds": 89,
+    "category": "Defensive Zone / 2 on 1",
+    "article": "/article/2-on-1-breakdown-and-ozone-resets",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---2-on-1-breakdown-1",
+    "notes": [
+      "Teaches defencemen how to manage breakdowns in the defensive zone.",
+      "Use for recovery decisions and defending odd-man situations."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/2-on-1-breakdown-and-ozone-resets",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---2-on-1-breakdown-1?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-010",
+    "number": 10,
+    "title": "Offensive Zone Resets",
+    "duration_seconds": 147,
+    "category": "Offensive Zone",
+    "article": "/article/2-on-1-breakdown-and-ozone-resets",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---ozone-resets",
+    "notes": [
+      "Rehearses offensive-zone plays under pressure.",
+      "Works resets and making coverage difficult for defenders."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/2-on-1-breakdown-and-ozone-resets",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---ozone-resets?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-011",
+    "number": 11,
+    "title": "Quick Hands",
+    "duration_seconds": 90,
+    "category": "Puck Skills / Passing",
+    "article": "/article/quick-hands-and-power-play-game",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---quick-hands-1",
+    "notes": [
+      "Fast warm-up for hands.",
+      "Also reinforces passing execution."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/quick-hands-and-power-play-game",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---quick-hands-1?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-012",
+    "number": 12,
+    "title": "The Power Play Game",
+    "duration_seconds": 153,
+    "category": "Power Play / Small Area Game",
+    "article": "/article/quick-hands-and-power-play-game",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---power-play-game-1",
+    "notes": [
+      "Confined-space game for power-play habits.",
+      "Use to rehearse special-teams reads in competition."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/quick-hands-and-power-play-game",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---power-play-game-1?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-013",
+    "number": 13,
+    "title": "2 on 2 Speed Cross",
+    "duration_seconds": 100,
+    "category": "2 on 2 / Gap Control",
+    "article": "/article/2-on-2-speed-cross-and-switchback",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston-2-on-2-speed-cross",
+    "notes": [
+      "2-on-2 rush drill.",
+      "Defencemen work on closing space and gapping up."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/2-on-2-speed-cross-and-switchback",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston-2-on-2-speed-cross?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-014",
+    "number": 14,
+    "title": "Switchback Drill",
+    "duration_seconds": 109,
+    "category": "Backcheck / Transition",
+    "article": "/article/2-on-2-speed-cross-and-switchback",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---switchback",
+    "notes": [
+      "Backchecking progression.",
+      "Can add layers as players learn the base drill."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/2-on-2-speed-cross-and-switchback",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---switchback?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-015",
+    "number": 15,
+    "title": "The Forecheck Drill",
+    "duration_seconds": 90,
+    "category": "Forecheck / Breakout",
+    "article": "/article/the-forecheck-drill-and-boucher-drill",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston-the-forecheck-drill",
+    "notes": [
+      "Competitive 2-on-2 forecheck versus breakout.",
+      "Pressure side works puck recovery; breakout side works support and exits."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/the-forecheck-drill-and-boucher-drill",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston-the-forecheck-drill?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-016",
     "number": 16,
     "title": "Boucher Drill",
-    "coach": "Mike Johnston",
-    "category": "Offensive Zone Entries / Attack Options",
     "duration_seconds": 139,
-    "source": "The Coaches Site",
-    "source_article_title": "The Forecheck Drill and Boucher Drill",
-    "source_article_url": "https://members.thecoachessite.com/article/the-forecheck-drill-and-boucher-drill",
-    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---boucher-drill?modestbranding=1&showinfo=1&controls=1&t=0&objectFit=",
+    "category": "Zone Entry / Attack Options",
+    "article": "/article/the-forecheck-drill-and-boucher-drill",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---boucher-drill",
     "notes": [
-      "Offensive attack-options drill focused on zone entries.",
-      "Develops multiple entry and attack choices rather than one fixed route.",
-      "Use it to reinforce support, spacing and reading the available option as the rush develops."
-    ]
+      "Develops multiple attack options.",
+      "Useful for offensive-zone entry reads and support."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/the-forecheck-drill-and-boucher-drill",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---boucher-drill?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-017",
+    "number": 17,
+    "title": "Globe Passing",
+    "duration_seconds": 168,
+    "category": "Passing / Warm Up",
+    "article": "/article/globe-passing-and-the-la-six-shooter",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---globe-passing",
+    "notes": [
+      "Warm-up drill for passing skill.",
+      "Provides quality shots for goaltenders."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/globe-passing-and-the-la-six-shooter",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---globe-passing?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-018",
+    "number": 18,
+    "title": "The LA Six Shooter",
+    "duration_seconds": 108,
+    "category": "Passing / Shooting / Timing",
+    "article": "/article/globe-passing-and-the-la-six-shooter",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---the-la-six-shooter",
+    "notes": [
+      "Warm-up drill combining attack, passing and timing.",
+      "Good for coordinated movement into shots."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/globe-passing-and-the-la-six-shooter",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---the-la-six-shooter?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-019",
+    "number": 19,
+    "title": "Peterborough Passing",
+    "duration_seconds": 135,
+    "category": "2 on 0 / Passing",
+    "article": "/article/peterborough-passing-and-lausanne-2-on-2",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---peterborough-passing",
+    "notes": [
+      "2-on-0 passing drill.",
+      "Use for timing, support and clean execution."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/peterborough-passing-and-lausanne-2-on-2",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---peterborough-passing?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-020",
+    "number": 20,
+    "title": "Lausanne 2 on 2",
+    "duration_seconds": 129,
+    "category": "2 on 2 / Battle",
+    "article": "/article/peterborough-passing-and-lausanne-2-on-2",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---lausanne-2-on-2",
+    "notes": [
+      "Competitive 2-on-2 battle.",
+      "Encourages forwards and defencemen to compete for space and possession."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/peterborough-passing-and-lausanne-2-on-2",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---lausanne-2-on-2?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-021",
+    "number": 21,
+    "title": "The Agnew Forecheck",
+    "duration_seconds": 130,
+    "category": "Forecheck / Breakout",
+    "article": "/article/the-agnew-forecheck-and-flames-open-up-drill",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---the-agnew-forecheck",
+    "notes": [
+      "Continuous breakout/forecheck drill.",
+      "Built for team-system repetition."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/the-agnew-forecheck-and-flames-open-up-drill",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---the-agnew-forecheck?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-022",
+    "number": 22,
+    "title": "Flames Open Up Drill",
+    "duration_seconds": 104,
+    "category": "Skating / Transition",
+    "article": "/article/the-agnew-forecheck-and-flames-open-up-drill",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---flames-open-up-drill",
+    "notes": [
+      "Transition-skating drill.",
+      "Includes different attack options as players open up."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/the-agnew-forecheck-and-flames-open-up-drill",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---flames-open-up-drill?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-025",
+    "number": 25,
+    "title": "Kamloops Transition Drill",
+    "duration_seconds": 106,
+    "category": "Transition / 2 on 2",
+    "article": "/article/kamloops-transition-drill-and-the-red-devil-drill",
+    "embed": "/videoEmbed/on-the-board-with-mike-johsnton-kamloops-transition-drill",
+    "notes": [
+      "Competitive 2-on-2 transition game.",
+      "Works change of possession and quick attack."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/kamloops-transition-drill-and-the-red-devil-drill",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johsnton-kamloops-transition-drill?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-026",
+    "number": 26,
+    "title": "The Red Devil Drill",
+    "duration_seconds": 99,
+    "category": "Shooting / Goaltending",
+    "article": "/article/kamloops-transition-drill-and-the-red-devil-drill",
+    "embed": "/videoEmbed/on-the-board-with-mike-johnston---the-red-devil-drill",
+    "notes": [
+      "Goalie-focused warm-up.",
+      "Creates multiple shooting looks early in practice."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "On the Board with Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/kamloops-transition-drill-and-the-red-devil-drill",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---the-red-devil-drill?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-chalk-2025",
+    "number": null,
+    "title": "Chalk Talk: D Two Pass Drill",
+    "duration_seconds": 238,
+    "category": "Defence / Regroup / Passing",
+    "article": "/article/chalk-talk-d-two-pass-drill-mike-johnston",
+    "embed": "/videoEmbed/chalk-talks-mike-johnston-2025",
+    "notes": [
+      "Defencemen passing and regroup progression.",
+      "Shoulder checks and communication are key teaching points.",
+      "Progression adds D cross-and-drop action."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/chalk-talk-d-two-pass-drill-mike-johnston",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/chalk-talks-mike-johnston-2025?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-tcslive-2025",
+    "number": null,
+    "title": "Connecting Passing Drills to Team Play",
+    "duration_seconds": 1666,
+    "category": "Passing / Team Play",
+    "article": "/article/tcs-live-connecting-passing-drills-to-team-play-mike-johnston",
+    "embed": "/videoEmbed/connecting-passing-drills-to-team-play-mike-johnston",
+    "notes": [
+      "TCS Live 2025 on-ice session.",
+      "Builds from passing execution into offensive-zone sequences and neutral-zone regroups.",
+      "Emphasis on hard passes, clean reception and purposeful team structure."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/tcs-live-connecting-passing-drills-to-team-play-mike-johnston",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/connecting-passing-drills-to-team-play-mike-johnston?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-vault-concepts",
+    "number": null,
+    "title": "TCS Vault: Teaching Concepts and Principles",
+    "duration_seconds": 3480,
+    "category": "Systems / Principles / Culture",
+    "article": "/article/teaching-concepts-and-principles-with-mike-johnston",
+    "embed": "/videoEmbed/teaching-concepts-and-principles-with-mike-johnston",
+    "notes": [
+      "Long-form Johnston presentation on culture, systems, skills and principles.",
+      "Includes forechecking, gap/strike, attack principles and required skills."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/teaching-concepts-and-principles-with-mike-johnston",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/teaching-concepts-and-principles-with-mike-johnston?modestbranding=1&showinfo=1&controls=1&t=0&objectFit="
+  },
+  {
+    "uid": "mj-camp-pillars",
+    "number": null,
+    "title": "Mike Johnston’s 5 Training Camp Pillars",
+    "duration_seconds": null,
+    "category": "Leadership / Training Camp",
+    "article": "/article/mike-johnston-s-5-training-camp-pillars",
+    "embed_external": "https://www.youtube.com/embed/kQjuyNvdMU0",
+    "notes": [
+      "Five training-camp pillars and culture-first framework.",
+      "Includes Johnston's approach to rules, systems and skill priorities."
+    ],
+    "coach": "Mike Johnston",
+    "source": "The Coaches Site",
+    "series": "Mike Johnston",
+    "source_article_url": "https://members.thecoachessite.com/article/mike-johnston-s-5-training-camp-pillars",
+    "embed_url": "https://www.youtube.com/embed/kQjuyNvdMU0"
   }
 ]
