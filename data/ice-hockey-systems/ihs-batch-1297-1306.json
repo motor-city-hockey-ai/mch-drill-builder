@@ -1,0 +1,289 @@
+[
+  {
+    "uid": "ihs-1297",
+    "number": 1297,
+    "title": "Forehand Shooting Fundamentals #2",
+    "category": "Shooting / Fundamentals",
+    "drill_types": [
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Sixth Ice Stations",
+      "Puck Control"
+    ],
+    "description": "A forehand shooting station where players collect a puck near the top of the circle, carry it around a pad while keeping it in shooting position, and release once clear of the obstacle.",
+    "coaching_points": [
+      "Keep the puck back in the stance as long as possible.",
+      "Use the inside edges while carrying the puck around the pad.",
+      "Transfer weight through the shot instead of leaning back.",
+      "Finish with weight on the foot closest to the goal."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/forehand-shooting-fundamentals-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/forehand-shooting-fundamentals-series-2-diagram.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/forehand-shooting-fundamentals-series-2-diagram.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1298",
+    "number": 1298,
+    "title": "Forehand Shooting Fundamentals #1",
+    "category": "Shooting / Fundamentals",
+    "drill_types": [
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Puck Control"
+    ],
+    "description": "A basic forehand shooting station that positions the puck behind the player's feet so the shot begins from a stronger loaded position instead of being pushed from in front of the body.",
+    "coaching_points": [
+      "Pull the puck slightly toward the body before shooting.",
+      "Keep the head over the puck.",
+      "Transfer weight forward through the shot.",
+      "Shoot low and hard without leaning away from the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/forehand-shooting-fundamentals-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/forehand-shooting-fundamentals-series-1-diagram.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/forehand-shooting-fundamentals-series-1-diagram.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1299",
+    "number": 1299,
+    "title": "5 Cone 2 Shot Station Drill",
+    "category": "Shooting / 2 Shot",
+    "drill_types": [
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Sixth Ice Stations",
+      "Puck Control",
+      "Puck Handling",
+      "Half Ice"
+    ],
+    "description": "A five-cone puck-control station that finishes with two shots: one after navigating the cone pattern and a second catch-and-release shot from a coach pass after stopping at the net.",
+    "coaching_points": [
+      "Use tight control turns while protecting the puck from the cones.",
+      "Keep the blade closed enough to maintain control.",
+      "Shoot quickly after clearing the last cone.",
+      "Stop at the net, present a target, and release the second shot quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-cone-2-shot-station-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/5-cone-2-shot-station-diagram.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/5-cone-2-shot-station-diagram.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1300",
+    "number": 1300,
+    "title": "Quarter Ice Angle 1 vs 1",
+    "category": "1 vs 1 / Angling",
+    "drill_types": [
+      "1 vs 1",
+      "Stations",
+      "Quarter Ice Station",
+      "Angling",
+      "Checking",
+      "Defensive",
+      "Puck Protection"
+    ],
+    "description": "A quarter-ice 1-on-1 station where the puck carrier slaloms through cones and attacks the net while the defender times a route around a cone to angle the attacker toward the boards.",
+    "coaching_points": [
+      "Defender keeps the stick on the ice.",
+      "Use stick position and angle to discourage a cut to the middle.",
+      "Match the attacker's speed before closing.",
+      "Offensive player keeps the feet moving and protects the puck if forced wide."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quarter-ice-angle-1-vs-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quarter-ice-angle-1v1_0.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quarter-ice-angle-1v1_0.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1301",
+    "number": 1301,
+    "title": "Three Sided Box Retrieval Station",
+    "category": "Retrieval / Transitions",
+    "drill_types": [
+      "Puck Control",
+      "Shooting",
+      "Stations",
+      "Quarter Ice Station",
+      "Backwards Skating",
+      "Retrievals",
+      "Transition",
+      "Skill Development"
+    ],
+    "description": "A retrieval station where a player collects two separate pucks from inside a three-sided box, transitions backward out of pressure, pivots forward, and finishes each retrieval with a shot.",
+    "coaching_points": [
+      "Approach each retrieval under control.",
+      "Transition backward immediately after collecting the puck.",
+      "Pivot forward outside the box without losing puck control.",
+      "Accelerate into the shot after each transition."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/three-sided-box-retrieval-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/three-side-box-retrieval.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/three-side-box-retrieval.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1302",
+    "number": 1302,
+    "title": "Stick Check Take Away Drill (Studio Rink)",
+    "category": "Checking / Stick Takeaway",
+    "drill_types": [
+      "Half Ice",
+      "Shooting",
+      "Checking",
+      "Angling",
+      "Puck Protection",
+      "Skill Development"
+    ],
+    "description": "A stick-check drill that teaches players to steal the puck from behind by taking a good angle, using leverage underneath the opponent's stick, and immediately counterattacking for a shot.",
+    "coaching_points": [
+      "Approach from a controlled angle with the stick down.",
+      "Use a strong bottom hand when the stick gets underneath the opponent's stick.",
+      "Use a quick upward tap to free the puck.",
+      "Protect the puck with the body immediately after the takeaway."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stick-check-take-away-drill-studio-rink",
+    "image": "https://www.files.icehockeysystems.com/files/drills/stick-check-takeaway-drill-studio-rink.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/stick-check-takeaway-drill-studio-rink.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1303",
+    "number": 1303,
+    "title": "Horseshoe Re-Group One Goalie - #1 (D to D to Center)",
+    "category": "Regroup / One Goalie",
+    "drill_types": [
+      "Flow",
+      "One Goalie",
+      "Full Ice",
+      "Passing",
+      "Transition",
+      "Re-Group",
+      "Backchecking",
+      "Shooting"
+    ],
+    "description": "A full-ice one-goalie flow drill combining a backcheck race, shot and rebound hunt, then a neutral-zone regroup through two defensemen before the second forward attacks the zone.",
+    "coaching_points": [
+      "F1 must protect the puck from the backchecker without losing pace.",
+      "Defensemen present good passing angles and move the puck quickly.",
+      "F2 times the neutral-zone swing to receive the regroup pass in stride.",
+      "F1 returns to the slot to hunt the rebound on F2's shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/horseshoe-re-group-one-goalie-1-d-d-center",
+    "image": "https://www.files.icehockeysystems.com/files/drills/horse-regroup-one-goalie-d-d-center.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/horse-regroup-one-goalie-d-d-center.jpg"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1304",
+    "number": 1304,
+    "title": "Continuous Pass & Shoot Station",
+    "category": "Passing / Shooting",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Stations",
+      "Quarter Ice Station",
+      "Puck Support",
+      "Skill Development",
+      "Flow"
+    ],
+    "description": "A continuous station where each player shoots, stops at the net, retrieves a loose puck, and passes to the next skater moving up ice for another shot.",
+    "coaching_points": [
+      "Stop at the net after every shot.",
+      "Accelerate with the first three strides toward the loose puck.",
+      "Lead the next skater with a pass they can receive in motion.",
+      "Maintain focus because the drill runs continuously."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-pass-shoot-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-pass-n-shoot-station.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-pass-n-shoot-station.jpg"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1305",
+    "number": 1305,
+    "title": "D to D to F3",
+    "category": "Offensive Zone / D to D",
+    "drill_types": [
+      "Offensive Zone",
+      "Defensive",
+      "Half Ice",
+      "Shooting",
+      "Passing",
+      "Puck Support"
+    ],
+    "description": "An offensive-zone puck-movement drill where the puck goes from the half wall to the strong-side defenseman, across D-to-D, then into F3 in the high slot for a shot through traffic.",
+    "coaching_points": [
+      "Defensemen move the puck quickly across the blue line.",
+      "The receiving defenseman works outside the dots to create interior space.",
+      "F3 times the route into the high slot instead of arriving early.",
+      "After shooting, F3 goes to the net to screen the next repetition."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-d-f3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/d-to-d-to-f3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/d-to-d-to-f3.jpg"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1306",
+    "number": 1306,
+    "title": "Gretzky 3 on 3",
+    "category": "3 vs 3 / Gretzky",
+    "drill_types": [
+      "3 vs 3",
+      "Small Area Games",
+      "Passing",
+      "Puck Support",
+      "Awareness",
+      "Offensive",
+      "Transition"
+    ],
+    "description": "A cross-ice 3-on-3 game where each team has a designated Gretzky behind the opponent's goal line. Teams must use their Gretzky after gaining possession before they can attack the net.",
+    "coaching_points": [
+      "Use the Gretzky as a support option to create give-and-go opportunities.",
+      "On possession changes, regroup through the Gretzky before attacking.",
+      "Players may go below the goal line to support or pressure the Gretzky.",
+      "Keep shifts short and fast to maintain decision-making speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/gretzky-3-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/gretzky-3-on-3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/gretzky-3-on-3.jpg"
+    ],
+    "original_verified": true
+  }
+]
