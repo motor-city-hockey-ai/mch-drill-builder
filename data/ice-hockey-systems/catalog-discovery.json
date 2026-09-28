@@ -13479,5 +13479,164 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Legacy sorted IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 867,
+    "title": "Figure Eight Gap Up 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/figure-eight-gap-1-1",
+    "categories": [
+      "Full Ice",
+      "1 on 1",
+      "Defensive",
+      "Gap",
+      "Overspeed",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 868,
+    "title": "Russian 3 on 3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/russian-3-3",
+    "categories": [
+      "3 on 3",
+      "Small Area Games",
+      "Half Ice",
+      "Defensive Zone",
+      "Puck Support",
+      "Coverage",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 869,
+    "title": "Round A Round",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/round-round",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Transition",
+      "Warm Up",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 870,
+    "title": "Iron Cross #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/iron-cross-1",
+    "categories": [
+      "Skating",
+      "Conditioning",
+      "Agility",
+      "Stops and Starts",
+      "Penalty Kill"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 871,
+    "title": "Three Puck Conditioning",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/three-puck-conditioning",
+    "categories": [
+      "Half Ice",
+      "Skating",
+      "Conditioning",
+      "Shooting",
+      "Stops and Starts"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 872,
+    "title": "Christmas Tree Conditioning",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/christmas-tree-conditioning",
+    "categories": [
+      "Skating",
+      "Conditioning",
+      "Overspeed",
+      "Stops and Starts",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 873,
+    "title": "Full Ice 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-1-1",
+    "categories": [
+      "Full Ice",
+      "1 on 1",
+      "Defensive",
+      "Gap",
+      "Shooting",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 874,
+    "title": "Recovery 2 on 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/recovery-2-2",
+    "categories": [
+      "2 on 2",
+      "Full Ice",
+      "Backchecking",
+      "Defensive",
+      "Transition",
+      "Recovery"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 875,
+    "title": "Defense Elements",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defense-elements",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Breakouts",
+      "Defensive",
+      "Puck Control",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 876,
+    "title": "1 on 0 with Backchecker",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-0-backchecker",
+    "categories": [
+      "Full Ice",
+      "Skating",
+      "Backchecking",
+      "Conditioning",
+      "Shooting",
+      "Competition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
   }
 ]
