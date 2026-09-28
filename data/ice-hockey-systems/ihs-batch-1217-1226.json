@@ -1,0 +1,272 @@
+[
+  {
+    "uid": "ihs-1217",
+    "number": 1217,
+    "title": "Money Maker Drill",
+    "category": "Passing / One-Timer",
+    "drill_types": [
+      "Passing",
+      "Half Ice",
+      "Cycling",
+      "Shooting",
+      "Offensive Zone"
+    ],
+    "description": "An offensive-zone sequence where forwards retrieve pucks from low areas, move them to the point, and then attack the back post or net-front while defensemen receive the puck and create a shooting or passing lane.",
+    "coaching_points": [
+      "Defensemen receive the low pass with feet moving and get off the wall.",
+      "Forwards time the back-post route for a one-touch finish.",
+      "Move pucks from below the goal line to scoring areas quickly.",
+      "Keep the sequence continuous so every player reads the next puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/money-maker-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/money-maker-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/money-maker-drill.jpg"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1218",
+    "number": 1218,
+    "title": "Shot, Recover, Rebound Goalie Drill",
+    "category": "Goalie / Rebound Recovery",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Goalie",
+      "Rebound Control"
+    ],
+    "description": "A goalie recovery drill that starts with a shot from the high slot and immediately creates a second rebound-style attempt from the side of the net, forcing the goalie to recover and reset for another save.",
+    "coaching_points": [
+      "Goalie gets set and square for the first shot.",
+      "Recover immediately after the initial save rather than watching the rebound.",
+      "Use efficient movement to arrive square for the second shot.",
+      "Shooters attack the second puck quickly to keep the recovery game-like."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shot-recover-rebound-goalie-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/shot-recovery-rebound.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/shot-recovery-rebound.jpg"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1219",
+    "number": 1219,
+    "title": "Neutral Zone Horse Shoe",
+    "category": "Passing / Horseshoe",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Full Ice",
+      "Warm Up",
+      "Neutral Zone"
+    ],
+    "description": "A full-ice horseshoe warm-up where diagonal lines move across the red line, present a target, receive a pass in stride, and continue into the offensive zone for a shot.",
+    "coaching_points": [
+      "Present a clear target and communicate for the pass.",
+      "Stay across the red line until the pass is received before turning up ice.",
+      "Deliver the pass to a teammate in stride.",
+      "Keep both sides moving at the same pace to maintain flow."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-horse-shoe",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-horse-shoe.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-horse-shoe.jpg"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1220",
+    "number": 1220,
+    "title": "Forehand Retriever Drill",
+    "category": "Retrieval / Breakout",
+    "drill_types": [
+      "Passing",
+      "Stations",
+      "Retrievals",
+      "Breakouts",
+      "Half Ice",
+      "Defensive"
+    ],
+    "description": "A defense retrieval station where a player transitions toward a dumped puck, takes an efficient angle to collect it on the forehand, gets eyes up ice, and exits with control before returning a pass to the coach.",
+    "coaching_points": [
+      "Shoulder-check before arriving at the puck.",
+      "Approach on an angle that preserves speed.",
+      "Open up without unnecessary crossovers and face up ice quickly.",
+      "Stay inside the dots when possible to preserve passing options."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/forehand-retriever-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/forehand-retriever-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/forehand-retriever-drill.jpg"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1221",
+    "number": 1221,
+    "title": "Stretch and Go Flow w/ Backcheck",
+    "category": "Flow / Backcheck",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Flow",
+      "Full Ice",
+      "Backchecking",
+      "Conditioning"
+    ],
+    "description": "A full-ice flow drill that combines a stretch pass, wide entry, delay, high-slot feed, shot, and immediate backcheck by the previous shooter on the next repetition.",
+    "coaching_points": [
+      "Make the stretch pass on time and receive it in stride.",
+      "Use the wide delay to create time for the trailer.",
+      "Hit the high-slot player with a playable pass.",
+      "After the shot, transition instantly into a hard backcheck."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stretch-and-go-flow-w-backcheck",
+    "image": "https://www.files.icehockeysystems.com/files/drills/stretch-and-go-flow-with-backcheck.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/stretch-and-go-flow-with-backcheck.jpg"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1222",
+    "number": 1222,
+    "title": "Figure Eight Passing and Shooting Station #2",
+    "category": "Passing / Shooting Station",
+    "drill_types": [
+      "Skating",
+      "Passing",
+      "Shooting",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "description": "A figure-eight station that combines tight control turns, forward-to-backward transitions, give-and-go passing, a lateral deception move, and a quick shot designed to move the goalie.",
+    "coaching_points": [
+      "Make tight control turns while keeping the puck protected.",
+      "Transition backward smoothly while receiving the return pass.",
+      "Use the shoulders to sell the fake before moving laterally.",
+      "Release the shot immediately after the lateral move."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/figure-eight-passing-and-shooting-station-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/figure-eight-passing-shooting-station-2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/figure-eight-passing-shooting-station-2.jpg"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1223",
+    "number": 1223,
+    "title": "Figure Eight Passing and Shooting Station #1",
+    "category": "Passing / Shooting Station",
+    "drill_types": [
+      "Skating",
+      "Passing",
+      "Shooting",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "description": "A figure-eight station that develops control turns, passing and receiving, one-touch puck movement, deception, and a quick shot after changing the goalie's angle.",
+    "coaching_points": [
+      "Keep the head up while passing and receiving.",
+      "Accelerate out of each control turn.",
+      "Use one-touch passes when skill level allows.",
+      "Make the deceptive move and shoot immediately."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/figure-eight-passing-and-shooting-station-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/figure-eight-passing-shooting-station-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/figure-eight-passing-shooting-station-1.jpg"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1224",
+    "number": 1224,
+    "title": "Cross Over Passing Station",
+    "category": "Passing / Drop Pass",
+    "drill_types": [
+      "Passing",
+      "Stations",
+      "Sixth Ice Stations"
+    ],
+    "description": "A two-player station built around passing in stride and forehand drop passes. Players repeatedly exchange the puck between two nets, cross behind the net, and switch roles as they move through the pattern.",
+    "coaching_points": [
+      "Complete the straight passes while both players are moving.",
+      "Place the drop pass into space rather than firing it backward.",
+      "Set the drop on the receiving player's forehand.",
+      "Switch lines so players practice both passing roles."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cross-over-passing-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cross-over-passing-station.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cross-over-passing-station.jpg"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1225",
+    "number": 1225,
+    "title": "Box Out 2 on 2",
+    "category": "2 vs 2 / Net Front",
+    "drill_types": [
+      "2 vs 2",
+      "Half Ice",
+      "Defensive Zone",
+      "Net Front",
+      "Shooting",
+      "Coverage"
+    ],
+    "description": "A net-front 2-on-2 battle that begins with a corner retrieval and pass to the point. The point shot creates a live screen, tip, rebound, and box-out battle around the crease.",
+    "coaching_points": [
+      "Defenders establish inside position and tie up sticks.",
+      "Forwards fight for screens, tips, and rebound position.",
+      "Point players change the shooting lane by walking the line when available.",
+      "Play rebounds until the rep is clearly finished."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/box-out-2-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6951-0-1676897305.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6951-0-1676897305.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1226",
+    "number": 1226,
+    "title": "Swing Through Shooting Station",
+    "category": "Shooting / Lateral Movement",
+    "drill_types": [
+      "Shooting",
+      "Stations",
+      "Sixth Ice Stations",
+      "Puck Handling",
+      "Half Ice"
+    ],
+    "description": "A compact shooting station where the player collects a puck, escapes toward the wall, uses lateral single-shift moves around two cones, and finishes with a shot while still moving.",
+    "coaching_points": [
+      "Control the puck while moving laterally rather than gliding straight at the net.",
+      "Make each single shift decisive and keep the feet active.",
+      "Use the second move to load the puck into shooting position.",
+      "Shoot in motion from either forehand or backhand as appropriate."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swing-through-shooting-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/swing-through-shooting-station.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/swing-through-shooting-station.jpg"
+    ],
+    "original_verified": true
+  }
+]
