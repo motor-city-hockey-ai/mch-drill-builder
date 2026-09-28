@@ -649,7 +649,7 @@ button{cursor:pointer}
 
   const DRILL_TYPE_ORDER=[
     '1 vs 0','1 vs 1','2 vs 0','2 vs 1','2 vs 2','3 vs 0','3 vs 1','3 vs 2','3 vs 3','4 vs 2','4 vs 3','4 vs 4','5 vs 5',
-    'Skating','Passing','Shooting','Puckhandling','Small Area Games','Team / Systems','Goalie','Warm-Up'
+    'Skill Drills','Skating','Passing','Shooting','Puckhandling','Small Area Games','Team / Systems','Goalie','Warm-Up'
   ];
 
   function drillTypeTags(d){
@@ -658,6 +658,8 @@ button{cursor:pointer}
       d&&d.title,d&&d.teaser,d&&d.category,d&&d.description,d&&d.source_collection,
       (d&&d.tags||[]).join(' '),(d&&d.drill_types||[]).join(' ')
     ].filter(Boolean).join(' ').toLowerCase();
+
+    if((d&&d.skill_station_featured)||String(d&&d.category||'').toLowerCase()==='individual skills') tags.add('Skill Drills');
 
     const matchups=[
       ['1 vs 0',/\b1\s*(?:v|vs\.?|on)\s*0\b/],
