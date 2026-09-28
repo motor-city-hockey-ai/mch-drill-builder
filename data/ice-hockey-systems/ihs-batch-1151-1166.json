@@ -1,0 +1,459 @@
+[
+  {
+    "uid": "ihs-1151",
+    "number": 1151,
+    "title": "1, 2, 3 Bumper Game",
+    "category": "2 vs 2 / Puck Support",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 3",
+      "Defensive",
+      "Half Ice",
+      "Offensive",
+      "Puck Support"
+    ],
+    "description": "A small-area possession game with a bumper support player. Teams battle 2-on-2, use the bumper for give-and-go support, and transition quickly from defense to offense.",
+    "coaching_points": [
+      "Use the bumper to relieve pressure and create quick give-and-go plays.",
+      "Defenders protect the middle with active sticks.",
+      "Communicate early and move immediately after passing.",
+      "Transition quickly after winning a loose puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/1-2-3-bumper-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-6892886-0-1755108378.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-6892886-0-1755108378.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1152",
+    "number": 1152,
+    "title": "2 on 2 Transition & Track",
+    "category": "2 vs 2 / Transition",
+    "drill_types": [
+      "2 vs 2",
+      "Backchecking",
+      "Battle Drills",
+      "Defensive",
+      "Explosion",
+      "Neutral Zone",
+      "Transition"
+    ],
+    "description": "A continuous cross-ice 2-on-2 game where the defending team exits to waiting support players and the former offensive pair immediately tracks back into the next transition.",
+    "coaching_points": [
+      "Attack the net quickly when possession is gained.",
+      "Track back through the middle with sticks in passing lanes.",
+      "Outlet players communicate and present clear targets.",
+      "Transition immediately after the breakout pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/2-on-2-transition-track",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5850576-0-1736788405.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5850576-0-1736788405.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1153",
+    "number": 1153,
+    "title": "Swedish Transition Game",
+    "category": "2 vs 2 / Transition",
+    "drill_types": [
+      "2 vs 2",
+      "Backchecking",
+      "Battle Drills",
+      "Conditioning",
+      "Defensive",
+      "Explosion",
+      "Transition"
+    ],
+    "description": "A continuous transition game where a defending pair must move the puck to teammates at the blue line before the new group attacks and the previous offensive players become trackers.",
+    "coaching_points": [
+      "Make the transition pass quickly after possession changes.",
+      "Backcheck through the middle with active sticks.",
+      "Attackers support each other and get downhill quickly.",
+      "Players waiting at the blue line communicate and stay ready."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/the-swedish-transition-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5851276-0-1732724161.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5851276-0-1732724161.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1154",
+    "number": 1154,
+    "title": "Alternate 1 on 1 x 3",
+    "category": "1 vs 1 / Angling",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 1",
+      "2 vs 2",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Puck Protection"
+    ],
+    "description": "A two-part end-zone progression that creates three different 1-on-1 situations, then builds the same setup into 2-on-1 and 2-on-2 support opportunities.",
+    "coaching_points": [
+      "Defenders angle from inside-out with stick on puck.",
+      "Forwards protect the puck and attack available net lanes.",
+      "Use tight turns and support routes to create the next advantage.",
+      "Rotate quickly so the progression stays continuous."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/alternate-1-on-1-x-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5136916-0-1728502589.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5136916-0-1728502589.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1155",
+    "number": 1155,
+    "title": "Designated Shooters Umbrella Power Play Game",
+    "category": "Power Play / Small Area Game",
+    "drill_types": [
+      "2 vs 2",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Shooting",
+      "Small Area Games"
+    ],
+    "description": "A small-area power-play game with umbrella support players at the point. Players work to move the puck quickly, find one-timers and tips, and battle for position around back-to-back nets.",
+    "coaching_points": [
+      "Use point support and move immediately after passing.",
+      "Point players make quick decisions and look for shots or deflections.",
+      "Attackers establish net-front position for tips and rebounds.",
+      "Defenders box out and keep sticks in passing lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/designated-shooters-umbrella-power-play-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2639391-0-1693852734.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2639391-0-1693852734.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1156",
+    "number": 1156,
+    "title": "Nobles 2 v 2 Transition Game",
+    "category": "2 vs 2 / Transition",
+    "drill_types": [
+      "2 vs 2",
+      "Battle Drills",
+      "Passing",
+      "Puck Protection",
+      "Small Area Games",
+      "Transition"
+    ],
+    "description": "A continuous 2-on-2 game where defenders earn transition by moving the puck to teammates on the boards, who then enter as the new offensive pair.",
+    "coaching_points": [
+      "Offense attacks the net and uses switches and exchanges.",
+      "Defense keeps the puck outside with sticks in lanes.",
+      "Move the puck to the board outlets immediately after winning possession.",
+      "Use quick catch-and-release shots in scoring areas."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/nobles-2-v-2-transition-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627761-0-1693851387.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627761-0-1693851387.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1157",
+    "number": 1157,
+    "title": "Angling Through The Circles Progression",
+    "category": "Angling / Small Area Game",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Angling",
+      "Puck Protection",
+      "Small Area Games"
+    ],
+    "description": "A cross-ice angling progression that begins 1-on-1 and can expand to 2-on-2 or 3-on-3. The defender must navigate the circles, match speed, and angle the puck carrier away from dangerous ice.",
+    "coaching_points": [
+      "Match the puck carrier's speed before closing.",
+      "Lead with stick-on-puck pressure and finish with body position.",
+      "Supporting defenders are ready for loose pucks.",
+      "Transition immediately after a turnover."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/angling-through-circles-progression",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625056-0-1694119690.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625056-0-1694119690.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625056-1-1694119690.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1158",
+    "number": 1158,
+    "title": "Add-On Game",
+    "category": "2 vs 2 / Possession",
+    "drill_types": [
+      "2 vs 2",
+      "3 vs 2",
+      "Offensive",
+      "Passing",
+      "Puck Control",
+      "Small Area Games"
+    ],
+    "description": "A possession game that starts 2-on-2 and rewards a team for completing passes to line players, allowing them to add teammates into the game and create an advantage.",
+    "coaching_points": [
+      "Compete to establish first possession.",
+      "Support the puck and jump to open space.",
+      "Defenders keep sticks in lanes and force play outside.",
+      "Manage the puck well before trying to add another player."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/add-on-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2622501-0-1693851116.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2622501-0-1693851116.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1159",
+    "number": 1159,
+    "title": "4 Corner Possession Game - Offensive Advantage",
+    "category": "2 vs 2 / Possession",
+    "drill_types": [
+      "2 vs 2",
+      "Passing",
+      "Puck Control",
+      "Re-Group",
+      "Small Area Games",
+      "Transition"
+    ],
+    "description": "A 2-on-2 possession game with support players stationed in the offensive-side corners. Players use corner support, give-and-gos, point options, and net-front movement around back-to-back nets.",
+    "coaching_points": [
+      "Use support players to create quick give-and-gos.",
+      "Jump to open space after moving the puck.",
+      "Create traffic, tips, and rebound opportunities at the net.",
+      "Defenders box out and protect passing lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/4-corner-possession-game-offensive-advantage-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2220646-0-1676377160.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2220646-0-1676377160.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1160",
+    "number": 1160,
+    "title": "4 Corner Possession Game - Defensive Advantage",
+    "category": "2 vs 2 / Possession",
+    "drill_types": [
+      "2 vs 2",
+      "Passing",
+      "Puck Control",
+      "Re-Group",
+      "Small Area Games",
+      "Transition"
+    ],
+    "description": "A variation of the 4 Corner Possession Game with support players located on the defensive side of each team's zone, forcing players to use support and transition through pressure.",
+    "coaching_points": [
+      "Use corner support to escape pressure and restart possession.",
+      "Defenders angle with active sticks and close interior lanes.",
+      "Offensive players move after passes and use the nets as space.",
+      "Communicate constantly in the fast-changing possession game."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/4-corner-possession-game-defensive-advantage",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1401661-0-1676347399.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1401661-0-1676347399.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1161",
+    "number": 1161,
+    "title": "Gretzky 2 vs. 2 Game",
+    "category": "2 vs 2 / Puck Support",
+    "drill_types": [
+      "2 vs 2",
+      "Offensive",
+      "Passing",
+      "Puck Control",
+      "Shooting",
+      "Small Area Games"
+    ],
+    "description": "A 2-on-2 small-area game with dedicated support players stationed behind each offensive net. The setup encourages give-and-gos, deception, and creative use of the space behind the goal.",
+    "coaching_points": [
+      "Players in the middle pass and immediately get open.",
+      "Support players behind the net scan before receiving.",
+      "Use the net as protection and change the point of attack.",
+      "Defenders keep heads on a swivel and sticks in lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/gretzky-2-vs-2-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/gretzky2-v-2.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/gretzky2-v-2.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1162",
+    "number": 1162,
+    "title": "1 on 1, 2 on 2, 3 on 3 Battle Drill",
+    "category": "Battle / Defensive Zone",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Battle Drills",
+      "Small Area Games",
+      "Stations"
+    ],
+    "description": "A progressive defensive-zone battle that begins 1-on-1, adds a second pair, then finishes 3-on-3 below the circles to reinforce man-on-man coverage, communication, and puck protection.",
+    "coaching_points": [
+      "Offensive players protect possession below the tops of the circles.",
+      "Defenders stay connected to checks and communicate through each progression.",
+      "Centers work down low with the defense as the third pair joins.",
+      "Compete for loose pucks and maintain position around the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/1-1-2-2-3-3-battle-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/1-1-2-2-3-3-battle-drill-diagram_0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/1-1-2-2-3-3-battle-drill-diagram_0.jpg"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1163",
+    "number": 1163,
+    "title": "Four Corners Possession Game",
+    "category": "2 vs 2 / Possession",
+    "drill_types": [
+      "2 vs 2",
+      "Passing",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations"
+    ],
+    "description": "A possession game with four stationary support boxes. The active players score points by completing clean passes to teammates in the designated corner areas while protecting possession under pressure.",
+    "coaching_points": [
+      "Play with the head up to find support early.",
+      "Protect the puck until a clean passing lane opens.",
+      "Communicate verbally and non-verbally.",
+      "Move to create new passing angles after each touch."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/four-corners",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-23771-0-1677591028.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-23771-0-1677591028.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1164",
+    "number": 1164,
+    "title": "2 v 2 Net Front Corner Battles with Support",
+    "category": "2 vs 2 / Net Front",
+    "drill_types": [
+      "2 vs 2",
+      "4 vs 4",
+      "Battle Drills",
+      "Coverage",
+      "Cycling",
+      "Down Low"
+    ],
+    "description": "A competitive corner and net-front battle game with point support. Teams fight to recover the puck, use board passes or rims to the point, and create shots, tips, and redirects.",
+    "coaching_points": [
+      "Establish body position before trying to win the puck.",
+      "Use board passes and rims to available point support.",
+      "Point players move the puck quickly before pressure arrives.",
+      "Defenders keep sticks down to angle and close passing lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/2-v-2-net-front-corner-battles-support",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7228991-0-1751920162.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7228991-0-1751920162.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1165",
+    "number": 1165,
+    "title": "2 on 2 Box Out",
+    "category": "2 vs 2 / Net Front",
+    "drill_types": [
+      "2 vs 2",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Full Ice",
+      "Gap"
+    ],
+    "description": "A two-part progression that starts with a net-front box-out battle on a point shot and then sends the same players into a 2-on-2 rush down the ice.",
+    "coaching_points": [
+      "Defenders box out and eliminate sticks at the net.",
+      "Forwards find soft areas for tips and rebounds.",
+      "On the rush, attackers use width, passing, and changes of speed.",
+      "Defenders maintain a tight gap and angle the attack outside."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/2-on-2-box-out-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-5743591-0-1740603939.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5743591-0-1740603939.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-5743591-1-1740603939.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1166",
+    "number": 1166,
+    "title": "Pass Through The Cones 2 v 2 Game",
+    "category": "2 vs 2 / Passing",
+    "drill_types": [
+      "2 vs 2",
+      "Offensive",
+      "Passing",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations"
+    ],
+    "description": "A station-based 2-on-2 game where teams score by completing passes through cone or tire gates, forcing players to scan, support the puck, protect possession, and manipulate passing lanes.",
+    "coaching_points": [
+      "Puck carriers keep their heads up to locate open gates and support.",
+      "Players without the puck jump into open space.",
+      "Defenders keep sticks in lanes and communicate.",
+      "Do not use the same gate twice in a row."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/pass-through-the-cones-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3397436-0-1700536276.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3397436-0-1700536276.png"
+    ],
+    "original_verified": true
+  }
+]
