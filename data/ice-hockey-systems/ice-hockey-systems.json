@@ -33629,5 +33629,314 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-figure-eight-gap-up-1-1",
+    "number": 1049,
+    "title": "Figure Eight Gap Up 1 on 1",
+    "category": "1 on 1 / Full Ice / Defensive",
+    "drill_types": [
+      "Full Ice",
+      "1 on 1",
+      "Defensive",
+      "Gap",
+      "Overspeed",
+      "Skating"
+    ],
+    "description": "A full-ice 1 on 1 drill that develops forward overspeed and defensive footwork. The defense passes to the forward and both players skate separate figure-eight patterns before the forward uses a quick give-and-go, exits with speed and attacks the defender down ice.",
+    "coaching_points": [
+      "Forwards keep their feet moving through the entire figure-eight pattern.",
+      "Explode out of each turn instead of gliding.",
+      "Defense stays facing the forward and exits slightly ahead to read speed and close the gap.",
+      "Defender should engage the rush before the offensive blue line."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/figure-eight-gap-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/figure-eight-gap-up-1v1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/figure-eight-gap-up-1v1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-russian-3-3",
+    "number": 1050,
+    "title": "Russian 3 on 3",
+    "category": "3 on 3 / Small Area Games / Half Ice",
+    "drill_types": [
+      "3 on 3",
+      "Small Area Games",
+      "Half Ice",
+      "Defensive Zone",
+      "Puck Support",
+      "Coverage",
+      "Awareness"
+    ],
+    "description": "A sectional 3 on 3 small-area game designed to create offensive support and defensive-zone coverage habits. Players remain in designated sections while trying to move the puck to teammates in the opposite section or create a scoring chance from their own area.",
+    "coaching_points": [
+      "Offensive players move to open ice and stay available as support options.",
+      "Defenders protect dangerous space and avoid overcommitting.",
+      "Communicate constantly between the two sections.",
+      "Use short, intense shifts and add a second puck as an awareness progression."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/russian-3-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/russian-3-on-3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/russian-3-on-3.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-round-a-round",
+    "number": 1051,
+    "title": "Round A Round",
+    "category": "Passing / Full Ice / Transition",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Transition",
+      "Warm Up",
+      "Shooting"
+    ],
+    "description": "A full-ice flow warm-up built around quick give-and-go passing and a long shot. Players work from four blue-line stations, exchange two quick passes while changing their angle, then curl up the boards and attack the net for a shot.",
+    "coaching_points": [
+      "Make the first return pass immediately after receiving the puck.",
+      "Change the passing angle before delivering the second pass.",
+      "Keep the feet moving through the curl and transition.",
+      "Time the next player so the drill flows continuously without congestion."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/round-round",
+    "image": "https://www.files.icehockeysystems.com/files/drills/round-a-round.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/round-a-round.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-iron-cross-1",
+    "number": 1052,
+    "title": "Iron Cross #1",
+    "category": "Skating / Conditioning / Agility",
+    "drill_types": [
+      "Skating",
+      "Conditioning",
+      "Agility",
+      "Stops and Starts",
+      "Penalty Kill"
+    ],
+    "description": "A conditioning and footwork drill performed around a faceoff circle. Players repeatedly stop, start, side-step and skate forward or backward between the center dot, hash marks and top and bottom of the circle while always keeping their body facing forward.",
+    "coaching_points": [
+      "Come to a complete stop at every change of direction.",
+      "Stay facing forward during the side-step portions.",
+      "Explode immediately out of each stop.",
+      "Maintain good knee bend and edge control as fatigue increases."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/iron-cross-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/iron-cross-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/iron-cross-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-three-puck-conditioning",
+    "number": 1053,
+    "title": "Three Puck Conditioning",
+    "category": "Half Ice / Skating / Conditioning",
+    "drill_types": [
+      "Half Ice",
+      "Skating",
+      "Conditioning",
+      "Shooting",
+      "Stops and Starts"
+    ],
+    "description": "A high-work-rate half-ice conditioning drill that can run from both ends. A player attacks three separate puck locations in sequence, skating hard between each puck and finishing each repetition with a shot before moving to the next puck.",
+    "coaching_points": [
+      "Use an appropriate work-to-rest ratio so every repetition stays fast.",
+      "Sprint to each puck instead of coasting between locations.",
+      "Keep the feet moving through each shot.",
+      "Use different puck placements to change the skating distance and workload."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/three-puck-conditioning",
+    "image": "https://www.files.icehockeysystems.com/files/drills/three-puck-conditioning.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/three-puck-conditioning.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-christmas-tree-conditioning",
+    "number": 1054,
+    "title": "Christmas Tree Conditioning",
+    "category": "Skating / Conditioning / Overspeed",
+    "drill_types": [
+      "Skating",
+      "Conditioning",
+      "Overspeed",
+      "Stops and Starts",
+      "Full Ice"
+    ],
+    "description": "A demanding conditioning pattern that uses repeated diagonal sprints and stops to form a Christmas-tree path through the rink. Players work progressively farther across the ice before returning through the pattern.",
+    "coaching_points": [
+      "Skate every segment at game-speed intensity.",
+      "Make complete stops before changing direction.",
+      "Accelerate hard out of each stop.",
+      "Use this late in practice because the repeated stops heavily wear the ice."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/christmas-tree-conditioning",
+    "image": "https://www.files.icehockeysystems.com/files/drills/christmas-tree-conditioning.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/christmas-tree-conditioning.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-full-ice-1-1",
+    "number": 1055,
+    "title": "Full Ice 1 on 1",
+    "category": "1 on 1 / Full Ice / Defensive",
+    "drill_types": [
+      "Full Ice",
+      "1 on 1",
+      "Defensive",
+      "Gap",
+      "Shooting",
+      "Transition"
+    ],
+    "description": "A full-ice 1 on 1 progression that begins with a forward passing to a defenseman at the blue line. The defense walks the puck to the middle for a shot, then recovers up ice while the forward receives a puck from the opposite corner and attacks in a full-ice 1 on 1.",
+    "coaching_points": [
+      "Defense gets the first shot through quickly and immediately retakes ice.",
+      "Forwards attack with their feet moving.",
+      "Defense should establish the gap early instead of backing into the zone.",
+      "Challenge the defender to make the play at or before the blue line."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/full-ice-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/full-ice-1v1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/full-ice-1v1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-recovery-2-2",
+    "number": 1056,
+    "title": "Recovery 2 on 2",
+    "category": "2 on 2 / Full Ice / Backchecking",
+    "drill_types": [
+      "2 on 2",
+      "Full Ice",
+      "Backchecking",
+      "Defensive",
+      "Transition",
+      "Recovery"
+    ],
+    "description": "A full-ice recovery drill where defenders begin retreating and must transition forward to recover after being beaten in neutral ice, while backcheckers start from the hash marks and chase the rush. Two forwards attack with urgency before the recovering defenders can re-establish position.",
+    "coaching_points": [
+      "Defenders open the hips directly into a forward recovery stride instead of crossing over.",
+      "Sprint to the near post and recover inside position.",
+      "Backcheckers work through the middle and get back into the play.",
+      "Forwards attack immediately and drive both the puck and the weak-side player toward the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/recovery-2-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/recovery-2on2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/recovery-2on2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-defense-elements",
+    "number": 1057,
+    "title": "Defense Elements",
+    "category": "Passing / Shooting / Breakouts",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Breakouts",
+      "Defensive",
+      "Puck Control",
+      "Net Front"
+    ],
+    "description": "A defense-specific half-ice station combining breakout passes, blue-line movement, shooting, net-front screens and puck retrievals. Four players rotate through the passing, shooting and screening roles while the primary defenseman retrieves and controls multiple pucks around the net.",
+    "coaching_points": [
+      "Move the first breakout pass quickly and accurately.",
+      "Blue-line player walks toward the middle before shooting.",
+      "Net-front player establishes a screen or presents the stick for a tip.",
+      "Retrieving defenseman keeps the feet moving and controls the puck around both cones."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defense-elements",
+    "image": "https://www.files.icehockeysystems.com/files/drills/defense-elements.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/defense-elements.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-1-0-backchecker",
+    "number": 1058,
+    "title": "1 on 0 with Backchecker",
+    "category": "Full Ice / Backchecking / Skating",
+    "drill_types": [
+      "Full Ice",
+      "Skating",
+      "Backchecking",
+      "Conditioning",
+      "Shooting",
+      "Competition"
+    ],
+    "description": "A continuous full-ice speed and backchecking competition. A player attacks on a 1 on 0 and shoots with the feet moving, then stops and immediately backchecks against the next player, who starts as soon as the shot is taken.",
+    "coaching_points": [
+      "Attack the net at full speed and shoot without gliding.",
+      "Stop immediately after the shot and transition into the backcheck.",
+      "Backcheck through the middle with urgency.",
+      "Use the competitive chase to maintain maximum skating effort."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-0-backchecker",
+    "image": "https://www.files.icehockeysystems.com/files/drills/1-on-0-backcheck.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/1-on-0-backcheck.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
