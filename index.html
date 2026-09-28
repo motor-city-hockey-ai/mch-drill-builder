@@ -543,7 +543,8 @@ button{cursor:pointer}
       'data/ice-hockey-systems/ihs-batch-1217-1226.json?v=1',
       'data/ice-hockey-systems/ihs-batch-1227-1236.json?v=1',
       'data/ice-hockey-systems/ihs-batch-1237-1246.json?v=1',
-      'data/ice-hockey-systems/ihs-batch-1247-1256.json?v=1'
+      'data/ice-hockey-systems/ihs-batch-1247-1256.json?v=1',
+      'data/ice-hockey-systems/ihs-batch-1257-1266.json?v=1'
     ];
     const responses=await Promise.all(urls.map(url=>fetch(url,{cache:'no-store'})));
     if(!responses[0].ok)throw new Error('Ice Hockey Systems metadata returned '+responses[0].status);
