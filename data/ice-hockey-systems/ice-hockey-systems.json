@@ -32155,5 +32155,340 @@
     "original_diagram": true,
     "member_only": false,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-quarter-ice-obstacle-course-2",
+    "number": 1000,
+    "title": "Quarter Ice Obstacle Course #2",
+    "category": "Skating / Relay Race / Quarter Ice",
+    "drill_types": [
+      "Backwards Skating",
+      "Relay Races",
+      "Skating",
+      "Stations",
+      "Quarter Ice Station"
+    ],
+    "description": "An advanced quarter-ice obstacle course for younger players that combines forward-to-backward and backward-to-forward transitions, two-foot jumps, crossovers, step-overs and forward stride in a competitive relay format.",
+    "coaching_points": [
+      "Give players a few controlled practice runs before racing.",
+      "Stay balanced through every transition and obstacle.",
+      "Use clean crossovers around the four-cone square.",
+      "Keep spacing between racers so each player can complete the course safely at speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/quarter-ice-obstacle-course-2",
+    "source_id": "152641",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-152641-0-1770067532.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-152641-0-1770067532.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-d-zone-1-on-1-give-and-go-2",
+    "number": 1001,
+    "title": "D-Zone 1 on 1 Give and GO - #2",
+    "category": "1 on 1 / Defensive Zone / Half Ice",
+    "drill_types": [
+      "1 on 1",
+      "Stations",
+      "Half Ice",
+      "Defensive Zone",
+      "Angling",
+      "Puck Protection"
+    ],
+    "description": "A defensive-zone 1 on 1 that starts with a forward carrying the puck behind the net. The defender engages near the post, stays defensive-side, angles the attacker toward the wall and must remain connected if the forward uses the coach for a low give-and-go.",
+    "coaching_points": [
+      "Defender stays on the defensive side of the attacker.",
+      "Angle the puck carrier up the wall and close space.",
+      "Forward protects the puck and can use the low give-and-go option.",
+      "Defender tracks the forward after the puck is moved instead of chasing the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/d-zone-1-1-give-and-go-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/d-zone-give-go-1v1-variation-2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/d-zone-give-go-1v1-variation-2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-neutral-zone-six-shooter",
+    "number": 1002,
+    "title": "Neutral Zone Six Shooter",
+    "category": "Shooting / Stations / Neutral Zone",
+    "drill_types": [
+      "Shooting",
+      "Stations",
+      "Neutral Zone",
+      "Puck Control",
+      "Skating"
+    ],
+    "description": "A neutral-zone station that allows six players to work at once. Three lanes use different skating routes around cones before each player attacks a net for a shot.",
+    "coaching_points": [
+      "Keep the head up through the control turns.",
+      "Maintain puck control around each cone.",
+      "Stay in the assigned lane to avoid traffic.",
+      "Accelerate out of the turn and finish with a shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/neutral-zone-six-shooter",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-six-shooter.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-six-shooter.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-two-tire-shooting-warm-up",
+    "number": 1003,
+    "title": "Two Tire Shooting Warm Up",
+    "category": "Shooting / Puck Control / Warm Up",
+    "drill_types": [
+      "Stickhandling",
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Warm Up",
+      "Full Ice"
+    ],
+    "description": "Two players leave opposite corner lines on each whistle. The puck carrier skates up the wall, exchanges a pass with a coach through the tire area, transitions backward, receives the return pass and attacks for a wide-angle shot while the second player hunts the rebound.",
+    "coaching_points": [
+      "Make the neutral-zone exchange while moving.",
+      "Transition backward under control and call for the return pass.",
+      "Attack the zone inside-out with pace.",
+      "Second player gets to the high slot and hunts the rebound."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/two-tire-shooting-warm",
+    "image": "https://www.files.icehockeysystems.com/files/drills/two-tire-warm-up_0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/two-tire-warm-up_0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-four-corner-shooting-warm-up-1",
+    "number": 1004,
+    "title": "Four Corner Shooting Warm Up #1",
+    "category": "Shooting / Warm Up / Half Ice",
+    "drill_types": [
+      "Shooting",
+      "Warm Up",
+      "Half Ice",
+      "Puck Control"
+    ],
+    "description": "A four-line shooting warm-up built for high player volume or half-ice sessions. Four players attack in sequence, with the first two carrying around the top of the circles and the next two using blue-line transition footwork before shooting.",
+    "coaching_points": [
+      "Move the feet through the shot from the corner lines.",
+      "Control the puck through the transition at the blue line.",
+      "Keep the head up when re-entering the zone.",
+      "Hit the net and keep waiting lines clear of missed shots."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/four-corner-shooting-warm-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/4-corner-shooting-warm-up-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/4-corner-shooting-warm-up-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-murphys-down-low-drill",
+    "number": 1005,
+    "title": "Murphy's Down Low Drill",
+    "category": "Down Low / Shooting / Offensive Zone",
+    "drill_types": [
+      "Shooting",
+      "Offensive Zone",
+      "Half Ice",
+      "Down Low",
+      "Puck Protection",
+      "Passing"
+    ],
+    "description": "A down-low retrieval drill. A coach rims a puck along the wall, the forward retrieves and protects it, quickly finds a teammate in the slot for a shot, then drives the net for a rebound before repeating the action from the opposite side.",
+    "coaching_points": [
+      "Retrieve the rim with the body between the puck and pressure.",
+      "Get the puck into passing position immediately.",
+      "Pass quickly to the available stick in the slot.",
+      "After passing, move to the net instead of watching the shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/murphys-down-low-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/murphys-down-low-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/murphys-down-low-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-spartan-warm-up-shooting-drill",
+    "number": 1006,
+    "title": "Spartan Warm up Shooting Drill",
+    "category": "Shooting / Half Ice / Warm Up",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Cycling",
+      "Passing",
+      "Warm Up"
+    ],
+    "description": "A half-ice shooting warm-up built around a shot, net drive and quick one-touch passing exchange. The shooter follows the first shot, moves to the corner, exchanges passes with the opposite line and then receives a return pass for the next shot.",
+    "coaching_points": [
+      "Use quick one-touch passes.",
+      "Explode off the wall after the exchange.",
+      "Receive and release the shot quickly.",
+      "Hit the net and stop at the crease for rebounds."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/spartan-warm-shooting-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/spartan-warm-up-shooting-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/spartan-warm-up-shooting-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-winnipeg-shooting-warm-up",
+    "number": 1007,
+    "title": "Winnipeg Shooting Warm Up",
+    "category": "Shooting / Warm Up / Half Ice",
+    "drill_types": [
+      "Puck Control",
+      "Shooting",
+      "Warm Up",
+      "Half Ice",
+      "Passing",
+      "Skating"
+    ],
+    "description": "A high-repetition half-ice shooting warm-up with three progressions: stop and open to receive a pass, carry into a tight control turn, and transition backward to receive before turning forward for the shot.",
+    "coaching_points": [
+      "Wait until the previous player has released the shot.",
+      "Execute each footwork pattern with control.",
+      "Receive passes with the head up.",
+      "Accelerate out of the transition and finish the shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/winnipeg-shooting-warm",
+    "image": "https://www.files.icehockeysystems.com/files/drills/winnipeg-warm-up.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/winnipeg-warm-up.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-flames-o-zone-give-and-gos",
+    "number": 1008,
+    "title": "Flames O-Zone Give and Gos",
+    "category": "Offensive Zone / Cycling / Half Ice",
+    "drill_types": [
+      "Offensive Zone",
+      "Half Ice",
+      "Cycling",
+      "Passing",
+      "Shooting",
+      "Puck Retrieval"
+    ],
+    "description": "An offensive-zone give-and-go drill. The player retrieves a rimmed puck, controls it on the wall, moves it to a passer below the goal line and drives the net for the return pass, then repeats from the opposite corner.",
+    "coaching_points": [
+      "Move the feet all the way to the loose puck.",
+      "Use the skates to help secure difficult wall rims.",
+      "Make firm passes from below the goal line.",
+      "Play fast and attack the net immediately after moving the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/flames-o-zone-give-and-gos",
+    "image": "https://www.files.icehockeysystems.com/files/drills/flames-o-zone-give-gos.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/flames-o-zone-give-gos.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-half-ice-three-lane-control-turn-shooting",
+    "number": 1009,
+    "title": "Half Ice Three Lane Control Turn Shooting",
+    "category": "Shooting / Warm Up / Half Ice",
+    "drill_types": [
+      "Shooting",
+      "Warm Up",
+      "Half Ice",
+      "Puck Control",
+      "Skating"
+    ],
+    "description": "Three players leave a corner line with pucks and use three separate routes to the blue line. Each performs a control turn and returns through a different shooting lane, then the opposite corner sends the next group.",
+    "coaching_points": [
+      "Keep all three players in their designated lanes.",
+      "Maintain puck control through the turn.",
+      "Keep the head up as players return toward the net.",
+      "Alternate corners after the three shots."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/half-ice-three-lane-control-turn-shooting",
+    "image": "https://www.files.icehockeysystems.com/files/drills/three-lane-control-turn-shooting.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/three-lane-control-turn-shooting.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-wisconsin-shooting-drill-part-ii",
+    "number": 1010,
+    "title": "Wisconsin Shooting Drill - Part II",
+    "category": "Power Play / Shooting / Offensive Zone",
+    "drill_types": [
+      "Power Play",
+      "Shooting",
+      "Offensive Zone",
+      "Half Ice",
+      "Passing"
+    ],
+    "description": "A three-look shooting progression. The forward attacks off the wall for the first shot, the defense follows with a point shot while the forward hunts the rebound, then the forward completes a low give-and-go and attacks across the top of the crease for the final shot.",
+    "coaching_points": [
+      "Create three distinct shot angles in the sequence.",
+      "Forward hunts the rebound on the point shot.",
+      "Make the low give-and-go quickly.",
+      "Finish the final attack across the top of the crease."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/wisconsin-shooting-drill-part-ii",
+    "image": "https://www.files.icehockeysystems.com/files/drills/wisconsin-shooting-drill-II.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/wisconsin-shooting-drill-II.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
