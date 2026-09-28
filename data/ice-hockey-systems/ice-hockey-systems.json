@@ -31748,5 +31748,94 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-8586616",
+    "number": 987,
+    "title": "Low Traffic Shots",
+    "category": "Shooting / Down Low",
+    "drill_types": [
+      "Down Low",
+      "Shooting"
+    ],
+    "description": "A shooting drill with multiple traffic-based variations. Players work through each sequence with the puck, create a shooting lane through traffic, finish the shot, and continue to the net for rebounds or tips.",
+    "coaching_points": [
+      "Stay balanced and keep the feet moving through each repetition.",
+      "Handle the puck quickly and move directly from reception into the release.",
+      "Scan through traffic for open shooting lanes and rebound opportunities.",
+      "Follow every shot to the net and be ready for a second chance.",
+      "Vary the release to make the reps more game-like."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/low-traffic-shots",
+    "source_id": "8586616",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8586616-0-1762452754.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8586616-0-1762452754.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-8585891",
+    "number": 988,
+    "title": "Defenseman Blue Line Walk",
+    "category": "Puck Control / Shooting / Skill Development",
+    "drill_types": [
+      "Puck Control",
+      "Shooting",
+      "Skill Development"
+    ],
+    "description": "Defensemen work laterally along the blue line through two progressions, keeping the puck under control while changing the shooting or passing lane through traffic before finishing the play.",
+    "coaching_points": [
+      "Keep a low, balanced stance while moving laterally.",
+      "Use quick feet and compact crossovers to stay inside the blue line.",
+      "Keep the head up and read the lane through traffic.",
+      "Use puck-control deception to create space.",
+      "Finish with a quick shot or a pass through the available lane."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defenseman-blue-line-walk-4",
+    "source_id": "8585891",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-8585891-0-1762450722.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8585891-0-1762450722.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-8585891-1-1762450722.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-7530411",
+    "number": 989,
+    "title": "4Check Body Contact Angling #1",
+    "category": "Angling / Checking",
+    "drill_types": [
+      "Angling",
+      "Checking"
+    ],
+    "description": "Players start on the goal line without a puck, take an angle into controlled body contact on a dummy, recover a loose puck, make a pass to the blue line, loop around the faceoff-dot cone, receive the return pass, and attack the net for a shot.",
+    "coaching_points": [
+      "Get low before initiating body contact.",
+      "Win the board-side lane and wall off the contact target.",
+      "Keep the stick on the ice and the hands controlled.",
+      "Transition quickly from contact into puck recovery and passing.",
+      "Accelerate through the return pass and finish the rep with a shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "4Check Hockey",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-body-contact-angling-1-0",
+    "source_id": "7530411",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7530411-0-1756932313.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7530411-0-1756932313.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
