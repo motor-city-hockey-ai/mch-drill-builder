@@ -32789,5 +32789,311 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-neutral-zone-transition-high-roll",
+    "number": 1021,
+    "title": "Neutral Zone Transition with High Roll",
+    "category": "2 on 0 / Transition / Full Ice",
+    "drill_types": [
+      "Full Ice",
+      "2 on 0",
+      "Transition",
+      "Passing",
+      "Shooting",
+      "Puck Support"
+    ],
+    "description": "A two-player neutral-zone transition drill that emphasizes puck support, passing angles and a high-roll offensive-zone action. The defense and forward exchange passes through neutral ice, attack for a shot, then reconnect on a wall drop and return pass for a second chance.",
+    "coaching_points": [
+      "Support the puck with a useful passing angle in neutral ice.",
+      "Exchange passes while both players keep their feet moving.",
+      "Forward attacks the blue line with speed for the first shot.",
+      "Time the wall drop and high roll so both players finish at the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/neutral-zone-transition-high-roll",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-transition-with-high-roll.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-transition-with-high-roll.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-turns-and-stops-station",
+    "number": 1022,
+    "title": "Turns and Stops Station",
+    "category": "Skating / Agility / Half Ice",
+    "drill_types": [
+      "Skating",
+      "Agility",
+      "Half Ice",
+      "Stations",
+      "Shooting"
+    ],
+    "description": "A shared-ice station using two mirrored skating routes. One side works power turns around four obstacles while the other works stops and starts; both finish by receiving a pass from the coach for a shot.",
+    "coaching_points": [
+      "Use controlled power turns without drifting wide.",
+      "Come to complete stops on the stop-and-start side.",
+      "Accelerate out of every change of direction.",
+      "Finish by presenting a target and shooting in stride."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/turns-and-stops-station",
+    "image": "https://www.files.icehockeysystems.com/files/drills/turns-and-stops-station.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/turns-and-stops-station.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-quick-shot-quick-stuff",
+    "number": 1023,
+    "title": "Quick Shot, Quick Stuff",
+    "category": "Passing / Shooting / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Transition",
+      "Down Low"
+    ],
+    "description": "A forward skill drill combining transition passing, a quick give-and-go shot and a second attack from behind the net. The player transitions to receive a pass, moves it to a designated passer for a quick return shot, then retrieves a puck behind the goal line and attacks the crease.",
+    "coaching_points": [
+      "Transition while facing the puck and present a target.",
+      "Move the puck quickly to the designated passer.",
+      "Release the first shot immediately off the return pass.",
+      "Attack the net decisively after retrieving the second puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/quick-shot-quick-stuff",
+    "image": "https://www.files.icehockeysystems.com/files/drills/quick-shot-quick-stuff.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/quick-shot-quick-stuff.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-force-up-wall-1-on-1",
+    "number": 1024,
+    "title": "Force Up Wall 1 on 1",
+    "category": "1 on 1 / Defensive / Half Ice",
+    "drill_types": [
+      "1 on 1",
+      "Half Ice",
+      "Defensive",
+      "Angling",
+      "Checking"
+    ],
+    "description": "A defensive 1 on 1 beginning below the goal line. The forward carries behind the net and tries to turn the corner for a scoring chance while the defender uses stick position, body angle and inside leverage to force the attacker outside and up the wall.",
+    "coaching_points": [
+      "Defender protects the inside lane first.",
+      "Use the stick and skating angle to steer the attacker away from the net.",
+      "Stay between the puck carrier and the scoring area.",
+      "Forward attacks the far post with speed and protects the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/force-wall-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/force-up-wall-1v1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/force-up-wall-1v1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-4-stations-1",
+    "number": 1025,
+    "title": "4 Stations #1",
+    "category": "Stations / Small Area Games / Passing",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Small Area Games",
+      "Stations",
+      "2 on 2",
+      "3 on 3",
+      "Skating"
+    ],
+    "description": "A four-station practice layout for younger players. The stations combine a scoring relay, continuous passing with backward skating, a tight-area 2 on 2 battle game and a 3 on 3 transition game that requires using the coach before attacking.",
+    "coaching_points": [
+      "Keep station rules simple and rotations short.",
+      "Demand good skating posture in the relay and passing station.",
+      "Encourage puck battles and creativity in the 2 on 2 station.",
+      "In the 3 on 3 game, transition through the coach before attacking."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/4-stations-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/4-stations-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/4-stations-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-continuous-reverses",
+    "number": 1026,
+    "title": "Continuous Reverses",
+    "category": "Breakouts / Defensive / Half Ice",
+    "drill_types": [
+      "Breakouts",
+      "Half Ice",
+      "Defensive",
+      "Retrievals",
+      "Passing"
+    ],
+    "description": "A continuous defense drill for practicing reverse breakouts. A defenseman moves the puck to a wall passer, transitions back below the dots to receive it again, carries behind the net and reverses the puck to the next defenseman, who repeats the sequence.",
+    "coaching_points": [
+      "Stay inside the dots while transitioning back for the puck.",
+      "Receive the return pass under control.",
+      "Communicate the reverse early and clearly.",
+      "Pick up the reverse with speed and continue the pattern."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/continuous-reverses",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-reverses.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-reverses.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-transition-give-go-below-goal-line",
+    "number": 1027,
+    "title": "Transition Give & Go Below Goal Line",
+    "category": "Passing / Shooting / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Offensive Zone",
+      "Down Low",
+      "Transition"
+    ],
+    "description": "A quick give-and-go attack from the wall into an area below the goal line. The forward takes hard strides, transitions backward to receive and return a pass, then pivots forward and curls toward the net to receive the puck near the goal line for a scoring play.",
+    "coaching_points": [
+      "Take hard strides before the transition.",
+      "Receive and return the puck quickly.",
+      "Explode forward after the give-and-go.",
+      "Make one quick move when attacking from below the goal line."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/transition-give-go-below-goal-line",
+    "image": "https://www.files.icehockeysystems.com/files/drills/reverse-pivot-give-go-from-wall.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/reverse-pivot-give-go-from-wall.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-transition-give-go-corner",
+    "number": 1028,
+    "title": "Transition Give and Go from Corner",
+    "category": "Passing / Shooting / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Transition",
+      "Offensive Zone"
+    ],
+    "description": "A quick passing and footwork drill from the corner. The forward takes three hard strides, transitions backward to receive a pass, immediately gives it back, then explodes into the slot for the return pass and shot.",
+    "coaching_points": [
+      "Face the passer during the backward transition.",
+      "Limit the exchange to one touch or one stickhandle.",
+      "Explode into the slot after moving the puck.",
+      "Receive the return pass in a shooting position."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/transition-give-and-go-corner",
+    "image": "https://www.files.icehockeysystems.com/files/drills/reverse-pivot-give-go-from-corner.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/reverse-pivot-give-go-from-corner.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-breakout-weave-1",
+    "number": 1029,
+    "title": "Breakout Weave #1",
+    "category": "Breakouts / Passing / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Breakouts",
+      "3 on 0",
+      "Puck Support",
+      "Flow"
+    ],
+    "description": "A breakout timing drill that develops into a full-ice 3 on 0 weave. The defense begins with a breakout pass, stays inside the dots as a support option, receives the puck back and finds the second forward before the three players continue up ice in a weave.",
+    "coaching_points": [
+      "Breakout timing is more important than racing up ice.",
+      "Defense remains available underneath the puck.",
+      "Use horizontal support passes instead of forcing vertical passes.",
+      "Carry the spacing and timing into the 3 on 0 weave."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/breakout-weave-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/breakout-weave-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/breakout-weave-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-transition-wheel",
+    "number": 1030,
+    "title": "The Transition Wheel",
+    "category": "Passing / Transition / Defensive",
+    "drill_types": [
+      "Passing",
+      "Transition",
+      "Defensive",
+      "Neutral Zone",
+      "Backwards Skating",
+      "Puck Control"
+    ],
+    "description": "A continuous defense transition wheel for four to six players. Pairs receive passes while skating backward, support each other across the middle, transition forward to move the puck to a wall option, then reset into backward skating as the sequence moves to the next pair.",
+    "coaching_points": [
+      "Receive passes while skating backward with control.",
+      "Create a support angle underneath the puck.",
+      "Transition forward without losing puck or body position.",
+      "Reset quickly into backward skating when the puck changes sides."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/transition-wheel",
+    "image": "https://www.files.icehockeysystems.com/files/drills/transition-wheel.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/transition-wheel.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
