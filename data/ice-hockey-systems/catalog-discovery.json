@@ -15452,5 +15452,177 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS 3 on 2 / 3 on 3 / 1 on 1 category reconciliation"
+  },
+  {
+    "discovery_number": 988,
+    "title": "Wheaties 2 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wheaties-2-1",
+    "categories": [
+      "2 vs 1",
+      "Angling",
+      "Backwards Skating",
+      "Full Ice",
+      "Gap",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=4&tid=All"
+  },
+  {
+    "discovery_number": 989,
+    "title": "32 Get Back",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/32-get-back",
+    "categories": [
+      "3 vs 0",
+      "Backchecking",
+      "Passing",
+      "Re-Group",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=4&tid=All"
+  },
+  {
+    "discovery_number": 990,
+    "title": "Shot Into Gap Up 1 v 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shot-gap-1-v-1",
+    "categories": [
+      "1 vs 1",
+      "Puck Protection",
+      "Stations",
+      "Quarter Ice Station",
+      "Angling",
+      "Checking"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=4&tid=All"
+  },
+  {
+    "discovery_number": 991,
+    "title": "Nobles 2 V 2 + 2 Teammates Transition Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/nobles-2-v-2-2-teammates-transition-game",
+    "categories": [
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Puck Protection",
+      "Offensive",
+      "Small Area Games",
+      "4 vs 2",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=4&tid=All"
+  },
+  {
+    "discovery_number": 992,
+    "title": "Red Baron Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/red-baron-game-2",
+    "categories": [
+      "4 vs 3",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Small Area Games",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=4&tid=All"
+  },
+  {
+    "discovery_number": 993,
+    "title": "Larionov 5 V 3 Alternating Warm-Up Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/larionov-5-v-3-alternating-warm-drill",
+    "categories": [
+      "5 vs 3",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Pre Game",
+      "Puck Control",
+      "Puck Handling",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=4&tid=All"
+  },
+  {
+    "discovery_number": 994,
+    "title": "Net Drive & Angle Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/net-drive-angle-drill",
+    "categories": [
+      "1 vs 1",
+      "Angling",
+      "Checking",
+      "Coverage",
+      "Gap",
+      "Offensive",
+      "Puck Protection"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=4&tid=All"
+  },
+  {
+    "discovery_number": 995,
+    "title": "Continuous 1 on 1 Puck Retrieval Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-1-1-puck-retrieval-drill",
+    "categories": [
+      "1 vs 1",
+      "Puck Protection",
+      "Angling",
+      "Checking",
+      "Half Ice",
+      "Down Low",
+      "Retrievals"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=4&tid=All"
+  },
+  {
+    "discovery_number": 996,
+    "title": "1 v 1 v 1 Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-v-1-game",
+    "categories": [
+      "1 vs 1",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Offensive",
+      "Small Area Games",
+      "Warm Up",
+      "Battle Drills"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=4&tid=All"
+  },
+  {
+    "discovery_number": 997,
+    "title": "Yellow Attack Timing - V1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/yellow-attack-timing-v1",
+    "categories": [
+      "Passing",
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Offensive",
+      "Stations",
+      "Quarter Ice Station",
+      "Half Ice",
+      "Retrievals"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=4&tid=All"
   }
 ]
