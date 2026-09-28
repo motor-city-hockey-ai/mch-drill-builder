@@ -549,7 +549,8 @@ button{cursor:pointer}
       'data/ice-hockey-systems/ihs-batch-1277-1286.json?v=1',
       'data/ice-hockey-systems/ihs-batch-1287-1296.json?v=1',
       'data/ice-hockey-systems/ihs-batch-1297-1306.json?v=1',
-      'data/ice-hockey-systems/ihs-batch-1307-1316.json?v=1'
+      'data/ice-hockey-systems/ihs-batch-1307-1316.json?v=1',
+      'data/ice-hockey-systems/ihs-batch-1317-1319.json?v=1'
     ];
     const responses=await Promise.all(urls.map(url=>fetch(url,{cache:'no-store'})));
     if(!responses[0].ok)throw new Error('Ice Hockey Systems metadata returned '+responses[0].status);
@@ -739,7 +740,14 @@ button{cursor:pointer}
       if(searchedType)return types.includes(searchedType);
       return [d.number,d.title,d.teaser,d.category,d.description,d.source,d.author,d.source_collection,d.chapter,libraryDisplayName(d),(d.tags||[]).join(' ')].join(' ').toLowerCase().includes(q);
     });
-    return rows.sort((a,b)=>activeLibrary==='all'?(libraryDisplayName(a).localeCompare(libraryDisplayName(b))||Number(a.number)-Number(b.number)):(Number(a.number)-Number(b.number)));
+    return rows.sort((a,b)=>{
+      if(activeLibrary==='all') return libraryDisplayName(a).localeCompare(libraryDisplayName(b))||Number(a.number)-Number(b.number);
+      if(activeLibrary==='ihs'){
+        const af=!!a.skill_station_featured,bf=!!b.skill_station_featured;
+        if(af!==bf)return af?-1:1;
+      }
+      return Number(a.number)-Number(b.number);
+    });
   }
 
   function renderGrid(reset=true){
