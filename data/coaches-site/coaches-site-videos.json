@@ -1,0 +1,37 @@
+[
+  {
+    "uid": "coaches-video-0015",
+    "number": 15,
+    "title": "The Forecheck Drill",
+    "coach": "Mike Johnston",
+    "category": "Forechecking / Breakout",
+    "format": "2 vs 2",
+    "duration_seconds": 90,
+    "source": "The Coaches Site",
+    "source_article_title": "The Forecheck Drill and Boucher Drill",
+    "source_article_url": "https://members.thecoachessite.com/article/the-forecheck-drill-and-boucher-drill",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston-the-forecheck-drill?modestbranding=1&showinfo=1&controls=1&t=0&objectFit=",
+    "notes": [
+      "Competitive 2-on-2 forecheck-versus-breakout drill.",
+      "Forechecking side works on pressure, reads, puck recovery and winning possession.",
+      "Breakout side works on support, outlets and escaping pressure under game-like resistance."
+    ]
+  },
+  {
+    "uid": "coaches-video-0016",
+    "number": 16,
+    "title": "Boucher Drill",
+    "coach": "Mike Johnston",
+    "category": "Offensive Zone Entries / Attack Options",
+    "duration_seconds": 139,
+    "source": "The Coaches Site",
+    "source_article_title": "The Forecheck Drill and Boucher Drill",
+    "source_article_url": "https://members.thecoachessite.com/article/the-forecheck-drill-and-boucher-drill",
+    "embed_url": "https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---boucher-drill?modestbranding=1&showinfo=1&controls=1&t=0&objectFit=",
+    "notes": [
+      "Offensive attack-options drill focused on zone entries.",
+      "Develops multiple entry and attack choices rather than one fixed route.",
+      "Use it to reinforce support, spacing and reading the available option as the rush develops."
+    ]
+  }
+]
