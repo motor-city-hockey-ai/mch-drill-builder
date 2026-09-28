@@ -15,14 +15,14 @@ button,input,select{font:inherit}
 button{cursor:pointer}
 .app{max-width:1500px;margin:0 auto;background:#fff;min-height:100vh}
 .header{background:#090909;color:#fff;padding:20px 30px;border-bottom:5px solid var(--red);display:flex;align-items:center;justify-content:space-between;gap:16px}
-.brand{display:flex;align-items:center;gap:14px}.logo{width:48px;height:48px;border-radius:50%;background:var(--red);display:grid;place-items:center;font-weight:900;font-style:italic}.brand h1{font-size:28px;margin:0}.brand small{color:#bbb;letter-spacing:2px}.pill{border:1px solid #333;border-radius:30px;padding:9px 14px;color:#ddd;font-size:13px}
+.brand{display:flex;align-items:center;gap:14px}.logo{width:58px;height:58px;display:grid;place-items:center;flex:0 0 58px}.logo img{display:block;width:100%;height:100%;object-fit:contain}.brand h1{font-size:28px;margin:0}.brand small{color:#bbb;letter-spacing:2px}.pill{border:1px solid #333;border-radius:30px;padding:9px 14px;color:#ddd;font-size:13px}
 .set{position:sticky;top:0;z-index:500;background:#111;color:#fff;padding:13px 30px 15px;box-shadow:0 8px 24px rgba(0,0,0,.26);border-bottom:3px solid var(--red)}
 .row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.set-title{font-size:17px;font-weight:900}.count{background:var(--red);border-radius:50%;padding:5px 9px;margin-left:8px}
 .btn{border:0;border-radius:10px;padding:11px 16px;font-weight:800}.red{background:var(--red);color:#fff}.dark{background:#2b2b2b;color:#fff}.light{background:#eee;color:#111}
 .selected{display:flex;gap:9px;overflow-x:auto;overflow-y:hidden;margin-top:10px;padding-bottom:3px;min-height:30px;scrollbar-width:thin}.selected-empty{color:#aaa;padding:5px 0;font-size:13px}
 .sel{flex:0 0 150px;width:150px;background:#fff;color:#111;border-radius:9px;padding:6px;position:relative}.sel img{display:block;width:100%;height:74px;object-fit:contain;background:#fafafa}.sel b{font-size:11px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:3px}.sel small{display:block;color:#777;font-size:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}.x{position:absolute;right:5px;top:5px;width:23px;height:23px;border-radius:50%;border:0;background:#111;color:#fff;font-weight:900;z-index:2}
 .main{padding:22px 30px 35px}
-.quick{background:#151515;color:#fff;border-left:5px solid var(--red);border-radius:18px;padding:18px 22px;margin-bottom:22px}.quick h2{margin:0 0 4px;font-size:21px}.quick p{margin:0 0 15px;color:#bbb;font-size:13px}.quick-grid{display:grid;grid-template-columns:1.35fr 1.05fr .72fr .72fr .7fr auto .78fr;gap:12px;align-items:end}.stat-box{height:46px;border:1px solid #555;background:#1d1d1d;border-radius:9px;padding:5px 10px;display:flex;flex-direction:column;justify-content:center}.stat-box small{font-size:8px;letter-spacing:1px;color:#aaa;font-weight:900}.stat-box strong{font-size:18px;line-height:1.05;color:#fff}.stat-box.total{border-color:#d71920;background:#26090b}.stat-box.total strong{font-size:20px}.type-summary{display:grid;grid-template-columns:1.4fr .8fr .8fr;gap:10px;margin-top:12px;padding-top:12px;border-top:1px solid #444}.type-summary>div{min-height:46px;border:1px solid #444;background:#111;border-radius:9px;padding:7px 11px;display:flex;flex-direction:column;justify-content:center}.type-summary small{font-size:8px;letter-spacing:1px;color:#999;font-weight:900}.type-summary strong{font-size:15px;line-height:1.15;color:#fff}.field label{display:block;font-size:10px;font-weight:900;letter-spacing:1.4px;color:#bbb;margin-bottom:6px}.control{width:100%;height:46px;border:1px solid #555;background:#111;color:#fff;border-radius:9px;padding:0 12px}
+.quick{background:#151515;color:#fff;border-left:5px solid var(--red);border-radius:18px;padding:18px 22px;margin-bottom:22px}.quick-grid{display:grid;grid-template-columns:1.35fr 1.05fr .72fr auto .72fr .72fr .78fr;gap:12px;align-items:end}.stat-box{height:46px;border:1px solid #555;background:#1d1d1d;border-radius:9px;padding:5px 10px;display:flex;flex-direction:column;justify-content:center}.stat-box small{font-size:8px;letter-spacing:1px;color:#aaa;font-weight:900}.stat-box strong{font-size:18px;line-height:1.05;color:#fff}.stat-box.total{border-color:#d71920;background:#26090b}.stat-box.total strong{font-size:20px}.field label{display:block;font-size:10px;font-weight:900;letter-spacing:1.4px;color:#bbb;margin-bottom:6px}.control{width:100%;height:46px;border:1px solid #555;background:#111;color:#fff;border-radius:9px;padding:0 12px}
 .toolbar{display:flex;justify-content:space-between;gap:14px;align-items:end;flex-wrap:wrap;margin-bottom:12px}.toolbar h2{margin:0;font-size:25px}.sub{color:#777;font-size:13px;margin-top:4px}.search{width:min(430px,100%);height:44px;border:1px solid #ccc;border-radius:12px;padding:0 14px}
 .status{padding:9px 12px;background:#f5f5f5;border-radius:10px;font-size:12px;margin:9px 0 15px}.status.ok{border-left:4px solid #2e8b57}.status.err{border-left:4px solid var(--red);color:#9d1016}.status.preview{border-left:4px solid var(--red)}
 .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.card{border:1px solid #ddd;border-radius:14px;overflow:hidden;background:#fff;position:relative;transition:.15s}.card:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(0,0,0,.08)}.card.selected-card{outline:3px solid var(--red)}.diagram-hit{display:flex;width:100%;height:235px;border:0;border-bottom:1px solid #eee;padding:10px;background:#fff;cursor:zoom-in;align-items:center;justify-content:center;overflow:hidden}.card img{display:block;width:100%;height:100%;object-fit:contain;background:#fff}.meta{padding:9px 11px 11px}.num{font-weight:900;font-size:14px}.drill-title{font-size:12px;font-weight:800;margin-top:3px;line-height:1.22;min-height:29px}.cat-label{font-size:9px;color:#777;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.system-badge{display:inline-block;background:#111;color:#fff;border-radius:999px;font-size:8px;font-weight:900;letter-spacing:.6px;padding:3px 7px;margin-top:5px}.quick-add-card{position:absolute;right:7px;top:7px;width:34px;height:34px;border-radius:50%;border:0;background:var(--red);color:#fff;font-weight:900;z-index:3}
@@ -34,35 +34,37 @@ button{cursor:pointer}
 .hub-nav{display:flex;gap:8px;padding:11px 30px;background:#fff;border-bottom:1px solid #ddd}
 .hub-tab{border:1px solid #ccc;background:#fff;color:#111;border-radius:999px;padding:9px 16px;font-weight:900;letter-spacing:.5px}
 .hub-tab.active{background:#111;color:#fff;border-color:#111}
-.hub-badge{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 6px;margin-left:6px;border-radius:999px;background:var(--red);color:#fff;font-size:11px}
-.video-main{display:none;padding:22px 30px 35px}
+.video-main{display:none;min-height:70vh;padding:0;background:#0b0b0b;color:#fff}
 .app.videos-mode .set,.app.videos-mode #drillMain{display:none}
 .app.videos-mode #videoMain{display:block}
-.video-toolbar{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:16px}
-.video-toolbar h2{margin:0;font-size:27px}.video-toolbar p{margin:5px 0 0;color:#777;font-size:13px}
-.video-source-link{display:inline-block;text-decoration:none;background:#111;color:#fff;border-radius:10px;padding:11px 14px;font-weight:800;font-size:12px}
-.video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.video-card{border:1px solid #ddd;border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 5px 18px rgba(0,0,0,.05)}
-.video-frame{aspect-ratio:16/9;background:#000}
-.video-frame iframe{display:block;width:100%;height:100%;border:0}
-.video-meta{padding:15px 16px 17px}.video-meta h3{margin:0 0 6px;font-size:18px}.video-meta p{margin:0;color:#666;line-height:1.45;font-size:13px}
-.video-kicker{font-size:10px;font-weight:900;letter-spacing:1.2px;color:var(--red);text-transform:uppercase;margin-bottom:6px}
-.video-details{margin-top:10px;font-size:11px;color:#888}.video-notes{margin:12px 0 0;padding:10px 12px;background:#f6f6f6;border-left:4px solid var(--red);border-radius:8px}.video-notes b{font-size:11px;text-transform:uppercase;letter-spacing:.7px}.video-notes ul{margin:7px 0 0;padding-left:18px}.video-notes li{margin:0 0 5px;font-size:12px;line-height:1.35;color:#444}.video-empty{grid-column:1/-1;padding:28px;border:1px dashed #bbb;border-radius:14px;text-align:center;color:#777}
-
+.video-hero{padding:38px 30px 30px;background:linear-gradient(135deg,#080808 0%,#171717 65%,#26090b 100%);border-bottom:4px solid var(--red)}
+.video-eyebrow{font-size:11px;font-weight:900;letter-spacing:2px;color:var(--red);text-transform:uppercase}
+.video-hero h2{margin:7px 0 7px;font-size:36px;line-height:1.05}.video-hero p{margin:0;color:#bdbdbd;max-width:720px;line-height:1.5}
+.video-controls{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:22px}
+.video-search{width:min(440px,100%);height:46px;border:1px solid #3b3b3b;background:#101010;color:#fff;border-radius:12px;padding:0 14px;outline:none}.video-search:focus{border-color:var(--red)}
+.video-categories{padding:24px 30px 6px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.video-category{min-height:112px;border:1px solid #303030;border-radius:15px;background:#151515;color:#fff;padding:16px;text-align:left;display:flex;flex-direction:column;justify-content:space-between;transition:.15s}
+.video-category:hover{transform:translateY(-1px);border-color:#555}.video-category.active{border-color:var(--red);box-shadow:inset 0 -4px 0 var(--red);background:#1e1112}
+.video-category-name{font-size:14px;font-weight:900;line-height:1.2}.video-category-count{font-size:11px;color:#888}.video-category.active .video-category-count{color:#ddd}
+.video-library{padding:20px 30px 42px}.video-library-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:15px}.video-library-head h3{margin:0;font-size:24px}.video-library-head span{font-size:12px;color:#888}
+.video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.video-card{overflow:hidden;background:#161616;border:1px solid #2e2e2e;border-radius:16px}.video-frame{aspect-ratio:16/9;background:#000}.video-frame iframe,.video-frame video{display:block;width:100%;height:100%;border:0;object-fit:cover}
+.video-meta{padding:14px 15px 16px}.video-meta h4{margin:0 0 7px;font-size:17px}.video-meta p{margin:0;color:#aaa;font-size:12px;line-height:1.45}.video-kicker{font-size:9px;letter-spacing:1.2px;color:var(--red);font-weight:900;text-transform:uppercase;margin-bottom:6px}
+.video-empty{grid-column:1/-1;min-height:280px;border:1px dashed #444;border-radius:18px;background:#111;display:grid;place-items:center;text-align:center;padding:30px}.video-empty strong{display:block;font-size:22px;margin-bottom:7px}.video-empty span{color:#888;font-size:13px}
 @media(max-width:1050px){.quick-grid{grid-template-columns:1fr 1fr}.team-mode .grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:760px){.hub-nav{padding:9px 12px}.hub-tab{padding:8px 13px}.video-main{padding:15px 12px 30px}.video-grid{grid-template-columns:1fr}.video-toolbar h2{font-size:23px}.header{padding:13px 15px}.brand h1{font-size:20px}.brand small{font-size:9px}.pill{display:none}.set{padding:9px 12px 10px}.set-title{font-size:14px}.selected{margin-top:7px}.sel{flex-basis:124px;width:124px}.sel img{height:55px}.main{padding:15px 12px 30px}.quick{padding:15px}.quick-grid{grid-template-columns:1fr}.grid,.team-mode .grid{grid-template-columns:1fr 1fr;gap:10px}.diagram-hit,.team-mode .diagram-hit{height:175px;padding:6px}.card img,.team-mode .card img{width:100%;height:100%;padding:0;object-fit:contain}.meta{padding:8px}.num{font-size:12px}.drill-title,.team-mode .drill-title{font-size:10px;min-height:25px}.cat-label{font-size:8px}.toolbar h2{font-size:21px}.viewer{padding:5px}.viewer-panel{width:96vw;max-height:none;border-radius:11px}.viewer-head{padding:11px 46px 8px 12px}.viewer-head h2{font-size:18px}.viewer-head h3{font-size:13px}.viewer-image-wrap{padding:6px;height:min(38vh,300px)}.viewer-notes{padding:11px 12px 13px}.viewer-desc{font-size:12px}.viewer-actions .btn{flex:1 1 100%}}
+@media(max-width:760px){.hub-nav{padding:9px 12px}.hub-tab{padding:8px 13px}.video-hero{padding:28px 16px 22px}.video-hero h2{font-size:30px}.video-categories{padding:18px 12px 4px;grid-template-columns:1fr 1fr}.video-category{min-height:94px}.video-library{padding:16px 12px 30px}.video-grid{grid-template-columns:1fr}.header{padding:13px 15px}.brand h1{font-size:20px}.brand small{font-size:9px}.pill{display:none}.set{padding:9px 12px 10px}.set-title{font-size:14px}.selected{margin-top:7px}.sel{flex-basis:124px;width:124px}.sel img{height:55px}.main{padding:15px 12px 30px}.quick{padding:15px}.quick-grid{grid-template-columns:1fr}.grid,.team-mode .grid{grid-template-columns:1fr 1fr;gap:10px}.diagram-hit,.team-mode .diagram-hit{height:175px;padding:6px}.card img,.team-mode .card img{width:100%;height:100%;padding:0;object-fit:contain}.meta{padding:8px}.num{font-size:12px}.drill-title,.team-mode .drill-title{font-size:10px;min-height:25px}.cat-label{font-size:8px}.toolbar h2{font-size:21px}.viewer{padding:5px}.viewer-panel{width:96vw;max-height:none;border-radius:11px}.viewer-head{padding:11px 46px 8px 12px}.viewer-head h2{font-size:18px}.viewer-head h3{font-size:13px}.viewer-image-wrap{padding:6px;height:min(38vh,300px)}.viewer-notes{padding:11px 12px 13px}.viewer-desc{font-size:12px}.viewer-actions .btn{flex:1 1 100%}}
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
 <body>
 <div class="app" id="app">
   <header class="header">
-    <div class="brand"><div class="logo">MC</div><div><h1>MOTOR CITY HOCKEY</h1><small>COACH DRILL BUILDER</small></div></div>
+    <div class="brand"><div class="logo"><img src="data:image/png;base64,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[...omitted for brevity in this call...]" alt="Motor City Hockey logo"></div><div><h1>MOTOR CITY HOCKEY</h1><small>MISSION: FOREVER IMPACT</small></div></div>
     <div class="pill"><b>Build fast.</b> Export only what you need.</div>
   </header>
   <nav class="hub-nav" aria-label="Drill Hub sections">
     <button class="hub-tab active" type="button" data-hub-view="drills">DRILLS</button>
-    <button class="hub-tab" type="button" data-hub-view="videos">VIDEOS <span class="hub-badge" id="videoCount">30</span></button>
+    <button class="hub-tab" type="button" data-hub-view="videos">VIDEOS</button>
   </nav>
   <section class="set">
     <div class="row"><div class="set-title">YOUR PRACTICE SET <span class="count" id="selectedCount">0</span></div><div><button class="btn dark" id="clearBtn">Clear Set</button> <button class="btn red" id="printBtn">Export / Print</button></div></div>
@@ -71,21 +73,14 @@ button{cursor:pointer}
 
   <main class="main" id="drillMain">
     <section class="quick">
-      <h2>Quick Add by Drill Number</h2>
-      <p>Choose a library, narrow by drill type, then search or add by drill number.</p>
       <div class="quick-grid">
         <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 2,464 Drills</option><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 850 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Rich Skill Drills — 452 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
+        <div class="field"><label>LOOK UP DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
+        <button class="btn red" id="quickAdd">Find Drill</button>
         <div class="stat-box"><small>FULL ICE DRILLS</small><strong id="fullIceCount">570</strong></div>
         <div class="stat-box"><small>SKILL ZONE DRILLS</small><strong id="skillZoneCount">452</strong></div>
-        <div class="field"><label>DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
-        <button class="btn red" id="quickAdd">Find Drill</button>
         <div class="stat-box total"><small>TOTAL DRILLS</small><strong id="totalDrillCount">2,464</strong></div>
-      </div>
-      <div class="type-summary" id="typeSummary">
-        <div><small>SELECTED DRILL TYPE</small><strong id="selectedTypeLabel">All Drill Types</strong></div>
-        <div><small>IN THIS LIBRARY</small><strong id="typeLibraryCount">—</strong></div>
-        <div><small>ACROSS ALL DRILLS</small><strong id="typeAllCount">2,464</strong></div>
       </div>
     </section>
 
@@ -100,15 +95,19 @@ button{cursor:pointer}
   </main>
 
   <main class="video-main" id="videoMain">
-    <div class="video-toolbar">
-      <div>
-        <h2>Mike Johnston Video Library</h2>
-        <p><span id="videoLibraryCount">30</span> verified Mike Johnston video entries organized in your Drill Hub.</p>
+    <section class="video-hero">
+      <div class="video-eyebrow">Motor City Hockey Video Hub</div>
+      <h2>Watch. Learn. Apply.</h2>
+      <p>A separate coaching video library built for the content you choose to keep and share with your staff.</p>
+      <div class="video-controls">
+        <input class="video-search" id="videoSearch" placeholder="Search videos...">
       </div>
-      <input class="search" id="videoSearch" placeholder="Search drill, topic, or category...">
-    </div>
-    <div class="status ok" id="videoStatus">Loading Mike Johnston videos…</div>
-    <div class="video-grid" id="videoGrid"></div>
+    </section>
+    <section class="video-categories" id="videoCategories"></section>
+    <section class="video-library">
+      <div class="video-library-head"><h3 id="videoCategoryTitle">Rich's Favorite Motivational Videos</h3><span id="videoResultCount">0 videos</span></div>
+      <div class="video-grid" id="videoGrid"></div>
+    </section>
   </main>
   <footer class="footer"><div>Motor City Hockey - internal coaching resource builder</div><div>Selected drills only are included in exports.</div></footer>
 </div>
@@ -571,34 +570,7 @@ button{cursor:pointer}
     return m?(m[1]+' vs '+m[2]):'';
   }
 
-  async function updateTypeSummary(loadGlobal=false){
-    const cat=$('#category').value;
-    const searchedType=!cat?exactSearchDrillType():'';
-    const type=cat||searchedType;
-    const currentCount=type
-      ? database.filter(d=>drillTypeTags(d).includes(type)).length
-      : database.length;
-    $('#selectedTypeLabel').textContent=type||'All Drill Types';
-    $('#typeLibraryCount').textContent=currentCount.toLocaleString();
-    if(!type){
-      $('#typeAllCount').textContent=ALL_DRILL_TOTAL.toLocaleString();
-      return;
-    }
-    if(activeLibrary==='all'){
-      $('#typeAllCount').textContent=currentCount.toLocaleString();
-      return;
-    }
-    if(!allDrillsDatabase&&!loadGlobal){
-      $('#typeAllCount').textContent='Counting…';
-      return;
-    }
-    if(!allDrillsDatabase&&loadGlobal){
-      $('#typeAllCount').textContent='Counting…';
-      try{await loadAllDrills();hideLoading();}catch(err){$('#typeAllCount').textContent='—';return;}
-    }
-    const globalCount=allDrillsDatabase.filter(d=>drillTypeTags(d).includes(type)).length;
-    $('#typeAllCount').textContent=globalCount.toLocaleString();
-  }
+  async function updateTypeSummary(){ return; }
 
   async function switchLibrary(lib){
     activeLibrary=lib;visibleLimit=lib==='coaches'?36:60;$('#search').value='';$('#quickNumber').value='';
@@ -898,69 +870,52 @@ button{cursor:pointer}
   if(new URLSearchParams(location.search).get('view')==='videos')setHubView('videos');
 })();
 </script>
-<script id="mikeJohnstonVideoLoader">
+<script id="videoHubLoader">
 (() => {
+  const categories=[
+    "Rich's Favorite Motivational Videos",
+    "Hockey Drill Videos",
+    "Offensive Concepts",
+    "Defensive Concepts",
+    "Powerplay and Penalty Kill"
+  ];
+  const categoryWrap=document.getElementById('videoCategories');
   const grid=document.getElementById('videoGrid');
   const search=document.getElementById('videoSearch');
-  const status=document.getElementById('videoStatus');
-  const count=document.getElementById('videoCount');
-  const libraryCount=document.getElementById('videoLibraryCount');
-  if(!grid)return;
-
+  const title=document.getElementById('videoCategoryTitle');
+  const resultCount=document.getElementById('videoResultCount');
+  if(!categoryWrap||!grid)return;
   let videos=[];
+  let active=categories[0];
   const safe=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-  const duration=secs=>{
-    const n=Number(secs);
-    if(!Number.isFinite(n)||n<=0)return '';
-    const h=Math.floor(n/3600),m=Math.floor((n%3600)/60),s=n%60;
-    return h? h+':'+String(m).padStart(2,'0')+':'+String(s).padStart(2,'0') : m+':'+String(s).padStart(2,'0');
+  const renderCategories=()=>{
+    categoryWrap.innerHTML=categories.map(cat=>{
+      const count=videos.filter(v=>v&&v.category===cat).length;
+      return '<button class="video-category'+(cat===active?' active':'')+'" type="button" data-video-category="'+safe(cat)+'"><span class="video-category-name">'+safe(cat)+'</span><span class="video-category-count">'+count+' video'+(count===1?'':'s')+'</span></button>';
+    }).join('');
+    categoryWrap.querySelectorAll('.video-category').forEach(btn=>btn.addEventListener('click',()=>{active=btn.dataset.videoCategory;render();}));
   };
   const render=()=>{
     const q=String(search?.value||'').trim().toLowerCase();
-    const rows=videos.filter(v=>{
-      if(!q)return true;
-      return [v.title,v.category,v.series,v.number,(v.notes||[]).join(' ')].join(' ').toLowerCase().includes(q);
-    });
-    status.textContent=q ? rows.length+' matching Mike Johnston videos' : videos.length+' Mike Johnston videos loaded';
-    status.className='status ok';
+    const rows=videos.filter(v=>v&&v.category===active&&(!q||[v.title,v.description,(v.tags||[]).join(' ')].join(' ').toLowerCase().includes(q)));
+    title.textContent=active;
+    resultCount.textContent=rows.length+' video'+(rows.length===1?'':'s');
+    renderCategories();
     if(!rows.length){
-      grid.innerHTML='<div class="video-empty">No Mike Johnston videos match that search.</div>';
+      grid.innerHTML='<div class="video-empty"><div><strong>Ready for your content.</strong><span>No videos have been added to this category yet.</span></div></div>';
       return;
     }
     grid.innerHTML=rows.map(v=>{
-      const label=v.number!=null?'Drill '+safe(v.number):safe(v.series||'Mike Johnston');
-      const notes=(v.notes||[]).map(n=>'<li>'+safe(n)+'</li>').join('');
-      const dur=duration(v.duration_seconds);
-      return '<article class="video-card">'+
-        '<div class="video-frame"><iframe loading="lazy" src="'+safe(v.embed_url)+'" title="'+safe(v.title)+' — Mike Johnston" allow="fullscreen; autoplay; picture-in-picture" allowfullscreen></iframe></div>'+
-        '<div class="video-meta">'+
-          '<div class="video-kicker">'+label+' · Mike Johnston</div>'+
-          '<h3>'+safe(v.title)+'</h3>'+
-          '<p>'+safe(v.category||'Coaching')+'</p>'+
-          (notes?'<div class="video-notes"><b>Saved Coaching Notes</b><ul>'+notes+'</ul></div>':'')+
-          '<div class="video-details">'+[safe(v.series||''),dur].filter(Boolean).join(' · ')+'</div>'+
-        '</div>'+
-      '</article>';
+      const media=v.video_url
+        ? '<video controls preload="metadata"'+(v.poster?' poster="'+safe(v.poster)+'"':'')+' src="'+safe(v.video_url)+'"></video>'
+        : '<iframe loading="lazy" src="'+safe(v.embed_url||'')+'" title="'+safe(v.title||'Video')+'" allow="fullscreen; autoplay; picture-in-picture" allowfullscreen></iframe>';
+      return '<article class="video-card"><div class="video-frame">'+media+'</div><div class="video-meta"><div class="video-kicker">'+safe(v.category)+'</div><h4>'+safe(v.title||'Untitled Video')+'</h4>'+(v.description?'<p>'+safe(v.description)+'</p>':'')+'</div></article>';
     }).join('');
   };
-
-  fetch('data/coaches-site/coaches-site-videos.json?v=20260928-mj')
-    .then(r=>{if(!r.ok)throw new Error('Video catalog '+r.status);return r.json();})
-    .then(rows=>{
-      videos=(Array.isArray(rows)?rows:[]).filter(v=>v&&v.coach==='Mike Johnston'&&v.embed_url);
-      videos.sort((a,b)=>{
-        const an=a.number==null?9999:Number(a.number),bn=b.number==null?9999:Number(b.number);
-        return an-bn || String(a.title||'').localeCompare(String(b.title||''));
-      });
-      count.textContent=videos.length;
-      libraryCount.textContent=videos.length;
-      render();
-    })
-    .catch(err=>{
-      console.error(err);
-      status.textContent='Mike Johnston video catalog could not be loaded.';
-      status.className='status err';
-    });
+  fetch('data/videos.json?v=20260928')
+    .then(r=>r.ok?r.json():[])
+    .then(rows=>{videos=Array.isArray(rows)?rows:[];render();})
+    .catch(()=>{videos=[];render();});
   if(search)search.addEventListener('input',render);
 })();
 </script>
