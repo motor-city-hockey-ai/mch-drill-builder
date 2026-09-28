@@ -14335,5 +14335,174 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 919,
+    "title": "Moose Simple Timing 2 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/moose-simple-timing-2-1",
+    "categories": [
+      "Full Ice",
+      "2 on 1",
+      "Offensive",
+      "One Goalie",
+      "Transition",
+      "Passing",
+      "Gap",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 920,
+    "title": "Boston Give & Gos",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/boston-give-gos",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Skating",
+      "Give and Go",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 921,
+    "title": "2 on 0 Flow",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-flow",
+    "categories": [
+      "2 on 0",
+      "Full Ice",
+      "Offensive",
+      "Passing",
+      "Transition",
+      "Puck Support",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 922,
+    "title": "Ring Around 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/ring-around-1-1",
+    "categories": [
+      "1 on 1",
+      "Full Ice",
+      "Defensive",
+      "Wall Play",
+      "Passing",
+      "Transition",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 923,
+    "title": "Ring Around 2 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/ring-around-2-1",
+    "categories": [
+      "2 on 1",
+      "Full Ice",
+      "Passing",
+      "Defensive",
+      "Wall Play",
+      "Transition",
+      "Gap"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 924,
+    "title": "High Slot Figure Eights (Forwards)",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/high-slot-figure-eights-forwards",
+    "categories": [
+      "Half Ice",
+      "Skating",
+      "Agility",
+      "Passing",
+      "Puck Control",
+      "Shooting",
+      "Footwork"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 925,
+    "title": "1, 2, 3 on 3 Down Low",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-2-3-3-down-low",
+    "categories": [
+      "Half Ice",
+      "Coverage",
+      "3 on 3",
+      "Small Area Games",
+      "Puck Protection",
+      "Down Low",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 926,
+    "title": "Chip and Chase",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chip-and-chase",
+    "categories": [
+      "Full Ice",
+      "Skating",
+      "Backchecking",
+      "Overspeed",
+      "Shooting",
+      "Competition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 927,
+    "title": "Vancouver 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/vancouver-1-1",
+    "categories": [
+      "Full Ice",
+      "1 on 1",
+      "Defensive",
+      "Transition",
+      "Gap",
+      "Passing",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 928,
+    "title": "East Coast 2 on 0",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/east-coast-2-0",
+    "categories": [
+      "Full Ice",
+      "2 on 0",
+      "Offensive",
+      "Passing",
+      "Transition",
+      "Shooting",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
   }
 ]
