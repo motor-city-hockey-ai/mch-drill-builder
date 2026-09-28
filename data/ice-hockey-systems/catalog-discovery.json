@@ -14036,5 +14036,140 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 901,
+    "title": "Cyclone Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cyclone-drill",
+    "categories": [
+      "Passing",
+      "Half Ice",
+      "Skating",
+      "Warm Up",
+      "Shooting",
+      "Footwork"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 902,
+    "title": "Cycle Down Low with Shot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cycle-down-low-shot",
+    "categories": [
+      "Half Ice",
+      "Cycling",
+      "Offensive",
+      "Offensive Zone",
+      "Passing",
+      "Shooting",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 903,
+    "title": "Neutral Zone Attack with Speed #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-attack-speed-3",
+    "categories": [
+      "Full Ice",
+      "Skating",
+      "Offensive",
+      "Zone Entry",
+      "Shooting",
+      "Overspeed",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 904,
+    "title": "Neutral Zone Attack With Speed #4",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-attack-speed-4",
+    "categories": [
+      "Full Ice",
+      "Skating",
+      "Offensive",
+      "Zone Entry",
+      "2 on 0",
+      "Passing",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 905,
+    "title": "Neutral Zone Attack with Speed #5",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-attack-speed-5",
+    "categories": [
+      "Full Ice",
+      "Skating",
+      "Offensive",
+      "Zone Entry",
+      "2 on 0",
+      "Shooting",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 906,
+    "title": "Swap Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swap-drill",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Transition",
+      "2 on 0",
+      "Shooting",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 907,
+    "title": "Chip & Receive",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chip-receive",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Zone Entry",
+      "Wall Play",
+      "Transition",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 908,
+    "title": "Shoot & Go",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shoot-go",
+    "categories": [
+      "Full Ice",
+      "2 on 0",
+      "Offensive",
+      "Passing",
+      "Shooting",
+      "Relay Races",
+      "Competition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
   }
 ]
