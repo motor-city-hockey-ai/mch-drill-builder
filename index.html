@@ -383,7 +383,7 @@ button{cursor:pointer}
     const skills=travelDatabase?travelDatabase.length:manifestCount('rich-skills',452);
     const coaches=coachesDatabase?coachesDatabase.length:manifestCount('coaches',146);
     const book=bookDatabase?bookDatabase.length:manifestCount('book',446);
-    const ihs=ihsDatabase?ihsDatabase.length:manifestCount('ihs',556);
+    const ihs=ihsDatabase?ihsDatabase.length:manifestCount('ihs',1110);
 
     setLibraryOptionCount('rich-full','Rich Full Ice Drills',rich);
     setLibraryOptionCount('turk','Turk Hockey Drills',turk);
@@ -393,10 +393,11 @@ button{cursor:pointer}
     setLibraryOptionCount('book','Hockey Drill Book',book);
     setLibraryOptionCount('ihs','Ice Hockey Systems',ihs,'Imported');
 
-    if($('#fullIceCount'))$('#fullIceCount').textContent=(rich+turk+weiss).toLocaleString();
+    const fullIceTotal=coaches+book+ihs+rich+turk+weiss;
+    if($('#fullIceCount'))$('#fullIceCount').textContent=fullIceTotal.toLocaleString();
     if($('#skillZoneCount'))$('#skillZoneCount').textContent=skills.toLocaleString();
 
-    ALL_DRILL_TOTAL=allDrillsDatabase?allDrillsDatabase.length:(coaches+book+ihs+skills+rich+turk+weiss);
+    ALL_DRILL_TOTAL=allDrillsDatabase?allDrillsDatabase.length:(fullIceTotal+skills);
     setLibraryOptionCount('all','All Drills',ALL_DRILL_TOTAL);
     if($('#totalDrillCount'))$('#totalDrillCount').textContent=ALL_DRILL_TOTAL.toLocaleString();
   }
