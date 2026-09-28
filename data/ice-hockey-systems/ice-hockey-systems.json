@@ -33384,5 +33384,250 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-middle-man-small-area-game",
+    "number": 1041,
+    "title": "Middle Man - Small Area Game",
+    "category": "Passing / Neutral Zone / Small Area Games",
+    "drill_types": [
+      "Passing",
+      "Neutral Zone",
+      "Small Area Games",
+      "3 on 3",
+      "4 vs 4",
+      "5 vs 5",
+      "Puck Support"
+    ],
+    "description": "A possession game built around a designated middle player who must stay inside the center circle. After a turnover, the team in possession has to use its Middle Man before it can score, forcing players to create passing lanes and find support through traffic.",
+    "coaching_points": [
+      "Find the Middle Man quickly after a change of possession.",
+      "Move away from the puck to create clean passing lanes.",
+      "The Middle Man must stay available while also defending the circle.",
+      "Keep the puck moving instead of holding it under pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/middle-man-small-area-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/middle-man.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/middle-man.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-here-you-go-there-you-go",
+    "number": 1042,
+    "title": "Here you go, there you go.",
+    "category": "Passing / Warm Up",
+    "drill_types": [
+      "Passing",
+      "Warm Up",
+      "One Touch",
+      "Communication"
+    ],
+    "description": "A one-touch passing warm-up for groups of four to seven players. One player works in the middle of a circle, calls for a puck, returns it to the same outside player, then turns to a new option and repeats for a timed interval.",
+    "coaching_points": [
+      "Call for the puck before every reception.",
+      "Use one-touch passes whenever the skill level allows.",
+      "Turn the head and body early to identify the next option.",
+      "Keep the passing rhythm high for the full work interval."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/here-you-go-there-you-go",
+    "image": "https://www.files.icehockeysystems.com/files/drills/here-you-go-there-you-go.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/here-you-go-there-you-go.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-pivot-receive-shoot",
+    "number": 1043,
+    "title": "Pivot,Receive, Shoot",
+    "category": "Passing / Shooting / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Transition",
+      "Warm Up"
+    ],
+    "description": "A half-ice shooting warm-up that combines forward-to-backward pivoting with receiving a pass in stride. Players skate to a marker, pivot while facing the passer, transition forward at the blue line and receive a pass before attacking for a shot and rebound.",
+    "coaching_points": [
+      "Stay facing the passer through the pivot.",
+      "Accelerate forward as the player comes out of the transition.",
+      "Receive the pass with the feet moving.",
+      "Shoot low from the outside angle and stay at the net for a rebound."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pivotreceive-shoot",
+    "image": "https://www.files.icehockeysystems.com/files/drills/pivot-receive-shoot.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/pivot-receive-shoot.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-loose-puck-transition-1-1",
+    "number": 1044,
+    "title": "Loose Puck Transition 1 on 1",
+    "category": "1 on 1 / Transition / Full Ice",
+    "drill_types": [
+      "1 on 1",
+      "Full Ice",
+      "Transition",
+      "Defensive",
+      "Passing",
+      "Puck Support"
+    ],
+    "description": "A full-ice transition drill that begins with a defenseman retrieving a loose puck while forwards provide inside-out support. The play moves through neutral ice for a shot, then immediately turns into a 1 on 1 in the opposite direction to challenge the defender's recovery and gap.",
+    "coaching_points": [
+      "Forwards support inside-out while facing the puck.",
+      "Time the neutral-zone support route instead of getting ahead of the puck.",
+      "Defense should move the puck and immediately regain ice.",
+      "Treat the second attack as a quick turnover and establish the gap early."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/loose-puck-transition-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/loose-puck-regroup-1-on-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/loose-puck-regroup-1-on-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-impossible-3-2",
+    "number": 1045,
+    "title": "Impossible 3 on 2",
+    "category": "3 on 2 / Defensive / Coverage",
+    "drill_types": [
+      "3 on 2",
+      "Defensive",
+      "Coverage",
+      "Passing",
+      "Half Ice",
+      "Down Low"
+    ],
+    "description": "A defensive-zone coverage drill with two defenders protecting against three attackers. Two offensive players work below the goal line while a third tries to get open in the slot, forcing the defenders to communicate, switch responsibilities and protect the most dangerous scoring area.",
+    "coaching_points": [
+      "Protect the slot player as the first defensive priority.",
+      "Communicate switches before releasing coverage.",
+      "Use stops and starts rather than drifting through the defensive zone.",
+      "Challenge a puck carrier below the goal line only when the slot remains protected."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/impossible-3-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/impossible-3v2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/impossible-3v2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-hard-rim-one-one",
+    "number": 1046,
+    "title": "Hard Rim One on One",
+    "category": "1 on 1 / Breakouts / Full Ice",
+    "drill_types": [
+      "1 on 1",
+      "Full Ice",
+      "Defensive",
+      "Breakouts",
+      "Transition",
+      "Wall Play"
+    ],
+    "description": "A full-ice breakout-to-1-on-1 drill. Defensemen rim pucks hard around the boards, wingers work to move the rim to a curling center, and the center attacks the opposite defenseman while that defender recovers ice and gaps up.",
+    "coaching_points": [
+      "Wingers arrive at the wall ready to handle the hard rim.",
+      "Use a direct pass or controlled chip to move the puck to the center.",
+      "Centers time the curl so they receive the puck with speed.",
+      "Defensemen recover ice quickly and try to hold the blue line."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/hard-rim-one-one",
+    "image": "https://www.files.icehockeysystems.com/files/drills/hard-rim-1on1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/hard-rim-1on1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-timing-transition-1-0",
+    "number": 1047,
+    "title": "Timing in Transition 1 on 0",
+    "category": "Transition / Neutral Zone / Full Ice",
+    "drill_types": [
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Passing",
+      "Defensive",
+      "1 on 0"
+    ],
+    "description": "A transition timing drill that emphasizes defensemen handling the puck while moving. A defenseman transitions backward to receive from a forward, then moves the puck back to that forward as the forward swings through neutral ice and attacks the far end for a shot.",
+    "coaching_points": [
+      "Defensemen receive the puck while keeping their feet moving.",
+      "Create a clean passing angle before returning the puck.",
+      "Forwards time the swing so the return pass is flat and in stride.",
+      "Attack the offensive zone with speed after the regroup."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/timing-transition-1-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/timing-in-transition-1-0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/timing-in-transition-1-0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-3-prong-warm",
+    "number": 1048,
+    "title": "3 Prong Warm Up",
+    "category": "Shooting / Half Ice / Warm Up",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Warm Up",
+      "Goalie",
+      "Puck Control"
+    ],
+    "description": "A three-part half-ice warm-up that gives the goalie shots from three different routes and angles. Players attack from below the circle, from a moving outside route and from a puck-control move around a tire before finishing with quick shots.",
+    "coaching_points": [
+      "Keep the feet moving through each shooting route.",
+      "Get the shot off quickly after clearing the tire.",
+      "Keep warm-up shots low and on net so the goalie can track rebounds.",
+      "Shoot off both feet and use good lower-body power."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-prong-warm",
+    "image": "https://www.files.icehockeysystems.com/files/drills/3-prong-warm-up_0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/3-prong-warm-up_0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
