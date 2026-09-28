@@ -15792,5 +15792,175 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=5&tid=All"
+  },
+  {
+    "discovery_number": 1008,
+    "title": "2 on 2 Continuous Transition",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-2-continuous-transition",
+    "categories": [
+      "2 vs 2",
+      "Backchecking",
+      "Breakouts",
+      "Conditioning",
+      "Full Ice",
+      "Gap",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category-page reconciliation + verified source-page diagram links"
+  },
+  {
+    "discovery_number": 1009,
+    "title": "Strip Transitions V1 & V2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/strip-transitions-v1-v2",
+    "categories": [
+      "Angling",
+      "Puck Protection",
+      "Passing",
+      "Shooting",
+      "Skill Development",
+      "Transition",
+      "Half Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category-page reconciliation + verified source-page diagram links"
+  },
+  {
+    "discovery_number": 1010,
+    "title": "Run Ragged Small Area Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/run-ragged-small-area-game",
+    "categories": [
+      "3 vs 1",
+      "3 vs 2",
+      "Half Ice",
+      "Passing",
+      "Puck Support",
+      "Small Area Games",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category-page reconciliation + verified source-page diagram links"
+  },
+  {
+    "discovery_number": 1011,
+    "title": "Back to Back Small Area Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/back-back-small-area-game",
+    "categories": [
+      "1 vs 1",
+      "2 vs 2",
+      "3 vs 3",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Small Area Games",
+      "Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category-page reconciliation + verified source-page diagram links"
+  },
+  {
+    "discovery_number": 1012,
+    "title": "Offense then Backcheck to DZC",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/offense-then-backcheck-dzc",
+    "categories": [
+      "5 vs 5",
+      "Awareness",
+      "Backchecking",
+      "Battle Drills",
+      "Coverage",
+      "Defensive Zone",
+      "Offensive Zone",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category-page reconciliation + verified source-page diagram links"
+  },
+  {
+    "discovery_number": 1013,
+    "title": "Drop Down 4 on 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/drop-down-4-on-2",
+    "categories": [
+      "4 vs 2",
+      "Gap",
+      "Neutral Zone",
+      "Puck Support",
+      "Transition",
+      "Zone Entry",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category-page reconciliation + verified source-page diagram links"
+  },
+  {
+    "discovery_number": 1014,
+    "title": "5 Player - Every Pass a One Touch",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-player-every-pass-one-touch",
+    "categories": [
+      "Awareness",
+      "Full Ice",
+      "Neutral Zone",
+      "Offensive",
+      "Passing",
+      "Puck Support",
+      "Re-Group"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category-page reconciliation + verified source-page diagram links"
+  },
+  {
+    "discovery_number": 1015,
+    "title": "4 v 3 Pass Between 2 Players",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-v-3-pass-between-2-players",
+    "categories": [
+      "4 vs 3",
+      "Awareness",
+      "Coverage",
+      "Defensive",
+      "Half Ice",
+      "Offensive",
+      "Passing"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category-page reconciliation + verified source-page diagram links"
+  },
+  {
+    "discovery_number": 1016,
+    "title": "The Ottawa Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-ottawa-drill",
+    "categories": [
+      "3 vs 2",
+      "5 vs 5",
+      "Backchecking",
+      "Full Ice",
+      "Offensive",
+      "Puck Support",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category-page reconciliation + verified source-page diagram links"
+  },
+  {
+    "discovery_number": 1017,
+    "title": "Offensive Advantage 3 vs 3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/offensive-advantage-3-vs-3",
+    "categories": [
+      "3 vs 3",
+      "Offensive",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS category-page reconciliation + verified source-page diagram links"
   }
 ]
