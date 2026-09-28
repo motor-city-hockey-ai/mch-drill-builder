@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T19:55:00.000Z",
+  "updated_at": "2026-09-28T20:05:00.000Z",
   "libraries": {
     "coaches": 146,
     "book": 446,
@@ -7,9 +7,10 @@
     "rich-full": 92,
     "rich-skills": 452,
     "turk": 220,
-    "weiss": 258
+    "weiss": 258,
+    "ihs-individual-skills": 3
   },
-  "full_ice": 2481,
-  "skill_zone": 452,
+  "full_ice": 2478,
+  "skill_zone": 455,
   "total": 2933
 }
