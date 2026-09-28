@@ -1,0 +1,296 @@
+[
+  {
+    "uid": "ihs-1177",
+    "number": 1177,
+    "title": "Wheaties 2 on 1",
+    "category": "2 vs 1 / Rush",
+    "drill_types": [
+      "2 vs 1",
+      "Angling",
+      "Backwards Skating",
+      "Full Ice",
+      "Gap",
+      "Offensive"
+    ],
+    "description": "A continuous two-part 2-on-1 progression that begins with a full-ice rush and then immediately creates a second 2-on-1 below the dots after a corner dump.",
+    "coaching_points": [
+      "Forwards fill separate lanes and keep sticks available as passing targets.",
+      "Defenders surf the rush, hold a useful gap, and keep sticks in passing lanes.",
+      "After the first rush, transition quickly into the down-low 2-on-1.",
+      "Communicate on both the rush and low-zone attack."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wheaties-2-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2971431-0-1726495830.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2971431-0-1726495830.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2971431-1-1726495830.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1178",
+    "number": 1178,
+    "title": "32 Get Back",
+    "category": "3 vs 0 / Backcheck",
+    "drill_types": [
+      "3 vs 0",
+      "Backchecking",
+      "Passing",
+      "Re-Group",
+      "Transition",
+      "Zone Entry"
+    ],
+    "description": "A tracking and regroup progression where forwards recover to strip a puck, connect with defensemen, regroup, and attack. A second whistle creates another retrieval and regroup before the next rush.",
+    "coaching_points": [
+      "Track back with urgency and lift or disrupt the puck carrier's stick.",
+      "Move the recovered puck to the defense quickly.",
+      "Forwards regroup with timing and present clear passing options.",
+      "Attack through middle ice before finishing the rush."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/32-get-back",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2681251-0-1695329004.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2681251-0-1695329004.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2681251-1-1695329004.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1179",
+    "number": 1179,
+    "title": "Shot Into Gap Up 1 v 1",
+    "category": "1 vs 1 / Angling",
+    "drill_types": [
+      "1 vs 1",
+      "Puck Protection",
+      "Stations",
+      "Quarter Ice Station",
+      "Angling",
+      "Checking"
+    ],
+    "description": "A tight-area 1-on-1 that begins with a shot, then forces the shooter to recover and gap an attacker entering around a cone. The offensive player works to drive the net under pressure.",
+    "coaching_points": [
+      "Defender matches speed and protects the middle.",
+      "Use stick-on-puck pressure and angle toward the boards.",
+      "Attacker keeps feet moving and looks for an inside cut if available.",
+      "If the middle is closed, protect the puck and continue the net drive."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shot-gap-1-v-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2632376-0-1693852700.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2632376-0-1693852700.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1180",
+    "number": 1180,
+    "title": "Nobles 2 V 2 + 2 Teammates Transition Game",
+    "category": "4 vs 2 / Transition",
+    "drill_types": [
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Puck Protection",
+      "Offensive",
+      "Small Area Games",
+      "4 vs 2",
+      "Transition"
+    ],
+    "description": "A continuous 2-on-2 battle that becomes a 4-on-2 when the team gaining possession connects with two support teammates along the boards.",
+    "coaching_points": [
+      "Transition possession to the support players immediately after a turnover.",
+      "Use switches, exchanges, and quick puck movement to exploit the 4-on-2.",
+      "Attackers get inside and create quick-release shooting chances.",
+      "Defenders keep the puck outside and protect passing lanes."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/nobles-2-v-2-2-teammates-transition-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627846-0-1693851371.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2627846-0-1693851371.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1181",
+    "number": 1181,
+    "title": "Red Baron Game",
+    "category": "4 vs 3 / Small Area Game",
+    "drill_types": [
+      "4 vs 3",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Puck Control",
+      "Small Area Games",
+      "Half Ice"
+    ],
+    "description": "A cross-ice 3-on-3 game with one permanent all-time offensive player, creating a continuous 4-on-3 advantage for whichever team has possession.",
+    "coaching_points": [
+      "Use the extra attacker by spreading the ice and supporting the puck carrier.",
+      "Move the puck before pressure closes.",
+      "Defenders keep sticks in passing lanes and protect inside ice.",
+      "Transition immediately when possession changes because the extra player changes teams with the puck."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/red-baron-game-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2626811-0-1693851435.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2626811-0-1693851435.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1182",
+    "number": 1182,
+    "title": "Larionov 5 V 3 Alternating Warm-Up Drill",
+    "category": "5 vs 3 / Possession",
+    "drill_types": [
+      "5 vs 3",
+      "Penalty Kill",
+      "Passing",
+      "Power Play",
+      "Pre Game",
+      "Puck Control",
+      "Puck Handling",
+      "Warm Up"
+    ],
+    "description": "A 5-on-3 keep-away warm-up designed to sharpen puck protection, awareness, passing, deception, and decision making before practice.",
+    "coaching_points": [
+      "Puck carriers use changes of speed, cutbacks, and deception to create lanes.",
+      "Players without the puck move constantly and keep sticks available.",
+      "Use switches and scissors to create confusion for defenders.",
+      "Defenders use active sticks and force possession toward the outside."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/larionov-5-v-3-alternating-warm-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625176-0-1693851242.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2625176-0-1693851242.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1183",
+    "number": 1183,
+    "title": "Net Drive & Angle Drill",
+    "category": "1 vs 1 / Angling",
+    "drill_types": [
+      "1 vs 1",
+      "Angling",
+      "Checking",
+      "Coverage",
+      "Gap",
+      "Offensive",
+      "Puck Protection"
+    ],
+    "description": "A full-ice 1-on-1 where the attacker builds speed through a cone route and drives back toward the offensive zone while the defender recovers, fronts the rush, and works to angle outside.",
+    "coaching_points": [
+      "Defender stays patient and takes back ice before closing.",
+      "Use the stick to steer the attacker away from middle ice.",
+      "Attacker protects the puck through contact and changes speed to create separation.",
+      "Drive the net when available instead of drifting toward the corner."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/net-drive-angle-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544151-0-1758769478.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544151-0-1758769478.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1184",
+    "number": 1184,
+    "title": "Continuous 1 on 1 Puck Retrieval Drill",
+    "category": "1 vs 1 / Retrieval",
+    "drill_types": [
+      "1 vs 1",
+      "Puck Protection",
+      "Angling",
+      "Checking",
+      "Half Ice",
+      "Down Low",
+      "Retrievals"
+    ],
+    "description": "A continuous corner-retrieval drill where the puck carrier absorbs and initiates controlled contact to separate from a trailing defender before turning off the wall and attacking the net.",
+    "coaching_points": [
+      "Retrieve with awareness of pressure and protect the puck before contact arrives.",
+      "Use body position to create separation from the defender.",
+      "Turn off the wall with control and attack the net.",
+      "Rotate continuously so the next retrieval begins immediately."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-1-1-puck-retrieval-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544011-0-1693853875.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2544011-0-1693853875.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1185",
+    "number": 1185,
+    "title": "1 v 1 v 1 Game",
+    "category": "1 vs 1 / Puck Protection",
+    "drill_types": [
+      "1 vs 1",
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Offensive",
+      "Small Area Games",
+      "Warm Up",
+      "Battle Drills"
+    ],
+    "description": "A three-player possession game in a confined area where one puck carrier must read and evade two opponents. A gate-scoring variation rewards players for protecting the puck while attacking middle ice.",
+    "coaching_points": [
+      "Keep the head up and process both defenders instead of focusing on one.",
+      "Stay off the wall when possible to preserve more escape options.",
+      "Use deceptive turns and changes of speed to protect possession.",
+      "Shrink the playing area as players improve."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-v-1-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543971-0-1693853847.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543971-0-1693853847.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1186",
+    "number": 1186,
+    "title": "Yellow Attack Timing - V1",
+    "category": "Passing / Retrieval Timing",
+    "drill_types": [
+      "Passing",
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Offensive",
+      "Stations",
+      "Quarter Ice Station",
+      "Half Ice",
+      "Retrievals"
+    ],
+    "description": "A retrieval-and-timing drill where one player chips a puck into the corner, the retriever shoulder-checks and makes a pass, and the original passer times a route around or in front of the net for a quick shot.",
+    "coaching_points": [
+      "Retriever shoulder-checks before collecting the puck and exits with the head up.",
+      "The shooter times the route rather than arriving too early.",
+      "Both players use deception to create passing and shooting space.",
+      "Finish with a quick release after the pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/yellow-attack-timing-v1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-1552236-0-1666707984.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-1552236-0-1666707984.png"
+    ],
+    "original_verified": true
+  }
+]
