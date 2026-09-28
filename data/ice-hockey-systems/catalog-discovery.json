@@ -12593,5 +12593,153 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Newest catalog page 4 + verified original IHS Drill Maker image"
+  },
+  {
+    "discovery_number": 808,
+    "title": "Sabre D Shooting Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabre-d-shooting-drill",
+    "categories": [
+      "Half Ice",
+      "Offensive Zone",
+      "Shooting",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + exact IHS-hosted Drill Maker image"
+  },
+  {
+    "discovery_number": 809,
+    "title": "Sabre 2v2 Support Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabre-2v2-support-game",
+    "categories": [
+      "2 on 2",
+      "Battle Drills",
+      "Half Ice",
+      "Puck Protection",
+      "Puck Support",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + exact IHS-hosted Drill Maker image"
+  },
+  {
+    "discovery_number": 810,
+    "title": "Oswego Passing Station",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/oswego-passing-station",
+    "categories": [
+      "Passing",
+      "Skill Development",
+      "Stations",
+      "Neutral Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + exact IHS-hosted Drill Maker image"
+  },
+  {
+    "discovery_number": 811,
+    "title": "Castleton Puck Protection Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/castleton-puck-protection-drill",
+    "categories": [
+      "Puck Protection",
+      "Puck Control",
+      "Skill Development",
+      "Neutral Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + exact IHS-hosted Drill Maker image"
+  },
+  {
+    "discovery_number": 812,
+    "title": "Sabre Split Ice Attack Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabre-split-ice-attack-drill",
+    "categories": [
+      "2 on 1",
+      "Full Ice",
+      "Passing",
+      "Shooting",
+      "Zone Entry",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + exact IHS-hosted Drill Maker image"
+  },
+  {
+    "discovery_number": 813,
+    "title": "Trinity Quick Escape Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/trinity-quick-escape-drill",
+    "categories": [
+      "Puck Protection",
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Neutral Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + exact IHS-hosted Drill Maker image"
+  },
+  {
+    "discovery_number": 814,
+    "title": "Kick Out Warm Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/kick-out-warm-up",
+    "categories": [
+      "Zone Entry",
+      "Passing",
+      "Transition",
+      "Warm Up",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + exact IHS-hosted Drill Maker image"
+  },
+  {
+    "discovery_number": 815,
+    "title": "3/4 Ice Skating Race",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/34-ice-skating-race",
+    "categories": [
+      "1 on 1",
+      "Backchecking",
+      "Battle Drills",
+      "Explosion",
+      "Puck Protection",
+      "Races"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + exact IHS-hosted Drill Maker image"
+  },
+  {
+    "discovery_number": 816,
+    "title": "DSS Turn Pull",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/dss-turn-pull",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + exact IHS-hosted Drill Maker image"
+  },
+  {
+    "discovery_number": 817,
+    "title": "Stop Drop Roll",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stop-drop-roll",
+    "categories": [
+      "Breakouts",
+      "Forechecking",
+      "Full Ice",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Verified IHS source page + exact IHS-hosted Drill Maker image"
   }
 ]
