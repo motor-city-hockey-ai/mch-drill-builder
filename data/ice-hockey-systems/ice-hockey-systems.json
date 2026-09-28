@@ -35265,5 +35265,324 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-moose-simple-timing-2-1",
+    "number": 1101,
+    "title": "Moose Simple Timing 2 on 1",
+    "category": "2 on 1 / Full Ice / Offensive",
+    "drill_types": [
+      "Full Ice",
+      "2 on 1",
+      "Offensive",
+      "One Goalie",
+      "Transition",
+      "Passing",
+      "Gap",
+      "Puck Support"
+    ],
+    "description": "A neutral-zone timing progression that develops into a full-ice 2 on 1. D1 receives from D2 while skating backward, transitions forward and finds F1 at speed. D2 transitions backward to defend while F2 curls outside, stays facing the puck and drives the near post.",
+    "coaching_points": [
+      "F1 times the route to receive the puck at full speed without getting ahead of the play.",
+      "D1 keeps the feet moving through the backward-to-forward transition.",
+      "D2 establishes a playable gap immediately after making the pass.",
+      "F2 stays facing the puck and drives the near post for a pass or rebound."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/moose-simple-timing-2-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/moose-simple-timing-2v1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/moose-simple-timing-2v1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-boston-give-gos",
+    "number": 1102,
+    "title": "Boston Give & Gos",
+    "category": "Passing / Shooting / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Skating",
+      "Give and Go",
+      "Warm Up"
+    ],
+    "description": "A half-ice forward skill drill built around constant foot movement, passing and shooting. The active forward takes an initial pass for a shot, circles for a give-and-go, attacks for a second shot, then moves the puck to the opposite corner and spins off the wall for one final return pass into the slot.",
+    "coaching_points": [
+      "Keep the feet moving through every pass and shot.",
+      "Face the passer during each give-and-go exchange.",
+      "Explode off the boards into the slot instead of gliding.",
+      "Rotate positions immediately so the drill keeps flowing."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/boston-give-gos",
+    "image": "https://www.files.icehockeysystems.com/files/drills/boston-give-gos.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/boston-give-gos.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-2-0-flow",
+    "number": 1103,
+    "title": "2 on 0 Flow",
+    "category": "2 on 0 / Full Ice / Offensive",
+    "drill_types": [
+      "2 on 0",
+      "Full Ice",
+      "Offensive",
+      "Passing",
+      "Transition",
+      "Puck Support",
+      "Shooting"
+    ],
+    "description": "A full-ice 2 on 0 flow drill emphasizing passing in stride and net drive. Two forwards initiate passes with stationary players, swing through neutral ice with their feet moving, receive a cross-ice pass near the red line and continue together on a 2 on 0.",
+    "coaching_points": [
+      "Receive every pass in stride.",
+      "Keep the feet moving through the neutral-zone swing.",
+      "Use clean cross-ice timing so the puck arrives near the red line.",
+      "Attack the final 2 on 0 with width and a hard net drive."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-0-flow",
+    "image": "https://www.files.icehockeysystems.com/files/drills/2-on-0-flow.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/2-on-0-flow.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-ring-around-1-1",
+    "number": 1104,
+    "title": "Ring Around 1 on 1",
+    "category": "1 on 1 / Full Ice / Defensive",
+    "drill_types": [
+      "1 on 1",
+      "Full Ice",
+      "Defensive",
+      "Wall Play",
+      "Passing",
+      "Transition",
+      "Gap"
+    ],
+    "description": "A full-ice 1 on 1 that works winger wall retrievals and defensive transition. F1 moves the puck D-to-D for a point shot while simultaneously ringing a second puck around the boards to F2. F2 controls the rim and then attacks D1 in a full-ice 1 on 1.",
+    "coaching_points": [
+      "Winger gets to the wall early and controls the rim cleanly.",
+      "Defense takes the first shot and immediately transitions to defend.",
+      "Attacker exits the wall with speed after gaining control.",
+      "Defender establishes the gap early before the rush reaches the blue line."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/ring-around-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/ring-around-1-on-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/ring-around-1-on-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-ring-around-2-1",
+    "number": 1105,
+    "title": "Ring Around 2 on 1",
+    "category": "2 on 1 / Full Ice / Passing",
+    "drill_types": [
+      "2 on 1",
+      "Full Ice",
+      "Passing",
+      "Defensive",
+      "Wall Play",
+      "Transition",
+      "Gap"
+    ],
+    "description": "A 2 on 1 progression from the Ring Around 1 on 1. F1 initiates a D-to-D point shot and rims a second puck to F2. F2 controls the wall puck and returns it to F1, then both forwards attack D1 together in a full-ice 2 on 1.",
+    "coaching_points": [
+      "F2 controls the rim before moving the puck back to F1.",
+      "F1 joins the rush immediately after receiving the wall pass.",
+      "Defense transitions from the point shot into gap control without delay.",
+      "Use width on the 2 on 1 and force the defender to choose between puck and pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/ring-around-2-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/ring-around-2-on-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/ring-around-2-on-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-high-slot-figure-eights-forwards",
+    "number": 1106,
+    "title": "High Slot Figure Eights (Forwards)",
+    "category": "Half Ice / Skating / Agility",
+    "drill_types": [
+      "Half Ice",
+      "Skating",
+      "Agility",
+      "Passing",
+      "Puck Control",
+      "Shooting",
+      "Footwork"
+    ],
+    "description": "A high-slot figure-eight drill for puck feel, edge control and passing readiness. The forward uses tight control turns around two cones while exchanging as many passes as possible with a stationary passer, then receives a puck in the high slot for a shot.",
+    "coaching_points": [
+      "Use tight controlled turns around both cones.",
+      "Keep the stick on the ice and remain ready for a pass at all times.",
+      "Maintain puck awareness while the feet continue moving.",
+      "Progress to pivots around the cones while always facing the passer."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/high-slot-figure-eights-forwards",
+    "image": "https://www.files.icehockeysystems.com/files/drills/high-slot-figure-eights.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/high-slot-figure-eights.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-1-2-3-3-down-low",
+    "number": 1107,
+    "title": "1, 2, 3 on 3 Down Low",
+    "category": "3 on 3 / Half Ice / Coverage",
+    "drill_types": [
+      "Half Ice",
+      "Coverage",
+      "3 on 3",
+      "Small Area Games",
+      "Puck Protection",
+      "Down Low",
+      "Defensive"
+    ],
+    "description": "A progressive down-low possession game that starts 1 on 1, becomes 2 on 2 on the second whistle, and becomes 3 on 3 on the third. The forwards must protect and maintain possession until all three players have joined, then attack for a scoring chance.",
+    "coaching_points": [
+      "Forwards protect the puck and maintain possession before the final whistle.",
+      "New players enter immediately and support the existing battle.",
+      "Defenders stay goal-side and communicate as the numbers increase.",
+      "After the third whistle, turn possession into a scoring chance quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-2-3-3-down-low",
+    "image": "https://www.files.icehockeysystems.com/files/drills/1-2-3-on-3-down-low.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/1-2-3-on-3-down-low.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-chip-and-chase",
+    "number": 1108,
+    "title": "Chip and Chase",
+    "category": "Full Ice / Skating / Backchecking",
+    "drill_types": [
+      "Full Ice",
+      "Skating",
+      "Backchecking",
+      "Overspeed",
+      "Shooting",
+      "Competition"
+    ],
+    "description": "A competitive full-ice chase drill. The first player carries a puck around the top of the circle, shoots and continues around. The second player chips a new puck off the boards, then pursues the first player around the cones as both race back toward the net.",
+    "coaching_points": [
+      "Match players of similar speed and strength to keep the race competitive.",
+      "Finish the first shot and immediately continue the route at speed.",
+      "Place the chip so it can be pursued without killing the pace of the drill.",
+      "The chasing player skates through the pursuit and pressures from behind."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chip-and-chase",
+    "image": "https://www.files.icehockeysystems.com/files/drills/chip-n-chase.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/chip-n-chase.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-vancouver-1-1",
+    "number": 1109,
+    "title": "Vancouver 1 on 1",
+    "category": "1 on 1 / Full Ice / Defensive",
+    "drill_types": [
+      "Full Ice",
+      "1 on 1",
+      "Defensive",
+      "Transition",
+      "Gap",
+      "Passing",
+      "Shooting"
+    ],
+    "description": "A defense transition drill that quickly turns into a neutral-zone turnover and 1 on 1. The defense receives a pass while skating backward, transitions forward to create a passing angle and moves the puck to F1 for a shot; as soon as that pass is made, F2 attacks the same defenseman in the opposite direction.",
+    "coaching_points": [
+      "Defense controls the puck while moving backward before transitioning forward.",
+      "Create a clean passing angle before moving the puck to F1.",
+      "Immediately recognize the turnover and regain defensive position.",
+      "F2 attacks before the defense can fully reset the gap."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/vancouver-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/vancouver-one-on-one.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/vancouver-one-on-one.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-east-coast-2-0",
+    "number": 1110,
+    "title": "East Coast 2 on 0",
+    "category": "2 on 0 / Full Ice / Offensive",
+    "drill_types": [
+      "Full Ice",
+      "2 on 0",
+      "Offensive",
+      "Passing",
+      "Transition",
+      "Shooting",
+      "Puck Support"
+    ],
+    "description": "A full-ice timing and flow drill. P1 receives a pass at the opposite blue line, turns up ice and finds P2 timing through the zone. P2 receives the pass at full speed, attacks wide and delays before finding P1 in the slot, then continues to the net for a redirect or rebound.",
+    "coaching_points": [
+      "P2 waits until P1 passes the line before starting the route.",
+      "Receive the pass at full speed near the blue line.",
+      "Puck carrier attacks wide and delays long enough to create the slot pass.",
+      "After making the slot pass, continue to the net for a redirect or rebound."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/east-coast-2-0",
+    "image": "https://www.files.icehockeysystems.com/files/drills/east-coast-2-on-0.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/east-coast-2-on-0.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
