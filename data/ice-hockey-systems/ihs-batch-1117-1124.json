@@ -1,0 +1,214 @@
+[
+  {
+    "uid": "ihs-1117",
+    "number": 1117,
+    "title": "D-Zone Dice",
+    "category": "Defensive Zone / Team Structure",
+    "drill_types": [
+      "5 vs 5",
+      "Defensive",
+      "Defensive Zone",
+      "Full Ice",
+      "Coverage",
+      "Transition"
+    ],
+    "description": "Defenders return to the defensive zone, stop in assigned positions, then defend a scripted offensive action before the drill becomes live.",
+    "coaching_points": [
+      "Establish the defensive-zone structure before play becomes live.",
+      "Recognize the scripted offensive trigger and execute the team coverage.",
+      "Stay connected to the structure after the puck moves and the rep becomes competitive."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-zone-dice-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10503501-0-1790305665.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10503501-0-1790305665.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1118",
+    "number": 1118,
+    "title": "Alberni Valley Power Play Game",
+    "category": "Power Play / Penalty Kill",
+    "drill_types": [
+      "Full Ice",
+      "Offensive",
+      "Power Play",
+      "Penalty Kill",
+      "Puck Support",
+      "Puck Control"
+    ],
+    "description": "A possession-based special-teams entry game where the power play uses support and numerical advantage to enter against penalty-kill pressure and wedge organization.",
+    "coaching_points": [
+      "Give the puck carrier multiple support options on the entry.",
+      "Use the numerical advantage instead of forcing an isolated attack.",
+      "Penalty killers keep sticks in lanes and organize into the chosen pressure shape."
+    ],
+    "author": "Matt Thomas",
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/alberni-valley-power-play-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10503471-0-1790305690.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10503471-0-1790305690.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1119",
+    "number": 1119,
+    "title": "Battle Creek 2 on 2",
+    "category": "2 on 2 / Transition",
+    "drill_types": [
+      "2 vs 2",
+      "Defensive",
+      "Gap",
+      "Puck Support",
+      "Transition",
+      "One Goalie"
+    ],
+    "description": "Starts with a corner possession battle, progresses through D activation and transition, then finishes with defensemen regapping through the middle to defend a 2-on-2 rush.",
+    "coaching_points": [
+      "Escape the battle with possession and move above the goal line.",
+      "Forwards provide clear outlets during the transition.",
+      "Defensemen recover through the middle and regap together."
+    ],
+    "author": "Matt Thomas",
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/battle-creek-2-on-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10503496-0-1790305804.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10503496-0-1790305804.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10503496-1-1790305804.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1120",
+    "number": 1120,
+    "title": "3 v 2 Backside Ice Balance",
+    "category": "3 on 2 / Offensive Zone",
+    "drill_types": [
+      "3 vs 2",
+      "Battle Drills",
+      "Offensive",
+      "Offensive Zone",
+      "Puck Support",
+      "Third Ice Stations"
+    ],
+    "description": "A 3-on-2 offensive-zone game that teaches players to identify puck carrier, support, and backside roles while rotating as the puck changes sides.",
+    "coaching_points": [
+      "Keep a weak-side player available as the backside option.",
+      "Rotate responsibilities as the puck moves from side to side.",
+      "Maintain support away from the puck instead of collapsing into one area."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-2-backside-ice-balance",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10935461-0-1789141041.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10935461-0-1789141041.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1121",
+    "number": 1121,
+    "title": "1 v 2 with Backside Presence",
+    "category": "2 on 1 / Puck Recovery",
+    "drill_types": [
+      "2 vs 1",
+      "Awareness",
+      "Battle Drills",
+      "Forechecking",
+      "Puck Support",
+      "Third Ice Stations"
+    ],
+    "description": "Two players work together on a board-side puck recovery, then immediately move the puck to a weak-side backside player for the offensive opportunity.",
+    "coaching_points": [
+      "Pressure and support the recovery together instead of independently.",
+      "Look to the backside as soon as possession is won.",
+      "Turn the recovery into offense by using the weak-side space quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-2-backside-presence",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10934051-0-1788872567.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10934051-0-1788872567.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1122",
+    "number": 1122,
+    "title": "Skate Touch Warm Up",
+    "category": "Warm-Up / Puck Control",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Warm-Up"
+    ],
+    "description": "A circle-based warm-up where every player must use a skate as the first touch before transitioning into the next offensive action and creating a shot.",
+    "coaching_points": [
+      "Make the first touch intentionally with the skate.",
+      "Use different feet and angles depending on the incoming puck.",
+      "Transition quickly from the skate touch into an offensive play."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/skate-touch-warm",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10933541-0-1788871960.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10933541-0-1788871960.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1123",
+    "number": 1123,
+    "title": "3 v 2 Improve the Advantage",
+    "category": "3 on 2 / Transition",
+    "drill_types": [
+      "3 vs 2",
+      "Puck Support",
+      "Transition",
+      "Zone Entry"
+    ],
+    "description": "A neutral-zone 3-on-2 game where the offense must improve its existing numerical advantage by creating extra speed, space, positioning, or access behind defenders.",
+    "coaching_points": [
+      "Do more than simply recognize the 3-on-2; improve the advantage.",
+      "Create speed differentials away from the puck.",
+      "Manipulate defenders with routes and attack space behind them."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-2-improve-advantage",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10899056-0-1788550718.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10899056-0-1788550718.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1124",
+    "number": 1124,
+    "title": "3 v 3 Using the Weak Side for Possession",
+    "category": "3 on 3 / Puck Support",
+    "drill_types": [
+      "3 vs 3",
+      "Offensive Zone",
+      "Passing",
+      "Puck Support"
+    ],
+    "description": "A possession game that uses a weak-side player to spread defenders, relieve pressure, and create the next passing option away from congestion.",
+    "coaching_points": [
+      "Use the full width of the available space.",
+      "Find the weak-side option when pressure collapses around the puck.",
+      "Keep off-puck movement purposeful and manage possession patiently."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-using-weak-side-possession",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-10898776-0-1788514741.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-10898776-0-1788514741.png"
+    ],
+    "original_verified": true
+  }
+]
