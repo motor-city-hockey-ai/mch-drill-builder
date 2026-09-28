@@ -54,8 +54,8 @@
     "last_completed_catalog_page": 31,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 5,
-    "last_batch_notes": "Added 5 verified legacy IHS drills (#1111-1115): 4 Lines Series #6, Triple Give & Go - Half Ice, Catch and Release, Half Ice Three Lanes, and Finland Warm Up Skate 1 on 1. Each record uses an exact original IHS-hosted diagram; no AI diagrams were used.",
+    "last_batch_imported": 6,
+    "last_batch_notes": "Current continuation added 6 verified legacy IHS drills (#1111-1116). #1116 is Stretch Pass 3 on 0 with the exact original IHS-hosted diagram. No AI diagrams were used.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "The Ottawa Drill - page exposes a Drill Maker image; exact original image URL still needs resolution.",
