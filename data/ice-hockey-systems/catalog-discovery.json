@@ -14625,5 +14625,131 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "https://www.icehockeysystems.com/hockey-drills?sort_by=created"
+  },
+  {
+    "discovery_number": 937,
+    "title": "1 v 1 Skate Touch Battle to 2 v 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-skate-touch-battle-2-v-1",
+    "categories": [
+      "1 vs 1",
+      "2 vs 1",
+      "Battle Drills",
+      "Puck Control",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 938,
+    "title": "Buffalo 4 v 3 Continuous D Activation",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/buffalo-4-v-3-continuous-d-activation",
+    "categories": [
+      "4 vs 3",
+      "Transition",
+      "Offensive",
+      "Defensive",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 939,
+    "title": "Soft Catch While Attacking Up & Downhill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/soft-catch-while-attacking-up-downhill",
+    "categories": [
+      "Half Ice",
+      "Passing",
+      "Puck Control",
+      "Puck Protection",
+      "Skill Development",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 940,
+    "title": "2v1 4v2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2v1-4v2-2",
+    "categories": [
+      "2 vs 1",
+      "4 vs 2",
+      "Backchecking",
+      "Conditioning",
+      "Defensive",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 941,
+    "title": "2 on 1 Preds",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-on-1-preds",
+    "categories": [
+      "2 vs 1",
+      "Backchecking",
+      "Defensive",
+      "Down Low",
+      "Gap",
+      "Offensive",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 942,
+    "title": "Good Stick 2 v 2 or 3 v 3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/good-stick-2-v-2-or-3-v-3",
+    "categories": [
+      "2 vs 2",
+      "3 vs 3",
+      "Angling",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 943,
+    "title": "4 v 2 Continuous Zone Entry",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-v-2-continuous-zone-entry",
+    "categories": [
+      "4 vs 2",
+      "Defensive",
+      "Explosion",
+      "Half Ice",
+      "Offensive",
+      "Puck Support",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
+  },
+  {
+    "discovery_number": 944,
+    "title": "Quick Touch Passing & Shooting",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-touch-passing-shooting",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Warm-Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?page=1&sort_by=created"
   }
 ]
