@@ -34696,5 +34696,260 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-cyclone-drill",
+    "number": 1083,
+    "title": "Cyclone Drill",
+    "category": "Passing / Half Ice / Skating",
+    "drill_types": [
+      "Passing",
+      "Half Ice",
+      "Skating",
+      "Warm Up",
+      "Shooting",
+      "Footwork"
+    ],
+    "description": "A half-ice passing and skating drill built around a tight circular route. Players move through the middle with constant puck exchanges, work their edges and timing around the central pattern, then finish the sequence by attacking the net.",
+    "coaching_points": [
+      "Keep the feet moving throughout the circular pattern.",
+      "Make firm passes while changing direction.",
+      "Stay aware of the next passing option before receiving the puck.",
+      "Exit the pattern with speed and finish the shot in stride."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cyclone-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cyclone-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cyclone-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-cycle-down-low-shot",
+    "number": 1084,
+    "title": "Cycle Down Low with Shot",
+    "category": "Half Ice / Cycling / Offensive",
+    "drill_types": [
+      "Half Ice",
+      "Cycling",
+      "Offensive",
+      "Offensive Zone",
+      "Passing",
+      "Shooting",
+      "Puck Support"
+    ],
+    "description": "A three-forward offensive-zone cycling drill. Players cycle the puck down low while keeping their feet moving and maintaining one forward in the high slot. On the coach's whistle, the next puck carrier finds the high player and the other two forwards drive the net for a rebound.",
+    "coaching_points": [
+      "Keep the feet moving through every cycle exchange.",
+      "Maintain one forward high as protection against a turnover.",
+      "Move the puck to the high slot immediately on the whistle.",
+      "Both low forwards crash the net and compete for the rebound."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/cycle-down-low-shot",
+    "image": "https://www.files.icehockeysystems.com/files/drills/cycle-down-low-w-shot.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/cycle-down-low-w-shot.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-neutral-zone-attack-speed-3",
+    "number": 1085,
+    "title": "Neutral Zone Attack with Speed #3",
+    "category": "Full Ice / Skating / Offensive",
+    "drill_types": [
+      "Full Ice",
+      "Skating",
+      "Offensive",
+      "Zone Entry",
+      "Shooting",
+      "Overspeed",
+      "Puck Control"
+    ],
+    "description": "The third neutral-zone speed progression teaches an attacker to read a large defensive gap. The forward receives the puck with speed, sells an outside attack at the blue line, cuts back toward the middle and finishes with a shot from the slot.",
+    "coaching_points": [
+      "Catch the pass at full speed.",
+      "Sell the outside drive before attacking the middle.",
+      "Keep the head up through the direction change.",
+      "Accelerate into the slot and release the shot quickly."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-attack-speed-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-attack-w-speed-3.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-attack-w-speed-3.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-neutral-zone-attack-speed-4",
+    "number": 1086,
+    "title": "Neutral Zone Attack With Speed #4",
+    "category": "Full Ice / Skating / Offensive",
+    "drill_types": [
+      "Full Ice",
+      "Skating",
+      "Offensive",
+      "Zone Entry",
+      "2 on 0",
+      "Passing",
+      "Shooting"
+    ],
+    "description": "The fourth neutral-zone speed progression adds a second player. After making the initial pass, the second player sprints to the far post while the puck carrier attacks wide and can either pass across the crease or shoot short side.",
+    "coaching_points": [
+      "Puck carrier attacks the zone with speed and keeps the feet moving.",
+      "Second player drives directly to the far post with the stick available.",
+      "Read the goalie before deciding between the pass and short-side shot.",
+      "Time the net drive so the second player arrives as the puck reaches the scoring area."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-attack-speed-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-attack-w-speed-4.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-attack-w-speed-4.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-neutral-zone-attack-speed-5",
+    "number": 1087,
+    "title": "Neutral Zone Attack with Speed #5",
+    "category": "Full Ice / Skating / Offensive",
+    "drill_types": [
+      "Full Ice",
+      "Skating",
+      "Offensive",
+      "Zone Entry",
+      "2 on 0",
+      "Shooting",
+      "Net Front"
+    ],
+    "description": "The fifth neutral-zone speed progression again uses a second player driving the far post. The puck carrier attacks off the same middle-driving move while the second player arrives at the net ready for a pass, rebound, screen or tip.",
+    "coaching_points": [
+      "Drive the far post hard with the stick on the ice.",
+      "Stop at the net instead of skating through the scoring area.",
+      "Puck carrier attacks with speed and creates the shot or rebound opportunity.",
+      "Second player should be ready to screen, tip or collect a rebound."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-attack-speed-5",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-attack-w-speed-5.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-attack-w-speed-5.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-swap-drill",
+    "number": 1088,
+    "title": "Swap Drill",
+    "category": "Passing / Full Ice / Skating",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Transition",
+      "2 on 0",
+      "Shooting",
+      "Puck Support"
+    ],
+    "description": "A full-ice timing drill run from both sides. Two players pass while moving toward the blue line, then exchange roles across the ice so the inside player receives a pass from the opposite corner and attacks wide while the support player fills the slot.",
+    "coaching_points": [
+      "Start both sides together so the cross-ice timing stays synchronized.",
+      "Inside player cannot get ahead of the opposite-side passing option.",
+      "Attack wide after receiving the cross-ice pass.",
+      "Support player arrives in the slot as a legitimate scoring option."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swap-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/swap-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/swap-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-chip-receive",
+    "number": 1089,
+    "title": "Chip & Receive",
+    "category": "Passing / Full Ice / Skating",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Skating",
+      "Zone Entry",
+      "Wall Play",
+      "Transition",
+      "Puck Support"
+    ],
+    "description": "A neutral-zone chip-entry drill. The puck carrier times the route to receive a pass near the red line, chips the puck off the boards into open space past pressure at the blue line, and a supporting player coming through the middle retrieves it for a scoring chance.",
+    "coaching_points": [
+      "Time the first route so the puck arrives at or just after the red line.",
+      "Use touch on the chip instead of simply firing the puck deep.",
+      "Place the chip into space where the supporting player can skate onto it.",
+      "Middle support attacks with speed and turns the chip into an immediate scoring chance."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/chip-receive",
+    "image": "https://www.files.icehockeysystems.com/files/drills/chip-and-release.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/chip-and-release.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-shoot-go",
+    "number": 1090,
+    "title": "Shoot & Go",
+    "category": "Full Ice / 2 on 0 / Offensive",
+    "drill_types": [
+      "Full Ice",
+      "2 on 0",
+      "Offensive",
+      "Passing",
+      "Shooting",
+      "Relay Races",
+      "Competition"
+    ],
+    "description": "A competitive 2 on 0 finishing game. Two players make as many passes as possible before the hash marks, one shoots, and then both race around cones to a loose puck near center ice. The race winner earns a breakaway chance if the first 2 on 0 did not score.",
+    "coaching_points": [
+      "Move the puck quickly on the initial 2 on 0.",
+      "Shoot by the hash marks instead of overpassing.",
+      "Accelerate immediately into the race after the first shot.",
+      "Use the scoring requirement to keep the competition meaningful."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/shoot-go",
+    "image": "https://www.files.icehockeysystems.com/files/drills/shoot-n-go.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/shoot-n-go.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
