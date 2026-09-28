@@ -383,7 +383,7 @@ button{cursor:pointer}
     const skills=travelDatabase?travelDatabase.length:manifestCount('rich-skills',452);
     const coaches=coachesDatabase?coachesDatabase.length:manifestCount('coaches',146);
     const book=bookDatabase?bookDatabase.length:manifestCount('book',446);
-    const ihs=ihsDatabase?ihsDatabase.length:manifestCount('ihs',1132);
+    const ihs=ihsDatabase?ihsDatabase.length:manifestCount('ihs',1137);
 
     setLibraryOptionCount('rich-full','Rich Full Ice Drills',rich);
     setLibraryOptionCount('turk','Turk Hockey Drills',turk);
@@ -529,9 +529,10 @@ button{cursor:pointer}
     if(ihsDatabase)return ihsDatabase;
     showLoading('Loading Ice Hockey Systems library…');
     const urls=[
-      'data/ice-hockey-systems/ice-hockey-systems.json?v=37',
+      'data/ice-hockey-systems/ice-hockey-systems.json?v=38',
       'data/ice-hockey-systems/ihs-batch-1117-1124.json?v=2',
-      'data/ice-hockey-systems/ihs-batch-1125-1132.json?v=1'
+      'data/ice-hockey-systems/ihs-batch-1125-1132.json?v=2',
+      'data/ice-hockey-systems/ihs-batch-1133-1137.json?v=1'
     ];
     const responses=await Promise.all(urls.map(url=>fetch(url,{cache:'no-store'})));
     if(!responses[0].ok)throw new Error('Ice Hockey Systems metadata returned '+responses[0].status);
