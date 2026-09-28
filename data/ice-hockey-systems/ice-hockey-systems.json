@@ -31837,5 +31837,323 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-7275126",
+    "number": 990,
+    "title": "Sabre D Shooting Drill",
+    "category": "Shooting / Skill Development / Offensive Zone",
+    "drill_types": [
+      "Half Ice",
+      "Offensive Zone",
+      "Shooting",
+      "Skill Development"
+    ],
+    "description": "A half-ice defense shooting progression. The defenseman receives a pass near the wall, moves backward toward the blue line under pressure, changes the shooting lane around an obstacle, and gets a shot through traffic.",
+    "coaching_points": [
+      "Receive the puck with the head up and establish the blue line.",
+      "Use lateral footwork and deception to change the shooting lane.",
+      "Keep the puck inside the offensive zone while moving across the line.",
+      "Get the shot through traffic quickly.",
+      "Attack available space instead of forcing the first lane."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabre-d-shooting-drill",
+    "source_id": "7275126",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7275126-0-1754620819.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7275126-0-1754620819.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-7272736",
+    "number": 991,
+    "title": "Sabre 2v2 Support Game",
+    "category": "2 on 2 / Small Area Game / Puck Support",
+    "drill_types": [
+      "2 on 2",
+      "Battle Drills",
+      "Half Ice",
+      "Puck Protection",
+      "Puck Support",
+      "Small Area Games"
+    ],
+    "description": "A half-ice 2 on 2 game with an outside support player. After gaining possession, the team must use its support option before attacking, forcing quick recognition, puck support and transition.",
+    "coaching_points": [
+      "Win possession before looking to attack.",
+      "Find the support player quickly after a turnover.",
+      "Support can move laterally to improve the passing lane.",
+      "Attack immediately after the support pass.",
+      "Defenders communicate and protect the middle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabre-2v2-support-game",
+    "source_id": "7272736",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7272736-0-1753757541.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7272736-0-1753757541.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-7226846",
+    "number": 992,
+    "title": "Oswego Passing Station",
+    "category": "Passing / Skill Development / Neutral Zone",
+    "drill_types": [
+      "Passing",
+      "Skill Development",
+      "Stations",
+      "Neutral Zone"
+    ],
+    "description": "A neutral-zone passing station in which a puck carrier moves around the outside of the setup while exchanging passes with players in the opposite lines. The rep develops multiple receptions and passes while moving.",
+    "coaching_points": [
+      "Make firm tape-to-tape passes.",
+      "Keep eyes up and stay connected to the puck.",
+      "Present a clear target before each reception.",
+      "Use verbal and non-verbal communication.",
+      "Run the station in both directions."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Jon Whitelaw",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/oswego-passing-station",
+    "source_id": "7226846",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7226846-0-1752069468.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7226846-0-1752069468.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-7251101",
+    "number": 993,
+    "title": "Castleton Puck Protection Drill",
+    "category": "Puck Protection / Skill Development / Neutral Zone",
+    "drill_types": [
+      "Puck Protection",
+      "Puck Control",
+      "Skill Development",
+      "Neutral Zone"
+    ],
+    "description": "Players use a give-and-go before attacking a coach as passive pressure, then escape around an obstacle with a mohawk-style turn while keeping the puck protected and moving it to the opposite line.",
+    "coaching_points": [
+      "Use deception before entering the pressure area.",
+      "Keep the puck away from the defender's reach.",
+      "Stay low and balanced through the escape turn.",
+      "Use the mohawk to maintain vision and puck protection.",
+      "Finish with an accurate pass to the next player."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/castleton-puck-protection-drill",
+    "source_id": "7251101",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7251101-0-1752889942.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7251101-0-1752889942.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-7273151",
+    "number": 994,
+    "title": "Sabre Split Ice Attack Drill",
+    "category": "2 on 1 / Zone Entry / Full Ice",
+    "drill_types": [
+      "2 on 1",
+      "Full Ice",
+      "Passing",
+      "Shooting",
+      "Zone Entry",
+      "Transition"
+    ],
+    "description": "A full-ice split-ice attack drill run from both sides. Players exchange passes, attack through neutral ice in a 2 on 1, then continue to the net-front area while the next action develops from the blue line.",
+    "coaching_points": [
+      "Move the puck cleanly before entering the rush.",
+      "Attack the 2 on 1 with speed and deception.",
+      "Use width to force the defender to make a decision.",
+      "Finish at the net and stay available for rebounds or screens.",
+      "Keep both halves organized and moving at game pace."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabre-split-ice-attack-drill",
+    "source_id": "7273151",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7273151-0-1754104601.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7273151-0-1754104601.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-7257456",
+    "number": 995,
+    "title": "Trinity Quick Escape Drill",
+    "category": "Puck Protection / Escapes / Shooting",
+    "drill_types": [
+      "Puck Protection",
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Neutral Zone"
+    ],
+    "description": "A quick-escape read in which the puck carrier receives a pass, feels pressure from one side, turns away from that pressure around an obstacle and attacks the net.",
+    "coaching_points": [
+      "Read which side the pressure is coming from.",
+      "Escape away from pressure instead of skating into it.",
+      "Protect the puck through the turn.",
+      "Accelerate immediately out of the escape.",
+      "Finish the rep with a quick shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/trinity-quick-escape-drill",
+    "source_id": "7257456",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-7257456-0-1752886369.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-7257456-0-1752886369.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-2714521",
+    "number": 996,
+    "title": "Kick Out Warm Up",
+    "category": "Zone Entry / Passing / Transition / Warm Up",
+    "drill_types": [
+      "Zone Entry",
+      "Passing",
+      "Transition",
+      "Warm Up",
+      "Full Ice"
+    ],
+    "description": "A full-ice warm-up with passing, curling support and a kick-out pass to the wall before the receiving player drives toward the middle for a shot. Both players finish at the net.",
+    "coaching_points": [
+      "Pass and receive while moving.",
+      "Time the curl so the middle lane stays available.",
+      "Lead the kick-out pass to the wall.",
+      "Drive the middle with speed after receiving the puck.",
+      "Both players follow the play to the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "John Dean",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/kick-out-warm-up",
+    "source_id": "2714521",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2714521-0-1695225481.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2714521-0-1695225481.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-4837486",
+    "number": 997,
+    "title": "3/4 Ice Skating Race",
+    "category": "1 on 1 / Race / Battle Drill",
+    "drill_types": [
+      "1 on 1",
+      "Backchecking",
+      "Battle Drills",
+      "Explosion",
+      "Puck Protection",
+      "Races"
+    ],
+    "description": "Two players race through an obstacle course toward a loose puck. The first player to the puck becomes the attacker while the second player transitions into back pressure, turning the race into a competitive scoring situation.",
+    "coaching_points": [
+      "Explode through the skating course.",
+      "Stay under control around the obstacles.",
+      "Compete through the loose-puck race.",
+      "Winner attacks immediately after gaining possession.",
+      "Trailing player transitions into hard back pressure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/34-ice-skating-race",
+    "source_id": "4837486",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4837486-0-1726160117.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4837486-0-1726160117.png"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-958736",
+    "number": 998,
+    "title": "DSS Turn Pull",
+    "category": "Puck Control / Shooting / Skill Development",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Shooting",
+      "Skill Development"
+    ],
+    "description": "The puck carrier makes a tight turn around an obstacle, pulls the puck against the direction of momentum to create separation, then cuts the hands and shoots in stride. A mohawk turn can be added as a progression.",
+    "coaching_points": [
+      "Stay tight to the turning obstacle.",
+      "Pull the puck away from the pressure side.",
+      "Separate the hands from the body when changing the puck angle.",
+      "Shoot without breaking stride.",
+      "Add the mohawk progression only after the base movement is clean."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "TJ Manastersky",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/dss-turn-pull",
+    "source_id": "958736",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-958736-0-1674483741.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-958736-0-1674483741.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-958676",
+    "number": 999,
+    "title": "Stop Drop Roll",
+    "category": "Breakout / Forecheck / Transition",
+    "drill_types": [
+      "Breakouts",
+      "Forechecking",
+      "Full Ice",
+      "Transition"
+    ],
+    "description": "The drill begins as a controlled breakout. At the coach's whistle, both groups stop and reset their body position, then a new puck is sent into a zone so one group must break out while the other immediately becomes the forecheck.",
+    "coaching_points": [
+      "Execute the initial breakout with proper spacing.",
+      "React immediately to the transition whistle.",
+      "Identify offense and defense roles quickly on the second puck.",
+      "Breakout players communicate and support underneath the puck.",
+      "Forecheckers close space with speed and structure."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "TJ Manastersky",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/stop-drop-roll",
+    "source_id": "958676",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-958676-0-1674483725.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-958676-0-1674483725.png"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
   }
 ]
