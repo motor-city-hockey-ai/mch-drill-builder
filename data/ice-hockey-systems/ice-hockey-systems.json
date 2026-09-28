@@ -34256,5 +34256,257 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-escape-pass-follow",
+    "number": 1069,
+    "title": "Escape, Pass, Follow",
+    "category": "Passing / Defensive / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Defensive",
+      "Half Ice",
+      "Transition",
+      "Shooting",
+      "Puck Support"
+    ],
+    "description": "A defense-to-forward passing sequence built around an escape move. The defenseman receives a pass while skating backward, uses an escape to create space, moves the puck across ice to a forward for a long shot, then times a second high-slot pass after the forward retrieves a puck from the corner.",
+    "coaching_points": [
+      "Defense receives the first pass with the feet moving.",
+      "Use the escape move to create a better passing lane before moving the puck.",
+      "Forward follows the first shot for a rebound before retrieving the next puck.",
+      "Defense times the high-slot arrival instead of getting there too early."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/escape-pass-follow",
+    "image": "https://www.files.icehockeysystems.com/files/drills/escpae-pass-follow.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/escpae-pass-follow.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-backwards-circle-passing",
+    "number": 1070,
+    "title": "Backwards Circle Passing",
+    "category": "Passing / Defensive / Backwards Skating",
+    "drill_types": [
+      "Passing",
+      "Defensive",
+      "Backwards Skating",
+      "Skating",
+      "Puck Control",
+      "Half Ice"
+    ],
+    "description": "An advanced defensive footwork drill where two defensemen circle a pair of cones in opposite directions while always facing each other. They continuously pivot between forward and backward skating and exchange the puck throughout the movement.",
+    "coaching_points": [
+      "Stay facing the partner throughout the entire pattern.",
+      "Pass while the feet are moving and the body is transitioning.",
+      "Keep the puck in a position where the next pass can be made quickly.",
+      "Reverse the skating direction after a timed interval to work both sides."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/backwards-circle-passing",
+    "image": "https://www.files.icehockeysystems.com/files/drills/backwards-circle-passing.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/backwards-circle-passing.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-neutral-zone-give-go",
+    "number": 1071,
+    "title": "Neutral Zone Give & Go",
+    "category": "Passing / Full Ice / Defensive",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Defensive",
+      "Transition",
+      "Neutral Zone",
+      "Shooting",
+      "Backwards Skating"
+    ],
+    "description": "A full-ice defense skating and passing drill. The player receives a pass, pivots around a cone, moves the puck to a coach in the middle, transitions backward near the red line, receives the return pass, pivots forward and finishes with another give-and-go before shooting.",
+    "coaching_points": [
+      "Keep the feet moving throughout the entire sequence.",
+      "Stay facing the puck during the backward transition.",
+      "Make firm passes and present a target for each return pass.",
+      "Accelerate out of the final pivot before attacking the net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-give-go",
+    "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-give-go.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/neutral-zone-give-go.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-turnover-1-1",
+    "number": 1072,
+    "title": "Turnover 1 on 1",
+    "category": "1 on 1 / Full Ice / Transition",
+    "drill_types": [
+      "1 on 1",
+      "Full Ice",
+      "Transition",
+      "Defensive",
+      "Gap",
+      "Passing",
+      "Shooting"
+    ],
+    "description": "A neutral-zone turnover simulation that quickly becomes a 1 on 1. The defenseman begins by moving into a shot, then receives a puck from the previous forward, advances up ice and makes a cross-ice pass to a timed forward before recovering to defend the rush.",
+    "coaching_points": [
+      "Forward times the route so the cross-ice pass arrives before the red line.",
+      "Defense moves the puck and immediately recovers ice.",
+      "Defender gets the heels outside the blue line before matching the rush.",
+      "Attack the 1 on 1 with speed before the defender can fully reset."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/turnover-1-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/turnover-1-on-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/turnover-1-on-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-tip-drill-2-2",
+    "number": 1073,
+    "title": "Tip Drill into 2 on 2",
+    "category": "2 on 2 / Full Ice / Defensive",
+    "drill_types": [
+      "2 on 2",
+      "Full Ice",
+      "Defensive",
+      "Shooting",
+      "Net Front",
+      "Transition",
+      "Gap"
+    ],
+    "description": "A full-ice 2 on 2 progression that starts with a point shot, screen and tip. After the rebound phase, the two forwards receive a new puck from the corner and attack the two defensemen in transition for a 2 on 2 rush.",
+    "coaching_points": [
+      "Establish a screen and present the stick for the point shot.",
+      "Compete for the rebound before transitioning to the rush.",
+      "Defense gets up ice quickly to establish the gap.",
+      "Try to stand the rush up at or before the blue line."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/tip-drill-2-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/tip-drill-into-2v2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/tip-drill-into-2v2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-10-second-2-2-down-low",
+    "number": 1074,
+    "title": "10 Second 2 on 2 Down Low",
+    "category": "2 on 2 / Half Ice / Small Area Games",
+    "drill_types": [
+      "2 on 2",
+      "Half Ice",
+      "Small Area Games",
+      "Battle Drills",
+      "Defensive",
+      "Down Low",
+      "Puck Protection"
+    ],
+    "description": "A ten-second down-low 2 on 2 battle. The coach rims a puck into the corner and the two forwards attack while the two defenders protect the net area. The rep ends after a score, a defensive clear, or the timed interval.",
+    "coaching_points": [
+      "Forwards keep their feet moving and use quick turns in the corners.",
+      "Protect the puck until a clean net-front option appears.",
+      "Defenders recover inside position and protect the middle first.",
+      "Keep shifts short and intense so every battle is played at game pace."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/10-second-2-2-down-low",
+    "image": "https://www.files.icehockeysystems.com/files/drills/10-sec-2-on-2-down-low.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/10-sec-2-on-2-down-low.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-1-1-battle-down-low",
+    "number": 1075,
+    "title": "1 on 1 Battle Down Low",
+    "category": "1 on 1 / Half Ice / Battle Drills",
+    "drill_types": [
+      "1 on 1",
+      "Half Ice",
+      "Defensive",
+      "Battle Drills",
+      "Down Low",
+      "Puck Protection"
+    ],
+    "description": "A low-zone 1 on 1 battle where the defender begins from a recovery disadvantage behind the net while the forward starts with a puck along the wall. On the whistle the forward attacks and the defender recovers to protect the net.",
+    "coaching_points": [
+      "Forward attacks immediately and stays below the dots.",
+      "Use puck protection and quick changes of direction to create separation.",
+      "Defender recovers inside-out and protects the direct lane to the net.",
+      "Progress to 2 on 1 or 2 on 2 once players understand the battle concepts."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-1-battle-down-low",
+    "image": "https://www.files.icehockeysystems.com/files/drills/1v1-battle-down-low.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/1v1-battle-down-low.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-yo-yo-transition-skating",
+    "number": 1076,
+    "title": "Yo Yo Transition Skating",
+    "category": "Skating / Backwards Skating / Defensive",
+    "drill_types": [
+      "Skating",
+      "Backwards Skating",
+      "Defensive",
+      "Gap",
+      "Transition",
+      "Conditioning"
+    ],
+    "description": "A paired transition skating drill for defensemen. One player skates forward as the rabbit while the partner transitions backward and works to keep the rabbit in front, then the roles reverse as the pattern moves back and forth across the ice.",
+    "coaching_points": [
+      "Transition without crossing the feet unnecessarily.",
+      "Keep the chest square to the forward skater.",
+      "Adjust the distance between lines to change the gap challenge.",
+      "Use short explosive repetitions to train backward speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/yo-yo-transition-skating",
+    "image": "https://www.files.icehockeysystems.com/files/drills/yo-yo-transition.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/yo-yo-transition.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
