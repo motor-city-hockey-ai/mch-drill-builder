@@ -13354,5 +13354,130 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Legacy IHS catalog gap reconciliation + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 859,
+    "title": "Middle Man - Small Area Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/middle-man-small-area-game",
+    "categories": [
+      "Passing",
+      "Neutral Zone",
+      "Small Area Games",
+      "3 on 3",
+      "4 vs 4",
+      "5 vs 5",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy sorted IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 860,
+    "title": "Here you go, there you go.",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/here-you-go-there-you-go",
+    "categories": [
+      "Passing",
+      "Warm Up",
+      "One Touch",
+      "Communication"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy sorted IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 861,
+    "title": "Pivot,Receive, Shoot",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/pivotreceive-shoot",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Transition",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy sorted IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 862,
+    "title": "Loose Puck Transition 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/loose-puck-transition-1-1",
+    "categories": [
+      "1 on 1",
+      "Full Ice",
+      "Transition",
+      "Defensive",
+      "Passing",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy sorted IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 863,
+    "title": "Impossible 3 on 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/impossible-3-2",
+    "categories": [
+      "3 on 2",
+      "Defensive",
+      "Coverage",
+      "Passing",
+      "Half Ice",
+      "Down Low"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy sorted IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 864,
+    "title": "Hard Rim One on One",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/hard-rim-one-one",
+    "categories": [
+      "1 on 1",
+      "Full Ice",
+      "Defensive",
+      "Breakouts",
+      "Transition",
+      "Wall Play"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy sorted IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 865,
+    "title": "Timing in Transition 1 on 0",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/timing-transition-1-0",
+    "categories": [
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Passing",
+      "Defensive",
+      "1 on 0"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy sorted IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 866,
+    "title": "3 Prong Warm Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-prong-warm",
+    "categories": [
+      "Shooting",
+      "Half Ice",
+      "Warm Up",
+      "Goalie",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy sorted IHS catalog gap + verified original IHS-hosted drill diagram"
   }
 ]
