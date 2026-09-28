@@ -15289,5 +15289,168 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "IHS 2 on 2 category reconciliation"
+  },
+  {
+    "discovery_number": 978,
+    "title": "Houda Angle",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/houda-angle-1",
+    "categories": [
+      "3 vs 2",
+      "Angling",
+      "Awareness",
+      "Coverage",
+      "Neutral Zone",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS 3 on 2 / 3 on 3 / 1 on 1 category reconciliation"
+  },
+  {
+    "discovery_number": 979,
+    "title": "3 on 2 Dot Jumper",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-2-dot-jumper",
+    "categories": [
+      "3 vs 2",
+      "Half Ice",
+      "Offensive Zone",
+      "One Goalie",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS 3 on 2 / 3 on 3 / 1 on 1 category reconciliation"
+  },
+  {
+    "discovery_number": 980,
+    "title": "3 on 2 with D Activation",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-on-2-d-activation",
+    "categories": [
+      "3 vs 2",
+      "Full Ice",
+      "Gap",
+      "Offensive",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS 3 on 2 / 3 on 3 / 1 on 1 category reconciliation"
+  },
+  {
+    "discovery_number": 981,
+    "title": "NZ Regroup",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-nz-regroup",
+    "categories": [
+      "3 vs 2",
+      "4 vs 2",
+      "Full Ice",
+      "Gap",
+      "Neutral Zone",
+      "Passing",
+      "Puck Support",
+      "Re-Group"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS 3 on 2 / 3 on 3 / 1 on 1 category reconciliation"
+  },
+  {
+    "discovery_number": 982,
+    "title": "3 Regroup 3 vs. 2 Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-regroup-3-vs-2-drill",
+    "categories": [
+      "3 vs 2",
+      "Neutral Zone",
+      "Offensive",
+      "Passing",
+      "Re-Group",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS 3 on 2 / 3 on 3 / 1 on 1 category reconciliation"
+  },
+  {
+    "discovery_number": 983,
+    "title": "Gretzky 3 vs 2 Behind the Net",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/gretzky-3-vs-2-behind-net",
+    "categories": [
+      "3 vs 2",
+      "Defensive",
+      "Half Ice",
+      "Offensive",
+      "One Goalie",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS 3 on 2 / 3 on 3 / 1 on 1 category reconciliation"
+  },
+  {
+    "discovery_number": 984,
+    "title": "Sabre Half-line Keep Away",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabre-half-line-keep-away",
+    "categories": [
+      "3 vs 2",
+      "Battle Drills",
+      "Half Ice",
+      "Passing",
+      "Puck Control",
+      "Puck Protection",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS 3 on 2 / 3 on 3 / 1 on 1 category reconciliation"
+  },
+  {
+    "discovery_number": 985,
+    "title": "3 v 3 with 3 Ways to Score",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-with-3-ways-score",
+    "categories": [
+      "3 vs 3",
+      "Awareness",
+      "Coverage",
+      "Passing",
+      "Small Area Games"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS 3 on 2 / 3 on 3 / 1 on 1 category reconciliation"
+  },
+  {
+    "discovery_number": 986,
+    "title": "Regroup Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-regroup-game",
+    "categories": [
+      "3 vs 3",
+      "Half Ice",
+      "Passing",
+      "Puck Support",
+      "Re-Group",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS 3 on 2 / 3 on 3 / 1 on 1 category reconciliation"
+  },
+  {
+    "discovery_number": 987,
+    "title": "Puck Race to 1 v 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-race-1-v-1-1",
+    "categories": [
+      "1 vs 1",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Puck Control",
+      "Puck Protection",
+      "Races"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "IHS 3 on 2 / 3 on 3 / 1 on 1 category reconciliation"
   }
 ]
