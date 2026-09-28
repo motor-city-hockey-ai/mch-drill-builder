@@ -47,7 +47,7 @@ button{cursor:pointer}
 .video-frame iframe{display:block;width:100%;height:100%;border:0}
 .video-meta{padding:15px 16px 17px}.video-meta h3{margin:0 0 6px;font-size:18px}.video-meta p{margin:0;color:#666;line-height:1.45;font-size:13px}
 .video-kicker{font-size:10px;font-weight:900;letter-spacing:1.2px;color:var(--red);text-transform:uppercase;margin-bottom:6px}
-.video-details{margin-top:10px;font-size:11px;color:#888}
+.video-details{margin-top:10px;font-size:11px;color:#888}.video-notes{margin:12px 0 0;padding:10px 12px;background:#f6f6f6;border-left:4px solid var(--red);border-radius:8px}.video-notes b{font-size:11px;text-transform:uppercase;letter-spacing:.7px}.video-notes ul{margin:7px 0 0;padding-left:18px}.video-notes li{margin:0 0 5px;font-size:12px;line-height:1.35;color:#444}.video-empty{grid-column:1/-1;padding:28px;border:1px dashed #bbb;border-radius:14px;text-align:center;color:#777}
 
 @media(max-width:1050px){.quick-grid{grid-template-columns:1fr 1fr}.team-mode .grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.hub-nav{padding:9px 12px}.hub-tab{padding:8px 13px}.video-main{padding:15px 12px 30px}.video-grid{grid-template-columns:1fr}.video-toolbar h2{font-size:23px}.header{padding:13px 15px}.brand h1{font-size:20px}.brand small{font-size:9px}.pill{display:none}.set{padding:9px 12px 10px}.set-title{font-size:14px}.selected{margin-top:7px}.sel{flex-basis:124px;width:124px}.sel img{height:55px}.main{padding:15px 12px 30px}.quick{padding:15px}.quick-grid{grid-template-columns:1fr}.grid,.team-mode .grid{grid-template-columns:1fr 1fr;gap:10px}.diagram-hit,.team-mode .diagram-hit{height:175px;padding:6px}.card img,.team-mode .card img{width:100%;height:100%;padding:0;object-fit:contain}.meta{padding:8px}.num{font-size:12px}.drill-title,.team-mode .drill-title{font-size:10px;min-height:25px}.cat-label{font-size:8px}.toolbar h2{font-size:21px}.viewer{padding:5px}.viewer-panel{width:96vw;max-height:none;border-radius:11px}.viewer-head{padding:11px 46px 8px 12px}.viewer-head h2{font-size:18px}.viewer-head h3{font-size:13px}.viewer-image-wrap{padding:6px;height:min(38vh,300px)}.viewer-notes{padding:11px 12px 13px}.viewer-desc{font-size:12px}.viewer-actions .btn{flex:1 1 100%}}
@@ -62,7 +62,7 @@ button{cursor:pointer}
   </header>
   <nav class="hub-nav" aria-label="Drill Hub sections">
     <button class="hub-tab active" type="button" data-hub-view="drills">DRILLS</button>
-    <button class="hub-tab" type="button" data-hub-view="videos">VIDEOS <span class="hub-badge">2</span></button>
+    <button class="hub-tab" type="button" data-hub-view="videos">VIDEOS <span class="hub-badge" id="videoCount">28</span></button>
   </nav>
   <section class="set">
     <div class="row"><div class="set-title">YOUR PRACTICE SET <span class="count" id="selectedCount">0</span></div><div><button class="btn dark" id="clearBtn">Clear Set</button> <button class="btn red" id="printBtn">Export / Print</button></div></div>
@@ -102,35 +102,13 @@ button{cursor:pointer}
   <main class="video-main" id="videoMain">
     <div class="video-toolbar">
       <div>
-        <h2>Coaching Videos</h2>
-        <p>Original coaching video embeds kept with their source and coach information.</p>
+        <h2>Mike Johnston Video Library</h2>
+        <p><span id="videoLibraryCount">28</span> verified Mike Johnston video entries organized in your Drill Hub.</p>
       </div>
-      <a class="video-source-link" href="https://members.thecoachessite.com/article/the-forecheck-drill-and-boucher-drill" target="_blank" rel="noopener">Open Original Article</a>
+      <input class="search" id="videoSearch" placeholder="Search drill, topic, or category...">
     </div>
-    <div class="video-grid">
-      <article class="video-card">
-        <div class="video-frame">
-          <iframe loading="lazy" src="https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston-the-forecheck-drill?modestbranding=1&amp;showinfo=1&amp;controls=1&amp;t=0&amp;objectFit=" title="The Forecheck Drill — Mike Johnston" allow="fullscreen; autoplay; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="video-meta">
-          <div class="video-kicker">The Coaches Site · Mike Johnston</div>
-          <h3>The Forecheck Drill</h3>
-          <p>Competitive 2-on-2 forecheck-versus-breakout drill focused on pressure, reads and winning possession.</p>
-          <div class="video-details">Video 1 of 2 · 1:30</div>
-        </div>
-      </article>
-      <article class="video-card">
-        <div class="video-frame">
-          <iframe loading="lazy" src="https://members.thecoachessite.com/videoEmbed/on-the-board-with-mike-johnston---boucher-drill?modestbranding=1&amp;showinfo=1&amp;controls=1&amp;t=0&amp;objectFit=" title="Boucher Drill — Mike Johnston" allow="fullscreen; autoplay; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="video-meta">
-          <div class="video-kicker">The Coaches Site · Mike Johnston</div>
-          <h3>Boucher Drill</h3>
-          <p>Attack-options drill built around offensive-zone entries, support and developing multiple ways to attack.</p>
-          <div class="video-details">Video 2 of 2 · 2:19</div>
-        </div>
-      </article>
-    </div>
+    <div class="status ok" id="videoStatus">Loading Mike Johnston videos…</div>
+    <div class="video-grid" id="videoGrid"></div>
   </main>
   <footer class="footer"><div>Motor City Hockey - internal coaching resource builder</div><div>Selected drills only are included in exports.</div></footer>
 </div>
@@ -891,7 +869,73 @@ button{cursor:pointer}
     if(!selected.length){setStatus('Select at least one drill before exporting.','err');return;}
     const w=window.open('','_blank');if(!w){setStatus('Your browser blocked the print window. Allow pop-ups for this page.','err');return;}
     const cards=selected.map(d=>'<section class="p"><div class="n">Drill '+esc(d.number)+(d.title?' — '+esc(d.title):'')+'</div><img src="'+imageFor(d)+'">'+(d.includeDescription&&d.description?'<div class="desc">'+formatDescription(d)+'</div>':'')+'</section>').join('');
-    w.document.write('<!doctype html><html><head><title>MCH Practice Set</title><style>@page{size:letter landscape;margin:.25in}body{font-family:Arial;margin:0}.g{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.p{border:1px solid #aaa;padding:7px;break-inside:avoid}.p img{width:100%;height:3.1in;object-fit:contain}.n{font-weight:bold;margin-bottom:5px;font-size:12px}.desc{font-size:9px;line-height:1.25;margin-top:5px}.desc ul{margin:4px 0 6px;padding-left:16px}.desc li{margin-bottom:2px}.viewer-section-title{font-weight:bold;margin:5px 0 3px}.viewer-key{border-left:2px solid #111;padding-left:6px}</style></head><body><div class="g">'+cards+'</div><script>setTimeout(()=>window.print(),700)<\/script></body></html>');
+    w.document.write('<!doctype html><html><head><title>MCH Practice Set</title><style>@page{size:letter landscape;margin:.25in}body{font-family:Arial;margin:0}.g{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.p{border:1px solid #aaa;padding:7px;break-inside:avoid}.p img{width:100%;height:3.1in;object-fit:contain}.n{font-weight:bold;margin-bottom:5px;font-size:12px}.desc{font-size:9px;line-height:1.25;margin-top:5px}.desc ul{margin:4px 0 6px;padding-left:16px}.desc li{margin-bottom:2px}.viewer-section-title{font-weight:bold;margin:5px 0 3px}.viewer-key{border-left:2px solid #111;padding-left:6px}</style></head><body><div class="g">'+cards+'</div><script>setTimeout(()=>window.print(),700)<\/script><script id="mikeJohnstonVideoLoader">
+(() => {
+  const grid=document.getElementById('videoGrid');
+  const search=document.getElementById('videoSearch');
+  const status=document.getElementById('videoStatus');
+  const count=document.getElementById('videoCount');
+  const libraryCount=document.getElementById('videoLibraryCount');
+  if(!grid)return;
+
+  let videos=[];
+  const safe=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  const duration=secs=>{
+    const n=Number(secs);
+    if(!Number.isFinite(n)||n<=0)return '';
+    const h=Math.floor(n/3600),m=Math.floor((n%3600)/60),s=n%60;
+    return h? h+':'+String(m).padStart(2,'0')+':'+String(s).padStart(2,'0') : m+':'+String(s).padStart(2,'0');
+  };
+  const render=()=>{
+    const q=String(search?.value||'').trim().toLowerCase();
+    const rows=videos.filter(v=>{
+      if(!q)return true;
+      return [v.title,v.category,v.series,v.number,(v.notes||[]).join(' ')].join(' ').toLowerCase().includes(q);
+    });
+    status.textContent=q ? rows.length+' matching Mike Johnston videos' : videos.length+' Mike Johnston videos loaded';
+    status.className='status ok';
+    if(!rows.length){
+      grid.innerHTML='<div class="video-empty">No Mike Johnston videos match that search.</div>';
+      return;
+    }
+    grid.innerHTML=rows.map(v=>{
+      const label=v.number!=null?'Drill '+safe(v.number):safe(v.series||'Mike Johnston');
+      const notes=(v.notes||[]).map(n=>'<li>'+safe(n)+'</li>').join('');
+      const dur=duration(v.duration_seconds);
+      return '<article class="video-card">'+
+        '<div class="video-frame"><iframe loading="lazy" src="'+safe(v.embed_url)+'" title="'+safe(v.title)+' — Mike Johnston" allow="fullscreen; autoplay; picture-in-picture" allowfullscreen></iframe></div>'+
+        '<div class="video-meta">'+
+          '<div class="video-kicker">'+label+' · Mike Johnston</div>'+
+          '<h3>'+safe(v.title)+'</h3>'+
+          '<p>'+safe(v.category||'Coaching')+'</p>'+
+          (notes?'<div class="video-notes"><b>Saved Coaching Notes</b><ul>'+notes+'</ul></div>':'')+
+          '<div class="video-details">'+[safe(v.series||''),dur].filter(Boolean).join(' · ')+'</div>'+
+        '</div>'+
+      '</article>';
+    }).join('');
+  };
+
+  fetch('data/coaches-site/coaches-site-videos.json?v=20260928-mj')
+    .then(r=>{if(!r.ok)throw new Error('Video catalog '+r.status);return r.json();})
+    .then(rows=>{
+      videos=(Array.isArray(rows)?rows:[]).filter(v=>v&&v.coach==='Mike Johnston'&&v.embed_url);
+      videos.sort((a,b)=>{
+        const an=a.number==null?9999:Number(a.number),bn=b.number==null?9999:Number(b.number);
+        return an-bn || String(a.title||'').localeCompare(String(b.title||''));
+      });
+      count.textContent=videos.length;
+      libraryCount.textContent=videos.length;
+      render();
+    })
+    .catch(err=>{
+      console.error(err);
+      status.textContent='Mike Johnston video catalog could not be loaded.';
+      status.className='status err';
+    });
+  if(search)search.addEventListener('input',render);
+})();
+</script>
+</body></html>');
     w.document.close();
   };
 
