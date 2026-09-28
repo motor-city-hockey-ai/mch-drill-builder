@@ -14504,5 +14504,126 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 929,
+    "title": "D-Zone Dice",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/d-zone-dice-1",
+    "categories": [
+      "5 vs 5",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Full Ice",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?sort_by=created"
+  },
+  {
+    "discovery_number": 930,
+    "title": "Alberni Valley Power Play Game",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/alberni-valley-power-play-game",
+    "categories": [
+      "Full Ice",
+      "Offensive",
+      "Penalty Kill",
+      "Power Play",
+      "Puck Control",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?sort_by=created"
+  },
+  {
+    "discovery_number": 931,
+    "title": "Battle Creek 2 on 2",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/battle-creek-2-on-2",
+    "categories": [
+      "2 on 2",
+      "4 vs 2",
+      "Defensive",
+      "Gap",
+      "One Goalie",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?sort_by=created"
+  },
+  {
+    "discovery_number": 932,
+    "title": "3 v 2 Backside Ice Balance",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-2-backside-ice-balance",
+    "categories": [
+      "3 on 2",
+      "Battle Drills",
+      "Offensive",
+      "Offensive Zone",
+      "Puck Support",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?sort_by=created"
+  },
+  {
+    "discovery_number": 933,
+    "title": "1 v 2 with Backside Presence",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-2-backside-presence",
+    "categories": [
+      "2 on 1",
+      "Awareness",
+      "Battle Drills",
+      "Forechecking",
+      "Puck Support",
+      "Third Ice Stations"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?sort_by=created"
+  },
+  {
+    "discovery_number": 934,
+    "title": "Skate Touch Warm Up",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/skate-touch-warm",
+    "categories": [
+      "Puck Control",
+      "Puck Handling",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?sort_by=created"
+  },
+  {
+    "discovery_number": 935,
+    "title": "3 v 2 Improve the Advantage",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-2-improve-advantage",
+    "categories": [
+      "3 on 2",
+      "Puck Support",
+      "Transition",
+      "Zone Entry"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?sort_by=created"
+  },
+  {
+    "discovery_number": 936,
+    "title": "3 v 3 Using the Weak Side for Possession",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-using-weak-side-possession",
+    "categories": [
+      "3 on 3",
+      "Offensive Zone",
+      "Passing",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "https://www.icehockeysystems.com/hockey-drills?sort_by=created"
   }
 ]
