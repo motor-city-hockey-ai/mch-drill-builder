@@ -13638,5 +13638,173 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 877,
+    "title": "Defensive Figure Eights",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defensive-figure-eights",
+    "categories": [
+      "Passing",
+      "Half Ice",
+      "Skating",
+      "Defensive",
+      "Neutral Zone",
+      "Transition",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 878,
+    "title": "Defense Transition into 2-0",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defense-transition-2-0",
+    "categories": [
+      "Transition",
+      "Defensive",
+      "2 on 0",
+      "Passing",
+      "Puck Support",
+      "Full Ice"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 879,
+    "title": "Dump with Give & Go",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/dump-give-go",
+    "categories": [
+      "Half Ice",
+      "Breakouts",
+      "Defensive",
+      "Passing",
+      "Retrievals",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 880,
+    "title": "2 on 1 Down Low",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-1-down-low",
+    "categories": [
+      "2 on 1",
+      "Half Ice",
+      "Offensive",
+      "Stations",
+      "Small Area Games",
+      "Down Low",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 881,
+    "title": "4 on 2 Down Low",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4-2-down-low",
+    "categories": [
+      "4 vs 2",
+      "Half Ice",
+      "Defensive",
+      "Coverage",
+      "Small Area Games",
+      "Down Low",
+      "Power Play",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 882,
+    "title": "Re-Group 1 on 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/re-group-1-1",
+    "categories": [
+      "1 on 1",
+      "Full Ice",
+      "Defensive",
+      "Gap",
+      "Re-Group",
+      "Passing",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 883,
+    "title": "Lateral Yo Yo",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/lateral-yo-yo",
+    "categories": [
+      "Passing",
+      "Skating",
+      "Agility",
+      "Defensive",
+      "Neutral Zone",
+      "Shooting",
+      "Footwork"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 884,
+    "title": "One Man Regroup",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/one-man-regroup",
+    "categories": [
+      "1 on 1",
+      "Full Ice",
+      "Defensive",
+      "Gap",
+      "Re-Group",
+      "Transition",
+      "Passing"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 885,
+    "title": "Sabres Defense Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/sabres-defense-drill",
+    "categories": [
+      "Full Ice",
+      "Backchecking",
+      "Defensive",
+      "Breakouts",
+      "2 on 2",
+      "Coverage",
+      "Net Front"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 886,
+    "title": "Blue Line 1 vs. 1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/blue-line-1-vs-1",
+    "categories": [
+      "1 on 1",
+      "Full Ice",
+      "Defensive",
+      "Backwards Skating",
+      "Gap",
+      "Passing"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
   }
 ]
