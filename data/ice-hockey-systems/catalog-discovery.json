@@ -12556,5 +12556,42 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Fresh IHS source-page reconciliation + exact IHS-hosted drill image"
+  },
+  {
+    "discovery_number": 805,
+    "title": "Low Traffic Shots",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/low-traffic-shots",
+    "categories": [
+      "Down Low",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Newest catalog page 3 + verified original IHS Drill Maker image"
+  },
+  {
+    "discovery_number": 806,
+    "title": "Defenseman Blue Line Walk",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/defenseman-blue-line-walk-4",
+    "categories": [
+      "Puck Control",
+      "Shooting",
+      "Skill Development"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Newest catalog page 3 + verified two-part original IHS Drill Maker images"
+  },
+  {
+    "discovery_number": 807,
+    "title": "4Check Body Contact Angling #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/4check-body-contact-angling-1-0",
+    "categories": [
+      "Angling",
+      "Checking"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Newest catalog page 4 + verified original IHS Drill Maker image"
   }
 ]
