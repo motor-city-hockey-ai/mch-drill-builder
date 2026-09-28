@@ -13059,5 +13059,161 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Sorted IHS catalog page 30 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 839,
+    "title": "Neutral Zone Transition with High Roll",
+    "source_url": "https://icehockeysystems.com/hockey-drills/neutral-zone-transition-high-roll",
+    "categories": [
+      "Full Ice",
+      "2 on 0",
+      "Transition",
+      "Passing",
+      "Shooting",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 31 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 840,
+    "title": "Turns and Stops Station",
+    "source_url": "https://icehockeysystems.com/hockey-drills/turns-and-stops-station",
+    "categories": [
+      "Skating",
+      "Agility",
+      "Half Ice",
+      "Stations",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 31 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 841,
+    "title": "Quick Shot, Quick Stuff",
+    "source_url": "https://icehockeysystems.com/hockey-drills/quick-shot-quick-stuff",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Transition",
+      "Down Low"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 31 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 842,
+    "title": "Force Up Wall 1 on 1",
+    "source_url": "https://icehockeysystems.com/hockey-drills/force-wall-1-1",
+    "categories": [
+      "1 on 1",
+      "Half Ice",
+      "Defensive",
+      "Angling",
+      "Checking"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 31 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 843,
+    "title": "4 Stations #1",
+    "source_url": "https://icehockeysystems.com/hockey-drills/4-stations-1",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Small Area Games",
+      "Stations",
+      "2 on 2",
+      "3 on 3",
+      "Skating"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 31 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 844,
+    "title": "Continuous Reverses",
+    "source_url": "https://icehockeysystems.com/hockey-drills/continuous-reverses",
+    "categories": [
+      "Breakouts",
+      "Half Ice",
+      "Defensive",
+      "Retrievals",
+      "Passing"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 31 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 845,
+    "title": "Transition Give & Go Below Goal Line",
+    "source_url": "https://icehockeysystems.com/hockey-drills/transition-give-go-below-goal-line",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Offensive Zone",
+      "Down Low",
+      "Transition"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 31 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 846,
+    "title": "Transition Give and Go from Corner",
+    "source_url": "https://icehockeysystems.com/hockey-drills/transition-give-and-go-corner",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Transition",
+      "Offensive Zone"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 31 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 847,
+    "title": "Breakout Weave #1",
+    "source_url": "https://icehockeysystems.com/hockey-drills/breakout-weave-1",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Breakouts",
+      "3 on 0",
+      "Puck Support",
+      "Flow"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 31 + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 848,
+    "title": "The Transition Wheel",
+    "source_url": "https://icehockeysystems.com/hockey-drills/transition-wheel",
+    "categories": [
+      "Passing",
+      "Transition",
+      "Defensive",
+      "Neutral Zone",
+      "Backwards Skating",
+      "Puck Control"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Sorted IHS catalog page 31 + verified original IHS-hosted drill diagram"
   }
 ]
