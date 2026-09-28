@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 999,
-    "catalog_items_verified": 999,
+    "catalog_items_imported": 1010,
+    "catalog_items_verified": 1010,
     "catalog_target": 1573,
-    "last_batch": "IHS verified through #999",
-    "original_diagrams_verified": 999,
+    "last_batch": "IHS verified through #1010",
+    "original_diagrams_verified": 1010,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
-    "notes": "Live IHS JSON library now contains 999 verified drill records; database, discovery index, manifest, and library counts are synchronized.",
-    "unique_urls_discovered": 989,
+    "notes": "Live IHS JSON library now contains 1,010 verified drill records; database, discovery index, manifest, and library counts are synchronized.",
+    "unique_urls_discovered": 1000,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 0,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue from #1000 with exact original IHS/site-hosted diagrams only.",
+    "next_step": "Continue from #1011 with exact original IHS/site-hosted diagrams only.",
     "multi_diagram_drills_preserved": 69,
-    "last_completed_catalog_page": 2,
+    "last_completed_catalog_page": 29,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 10,
-    "last_batch_notes": "Added a 10-drill verified batch (#990-999): Sabre D Shooting Drill, Sabre 2v2 Support Game, Oswego Passing Station, Castleton Puck Protection Drill, Sabre Split Ice Attack Drill, Trinity Quick Escape Drill, Kick Out Warm Up, 3/4 Ice Skating Race, DSS Turn Pull, and Stop Drop Roll. All use exact IHS-hosted source diagrams; no AI diagrams or substitutes.",
+    "last_batch_imported": 11,
+    "last_batch_notes": "Added 11 verified IHS drills (#1000-1010), all with exact IHS-hosted original diagrams. No AI diagrams or substitute visuals were used.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "The Ottawa Drill - page exposes a Drill Maker image; exact original image URL still needs resolution.",
@@ -72,6 +72,6 @@
       "Body Contact And Dummy Fundamentals - source page currently exposes video only and no verifiable original rink diagram; defer rather than substitute."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 10
+    "last_batch_discovered": 11
   }
 }
