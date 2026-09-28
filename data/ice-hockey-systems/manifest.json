@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 1150,
-    "catalog_items_verified": 1150,
+    "catalog_items_imported": 1166,
+    "catalog_items_verified": 1166,
     "catalog_target": 1573,
-    "last_batch": "IHS verified through #1150",
-    "original_diagrams_verified": 1150,
+    "last_batch": "IHS verified through #1166",
+    "original_diagrams_verified": 1166,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
-    "notes": "Live IHS loader now exposes 1,150 verified drill records across the master file and continuation batches; manifest, loader, and library counts are synchronized.",
-    "unique_urls_discovered": 1150,
+    "notes": "Live IHS loader now exposes 1,166 verified drill records across the master file and continuation batches; manifest, loader, and library counts are synchronized.",
+    "unique_urls_discovered": 1166,
     "catalog_items_pending_enrichment": 11,
     "goalies_discovered_in_current_batch": 0,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue from #1151 with exact original IHS/site-hosted diagrams only.",
-    "multi_diagram_drills_preserved": 79,
+    "next_step": "Continue from #1167 with exact original IHS/site-hosted diagrams only.",
+    "multi_diagram_drills_preserved": 81,
     "last_completed_catalog_page": 31,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 13,
-    "last_batch_notes": "Added 13 verified IHS drills (#1138-#1150) using exact IHS-hosted original diagrams. Multi-part source visuals were preserved for Weak Side Transition, Avery 3 on 2 Drill, Short to Long 2 on 2, Continuous 2 on 2 with Ozone D Options, and 3 v 2 to 5 v 5 Backcheck. Cross-Fire Passing was resolved from the pending catalog. No AI diagrams were used.",
+    "last_batch_imported": 16,
+    "last_batch_notes": "Added 16 verified IHS drills (#1151-#1166) using exact IHS-hosted original diagrams. Multi-part source visuals were preserved for Angling Through The Circles Progression and 2 on 2 Box Out. No AI diagrams were used.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "The Ottawa Drill - page exposes a Drill Maker image; exact original image URL still needs resolution.",
@@ -72,6 +72,6 @@
       "Body Contact And Dummy Fundamentals - source page currently exposes video only and no verifiable original rink diagram; defer rather than substitute."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 13
+    "last_batch_discovered": 16
   }
 }
