@@ -1,0 +1,92 @@
+[
+  {
+    "uid": "ihs-1317",
+    "number": 1317,
+    "title": "Max Skill Station Series #1 - #3",
+    "category": "Puck Control / Shooting",
+    "drill_types": [
+      "Skating",
+      "Puck Control",
+      "Shooting",
+      "Skill Development",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations"
+    ],
+    "description": "Ice Hockey Systems skill station series using a tire or cone, a short barrier, and a small net. The three versions progress through tight control turns, puck retrievals, single shifts, backwards-to-forwards transitions, and quick shooting.",
+    "coaching_points": [
+      "Version 1: tight control turn, retrieve the puck from the barrier, pull it into the body, and shoot quickly.",
+      "Version 2: control the puck through a tight turn, single-shift around the barrier, protect it, and finish with a shot.",
+      "Version 3: start backwards, retrieve a puck around the tire, transition forward, single-shift to the backhand side, and shoot.",
+      "Keep the head over the puck during the shooting motion and repeat both directions."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/max-skill-station-series-1-3",
+    "image": "https://www.files.icehockeysystems.com/files/drills/Max-Skill-Station-Series-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/Max-Skill-Station-Series-1.jpg"
+    ],
+    "original_verified": true,
+    "skill_station_featured": true
+  },
+  {
+    "uid": "ihs-1318",
+    "number": 1318,
+    "title": "Half Ice Side By Side Skills Series #1",
+    "category": "Skating / Puck Control",
+    "drill_types": [
+      "Half Ice",
+      "Puck Control",
+      "Puck Handling",
+      "Stickhandling",
+      "Skill Development",
+      "Skating",
+      "Stations"
+    ],
+    "description": "Ice Hockey Systems half-ice skill series with four related progressions: control turns with a puck, backwards puck control, inside-out full circles, and inside-out forward-facing transitions. The versions stay grouped under one drill.",
+    "coaching_points": [
+      "Control Turns: lead with the inside leg and upper body while using the outside edge of the inside leg.",
+      "Backwards with Puck: maintain posture, keep the blade closed, and initiate the turn with a C-cut.",
+      "Full Circles: stay in a strong hockey position and rotate the chest into the turn.",
+      "Inside-Out Facing Forward: stay on the balls of the feet through forward/backward transitions and keep the head up."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/half-ice-side-side-skills-series-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/half-ice-side-by-side-skills-control-turns.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/half-ice-side-by-side-skills-control-turns.png",
+      "https://www.files.icehockeysystems.com/files/drills/half-ice-side-by-side-skills-full-circles.png"
+    ],
+    "original_verified": true,
+    "skill_station_featured": true
+  },
+  {
+    "uid": "ihs-1319",
+    "number": 1319,
+    "title": "Circle Stickhandling Series",
+    "category": "Puck Control / Stickhandling",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Stations",
+      "Sixth Ice Stations",
+      "Stickhandling",
+      "Awareness"
+    ],
+    "description": "Ice Hockey Systems stickhandling station with three progressions inside a faceoff circle. Players work creativity and control, then reaction to a moving partner, then puck control combined with passing to players outside the circle.",
+    "coaching_points": [
+      "Progression 1: be creative through the objects while staying in full control and aware of traffic.",
+      "Progression 2: follow a moving partner while keeping the head up and maintaining puck control.",
+      "Progression 3: move through the objects while identifying and passing to open players outside the circle.",
+      "Keep repetitions short and active so players maintain pace and awareness."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/circle-stickhandling-series",
+    "image": "https://www.files.icehockeysystems.com/files/drills/circle-stickhandling-series.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/circle-stickhandling-series.png"
+    ],
+    "original_verified": true,
+    "skill_station_featured": true
+  }
+]
