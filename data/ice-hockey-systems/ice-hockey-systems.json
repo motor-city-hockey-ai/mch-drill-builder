@@ -33095,5 +33095,294 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-break-out-timing-1",
+    "number": 1031,
+    "title": "Break Out Timing #1",
+    "category": "Full Ice / Breakouts / Defensive",
+    "drill_types": [
+      "Full Ice",
+      "Breakouts",
+      "Defensive"
+    ],
+    "description": "A breakout timing drill focused on creating a clean first-pass option. The defense retrieves the puck from behind the net and passes to a forward timing a swing through the slot. After receiving the breakout pass, the forward attacks through neutral ice while the defense follows to support the next pass.",
+    "coaching_points": [
+      "Forwards must time the swing so the defense has a flat passing lane.",
+      "Do not get ahead of the puck and force a difficult vertical pass.",
+      "Defense retrieves with feet moving and presents the puck up ice.",
+      "Continue supporting the play after the first breakout pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/break-out-timing-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/break-out-timing-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/break-out-timing-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-break-out-timing-2",
+    "number": 1032,
+    "title": "Break Out Timing #2",
+    "category": "Full Ice / Breakouts / Defensive",
+    "drill_types": [
+      "Full Ice",
+      "Breakouts",
+      "Defensive"
+    ],
+    "description": "A two-forward breakout timing drill. The forwards time their release to receive flat passes from the defense, continue the rush, then remain around the net while the defense gets a point shot through for a screen, tip or rebound.",
+    "coaching_points": [
+      "Centers and wings stay underneath the puck until the pass is available.",
+      "Receive flat passes rather than getting too far ahead of the play.",
+      "Defense sets the pace of the breakout.",
+      "Finish with net-front presence on the point shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/break-out-timing-2",
+    "image": "https://www.files.icehockeysystems.com/files/drills/break-out-timing-2.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/break-out-timing-2.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-break-out-timing-4",
+    "number": 1033,
+    "title": "Break Out Timing #4",
+    "category": "Half Ice / Breakouts / Defensive",
+    "drill_types": [
+      "Half Ice",
+      "Breakouts",
+      "Defensive"
+    ],
+    "description": "A breakout timing progression using two defensemen and two forwards. The defense moves the puck off the boards to a partner, then finds either the center or winger while both forwards time their swings. The defense finishes the rep with a D-to-D pass and a low shot from the blue line.",
+    "coaching_points": [
+      "Handle the board pass quickly.",
+      "Centers and wings time their routes to stay available for flat passes.",
+      "Defense supports the puck after the breakout pass.",
+      "Finish with a hard low shot on net."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/break-out-timing-4",
+    "image": "https://www.files.icehockeysystems.com/files/drills/break-out-timing-4.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/break-out-timing-4.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-three-lane-shooting",
+    "number": 1034,
+    "title": "Three Lane Shooting",
+    "category": "Shooting / Warm Up / Goalie",
+    "drill_types": [
+      "Shooting",
+      "Warm Up",
+      "Goalie",
+      "Half Ice"
+    ],
+    "description": "A shooting warm-up run from four lines at the blue line. Shooters alternate between the far outside lane, middle lane and near outside lane so the goalie sees shots from three different angles with enough spacing to reset between attempts.",
+    "coaching_points": [
+      "Keep enough spacing between shots for the goalie to get set.",
+      "Shoot from the assigned lane.",
+      "Use all three shooting lanes.",
+      "Keep the warm-up flowing without stacking shots."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/three-lane-shooting",
+    "image": "https://www.files.icehockeysystems.com/files/drills/three-lane-shooting.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/three-lane-shooting.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-perpetual-forecheck",
+    "number": 1035,
+    "title": "Perpetual Forecheck",
+    "category": "Forechecking / Breakouts / Team Systems",
+    "drill_types": [
+      "Forechecking",
+      "Breakouts",
+      "Defensive Zone",
+      "Full Ice"
+    ],
+    "description": "A continuous forecheck and breakout drill. Five defenders begin in defensive-zone formation, three attackers forecheck a coach dump-in, and the defending group works to break the puck out. The groups rotate so the drill continues into the opposite end.",
+    "coaching_points": [
+      "Forecheck with a defined team structure.",
+      "Break out under pressure.",
+      "Communicate defensive-zone responsibilities.",
+      "Transition immediately when the puck exits the zone."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/perpetual-forecheck",
+    "image": "https://www.files.icehockeysystems.com/files/drills/Capture_2.JPG",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/Capture_2.JPG"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-swoop-warm-up",
+    "number": 1036,
+    "title": "Swoop Warm Up",
+    "category": "Shooting / Warm Up / Half Ice",
+    "drill_types": [
+      "Shooting",
+      "Warm Up",
+      "Half Ice",
+      "Puck Control"
+    ],
+    "description": "A half-ice warm-up with two corner lines. Both players skate into the neutral-zone puck area, collect a puck and use different looping routes back into the zone before shooting, creating staggered shots for the goalie.",
+    "coaching_points": [
+      "Attack the loose puck area with pace.",
+      "Keep the head up while choosing a puck and route.",
+      "Swoop back into the zone under control.",
+      "Stagger the shots so the goalie can reset."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/swoop-warm",
+    "image": "https://www.files.icehockeysystems.com/files/drills/swoop-warm-up.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/swoop-warm-up.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-continuous-breakouts-1",
+    "number": 1037,
+    "title": "Continuous Breakouts - #1",
+    "category": "Full Ice / Breakouts / Defensive",
+    "drill_types": [
+      "Full Ice",
+      "Breakouts",
+      "Defensive",
+      "Warm Up"
+    ],
+    "description": "A continuous breakout warm-up. The defense carries the puck around the net and hits a forward timing a curl for the breakout pass. After the pass, the defense pivots back to retrieve the next dump-in while the forward attacks the far end for a shot.",
+    "coaching_points": [
+      "Defense retrieves with urgency and stays inside the dots.",
+      "Forwards time the curl and face the puck.",
+      "Make the breakout pass flat and in stride.",
+      "Transition quickly from supporting the rush back into the next retrieval."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-breakouts-1",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-breakout-1.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-breakout-1.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-continuous-chip-drill",
+    "number": 1038,
+    "title": "Continuous Chip Drill",
+    "category": "Full Ice / Breakouts / Defensive",
+    "drill_types": [
+      "Full Ice",
+      "Breakouts",
+      "Defensive",
+      "Wall Play"
+    ],
+    "description": "A continuous winger breakout drill. The coach rims a puck around the boards, one forward works to control and chip it high off the wall into neutral ice, and a supporting forward times the route to collect the chip and attack the far end.",
+    "coaching_points": [
+      "Get to the wall before the rim arrives.",
+      "Gain control and create separation before chipping the puck.",
+      "Use the boards to place the puck into safe neutral ice.",
+      "Supporting forward times the route to arrive with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-chip-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/continuous-chip-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/continuous-chip-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-double-chip-off-boards",
+    "number": 1039,
+    "title": "Double Chip Off Boards",
+    "category": "Full Ice / Breakouts / Defensive",
+    "drill_types": [
+      "Full Ice",
+      "Breakouts",
+      "Defensive",
+      "Wall Play",
+      "Puck Support"
+    ],
+    "description": "A breakout progression with a second chip off the boards to a supporting forward in neutral ice. The player making the chip drives hard to the far post and becomes a scoring option for the supporting player.",
+    "coaching_points": [
+      "Use the boards to move the puck through pressure.",
+      "Support the first chip with proper neutral-zone timing.",
+      "Drive the far post after moving the puck.",
+      "Look to turn the second touch into an immediate attack."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/double-chip-boards",
+    "image": "https://www.files.icehockeysystems.com/files/styles/large/public/drills/double-chip-off-boards.jpg.webp?itok=YGP_jD06",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/styles/large/public/drills/double-chip-off-boards.jpg.webp?itok=YGP_jD06"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-center-timing-drill",
+    "number": 1040,
+    "title": "Center Timing Drill",
+    "category": "Full Ice / Breakouts / Defensive",
+    "drill_types": [
+      "Full Ice",
+      "Breakouts",
+      "Defensive",
+      "Passing",
+      "Transition"
+    ],
+    "description": "A full-ice breakout and regroup timing drill. The forward works with two defensive pairs, first timing a defensive-zone breakout pass and then staying available through neutral ice for a regroup pass before attacking back toward the original end.",
+    "coaching_points": [
+      "Forward stays underneath the puck and times each route for a flat pass.",
+      "Defense supports partner-to-partner puck movement.",
+      "Receive and move the puck while skating.",
+      "Progress to a 1 on 1 by having the breakout defenseman gap up."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/center-timing-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/center-timing-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/center-timing-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
