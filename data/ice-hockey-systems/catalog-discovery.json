@@ -14171,5 +14171,169 @@
     "source": "Ice Hockey Systems",
     "discovery_status": "enriched-and-imported",
     "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 909,
+    "title": "Wildcat One-Time Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wildcat-one-time-drill",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "One Timer",
+      "Warm Up"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 910,
+    "title": "Wildcat One-Timer Drill - Variation #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wildcat-one-timer-drill-variation-1",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "One Timer",
+      "Defensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 911,
+    "title": "Wildcat One-Timer Drill - Variation #3",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wildcat-one-timer-drill-variation-3",
+    "categories": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "One Timer",
+      "Power Play",
+      "Offensive"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 912,
+    "title": "3 on 0 Regroup on Whistle",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-0-regroup-whistle",
+    "categories": [
+      "3 on 0",
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Breakouts",
+      "Re-Group",
+      "Passing"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 913,
+    "title": "Open Up Double Pass",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/open-double-pass",
+    "categories": [
+      "Passing",
+      "Full Ice",
+      "Shooting",
+      "Warm Up",
+      "Skating",
+      "Awareness"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 914,
+    "title": "Neutral Zone Offense Swing",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-offense-swing",
+    "categories": [
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Passing",
+      "Defensive",
+      "Zone Entry",
+      "2 on 0"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 915,
+    "title": "Neutral Zone Offense Chip",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-offense-chip",
+    "categories": [
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Wall Play",
+      "Zone Entry",
+      "Passing",
+      "2 on 0"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 916,
+    "title": "Neutral Zone Offense Double Chip",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-offense-double-chip",
+    "categories": [
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Wall Play",
+      "Zone Entry",
+      "Passing",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 917,
+    "title": "Breakout Backcheck Drill",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakout-backcheck-drill",
+    "categories": [
+      "Full Ice",
+      "Breakouts",
+      "Backchecking",
+      "Defensive",
+      "Passing",
+      "Transition",
+      "Shooting"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
+  },
+  {
+    "discovery_number": 918,
+    "title": "Moose Simple Timing Drill #1",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/moose-simple-timing-drill-1",
+    "categories": [
+      "Full Ice",
+      "Transition",
+      "Neutral Zone",
+      "Passing",
+      "Defensive",
+      "2 on 0",
+      "Puck Support"
+    ],
+    "source": "Ice Hockey Systems",
+    "discovery_status": "enriched-and-imported",
+    "discovered_from": "Legacy IHS catalog gap + verified original IHS-hosted drill diagram"
   }
 ]
