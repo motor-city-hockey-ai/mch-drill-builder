@@ -1,0 +1,329 @@
+[
+  {
+    "uid": "ihs-1237",
+    "number": 1237,
+    "title": "Breakaway Backcheck With 1 on 1 Variation",
+    "category": "1 vs 1 / Backcheck",
+    "drill_types": [
+      "1 vs 1",
+      "Puck Protection",
+      "2 vs 1",
+      "Angling",
+      "Backchecking",
+      "Battle Drills",
+      "Checking",
+      "Conditioning",
+      "Coverage",
+      "Body Contact"
+    ],
+    "description": "A race-based backcheck drill where the offensive player begins with a small positional advantage while the defender has the better angle to the net. The progression adds a defenseman to create a 1-on-1 with a recovering backchecker.",
+    "coaching_points": [
+      "Defender takes the direct inside angle and works to gain body position before attacking the puck.",
+      "Offensive player protects the puck by cutting off the backchecker and driving toward scoring ice.",
+      "Use stick-on-puck and body contact together rather than reaching only for the puck.",
+      "Progress to the 1-on-1 variation so the puck carrier must manage both the defender and the backchecker."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/breakaway-backcheck-1-1-variation",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543886-0-1693853509.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543886-0-1693853509.png",
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-2543886-1-1693853509.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1238",
+    "number": 1238,
+    "title": "Bourque 3 on 3 Game",
+    "category": "3 vs 3 / Breakout Support",
+    "drill_types": [
+      "Passing",
+      "Re-Group",
+      "Small Area Games",
+      "Transition",
+      "Tryout",
+      "Breakouts",
+      "3 vs 3",
+      "Battle Drills",
+      "Half Ice",
+      "Puck Support"
+    ],
+    "description": "A cross-ice 3-on-3 game with a designated support player behind each team's goal line. After a change of possession, the team must use its support player before attacking, creating repeated breakout and regroup situations.",
+    "coaching_points": [
+      "The support player makes a strong first pass and uses deception to open lanes.",
+      "Players without the puck skate back to support the breakout.",
+      "Fill multiple lanes and move into open ice after the regroup.",
+      "Keep shifts short and intense to maintain transition speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/bourque-3-on-3-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/bourque3-on-3-game.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/bourque3-on-3-game.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1239",
+    "number": 1239,
+    "title": "1 v 1 Angle Around The Net Drill",
+    "category": "1 vs 1 / Angling",
+    "drill_types": [
+      "1 vs 1",
+      "Puck Protection",
+      "Offensive",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Coverage",
+      "Defensive",
+      "Forechecking",
+      "Retrievals"
+    ],
+    "description": "A 1-on-1 retrieval and forecheck battle. The defenseman retrieves a chipped puck and tries to escape through a cone gate while the forechecker angles, pressures, and attempts to strip the puck and score.",
+    "coaching_points": [
+      "Forechecker keeps the stick on the ice, matches speed, and takes away the easy turn up ice.",
+      "Retriever shoulder-checks before arrival and collects the puck on an efficient angle.",
+      "Use deception with skates, hips, shoulders, head, or stick to escape pressure.",
+      "Rotate players through both the retrieval and forecheck roles."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/1-v-1-angle-around-net-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-284711-0-1744828780.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-284711-0-1744828780.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1240",
+    "number": 1240,
+    "title": "Back to Back 1 vs 1 with Mini Nets",
+    "category": "1 vs 1 / Tight Area",
+    "drill_types": [
+      "1 vs 1",
+      "Battle Drills",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Tight Area"
+    ],
+    "description": "A tight-area 1-on-1 battle with two mini nets placed back-to-back in the middle of the playing space. Players can score on either net, forcing constant puck protection, scanning, and changes of direction.",
+    "coaching_points": [
+      "Protect the puck with body position before trying to attack a net.",
+      "Scan both sides because either mini net can become the scoring option.",
+      "Use quick turns and deception to create separation.",
+      "Keep reps short and competitive with immediate new pucks after goals."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/back-back-1-vs-1-mini-nets",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-160626-0-1744822463.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-160626-0-1744822463.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1241",
+    "number": 1241,
+    "title": "2 vs 2 Rebound Battle Drill",
+    "category": "2 vs 2 / Rebound Battle",
+    "drill_types": [
+      "2 vs 2",
+      "Battle Drills",
+      "Half Ice",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Third Ice Stations",
+      "Wall Play",
+      "Rebounds"
+    ],
+    "description": "A rebound battle that begins with a puck played on net and sent to a corner. Two players compete for the loose puck; the winner moves it to a point player to start an attacking sequence while the other player defends.",
+    "coaching_points": [
+      "Use body and skate deception to escape the corner after winning possession.",
+      "Protect the puck, get the head up, and find the point quickly.",
+      "Defender plays body and stick-on-puck in the corner.",
+      "On the attack, defend the middle and force lower-percentage shots."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/2-vs-2-rebound-battle-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-117141-0-1757873759.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-117141-0-1757873759.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1242",
+    "number": 1242,
+    "title": "King or Queen of the Hill Puck Control Drill",
+    "category": "Puck Protection / Competition",
+    "drill_types": [
+      "Puck Control",
+      "Puck Handling",
+      "Puck Protection",
+      "Small Area Games",
+      "Stations",
+      "Quarter Ice Station",
+      "Sixth Ice Stations",
+      "Third Ice Stations",
+      "Stickhandling",
+      "Warm Up",
+      "Battle Drills"
+    ],
+    "description": "A competitive puck-control game where every player starts with a puck and tries to maintain possession while knocking other players' pucks out of the playing area. The last player still controlling a puck wins.",
+    "coaching_points": [
+      "Keep the head up so players can protect their puck and identify pressure.",
+      "Use the body to shield possession while attacking exposed pucks.",
+      "Change direction and speed to escape pressure.",
+      "Shrink the playing area as players are eliminated to increase difficulty."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/king-hill-puck-control-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-82186-0-1744828819.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-82186-0-1744828819.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1243",
+    "number": 1243,
+    "title": "3 v 3 with Down Low Passer",
+    "category": "3 vs 3 / Net Front",
+    "drill_types": [
+      "3 vs 3",
+      "Awareness",
+      "Battle Drills",
+      "Coverage",
+      "Defensive",
+      "Down Low",
+      "Half Ice",
+      "Offensive",
+      "Small Area Games",
+      "Net Front"
+    ],
+    "description": "A 3-on-3 net-front game with a protected passer below the goal line. The passer moves side to side and looks for teammates getting open around the net while defenders battle for coverage and passing-lane position.",
+    "coaching_points": [
+      "Offensive players separate from defenders and present sticks in scoring areas.",
+      "Defenders maintain tight coverage and keep sticks in passing lanes.",
+      "The down-low passer scans across the entire front of the net before delivering the puck.",
+      "Communicate through switches and coverage changes."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/3-v-3-down-low-passer",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-4973356-0-1729732325.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-4973356-0-1729732325.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1244",
+    "number": 1244,
+    "title": "5 v 5 Neutral Zone Face-Off Possession Game",
+    "category": "5 vs 5 / Neutral Zone Possession",
+    "drill_types": [
+      "5 vs 5",
+      "Battle Drills",
+      "Neutral Zone",
+      "Passing",
+      "Puck Control",
+      "Re-Group",
+      "Small Area Games",
+      "Zone Entry",
+      "Faceoffs"
+    ],
+    "description": "A 5-on-5 neutral-zone possession game that begins with a faceoff. Teams score points by skating the puck through weighted gates on the center red line, rewarding possession, support, communication, and control of the middle.",
+    "coaching_points": [
+      "Offensive players support the puck and stay available as outlets.",
+      "Defenders protect the middle and keep sticks in passing lanes.",
+      "Communicate continuously because traffic and possession change quickly.",
+      "After scoring through a gate, regroup and attack another gate if possession is maintained."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/5-v-5-neutral-zone-face-off-possession-game",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3780036-0-1729733956.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3780036-0-1729733956.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1245",
+    "number": 1245,
+    "title": "Go Go",
+    "category": "Small Area Game / Numbers Progression",
+    "drill_types": [
+      "1 vs 1",
+      "2 vs 1",
+      "2 vs 2",
+      "3 vs 2",
+      "3 vs 3",
+      "Battle Drills",
+      "Checking",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Down Low",
+      "Half Ice",
+      "Offensive",
+      "Offensive Zone",
+      "Puck Control",
+      "Puck Protection",
+      "Small Area Games",
+      "Wall Play"
+    ],
+    "description": "A high-tempo down-low game that starts 1-on-1 and grows each time the coach calls 'Go.' Players jump into the live play in alternating order, creating changing situations such as 2-on-1, 2-on-2, 3-on-2, and 3-on-3.",
+    "coaching_points": [
+      "First offensive player protects the puck and attacks from below the circles.",
+      "New players enter immediately and communicate their support position.",
+      "Read the changing numbers before forcing a play.",
+      "Defenders work to regain possession and skate the puck above the circle to end the rep."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/the-go-go",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3206691-0-1730755728.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3206691-0-1730755728.png"
+    ],
+    "original_verified": true
+  },
+  {
+    "uid": "ihs-1246",
+    "number": 1246,
+    "title": "Wing Quadrant Play",
+    "category": "3 vs 3 / D-Zone Coverage",
+    "drill_types": [
+      "Small Area Games",
+      "3 vs 3",
+      "Angling",
+      "Battle Drills",
+      "Checking",
+      "Half Ice",
+      "Coverage",
+      "Defensive",
+      "Defensive Zone",
+      "Winger Coverage"
+    ],
+    "description": "A 3-on-3 defensive-zone game focused on winger responsibilities. The puck carrier tries to skate through the winger's quadrant or move the puck to the point while the winger protects the lane and closes on point passes.",
+    "coaching_points": [
+      "Winger does not allow the puck carrier to skate through the assigned quadrant.",
+      "Keep the stick on the ice to block lanes and angle the puck outside.",
+      "Close quickly on point players when the puck moves high.",
+      "Communicate coverage when the puck leaves the winger's area."
+    ],
+    "source": "Ice Hockey Systems",
+    "source_url": "https://www.icehockeysystems.com/hockey-drills/wing-quadrant-play",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-3124176-0-1698261270.png",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/drill-maker-3124176-0-1698261270.png"
+    ],
+    "original_verified": true
+  }
+]
