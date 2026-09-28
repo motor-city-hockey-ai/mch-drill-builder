@@ -37,25 +37,25 @@
     }
   ],
   "progress": {
-    "catalog_items_imported": 1076,
-    "catalog_items_verified": 1076,
+    "catalog_items_imported": 1082,
+    "catalog_items_verified": 1082,
     "catalog_target": 1573,
-    "last_batch": "IHS verified through #1076",
-    "original_diagrams_verified": 1076,
+    "last_batch": "IHS verified through #1082",
+    "original_diagrams_verified": 1082,
     "print_pages_verified": 7,
     "member_only_pages_with_diagram_but_no_print_access": 3,
-    "notes": "Live IHS JSON library now contains 1,076 verified drill records; database, discovery index, manifest, and library counts are synchronized.",
-    "unique_urls_discovered": 1076,
+    "notes": "Live IHS JSON library now contains 1,082 verified drill records; database, discovery index, manifest, and library counts are synchronized.",
+    "unique_urls_discovered": 1082,
     "catalog_items_pending_enrichment": 12,
     "goalies_discovered_in_current_batch": 0,
     "discovery_method": "Source index + unique source URL; later sorted-pagination crawl will deduplicate against this catalog.",
-    "next_step": "Continue from #1077 with exact original IHS/site-hosted diagrams only.",
+    "next_step": "Continue from #1083 with exact original IHS/site-hosted diagrams only.",
     "multi_diagram_drills_preserved": 69,
     "last_completed_catalog_page": 31,
     "page_1_backfill_new_urls": 14,
     "position_note": "IHS sort order can change, so exact page position ranges are treated as provisional. Completeness is being reconciled by unique source URL against the site's 1,573-drill total.",
-    "last_batch_imported": 8,
-    "last_batch_notes": "Added 8 verified legacy IHS catalog gaps (#1069-1076), each with an exact source rink diagram. Two already-existing records were correctly rejected by duplicate protection rather than re-imported.",
+    "last_batch_imported": 6,
+    "last_batch_notes": "Added 6 verified legacy IHS catalog gaps (#1077-1082), each with an exact original IHS-hosted rink diagram. Pages without a currently verifiable rink image remain excluded.",
     "deferred_items": [
       "Yellow Runner Rally - source page returned an internal error during this pass; keep catalog entry pending and retry later.",
       "The Ottawa Drill - page exposes a Drill Maker image; exact original image URL still needs resolution.",
@@ -72,6 +72,6 @@
       "Body Contact And Dummy Fundamentals - source page currently exposes video only and no verifiable original rink diagram; defer rather than substitute."
     ],
     "goalie_visuals_pending": 7,
-    "last_batch_discovered": 8
+    "last_batch_discovered": 6
   }
 }
