@@ -32490,5 +32490,304 @@
     "original_diagram": true,
     "member_only": true,
     "status": "verified"
+  },
+  {
+    "uid": "ihs-wisconsin-shooting-drill",
+    "number": 1011,
+    "title": "Wisconsin Shooting Drill",
+    "category": "Power Play / Shooting / Offensive Zone",
+    "drill_types": [
+      "Power Play",
+      "Shooting",
+      "Offensive Zone",
+      "Half Ice"
+    ],
+    "description": "A two-shot warm-up for forwards, defense and goalies. A forward passes to the point, gets the puck back off the wall and attacks the slot for the first shot. The defense then receives a second puck, walks the blue line and shoots while the forward screens and looks for a rebound.",
+    "coaching_points": [
+      "Forward explodes off the wall into the slot after receiving the return pass.",
+      "Defense moves the feet while carrying toward the middle.",
+      "Forward gets to the net-front area for screens, tips and rebounds.",
+      "Keep the drill flowing from alternating corners."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/wisconsin-shooting-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/wisconsin-shooting-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/wisconsin-shooting-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": false,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-high-horse-defensive-skills",
+    "number": 1012,
+    "title": "High Horse Defensive Skills",
+    "category": "Defensive / Passing / Shooting",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Defensive",
+      "Backwards Skating",
+      "Transition"
+    ],
+    "description": "A half-ice defense skill progression combining transition passing, outlet passes, backward skating and getting off the wall into the middle for a shot. The defense receives multiple passes while changing skating direction around cones.",
+    "coaching_points": [
+      "Receive passes in transition and maintain puck control.",
+      "Make clean outlet passes before transitioning backward.",
+      "Skate backward with speed while staying balanced.",
+      "Open the hips cleanly and get off the wall before shooting."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/high-horse-defensive-skills",
+    "image": "https://www.files.icehockeysystems.com/files/drills/high-horse-defense-skills-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/high-horse-defense-skills-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-soft-chip-overlap-possession-hockey-drill",
+    "number": 1013,
+    "title": "Soft Chip Overlap Possession Hockey Drill",
+    "category": "Passing / Cycling / Full Ice",
+    "drill_types": [
+      "Passing",
+      "Full Ice",
+      "Cycling",
+      "Zone Entry",
+      "Puck Support"
+    ],
+    "description": "A possession entry drill built around a soft chip into space and an overlap. Two players exchange passes in neutral ice, chip the puck into the offensive zone, recover it with speed, overlap below the puck and create a quick scoring chance.",
+    "coaching_points": [
+      "Place the chip softly enough to be recovered around the hash marks.",
+      "Recover the puck at full speed and use a tight control turn.",
+      "Time the overlap so the second attacker arrives with speed.",
+      "Move the puck into scoring space and support the return pass."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/soft-chip-overlap-possession-hockey-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/soft-chip-overlap-possession.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/soft-chip-overlap-possession.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-offensive-blue-line-drill",
+    "number": 1014,
+    "title": "Offensive Blue Line Drill",
+    "category": "Passing / Shooting / Cycling",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Cycling",
+      "Offensive Zone",
+      "Defensive"
+    ],
+    "description": "An offensive-zone defense drill. A forward passes to the point and goes to the net while the defense walks the blue line for a low shot. The sequence then continues with a wall retrieval, drop pass and overlap to create a second scoring chance.",
+    "coaching_points": [
+      "Defense moves the feet and keeps the head up while walking the blue line.",
+      "Shoot low through the screen for tips and rebounds.",
+      "Forward establishes a strong net-front screen.",
+      "Execute the wall drop and overlap with pace."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/offensive-blue-line-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/offensive-blue-line-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/offensive-blue-line-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-swiss-3-shot-transition",
+    "number": 1015,
+    "title": "Swiss 3 Shot Transition",
+    "category": "Passing / Shooting / Transition",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Transition",
+      "Half Ice",
+      "Defensive"
+    ],
+    "description": "A three-shot sequence emphasizing defense skills. The defense receives at the point and shoots through a screen, retrieves a loose puck in transition and hits a forward swinging through neutral ice, then receives another puck from the coach for the third shot.",
+    "coaching_points": [
+      "Defense gets off the wall before the point shot.",
+      "Forward screens and looks for a redirection.",
+      "Surround the retrieval and get the head up quickly.",
+      "Time the forward swing so the outlet is available with speed."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/swiss-3-shot-transition",
+    "image": "https://www.files.icehockeysystems.com/files/drills/swiss-3-shot-tranistion.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/swiss-3-shot-tranistion.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-protect-it",
+    "number": 1016,
+    "title": "Protect IT!",
+    "category": "Puck Protection / Small Area Game",
+    "drill_types": [
+      "Shooting",
+      "Small Area Games",
+      "Stickhandling",
+      "Battle Drills",
+      "Puck Protection"
+    ],
+    "description": "Two offensive players each protect a puck inside a faceoff circle while a defender tries to knock the pucks outside. After the timed battle, any player still possessing a puck can attack the net for a shot.",
+    "coaching_points": [
+      "Use the body to shield the puck from pressure.",
+      "Keep the feet moving in tight space.",
+      "Scan for the defender instead of staring at the puck.",
+      "Transition immediately from protection to attack on the whistle."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/protect-it",
+    "image": "https://www.files.icehockeysystems.com/files/drills/protect-it.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/protect-it.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-4-timer-shooting-drill",
+    "number": 1017,
+    "title": "4 Timer Shooting Drill",
+    "category": "Shooting / Half Ice",
+    "drill_types": [
+      "Shooting",
+      "Half Ice",
+      "Skill Development",
+      "One-Timer"
+    ],
+    "description": "A four-shot slot progression emphasizing quick releases while moving. The shooter attacks through four cone locations, repeatedly staying available to the passer for one-timers or catch-and-release shots while changing skating direction.",
+    "coaching_points": [
+      "Keep the feet moving through every shot.",
+      "Stay facing the passer while moving around the cones.",
+      "Use a one-timer when possible or a very quick catch-and-release.",
+      "Recover immediately after each shot and become available again."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/4-timer-shooting-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/4-timer-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/4-timer-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-criss-cross-overspeed",
+    "number": 1018,
+    "title": "Criss Cross Overspeed",
+    "category": "Skating / Overspeed / Shooting",
+    "drill_types": [
+      "Skating",
+      "Overspeed",
+      "Shooting",
+      "Half Ice",
+      "Warm Up"
+    ],
+    "description": "An overspeed skating pattern run from both corners. Players sprint through a criss-cross route around the circles and neutral-zone dot, pick up a puck near the blue line and attack the net for a shot without slowing their feet.",
+    "coaching_points": [
+      "Move the feet as fast as possible through the entire route.",
+      "Use hard crossovers through each turn.",
+      "Pick up the puck in stride.",
+      "Shoot from the top of the circles while the feet are still moving."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/criss-cross-overspeed",
+    "image": "https://www.files.icehockeysystems.com/files/drills/criss-cross-overspeed.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/criss-cross-overspeed.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-austrian-two-shot-drill",
+    "number": 1019,
+    "title": "Austrian Two Shot Drill",
+    "category": "Passing / Shooting / Half Ice",
+    "drill_types": [
+      "Passing",
+      "Shooting",
+      "Half Ice",
+      "Offensive Zone",
+      "Net Front"
+    ],
+    "description": "A two-shot offensive-zone sequence. The puck moves from the half wall to the blue line and across to the opposite wall for a quick shot, followed by a second point shot with the first shooter remaining at the net for a tip or screen.",
+    "coaching_points": [
+      "Move the puck quickly through the three-player passing sequence.",
+      "Shooter explodes off the wall into scoring space.",
+      "Follow the first shot to the net.",
+      "Use the net-front player as a screen or tip option on the second shot."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/austrian-two-shot-drill",
+    "image": "https://www.files.icehockeysystems.com/files/drills/austrian-2-shot-drill.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/austrian-2-shot-drill.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
+  },
+  {
+    "uid": "ihs-pk-conditioning",
+    "number": 1020,
+    "title": "PK Conditioning",
+    "category": "Skating / Conditioning / Half Ice",
+    "drill_types": [
+      "Skating",
+      "Half Ice",
+      "Conditioning",
+      "Penalty Kill"
+    ],
+    "description": "A half-ice conditioning drill using six lines at different depths. Players sprint inside-out to assigned wall locations, stop and recover to their starting point, with each line activating in sequence to simulate short penalty-kill effort patterns.",
+    "coaching_points": [
+      "Attack each wall location inside-out.",
+      "Stop under control and accelerate immediately back.",
+      "Keep each repetition short and explosive.",
+      "Maintain work quality across all three repetitions before rotating."
+    ],
+    "source": "Ice Hockey Systems",
+    "contributor": "Ice Hockey Systems",
+    "source_url": "https://icehockeysystems.com/hockey-drills/pk-conditioning",
+    "image": "https://www.files.icehockeysystems.com/files/drills/pk-conditioning.jpg",
+    "images": [
+      "https://www.files.icehockeysystems.com/files/drills/pk-conditioning.jpg"
+    ],
+    "original_diagram": true,
+    "member_only": true,
+    "status": "verified"
   }
 ]
