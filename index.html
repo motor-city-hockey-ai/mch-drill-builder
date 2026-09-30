@@ -57,7 +57,7 @@ button{cursor:pointer}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
 <body>
-<div class="app" id="app" data-build="20260928-1045">
+<div class="app" id="app" data-build="20260930-coaches-gss-1">
   <header class="header">
     <div class="brand"><div class="logo"><img src="assets/mch-logo.png?v=1" alt="Motor City Hockey logo"></div><div><h1>MOTOR CITY HOCKEY</h1><small>MISSION: FOREVER IMPACT</small></div></div>
     <div class="pill"><b>Build fast.</b> Export only what you need.</div>
@@ -215,7 +215,7 @@ button{cursor:pointer}
     if(!d)return placeholderImage;
     if(d.displayImage)return d.displayImage;
     if(d.library==='Hockey Drill Book')return d.image||d.diagram_image||placeholderImage;
-    if(d.library==='Coaches Site Drills'||d.library==='TPH Drills')return d.image||placeholderImage;
+    if(d.library==='Coaches Site Drills')return d.image||placeholderImage;
     if(d.image)return d.image;
     if(d.imgChunk!=null){
       const chunk=teamImageChunks.get(Number(d.imgChunk));
@@ -864,7 +864,7 @@ button{cursor:pointer}
   $('#nextDiagram').onclick=()=>showViewerImage(viewerImageIndex+1);
   $('#zoomIn').onclick=()=>setZoom(zoom+25);$('#zoomOut').onclick=()=>setZoom(zoom-25);$('#zoomFit').onclick=()=>setZoom(100);
   $('#addDiagram').onclick=async()=>{if(!viewerDrill)return;if(!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureDrillImage(viewerDrill);addSelected(viewerDrill,false);openViewer(viewerDrill);};
-  $('#addNotes').onclick=async()=>{if(!viewerDrill)return;if(viewerDrill.library==='TPH Drills'){setStatus('TPH diagrams are loading from the original PDF page. Export-image support is being finalized.','preview');return;}if(!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureDrillImage(viewerDrill);addSelected(viewerDrill,true);openViewer(viewerDrill);};
+  $('#addNotes').onclick=async()=>{if(!viewerDrill)return;if(!viewerDrill.image&&viewerDrill.imgChunk!=null)await ensureDrillImage(viewerDrill);addSelected(viewerDrill,true);openViewer(viewerDrill);};
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeViewer();});
 
   $('#librarySelect').addEventListener('change',()=>switchLibrary($('#librarySelect').value));
