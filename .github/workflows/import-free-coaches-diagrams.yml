@@ -1,5 +1,5 @@
 name: Import free Coaches Site diagrams
-# static-original-diagram-import-v2
+# static-original-diagram-import-v3
 
 on:
   push:
@@ -73,8 +73,8 @@ jobs:
           from PIL import Image
           from pathlib import Path
           specs = {
-              67: (0.055, 0.145, 0.945, 0.520),
-              68: (0.055, 0.145, 0.945, 0.520),
+              67: (0.055, 0.145, 0.945, 0.452),
+              68: (0.055, 0.145, 0.945, 0.452),
           }
           names = {
               67: 'david-sellin-3v3-layer-cake.png',
