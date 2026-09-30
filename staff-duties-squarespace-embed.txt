@@ -1,0 +1,20 @@
+<div id="mch-staff-duties-wrap" style="width:100%;">
+  <iframe
+    id="mchStaffDutiesFrame"
+    src="https://motor-city-hockey-ai.github.io/mch-drill-builder/staff-duties.html"
+    title="Motor City Hockey Skate Zones & Duties"
+    style="display:block;width:100%;height:900px;border:0;background:#fff;"
+    loading="eager"
+    allow="clipboard-write"
+  ></iframe>
+</div>
+<script>
+(function(){
+  var frame=document.getElementById("mchStaffDutiesFrame");
+  window.addEventListener("message",function(event){
+    if(!event.data || event.data.type!=="mch-staff-duties-height") return;
+    var h=Math.max(700,Math.min(6000,Number(event.data.height)||900));
+    frame.style.height=h+"px";
+  });
+})();
+</script>
