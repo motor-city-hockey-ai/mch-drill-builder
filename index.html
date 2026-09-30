@@ -57,7 +57,7 @@ button{cursor:pointer}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
 <body>
-<div class="app" id="app" data-build="20260930-free-only-1">
+<div class="app" id="app" data-build="20260930-free-static-1">
   <header class="header">
     <div class="brand"><div class="logo"><img src="assets/mch-logo.png?v=1" alt="Motor City Hockey logo"></div><div><h1>MOTOR CITY HOCKEY</h1><small>MISSION: FOREVER IMPACT</small></div></div>
     <div class="pill"><b>Build fast.</b> Export only what you need.</div>
@@ -512,9 +512,9 @@ button{cursor:pointer}
       title:d.title||'',
       category:d.category||'Other',
       source:d.source||'The Coaches Site',
-      image:'',
+      image:d.image||'',
       imgChunk:null,
-      originalVerified:!!(d.source_url&&d.source_page&&Array.isArray(d.diagram_rect))
+      originalVerified:!!(d.image||(d.source_url&&d.source_page&&Array.isArray(d.diagram_rect)))
     }));
     coachesByUid=new Map(coachesDatabase.map(d=>[d.uid,d]));
     refreshLibraryTotals();
