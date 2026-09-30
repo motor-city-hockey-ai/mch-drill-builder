@@ -898,7 +898,7 @@ function populateFocusControls(category,selectedKey){
   updateFocusLibraryStatus();
 }
 function loadCampDrillLibrary(){
-  return fetch("camp-drills.json?v=20260930-6",{cache:"no-store"})
+  return fetch("camp-drills.json?v=20260930-7",{cache:"no-store"})
     .then(function(r){if(!r.ok)throw new Error("Camp drill library unavailable");return r.json()})
     .then(function(data){
       if(!data||!data.focuses)throw new Error("Camp drill library invalid");
@@ -1512,6 +1512,186 @@ function drawCampSessionColumn(doc,key,label,time,x,y,w,h,imgData){
   var planH=h-(planY-y);
   drawCampStationPlanFit(doc,key,x+4,planY,w-8,planH);
 }
+
+function drawCampPdfTop(doc,y){
+  var x=14,w=764,scheduleH=32,gap=5,standH=64;
+
+  // Daily schedule - full day, one compact horizontal strip.
+  doc.setDrawColor(210);doc.roundedRect(x,y,w,scheduleH,4,4);
+  var col=w/8;
+  DAILY_SCHEDULE.forEach(function(r,i){
+    var xx=x+i*col;
+    if(i>0){doc.setDrawColor(232);doc.line(xx,y+4,xx,y+scheduleH-4)}
+    doc.setFont("helvetica","bold");doc.setFontSize(5.2);doc.setTextColor(0);
+    doc.text(r[1],xx+col/2,y+11,{align:"center",maxWidth:col-6});
+    doc.setFont("helvetica","normal");doc.setFontSize(4.45);doc.setTextColor(85);
+    doc.text(r[0],xx+col/2,y+22,{align:"center",maxWidth:col-6});
+  });
+
+  // Staff standards - full wording, 3 columns x 2 rows.
+  var sy=y+scheduleH+gap;
+  doc.setDrawColor(210);doc.roundedRect(x,sy,w,standH,4,4);
+  doc.setFillColor(17,17,17);doc.rect(x,sy,w,14,"F");
+  doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(6.2);
+  doc.text("STAFF STANDARDS - REQUIRED FOR EVERY CAMP",x+5,sy+9.5);
+  doc.setTextColor(0);
+
+  var standards=campStandardsRows(),cw=(w-14)/3,rowH=23;
+  standards.forEach(function(r,i){
+    var cx=x+5+(i%3)*cw,cy=sy+22+Math.floor(i/3)*rowH;
+    doc.setFont("helvetica","bold");doc.setFontSize(4.3);doc.setTextColor(145,20,30);
+    doc.text(r[0],cx,cy,{maxWidth:cw-8});
+    doc.setFont("helvetica","normal");doc.setFontSize(3.95);doc.setTextColor(45);
+    var lines=doc.splitTextToSize(r[1],cw-8);
+    doc.text(lines,cx,cy+5);
+  });
+  doc.setTextColor(0);
+  return scheduleH+gap+standH;
+}
+
+function drawCampPdfOps(doc,x,y,w,h){
+  var yy=y,gap=5;
+
+  // CAMP DUTIES
+  var vals=ensureTasks("camp",CAMP_TASKS),duties=[];
+  CAMP_TASKS.forEach(function(n,i){
+    if(!state.taskHidden["camp-"+i])duties.push([n,staffName(vals[i]||"")||"—"]);
+  });
+  var dutyRows=duties.map(function(r){
+    var lines=doc.splitTextToSize(r[0],w*.66);
+    return{task:r[0],coach:r[1],lines:lines,h:Math.max(11,lines.length*4.7+4)};
+  });
+  var dutyH=15+dutyRows.reduce(function(s,r){return s+r.h},0);
+  doc.setDrawColor(210);doc.roundedRect(x,yy,w,dutyH,4,4);pdfBoxHead(doc,"CAMP DUTIES",x,yy,w);
+  var dy=yy+19;
+  dutyRows.forEach(function(r){
+    doc.setFont("helvetica","bold");doc.setFontSize(4.35);doc.setTextColor(0);
+    doc.text(r.lines,x+5,dy+4);
+    doc.setFont("helvetica","bold");doc.setFontSize(4.2);
+    doc.text(r.coach,x+w-5,dy+4,{align:"right",maxWidth:w*.28});
+    dy+=r.h;doc.setDrawColor(238);doc.line(x+4,dy-1,x+w-4,dy-1);
+  });
+  yy+=dutyH+gap;
+
+  // OFF-ICE STATIONS
+  var office=[];
+  for(var oi=1;oi<=4;oi++){
+    if(!(state.offIceHidden&&state.offIceHidden[oi]))office.push([oi,ensureOffIce(oi)]);
+  }
+  var officeH=15+office.length*13;
+  doc.setDrawColor(210);doc.roundedRect(x,yy,w,officeH,4,4);pdfBoxHead(doc,"OFF-ICE STATIONS",x,yy,w);
+  office.forEach(function(r,i){
+    var ry=yy+23+i*13,d=r[1];
+    doc.setFont("helvetica","bold");doc.setFontSize(4.4);doc.setTextColor(0);
+    doc.text("S"+r[0]+"  "+(d.activity||"—"),x+5,ry,{maxWidth:w*.62});
+    doc.text(staffName(d.coach)||"—",x+w-5,ry,{align:"right",maxWidth:w*.31});
+  });
+  yy+=officeH+gap;
+
+  // LOCKER ROOMS
+  var lockerH=15+6*10;
+  doc.setDrawColor(210);doc.roundedRect(x,yy,w,lockerH,4,4);pdfBoxHead(doc,"LOCKER ROOMS",x,yy,w);
+  for(var li=1;li<=6;li++){
+    var lr=ensureRoom(li),names=[staffName(lr.coach1),staffName(lr.coach2)].filter(Boolean).join(" / ")||"—";
+    var ry=yy+23+(li-1)*10;
+    doc.setFont("helvetica","bold");doc.setFontSize(4.5);doc.text("Room "+li,x+5,ry);
+    doc.text(names,x+w-5,ry,{align:"right",maxWidth:w-46});
+  }
+  yy+=lockerH;
+  return yy-y;
+}
+
+function campPdfPlanMetrics(doc,key,w,fs){
+  var cfg=configForRink(key),lineH=fs*1.12;
+  var rows=cfg.stations.map(function(s){
+    var a=effectiveAssign(key,s.id);
+    var coaches=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean).join(" / ")||"—";
+    var d=stationFocusDetails(stationFocusValue(key,s.id));
+    if(!d){
+      return{station:s.label,coaches:coaches,focus:"",name:"No drill selected",desc:"",descLines:[],titleLines:[],h:12};
+    }
+    var title=d.category+" - "+d.name;
+    var titleLines=doc.splitTextToSize(title,w-10);
+    var desc=String(d.description||"");
+    var descLines=doc.splitTextToSize(desc,w-10);
+    // Full title + every description line. Nothing is truncated.
+    var h=7+titleLines.length*lineH+descLines.length*lineH+6;
+    return{station:s.label,coaches:coaches,focus:d.category,name:d.name,desc:desc,descLines:descLines,titleLines:titleLines,h:Math.max(18,h)};
+  });
+  return{rows:rows,h:15+rows.reduce(function(sum,r){return sum+r.h},0),fs:fs,lineH:lineH};
+}
+
+function drawCampPdfPlan(doc,key,x,y,w,maxH){
+  var sizes=[5.2,5.0,4.8,4.6,4.4,4.2,4.0,3.8,3.6],m=null;
+  for(var i=0;i<sizes.length;i++){
+    var test=campPdfPlanMetrics(doc,key,w,sizes[i]);
+    if(test.h<=maxH){m=test;break}
+  }
+  if(!m)m=campPdfPlanMetrics(doc,key,w,3.6);
+
+  // Important: no clipping box and no max-height truncation. The selected size
+  // is chosen only after the complete descriptions fit in the available height.
+  doc.setDrawColor(210);doc.roundedRect(x,y,w,m.h,4,4);
+  doc.setFillColor(245,245,245);doc.rect(x,y,w,15,"F");
+  doc.setTextColor(0);doc.setFont("helvetica","bold");doc.setFontSize(6);
+  doc.text("FULL TRAINER INSTRUCTIONS",x+5,y+10);
+
+  var yy=y+15;
+  m.rows.forEach(function(r){
+    doc.setTextColor(0);doc.setFont("helvetica","bold");doc.setFontSize(m.fs+.25);
+    doc.text(r.station,x+5,yy+5,{maxWidth:w*.43});
+    doc.setFontSize(m.fs);doc.text(r.coaches,x+w-5,yy+5,{align:"right",maxWidth:w*.50});
+
+    if(r.titleLines.length){
+      doc.setTextColor(145,20,30);doc.setFont("helvetica","bold");doc.setFontSize(m.fs);
+      doc.text(r.titleLines,x+5,yy+5+m.lineH);
+      var descY=yy+5+m.lineH+r.titleLines.length*m.lineH;
+      doc.setTextColor(35);doc.setFont("helvetica","normal");doc.setFontSize(m.fs);
+      doc.text(r.descLines,x+5,descY);
+    }else{
+      doc.setTextColor(120);doc.setFont("helvetica","normal");doc.setFontSize(m.fs);
+      doc.text("No drill selected",x+5,yy+5+m.lineH);
+    }
+    yy+=r.h;doc.setDrawColor(238);doc.line(x+4,yy-1,x+w-4,yy-1);
+  });
+  doc.setTextColor(0);
+  return m.h;
+}
+
+function drawCampPdfSession(doc,key,label,time,x,y,w,h,imgData){
+  var headH=17,gap=5,minRinkH=64,planW=w-8;
+  doc.setFillColor(17,17,17);doc.roundedRect(x,y,w,headH,4,4,"F");
+  doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(6.8);
+  doc.text(label+" SESSION",x+6,y+11);
+  doc.setFontSize(5.8);doc.text(time,x+w-6,y+11,{align:"right"});
+  doc.setTextColor(0);
+
+  // First determine how much height the COMPLETE instruction set needs.
+  var maxPlanH=h-headH-gap-minRinkH-gap;
+  var preview=campPdfPlanMetrics(doc,key,planW,5.2),chosen=preview;
+  var sizes=[5.2,5.0,4.8,4.6,4.4,4.2,4.0,3.8,3.6];
+  for(var i=0;i<sizes.length;i++){
+    var t=campPdfPlanMetrics(doc,key,planW,sizes[i]);
+    chosen=t;
+    if(t.h<=maxPlanH)break;
+  }
+
+  var availableRinkH=h-headH-gap-chosen.h-gap;
+  var rinkH=Math.max(minRinkH,Math.min(118,availableRinkH));
+  // If long descriptions need more room, shrink the rink before shrinking text further.
+  var planMax=h-headH-gap-rinkH-gap;
+  if(chosen.h>planMax){
+    rinkH=Math.max(48,h-headH-gap-chosen.h-gap);
+    planMax=h-headH-gap-rinkH-gap;
+  }
+
+  var rinkW=Math.min(w-24,rinkH*1.5),rinkX=x+(w-rinkW)/2,rinkY=y+headH+gap;
+  drawCampRinkCompact(doc,key,rinkX,rinkY,rinkW,imgData);
+  var planY=rinkY+rinkH+gap;
+
+  // Re-measure at the final width/height and only draw after full text fits.
+  drawCampPdfPlan(doc,key,x+4,planY,planW,planMax);
+}
 async function exportPDF(){
   var p=currentProgram();if(!p){alert("Choose Monday Training or Camps first.");return}
   var btn=document.getElementById("mch15-export"),old=btn.textContent;btn.textContent="Building PDF…";btn.disabled=true;
@@ -1532,16 +1712,20 @@ async function exportPDF(){
       var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;
       drawHeader(doc,f.title+" - Camp Staff Plan");
 
-      var pageY=50,pageBottom=596,pageH=pageBottom-pageY;
-      var sideX=14,sideW=176,gap=12,sessionW=282;
+      // One physical landscape Letter page. Full selected drill descriptions are mandatory.
+      var topY=48;
+      var topH=drawCampPdfTop(doc,topY);
+      var bodyY=topY+topH+7,bodyBottom=598,bodyH=bodyBottom-bodyY;
+
+      var sideX=14,sideW=154,gap=8,sessionW=301;
       var amX=sideX+sideW+gap,pmX=amX+sessionW+gap;
 
-      drawCampSidebar(doc,sideX,pageY,sideW,pageH);
+      drawCampPdfOps(doc,sideX,bodyY,sideW,bodyH);
 
       var img=await urlToData(f.url);
       var amKey="camp-"+state.campFormat+"-am",pmKey="camp-"+state.campFormat+"-pm";
-      if(!state.deleted[amKey])drawCampSessionColumn(doc,amKey,"AM","9:00-10:30 AM",amX,pageY,sessionW,pageH,img);
-      if(!state.deleted[pmKey])drawCampSessionColumn(doc,pmKey,"PM","12:30-2:00 PM",pmX,pageY,sessionW,pageH,img);
+      if(!state.deleted[amKey])drawCampPdfSession(doc,amKey,"AM","9:00-10:30 AM",amX,bodyY,sessionW,bodyH,img);
+      if(!state.deleted[pmKey])drawCampPdfSession(doc,pmKey,"PM","12:30-2:00 PM",pmX,bodyY,sessionW,bodyH,img);
     }
     doc.save("Motor-City-Hockey-Skate-Zones-Duties.pdf");
   }catch(err){console.error(err);alert("PDF export could not load. Check your internet connection and try again.")}
