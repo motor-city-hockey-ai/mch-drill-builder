@@ -57,7 +57,7 @@ button{cursor:pointer}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
 <body>
-<div class="app" id="app" data-build="20260930-coaches-gss-1">
+<div class="app" id="app" data-build="20260930-free-only-1">
   <header class="header">
     <div class="brand"><div class="logo"><img src="assets/mch-logo.png?v=1" alt="Motor City Hockey logo"></div><div><h1>MOTOR CITY HOCKEY</h1><small>MISSION: FOREVER IMPACT</small></div></div>
     <div class="pill"><b>Build fast.</b> Export only what you need.</div>
@@ -74,7 +74,7 @@ button{cursor:pointer}
   <main class="main" id="drillMain">
     <section class="quick">
       <div class="quick-grid">
-        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 2,464 Drills</option><option value="coaches">Coaches Site — 150 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 850 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Skill Drills — 455 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
+        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 2,464 Drills</option><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 850 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Skill Drills — 455 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
         <div class="field"><label>LOOK UP DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
         <button class="btn red" id="quickAdd">Find Drill</button>
@@ -381,7 +381,7 @@ button{cursor:pointer}
     const turk=teamDatabase?teamDatabase.filter(d=>teamGroup(d)==='turk').length:manifestCount('turk',220);
     const weiss=teamDatabase?teamDatabase.filter(d=>teamGroup(d)==='weiss').length:manifestCount('weiss',258);
     const skills=travelDatabase?travelDatabase.length:manifestCount('rich-skills',452);
-    const coaches=coachesDatabase?coachesDatabase.length:manifestCount('coaches',150);
+    const coaches=coachesDatabase?coachesDatabase.length:manifestCount('coaches',146);
     const book=bookDatabase?bookDatabase.length:manifestCount('book',446);
     const ihs=ihsDatabase?ihsDatabase.length:manifestCount('ihs',1206);
     const ihsIndividual=ihsDatabase
@@ -502,7 +502,7 @@ button{cursor:pointer}
   async function loadCoaches(){
     if(coachesDatabase)return coachesDatabase;
     showLoading('Loading Coaches Site Drills library…');
-    const r=await fetch('data/coaches-site/coaches-site-drills.json?v=22',{cache:'no-store'});
+    const r=await fetch('data/coaches-site/coaches-site-drills.json?v=23',{cache:'no-store'});
     if(!r.ok)throw new Error('Coaches Site metadata returned '+r.status);
     const rows=await r.json();
     coachesDatabase=(Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({
@@ -908,7 +908,8 @@ button{cursor:pointer}
   };
 
   const requestedLibrary=new URLSearchParams(location.search).get('library');
-  const initialLibrary=requestedLibrary==='travel'?'rich-skills':(requestedLibrary==='team'?'rich-full':(['all','coaches','book','ihs','rich-full','rich-skills','turk','weiss'].includes(requestedLibrary)?requestedLibrary:'coaches'));
+  const normalizedRequestedLibrary=requestedLibrary==='tph'?'coaches':requestedLibrary;
+  const initialLibrary=normalizedRequestedLibrary==='travel'?'rich-skills':(normalizedRequestedLibrary==='team'?'rich-full':(['all','coaches','book','ihs','rich-full','rich-skills','turk','weiss'].includes(normalizedRequestedLibrary)?normalizedRequestedLibrary:'coaches'));
   $('#librarySelect').value=initialLibrary;
   restoreSelected();loadLibraryCountManifest();switchLibrary(initialLibrary);
 })();
