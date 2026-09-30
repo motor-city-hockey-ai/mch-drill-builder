@@ -1,0 +1,71 @@
+name: Import free Coaches Site diagrams
+
+on:
+  push:
+    paths:
+      - '.github/workflows/import-free-coaches-diagrams.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-gss:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+          python -m pip install --quiet pillow
+      - name: Download free 2024 GSS drill book
+        run: |
+          mkdir -p /tmp/gss assets/coaches-site/gss-2024
+          curl -L --fail --retry 3 --retry-delay 2 \
+            'https://20096218.fs1.hubspotusercontent-na1.net/hubfs/20096218/GSS/Drill%20Book/Global%20Skills%20Showcase%20Drill%20Book%20-%202024.pdf' \
+            -o /tmp/gss/gss2024.pdf
+      - name: Render and crop original Kevin Galerno diagrams
+        run: |
+          pdftoppm -f 22 -l 25 -r 180 -png -singlefile /tmp/gss/gss2024.pdf /tmp/gss/page22
+          pdftoppm -f 23 -l 23 -r 180 -png -singlefile /tmp/gss/gss2024.pdf /tmp/gss/page23
+          pdftoppm -f 24 -l 24 -r 180 -png -singlefile /tmp/gss/gss2024.pdf /tmp/gss/page24
+          pdftoppm -f 25 -l 25 -r 180 -png -singlefile /tmp/gss/gss2024.pdf /tmp/gss/page25
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          specs = {
+              22: (0.065, 0.180, 0.935, 0.493),
+              23: (0.065, 0.205, 0.935, 0.500),
+              24: (0.065, 0.205, 0.935, 0.500),
+              25: (0.065, 0.205, 0.935, 0.500),
+          }
+          names = {
+              22: 'kevin-galerno-decision-making-warm-up.png',
+              23: 'kevin-galerno-awareness-possession.png',
+              24: 'kevin-galerno-nz-retrieval-oz-entry.png',
+              25: 'kevin-galerno-long-rim-retrieval.png',
+          }
+          out = Path('assets/coaches-site/gss-2024')
+          out.mkdir(parents=True, exist_ok=True)
+          for p, frac in specs.items():
+              src=Path(f'/tmp/gss/page{p}.png')
+              im=Image.open(src).convert('RGB')
+              w,h=im.size
+              x0,y0,x1,y1=frac
+              crop=im.crop((round(w*x0),round(h*y0),round(w*x1),round(h*y1)))
+              crop.save(out/names[p], optimize=True, quality=95)
+              print(p, im.size, crop.size, out/names[p])
+          PY
+      - name: Commit original diagram crops
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/coaches-site/gss-2024/*.png
+          if git diff --cached --quiet; then
+            echo 'No diagram changes'
+          else
+            git commit -m 'Add free original GSS Kevin Galerno diagram crops'
+            git push
+          fi
