@@ -240,13 +240,13 @@ function layoutOptions(selected){
  return Object.entries(LAYOUTS).map(([k,v])=>'<option value="'+k+'" '+(k===selected?'selected':'')+'>'+esc(v.name)+'</option>').join('');
 }
 function layoutVisual(skate){
+ const tags='<div class="station-layer">'+(skate.showLabels?skate.stations.map(st=>'<span class="station-tag" data-marker="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'" style="left:'+Number(st.x)+'%;top:'+Number(st.y)+'%">'+esc(st.label.replace(/^IN-HOUSE |^ADV /,''))+'</span>').join(''):'')+'</div>';
  if(skate.layoutKey==='custom'&&skate.customImage){
-  return '<img src="'+skate.customImage+'" alt="Custom rink diagram" style="width:100%;height:100%;object-fit:contain">';
+  return '<img src="'+skate.customImage+'" alt="Custom rink diagram" style="width:100%;height:100%;object-fit:contain">'+tags;
  }
  const spec=LAYOUTS[skate.layoutKey]||LAYOUTS.blank;
  return rinkSvg(skate.layoutKey)+'<img class="rink-watermark" src="assets/mch-logo.png" alt="">'+
-  (skate.showLabels?spec.zoneLabels.map(z=>'<span class="zone-label" style="left:'+(z[1]/9)+'%;top:'+(z[2]/6)+'%">'+esc(z[0])+'</span>').join(''):'')+
-  '<div class="station-layer">'+(skate.showLabels?skate.stations.map(st=>'<span class="station-tag" data-marker="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'" style="left:'+Number(st.x)+'%;top:'+Number(st.y)+'%">'+esc(st.label.replace(/^IN-HOUSE |^ADV /,''))+'</span>').join(''):'')+'</div>';
+  (skate.showLabels?spec.zoneLabels.map(z=>'<span class="zone-label" style="left:'+(z[1]/9)+'%;top:'+(z[2]/6)+'%">'+esc(z[0])+'</span>').join(''):'')+tags;
 }
 function assignmentHeader(){return '<div class="assignment-head"><span>Assignment</span><span>Coach 1</span><span>Coach 2</span><span></span></div>';}
 function assignRow(row,kind,skateId,sectionId=''){
