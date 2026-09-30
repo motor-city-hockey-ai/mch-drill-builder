@@ -1,344 +1,951 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Motor City Hockey - Staff Assignment Builder</title>
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<style>
-:root{--red:#e51b23;--black:#090909;--ink:#171717;--muted:#707070;--line:#d9d9d9;--wash:#f5f5f5;--green:#1b8b4a;--blue:#1f72b4}
-*{box-sizing:border-box}
-html,body{margin:0;max-width:100%;overflow-x:hidden;background:#ededed;color:var(--ink);font-family:Arial,Helvetica,sans-serif}
-button,input,select,textarea{font:inherit}
-button{cursor:pointer}
-.app{width:100%;max-width:1600px;margin:0 auto;background:#fff;min-height:100vh}
-.header{background:#080808;color:#fff;border-bottom:5px solid var(--red);padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
-.brand{display:flex;align-items:center;gap:12px;min-width:0}.brand img{width:54px;height:54px;object-fit:contain}.brand h1{margin:0;font-size:25px;line-height:1.05}.brand small{display:block;margin-top:4px;color:#bbb;letter-spacing:1.6px;font-size:10px}
-.header-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
-.btn{border:0;border-radius:9px;padding:10px 13px;font-weight:900;min-height:40px}.btn.red{background:var(--red);color:#fff}.btn.dark{background:#292929;color:#fff}.btn.light{background:#eee;color:#111}.btn.outline{background:#fff;border:1px solid #bbb;color:#111}
-.main{padding:20px 24px 54px}
-.toolbar{background:#111;color:#fff;border-left:5px solid var(--red);border-radius:15px;padding:14px 16px;margin-bottom:12px}
-.toolbar-grid{display:grid;grid-template-columns:1.15fr 1fr 1fr 1fr auto auto;gap:9px;align-items:end}
-.field label{display:block;font-size:9px;letter-spacing:1.15px;font-weight:900;color:#bbb;margin-bottom:5px}.control{width:100%;height:43px;border:1px solid #555;border-radius:8px;background:#171717;color:#fff;padding:0 10px;min-width:0}
-.format-tabs{display:flex;gap:7px;overflow-x:auto;padding:2px 0 12px;scrollbar-width:thin}.format-tab{flex:0 0 auto;border:1px solid #ccc;border-radius:999px;background:#fff;padding:8px 13px;font-weight:900}.format-tab.active{background:#111;color:#fff;border-color:#111}
-.top-tools{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}
-.notice{background:#f5f5f5;border-left:4px solid var(--green);border-radius:8px;padding:9px 11px;margin-bottom:14px;font-size:12px}
-.skate{border:1px solid var(--line);border-radius:15px;overflow:hidden;background:#fff;margin:0 0 18px;box-shadow:0 4px 16px rgba(0,0,0,.04)}
-.skate-head{background:#111;color:#fff;padding:12px 14px;display:flex;align-items:center;justify-content:space-between;gap:12px}.skate-title{font-weight:900;font-size:17px}.skate-sub{font-size:11px;color:#aaa;margin-top:3px}.xbtn{width:33px;height:33px;border:0;border-radius:50%;background:var(--red);color:#fff;font-weight:900;font-size:17px}
-.skate-meta{display:grid;grid-template-columns:1.15fr .75fr 1fr 1.05fr auto;gap:8px;padding:11px 12px;background:#f7f7f7;border-bottom:1px solid #ddd;align-items:end}.meta-field label{display:block;font-size:9px;font-weight:900;letter-spacing:1px;color:#777;margin-bottom:4px}.meta-field input,.meta-field select{width:100%;height:37px;border:1px solid #c8c8c8;border-radius:8px;background:#fff;padding:0 8px}
-.skate-body{display:grid;grid-template-columns:minmax(0,1.48fr) minmax(330px,.72fr);gap:14px;padding:12px}
-.diagram-panel{min-width:0;border:1px solid #ddd;border-radius:12px;overflow:hidden;background:#fafafa}.diagram-tools{display:flex;gap:7px;flex-wrap:wrap;align-items:center;padding:8px;background:#eee;border-bottom:1px solid #ddd}.diagram-tools .hint{font-size:10px;color:#666;margin-left:auto}
-.rink-wrap{position:relative;background:#fff;aspect-ratio:3/2;min-height:360px;display:flex;align-items:center;justify-content:center;overflow:hidden}.rink-svg{display:block;width:100%;height:100%}.rink-watermark{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:16%;max-width:150px;opacity:.18;filter:grayscale(1);pointer-events:none;z-index:1}
-.station-layer{position:absolute;inset:0;pointer-events:none;z-index:3}.station-tag{position:absolute;transform:translate(-50%,-50%);background:#111;color:#fff;border:1px solid #fff;border-radius:2px;padding:3px 5px;font-size:9px;font-weight:900;line-height:1;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,.25);pointer-events:auto;cursor:move;touch-action:none}
-.zone-label{position:absolute;transform:translate(-50%,-50%);font-family:Georgia,serif;font-size:11px;color:#d5252f;white-space:nowrap;pointer-events:none;z-index:2}
-.side-panel{display:flex;flex-direction:column;gap:10px;min-width:0}.section{border:1px solid #ddd;border-radius:11px;padding:10px;background:#fff}.section h3{margin:0 0 7px;font-size:13px;display:flex;align-items:center;justify-content:space-between;gap:8px}.section-sub{font-size:10px;color:#777;margin:-3px 0 8px}
-.assignment-head{display:grid;grid-template-columns:minmax(100px,1fr) minmax(100px,.85fr) minmax(100px,.85fr) 28px;gap:5px;font-size:8px;color:#888;font-weight:900;text-transform:uppercase;letter-spacing:.7px;padding:0 0 4px}
-.assign-row{display:grid;grid-template-columns:minmax(100px,1fr) minmax(100px,.85fr) minmax(100px,.85fr) 28px;gap:5px;align-items:center;padding:5px 0;border-bottom:1px solid #eee;position:relative}.assign-row:last-child{border-bottom:0}.row-label{width:100%;height:32px;border:0;background:#fff;padding:0 4px;font-size:11px;font-weight:800}.assign-row select,.assign-row .custom-wrap input{width:100%;height:32px;border:1px solid #bbb;border-radius:7px;background:#fff;padding:0 6px;font-size:10px}.small-x{width:27px;height:27px;border:0;border-radius:50%;background:#eee;color:#a00;font-weight:900}
-.assign-wrap.custom .custom-wrap{display:block}.custom-wrap{display:none;margin-top:3px}
-.section-tools{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}.section-tools .btn{padding:7px 9px;min-height:31px;font-size:10px}
-.notes-area{width:100%;min-height:76px;border:1px solid #bbb;border-radius:7px;padding:7px;font-size:11px;resize:vertical}
-.staff-admin{border:1px solid #ddd;border-radius:12px;padding:11px;background:#fafafa;margin-top:14px}.staff-admin h3{margin:0 0 6px;font-size:14px}.staff-groups{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}.staff-group{background:#fff;border:1px solid #ddd;border-radius:9px;padding:8px}.staff-group h4{margin:0 0 6px;font-size:10px}.staff-list{display:flex;flex-wrap:wrap;gap:5px}.staff-chip{border:1px solid #ccc;border-radius:999px;background:#fff;padding:5px 7px;font-size:9px;display:flex;align-items:center;gap:5px}.staff-chip button{border:0;background:none;color:#a00;font-weight:900;padding:0}
-.staff-add{display:grid;grid-template-columns:1fr 170px auto;gap:7px;margin-top:9px}.staff-add input,.staff-add select{height:37px;border:1px solid #bbb;border-radius:8px;background:#fff;padding:0 8px}
-.mobile-sticky{display:none}
-@media(max-width:1180px){
- .toolbar-grid{grid-template-columns:1fr 1fr 1fr}.skate-body{grid-template-columns:1fr}.side-panel{display:grid;grid-template-columns:1fr 1fr}.rink-wrap{min-height:340px}.staff-groups{grid-template-columns:1fr 1fr}
-}
-@media(max-width:820px){
- .header{padding:14px}.brand h1{font-size:21px}.brand img{width:46px;height:46px}.main{padding:14px 11px 78px}.toolbar{padding:12px}.toolbar-grid{grid-template-columns:1fr 1fr}.skate-meta{grid-template-columns:1fr 1fr}.side-panel{grid-template-columns:1fr}.rink-wrap{min-height:300px}.assignment-head,.assign-row{grid-template-columns:minmax(95px,1fr) minmax(90px,.9fr) minmax(90px,.9fr) 28px}.staff-groups{grid-template-columns:1fr 1fr}
-}
-@media(max-width:600px){
- .header{flex-direction:column;align-items:stretch}.header-actions{display:grid;grid-template-columns:1fr 1fr}.header-actions .btn{width:100%}.brand h1{font-size:19px}.brand small{font-size:9px}
- .toolbar-grid{grid-template-columns:1fr}.skate-meta{grid-template-columns:1fr}.skate-body{padding:7px}.rink-wrap{min-height:0;aspect-ratio:3/2}.rink-watermark{width:19%}.diagram-tools .btn{flex:1 1 43%;font-size:10px;padding:8px}.diagram-tools .hint{width:100%;margin:0}
- .station-tag{font-size:7px;padding:2px 3px}.zone-label{font-size:8px}
- .assignment-head{display:none}.assign-row{grid-template-columns:1fr 1fr;padding-right:34px}.row-label{grid-column:1/-1;border:1px solid #ddd;border-radius:7px;padding:0 7px}.assign-row .small-x{position:absolute;right:0;top:28px}.staff-groups{grid-template-columns:1fr}.staff-add{grid-template-columns:1fr}
- .mobile-sticky{display:grid;position:fixed;left:0;right:0;bottom:0;z-index:100;grid-template-columns:1fr 1fr;gap:7px;background:#111;border-top:3px solid var(--red);padding:7px 9px calc(7px + env(safe-area-inset-bottom))}.mobile-sticky .btn{width:100%}
-}
-@media print{
- html,body{background:#fff}.app{max-width:none}.header{padding:9px 12px}.brand img{width:40px;height:40px}.brand h1{font-size:19px}.header-actions,.toolbar,.format-tabs,.top-tools,.notice,.diagram-tools,.staff-admin,.xbtn,.small-x,.edit-only,.mobile-sticky{display:none!important}
- .main{padding:7px}.skate{box-shadow:none;border:1px solid #aaa;break-inside:avoid;margin-bottom:9px}.skate-head{padding:7px 9px}.skate-meta{display:none}.skate-body{grid-template-columns:1.42fr .58fr;padding:7px;gap:7px}.rink-wrap{min-height:0;aspect-ratio:3/2}.section{padding:6px}.section h3{font-size:10px}.assignment-head{display:none}.assign-row{grid-template-columns:1fr 92px 92px;padding:3px 0;gap:4px}.assign-row select,.assign-row input,.notes-area{border:0!important;height:auto;padding:0;font-size:8px}.station-tag{font-size:7px;padding:2px 3px}
-}
-.pdf-mode .edit-only,.pdf-mode .toolbar,.pdf-mode .format-tabs,.pdf-mode .top-tools,.pdf-mode .notice,.pdf-mode .diagram-tools,.pdf-mode .staff-admin,.pdf-mode .xbtn,.pdf-mode .small-x,.pdf-mode .mobile-sticky{display:none!important}
-.pdf-mode .main{padding:9px}.pdf-mode .skate{box-shadow:none}.pdf-mode .skate-meta{display:none}.pdf-mode .skate-body{grid-template-columns:1.42fr .58fr}.pdf-mode .assign-row select,.pdf-mode .assign-row input,.pdf-mode .notes-area{border:0!important;background:#fff!important}
-</style>
-</head>
-<body>
-<div class="app">
-<header class="header">
- <div class="brand"><img src="assets/mch-logo.png" alt="Motor City Hockey"><div><h1>MOTOR CITY HOCKEY</h1><small>STAFF ASSIGNMENT BUILDER</small></div></div>
- <div class="header-actions edit-only">
-  <button class="btn dark" id="saveBtn">Save</button>
-  <button class="btn dark" id="backupBtn">Backup</button>
-  <button class="btn dark" id="restoreBtn">Restore</button>
-  <button class="btn red" id="pdfBtn">Export PDF</button>
-  <input id="restoreFile" type="file" accept="application/json" hidden>
- </div>
-</header>
-<main class="main">
- <section class="toolbar edit-only">
-  <div class="toolbar-grid">
-   <div class="field"><label>FORMAT</label><select class="control" id="formatSelect"></select></div>
-   <div class="field"><label>FORMAT NAME</label><input class="control" id="formatName"></div>
-   <div class="field"><label>DATE / LABEL</label><input class="control" id="dateLabel" placeholder="e.g. Monday, Oct. 5"></div>
-   <div class="field"><label>NEW FORMAT BASE</label><select class="control" id="presetSelect"><option value="monday">Monday Training</option><option value="camp">Camp Formats</option><option value="standard">Standard Ice</option><option value="blank">Blank Custom</option></select></div>
-   <button class="btn light" id="addFormatBtn">+ Format</button>
-   <button class="btn red" id="addSkateBtn">+ Skate</button>
+<!-- MOTOR CITY HOCKEY — SKATE ZONES & DUTIES — V15 STATIC-CORE BUILD -->
+<div id="mch-zones-v15">
+  <div class="mch15-shell">
+    <header class="mch15-header">
+      <div class="mch15-brand">
+        <img src="data:image/png;base64,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" alt="Motor City Hockey" class="mch15-logo">
+        <div>
+          <div class="mch15-kicker">MOTOR CITY HOCKEY</div>
+          <h1>Skate Zones &amp; Duties</h1>
+          <div id="mch15-subtitle" class="mch15-subtitle">Choose Day / Program Type</div>
+        </div>
+      </div>
+      <div class="mch15-header-actions">
+        <label><span>Date</span><input id="mch15-date" type="date"></label>
+        <div class="mch15-staff-state"><span id="mch15-dot"></span><span id="mch15-staff-text">Staff Sheet snapshot</span></div>
+        <button type="button" class="mch15-btn mch15-btn-dark" id="mch15-refresh-staff">Refresh Staff</button>
+        <button type="button" class="mch15-btn mch15-btn-red" id="mch15-export">Download 1-Page PDF</button>
+      </div>
+    </header>
+
+    <div class="mch15-program-title">
+      <div class="mch15-eyebrow">CHOOSE DAY / PROGRAM TYPE</div>
+      <div>Nothing opens until you choose the schedule you want to build.</div>
+    </div>
+
+    <input class="mch15-program-radio" type="radio" name="mch15-program" id="mch15-program-monday" value="monday">
+    <input class="mch15-program-radio" type="radio" name="mch15-program" id="mch15-program-camp" value="camp">
+
+    <nav class="mch15-tabs">
+      <label for="mch15-program-monday">Monday Training<small>3 sheets / 2 rink task sets</small></label>
+      <label for="mch15-program-camp">Camps<small>AM + PM / shared camp operations</small></label>
+    </nav>
+
+    <div class="mch15-choice">
+      <strong>Select Monday Training or Camps above.</strong>
+      <span>The diagrams are already loaded underneath and open immediately when selected.</span>
+    </div>
+
+    <section class="mch15-view mch15-monday">
+      <div class="mch15-section-head">
+        <div><div class="mch15-eyebrow">MONDAY TRAINING</div><h2>Three Sheets — One Plan</h2></div>
+        <div class="mch15-head-right">
+          <span>Coach names are placed directly inside the diagram under the station.</span>
+          <button type="button" class="mch15-restore" data-restore-program="monday" hidden>Restore Removed Diagram(s)</button>
+        </div>
+      </div>
+
+      <div class="mch15-rink-grid mch15-grid-3" id="mch15-monday-rinks">
+        <article class="mch15-rink-card" data-diagram="monday-610-c" data-physical-rink="Rink C">
+      <div class="mch15-rink-head">
+        <div><strong>Monday 6:10 PM</strong><span>Rink C</span></div>
+        <span class="mch15-badge">RINK C</span>
+      </div>
+      <div class="mch15-times">
+        <div class="mch15-times-title">Zone Time Changes</div>
+        <div class="mch15-time-row" data-count="4">
+        <strong>In-House</strong>
+        <div class="mch15-time-inputs"><input type="time" data-time-rink="monday-610-c" data-time-group="inhouse" data-time-index="0" aria-label="In-House change 1"><input type="time" data-time-rink="monday-610-c" data-time-group="inhouse" data-time-index="1" aria-label="In-House change 2"><input type="time" data-time-rink="monday-610-c" data-time-group="inhouse" data-time-index="2" aria-label="In-House change 3"><input type="time" data-time-rink="monday-610-c" data-time-group="inhouse" data-time-index="3" aria-label="In-House change 4"></div>
+    </div><div class="mch15-time-row" data-count="4">
+        <strong>Advanced</strong>
+        <div class="mch15-time-inputs"><input type="time" data-time-rink="monday-610-c" data-time-group="advanced" data-time-index="0" aria-label="Advanced change 1"><input type="time" data-time-rink="monday-610-c" data-time-group="advanced" data-time-index="1" aria-label="Advanced change 2"><input type="time" data-time-rink="monday-610-c" data-time-group="advanced" data-time-index="2" aria-label="Advanced change 3"><input type="time" data-time-rink="monday-610-c" data-time-group="advanced" data-time-index="3" aria-label="Advanced change 4"></div>
+    </div>
+      </div>
+      <div class="mch15-stage">
+        <img src="https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/7f24e963-93ff-4f8d-91d3-ff215f26372c/Monday+610PM.png?format=1500w" alt="Monday 6:10 PM Rink C rink diagram">
+        <button type="button" class="mch15-station" data-rink="monday-610-c" data-station="ih1" data-label="In-House Station 1"
+                style="left:11.6%;top:19.3%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="monday-610-c" data-station="ih2" data-label="In-House Station 2"
+                style="left:48.8%;top:19.3%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="monday-610-c" data-station="ih3" data-label="In-House Station 3"
+                style="left:48.2%;top:54.2%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="monday-610-c" data-station="ih4" data-label="In-House Station 4"
+                style="left:8.6%;top:60.7%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="monday-610-c" data-station="adv1" data-label="Advanced Station 1"
+                style="left:80.0%;top:19.3%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="monday-610-c" data-station="adv2" data-label="Advanced Station 2"
+                style="left:80.8%;top:57.6%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+      </div>
+      <button type="button" class="mch15-remove-diagram" data-delete-diagram="monday-610-c">× Remove Entire Diagram</button>
+    </article>
+        <article class="mch15-rink-card" data-diagram="monday-705-c" data-physical-rink="Rink C">
+      <div class="mch15-rink-head">
+        <div><strong>Monday 7:05 PM</strong><span>Rink C</span></div>
+        <span class="mch15-badge">RINK C</span>
+      </div>
+      <div class="mch15-times">
+        <div class="mch15-times-title">Zone Time Changes</div>
+        <div class="mch15-time-row" data-count="4">
+        <strong>In-House</strong>
+        <div class="mch15-time-inputs"><input type="time" data-time-rink="monday-705-c" data-time-group="inhouse" data-time-index="0" aria-label="In-House change 1"><input type="time" data-time-rink="monday-705-c" data-time-group="inhouse" data-time-index="1" aria-label="In-House change 2"><input type="time" data-time-rink="monday-705-c" data-time-group="inhouse" data-time-index="2" aria-label="In-House change 3"><input type="time" data-time-rink="monday-705-c" data-time-group="inhouse" data-time-index="3" aria-label="In-House change 4"></div>
+    </div><div class="mch15-time-row" data-count="4">
+        <strong>Advanced</strong>
+        <div class="mch15-time-inputs"><input type="time" data-time-rink="monday-705-c" data-time-group="advanced" data-time-index="0" aria-label="Advanced change 1"><input type="time" data-time-rink="monday-705-c" data-time-group="advanced" data-time-index="1" aria-label="Advanced change 2"><input type="time" data-time-rink="monday-705-c" data-time-group="advanced" data-time-index="2" aria-label="Advanced change 3"><input type="time" data-time-rink="monday-705-c" data-time-group="advanced" data-time-index="3" aria-label="Advanced change 4"></div>
+    </div>
+      </div>
+      <div class="mch15-stage">
+        <img src="https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/6cdb6d75-f5e3-4507-991e-58ded69e757a/Monday+705PM.png?format=1500w" alt="Monday 7:05 PM Rink C rink diagram">
+        <button type="button" class="mch15-station" data-rink="monday-705-c" data-station="ih1" data-label="In-House Station 1"
+                style="left:11.6%;top:19.3%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="monday-705-c" data-station="ih2" data-label="In-House Station 2"
+                style="left:48.8%;top:19.3%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="monday-705-c" data-station="ih3" data-label="In-House Station 3"
+                style="left:48.2%;top:54.2%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="monday-705-c" data-station="ih4" data-label="In-House Station 4"
+                style="left:8.6%;top:60.7%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="monday-705-c" data-station="adv1" data-label="Advanced Station 1"
+                style="left:80.0%;top:19.3%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="monday-705-c" data-station="adv2" data-label="Advanced Station 2"
+                style="left:80.8%;top:57.6%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+      </div>
+      <button type="button" class="mch15-remove-diagram" data-delete-diagram="monday-705-c">× Remove Entire Diagram</button>
+    </article>
+        <article class="mch15-rink-card" data-diagram="monday-705-b" data-physical-rink="Rink B">
+      <div class="mch15-rink-head">
+        <div><strong>Monday 7:05 PM</strong><span>Rink B</span></div>
+        <span class="mch15-badge">RINK B</span>
+      </div>
+      <div class="mch15-times">
+        <div class="mch15-times-title">Zone Time Changes</div>
+        <div class="mch15-time-row" data-count="3">
+        <strong>Rink B</strong>
+        <div class="mch15-time-inputs"><input type="time" data-time-rink="monday-705-b" data-time-group="rinkb" data-time-index="0" aria-label="Rink B change 1"><input type="time" data-time-rink="monday-705-b" data-time-group="rinkb" data-time-index="1" aria-label="Rink B change 2"><input type="time" data-time-rink="monday-705-b" data-time-group="rinkb" data-time-index="2" aria-label="Rink B change 3"></div>
+    </div>
+      </div>
+      <div class="mch15-stage">
+        <img src="https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/be530456-a5cb-46a1-be73-aa7055c7fb94/MONDAY+705PM+RINK+B.png?format=1500w" alt="Monday 7:05 PM Rink B rink diagram">
+        <button type="button" class="mch15-station" data-rink="monday-705-b" data-station="s1" data-label="Station 1"
+                style="left:79.0%;top:19.0%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="monday-705-b" data-station="s2" data-label="Station 2"
+                style="left:80.0%;top:57.0%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="monday-705-b" data-station="s3" data-label="Station 3"
+                style="left:56.2%;top:19.0%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+      </div>
+      <button type="button" class="mch15-remove-diagram" data-delete-diagram="monday-705-b">× Remove Entire Diagram</button>
+    </article>
+      </div>
+
+      <div class="mch15-monday-ops" id="mch15-monday-ops">
+        <section class="mch15-ops-card" id="mch15-rink-c-ops">
+      <div class="mch15-ops-head"><strong>Rink C Duties</strong><span>One set applies to both Monday Rink C skates.</span></div>
+      <div class="mch15-task-list"><div class="mch15-task-row" data-task-row="monday-c-0">
+          <div class="mch15-task-label">Equipment Bin Bring To The Rink</div>
+          <select class="mch15-staff-select" data-task-group="monday-c" data-task-index="0" aria-label="Equipment Bin Bring To The Rink coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="monday-c" data-task-index="0" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="monday-c-1">
+          <div class="mch15-task-label">Equipment Bin Back To Coaches Room</div>
+          <select class="mch15-staff-select" data-task-group="monday-c" data-task-index="1" aria-label="Equipment Bin Back To Coaches Room coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="monday-c" data-task-index="1" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="monday-c-2">
+          <div class="mch15-task-label">Zone Changes &amp; Lead Coach</div>
+          <select class="mch15-staff-select" data-task-group="monday-c" data-task-index="2" aria-label="Zone Changes &amp; Lead Coach coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="monday-c" data-task-index="2" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="monday-c-3">
+          <div class="mch15-task-label">Puck Lap</div>
+          <select class="mch15-staff-select" data-task-group="monday-c" data-task-index="3" aria-label="Puck Lap coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="monday-c" data-task-index="3" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="monday-c-4">
+          <div class="mch15-task-label">Make Sure All Locker Rooms Are Open For Players</div>
+          <select class="mch15-staff-select" data-task-group="monday-c" data-task-index="4" aria-label="Make Sure All Locker Rooms Are Open For Players coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="monday-c" data-task-index="4" aria-label="Remove task">×</button>
+        </div></div>
+    </section>
+        <section class="mch15-ops-card" id="mch15-rink-b-ops">
+      <div class="mch15-ops-head"><strong>Rink B Duties</strong><span>Separate rink = separate task set.</span></div>
+      <div class="mch15-task-list"><div class="mch15-task-row" data-task-row="monday-b-0">
+          <div class="mch15-task-label">Equipment Bin Bring To The Rink</div>
+          <select class="mch15-staff-select" data-task-group="monday-b" data-task-index="0" aria-label="Equipment Bin Bring To The Rink coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="monday-b" data-task-index="0" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="monday-b-1">
+          <div class="mch15-task-label">Equipment Bin Back To Coaches Room</div>
+          <select class="mch15-staff-select" data-task-group="monday-b" data-task-index="1" aria-label="Equipment Bin Back To Coaches Room coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="monday-b" data-task-index="1" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="monday-b-2">
+          <div class="mch15-task-label">Zone Changes &amp; Lead Coach</div>
+          <select class="mch15-staff-select" data-task-group="monday-b" data-task-index="2" aria-label="Zone Changes &amp; Lead Coach coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="monday-b" data-task-index="2" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="monday-b-3">
+          <div class="mch15-task-label">Puck Lap</div>
+          <select class="mch15-staff-select" data-task-group="monday-b" data-task-index="3" aria-label="Puck Lap coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="monday-b" data-task-index="3" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="monday-b-4">
+          <div class="mch15-task-label">Make Sure All Locker Rooms Are Open For Players</div>
+          <select class="mch15-staff-select" data-task-group="monday-b" data-task-index="4" aria-label="Make Sure All Locker Rooms Are Open For Players coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="monday-b" data-task-index="4" aria-label="Remove task">×</button>
+        </div></div>
+    </section>
+      </div>
+    </section>
+
+    <section class="mch15-view mch15-camp">
+      <div class="mch15-section-head mch15-camp-head">
+        <div>
+          <div class="mch15-eyebrow">CAMPS</div>
+          <h2>AM + PM</h2>
+          <div class="mch15-camp-note">PM starts with the same zone coaches as AM. Editing a PM zone changes PM only.</div>
+        </div>
+        <div class="mch15-head-right">
+          <label class="mch15-camp-picker"><span>Camp Format</span>
+            <select id="mch15-camp-format">
+              <option value="split">Camp: 3 ADV Zones &amp; 3 6U / 8U Zones</option>
+              <option value="six">Camp 6 Zones</option>
+              <option value="eight">Camp 8 Zones</option>
+            </select>
+          </label>
+          <button type="button" class="mch15-restore" data-restore-program="camp" hidden>Restore Removed Diagram(s)</button>
+        </div>
+      </div>
+
+      <section class="mch15-directions">
+        <div class="mch15-directions-title">Camp Staff Expectations — Read Before Camp</div>
+        <div class="mch15-directions-grid">
+          <div><strong>1. Arrival — 8:30 AM sharp.</strong> Be in the locker room ready to work. Help players get dressed and greet / communicate with every parent who attends.</div>
+          <div><strong>2. Off-Ice.</strong> Stay active with the players: coach, guide and supervise. Do not stand around doing nothing.</div>
+          <div><strong>3. Lunch.</strong> No cell phone use. Sit with the kids, communicate with them and stay engaged.</div>
+          <div><strong>4. Before the second ice hour.</strong> Help players get dressed and fully prepared for the ice.</div>
+          <div><strong>5. Locker-room supervision.</strong> Players are never allowed in a locker room without a coach. If a coach leaves, another coach must take over before that coach exits. Supervision must be continuous.</div>
+          <div><strong>6. Post-camp.</strong> Greet parents, give every player a high five and thank parents for coming when you are in the locker room.</div>
+        </div>
+      </section>
+
+      <div class="mch15-rink-grid mch15-grid-2" id="mch15-camp-rinks">
+        <article class="mch15-rink-card mch15-camp-card" data-diagram="camp-split-am" data-camp-session="AM">
+      <div class="mch15-rink-head">
+        <div><strong>Camp: 3 ADV Zones &amp; 3 6U / 8U Zones</strong><span>AM Session</span></div>
+        <span class="mch15-badge">AM</span>
+      </div>
+      <div class="mch15-stage">
+        <img class="mch15-camp-img" src="https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/d4a17506-bd8d-408a-bee9-363bca40646e/3+Zones+Each+Split+Camp+ADV+and+6U8U.png?format=1500w" alt="AM camp rink diagram">
+        <div class="mch15-camp-overlays">
+          <button type="button" class="mch15-station" data-rink="camp-split-am" data-station="u1" data-label="6U / 8U Station 1"
+                style="left:20.2%;top:18.9%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="camp-split-am" data-station="u2" data-label="6U / 8U Station 2"
+                style="left:41.8%;top:18.9%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="camp-split-am" data-station="u3" data-label="6U / 8U Station 3"
+                style="left:16.0%;top:81.4%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="camp-split-am" data-station="a1" data-label="Advanced Station 1"
+                style="left:57.8%;top:18.9%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="camp-split-am" data-station="a2" data-label="Advanced Station 2"
+                style="left:82.0%;top:18.9%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="camp-split-am" data-station="a3" data-label="Advanced Station 3"
+                style="left:82.0%;top:81.4%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+        </div>
+      </div>
+      <button type="button" class="mch15-remove-diagram" data-delete-diagram="camp-split-am">× Remove Entire Diagram</button>
+    </article>
+        <article class="mch15-rink-card mch15-camp-card" data-diagram="camp-split-pm" data-camp-session="PM">
+      <div class="mch15-rink-head">
+        <div><strong>Camp: 3 ADV Zones &amp; 3 6U / 8U Zones</strong><span>PM Session</span></div>
+        <span class="mch15-badge">PM</span>
+      </div>
+      <div class="mch15-stage">
+        <img class="mch15-camp-img" src="https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/d4a17506-bd8d-408a-bee9-363bca40646e/3+Zones+Each+Split+Camp+ADV+and+6U8U.png?format=1500w" alt="PM camp rink diagram">
+        <div class="mch15-camp-overlays">
+          <button type="button" class="mch15-station" data-rink="camp-split-pm" data-station="u1" data-label="6U / 8U Station 1"
+                style="left:20.2%;top:18.9%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="camp-split-pm" data-station="u2" data-label="6U / 8U Station 2"
+                style="left:41.8%;top:18.9%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="camp-split-pm" data-station="u3" data-label="6U / 8U Station 3"
+                style="left:16.0%;top:81.4%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="camp-split-pm" data-station="a1" data-label="Advanced Station 1"
+                style="left:57.8%;top:18.9%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="camp-split-pm" data-station="a2" data-label="Advanced Station 2"
+                style="left:82.0%;top:18.9%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+<button type="button" class="mch15-station" data-rink="camp-split-pm" data-station="a3" data-label="Advanced Station 3"
+                style="left:82.0%;top:81.4%;--sw:18%">
+                <span class="mch15-assign">+ Assign</span>
+                <span class="mch15-name1"></span>
+                <span class="mch15-name2"></span>
+            </button>
+        </div>
+      </div>
+      <button type="button" class="mch15-remove-diagram" data-delete-diagram="camp-split-pm">× Remove Entire Diagram</button>
+    </article>
+      </div>
+
+      <section class="mch15-camp-ops" id="mch15-camp-ops">
+        <div class="mch15-camp-ops-col">
+          <div class="mch15-subhead">Camp Tasks</div>
+          <section class="mch15-ops-card" id="mch15-camp-task-panel">
+      <div class="mch15-ops-head"><strong>Camp Tasks</strong><span>One shared set for AM + PM on the same rink.</span></div>
+      <div class="mch15-task-list"><div class="mch15-task-row" data-task-row="camp-0">
+          <div class="mch15-task-label">8:30AM Sharp In Locker Room Arrival</div>
+          <select class="mch15-staff-select" data-task-group="camp" data-task-index="0" aria-label="8:30AM Sharp In Locker Room Arrival coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="0" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="camp-1">
+          <div class="mch15-task-label">Equipment Bin Bring To The Rink</div>
+          <select class="mch15-staff-select" data-task-group="camp" data-task-index="1" aria-label="Equipment Bin Bring To The Rink coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="1" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="camp-2">
+          <div class="mch15-task-label">Equipment Bin Back To Coaches Room</div>
+          <select class="mch15-staff-select" data-task-group="camp" data-task-index="2" aria-label="Equipment Bin Back To Coaches Room coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="2" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="camp-3">
+          <div class="mch15-task-label">Zone Changes &amp; Lead Coach</div>
+          <select class="mch15-staff-select" data-task-group="camp" data-task-index="3" aria-label="Zone Changes &amp; Lead Coach coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="3" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="camp-4">
+          <div class="mch15-task-label">Puck Lap</div>
+          <select class="mch15-staff-select" data-task-group="camp" data-task-index="4" aria-label="Puck Lap coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="4" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="camp-5">
+          <div class="mch15-task-label">Make Sure All Locker Rooms Are Open For Players</div>
+          <select class="mch15-staff-select" data-task-group="camp" data-task-index="5" aria-label="Make Sure All Locker Rooms Are Open For Players coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="5" aria-label="Remove task">×</button>
+        </div><div class="mch15-task-row" data-task-row="camp-6">
+          <div class="mch15-task-label">Pizza</div>
+          <select class="mch15-staff-select" data-task-group="camp" data-task-index="6" aria-label="Pizza coach"></select>
+          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="6" aria-label="Remove task">×</button>
+        </div></div>
+    </section>
+        </div>
+        <div class="mch15-camp-ops-col">
+          <div class="mch15-subhead">Locker Room Assignments</div>
+          <div class="mch15-lockers"><div class="mch15-room" data-room="1">
+      <strong>Locker Room 1</strong>
+      <div class="mch15-room-selects">
+        <select class="mch15-staff-select" data-room="1" data-room-slot="1"></select>
+        <select class="mch15-staff-select mch15-second-room" data-room="1" data-room-slot="2" hidden></select>
+      </div>
+      <div class="mch15-room-actions">
+        <button type="button" class="mch15-small-btn" data-add-room-coach="1">+ Coach</button>
+        <button type="button" class="mch15-row-x" data-remove-room-coach="1" hidden>×</button>
+      </div>
+    </div><div class="mch15-room" data-room="2">
+      <strong>Locker Room 2</strong>
+      <div class="mch15-room-selects">
+        <select class="mch15-staff-select" data-room="2" data-room-slot="1"></select>
+        <select class="mch15-staff-select mch15-second-room" data-room="2" data-room-slot="2" hidden></select>
+      </div>
+      <div class="mch15-room-actions">
+        <button type="button" class="mch15-small-btn" data-add-room-coach="2">+ Coach</button>
+        <button type="button" class="mch15-row-x" data-remove-room-coach="2" hidden>×</button>
+      </div>
+    </div><div class="mch15-room" data-room="3">
+      <strong>Locker Room 3</strong>
+      <div class="mch15-room-selects">
+        <select class="mch15-staff-select" data-room="3" data-room-slot="1"></select>
+        <select class="mch15-staff-select mch15-second-room" data-room="3" data-room-slot="2" hidden></select>
+      </div>
+      <div class="mch15-room-actions">
+        <button type="button" class="mch15-small-btn" data-add-room-coach="3">+ Coach</button>
+        <button type="button" class="mch15-row-x" data-remove-room-coach="3" hidden>×</button>
+      </div>
+    </div><div class="mch15-room" data-room="4">
+      <strong>Locker Room 4</strong>
+      <div class="mch15-room-selects">
+        <select class="mch15-staff-select" data-room="4" data-room-slot="1"></select>
+        <select class="mch15-staff-select mch15-second-room" data-room="4" data-room-slot="2" hidden></select>
+      </div>
+      <div class="mch15-room-actions">
+        <button type="button" class="mch15-small-btn" data-add-room-coach="4">+ Coach</button>
+        <button type="button" class="mch15-row-x" data-remove-room-coach="4" hidden>×</button>
+      </div>
+    </div><div class="mch15-room" data-room="5">
+      <strong>Locker Room 5</strong>
+      <div class="mch15-room-selects">
+        <select class="mch15-staff-select" data-room="5" data-room-slot="1"></select>
+        <select class="mch15-staff-select mch15-second-room" data-room="5" data-room-slot="2" hidden></select>
+      </div>
+      <div class="mch15-room-actions">
+        <button type="button" class="mch15-small-btn" data-add-room-coach="5">+ Coach</button>
+        <button type="button" class="mch15-row-x" data-remove-room-coach="5" hidden>×</button>
+      </div>
+    </div><div class="mch15-room" data-room="6">
+      <strong>Locker Room 6</strong>
+      <div class="mch15-room-selects">
+        <select class="mch15-staff-select" data-room="6" data-room-slot="1"></select>
+        <select class="mch15-staff-select mch15-second-room" data-room="6" data-room-slot="2" hidden></select>
+      </div>
+      <div class="mch15-room-actions">
+        <button type="button" class="mch15-small-btn" data-add-room-coach="6">+ Coach</button>
+        <button type="button" class="mch15-row-x" data-remove-room-coach="6" hidden>×</button>
+      </div>
+    </div></div>
+        </div>
+      </section>
+    </section>
   </div>
- </section>
- <div class="format-tabs edit-only" id="formatTabs"></div>
- <div class="top-tools edit-only"><button class="btn light" id="duplicateFormatBtn">Duplicate Current Format</button><button class="btn light" id="deleteFormatBtn">Delete Current Format</button></div>
- <div class="notice edit-only"><b>Coach names start blank.</b> The staff list only feeds the dropdowns. Diagram layouts now match your rink formats with the bumpers built into the ice.</div>
- <div id="content"></div>
 
- <section class="staff-admin edit-only">
-  <h3>Staff List</h3>
-  <div class="section-sub">Names are available in dropdowns but are never assigned automatically.</div>
-  <div class="staff-groups" id="staffGroups"></div>
-  <div class="staff-add"><input id="newStaff" placeholder="Add coach / staff name"><select id="newStaffGroup"><option>Managers</option><option>Adult Lead Coaches</option><option>Student Coaches</option><option>Fill-In / Last Resort</option><option>Summer Only</option><option>Added Staff</option></select><button class="btn dark" id="addStaffBtn">Add Staff</button></div>
- </section>
-</main>
+  <div class="mch15-modal" id="mch15-assign-modal" aria-hidden="true">
+    <div class="mch15-modal-bg" data-close-modal></div>
+    <div class="mch15-dialog">
+      <button type="button" class="mch15-dialog-x" data-close-modal>×</button>
+      <div class="mch15-eyebrow">STATION ASSIGNMENT</div>
+      <h2 id="mch15-modal-title">Station</h2>
+      <p>Choose one or two coaches. If Coach 2 is blank, it does not appear on the PDF.</p>
+      <div class="mch15-dialog-grid">
+        <label><span>Coach 1</span><select class="mch15-staff-select" id="mch15-modal-coach1"></select></label>
+        <label><span>Coach 2</span><select class="mch15-staff-select" id="mch15-modal-coach2"></select></label>
+      </div>
+      <div class="mch15-dialog-actions">
+        <button type="button" class="mch15-btn mch15-btn-light" id="mch15-clear-station">Clear</button>
+        <button type="button" class="mch15-btn mch15-btn-red" id="mch15-save-station">Done</button>
+      </div>
+    </div>
+  </div>
 </div>
-<div class="mobile-sticky edit-only"><button class="btn dark" id="mobileSave">Save</button><button class="btn red" id="mobilePdf">Export PDF</button></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+#mch-zones-v15 {
+  --red:#c91f2c;--red2:#a81721;--black:#111;--ink:#181818;--muted:#6f6f6f;
+  --line:#dedede;--soft:#f6f6f6;--white:#fff;
+  font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.3;
+}
+#mch-zones-v15,#mch-zones-v15 *{box-sizing:border-box}
+#mch-zones-v15 button,#mch-zones-v15 input,#mch-zones-v15 select{font:inherit}
+#mch-zones-v15 button,#mch-zones-v15 label[for]{cursor:pointer}
+.mch15-shell{max-width:1680px;margin:0 auto;border:1px solid #e2e2e2;border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.07)}
+.mch15-header{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:17px 20px;background:#111;color:#fff}
+.mch15-brand{display:flex;align-items:center;gap:12px;min-width:0}
+.mch15-logo{width:62px;height:62px;object-fit:contain;border-radius:50%;background:#fff}
+.mch15-kicker,.mch15-eyebrow{font-size:10px;font-weight:900;letter-spacing:.12em;color:var(--red)}
+.mch15-header .mch15-kicker{color:#fff;opacity:.72}
+.mch15-brand h1{margin:2px 0 0;color:#fff;font-size:clamp(22px,2.2vw,34px);line-height:1}
+.mch15-subtitle{margin-top:5px;color:#aaa;font-size:11px;font-weight:700}
+.mch15-header-actions{display:flex;align-items:flex-end;justify-content:flex-end;gap:8px;flex-wrap:wrap}
+.mch15-header-actions label,.mch15-camp-picker{display:flex;flex-direction:column;gap:4px}
+.mch15-header-actions label span,.mch15-camp-picker span,.mch15-dialog label span{font-size:9px;font-weight:900;text-transform:uppercase;color:#888}
+.mch15-header-actions input,.mch15-camp-picker select,.mch15-dialog select{min-height:39px;padding:7px 9px;border:1px solid #ccc;border-radius:8px;background:#fff;color:#111}
+.mch15-staff-state{display:flex;align-items:center;gap:6px;min-height:39px;color:#aaa;font-size:9px;font-weight:800}
+#mch15-dot{width:8px;height:8px;border-radius:50%;background:#e2a400} #mch15-dot.live{background:#2eb85a}
+.mch15-btn{min-height:39px;padding:8px 12px;border:1px solid transparent;border-radius:8px;font-size:10px;font-weight:900}
+.mch15-btn-red{background:var(--red);border-color:var(--red);color:#fff} .mch15-btn-dark{background:#252525;border-color:#555;color:#fff} .mch15-btn-light{background:#fff;border-color:#d4d4d4;color:#111}
+.mch15-program-title{padding:14px 20px 10px;background:#151515;color:#999;font-size:10px;font-weight:700}
+.mch15-program-radio{position:absolute;opacity:0;pointer-events:none}
+.mch15-tabs{display:grid;grid-template-columns:1fr 1fr;background:#191919}
+.mch15-tabs label{position:relative;display:block;min-height:62px;padding:11px 20px;border-right:1px solid #333;color:#999;font-size:15px;font-weight:900}
+.mch15-tabs label:last-child{border-right:0} .mch15-tabs small{display:block;margin-top:2px;color:#686868;font-size:9px}
+#mch15-program-monday:checked ~ .mch15-tabs label[for="mch15-program-monday"],#mch15-program-camp:checked ~ .mch15-tabs label[for="mch15-program-camp"]{background:#242424;color:#fff}
+#mch15-program-monday:checked ~ .mch15-tabs label[for="mch15-program-monday"]::after,#mch15-program-camp:checked ~ .mch15-tabs label[for="mch15-program-camp"]::after{content:"";position:absolute;left:20px;right:20px;bottom:0;height:4px;background:var(--red)}
+.mch15-choice{padding:34px 20px;text-align:center;background:#fafafa;color:#777} .mch15-choice strong{display:block;color:#111;font-size:16px} .mch15-choice span{display:block;margin-top:5px;font-size:10px}
+.mch15-view{display:none;padding:20px}
+#mch15-program-monday:checked ~ .mch15-choice,#mch15-program-camp:checked ~ .mch15-choice{display:none}
+#mch15-program-monday:checked ~ .mch15-monday{display:block}
+#mch15-program-camp:checked ~ .mch15-camp{display:block}
+.mch15-section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:18px;margin-bottom:14px}
+.mch15-section-head h2{margin:3px 0 0;font-size:21px;line-height:1.05}
+.mch15-head-right{display:flex;align-items:flex-end;justify-content:flex-end;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:10px}
+.mch15-restore{min-height:32px;padding:6px 9px;border:1px solid #d4d4d4;border-radius:7px;background:#fff;font-size:8px;font-weight:900}
+.mch15-rink-grid{display:grid;justify-content:center;align-items:start;gap:14px} .mch15-grid-3{grid-template-columns:repeat(3,minmax(0,520px))} .mch15-grid-2{grid-template-columns:repeat(2,minmax(0,520px))} .mch15-grid-1{grid-template-columns:minmax(0,700px)}
+.mch15-rink-card{width:100%;max-width:520px;border:1px solid #dedede;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 5px 15px rgba(0,0,0,.045)}
+.mch15-rink-card[hidden]{display:none!important}
+.mch15-rink-head{display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:49px;padding:9px 11px;border-bottom:1px solid #e3e3e3;background:#fafafa}
+.mch15-rink-head strong{display:block;font-size:13px} .mch15-rink-head span:not(.mch15-badge){display:block;margin-top:2px;color:var(--muted);font-size:9px;font-weight:700} .mch15-badge{padding:4px 7px;border-radius:999px;background:#111;color:#fff;font-size:9px;font-weight:900}
+.mch15-times{padding:7px 9px 8px;border-bottom:1px solid #e4e4e4} .mch15-times-title{margin-bottom:5px;font-size:8px;font-weight:900;text-transform:uppercase}
+.mch15-time-row{display:grid;grid-template-columns:82px 1fr;gap:5px;align-items:center;margin-top:4px} .mch15-time-row strong{font-size:8px} .mch15-time-inputs{display:grid;gap:3px} .mch15-time-row[data-count="4"] .mch15-time-inputs{grid-template-columns:repeat(4,1fr)} .mch15-time-row[data-count="3"] .mch15-time-inputs{grid-template-columns:repeat(3,1fr)} .mch15-time-inputs input{width:100%;min-width:0;min-height:28px;padding:3px 2px;border:1px solid #d7d7d7;border-radius:5px;font-size:8px;text-align:center}
+.mch15-stage{position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;background:#fff} .mch15-stage>img{display:block;width:100%;height:100%;object-fit:contain}
+.mch15-station{position:absolute;z-index:3;transform:translateX(-50%);width:var(--sw,18%);min-height:25px;padding:2px 4px;border:1px dashed rgba(201,31,44,.72);border-radius:5px;background:rgba(255,255,255,.92);text-align:center;line-height:1.05}
+.mch15-station.filled{border-style:solid;border-left:3px solid var(--red)} .mch15-station span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap} .mch15-assign{color:var(--red);font-size:8px;font-weight:900} .mch15-name1,.mch15-name2{font-size:8px;font-weight:900;color:#111}
+.mch15-remove-diagram{width:100%;min-height:30px;border:0;border-top:1px solid #e2e2e2;background:#fff8f8;color:#9d111c;font-size:8px;font-weight:900}
+.mch15-monday-ops{display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-top:14px} .mch15-ops-card{border:1px solid #ddd;border-radius:12px;overflow:hidden;background:#fafafa} .mch15-ops-head{padding:8px 10px;background:#111;color:#fff} .mch15-ops-head strong{display:block;font-size:10px} .mch15-ops-head span{display:block;margin-top:2px;color:#aaa;font-size:8px}
+.mch15-task-list{display:grid;gap:5px;padding:8px} .mch15-task-row{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(130px,.7fr) 28px;gap:5px;align-items:center;min-height:32px;padding:4px 4px 4px 7px;border:1px solid #ddd;border-radius:7px;background:#fff} .mch15-task-label{font-size:8px;font-weight:800} .mch15-task-row select,.mch15-room select{width:100%;min-height:27px;padding:3px 5px;border:1px solid #d3d3d3;border-radius:6px;background:#fff;font-size:8px} .mch15-row-x{width:27px;height:27px;border:1px solid #dadada;border-radius:6px;background:#fff;color:#9d111c;font-weight:900}
+.mch15-directions{max-width:1054px;margin:0 auto 14px;padding:11px 12px;border:1px solid #d7d7d7;border-left:5px solid var(--red);border-radius:10px;background:#fff} .mch15-directions-title{margin-bottom:7px;font-size:10px;font-weight:900;text-transform:uppercase} .mch15-directions-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:6px 14px;color:#444;font-size:9px;line-height:1.3} .mch15-directions-grid strong{color:#111}
+.mch15-camp-note{margin-top:5px;color:var(--muted);font-size:10px} .mch15-camp-ops{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:1054px;margin:14px auto 0;padding:9px;border:1px solid #ddd;border-radius:12px;background:#fafafa} .mch15-subhead{margin-bottom:6px;font-size:9px;font-weight:900;text-transform:uppercase} .mch15-camp-ops .mch15-ops-card{border-radius:8px}
+.mch15-lockers{display:grid;gap:5px} .mch15-room{display:grid;grid-template-columns:74px minmax(0,1fr) auto;gap:5px;align-items:center;min-height:34px;padding:4px 5px;border:1px solid #ddd;border-radius:7px;background:#fff} .mch15-room>strong{font-size:8px} .mch15-room-selects{display:grid;grid-template-columns:1fr;gap:4px} .mch15-room-selects.two{grid-template-columns:1fr 1fr} .mch15-room-actions{display:flex;gap:4px} .mch15-small-btn{min-height:27px;padding:3px 6px;border:1px solid #d3d3d3;border-radius:6px;background:#f7f7f7;font-size:8px;font-weight:900}
+.mch15-modal{position:fixed;inset:0;z-index:999999;display:none;place-items:center} .mch15-modal.open{display:grid} .mch15-modal-bg{position:absolute;inset:0;background:rgba(0,0,0,.68)} .mch15-dialog{position:relative;z-index:1;width:min(580px,calc(100vw - 28px));padding:21px;border-radius:14px;background:#fff;box-shadow:0 24px 80px rgba(0,0,0,.35)} .mch15-dialog h2{margin:3px 0 0;font-size:22px} .mch15-dialog p{margin:7px 0 16px;color:var(--muted);font-size:11px} .mch15-dialog-x{position:absolute;right:11px;top:11px;width:35px;height:35px;border:1px solid #ddd;border-radius:50%;background:#fff;font-size:21px} .mch15-dialog-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px} .mch15-dialog-grid label{display:flex;flex-direction:column;gap:5px} .mch15-dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
+@media(max-width:1200px){.mch15-grid-3,.mch15-grid-2,.mch15-monday-ops{grid-template-columns:1fr}.mch15-rink-card,.mch15-ops-card,.mch15-camp-ops{width:100%;max-width:700px;margin-left:auto;margin-right:auto}}
+@media(max-width:760px){.mch15-header{align-items:flex-start;flex-direction:column;padding:15px}.mch15-header-actions{width:100%}.mch15-view{padding:14px 10px}.mch15-section-head{align-items:stretch;flex-direction:column}.mch15-head-right{align-items:stretch;flex-direction:column}.mch15-directions-grid,.mch15-camp-ops{grid-template-columns:1fr}.mch15-task-row,.mch15-room{grid-template-columns:1fr}.mch15-row-x{width:100%}.mch15-dialog-grid{grid-template-columns:1fr}}
+</style>
+
 <script>
-(()=>{
-const STORAGE='mch-staff-duties-v3';
-const DEFAULT_GROUPS={
- 'Managers':['Rich Mihelic','Nick Spinale'],
- 'Adult Lead Coaches':['Mitch Hall','Reid Marshall','Luke Peck','Ary Batra'],
- 'Student Coaches':['Anthony Delpup','Austin Combs','Mikayla Ratliff','Max Neill','Chase Dewey','Luke Forrest','Jack Gentz','Patrick Macks'],
- 'Fill-In / Last Resort':['Alex Kosaian','Connor Inger','Joe Patterson','Jake Pobur','Vinny Recchia','Joe Aiello','Zeke Landis','Evan Komarowski','Liam Neill'],
- 'Summer Only':['Mitch Lewandowski','Corey Schultheis','Blake Tosto'],
- 'Added Staff':[]
-};
-const staffDefault=[...new Set(Object.values(DEFAULT_GROUPS).flat())];
-const uid=(p='x')=>p+Date.now().toString(36)+Math.random().toString(36).slice(2,8);
-const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+(function(){
+"use strict";
+var root=document.getElementById("mch-zones-v15");
+if(!root||root.dataset.ready==="1")return;
+root.dataset.ready="1";
 
-const LAYOUTS={
- 'blank':{
-  name:'Blank Rink - No Bumpers',bumpers:[],zoneLabels:[],
-  stations:[]
- },
- 'monday-split':{
-  name:'Monday Split - In-House + Advanced',
-  bumpers:[[179,165,11,53],[179,390,11,53],[266,291,53,11],[569,176,11,54],[567,363,11,54],[696,294,53,11]],
-  zoneLabels:[['IN-HOUSE ZONES',382,280],['ADVANCED TRAINING',646,283]],
-  stations:[
-   ['IN-HOUSE STATION 1',104,109],['IN-HOUSE STATION 2',439,107],['IN-HOUSE STATION 3',430,316],['IN-HOUSE STATION 4',75,353],
-   ['ADV STATION 1',708,101],['ADV STATION 2',719,337]
-  ]
- },
- 'monday-rink-b':{
-  name:'Monday 7:05 Rink B - 3 Stations',
-  bumpers:[[445,148,11,54],[445,410,11,53],[568,163,11,54],[564,377,11,54],[644,294,54,12]],
-  zoneLabels:[],
-  stations:[['STATION 1',697,108],['STATION 2',702,332],['STATION 3',505,106]]
- },
- 'camp-8':{
-  name:'Camp - 8 Zone',
-  bumpers:[[262,175,11,53],[256,387,12,53],[142,303,54,11],[309,302,54,12],[443,172,11,54],[440,393,12,54],[505,305,54,11],[629,172,12,53],[632,389,11,53],[688,304,53,11]],
-  zoneLabels:[],
-  stations:[['STATION 1',125,99],['STATION 2',340,99],['STATION 3',533,99],['STATION 4',748,99],['STATION 5',748,336],['STATION 6',547,336],['STATION 7',360,341],['STATION 8',167,344]]
- },
- 'camp-6':{
-  name:'Camp - 6 Station',
-  bumpers:[[323,143,11,53],[324,395,11,53],[148,289,54,11],[445,148,11,54],[445,410,11,53],[568,163,11,54],[564,377,11,54],[644,294,54,12]],
-  zoneLabels:[],
-  stations:[['STATION 1',169,104],['STATION 2',390,108],['STATION 3',514,106],['STATION 4',712,101],['STATION 5',699,502],['STATION 6',168,500]]
- },
- 'camp-split':{
-  name:'Camp Split - 3 Zones Each',
-  bumpers:[[324,170,11,54],[323,372,12,54],[138,290,53,11],[445,253,12,54],[564,156,12,53],[567,383,11,53],[704,288,53,11]],
-  zoneLabels:[['6U / 8U IN-HOUSE 3 ZONES',333,267],['ADVANCED SIDE 3 ZONES',585,266]],
-  stations:[['IN-HOUSE STATION 1',182,100],['IN-HOUSE STATION 2',377,108],['IN-HOUSE STATION 3',143,505],['ADV STATION 1',514,101],['ADV STATION 2',731,99],['ADV STATION 3',731,505]]
- },
- 'custom':{name:'Custom Uploaded Diagram',bumpers:[],zoneLabels:[],stations:[]}
-};
+var STORE="mch_zones_v15";
+var SHEET_ID="1nIidt6yRihORBu5w-0tQv3fk8XAMFkgyytlRKg31wQ4";
+var SHEET_TAB="All Time Staff List";
+var CUSTOM="__custom__";
+var LOGO_DATA="data:image/png;base64,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";
+var STAFF_FALLBACK=[{"category": "Managers", "people": [{"id": "managers-rich-mihelic-0", "name": "Rich Mihelic"}, {"id": "managers-nick-spinale-0", "name": "Nick Spinale"}]}, {"category": "Adult Lead Coaches", "people": [{"id": "adult-lead-coaches-mitch-hall-0", "name": "Mitch Hall"}, {"id": "adult-lead-coaches-reid-marshall-0", "name": "Reid Marshall"}, {"id": "adult-lead-coaches-luke-peck-0", "name": "Luke Peck"}, {"id": "adult-lead-coaches-ary-batra-0", "name": "Ary Batra"}]}, {"category": "Student Coaches", "people": [{"id": "student-coaches-anthony-delpup-0", "name": "Anthony Delpup"}, {"id": "student-coaches-austin-combs-0", "name": "Austin Combs"}, {"id": "student-coaches-mikayla-ratliff-0", "name": "Mikayla Ratliff"}, {"id": "student-coaches-max-neill-0", "name": "Max Neill"}, {"id": "student-coaches-chase-dewey-0", "name": "Chase Dewey"}, {"id": "student-coaches-luke-forrest-0", "name": "Luke Forrest"}, {"id": "student-coaches-jack-gentz-0", "name": "Jack Gentz"}, {"id": "student-coaches-patrick-macks-0", "name": "Patrick Macks"}]}, {"category": "LAST RESORT - VERY LOW Probability - Fill In Coaches (Not Currently Active With MCH)", "people": [{"id": "last-resort-very-low-probability-fill-in-coaches-not-currently-active-with-mch-alex-kosaian-0", "name": "Alex Kosaian"}, {"id": "last-resort-very-low-probability-fill-in-coaches-not-currently-active-with-mch-connor-inger-0", "name": "Connor Inger"}, {"id": "last-resort-very-low-probability-fill-in-coaches-not-currently-active-with-mch-jack-gentz-0", "name": "Jack Gentz"}, {"id": "last-resort-very-low-probability-fill-in-coaches-not-currently-active-with-mch-joe-patterson-0", "name": "Joe Patterson"}, {"id": "last-resort-very-low-probability-fill-in-coaches-not-currently-active-with-mch-jake-pobur-0", "name": "Jake Pobur"}, {"id": "last-resort-very-low-probability-fill-in-coaches-not-currently-active-with-mch-vinny-recchia-0", "name": "Vinny Recchia"}, {"id": "last-resort-very-low-probability-fill-in-coaches-not-currently-active-with-mch-joe-aiello-0", "name": "Joe Aiello"}, {"id": "last-resort-very-low-probability-fill-in-coaches-not-currently-active-with-mch-zeke-landis-0", "name": "Zeke Landis"}, {"id": "last-resort-very-low-probability-fill-in-coaches-not-currently-active-with-mch-evan-komarowski-0", "name": "Evan Komarowski"}, {"id": "last-resort-very-low-probability-fill-in-coaches-not-currently-active-with-mch-liam-neill-0", "name": "Liam Neill"}]}, {"category": "Adult Lead Coaches - Available Summer Only - Not Available Right Now", "people": [{"id": "adult-lead-coaches-available-summer-only-not-available-right-now-mitch-lewandowski-0", "name": "Mitch Lewandowski"}, {"id": "adult-lead-coaches-available-summer-only-not-available-right-now-corey-schultheis-0", "name": "Corey Schultheis"}, {"id": "adult-lead-coaches-available-summer-only-not-available-right-now-blake-tosto-0", "name": "Blake Tosto"}]}];
+var CAMP_CONFIG={"split": {"title": "Camp: 3 ADV Zones & 3 6U / 8U Zones", "url": "https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/d4a17506-bd8d-408a-bee9-363bca40646e/3+Zones+Each+Split+Camp+ADV+and+6U8U.png?format=1500w", "stations": [["u1", "6U / 8U Station 1", 20.2, 18.9, 18], ["u2", "6U / 8U Station 2", 41.8, 18.9, 18], ["u3", "6U / 8U Station 3", 16.0, 81.4, 18], ["a1", "Advanced Station 1", 57.8, 18.9, 18], ["a2", "Advanced Station 2", 82.0, 18.9, 18], ["a3", "Advanced Station 3", 82.0, 81.4, 18]]}, "six": {"title": "Camp 6 Zones", "url": "https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/390b7956-bbd6-4cee-a3ea-36ffa126c175/6+Station+Camp.png?format=1500w", "stations": [["s1", "Station 1", 18.5, 19.2, 18], ["s2", "Station 2", 43.0, 19.5, 18], ["s3", "Station 3", 57.0, 19.5, 18], ["s4", "Station 4", 80.3, 19.2, 18], ["s5", "Station 5", 80.2, 81.0, 18], ["s6", "Station 6", 18.5, 81.0, 18]]}, "eight": {"title": "Camp 8 Zones", "url": "https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/39a41367-41ef-42f3-9197-8c4a0d146595/8+zone+camp.png?format=1500w", "stations": [["s1", "Station 1", 14.0, 18.0, 16], ["s2", "Station 2", 38.1, 18.2, 16], ["s3", "Station 3", 59.8, 18.2, 16], ["s4", "Station 4", 84.0, 18.0, 16], ["s5", "Station 5", 84.0, 57.4, 16], ["s6", "Station 6", 60.0, 57.4, 16], ["s7", "Station 7", 39.0, 58.1, 16], ["s8", "Station 8", 18.0, 58.1, 16]]}};
+var MONDAY_CONFIG={"monday-610-c": {"title": "Monday 6:10 PM", "subtitle": "Rink C", "url": "https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/7f24e963-93ff-4f8d-91d3-ff215f26372c/Monday+610PM.png?format=1500w", "stations": [{"id": "ih1", "label": "In-House Station 1", "x": 11.6, "y": 19.3, "w": 18}, {"id": "ih2", "label": "In-House Station 2", "x": 48.8, "y": 19.3, "w": 18}, {"id": "ih3", "label": "In-House Station 3", "x": 48.2, "y": 54.2, "w": 18}, {"id": "ih4", "label": "In-House Station 4", "x": 8.6, "y": 60.7, "w": 18}, {"id": "adv1", "label": "Advanced Station 1", "x": 80.0, "y": 19.3, "w": 18}, {"id": "adv2", "label": "Advanced Station 2", "x": 80.8, "y": 57.6, "w": 18}]}, "monday-705-c": {"title": "Monday 7:05 PM", "subtitle": "Rink C", "url": "https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/6cdb6d75-f5e3-4507-991e-58ded69e757a/Monday+705PM.png?format=1500w", "stations": [{"id": "ih1", "label": "In-House Station 1", "x": 11.6, "y": 19.3, "w": 18}, {"id": "ih2", "label": "In-House Station 2", "x": 48.8, "y": 19.3, "w": 18}, {"id": "ih3", "label": "In-House Station 3", "x": 48.2, "y": 54.2, "w": 18}, {"id": "ih4", "label": "In-House Station 4", "x": 8.6, "y": 60.7, "w": 18}, {"id": "adv1", "label": "Advanced Station 1", "x": 80.0, "y": 19.3, "w": 18}, {"id": "adv2", "label": "Advanced Station 2", "x": 80.8, "y": 57.6, "w": 18}]}, "monday-705-b": {"title": "Monday 7:05 PM", "subtitle": "Rink B", "url": "https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/be530456-a5cb-46a1-be73-aa7055c7fb94/MONDAY+705PM+RINK+B.png?format=1500w", "stations": [{"id": "s1", "label": "Station 1", "x": 79.0, "y": 19.0, "w": 18}, {"id": "s2", "label": "Station 2", "x": 80.0, "y": 57.0, "w": 18}, {"id": "s3", "label": "Station 3", "x": 56.2, "y": 19.0, "w": 18}]}};
+var MON_TASKS=["Equipment Bin Bring To The Rink", "Equipment Bin Back To Coaches Room", "Zone Changes & Lead Coach", "Puck Lap", "Make Sure All Locker Rooms Are Open For Players"];
+var CAMP_TASKS=["8:30AM Sharp In Locker Room Arrival", "Equipment Bin Bring To The Rink", "Equipment Bin Back To Coaches Room", "Zone Changes & Lead Coach", "Puck Lap", "Make Sure All Locker Rooms Are Open For Players", "Pizza"];
 
-function rinkSvg(layoutKey){
- const spec=LAYOUTS[layoutKey]||LAYOUTS.blank;
- const b=spec.bumpers.map(r=>'<rect x="'+r[0]+'" y="'+r[1]+'" width="'+r[2]+'" height="'+r[3]+'" fill="#111"/>').join('');
- return '<svg class="rink-svg" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" aria-label="'+esc(spec.name)+'">'+
- '<rect width="900" height="600" fill="#fff"/>'+
- '<path d="M87 86 H813 C854 86 887 119 887 160 V449 C887 490 854 523 813 523 H87 C46 523 13 490 13 449 V160 C13 119 46 86 87 86 Z" fill="#fff" stroke="#222" stroke-width="2"/>'+
- '<line x1="73" y1="88" x2="73" y2="521" stroke="#ed1c24" stroke-width="2"/><line x1="829" y1="88" x2="829" y2="521" stroke="#ed1c24" stroke-width="2"/>'+
- '<line x1="330" y1="87" x2="330" y2="522" stroke="#2175b9" stroke-width="4"/><line x1="571" y1="87" x2="571" y2="522" stroke="#2175b9" stroke-width="4"/>'+
- '<line x1="450" y1="87" x2="450" y2="522" stroke="#ed1c24" stroke-width="5"/>'+
- faceoffCircle(162,208)+faceoffCircle(162,397)+faceoffCircle(741,208)+faceoffCircle(741,397)+
- '<circle cx="354" cy="209" r="5" fill="#ed1c24"/><circle cx="549" cy="209" r="5" fill="#ed1c24"/><circle cx="354" cy="398" r="5" fill="#ed1c24"/><circle cx="549" cy="398" r="5" fill="#ed1c24"/>'+
- '<path d="M73 277 A27 27 0 0 1 73 331 Z" fill="#61c5e5" stroke="#ed1c24" stroke-width="2"/><path d="M829 277 A27 27 0 0 0 829 331 Z" fill="#61c5e5" stroke="#ed1c24" stroke-width="2"/>'+
- b+'</svg>';
-}
-function faceoffCircle(cx,cy){
- return '<g stroke="#ed1c24" fill="none" stroke-width="2"><circle cx="'+cx+'" cy="'+cy+'" r="65"/><line x1="'+(cx-12)+'" y1="'+cy+'" x2="'+(cx+12)+'" y2="'+cy+'"/><line x1="'+cx+'" y1="'+(cy-12)+'" x2="'+cx+'" y2="'+(cy+12)+'"/><line x1="'+(cx-10)+'" y1="'+(cy-75)+'" x2="'+(cx-10)+'" y2="'+(cy-64)+'"/><line x1="'+(cx+10)+'" y1="'+(cy-75)+'" x2="'+(cx+10)+'" y2="'+(cy-64)+'"/><line x1="'+(cx-10)+'" y1="'+(cy+64)+'" x2="'+(cx-10)+'" y2="'+(cy+75)+'"/><line x1="'+(cx+10)+'" y1="'+(cy+64)+'" x2="'+(cx+10)+'" y2="'+(cy+75)+'"/></g><circle cx="'+cx+'" cy="'+cy+'" r="5" fill="#ed1c24"/>';
-}
-function stationRowsFor(layoutKey){
- const spec=LAYOUTS[layoutKey]||LAYOUTS.blank;
- return spec.stations.map((s,i)=>({id:uid('st'),label:s[0],x:s[1]/9,y:s[2]/6,coach1:'',coach2:'',custom1:'',custom2:''}));
-}
-function mkAssign(label){return {id:uid('a'),label,coach1:'',coach2:'',custom1:'',custom2:''};}
-function mkSection(title,labels=[]){return {id:uid('sec'),title,rows:labels.map(mkAssign)};}
-function mkSkate(title,time,location,layoutKey='blank',extra={}){
- return {id:uid('k'),title,time,location,layoutKey,customImage:'',showLabels:true,
-  stations:stationRowsFor(layoutKey),
-  duties:(extra.duties||['Puck Lap Post Skate','Equipment Bin To Rink Location','Equipment Bin Back to Location','Puck Bag']).map(mkAssign),
-  sections:extra.sections||[],notes:''
- };
-}
-function mondayFormat(id='monday',name='Monday Training'){
- return {id,name,dateLabel:'',skates:[
-  mkSkate('Monday 6:10 PM','6:10 PM','Rink C','monday-split',{duties:['Equipment Chest To Rink','Pucks To Rink','Zone Changes','Little Nets / Setup']}),
-  mkSkate('Monday 7:05 PM','7:05 PM','Rink C','monday-split',{duties:['Equipment Back To Coaches Room','Pucks Back To Coaches Room','Zone Changes','Little Nets / Setup']}),
-  mkSkate('Monday 7:05 PM - Rink B','7:05 PM','Rink B','monday-rink-b',{duties:['Pucks','Equipment','Goalie / Nets']})
- ]};
-}
-function campFormat(id='camp',name='Camp Formats'){
- return {id,name,dateLabel:'',skates:[
-  mkSkate('8 Zone Camp','','','camp-8',{duties:['Pucks','Equipment','Zone Changes']}),
-  mkSkate('6 Station Camp','','','camp-6',{duties:['Pucks','Equipment','Zone Changes']}),
-  mkSkate('3 Zones Each - In-House / Advanced','','','camp-split',{duties:['Pucks','Equipment','Zone Changes']})
- ]};
-}
-function standardFormat(id=uid('fmt'),name='Standard Ice'){return {id,name,dateLabel:'',skates:[mkSkate('Training Skate','','','blank')]};}
-function blankFormat(id=uid('fmt'),name='Custom Format'){return {id,name,dateLabel:'',skates:[mkSkate('New Assignment Block','','','blank',{duties:[]})]};}
-function baseState(){
- const monday=mondayFormat(),camp=campFormat();
- return {staff:[...staffDefault],staffGroups:JSON.parse(JSON.stringify(DEFAULT_GROUPS)),activeFormat:'monday',formats:{monday,camp}};
-}
-function load(){try{const x=JSON.parse(localStorage.getItem(STORAGE)||'null');if(x&&x.formats&&x.staff)return x;}catch(e){}return baseState();}
-let state=load();
+var staffGroups=STAFF_FALLBACK;
+var staffMap={};
+var edit=null;
+var imageCache={};
 
-function persist(msg=true){localStorage.setItem(STORAGE,JSON.stringify(state));if(msg)flash('Saved.');}
-function flash(t){const n=document.querySelector('.notice');if(!n)return;const old=n.innerHTML;n.innerHTML='<b>'+esc(t)+'</b>';setTimeout(()=>n.innerHTML=old,1400);}
-function active(){return state.formats[state.activeFormat];}
-function allSkates(){return Object.values(state.formats).flatMap(f=>f.skates||[]);}
-function getSkate(id){return allSkates().find(s=>s.id===id);}
-function staffGroupFor(name){for(const [g,names] of Object.entries(state.staffGroups||{}))if((names||[]).includes(name))return g;return 'Added Staff';}
-function staffSorted(group=null){let a=[...new Set(state.staff||[])];if(group)a=a.filter(n=>staffGroupFor(n)===group);return a.sort((x,y)=>{const xl=x.trim().split(/\s+/).slice(-1)[0],yl=y.trim().split(/\s+/).slice(-1)[0];return xl.localeCompare(yl)||x.localeCompare(y);});}
-function coachOptions(val){
- let out='<option value="">- Select Coach -</option>';
- ['Managers','Adult Lead Coaches','Student Coaches','Summer Only','Fill-In / Last Resort','Added Staff'].forEach(g=>{const names=staffSorted(g);if(!names.length)return;out+='<optgroup label="'+esc(g)+'">'+names.map(n=>'<option value="'+esc(n)+'" '+(n===val?'selected':'')+'>'+esc(n)+'</option>').join('')+'</optgroup>';});
- return out+'<option value="__custom__" '+(val==='__custom__'?'selected':'')+'>Custom Name...</option>';
-}
-function assignmentSelect(value,custom,attrs='',slot='1'){
- return '<div class="assign-wrap '+(value==='__custom__'?'custom':'')+'"><select '+attrs+' data-slot="'+slot+'">'+coachOptions(value)+'</select><div class="custom-wrap"><input '+attrs+' data-custom-slot="'+slot+'" value="'+esc(custom||'')+'" placeholder="Type name"></div></div>';
-}
-function renderFormats(){
- const ids=Object.keys(state.formats);
- formatSelect.innerHTML=ids.map(id=>'<option value="'+esc(id)+'" '+(id===state.activeFormat?'selected':'')+'>'+esc(state.formats[id].name)+'</option>').join('');
- formatTabs.innerHTML=ids.map(id=>'<button class="format-tab '+(id===state.activeFormat?'active':'')+'" data-format="'+esc(id)+'">'+esc(state.formats[id].name)+'</button>').join('');
- formatTabs.querySelectorAll('[data-format]').forEach(b=>b.onclick=()=>{state.activeFormat=b.dataset.format;persist(false);render();});
-}
-function renderStaff(){
- const groups=['Managers','Adult Lead Coaches','Student Coaches','Summer Only','Fill-In / Last Resort','Added Staff'];
- staffGroups.innerHTML=groups.map(g=>'<div class="staff-group"><h4>'+esc(g)+'</h4><div class="staff-list">'+staffSorted(g).map(n=>'<span class="staff-chip">'+esc(n)+'<button data-del-staff="'+esc(n)+'">x</button></span>').join('')+'</div></div>').join('');
- staffGroups.querySelectorAll('[data-del-staff]').forEach(b=>b.onclick=()=>{const n=b.dataset.delStaff;if(!confirm('Remove '+n+' from the staff list?'))return;state.staff=state.staff.filter(x=>x!==n);Object.values(state.staffGroups).forEach(a=>{const i=a.indexOf(n);if(i>=0)a.splice(i,1);});persist(false);render();});
-}
-function layoutOptions(selected){
- return Object.entries(LAYOUTS).map(([k,v])=>'<option value="'+k+'" '+(k===selected?'selected':'')+'>'+esc(v.name)+'</option>').join('');
-}
-function layoutVisual(skate){
- const tags='<div class="station-layer">'+(skate.showLabels?skate.stations.map(st=>'<span class="station-tag" data-marker="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'" style="left:'+Number(st.x)+'%;top:'+Number(st.y)+'%">'+esc(st.label.replace(/^IN-HOUSE |^ADV /,''))+'</span>').join(''):'')+'</div>';
- if(skate.layoutKey==='custom'&&skate.customImage){
-  return '<img src="'+skate.customImage+'" alt="Custom rink diagram" style="width:100%;height:100%;object-fit:contain">'+tags;
- }
- const spec=LAYOUTS[skate.layoutKey]||LAYOUTS.blank;
- return rinkSvg(skate.layoutKey)+'<img class="rink-watermark" src="assets/mch-logo.png" alt="">'+
-  (skate.showLabels?spec.zoneLabels.map(z=>'<span class="zone-label" style="left:'+(z[1]/9)+'%;top:'+(z[2]/6)+'%">'+esc(z[0])+'</span>').join(''):'')+tags;
-}
-function assignmentHeader(){return '<div class="assignment-head"><span>Assignment</span><span>Coach 1</span><span>Coach 2</span><span></span></div>';}
-function assignRow(row,kind,skateId,sectionId=''){
- const common='data-kind="'+kind+'" data-row-id="'+esc(row.id)+'" data-skate-id="'+esc(skateId)+'" '+(sectionId?'data-section-id="'+esc(sectionId)+'"':'');
- return '<div class="assign-row"><input class="row-label" '+common+' data-field="label" value="'+esc(row.label)+'">'+assignmentSelect(row.coach1,row.custom1,common+' data-field="coach"','1')+assignmentSelect(row.coach2,row.custom2,common+' data-field="coach"','2')+'<button class="small-x edit-only" '+common+' data-del-row="1">x</button></div>';
-}
-function sectionHtml(skate,sec){
- return '<section class="section"><h3><input data-section-title="'+esc(sec.id)+'" data-skate-id="'+esc(skate.id)+'" value="'+esc(sec.title)+'" style="width:100%;border:0;background:transparent;font-weight:900"><button class="small-x edit-only" data-del-section="'+esc(sec.id)+'" data-skate-id="'+esc(skate.id)+'">x</button></h3>'+assignmentHeader()+sec.rows.map(r=>assignRow(r,'section',skate.id,sec.id)).join('')+'<div class="section-tools edit-only"><button class="btn light" data-add-row="'+esc(sec.id)+'" data-skate-id="'+esc(skate.id)+'">+ Row</button></div></section>';
-}
-function metaInput(label,value,field,id){return '<div class="meta-field"><label>'+esc(label)+'</label><input data-skate-field="'+esc(field)+'" data-skate-id="'+esc(id)+'" value="'+esc(value||'')+'"></div>';}
-function skateHtml(skate){
- return '<article class="skate"><div class="skate-head"><div><div class="skate-title">'+esc(skate.title)+'</div><div class="skate-sub">'+esc([skate.time,skate.location].filter(Boolean).join(' - '))+'</div></div><button class="xbtn edit-only" data-remove-skate="'+esc(skate.id)+'">x</button></div>'+
- '<div class="skate-meta edit-only">'+metaInput('Title',skate.title,'title',skate.id)+metaInput('Time',skate.time,'time',skate.id)+metaInput('Location',skate.location,'location',skate.id)+'<div class="meta-field"><label>DIAGRAM LAYOUT</label><select data-layout="'+esc(skate.id)+'">'+layoutOptions(skate.layoutKey)+'</select></div><div><button class="btn light" data-toggle-labels="'+esc(skate.id)+'">'+(skate.showLabels?'Hide Labels':'Show Labels')+'</button></div></div>'+
- '<div class="skate-body"><div class="diagram-panel"><div class="diagram-tools edit-only"><button class="btn dark" data-blank-rink="'+esc(skate.id)+'">Blank Rink</button><label class="btn dark">Upload Diagram<input type="file" accept="image/*" data-upload="'+esc(skate.id)+'" hidden></label><button class="btn light" data-reset-layout="'+esc(skate.id)+'">Reset Layout</button><span class="hint">The black bumpers are part of the rink layout. Coach names stay off the diagram.</span></div><div class="rink-wrap" data-frame="'+esc(skate.id)+'">'+layoutVisual(skate)+'</div></div>'+
- '<aside class="side-panel"><section class="section"><h3>Station Assignments</h3><div class="section-sub">All coach fields intentionally start blank.</div>'+assignmentHeader()+skate.stations.map(r=>assignRow(r,'station',skate.id)).join('')+'<div class="section-tools edit-only"><button class="btn light" data-add-station="'+esc(skate.id)+'">+ Station</button></div></section>'+
- '<section class="section"><h3>Skate Duties</h3>'+assignmentHeader()+skate.duties.map(r=>assignRow(r,'duty',skate.id)).join('')+'<div class="section-tools edit-only"><button class="btn light" data-add-duty="'+esc(skate.id)+'">+ Duty</button></div></section>'+
- skate.sections.map(sec=>sectionHtml(skate,sec)).join('')+
- '<section class="section"><h3>Notes</h3><textarea class="notes-area" data-notes="'+esc(skate.id)+'" placeholder="Coach notes, timing, equipment, locker room details...">'+esc(skate.notes||'')+'</textarea><div class="section-tools edit-only"><button class="btn light" data-add-section="'+esc(skate.id)+'">+ Assignment Section</button></div></section></aside></div></article>';
-}
-function getRow(skate,kind,rowId,sectionId){
- if(kind==='station')return skate.stations.find(x=>x.id===rowId);
- if(kind==='duty')return skate.duties.find(x=>x.id===rowId);
- const sec=skate.sections.find(x=>x.id===sectionId);return sec&&sec.rows.find(x=>x.id===rowId);
-}
-function resetStations(skate,layoutKey){skate.layoutKey=layoutKey;skate.customImage='';skate.stations=stationRowsFor(layoutKey);skate.showLabels=true;}
-function bind(){
- document.querySelectorAll('[data-skate-field]').forEach(el=>el.oninput=()=>{const s=getSkate(el.dataset.skateId);s[el.dataset.skateField]=el.value;persist(false);renderHeadersOnly();});
- document.querySelectorAll('[data-remove-skate]').forEach(b=>b.onclick=()=>{const f=active();if(f.skates.length<=1){alert('A format needs at least one assignment block.');return;}f.skates=f.skates.filter(x=>x.id!==b.dataset.removeSkate);persist(false);render();});
- document.querySelectorAll('[data-layout]').forEach(sel=>sel.onchange=()=>{const s=getSkate(sel.dataset.layout);if(sel.value==='custom'){s.layoutKey='custom';s.stations=[];}else resetStations(s,sel.value);persist(false);render();});
- document.querySelectorAll('[data-toggle-labels]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.toggleLabels);s.showLabels=!s.showLabels;persist(false);render();});
- document.querySelectorAll('[data-blank-rink]').forEach(b=>b.onclick=()=>{resetStations(getSkate(b.dataset.blankRink),'blank');persist(false);render();});
- document.querySelectorAll('[data-reset-layout]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.resetLayout);if(s.layoutKey==='custom'){s.customImage='';s.stations=[];}else resetStations(s,s.layoutKey);persist(false);render();});
- document.querySelectorAll('[data-upload]').forEach(inp=>inp.onchange=async()=>{const file=inp.files&&inp.files[0];if(!file)return;const s=getSkate(inp.dataset.upload);s.layoutKey='custom';s.customImage=await compressImage(file);s.stations=[];s.showLabels=true;persist(false);render();});
- document.querySelectorAll('[data-add-station]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.addStation);s.stations.push({id:uid('st'),label:'STATION '+(s.stations.length+1),x:50,y:50,coach1:'',coach2:'',custom1:'',custom2:''});persist(false);render();});
- document.querySelectorAll('[data-add-duty]').forEach(b=>b.onclick=()=>{getSkate(b.dataset.addDuty).duties.push(mkAssign('New Duty'));persist(false);render();});
- document.querySelectorAll('[data-add-section]').forEach(b=>b.onclick=()=>{getSkate(b.dataset.addSection).sections.push(mkSection('New Assignment Section',['New Assignment']));persist(false);render();});
- document.querySelectorAll('[data-add-row]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.skateId),sec=s.sections.find(x=>x.id===b.dataset.addRow);if(sec)sec.rows.push(mkAssign('New Assignment'));persist(false);render();});
- document.querySelectorAll('[data-section-title]').forEach(el=>el.oninput=()=>{const s=getSkate(el.dataset.skateId),sec=s.sections.find(x=>x.id===el.dataset.sectionTitle);if(sec){sec.title=el.value;persist(false);}});
- document.querySelectorAll('[data-del-section]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.skateId);s.sections=s.sections.filter(x=>x.id!==b.dataset.delSection);persist(false);render();});
- document.querySelectorAll('[data-field]').forEach(el=>{const fn=()=>{const s=getSkate(el.dataset.skateId),r=getRow(s,el.dataset.kind,el.dataset.rowId,el.dataset.sectionId);if(!r)return;if(el.dataset.field==='label')r.label=el.value;else{const slot=el.dataset.slot||el.dataset.customSlot||'1';if(el.dataset.customSlot)r['custom'+slot]=el.value;else r['coach'+slot]=el.value;}persist(false);};el.oninput=fn;el.onchange=fn;});
- document.querySelectorAll('[data-del-row]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.skateId);if(b.dataset.kind==='station')s.stations=s.stations.filter(x=>x.id!==b.dataset.rowId);else if(b.dataset.kind==='duty')s.duties=s.duties.filter(x=>x.id!==b.dataset.rowId);else{const sec=s.sections.find(x=>x.id===b.dataset.sectionId);if(sec)sec.rows=sec.rows.filter(x=>x.id!==b.dataset.rowId);}persist(false);render();});
- document.querySelectorAll('[data-notes]').forEach(t=>t.oninput=()=>{getSkate(t.dataset.notes).notes=t.value;persist(false);});
- bindDrag();
-}
-function bindDrag(){
- document.querySelectorAll('.station-tag').forEach(tag=>{
-  let drag=false,frame=null,skate=null,station=null;
-  const start=e=>{drag=true;frame=tag.closest('.rink-wrap');skate=getSkate(tag.dataset.skateId);station=skate.stations.find(x=>x.id===tag.dataset.marker);e.preventDefault();};
-  const move=e=>{if(!drag||!station)return;const r=frame.getBoundingClientRect(),p=e.touches?e.touches[0]:e;station.x=Math.max(3,Math.min(97,(p.clientX-r.left)/r.width*100));station.y=Math.max(4,Math.min(96,(p.clientY-r.top)/r.height*100));tag.style.left=station.x+'%';tag.style.top=station.y+'%';};
-  const end=()=>{if(drag){drag=false;persist(false);}};
-  tag.addEventListener('mousedown',start);tag.addEventListener('touchstart',start,{passive:false});window.addEventListener('mousemove',move);window.addEventListener('touchmove',move,{passive:false});window.addEventListener('mouseup',end);window.addEventListener('touchend',end);
- });
-}
-async function compressImage(file){
- const data=await new Promise((res,rej)=>{const fr=new FileReader();fr.onload=()=>res(fr.result);fr.onerror=rej;fr.readAsDataURL(file);});
- const img=await new Promise((res,rej)=>{const i=new Image();i.onload=()=>res(i);i.onerror=rej;i.src=data;});
- const max=1400,scale=Math.min(1,max/img.width,max/img.height),c=document.createElement('canvas');c.width=Math.round(img.width*scale);c.height=Math.round(img.height*scale);c.getContext('2d').drawImage(img,0,0,c.width,c.height);return c.toDataURL('image/jpeg',.82);
-}
-function renderHeadersOnly(){const f=active();formatName.value=f.name||'';dateLabel.value=f.dateLabel||'';requestHeight();}
-function render(){
- renderFormats();renderStaff();const f=active();formatName.value=f.name||'';dateLabel.value=f.dateLabel||'';content.innerHTML=f.skates.map(skateHtml).join('');bind();requestHeight();
-}
-function requestHeight(){setTimeout(()=>{try{parent.postMessage({type:'mch-staff-builder-height',height:document.documentElement.scrollHeight},'*');}catch(e){}},80);}
-function regenerateIds(f){f.id=uid('fmt');f.skates.forEach(s=>{s.id=uid('k');s.stations.forEach(r=>r.id=uid('st'));s.duties.forEach(r=>r.id=uid('a'));s.sections.forEach(sec=>{sec.id=uid('sec');sec.rows.forEach(r=>r.id=uid('a'));});});return f;}
+function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}
+function slug(s){return String(s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")}
+function stateDefault(){return{date:"",campFormat:"split",assignments:{},pmOverride:{},times:{},tasks:{},taskHidden:{},lockers:{},deleted:{}}}
+function load(){try{return Object.assign(stateDefault(),JSON.parse(localStorage.getItem(STORE)||"{}"))}catch(e){return stateDefault()}}
+var state=load();
+function save(){try{localStorage.setItem(STORE,JSON.stringify(state))}catch(e){}}
 
-saveBtn.onclick=()=>persist(true);mobileSave.onclick=()=>saveBtn.click();
-formatSelect.onchange=()=>{state.activeFormat=formatSelect.value;persist(false);render();};
-formatName.oninput=()=>{active().name=formatName.value;persist(false);renderFormats();};
-dateLabel.oninput=()=>{active().dateLabel=dateLabel.value;persist(false);};
-addFormatBtn.onclick=()=>{const p=presetSelect.value,name=prompt('Format name',p==='monday'?'Monday Training':p==='camp'?'Camp Formats':p==='blank'?'Custom Format':'Standard Ice');if(!name)return;let f=p==='monday'?mondayFormat(uid('fmt'),name):p==='camp'?campFormat(uid('fmt'),name):p==='blank'?blankFormat(uid('fmt'),name):standardFormat(uid('fmt'),name);state.formats[f.id]=f;state.activeFormat=f.id;persist(false);render();};
-addSkateBtn.onclick=()=>{active().skates.push(mkSkate('New Skate','','','blank'));persist(false);render();};
-duplicateFormatBtn.onclick=()=>{const c=regenerateIds(JSON.parse(JSON.stringify(active())));c.name=c.name+' Copy';state.formats[c.id]=c;state.activeFormat=c.id;persist(false);render();};
-deleteFormatBtn.onclick=()=>{const ids=Object.keys(state.formats);if(ids.length<=1){alert('Keep at least one format.');return;}if(!confirm('Delete '+active().name+'?'))return;delete state.formats[state.activeFormat];state.activeFormat=Object.keys(state.formats)[0];persist(false);render();};
-backupBtn.onclick=()=>{const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='mch-staff-assignment-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500);};
-restoreBtn.onclick=()=>restoreFile.click();
-restoreFile.onchange=async()=>{const file=restoreFile.files&&restoreFile.files[0];if(!file)return;try{const x=JSON.parse(await file.text());if(!x.formats||!x.staff)throw new Error();state=x;persist(false);render();flash('Backup restored.');}catch(e){alert('That backup file could not be read.');}};
-addStaffBtn.onclick=()=>{const n=newStaff.value.trim(),g=newStaffGroup.value;if(!n)return;if(!state.staff.includes(n))state.staff.push(n);Object.values(state.staffGroups).forEach(a=>{const i=a.indexOf(n);if(i>=0)a.splice(i,1);});state.staffGroups[g]=state.staffGroups[g]||[];state.staffGroups[g].push(n);newStaff.value='';persist(false);render();};
+function rebuildStaffMap(){
+  staffMap={};
+  staffGroups.forEach(function(g){g.people.forEach(function(p){staffMap[p.id]=p.name})})
+}
+rebuildStaffMap();
 
-pdfBtn.onclick=async()=>{
- persist(false);const {jsPDF}=window.jspdf||{};if(!window.html2canvas||!jsPDF){window.print();return;}
- document.body.classList.add('pdf-mode');
- try{
-  const target=document.querySelector('.app'),canvas=await html2canvas(target,{scale:1.65,useCORS:true,backgroundColor:'#fff',windowWidth:1500});
-  const pdf=new jsPDF('p','pt','letter'),pw=pdf.internal.pageSize.getWidth(),ph=pdf.internal.pageSize.getHeight(),margin=18,imgW=pw-margin*2,pageH=ph-margin*2,imgH=canvas.height*(imgW/canvas.width);
-  let pos=0;while(pos<imgH){const srcY=Math.round(pos*(canvas.width/imgW)),slice=Math.min(canvas.height-srcY,Math.round(pageH*(canvas.width/imgW))),c=document.createElement('canvas');c.width=canvas.width;c.height=slice;c.getContext('2d').drawImage(canvas,0,srcY,canvas.width,slice,0,0,c.width,c.height);if(pos>0)pdf.addPage();pdf.addImage(c.toDataURL('image/jpeg',.91),'JPEG',margin,margin,imgW,c.height*(imgW/c.width));pos+=pageH;}
-  const safe=((active().dateLabel||active().name||'Staff-Assignments')+'').replace(/[^a-z0-9]+/gi,'-').replace(/^-|-$/g,'');pdf.save('Motor-City-Hockey-'+safe+'.pdf');
- }catch(e){console.error(e);window.print();}finally{document.body.classList.remove('pdf-mode');requestHeight();}
-};
-mobilePdf.onclick=()=>pdfBtn.click();
-window.addEventListener('resize',requestHeight,{passive:true});
-render();
+function customValue(name){return "custom:"+encodeURIComponent(String(name||"").trim())}
+function staffName(v){
+  v=String(v||"");
+  if(v.indexOf("custom:")===0){try{return decodeURIComponent(v.slice(7))}catch(e){return v.slice(7)}}
+  return staffMap[v]||"";
+}
+function options(selected){
+  selected=String(selected||"");
+  var h='<option value="'+CUSTOM+'">+ Custom Name…</option>';
+  if(selected.indexOf("custom:")===0)h+='<option value="'+esc(selected)+'" selected>Custom: '+esc(staffName(selected))+'</option>';
+  h+='<option value=""'+(!selected?' selected':'')+'>— Select —</option>';
+  staffGroups.forEach(function(g){
+    h+='<optgroup label="'+esc(g.category)+'">';
+    g.people.forEach(function(p){h+='<option value="'+esc(p.id)+'"'+(p.id===selected?' selected':'')+'>'+esc(p.name)+'</option>'});
+    h+='</optgroup>';
+  });
+  return h;
+}
+function fillSelect(sel,value){if(!sel)return;sel.innerHTML=options(value||"");sel.value=value||""}
+function fillAllSelects(){
+  root.querySelectorAll(".mch15-staff-select").forEach(function(sel){
+    var v="";
+    if(sel.dataset.taskGroup){
+      var a=ensureTasks(sel.dataset.taskGroup,sel.dataset.taskGroup==="camp"?CAMP_TASKS:MON_TASKS);
+      v=a[Number(sel.dataset.taskIndex)]||"";
+    }else if(sel.dataset.room){
+      var r=ensureRoom(Number(sel.dataset.room));
+      v=sel.dataset.roomSlot==="2"?r.coach2:r.coach1;
+    }
+    fillSelect(sel,v);
+  });
+}
+
+function ensureAssign(rink,station){
+  if(!state.assignments[rink])state.assignments[rink]={};
+  if(!state.assignments[rink][station])state.assignments[rink][station]={coach1:"",coach2:""};
+  return state.assignments[rink][station];
+}
+function effectiveAssign(rink,station){
+  var own=ensureAssign(rink,station);
+  if(/^camp-.+-pm$/.test(rink)&&!state.pmOverride[rink+"|"+station]){
+    var am=rink.replace(/-pm$/,"-am");
+    return ensureAssign(am,station);
+  }
+  return own;
+}
+function renderAssignButtons(){
+  root.querySelectorAll(".mch15-station").forEach(function(b){
+    var r=effectiveAssign(b.dataset.rink,b.dataset.station);
+    var n1=staffName(r.coach1),n2=staffName(r.coach2);
+    b.classList.toggle("filled",!!(n1||n2));
+    b.querySelector(".mch15-assign").textContent=(n1||n2)?"":"+ Assign";
+    b.querySelector(".mch15-name1").textContent=n1;
+    b.querySelector(".mch15-name2").textContent=n2;
+  });
+}
+
+function ensureTime(rink,group,index){
+  if(!state.times[rink])state.times[rink]={};
+  if(!Array.isArray(state.times[rink][group]))state.times[rink][group]=[];
+  return state.times[rink][group][index]||"";
+}
+function renderTimes(){
+  root.querySelectorAll("[data-time-rink]").forEach(function(i){i.value=ensureTime(i.dataset.timeRink,i.dataset.timeGroup,Number(i.dataset.timeIndex))})
+}
+
+function ensureTasks(group,names){
+  if(!Array.isArray(state.tasks[group]))state.tasks[group]=names.map(function(){return""});
+  while(state.tasks[group].length<names.length)state.tasks[group].push("");
+  return state.tasks[group];
+}
+function applyTaskHidden(){
+  root.querySelectorAll("[data-task-row]").forEach(function(row){row.hidden=!!state.taskHidden[row.dataset.taskRow]})
+}
+function ensureRoom(n){
+  if(!state.lockers[n])state.lockers[n]={coach1:"",coach2:"",second:false};
+  return state.lockers[n];
+}
+function renderRooms(){
+  for(var n=1;n<=6;n++){
+    var r=ensureRoom(n);
+    var row=root.querySelector('.mch15-room[data-room="'+n+'"]');
+    if(!row)continue;
+    var s1=row.querySelector('[data-room-slot="1"]'),s2=row.querySelector('[data-room-slot="2"]');
+    var add=row.querySelector("[data-add-room-coach]"),rem=row.querySelector("[data-remove-room-coach]");
+    fillSelect(s1,r.coach1);
+    s2.hidden=!r.second&&!r.coach2;
+    row.querySelector(".mch15-room-selects").classList.toggle("two",!s2.hidden);
+    add.hidden=!s2.hidden;rem.hidden=s2.hidden;
+    if(!s2.hidden)fillSelect(s2,r.coach2);
+  }
+}
+
+function currentProgram(){var x=root.querySelector('input[name="mch15-program"]:checked');return x?x.value:""}
+function updateSubtitle(){
+  var p=currentProgram(),sub=document.getElementById("mch15-subtitle");
+  if(p==="monday")sub.textContent="Monday Training — 3 Sheets";
+  else if(p==="camp")sub.textContent=(CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split).title+" — AM + PM";
+  else sub.textContent="Choose Day / Program Type";
+}
+function applyDeleted(){
+  root.querySelectorAll("[data-diagram]").forEach(function(card){card.hidden=!!state.deleted[card.dataset.diagram]});
+  var monCards=[].slice.call(root.querySelectorAll(".mch15-monday [data-diagram]")).filter(function(c){return!c.hidden});
+  var campCards=[].slice.call(root.querySelectorAll(".mch15-camp [data-diagram]")).filter(function(c){return!c.hidden});
+  var mg=document.getElementById("mch15-monday-rinks"),cg=document.getElementById("mch15-camp-rinks");
+  mg.className="mch15-rink-grid mch15-grid-"+Math.max(1,Math.min(3,monCards.length));
+  cg.className="mch15-rink-grid mch15-grid-"+Math.max(1,Math.min(2,campCards.length));
+  var hasC=monCards.some(function(c){return c.dataset.physicalRink==="Rink C"}),hasB=monCards.some(function(c){return c.dataset.physicalRink==="Rink B"});
+  document.getElementById("mch15-rink-c-ops").hidden=!hasC;
+  document.getElementById("mch15-rink-b-ops").hidden=!hasB;
+  document.getElementById("mch15-monday-ops").hidden=!(hasC||hasB);
+  document.getElementById("mch15-camp-ops").hidden=campCards.length===0;
+  root.querySelector('[data-restore-program="monday"]').hidden=!["monday-610-c","monday-705-c","monday-705-b"].some(function(k){return!!state.deleted[k]});
+  var cf=state.campFormat;
+  root.querySelector('[data-restore-program="camp"]').hidden=!["camp-"+cf+"-am","camp-"+cf+"-pm"].some(function(k){return!!state.deleted[k]});
+}
+
+function campStationsHTML(rinkKey,stations){
+  return stations.map(function(s){
+    return '<button type="button" class="mch15-station" data-rink="'+esc(rinkKey)+'" data-station="'+esc(s[0])+'" data-label="'+esc(s[1])+'" style="left:'+s[2]+'%;top:'+s[3]+'%;--sw:'+s[4]+'%"><span class="mch15-assign">+ Assign</span><span class="mch15-name1"></span><span class="mch15-name2"></span></button>'
+  }).join("");
+}
+function renderCampFormat(){
+  var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;
+  ["AM","PM"].forEach(function(session){
+    var card=root.querySelector('[data-camp-session="'+session+'"]');
+    var key="camp-"+state.campFormat+"-"+session.toLowerCase();
+    card.dataset.diagram=key;
+    card.querySelector(".mch15-rink-head strong").textContent=f.title;
+    card.querySelector(".mch15-rink-head span:not(.mch15-badge)").textContent=session+" Session";
+    card.querySelector(".mch15-camp-img").src=f.url;
+    card.querySelector(".mch15-camp-overlays").innerHTML=campStationsHTML(key,f.stations);
+    card.querySelector("[data-delete-diagram]").dataset.deleteDiagram=key;
+  });
+  applyDeleted();renderAssignButtons();updateSubtitle();
+}
+
+function openModal(btn){
+  edit={rink:btn.dataset.rink,station:btn.dataset.station,label:btn.dataset.label};
+  var r=effectiveAssign(edit.rink,edit.station);
+  document.getElementById("mch15-modal-title").textContent=edit.label+(/^camp-.+-pm$/.test(edit.rink)?" — PM":"");
+  fillSelect(document.getElementById("mch15-modal-coach1"),r.coach1);
+  fillSelect(document.getElementById("mch15-modal-coach2"),r.coach2);
+  var m=document.getElementById("mch15-assign-modal");m.classList.add("open");m.setAttribute("aria-hidden","false");
+}
+function closeModal(){var m=document.getElementById("mch15-assign-modal");m.classList.remove("open");m.setAttribute("aria-hidden","true");edit=null}
+function saveModal(){
+  if(!edit)return;
+  var r=ensureAssign(edit.rink,edit.station);
+  r.coach1=document.getElementById("mch15-modal-coach1").value||"";
+  r.coach2=document.getElementById("mch15-modal-coach2").value||"";
+  if(/^camp-.+-pm$/.test(edit.rink))state.pmOverride[edit.rink+"|"+edit.station]=true;
+  save();closeModal();renderAssignButtons();
+}
+
+function customPrompt(sel){
+  var n=window.prompt("Enter custom coach / staff name:","");
+  if(n==null)return null;n=n.replace(/\s+/g," ").trim();if(!n)return"";
+  var v=customValue(n);fillSelect(sel,v);return v;
+}
+
+function updateAllStaffOptions(){
+  root.querySelectorAll(".mch15-staff-select").forEach(function(sel){
+    var cur=sel.value||"";
+    fillSelect(sel,cur);
+  });
+  renderAssignButtons();renderRooms();
+}
+
+function sheetGroupsFromRows(rows){
+  var groups=[],cur=null,counts={};
+  rows.forEach(function(row){
+    var a=String(row[0]||"").trim(),b=String(row[1]||"").trim();
+    if(!a&&!b)return;
+    if(a&&!b){cur={category:a,people:[]};groups.push(cur);counts={};return}
+    if(a&&b&&cur){var n=(a+" "+b).replace(/\s+/g," ").trim(),c=counts[n]||0;counts[n]=c+1;cur.people.push({id:slug(cur.category+"|"+n+"|"+c),name:n})}
+  });
+  return groups.filter(function(g){return g.category&&g.people.length});
+}
+function refreshStaff(){
+  var cb="mch15Sheet_"+Date.now(),script=document.createElement("script"),done=false;
+  document.getElementById("mch15-staff-text").textContent="Checking Staff Sheet…";
+  window[cb]=function(resp){
+    if(done)return;done=true;
+    try{
+      var rows=((resp||{}).table||{}).rows||[];
+      var matrix=rows.map(function(r){return[(r.c&&r.c[0]&&r.c[0].v)||"", (r.c&&r.c[1]&&r.c[1].v)||""]});
+      var g=sheetGroupsFromRows(matrix);
+      if(g.length){staffGroups=g;rebuildStaffMap();document.getElementById("mch15-dot").classList.add("live");document.getElementById("mch15-staff-text").textContent="Staff: live Google Sheet";updateAllStaffOptions()}
+      else throw 0;
+    }catch(e){document.getElementById("mch15-staff-text").textContent="Staff Sheet snapshot"}
+    try{delete window[cb]}catch(e){};script.remove();
+  };
+  script.onerror=function(){if(done)return;done=true;document.getElementById("mch15-staff-text").textContent="Staff Sheet snapshot";try{delete window[cb]}catch(e){};script.remove()};
+  script.src="https://docs.google.com/spreadsheets/d/"+SHEET_ID+"/gviz/tq?tqx=out:json;responseHandler:"+cb+"&sheet="+encodeURIComponent(SHEET_TAB)+"&range=A1:B200&cb="+Date.now();
+  document.head.appendChild(script);
+  setTimeout(function(){if(!done)script.onerror()},6000);
+}
+
+function loadScript(src,test){
+  if(test())return Promise.resolve();
+  return new Promise(function(resolve,reject){
+    var s=document.createElement("script");s.src=src;s.onload=resolve;s.onerror=reject;document.head.appendChild(s);
+  });
+}
+function urlToData(url){
+  if(imageCache[url])return Promise.resolve(imageCache[url]);
+  return fetch(url,{cache:"force-cache"}).then(function(r){if(!r.ok)throw new Error("image");return r.blob()}).then(function(blob){
+    return new Promise(function(resolve,reject){var fr=new FileReader();fr.onload=function(){imageCache[url]=fr.result;resolve(fr.result)};fr.onerror=reject;fr.readAsDataURL(blob)})
+  });
+}
+function pdfText(doc,text,x,y,maxw,fs,bold){
+  doc.setFont("helvetica",bold?"bold":"normal");doc.setFontSize(fs);
+  var lines=doc.splitTextToSize(String(text||""),maxw);doc.text(lines,x,y);return lines.length*fs*1.15;
+}
+function drawHeader(doc,subtitle){
+  doc.setFillColor(17,17,17);doc.rect(0,0,792,42,"F");
+  doc.addImage(LOGO_DATA,"PNG",12,6,30,30);
+  doc.setTextColor(255,255,255);doc.setFont("helvetica","bold");doc.setFontSize(14);doc.text("MOTOR CITY HOCKEY — SKATE ZONES & DUTIES",50,19);
+  doc.setTextColor(170,170,170);doc.setFontSize(7);doc.text(subtitle,50,31);
+  doc.setTextColor(255,255,255);doc.setFontSize(8);doc.text(state.date||"",780,23,{align:"right"});
+  doc.setTextColor(0,0,0);
+}
+function configForRink(key){
+  if(MONDAY_CONFIG[key])return MONDAY_CONFIG[key];
+  var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;
+  return{title:f.title,subtitle:key.indexOf("-am")>0?"AM Session":"PM Session",url:f.url,stations:f.stations.map(function(s){return{id:s[0],label:s[1],x:s[2],y:s[3],w:s[4]}})}
+}
+function timeValue(rink,group,i){return(((state.times[rink]||{})[group]||[])[i])||"—"}
+function drawRink(doc,key,x,y,w,withTimes,badge,imgData){
+  var c=configForRink(key),head=16,timeH=withTimes?32:0,imgH=Math.min(w*2/3,220),cardH=head+timeH+imgH;
+  doc.setDrawColor(210);doc.roundedRect(x,y,w,cardH,4,4);
+  doc.setFillColor(245,245,245);doc.rect(x,y,w,head,"F");doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text(c.title+" — "+c.subtitle,x+5,y+10);
+  doc.setFillColor(17,17,17);doc.roundedRect(x+w-33,y+3,28,10,4,4,"F");doc.setTextColor(255,255,255);doc.setFontSize(5.5);doc.text(badge,x+w-19,y+10,{align:"center"});doc.setTextColor(0);
+  var iy=y+head;
+  if(withTimes){
+    doc.setFontSize(5.2);doc.setFont("helvetica","bold");doc.text("ZONE TIME CHANGES",x+5,iy+7);
+    var groups=key==="monday-705-b"?[["rinkb","Rink B",3]]:[["inhouse","In-House",4],["advanced","Advanced",4]];
+    groups.forEach(function(g,gi){
+      var yy=iy+15+gi*8;doc.setFontSize(4.8);doc.text(g[1],x+5,yy);
+      var start=x+45,sw=(w-50)/g[2];
+      for(var i=0;i<g[2];i++){doc.setDrawColor(220);doc.rect(start+i*sw,yy-5,sw-1,7);doc.setFont("helvetica","normal");doc.setFontSize(4.5);doc.text(timeValue(key,g[0],i),start+i*sw+(sw-1)/2,yy,{align:"center"})}
+    });
+    iy+=timeH;
+  }
+  doc.addImage(imgData,"PNG",x+2,iy,w-4,imgH);
+  c.stations.forEach(function(s){
+    var a=effectiveAssign(key,s.id),n1=staffName(a.coach1),n2=staffName(a.coach2);if(!n1&&!n2)return;
+    var bx=x+(s.x/100)*w,by=iy+(s.y/100)*imgH,bw=Math.max(42,(s.w/100)*w);
+    doc.setFillColor(255,255,255);doc.setDrawColor(201,31,44);doc.setLineWidth(1.5);doc.line(bx-bw/2,by,bx-bw/2,by+10+(n2?6:0));
+    doc.setFont("helvetica","bold");doc.setFontSize(5);doc.setTextColor(0);doc.text(n1,bx,by+5,{align:"center",maxWidth:bw-3});if(n2)doc.text(n2,bx,by+11,{align:"center",maxWidth:bw-3});
+  });
+  return cardH;
+}
+function drawTasks(doc,title,group,names,x,y,w){
+  var vals=ensureTasks(group,names),visible=[];
+  names.forEach(function(n,i){if(!state.taskHidden[group+"-"+i])visible.push([n,vals[i]||""])});
+  var rowH=11,h=15+visible.length*rowH;
+  doc.setDrawColor(205);doc.roundedRect(x,y,w,h,4,4);doc.setFillColor(17,17,17);doc.rect(x,y,w,15,"F");doc.setTextColor(255,255,255);doc.setFont("helvetica","bold");doc.setFontSize(6);doc.text(title,x+5,y+10);doc.setTextColor(0);
+  visible.forEach(function(r,i){var yy=y+15+(i+1)*rowH-3;doc.setFontSize(5.2);doc.setFont("helvetica","bold");doc.text(r[0],x+5,yy,{maxWidth:w*0.68});doc.text(staffName(r[1]),x+w-5,yy,{align:"right",maxWidth:w*0.27});doc.setDrawColor(235);doc.line(x+4,yy+3,x+w-4,yy+3)});
+  return h;
+}
+function drawCampDirections(doc,y){
+  var items=[
+    ["8:30 AM SHARP","Be in the locker room ready to work. Help players get dressed. Greet and communicate with every parent who attends."],
+    ["OFF-ICE","Be active with players — coach, guide and supervise. Do not stand around doing nothing."],
+    ["LUNCH","No cell phone use. Sit with the kids, communicate with them and stay engaged."],
+    ["BEFORE SECOND ICE","Help players get dressed and fully prepared for the ice."],
+    ["LOCKER-ROOM SAFETY","Players are never allowed in a locker room without a coach. If a coach leaves, another coach must take over before that coach exits. Continuous supervision at all times."],
+    ["POST-CAMP","Greet parents, high-five every player and thank parents for coming when you are in the locker room."]
+  ];
+  var x=18,w=756,h=86;doc.setDrawColor(205);doc.setLineWidth(2);doc.setDrawColor(201,31,44);doc.line(x,y,x,y+h);doc.setLineWidth(.2);doc.setDrawColor(205);doc.rect(x,y,w,h);
+  doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text("CAMP STAFF EXPECTATIONS — READ BEFORE CAMP",x+8,y+11);
+  var colW=(w-20)/3,rowH=32;
+  items.forEach(function(it,i){var col=i%3,row=Math.floor(i/3),xx=x+8+col*colW,yy=y+23+row*rowH;doc.setFontSize(5.2);doc.setFont("helvetica","bold");doc.text(it[0]+":",xx,yy);doc.setFont("helvetica","normal");var lines=doc.splitTextToSize(it[1],colW-8);doc.text(lines,xx,yy+6)});
+  return h;
+}
+function drawLockers(doc,x,y,w){
+  var h=15+6*11;doc.setDrawColor(205);doc.roundedRect(x,y,w,h,4,4);doc.setFillColor(17,17,17);doc.rect(x,y,w,15,"F");doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(6);doc.text("LOCKER ROOMS 1–6",x+5,y+10);doc.setTextColor(0);
+  for(var i=1;i<=6;i++){var r=ensureRoom(i),names=[staffName(r.coach1),staffName(r.coach2)].filter(Boolean).join(" / "),yy=y+15+i*11-3;doc.setFontSize(5.2);doc.setFont("helvetica","bold");doc.text("Room "+i,x+5,yy);doc.text(names,x+w-5,yy,{align:"right",maxWidth:w-50});doc.setDrawColor(235);doc.line(x+4,yy+3,x+w-4,yy+3)}
+  return h;
+}
+async function exportPDF(){
+  var p=currentProgram();if(!p){alert("Choose Monday Training or Camps first.");return}
+  var btn=document.getElementById("mch15-export"),old=btn.textContent;btn.textContent="Building PDF…";btn.disabled=true;
+  try{
+    await loadScript("https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js",function(){return!!(window.jspdf&&window.jspdf.jsPDF)});
+    var jsPDF=window.jspdf.jsPDF,doc=new jsPDF({orientation:"landscape",unit:"pt",format:"letter",compress:true});
+    if(p==="monday"){
+      drawHeader(doc,"Monday Training — one-page staff plan");
+      var keys=["monday-610-c","monday-705-c","monday-705-b"].filter(function(k){return!state.deleted[k]});
+      var imgs=await Promise.all(keys.map(function(k){return urlToData(MONDAY_CONFIG[k].url)}));
+      var n=keys.length||1,gap=8,total=756,w=Math.min((total-gap*(n-1))/n,n===1?520:999),start=18+(756-(w*n+gap*(n-1)))/2,y=50,maxH=0;
+      keys.forEach(function(k,i){maxH=Math.max(maxH,drawRink(doc,k,start+i*(w+gap),y,w,true,MONDAY_CONFIG[k].subtitle.toUpperCase(),imgs[i]))});
+      var ty=y+maxH+8,hasC=keys.some(function(k){return /-c$/.test(k)}),hasB=keys.indexOf("monday-705-b")>=0;
+      if(hasC&&hasB){drawTasks(doc,"RINK C DUTIES — SHARED BY BOTH RINK C SKATES","monday-c",MON_TASKS,18,ty,500);drawTasks(doc,"RINK B DUTIES","monday-b",MON_TASKS,526,ty,248)}
+      else if(hasC)drawTasks(doc,"RINK C DUTIES","monday-c",MON_TASKS,96,ty,600);
+      else if(hasB)drawTasks(doc,"RINK B DUTIES","monday-b",MON_TASKS,146,ty,500);
+    }else{
+      var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;drawHeader(doc,f.title+" — AM + PM");
+      var dy=50;dy+=drawCampDirections(doc,dy)+8;
+      var keys=["camp-"+state.campFormat+"-am","camp-"+state.campFormat+"-pm"].filter(function(k){return!state.deleted[k]});
+      var img=await urlToData(f.url),n=keys.length||1,gap=10,total=756,w=Math.min((total-gap*(n-1))/n,n===1?560:999),start=18+(756-(w*n+gap*(n-1)))/2,maxH=0;
+      keys.forEach(function(k,i){maxH=Math.max(maxH,drawRink(doc,k,start+i*(w+gap),dy,w,false,k.endsWith("-am")?"AM":"PM",img))});
+      var oy=dy+maxH+8;if(keys.length){drawTasks(doc,"CAMP TASKS — SHARED AM + PM","camp",CAMP_TASKS,18,oy,370);drawLockers(doc,398,oy,376)}
+    }
+    doc.save("Motor-City-Hockey-Skate-Zones-Duties.pdf");
+  }catch(err){console.error(err);alert("PDF export could not load. Check your internet connection and try again.")}
+  finally{btn.textContent=old;btn.disabled=false}
+}
+
+root.addEventListener("click",function(e){
+  var station=e.target.closest(".mch15-station");if(station){openModal(station);return}
+  if(e.target.closest("[data-close-modal]")){closeModal();return}
+  var del=e.target.closest("[data-delete-diagram]");if(del){var k=del.dataset.deleteDiagram;if(confirm("Remove this entire diagram from the current plan and PDF?")){state.deleted[k]=true;save();applyDeleted()}return}
+  var restore=e.target.closest("[data-restore-program]");if(restore){if(restore.dataset.restoreProgram==="monday")["monday-610-c","monday-705-c","monday-705-b"].forEach(function(k){delete state.deleted[k]});else["camp-"+state.campFormat+"-am","camp-"+state.campFormat+"-pm"].forEach(function(k){delete state.deleted[k]});save();applyDeleted();return}
+  var dt=e.target.closest("[data-delete-task]");if(dt){state.taskHidden[dt.dataset.deleteTask+"-"+dt.dataset.taskIndex]=true;save();applyTaskHidden();return}
+  var add=e.target.closest("[data-add-room-coach]");if(add){var r=ensureRoom(Number(add.dataset.addRoomCoach));r.second=true;save();renderRooms();return}
+  var rem=e.target.closest("[data-remove-room-coach]");if(rem){var r2=ensureRoom(Number(rem.dataset.removeRoomCoach));r2.coach2="";r2.second=false;save();renderRooms();return}
+});
+document.getElementById("mch15-save-station").addEventListener("click",saveModal);
+document.getElementById("mch15-clear-station").addEventListener("click",function(){document.getElementById("mch15-modal-coach1").value="";document.getElementById("mch15-modal-coach2").value=""});
+document.getElementById("mch15-refresh-staff").addEventListener("click",refreshStaff);
+document.getElementById("mch15-export").addEventListener("click",exportPDF);
+
+root.addEventListener("change",function(e){
+  var el=e.target;
+  if(el.name==="mch15-program"){updateSubtitle();return}
+  if(el.id==="mch15-date"){state.date=el.value||"";save();return}
+  if(el.id==="mch15-camp-format"){state.campFormat=el.value||"split";save();renderCampFormat();return}
+  if(el.value===CUSTOM&&el.classList.contains("mch15-staff-select")){
+    var v=customPrompt(el);if(v==null)return;el.value=v;
+  }
+  if(el.dataset.timeRink){if(!state.times[el.dataset.timeRink])state.times[el.dataset.timeRink]={};if(!Array.isArray(state.times[el.dataset.timeRink][el.dataset.timeGroup]))state.times[el.dataset.timeRink][el.dataset.timeGroup]=[];state.times[el.dataset.timeRink][el.dataset.timeGroup][Number(el.dataset.timeIndex)]=el.value||"";save();return}
+  if(el.dataset.taskGroup){var vals=ensureTasks(el.dataset.taskGroup,el.dataset.taskGroup==="camp"?CAMP_TASKS:MON_TASKS);vals[Number(el.dataset.taskIndex)]=el.value||"";save();return}
+  if(el.dataset.room){var rr=ensureRoom(Number(el.dataset.room));if(el.dataset.roomSlot==="2"){rr.coach2=el.value||"";rr.second=true}else rr.coach1=el.value||"";save();return}
+});
+
+document.getElementById("mch15-assign-modal").addEventListener("change",function(e){
+  if(e.target.value===CUSTOM){var v=customPrompt(e.target);if(v!=null)e.target.value=v}
+});
+
+function init(){
+  document.getElementById("mch15-date").value=state.date||"";
+  document.getElementById("mch15-camp-format").value=state.campFormat||"split";
+  fillAllSelects();renderRooms();renderTimes();renderCampFormat();renderAssignButtons();applyTaskHidden();applyDeleted();updateSubtitle();
+  refreshStaff();
+}
+init();
 })();
 </script>
-</body>
-</html>
