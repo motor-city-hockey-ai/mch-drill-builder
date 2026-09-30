@@ -26,6 +26,12 @@ jobs:
           curl -L --fail --retry 3 --retry-delay 2 \
             'https://20096218.fs1.hubspotusercontent-na1.net/hubfs/20096218/GSS/Drill%20Book/Global%20Skills%20Showcase%20Drill%20Book%20-%202024.pdf' \
             -o /tmp/gss/gss2024.pdf
+      - name: Download free 2023 TCS Live drill book
+        run: |
+          mkdir -p /tmp/tcs2023 assets/coaches-site/tcs-live-2023
+          curl -L --fail --retry 3 --retry-delay 2 \
+            'https://crossbar.s3.amazonaws.com/organizations/111/uploads/193587e9-e99c-4173-8b03-9fe2882bb38e.pdf?versionId=hLcKPZ77ur0h26CfutwxuRRtsvfFo9E2' \
+            -o /tmp/tcs2023/tcs-live-2023.pdf
       - name: Render and crop original Kevin Galerno diagrams
         run: |
           pdftoppm -f 22 -l 25 -r 180 -png -singlefile /tmp/gss/gss2024.pdf /tmp/gss/page22
@@ -36,7 +42,7 @@ jobs:
           from PIL import Image
           from pathlib import Path
           specs = {
-              22: (0.065, 0.180, 0.935, 0.493),
+              22: (0.065, 0.180, 0.935, 0.478),
               23: (0.065, 0.205, 0.935, 0.500),
               24: (0.065, 0.205, 0.935, 0.500),
               25: (0.065, 0.205, 0.935, 0.500),
@@ -58,11 +64,36 @@ jobs:
               crop.save(out/names[p], optimize=True, quality=95)
               print(p, im.size, crop.size, out/names[p])
           PY
+      - name: Render and crop original David Sellin diagrams
+        run: |
+          pdftoppm -f 67 -l 67 -r 180 -png -singlefile /tmp/tcs2023/tcs-live-2023.pdf /tmp/tcs2023/page67
+          pdftoppm -f 68 -l 68 -r 180 -png -singlefile /tmp/tcs2023/tcs-live-2023.pdf /tmp/tcs2023/page68
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          specs = {
+              67: (0.055, 0.145, 0.945, 0.520),
+              68: (0.055, 0.145, 0.945, 0.520),
+          }
+          names = {
+              67: 'david-sellin-3v3-layer-cake.png',
+              68: 'david-sellin-cross-drop-retrieval.png',
+          }
+          out = Path('assets/coaches-site/tcs-live-2023')
+          out.mkdir(parents=True, exist_ok=True)
+          for p, frac in specs.items():
+              im=Image.open(Path(f'/tmp/tcs2023/page{p}.png')).convert('RGB')
+              w,h=im.size
+              x0,y0,x1,y1=frac
+              crop=im.crop((round(w*x0),round(h*y0),round(w*x1),round(h*y1)))
+              crop.save(out/names[p], optimize=True, quality=95)
+              print(p, im.size, crop.size, out/names[p])
+          PY
       - name: Commit original diagram crops
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/coaches-site/gss-2024/*.png
+          git add assets/coaches-site/gss-2024/*.png assets/coaches-site/tcs-live-2023/*.png
           if git diff --cached --quiet; then
             echo 'No diagram changes'
           else
