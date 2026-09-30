@@ -247,14 +247,15 @@
       </div>
     </section>
 
-    <section class="mch15-view mch15-camp">
-      <div class="mch15-section-head mch15-camp-head">
-        <div>
-          <div class="mch15-eyebrow">CAMPS</div>
-          <h2>AM + PM</h2>
-          <div class="mch15-camp-note">PM starts with the same zone coaches as AM. Editing a PM zone changes PM only.</div>
+
+    <section class="mch15-view mch15-camp mch16-camp">
+      <div class="mch16-camp-toolbar">
+        <div class="mch16-camp-title">
+          <div class="mch15-eyebrow">HOCKEY CAMPS</div>
+          <h2>Camp Command Center</h2>
+          <p>Build the day from top to bottom. AM and PM drills stay independent.</p>
         </div>
-        <div class="mch15-head-right">
+        <div class="mch16-camp-controls">
           <label class="mch15-camp-picker"><span>Camp Format</span>
             <select id="mch15-camp-format">
               <option value="split">Camp: 3 ADV Zones &amp; 3 6U / 8U Zones</option>
@@ -266,307 +267,256 @@
         </div>
       </div>
 
-      
-      <section class="mch15-camp-section mch15-overview-section">
-        <div class="mch15-section-band">
-          <span class="mch15-section-number">1</span>
-          <div><strong>Day Overview</strong><small>Daily schedule and required staff standards</small></div>
+      <section class="mch16-timeline-card">
+        <div class="mch16-card-title">
+          <div><span>DAY AT A GLANCE</span><strong>Daily Schedule</strong></div>
+          <small>8:30 AM–2:00 PM</small>
         </div>
-      <div class="mch15-camp-top">
-        <section class="mch15-schedule">
-          <div class="mch15-schedule-title">Daily Schedule</div>
-          <div class="mch15-schedule-list"><div class="mch15-schedule-row"><strong>Arrival &amp; Welcoming</strong><span>8:30 AM</span></div><div class="mch15-schedule-row"><strong>On-Ice #1</strong><span>9:00–10:30 AM</span></div><div class="mch15-schedule-row"><strong>Get Changed</strong><span>10:30–10:45 AM</span></div><div class="mch15-schedule-row"><strong>Off-Ice</strong><span>10:45–11:20 AM</span></div><div class="mch15-schedule-row"><strong>Lunch</strong><span>11:20 AM–12:00 PM</span></div><div class="mch15-schedule-row"><strong>Get Dressed</strong><span>12:00–12:30 PM</span></div><div class="mch15-schedule-row"><strong>On-Ice #2</strong><span>12:30–2:00 PM</span></div><div class="mch15-schedule-row"><strong>Pickup</strong><span>2:00 PM</span></div></div>
-        </section>
+        <div class="mch16-timeline">
+          <div><strong>8:30 AM</strong><span>Arrival &amp; Welcoming</span></div>
+          <div><strong>9:00–10:30</strong><span>On-Ice #1</span></div>
+          <div><strong>10:30–10:45</strong><span>Get Changed</span></div>
+          <div><strong>10:45–11:20</strong><span>Off-Ice</span></div>
+          <div><strong>11:20–12:00</strong><span>Lunch</span></div>
+          <div><strong>12:00–12:30</strong><span>Get Dressed</span></div>
+          <div><strong>12:30–2:00</strong><span>On-Ice #2</span></div>
+          <div><strong>2:00 PM</strong><span>Pickup</span></div>
+        </div>
+      </section>
 
-        <details class="mch15-directions mch15-expectations-details">
-          <summary class="mch15-expectations-summary"><span>Staff Expectations</span><small>6 required standards — click to open</small></summary><div class="mch15-directions-title">Camp Staff Expectations — Read Before Camp</div>
-          <div class="mch15-directions-grid">
-            <div><strong>1. Arrival — 8:30 AM sharp.</strong> Be in the locker room ready to work. Help players get dressed and greet / communicate with every parent who attends.</div>
-            <div><strong>2. Off-Ice.</strong> Stay active with the players: coach, guide and supervise. Do not stand around doing nothing.</div>
-            <div><strong>3. Lunch.</strong> No cell phone use. Sit with the kids, communicate with them and stay engaged.</div>
-            <div><strong>4. Before the second ice hour.</strong> Help players get dressed and fully prepared for the ice.</div>
-            <div><strong>5. Locker-room supervision.</strong> Players are never allowed in a locker room without a coach. If a coach leaves, another coach must take over before that coach exits. Supervision must be continuous.</div>
-            <div><strong>6. Post-camp.</strong> Greet parents, give every player a high five and thank parents for coming when you are in the locker room.</div>
+      <details class="mch16-standards-card">
+        <summary>
+          <div><span>STAFF STANDARDS</span><strong>6 Expectations Everyone Follows</strong></div>
+          <small>Open to review</small>
+        </summary>
+        <div class="mch16-standards-grid">
+          <div><strong>Arrival — 8:30 AM sharp</strong><span>Be in the locker room ready to work. Help players get dressed and greet / communicate with every parent who attends.</span></div>
+          <div><strong>Off-Ice</strong><span>Stay active with the players: coach, guide and supervise. Do not stand around doing nothing.</span></div>
+          <div><strong>Lunch</strong><span>No cell phone use. Sit with the kids, communicate with them and stay engaged.</span></div>
+          <div><strong>Before the second ice hour</strong><span>Help players get dressed and fully prepared for the ice.</span></div>
+          <div><strong>Locker-room supervision</strong><span>Players are never allowed in a locker room without a coach. If a coach leaves, another coach must take over before that coach exits. Supervision must be continuous.</span></div>
+          <div><strong>Post-camp</strong><span>Greet parents, give every player a high five and thank parents for coming when you are in the locker room.</span></div>
+        </div>
+      </details>
+
+      <section class="mch16-session-grid" id="mch15-camp-rinks">
+        
+          <article class="mch16-session-card" data-session-shell="AM">
+            <div class="mch16-session-bar">
+              <div>
+                <span class="mch16-session-kicker">AM ICE</span>
+                <strong>AM Session</strong>
+              </div>
+              <span class="mch16-session-time">9:00–10:30 AM</span>
+            </div>
+
+            <article class="mch15-rink-card mch15-camp-card mch16-rink-card" data-diagram="camp-split-am" data-camp-session="AM">
+              <div class="mch15-rink-head">
+                <div><strong>Camp: 3 ADV Zones &amp; 3 6U / 8U Zones</strong><span>AM Session</span></div>
+                <span class="mch15-badge">AM</span>
+              </div>
+              <div class="mch15-stage">
+                <img class="mch15-camp-img" src="https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/d4a17506-bd8d-408a-bee9-363bca40646e/3+Zones+Each+Split+Camp+ADV+and+6U8U.png?format=1500w" alt="AM camp rink diagram">
+                <div class="mch15-camp-overlays"></div>
+              </div>
+              <button type="button" class="mch15-remove-diagram" data-delete-diagram="camp-split-am">× Remove Entire Diagram</button>
+            </article>
+
+            <div class="mch15-camp-plan-card mch16-session-plan" data-plan-session="AM"></div>
+          </article>
+        
+          <article class="mch16-session-card" data-session-shell="PM">
+            <div class="mch16-session-bar">
+              <div>
+                <span class="mch16-session-kicker">PM ICE</span>
+                <strong>PM Session</strong>
+              </div>
+              <span class="mch16-session-time">12:30–2:00 PM</span>
+            </div>
+
+            <article class="mch15-rink-card mch15-camp-card mch16-rink-card" data-diagram="camp-split-pm" data-camp-session="PM">
+              <div class="mch15-rink-head">
+                <div><strong>Camp: 3 ADV Zones &amp; 3 6U / 8U Zones</strong><span>PM Session</span></div>
+                <span class="mch15-badge">PM</span>
+              </div>
+              <div class="mch15-stage">
+                <img class="mch15-camp-img" src="https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/d4a17506-bd8d-408a-bee9-363bca40646e/3+Zones+Each+Split+Camp+ADV+and+6U8U.png?format=1500w" alt="PM camp rink diagram">
+                <div class="mch15-camp-overlays"></div>
+              </div>
+              <button type="button" class="mch15-remove-diagram" data-delete-diagram="camp-split-pm">× Remove Entire Diagram</button>
+            </article>
+
+            <div class="mch15-camp-plan-card mch16-session-plan" data-plan-session="PM"></div>
+          </article>
+      </section>
+
+      <section class="mch16-ops-board" id="mch15-camp-ops">
+        <div class="mch16-ops-title">
+          <div><span>OPERATIONS</span><strong>Everything Staff Needs Off the Ice</strong></div>
+          <small>Open only the section you are working on</small>
+        </div>
+
+        <details class="mch16-ops-card" open>
+          <summary><span>Camp Duties</span><small>8 assignable responsibilities</small></summary>
+          <div class="mch16-ops-body">
+            <section class="mch15-ops-card" id="mch15-camp-task-panel">
+              <div class="mch15-ops-head"><strong>Camp Duties</strong><span>One shared set for AM + PM on the same rink.</span></div>
+              <div class="mch15-task-list">
+                  <div class="mch15-task-row" data-task-row="camp-0">
+                    <div class="mch15-task-label">8:00 AM Arrival for Early Families</div>
+                    <select class="mch15-staff-select" data-task-group="camp" data-task-index="0" aria-label="8:00 AM Arrival for Early Families coach"></select>
+                    <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="0" aria-label="Remove task">×</button>
+                  </div>
+                  <div class="mch15-task-row" data-task-row="camp-1">
+                    <div class="mch15-task-label">Set Up White Board With Locker Room Names</div>
+                    <select class="mch15-staff-select" data-task-group="camp" data-task-index="1" aria-label="Set Up White Board With Locker Room Names coach"></select>
+                    <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="1" aria-label="Remove task">×</button>
+                  </div>
+                  <div class="mch15-task-row" data-task-row="camp-2">
+                    <div class="mch15-task-label">Make Sure All Locker Rooms Are Unlocked</div>
+                    <select class="mch15-staff-select" data-task-group="camp" data-task-index="2" aria-label="Make Sure All Locker Rooms Are Unlocked coach"></select>
+                    <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="2" aria-label="Remove task">×</button>
+                  </div>
+                  <div class="mch15-task-row" data-task-row="camp-3">
+                    <div class="mch15-task-label">Equipment Bin Bring To The Rink</div>
+                    <select class="mch15-staff-select" data-task-group="camp" data-task-index="3" aria-label="Equipment Bin Bring To The Rink coach"></select>
+                    <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="3" aria-label="Remove task">×</button>
+                  </div>
+                  <div class="mch15-task-row" data-task-row="camp-4">
+                    <div class="mch15-task-label">Equipment Bin Back To Coaches Room</div>
+                    <select class="mch15-staff-select" data-task-group="camp" data-task-index="4" aria-label="Equipment Bin Back To Coaches Room coach"></select>
+                    <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="4" aria-label="Remove task">×</button>
+                  </div>
+                  <div class="mch15-task-row" data-task-row="camp-5">
+                    <div class="mch15-task-label">Zone Changes &amp; Lead Coach</div>
+                    <select class="mch15-staff-select" data-task-group="camp" data-task-index="5" aria-label="Zone Changes & Lead Coach coach"></select>
+                    <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="5" aria-label="Remove task">×</button>
+                  </div>
+                  <div class="mch15-task-row" data-task-row="camp-6">
+                    <div class="mch15-task-label">Puck Lap</div>
+                    <select class="mch15-staff-select" data-task-group="camp" data-task-index="6" aria-label="Puck Lap coach"></select>
+                    <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="6" aria-label="Remove task">×</button>
+                  </div>
+                  <div class="mch15-task-row" data-task-row="camp-7">
+                    <div class="mch15-task-label">Pickup Pizza at LC During Off-Ice</div>
+                    <select class="mch15-staff-select" data-task-group="camp" data-task-index="7" aria-label="Pickup Pizza at LC During Off-Ice coach"></select>
+                    <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="7" aria-label="Remove task">×</button>
+                  </div>
+              </div>
+            </section>
           </div>
         </details>
-      </div>
 
-
-      </section>
-
-      <section class="mch15-camp-section mch15-ice-section">
-        <div class="mch15-section-band">
-          <span class="mch15-section-number">2</span>
-          <div><strong>Ice Plan</strong><small>AM and PM rink assignments with station plans</small></div>
-        </div>
-      <div class="mch15-rink-grid mch15-grid-2" id="mch15-camp-rinks">
-        <article class="mch15-rink-card mch15-camp-card" data-diagram="camp-split-am" data-camp-session="AM">
-      <div class="mch15-rink-head">
-        <div><strong>Camp: 3 ADV Zones &amp; 3 6U / 8U Zones</strong><span>AM Session</span></div>
-        <span class="mch15-badge">AM</span>
-      </div>
-      <div class="mch15-stage">
-        <img class="mch15-camp-img" src="https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/d4a17506-bd8d-408a-bee9-363bca40646e/3+Zones+Each+Split+Camp+ADV+and+6U8U.png?format=1500w" alt="AM camp rink diagram">
-        <div class="mch15-camp-overlays">
-          <button type="button" class="mch15-station" data-rink="camp-split-am" data-station="u1" data-label="6U / 8U Station 1"
-                style="left:20.2%;top:18.9%;--sw:18%">
-                <span class="mch15-assign">+ Assign</span>
-                <span class="mch15-name1"></span>
-                <span class="mch15-name2"></span>
-            </button>
-<button type="button" class="mch15-station" data-rink="camp-split-am" data-station="u2" data-label="6U / 8U Station 2"
-                style="left:41.8%;top:18.9%;--sw:18%">
-                <span class="mch15-assign">+ Assign</span>
-                <span class="mch15-name1"></span>
-                <span class="mch15-name2"></span>
-            </button>
-<button type="button" class="mch15-station" data-rink="camp-split-am" data-station="u3" data-label="6U / 8U Station 3"
-                style="left:16.0%;top:81.4%;--sw:18%">
-                <span class="mch15-assign">+ Assign</span>
-                <span class="mch15-name1"></span>
-                <span class="mch15-name2"></span>
-            </button>
-<button type="button" class="mch15-station" data-rink="camp-split-am" data-station="a1" data-label="Advanced Station 1"
-                style="left:57.8%;top:18.9%;--sw:18%">
-                <span class="mch15-assign">+ Assign</span>
-                <span class="mch15-name1"></span>
-                <span class="mch15-name2"></span>
-            </button>
-<button type="button" class="mch15-station" data-rink="camp-split-am" data-station="a2" data-label="Advanced Station 2"
-                style="left:82.0%;top:18.9%;--sw:18%">
-                <span class="mch15-assign">+ Assign</span>
-                <span class="mch15-name1"></span>
-                <span class="mch15-name2"></span>
-            </button>
-<button type="button" class="mch15-station" data-rink="camp-split-am" data-station="a3" data-label="Advanced Station 3"
-                style="left:82.0%;top:81.4%;--sw:18%">
-                <span class="mch15-assign">+ Assign</span>
-                <span class="mch15-name1"></span>
-                <span class="mch15-name2"></span>
-            </button>
-        </div>
-      </div>
-      <button type="button" class="mch15-remove-diagram" data-delete-diagram="camp-split-am">× Remove Entire Diagram</button>
-    </article>
-        <article class="mch15-rink-card mch15-camp-card" data-diagram="camp-split-pm" data-camp-session="PM">
-      <div class="mch15-rink-head">
-        <div><strong>Camp: 3 ADV Zones &amp; 3 6U / 8U Zones</strong><span>PM Session</span></div>
-        <span class="mch15-badge">PM</span>
-      </div>
-      <div class="mch15-stage">
-        <img class="mch15-camp-img" src="https://images.squarespace-cdn.com/content/v1/6920a856b17ccc4c9ba7ae29/d4a17506-bd8d-408a-bee9-363bca40646e/3+Zones+Each+Split+Camp+ADV+and+6U8U.png?format=1500w" alt="PM camp rink diagram">
-        <div class="mch15-camp-overlays">
-          <button type="button" class="mch15-station" data-rink="camp-split-pm" data-station="u1" data-label="6U / 8U Station 1"
-                style="left:20.2%;top:18.9%;--sw:18%">
-                <span class="mch15-assign">+ Assign</span>
-                <span class="mch15-name1"></span>
-                <span class="mch15-name2"></span>
-            </button>
-<button type="button" class="mch15-station" data-rink="camp-split-pm" data-station="u2" data-label="6U / 8U Station 2"
-                style="left:41.8%;top:18.9%;--sw:18%">
-                <span class="mch15-assign">+ Assign</span>
-                <span class="mch15-name1"></span>
-                <span class="mch15-name2"></span>
-            </button>
-<button type="button" class="mch15-station" data-rink="camp-split-pm" data-station="u3" data-label="6U / 8U Station 3"
-                style="left:16.0%;top:81.4%;--sw:18%">
-                <span class="mch15-assign">+ Assign</span>
-                <span class="mch15-name1"></span>
-                <span class="mch15-name2"></span>
-            </button>
-<button type="button" class="mch15-station" data-rink="camp-split-pm" data-station="a1" data-label="Advanced Station 1"
-                style="left:57.8%;top:18.9%;--sw:18%">
-                <span class="mch15-assign">+ Assign</span>
-                <span class="mch15-name1"></span>
-                <span class="mch15-name2"></span>
-            </button>
-<button type="button" class="mch15-station" data-rink="camp-split-pm" data-station="a2" data-label="Advanced Station 2"
-                style="left:82.0%;top:18.9%;--sw:18%">
-                <span class="mch15-assign">+ Assign</span>
-                <span class="mch15-name1"></span>
-                <span class="mch15-name2"></span>
-            </button>
-<button type="button" class="mch15-station" data-rink="camp-split-pm" data-station="a3" data-label="Advanced Station 3"
-                style="left:82.0%;top:81.4%;--sw:18%">
-                <span class="mch15-assign">+ Assign</span>
-                <span class="mch15-name1"></span>
-                <span class="mch15-name2"></span>
-            </button>
-        </div>
-      </div>
-      <button type="button" class="mch15-remove-diagram" data-delete-diagram="camp-split-pm">× Remove Entire Diagram</button>
-    </article>
-      </div>
-
-      <section class="mch15-camp-plan-grid" id="mch15-camp-plan-grid">
-        <div class="mch15-camp-plan-card" data-plan-session="AM"></div>
-        <div class="mch15-camp-plan-card" data-plan-session="PM"></div>
-      </section>
-
-
-      </section>
-
-      <section class="mch15-camp-section mch15-operations-section">
-        <div class="mch15-section-band">
-          <span class="mch15-section-number">3</span>
-          <div><strong>Camp Operations</strong><small>Duties, off-ice assignments and locker rooms</small></div>
-        </div>
-        <div class="mch15-ops-tabs" role="tablist" aria-label="Camp operations">
-          <button type="button" class="mch15-ops-tab active" data-camp-ops-tab="duties">Camp Duties</button>
-          <button type="button" class="mch15-ops-tab" data-camp-ops-tab="off-ice">Off-Ice Stations</button>
-          <button type="button" class="mch15-ops-tab" data-camp-ops-tab="locker-rooms">Locker Rooms</button>
-        </div>
-
-      <section class="mch15-camp-ops" id="mch15-camp-ops">
-        <div class="mch15-camp-ops-col active" data-camp-ops-panel="duties">
-          
-<section class="mch15-ops-card" id="mch15-camp-task-panel">
-      <div class="mch15-ops-head"><strong>Camp Tasks</strong><span>One shared set for AM + PM on the same rink.</span></div>
-      <div class="mch15-task-list">
-        <div class="mch15-task-row" data-task-row="camp-0">
-          <div class="mch15-task-label">8:00 AM Arrival for Early Families</div>
-          <select class="mch15-staff-select" data-task-group="camp" data-task-index="0" aria-label="8:00 AM Arrival for Early Families coach"></select>
-          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="0" aria-label="Remove task">×</button>
-        </div>
-        <div class="mch15-task-row" data-task-row="camp-1">
-          <div class="mch15-task-label">Set Up White Board With Locker Room Names</div>
-          <select class="mch15-staff-select" data-task-group="camp" data-task-index="1" aria-label="Set Up White Board With Locker Room Names coach"></select>
-          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="1" aria-label="Remove task">×</button>
-        </div>
-        <div class="mch15-task-row" data-task-row="camp-2">
-          <div class="mch15-task-label">Make Sure All Locker Rooms Are Unlocked</div>
-          <select class="mch15-staff-select" data-task-group="camp" data-task-index="2" aria-label="Make Sure All Locker Rooms Are Unlocked coach"></select>
-          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="2" aria-label="Remove task">×</button>
-        </div>
-        <div class="mch15-task-row" data-task-row="camp-3">
-          <div class="mch15-task-label">Equipment Bin Bring To The Rink</div>
-          <select class="mch15-staff-select" data-task-group="camp" data-task-index="3" aria-label="Equipment Bin Bring To The Rink coach"></select>
-          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="3" aria-label="Remove task">×</button>
-        </div>
-        <div class="mch15-task-row" data-task-row="camp-4">
-          <div class="mch15-task-label">Equipment Bin Back To Coaches Room</div>
-          <select class="mch15-staff-select" data-task-group="camp" data-task-index="4" aria-label="Equipment Bin Back To Coaches Room coach"></select>
-          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="4" aria-label="Remove task">×</button>
-        </div>
-        <div class="mch15-task-row" data-task-row="camp-5">
-          <div class="mch15-task-label">Zone Changes &amp; Lead Coach</div>
-          <select class="mch15-staff-select" data-task-group="camp" data-task-index="5" aria-label="Zone Changes &amp; Lead Coach coach"></select>
-          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="5" aria-label="Remove task">×</button>
-        </div>
-        <div class="mch15-task-row" data-task-row="camp-6">
-          <div class="mch15-task-label">Puck Lap</div>
-          <select class="mch15-staff-select" data-task-group="camp" data-task-index="6" aria-label="Puck Lap coach"></select>
-          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="6" aria-label="Remove task">×</button>
-        </div>
-        <div class="mch15-task-row" data-task-row="camp-7">
-          <div class="mch15-task-label">Pickup Pizza at LC During Off-Ice</div>
-          <select class="mch15-staff-select" data-task-group="camp" data-task-index="7" aria-label="Pickup Pizza at LC During Off-Ice coach"></select>
-          <button type="button" class="mch15-row-x" data-delete-task="camp" data-task-index="7" aria-label="Remove task">×</button>
-        </div>
-      </div>
-    </section>
-        </div>
-
-        <div class="mch15-camp-ops-col" data-camp-ops-panel="off-ice">
-          <div class="mch15-subhead mch15-office-head">
-            <span>Off-Ice Stations</span>
-            <button type="button" class="mch15-small-btn" id="mch15-restore-office" hidden>Restore Stations</button>
-          </div>
-          <div class="mch15-office-list">
-            <div class="mch15-office-row" data-office-row="1">
-              <strong>Station 1</strong>
-              <select class="mch15-office-activity" data-office-station="1" aria-label="Off-Ice Station 1 activity"><option value="">— Select Activity —</option><option value="Agility Ladder">Agility Ladder</option><option value="Agility Lines">Agility Lines</option><option value="Cornhole">Cornhole</option><option value="Football">Football</option><option value="Hangman">Hangman</option><option value="Rock Paper Scissors Competition">Rock Paper Scissors Competition</option><option value="Soccer">Soccer</option><option value="Sprint Tic Tac Toe">Sprint Tic Tac Toe</option><option value="Sprints">Sprints</option><option value="Stretching">Stretching</option><option value="Uno">Uno</option></select>
-              <select class="mch15-staff-select" data-office-station="1" data-office-field="coach" aria-label="Off-Ice Station 1 coach"></select>
-              <button type="button" class="mch15-row-x" data-delete-office-station="1" aria-label="Remove Off-Ice Station 1">×</button>
+        <details class="mch16-ops-card">
+          <summary><span>Off-Ice Stations</span><small>Up to 4 activity stations</small></summary>
+          <div class="mch16-ops-body">
+            <div class="mch15-subhead mch15-office-head">
+              <span>Off-Ice Stations</span>
+              <button type="button" class="mch15-small-btn" id="mch15-restore-office" hidden>Restore Stations</button>
             </div>
-            <div class="mch15-office-row" data-office-row="2">
-              <strong>Station 2</strong>
-              <select class="mch15-office-activity" data-office-station="2" aria-label="Off-Ice Station 2 activity"><option value="">— Select Activity —</option><option value="Agility Ladder">Agility Ladder</option><option value="Agility Lines">Agility Lines</option><option value="Cornhole">Cornhole</option><option value="Football">Football</option><option value="Hangman">Hangman</option><option value="Rock Paper Scissors Competition">Rock Paper Scissors Competition</option><option value="Soccer">Soccer</option><option value="Sprint Tic Tac Toe">Sprint Tic Tac Toe</option><option value="Sprints">Sprints</option><option value="Stretching">Stretching</option><option value="Uno">Uno</option></select>
-              <select class="mch15-staff-select" data-office-station="2" data-office-field="coach" aria-label="Off-Ice Station 2 coach"></select>
-              <button type="button" class="mch15-row-x" data-delete-office-station="2" aria-label="Remove Off-Ice Station 2">×</button>
-            </div>
-            <div class="mch15-office-row" data-office-row="3">
-              <strong>Station 3</strong>
-              <select class="mch15-office-activity" data-office-station="3" aria-label="Off-Ice Station 3 activity"><option value="">— Select Activity —</option><option value="Agility Ladder">Agility Ladder</option><option value="Agility Lines">Agility Lines</option><option value="Cornhole">Cornhole</option><option value="Football">Football</option><option value="Hangman">Hangman</option><option value="Rock Paper Scissors Competition">Rock Paper Scissors Competition</option><option value="Soccer">Soccer</option><option value="Sprint Tic Tac Toe">Sprint Tic Tac Toe</option><option value="Sprints">Sprints</option><option value="Stretching">Stretching</option><option value="Uno">Uno</option></select>
-              <select class="mch15-staff-select" data-office-station="3" data-office-field="coach" aria-label="Off-Ice Station 3 coach"></select>
-              <button type="button" class="mch15-row-x" data-delete-office-station="3" aria-label="Remove Off-Ice Station 3">×</button>
-            </div>
-            <div class="mch15-office-row" data-office-row="4">
-              <strong>Station 4</strong>
-              <select class="mch15-office-activity" data-office-station="4" aria-label="Off-Ice Station 4 activity"><option value="">— Select Activity —</option><option value="Agility Ladder">Agility Ladder</option><option value="Agility Lines">Agility Lines</option><option value="Cornhole">Cornhole</option><option value="Football">Football</option><option value="Hangman">Hangman</option><option value="Rock Paper Scissors Competition">Rock Paper Scissors Competition</option><option value="Soccer">Soccer</option><option value="Sprint Tic Tac Toe">Sprint Tic Tac Toe</option><option value="Sprints">Sprints</option><option value="Stretching">Stretching</option><option value="Uno">Uno</option></select>
-              <select class="mch15-staff-select" data-office-station="4" data-office-field="coach" aria-label="Off-Ice Station 4 coach"></select>
-              <button type="button" class="mch15-row-x" data-delete-office-station="4" aria-label="Remove Off-Ice Station 4">×</button>
+            <div class="mch15-office-list">
+                <div class="mch15-office-row" data-office-row="1">
+                  <strong>Station 1</strong>
+                  <select class="mch15-office-activity" data-office-station="1" aria-label="Off-Ice Station 1 activity"><option value="">— Select Activity —</option><option value="Agility Ladder">Agility Ladder</option><option value="Agility Lines">Agility Lines</option><option value="Cornhole">Cornhole</option><option value="Football">Football</option><option value="Hangman">Hangman</option><option value="Rock Paper Scissors Competition">Rock Paper Scissors Competition</option><option value="Soccer">Soccer</option><option value="Sprint Tic Tac Toe">Sprint Tic Tac Toe</option><option value="Sprints">Sprints</option><option value="Stretching">Stretching</option><option value="Uno">Uno</option></select>
+                  <select class="mch15-staff-select" data-office-station="1" data-office-field="coach" aria-label="Off-Ice Station 1 coach"></select>
+                  <button type="button" class="mch15-row-x" data-delete-office-station="1" aria-label="Remove Off-Ice Station 1">×</button>
+                </div>
+                <div class="mch15-office-row" data-office-row="2">
+                  <strong>Station 2</strong>
+                  <select class="mch15-office-activity" data-office-station="2" aria-label="Off-Ice Station 2 activity"><option value="">— Select Activity —</option><option value="Agility Ladder">Agility Ladder</option><option value="Agility Lines">Agility Lines</option><option value="Cornhole">Cornhole</option><option value="Football">Football</option><option value="Hangman">Hangman</option><option value="Rock Paper Scissors Competition">Rock Paper Scissors Competition</option><option value="Soccer">Soccer</option><option value="Sprint Tic Tac Toe">Sprint Tic Tac Toe</option><option value="Sprints">Sprints</option><option value="Stretching">Stretching</option><option value="Uno">Uno</option></select>
+                  <select class="mch15-staff-select" data-office-station="2" data-office-field="coach" aria-label="Off-Ice Station 2 coach"></select>
+                  <button type="button" class="mch15-row-x" data-delete-office-station="2" aria-label="Remove Off-Ice Station 2">×</button>
+                </div>
+                <div class="mch15-office-row" data-office-row="3">
+                  <strong>Station 3</strong>
+                  <select class="mch15-office-activity" data-office-station="3" aria-label="Off-Ice Station 3 activity"><option value="">— Select Activity —</option><option value="Agility Ladder">Agility Ladder</option><option value="Agility Lines">Agility Lines</option><option value="Cornhole">Cornhole</option><option value="Football">Football</option><option value="Hangman">Hangman</option><option value="Rock Paper Scissors Competition">Rock Paper Scissors Competition</option><option value="Soccer">Soccer</option><option value="Sprint Tic Tac Toe">Sprint Tic Tac Toe</option><option value="Sprints">Sprints</option><option value="Stretching">Stretching</option><option value="Uno">Uno</option></select>
+                  <select class="mch15-staff-select" data-office-station="3" data-office-field="coach" aria-label="Off-Ice Station 3 coach"></select>
+                  <button type="button" class="mch15-row-x" data-delete-office-station="3" aria-label="Remove Off-Ice Station 3">×</button>
+                </div>
+                <div class="mch15-office-row" data-office-row="4">
+                  <strong>Station 4</strong>
+                  <select class="mch15-office-activity" data-office-station="4" aria-label="Off-Ice Station 4 activity"><option value="">— Select Activity —</option><option value="Agility Ladder">Agility Ladder</option><option value="Agility Lines">Agility Lines</option><option value="Cornhole">Cornhole</option><option value="Football">Football</option><option value="Hangman">Hangman</option><option value="Rock Paper Scissors Competition">Rock Paper Scissors Competition</option><option value="Soccer">Soccer</option><option value="Sprint Tic Tac Toe">Sprint Tic Tac Toe</option><option value="Sprints">Sprints</option><option value="Stretching">Stretching</option><option value="Uno">Uno</option></select>
+                  <select class="mch15-staff-select" data-office-station="4" data-office-field="coach" aria-label="Off-Ice Station 4 coach"></select>
+                  <button type="button" class="mch15-row-x" data-delete-office-station="4" aria-label="Remove Off-Ice Station 4">×</button>
+                </div>
             </div>
           </div>
-        </div>
+        </details>
 
-        <div class="mch15-camp-ops-col" data-camp-ops-panel="locker-rooms">
-          <div class="mch15-subhead">Locker Room Assignments</div>
-          <div class="mch15-lockers"><div class="mch15-room" data-room="1">
-      <strong>Locker Room 1</strong>
-      <div class="mch15-room-selects">
-        <select class="mch15-staff-select" data-room="1" data-room-slot="1"></select>
-        <select class="mch15-staff-select mch15-second-room" data-room="1" data-room-slot="2" hidden></select>
-      </div>
-      <div class="mch15-room-actions">
-        <button type="button" class="mch15-small-btn" data-add-room-coach="1">+ Coach</button>
-        <button type="button" class="mch15-row-x" data-remove-room-coach="1" hidden>×</button>
-      </div>
-    </div><div class="mch15-room" data-room="2">
-      <strong>Locker Room 2</strong>
-      <div class="mch15-room-selects">
-        <select class="mch15-staff-select" data-room="2" data-room-slot="1"></select>
-        <select class="mch15-staff-select mch15-second-room" data-room="2" data-room-slot="2" hidden></select>
-      </div>
-      <div class="mch15-room-actions">
-        <button type="button" class="mch15-small-btn" data-add-room-coach="2">+ Coach</button>
-        <button type="button" class="mch15-row-x" data-remove-room-coach="2" hidden>×</button>
-      </div>
-    </div><div class="mch15-room" data-room="3">
-      <strong>Locker Room 3</strong>
-      <div class="mch15-room-selects">
-        <select class="mch15-staff-select" data-room="3" data-room-slot="1"></select>
-        <select class="mch15-staff-select mch15-second-room" data-room="3" data-room-slot="2" hidden></select>
-      </div>
-      <div class="mch15-room-actions">
-        <button type="button" class="mch15-small-btn" data-add-room-coach="3">+ Coach</button>
-        <button type="button" class="mch15-row-x" data-remove-room-coach="3" hidden>×</button>
-      </div>
-    </div><div class="mch15-room" data-room="4">
-      <strong>Locker Room 4</strong>
-      <div class="mch15-room-selects">
-        <select class="mch15-staff-select" data-room="4" data-room-slot="1"></select>
-        <select class="mch15-staff-select mch15-second-room" data-room="4" data-room-slot="2" hidden></select>
-      </div>
-      <div class="mch15-room-actions">
-        <button type="button" class="mch15-small-btn" data-add-room-coach="4">+ Coach</button>
-        <button type="button" class="mch15-row-x" data-remove-room-coach="4" hidden>×</button>
-      </div>
-    </div><div class="mch15-room" data-room="5">
-      <strong>Locker Room 5</strong>
-      <div class="mch15-room-selects">
-        <select class="mch15-staff-select" data-room="5" data-room-slot="1"></select>
-        <select class="mch15-staff-select mch15-second-room" data-room="5" data-room-slot="2" hidden></select>
-      </div>
-      <div class="mch15-room-actions">
-        <button type="button" class="mch15-small-btn" data-add-room-coach="5">+ Coach</button>
-        <button type="button" class="mch15-row-x" data-remove-room-coach="5" hidden>×</button>
-      </div>
-    </div><div class="mch15-room" data-room="6">
-      <strong>Locker Room 6</strong>
-      <div class="mch15-room-selects">
-        <select class="mch15-staff-select" data-room="6" data-room-slot="1"></select>
-        <select class="mch15-staff-select mch15-second-room" data-room="6" data-room-slot="2" hidden></select>
-      </div>
-      <div class="mch15-room-actions">
-        <button type="button" class="mch15-small-btn" data-add-room-coach="6">+ Coach</button>
-        <button type="button" class="mch15-row-x" data-remove-room-coach="6" hidden>×</button>
-      </div>
-    </div></div>
-        </div>
+        <details class="mch16-ops-card">
+          <summary><span>Locker Rooms</span><small>Rooms 1–6 with optional second coach</small></summary>
+          <div class="mch16-ops-body">
+            <div class="mch15-lockers">
+                <div class="mch15-room" data-room="1">
+                  <strong>Locker Room 1</strong>
+                  <div class="mch15-room-selects">
+                    <select class="mch15-staff-select" data-room="1" data-room-slot="1"></select>
+                    <select class="mch15-staff-select mch15-second-room" data-room="1" data-room-slot="2" hidden></select>
+                  </div>
+                  <div class="mch15-room-actions">
+                    <button type="button" class="mch15-small-btn" data-add-room-coach="1">+ Coach</button>
+                    <button type="button" class="mch15-row-x" data-remove-room-coach="1" hidden>×</button>
+                  </div>
+                </div>
+                <div class="mch15-room" data-room="2">
+                  <strong>Locker Room 2</strong>
+                  <div class="mch15-room-selects">
+                    <select class="mch15-staff-select" data-room="2" data-room-slot="1"></select>
+                    <select class="mch15-staff-select mch15-second-room" data-room="2" data-room-slot="2" hidden></select>
+                  </div>
+                  <div class="mch15-room-actions">
+                    <button type="button" class="mch15-small-btn" data-add-room-coach="2">+ Coach</button>
+                    <button type="button" class="mch15-row-x" data-remove-room-coach="2" hidden>×</button>
+                  </div>
+                </div>
+                <div class="mch15-room" data-room="3">
+                  <strong>Locker Room 3</strong>
+                  <div class="mch15-room-selects">
+                    <select class="mch15-staff-select" data-room="3" data-room-slot="1"></select>
+                    <select class="mch15-staff-select mch15-second-room" data-room="3" data-room-slot="2" hidden></select>
+                  </div>
+                  <div class="mch15-room-actions">
+                    <button type="button" class="mch15-small-btn" data-add-room-coach="3">+ Coach</button>
+                    <button type="button" class="mch15-row-x" data-remove-room-coach="3" hidden>×</button>
+                  </div>
+                </div>
+                <div class="mch15-room" data-room="4">
+                  <strong>Locker Room 4</strong>
+                  <div class="mch15-room-selects">
+                    <select class="mch15-staff-select" data-room="4" data-room-slot="1"></select>
+                    <select class="mch15-staff-select mch15-second-room" data-room="4" data-room-slot="2" hidden></select>
+                  </div>
+                  <div class="mch15-room-actions">
+                    <button type="button" class="mch15-small-btn" data-add-room-coach="4">+ Coach</button>
+                    <button type="button" class="mch15-row-x" data-remove-room-coach="4" hidden>×</button>
+                  </div>
+                </div>
+                <div class="mch15-room" data-room="5">
+                  <strong>Locker Room 5</strong>
+                  <div class="mch15-room-selects">
+                    <select class="mch15-staff-select" data-room="5" data-room-slot="1"></select>
+                    <select class="mch15-staff-select mch15-second-room" data-room="5" data-room-slot="2" hidden></select>
+                  </div>
+                  <div class="mch15-room-actions">
+                    <button type="button" class="mch15-small-btn" data-add-room-coach="5">+ Coach</button>
+                    <button type="button" class="mch15-row-x" data-remove-room-coach="5" hidden>×</button>
+                  </div>
+                </div>
+                <div class="mch15-room" data-room="6">
+                  <strong>Locker Room 6</strong>
+                  <div class="mch15-room-selects">
+                    <select class="mch15-staff-select" data-room="6" data-room-slot="1"></select>
+                    <select class="mch15-staff-select mch15-second-room" data-room="6" data-room-slot="2" hidden></select>
+                  </div>
+                  <div class="mch15-room-actions">
+                    <button type="button" class="mch15-small-btn" data-add-room-coach="6">+ Coach</button>
+                    <button type="button" class="mch15-row-x" data-remove-room-coach="6" hidden>×</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </details>
       </section>
-      </section>
-
     </section>
   </div>
 
@@ -699,6 +649,84 @@
 .mch15-modal{position:fixed;inset:0;z-index:999999;display:none;place-items:center} .mch15-modal.open{display:grid} .mch15-modal-bg{position:absolute;inset:0;background:rgba(0,0,0,.68)} .mch15-dialog{position:relative;z-index:1;width:min(580px,calc(100vw - 28px));padding:21px;border-radius:14px;background:#fff;box-shadow:0 24px 80px rgba(0,0,0,.35)} .mch15-dialog h2{margin:3px 0 0;font-size:22px} .mch15-dialog p{margin:7px 0 16px;color:var(--muted);font-size:11px} .mch15-dialog-x{position:absolute;right:11px;top:11px;width:35px;height:35px;border:1px solid #ddd;border-radius:50%;background:#fff;font-size:21px} .mch15-dialog-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px} .mch15-dialog-grid label{display:flex;flex-direction:column;gap:5px} .mch15-focus-block{margin-top:14px;padding-top:14px;border-top:1px solid #e2e2e2} .mch15-focus-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:9px} .mch15-focus-block label{display:flex;flex-direction:column;gap:5px} .mch15-focus-block label span{font-size:10px;font-weight:900;text-transform:uppercase;color:#777} .mch15-focus-block select{min-height:42px;padding:8px 10px;border:1px solid #ccc;border-radius:8px;background:#fff;color:#111;font-size:11px} .mch15-focus-block select:disabled{background:#f2f2f2;color:#999} .mch15-focus-note{display:flex;justify-content:space-between;gap:8px;margin-top:7px;color:#777;font-size:9px;font-weight:700} .mch15-focus-description{margin-top:9px;padding:11px 12px;border:1px solid #ddd;border-left:4px solid var(--red);border-radius:8px;background:#fafafa;color:#222;font-size:11.5px;line-height:1.45} .mch15-focus-description strong{display:block;margin-bottom:4px;color:#111;font-size:11.5px} .mch15-focus-name{margin-top:2px;color:#9d111c!important;font-size:7.5px!important;font-weight:900!important;white-space:nowrap!important} .mch15-camp-plan-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:1180px;margin:14px auto 0} .mch15-camp-plan-card{overflow:hidden;border:1px solid #ddd;border-radius:10px;background:#fff} .mch15-plan-head{padding:9px 11px;background:#111;color:#fff} .mch15-plan-head strong{display:block;font-size:12px} .mch15-plan-head span{display:block;margin-top:2px;color:#aaa;font-size:9px} .mch15-plan-table{display:grid} .mch15-plan-row{display:grid;grid-template-columns:92px minmax(115px,.8fr) 105px minmax(0,1.3fr);gap:7px;align-items:start;padding:7px 9px;border-bottom:1px solid #eee;font-size:10px;line-height:1.25} .mch15-plan-row:last-child{border-bottom:0} .mch15-plan-row.mch15-plan-labels{background:#f6f6f6;color:#777;font-size:8.5px;font-weight:900;text-transform:uppercase} .mch15-plan-row strong{font-weight:900} .mch15-plan-muted{color:#aaa} .mch15-dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
 @media(max-width:1200px){.mch15-grid-3,.mch15-grid-2,.mch15-monday-ops{grid-template-columns:1fr}.mch15-rink-card,.mch15-ops-card,.mch15-camp-ops{width:100%;max-width:700px;margin-left:auto;margin-right:auto}}
 @media(max-width:760px){.mch15-header{align-items:flex-start;flex-direction:column;padding:15px}.mch15-header-actions{width:100%}.mch15-view{padding:14px 10px}.mch15-section-head{align-items:stretch;flex-direction:column}.mch15-head-right{align-items:stretch;flex-direction:column}.mch15-camp-top,.mch15-directions-grid,.mch15-camp-ops,.mch15-camp-plan-grid,.mch15-focus-grid,.mch15-overview-section .mch15-camp-top{grid-template-columns:1fr}.mch15-task-row,.mch15-room,.mch15-office-row{grid-template-columns:1fr}.mch15-plan-row{grid-template-columns:1fr 1fr}.mch15-plan-row.mch15-plan-labels{display:none}.mch15-row-x{width:100%}.mch15-dialog-grid{grid-template-columns:1fr}}
+
+/* ===== CAMP COMMAND CENTER — CLEAN FORMAT ===== */
+.mch16-camp{background:#f3f4f6!important;padding:22px!important}
+.mch16-camp-toolbar{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;max-width:1220px;margin:0 auto 16px;padding:18px 20px;border-radius:14px;background:#111;color:#fff}
+.mch16-camp-title h2{margin:3px 0 4px;color:#fff;font-size:24px;letter-spacing:-.02em}
+.mch16-camp-title p{margin:0;color:#aaa;font-size:11px}
+.mch16-camp-controls{display:flex;align-items:flex-end;gap:8px;flex-wrap:wrap}
+.mch16-camp-controls .mch15-camp-picker span{color:#aaa}
+.mch16-timeline-card,.mch16-standards-card,.mch16-session-card,.mch16-ops-board{max-width:1220px;margin:0 auto 14px;border:1px solid #dedede;border-radius:14px;background:#fff;box-shadow:0 5px 18px rgba(0,0,0,.04)}
+.mch16-card-title,.mch16-ops-title{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;border-bottom:1px solid #e8e8e8}
+.mch16-card-title div span,.mch16-ops-title div span,.mch16-session-kicker{display:block;color:var(--red);font-size:9px;font-weight:900;letter-spacing:.1em}
+.mch16-card-title div strong,.mch16-ops-title div strong{display:block;margin-top:2px;color:#111;font-size:15px}
+.mch16-card-title small,.mch16-ops-title small{color:#777;font-size:9px;font-weight:800}
+.mch16-timeline{display:grid;grid-template-columns:repeat(8,1fr);padding:12px 14px}
+.mch16-timeline>div{position:relative;min-width:0;padding:7px 9px;border-right:1px solid #e8e8e8}
+.mch16-timeline>div:last-child{border-right:0}
+.mch16-timeline strong{display:block;color:#111;font-size:10px}
+.mch16-timeline span{display:block;margin-top:3px;color:#666;font-size:9px;font-weight:700;line-height:1.15}
+.mch16-standards-card{overflow:hidden}
+.mch16-standards-card>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;list-style:none;cursor:pointer}
+.mch16-standards-card>summary::-webkit-details-marker{display:none}
+.mch16-standards-card>summary div span{display:block;color:var(--red);font-size:9px;font-weight:900;letter-spacing:.1em}
+.mch16-standards-card>summary div strong{display:block;margin-top:2px;color:#111;font-size:14px}
+.mch16-standards-card>summary small{color:#777;font-size:9px;font-weight:800}
+.mch16-standards-card>summary::after{content:"+";display:grid;place-items:center;width:28px;height:28px;border:1px solid #ddd;border-radius:50%;color:var(--red);font-size:18px;font-weight:900}
+.mch16-standards-card[open]>summary::after{content:"−"}
+.mch16-standards-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid #e8e8e8}
+.mch16-standards-grid>div{padding:12px 14px;border-right:1px solid #eee;border-bottom:1px solid #eee}
+.mch16-standards-grid>div:nth-child(3n){border-right:0}
+.mch16-standards-grid strong{display:block;color:#111;font-size:10px}
+.mch16-standards-grid span{display:block;margin-top:4px;color:#555;font-size:9.5px;line-height:1.35}
+.mch16-session-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:1220px;margin:0 auto 14px}
+.mch16-session-card{margin:0;overflow:hidden;border:1px solid #d8d8d8;border-radius:14px;background:#fff}
+.mch16-session-bar{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:13px 15px;background:#111;color:#fff}
+.mch16-session-bar strong{display:block;margin-top:2px;font-size:16px}
+.mch16-session-time{padding:5px 8px;border:1px solid #444;border-radius:999px;color:#fff;font-size:9px;font-weight:900}
+.mch16-rink-card{max-width:none!important;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important}
+.mch16-session-plan{margin:0!important;border:0!important;border-top:1px solid #ddd!important;border-radius:0!important;box-shadow:none!important}
+.mch16-session-plan .mch15-plan-head{background:#f4f4f4!important;color:#111!important;border-bottom:1px solid #ddd}
+.mch16-session-plan .mch15-plan-head strong{font-size:11px}
+.mch16-session-plan .mch15-plan-head span{color:#777}
+.mch16-session-plan .mch15-plan-row{grid-template-columns:88px minmax(105px,.75fr) 86px minmax(0,1.25fr);padding:7px 9px;font-size:9.5px}
+.mch16-ops-board{padding-bottom:8px;overflow:hidden}
+.mch16-ops-card{margin:8px 10px 0;border:1px solid #dedede;border-radius:10px;background:#fff;overflow:hidden}
+.mch16-ops-card>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px;list-style:none;cursor:pointer;background:#fafafa}
+.mch16-ops-card>summary::-webkit-details-marker{display:none}
+.mch16-ops-card>summary span{font-size:12px;font-weight:900;color:#111}
+.mch16-ops-card>summary small{color:#777;font-size:9px;font-weight:800}
+.mch16-ops-card>summary::after{content:"+";display:grid;place-items:center;width:24px;height:24px;border:1px solid #ddd;border-radius:50%;color:var(--red);font-size:16px;font-weight:900}
+.mch16-ops-card[open]>summary::after{content:"−"}
+.mch16-ops-body{padding:10px 12px 12px;border-top:1px solid #e8e8e8}
+.mch16-ops-body .mch15-ops-card{border:0!important;border-radius:0!important;background:transparent!important}
+.mch16-ops-body .mch15-ops-head{display:none}
+.mch16-ops-body .mch15-task-list{grid-template-columns:1fr 1fr;gap:7px;padding:0}
+.mch16-ops-body .mch15-task-row{min-height:39px}
+.mch16-ops-body .mch15-office-list,.mch16-ops-body .mch15-lockers{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.mch16-ops-body .mch15-office-row,.mch16-ops-body .mch15-room{min-height:42px}
+@media(max-width:1000px){
+  .mch16-timeline{grid-template-columns:repeat(4,1fr)}
+  .mch16-timeline>div:nth-child(4){border-right:0}
+  .mch16-session-grid{grid-template-columns:1fr}
+  .mch16-standards-grid{grid-template-columns:1fr 1fr}
+  .mch16-standards-grid>div:nth-child(3n){border-right:1px solid #eee}
+  .mch16-standards-grid>div:nth-child(2n){border-right:0}
+}
+@media(max-width:700px){
+  .mch16-camp{padding:12px!important}
+  .mch16-camp-toolbar{align-items:stretch;flex-direction:column;padding:15px}
+  .mch16-camp-controls{align-items:stretch;flex-direction:column}
+  .mch16-timeline{grid-template-columns:1fr 1fr;padding:8px}
+  .mch16-timeline>div{border-right:1px solid #e8e8e8;border-bottom:1px solid #e8e8e8}
+  .mch16-timeline>div:nth-child(2n){border-right:0}
+  .mch16-standards-grid{grid-template-columns:1fr}
+  .mch16-standards-grid>div{border-right:0!important}
+  .mch16-ops-body .mch15-task-list,.mch16-ops-body .mch15-office-list,.mch16-ops-body .mch15-lockers{grid-template-columns:1fr}
+  .mch16-session-plan .mch15-plan-row{grid-template-columns:1fr 1fr}
+  .mch16-session-plan .mch15-plan-row.mch15-plan-labels{display:none}
+}
 </style>
 
 <script>
@@ -1213,35 +1241,37 @@ function drawTasks(doc,title,group,names,x,y,w){
   return h;
 }
 function drawCampDirections(doc,y){
-  var x=18,w=756,bandH=12,h=88,scheduleW=214,gap=8,contentY=y+bandH+3,expectX=x+scheduleW+gap,expectW=w-scheduleW-gap;
-  doc.setFillColor(17,17,17);doc.rect(x,y,w,bandH,"F");doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text("1  DAY OVERVIEW",x+6,y+8);doc.setTextColor(0);doc.setDrawColor(205);doc.roundedRect(x,contentY,scheduleW,h,4,4);
-  doc.setLineWidth(2);doc.setDrawColor(201,31,44);doc.line(x,y,x,y+h);doc.setLineWidth(.2);
-  doc.setTextColor(0);doc.setFont("helvetica","bold");doc.setFontSize(8.5);doc.text("DAILY SCHEDULE",x+8,contentY+13);
+  var x=18,w=756,timelineH=34,expectH=62;
+  doc.setDrawColor(210);doc.roundedRect(x,y,w,timelineH,4,4);
+  var col=w/8;
   DAILY_SCHEDULE.forEach(function(r,i){
-    var yy=contentY+23+i*8.5;
-    doc.setFont("helvetica","bold");doc.setFontSize(5.4);doc.text(r[0],x+8,yy,{maxWidth:122});
-    doc.text(r[1],x+scheduleW-8,yy,{align:"right",maxWidth:72});
-    doc.setDrawColor(238);doc.line(x+7,yy+3,x+scheduleW-7,yy+3);
+    var xx=x+i*col;
+    if(i>0){doc.setDrawColor(230);doc.line(xx,y+5,xx,y+timelineH-5)}
+    doc.setFont("helvetica","bold");doc.setFontSize(5.6);doc.setTextColor(0);doc.text(r[1],xx+col/2,y+12,{align:"center",maxWidth:col-8});
+    doc.setFont("helvetica","normal");doc.setFontSize(4.8);doc.setTextColor(90);doc.text(r[0],xx+col/2,y+23,{align:"center",maxWidth:col-8});
   });
 
-  doc.setDrawColor(205);doc.roundedRect(expectX,contentY,expectW,h,4,4);
-  doc.setLineWidth(2);doc.setDrawColor(201,31,44);doc.line(expectX,contentY,expectX,contentY+h);doc.setLineWidth(.2);
-  doc.setTextColor(0);doc.setFont("helvetica","bold");doc.setFontSize(8.5);doc.text("CAMP STAFF EXPECTATIONS — READ BEFORE CAMP",expectX+8,contentY+13);
+  var sy=y+timelineH+6;
+  doc.setDrawColor(210);doc.roundedRect(x,sy,w,expectH,4,4);
+  doc.setFillColor(17,17,17);doc.rect(x,sy,w,15,"F");
+  doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text("STAFF STANDARDS — REQUIRED FOR EVERY CAMP",x+6,sy+10);
+  doc.setTextColor(0);
   var items=[
-    ["8:30 AM SHARP","Be in the locker room ready to work. Help players get dressed. Greet and communicate with every parent who attends."],
-    ["OFF-ICE","Be active with players — coach, guide and supervise. Do not stand around doing nothing."],
+    ["8:30 AM SHARP","Be in the locker room ready to work. Help players get dressed and greet / communicate with every parent who attends."],
+    ["OFF-ICE","Stay active with players: coach, guide and supervise. Do not stand around doing nothing."],
     ["LUNCH","No cell phone use. Sit with the kids, communicate with them and stay engaged."],
     ["BEFORE SECOND ICE","Help players get dressed and fully prepared for the ice."],
-    ["LOCKER-ROOM SAFETY","Players are never allowed in a locker room without a coach. If a coach leaves, another coach must take over before that coach exits. Continuous supervision at all times."],
-    ["POST-CAMP","Greet parents, high-five every player and thank parents for coming when you are in the locker room."]
+    ["LOCKER-ROOM SUPERVISION","Players are never allowed in a locker room without a coach. If a coach leaves, another coach must take over before that coach exits. Supervision must be continuous."],
+    ["POST-CAMP","Greet parents, give every player a high five and thank parents for coming when you are in the locker room."]
   ];
-  var colW=(expectW-20)/2,rowH=23;
+  var colW=(w-18)/3,rowH=21;
   items.forEach(function(it,i){
-    var col=i%2,row=Math.floor(i/2),xx=expectX+8+col*colW,yy=contentY+23+row*rowH;
-    doc.setFontSize(5.3);doc.setFont("helvetica","bold");doc.text(it[0]+":",xx,yy);
-    doc.setFont("helvetica","normal");var lines=doc.splitTextToSize(it[1],colW-10);doc.text(lines,xx,yy+7);
+    var colIdx=i%3,row=Math.floor(i/3),xx=x+7+colIdx*colW,yy=sy+25+row*rowH;
+    doc.setFont("helvetica","bold");doc.setFontSize(5.1);doc.text(it[0]+":",xx,yy);
+    doc.setFont("helvetica","normal");doc.setFontSize(4.55);
+    var lines=doc.splitTextToSize(it[1],colW-9);doc.text(lines,xx,yy+5.5);
   });
-  return bandH+3+h;
+  return timelineH+6+expectH;
 }
 function drawOffIce(doc,x,y,w){
   var visible=[];
@@ -1283,15 +1313,23 @@ async function exportPDF(){
       var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;drawHeader(doc,f.title+" — AM + PM");
       var dy=50;dy+=drawCampDirections(doc,dy)+8;
       var keys=["camp-"+state.campFormat+"-am","camp-"+state.campFormat+"-pm"].filter(function(k){return!state.deleted[k]});
-      doc.setFillColor(17,17,17);doc.rect(18,dy,756,12,"F");doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text("2  ICE PLAN",24,dy+8);doc.setTextColor(0);dy+=16;
-      var img=await urlToData(f.url),n=keys.length||1,gap=18,w=290,start=18+(756-(w*n+gap*(n-1)))/2,maxBlockH=0;
+      var img=await urlToData(f.url),n=keys.length||1,gap=18,w=300,start=18+(756-(w*n+gap*(n-1)))/2,maxBlockH=0;
       keys.forEach(function(k,i){
         var xx=start+i*(w+gap);
-        var rinkH=drawRink(doc,k,xx,dy,w,false,k.endsWith("-am")?"AM":"PM",img);
-        var planH=drawStationPlan(doc,k,xx,dy+rinkH+5,w);
-        maxBlockH=Math.max(maxBlockH,rinkH+5+planH);
+        doc.setFillColor(17,17,17);doc.roundedRect(xx,dy,w,16,4,4,"F");
+        doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(7);
+        doc.text((k.endsWith("-am")?"AM SESSION  •  9:00–10:30 AM":"PM SESSION  •  12:30–2:00 PM"),xx+6,dy+11);
+        doc.setTextColor(0);
+        var rinkH=drawRink(doc,k,xx,dy+19,w,false,k.endsWith("-am")?"AM":"PM",img);
+        var planH=drawStationPlan(doc,k,xx,dy+19+rinkH+5,w);
+        maxBlockH=Math.max(maxBlockH,19+rinkH+5+planH);
       });
-      var oy=dy+maxBlockH+6;if(keys.length){doc.setFillColor(17,17,17);doc.rect(18,oy,756,12,"F");doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text("3  CAMP OPERATIONS",24,oy+8);doc.setTextColor(0);oy+=16;drawTasks(doc,"CAMP DUTIES — SHARED AM + PM","camp",CAMP_TASKS,14,oy,290);drawOffIce(doc,312,oy,255);drawLockers(doc,575,oy,203)}
+      var oy=dy+maxBlockH+7;
+      if(keys.length){
+        drawTasks(doc,"CAMP DUTIES","camp",CAMP_TASKS,14,oy,290);
+        drawOffIce(doc,312,oy,255);
+        drawLockers(doc,575,oy,203);
+      }
     }
     doc.save("Motor-City-Hockey-Skate-Zones-Duties.pdf");
   }catch(err){console.error(err);alert("PDF export could not load. Check your internet connection and try again.")}
@@ -1299,13 +1337,6 @@ async function exportPDF(){
 }
 
 root.addEventListener("click",function(e){
-  var opsTab=e.target.closest("[data-camp-ops-tab]");
-  if(opsTab){
-    var target=opsTab.dataset.campOpsTab;
-    root.querySelectorAll("[data-camp-ops-tab]").forEach(function(btn){btn.classList.toggle("active",btn===opsTab)});
-    root.querySelectorAll("[data-camp-ops-panel]").forEach(function(panel){panel.classList.toggle("active",panel.dataset.campOpsPanel===target)});
-    return;
-  }
   var station=e.target.closest(".mch15-station");if(station){openModal(station);return}
   if(e.target.closest("[data-close-modal]")){closeModal();return}
   var del=e.target.closest("[data-delete-diagram]");if(del){var k=del.dataset.deleteDiagram;if(confirm("Remove this entire diagram from the current plan and PDF?")){state.deleted[k]=true;save();applyDeleted()}return}
