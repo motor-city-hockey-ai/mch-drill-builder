@@ -385,6 +385,11 @@
     </article>
       </div>
 
+      <section class="mch15-camp-plan-grid" id="mch15-camp-plan-grid">
+        <div class="mch15-camp-plan-card" data-plan-session="AM"></div>
+        <div class="mch15-camp-plan-card" data-plan-session="PM"></div>
+      </section>
+
       <section class="mch15-camp-ops" id="mch15-camp-ops">
         <div class="mch15-camp-ops-col">
           <div class="mch15-subhead">Camp Tasks</div>
@@ -550,13 +555,26 @@
       </div>
 
       <div class="mch15-focus-block" id="mch15-focus-block" hidden>
-        <label>
-          <span>Station Focus</span>
-          <select id="mch15-station-focus"></select>
-        </label>
-        <div class="mch15-focus-note">AM and PM Station Focus selections are saved independently.</div>
+        <div class="mch15-focus-grid">
+          <label>
+            <span>Station Focus</span>
+            <select id="mch15-focus-category">
+              <option value="">— Select Focus —</option>
+            </select>
+          </label>
+          <label>
+            <span>Drill</span>
+            <select id="mch15-focus-drill" disabled>
+              <option value="">— Select Drill —</option>
+            </select>
+          </label>
+        </div>
+        <div class="mch15-focus-note">
+          <span>AM and PM drill choices are independent.</span>
+          <span id="mch15-focus-library-status">Camp drill library loading…</span>
+        </div>
         <div class="mch15-focus-description" id="mch15-focus-description">
-          Select a drill to view its description.
+          Choose a focus, then choose a drill to see the description.
         </div>
       </div>
 
@@ -625,9 +643,9 @@
 .mch15-camp-top{display:grid;grid-template-columns:minmax(285px,.75fr) minmax(0,2fr);gap:12px;max-width:1180px;margin:0 auto 16px;align-items:stretch} .mch15-schedule{padding:14px 15px;border:1px solid #d7d7d7;border-left:5px solid var(--red);border-radius:10px;background:#fff} .mch15-schedule-title,.mch15-directions-title{margin-bottom:9px;font-size:12px;font-weight:900;text-transform:uppercase;color:#111} .mch15-schedule-list{display:grid;gap:0} .mch15-schedule-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;padding:5px 0;border-bottom:1px solid #ededed;font-size:11px} .mch15-schedule-row:last-child{border-bottom:0} .mch15-schedule-row strong{font-weight:900;color:#111} .mch15-schedule-row span{font-weight:900;color:#444;white-space:nowrap} .mch15-directions{margin:0;padding:14px 15px;border:1px solid #d7d7d7;border-left:5px solid var(--red);border-radius:10px;background:#fff} .mch15-directions-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 18px;color:#333;font-size:11.2px;line-height:1.4} .mch15-directions-grid strong{color:#111}
 .mch15-camp-note{margin-top:5px;color:var(--muted);font-size:11.5px} .mch15-camp-ops{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:12px;max-width:1180px;margin:14px auto 0;padding:9px;border:1px solid #ddd;border-radius:12px;background:#fafafa} .mch15-subhead{margin-bottom:7px;font-size:11px;font-weight:900;text-transform:uppercase} .mch15-camp-ops .mch15-ops-card{border-radius:8px} .mch15-office-head{display:flex;align-items:center;justify-content:space-between;gap:8px} .mch15-office-list{display:grid;gap:6px} .mch15-office-row{display:grid;grid-template-columns:62px minmax(0,1.2fr) minmax(0,1fr) 28px;gap:5px;align-items:center;min-height:38px;padding:4px 5px;border:1px solid #ddd;border-radius:7px;background:#fff} .mch15-office-row>strong{font-size:10px} .mch15-office-row select{width:100%;min-width:0;min-height:30px;padding:4px 6px;border:1px solid #d3d3d3;border-radius:6px;background:#fff;font-size:10px}
 .mch15-lockers{display:grid;gap:5px} .mch15-room{display:grid;grid-template-columns:74px minmax(0,1fr) auto;gap:5px;align-items:center;min-height:34px;padding:4px 5px;border:1px solid #ddd;border-radius:7px;background:#fff} .mch15-room>strong{font-size:10.5px} .mch15-room-selects{display:grid;grid-template-columns:1fr;gap:4px} .mch15-room-selects.two{grid-template-columns:1fr 1fr} .mch15-room-actions{display:flex;gap:4px} .mch15-small-btn{min-height:27px;padding:3px 6px;border:1px solid #d3d3d3;border-radius:6px;background:#f7f7f7;font-size:8px;font-weight:900}
-.mch15-modal{position:fixed;inset:0;z-index:999999;display:none;place-items:center} .mch15-modal.open{display:grid} .mch15-modal-bg{position:absolute;inset:0;background:rgba(0,0,0,.68)} .mch15-dialog{position:relative;z-index:1;width:min(580px,calc(100vw - 28px));padding:21px;border-radius:14px;background:#fff;box-shadow:0 24px 80px rgba(0,0,0,.35)} .mch15-dialog h2{margin:3px 0 0;font-size:22px} .mch15-dialog p{margin:7px 0 16px;color:var(--muted);font-size:11px} .mch15-dialog-x{position:absolute;right:11px;top:11px;width:35px;height:35px;border:1px solid #ddd;border-radius:50%;background:#fff;font-size:21px} .mch15-dialog-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px} .mch15-dialog-grid label{display:flex;flex-direction:column;gap:5px} .mch15-focus-block{margin-top:14px;padding-top:14px;border-top:1px solid #e2e2e2} .mch15-focus-block label{display:flex;flex-direction:column;gap:5px} .mch15-focus-block label span{font-size:10px;font-weight:900;text-transform:uppercase;color:#777} .mch15-focus-block select{min-height:42px;padding:8px 10px;border:1px solid #ccc;border-radius:8px;background:#fff;color:#111;font-size:11px} .mch15-focus-note{margin-top:6px;color:#777;font-size:9px;font-weight:700} .mch15-focus-description{margin-top:9px;padding:10px 11px;border:1px solid #ddd;border-left:4px solid var(--red);border-radius:8px;background:#fafafa;color:#222;font-size:11px;line-height:1.4} .mch15-focus-description strong{display:block;margin-bottom:3px;color:#111;font-size:11px} .mch15-focus-name{margin-top:2px;color:#9d111c!important;font-size:7.5px!important;font-weight:900!important;white-space:nowrap!important} .mch15-dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
+.mch15-modal{position:fixed;inset:0;z-index:999999;display:none;place-items:center} .mch15-modal.open{display:grid} .mch15-modal-bg{position:absolute;inset:0;background:rgba(0,0,0,.68)} .mch15-dialog{position:relative;z-index:1;width:min(580px,calc(100vw - 28px));padding:21px;border-radius:14px;background:#fff;box-shadow:0 24px 80px rgba(0,0,0,.35)} .mch15-dialog h2{margin:3px 0 0;font-size:22px} .mch15-dialog p{margin:7px 0 16px;color:var(--muted);font-size:11px} .mch15-dialog-x{position:absolute;right:11px;top:11px;width:35px;height:35px;border:1px solid #ddd;border-radius:50%;background:#fff;font-size:21px} .mch15-dialog-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px} .mch15-dialog-grid label{display:flex;flex-direction:column;gap:5px} .mch15-focus-block{margin-top:14px;padding-top:14px;border-top:1px solid #e2e2e2} .mch15-focus-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:9px} .mch15-focus-block label{display:flex;flex-direction:column;gap:5px} .mch15-focus-block label span{font-size:10px;font-weight:900;text-transform:uppercase;color:#777} .mch15-focus-block select{min-height:42px;padding:8px 10px;border:1px solid #ccc;border-radius:8px;background:#fff;color:#111;font-size:11px} .mch15-focus-block select:disabled{background:#f2f2f2;color:#999} .mch15-focus-note{display:flex;justify-content:space-between;gap:8px;margin-top:7px;color:#777;font-size:9px;font-weight:700} .mch15-focus-description{margin-top:9px;padding:11px 12px;border:1px solid #ddd;border-left:4px solid var(--red);border-radius:8px;background:#fafafa;color:#222;font-size:11.5px;line-height:1.45} .mch15-focus-description strong{display:block;margin-bottom:4px;color:#111;font-size:11.5px} .mch15-focus-name{margin-top:2px;color:#9d111c!important;font-size:7.5px!important;font-weight:900!important;white-space:nowrap!important} .mch15-camp-plan-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:1180px;margin:14px auto 0} .mch15-camp-plan-card{overflow:hidden;border:1px solid #ddd;border-radius:10px;background:#fff} .mch15-plan-head{padding:9px 11px;background:#111;color:#fff} .mch15-plan-head strong{display:block;font-size:12px} .mch15-plan-head span{display:block;margin-top:2px;color:#aaa;font-size:9px} .mch15-plan-table{display:grid} .mch15-plan-row{display:grid;grid-template-columns:92px minmax(115px,.8fr) 105px minmax(0,1.3fr);gap:7px;align-items:start;padding:7px 9px;border-bottom:1px solid #eee;font-size:10px;line-height:1.25} .mch15-plan-row:last-child{border-bottom:0} .mch15-plan-row.mch15-plan-labels{background:#f6f6f6;color:#777;font-size:8.5px;font-weight:900;text-transform:uppercase} .mch15-plan-row strong{font-weight:900} .mch15-plan-muted{color:#aaa} .mch15-dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
 @media(max-width:1200px){.mch15-grid-3,.mch15-grid-2,.mch15-monday-ops{grid-template-columns:1fr}.mch15-rink-card,.mch15-ops-card,.mch15-camp-ops{width:100%;max-width:700px;margin-left:auto;margin-right:auto}}
-@media(max-width:760px){.mch15-header{align-items:flex-start;flex-direction:column;padding:15px}.mch15-header-actions{width:100%}.mch15-view{padding:14px 10px}.mch15-section-head{align-items:stretch;flex-direction:column}.mch15-head-right{align-items:stretch;flex-direction:column}.mch15-camp-top,.mch15-directions-grid,.mch15-camp-ops{grid-template-columns:1fr}.mch15-task-row,.mch15-room,.mch15-office-row{grid-template-columns:1fr}.mch15-row-x{width:100%}.mch15-dialog-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.mch15-header{align-items:flex-start;flex-direction:column;padding:15px}.mch15-header-actions{width:100%}.mch15-view{padding:14px 10px}.mch15-section-head{align-items:stretch;flex-direction:column}.mch15-head-right{align-items:stretch;flex-direction:column}.mch15-camp-top,.mch15-directions-grid,.mch15-camp-ops,.mch15-camp-plan-grid,.mch15-focus-grid{grid-template-columns:1fr}.mch15-task-row,.mch15-room,.mch15-office-row{grid-template-columns:1fr}.mch15-plan-row{grid-template-columns:1fr 1fr}.mch15-plan-row.mch15-plan-labels{display:none}.mch15-row-x{width:100%}.mch15-dialog-grid{grid-template-columns:1fr}}
 </style>
 
 <script>
@@ -649,7 +667,10 @@ var MON_TASKS=["Equipment Bin Bring To The Rink", "Equipment Bin Back To Coaches
 var CAMP_TASKS=["8:00 AM Arrival for Early Families","Set Up White Board With Locker Room Names","Make Sure All Locker Rooms Are Unlocked","Equipment Bin Bring To The Rink","Equipment Bin Back To Coaches Room","Zone Changes & Lead Coach","Puck Lap","Pickup Pizza at LC During Off-Ice"];
 var OFFICE_ACTIVITIES=["Agility Ladder","Agility Lines","Cornhole","Football","Hangman","Rock Paper Scissors Competition","Soccer","Sprint Tic Tac Toe","Sprints","Stretching","Uno"];
 var DAILY_SCHEDULE=[["Arrival & Welcoming","8:30 AM"],["On-Ice #1","9:00–10:30 AM"],["Get Changed","10:30–10:45 AM"],["Off-Ice","10:45–11:20 AM"],["Lunch","11:20 AM–12:00 PM"],["Get Dressed","12:00–12:30 PM"],["On-Ice #2","12:30–2:00 PM"],["Pickup","2:00 PM"]];
-var STATION_FOCUS_LIBRARY={"Skating":[{"name":"2 Line Powerskating Cone to Cone","description":"2 line powerskating cone to cone. Once players get to the cone they stay there."},{"name":"Backwards Skating","description":"Backwards Skating."},{"name":"Forward Crossovers","description":"Forward Crossovers."},{"name":"Backward Crossovers","description":"Backward Crossovers."},{"name":"Crossover Starts","description":"Crossover starts."},{"name":"V Starts","description":"V Starts."},{"name":"Powerurns","description":"Powerurns."},{"name":"Inside Edges","description":"Inside edges."},{"name":"Outside Edges","description":"Outside Edges."},{"name":"Forward to Backwards Transitions","description":"Forward to backwards transitions."}],"Battling":[{"name":"1 vs 1 Corner Battle","description":"1 vs 1 Corner Battle."},{"name":"1 vs 1 Side Board Battle","description":"1 vs 1 Side Board Battle."},{"name":"1 vs 1 Angling Drill","description":"Once completed, players go up the wall. Player starts with the puck on the wall. Opposite player tries to take it and score."},{"name":"1 vs 1 Standard Puck Race","description":"Hook around cones."},{"name":"1 vs 1 Puck Race Passing It Off of the Back of the Net","description":"1 vs 1 Puck race passing it off of the back of the net."}],"Shooting":[{"name":"Wrist Shot","description":"2 lines. Coach on each side of the net. Player receives pass and shoots."},{"name":"React to Coach's Arm","description":"If the coach lifts an arm, go to the opposite side and shoot."},{"name":"Half Moon Style Shooting","description":"Alternate shots."},{"name":"Forward C-Cuts","description":"Forward C-Cuts."},{"name":"Spin O' Ramas","description":"Spin O' Ramas."},{"name":"Defensive Escapes","description":"Defensive Escapes."},{"name":"Mohawks","description":"Mohawks."},{"name":"Agility - Knee Touches - Then Sprint Thru the Sticks","description":"Agility - knee touches - then sprint thru the sticks."}],"Stickhandling":[{"name":"3 Cone Weave","description":"3 cone weave."},{"name":"3 Cone Toe Drag","description":"3 cone toe drag."},{"name":"Pull Under 2 Bars","description":"2 lines going at once on opposite sides of the nets. Hook in like they are racing - both players shoot. Bars are are wide enough that they don't impact the net player regarding lane size. Pull the puck from inside to outside. Hook around the cone and shoot."}],"Passing":[{"name":"Stationary Passing","description":"Stationary Passing."},{"name":"Partner Line Passing","description":"Player skates and makes a pass then follows their pass."},{"name":"Monkey in the Middle","description":"Monkey in the middle."}],"Games":[{"name":"Tennis Ball Hockey","description":"Tennis Ball Hockey."},{"name":"Tic Tac Toe","description":"Tic Tac Toe."},{"name":"3 on 3","description":"3 on 3."},{"name":"Nets Back to Back 3 on 3","description":"Nets back to back 3 on 3."},{"name":"War","description":"Players have a line they cannot cross and they try to shoot it over to the opposite side. Whoever clears the most pucks wins!"},{"name":"Relay Race","description":"Relay race."},{"name":"Tennis Ball Shootout Challenge","description":"Player shoots then plays goalie for the following player."}]};
+var STATION_FOCUS_FALLBACK={"Skating":[{"name":"2 Line Powerskating Cone to Cone","description":"2 line powerskating cone to cone. Once players get to the cone they stay there."},{"name":"Backwards Skating","description":"Backwards Skating."},{"name":"Forward Crossovers","description":"Forward Crossovers."},{"name":"Backward Crossovers","description":"Backward Crossovers."},{"name":"Crossover Starts","description":"Crossover starts."},{"name":"V Starts","description":"V Starts."},{"name":"Powerurns","description":"Powerurns."},{"name":"Inside Edges","description":"Inside edges."},{"name":"Outside Edges","description":"Outside Edges."},{"name":"Forward to Backwards Transitions","description":"Forward to backwards transitions."}],"Battling":[{"name":"1 vs 1 Corner Battle","description":"1 vs 1 Corner Battle."},{"name":"1 vs 1 Side Board Battle","description":"1 vs 1 Side Board Battle."},{"name":"1 vs 1 Angling Drill","description":"Once completed, players go up the wall. Player starts with the puck on the wall. Opposite player tries to take it and score."},{"name":"1 vs 1 Standard Puck Race","description":"Hook around cones."},{"name":"1 vs 1 Puck Race Passing It Off of the Back of the Net","description":"1 vs 1 Puck race passing it off of the back of the net."}],"Shooting":[{"name":"Wrist Shot","description":"2 lines. Coach on each side of the net. Player receives pass and shoots."},{"name":"React to Coach's Arm","description":"If the coach lifts an arm, go to the opposite side and shoot."},{"name":"Half Moon Style Shooting","description":"Alternate shots."},{"name":"Forward C-Cuts","description":"Forward C-Cuts."},{"name":"Spin O' Ramas","description":"Spin O' Ramas."},{"name":"Defensive Escapes","description":"Defensive Escapes."},{"name":"Mohawks","description":"Mohawks."},{"name":"Agility - Knee Touches - Then Sprint Thru the Sticks","description":"Agility - knee touches - then sprint thru the sticks."}],"Stickhandling":[{"name":"3 Cone Weave","description":"3 cone weave."},{"name":"3 Cone Toe Drag","description":"3 cone toe drag."},{"name":"Pull Under 2 Bars","description":"2 lines going at once on opposite sides of the nets. Hook in like they are racing - both players shoot. Bars are are wide enough that they don't impact the net player regarding lane size. Pull the puck from inside to outside. Hook around the cone and shoot."}],"Passing":[{"name":"Stationary Passing","description":"Stationary Passing."},{"name":"Partner Line Passing","description":"Player skates and makes a pass then follows their pass."},{"name":"Monkey in the Middle","description":"Monkey in the middle."}],"Games":[{"name":"Tennis Ball Hockey","description":"Tennis Ball Hockey."},{"name":"Tic Tac Toe","description":"Tic Tac Toe."},{"name":"3 on 3","description":"3 on 3."},{"name":"Nets Back to Back 3 on 3","description":"Nets back to back 3 on 3."},{"name":"War","description":"Players have a line they cannot cross and they try to shoot it over to the opposite side. Whoever clears the most pucks wins!"},{"name":"Relay Race","description":"Relay race."},{"name":"Tennis Ball Shootout Challenge","description":"Player shoots then plays goalie for the following player."}]};
+var STATION_FOCUS_LIBRARY=STATION_FOCUS_FALLBACK;
+var CAMP_DRILL_LIBRARY_LOADED=false;
+var CAMP_DRILL_LIBRARY_COUNT=Object.values(STATION_FOCUS_LIBRARY).reduce(function(sum,list){return sum+(list||[]).length},0);
 
 var staffGroups=STAFF_FALLBACK;
 var staffMap={};
@@ -674,25 +695,13 @@ function rebuildStaffMap(){
 }
 rebuildStaffMap();
 function focusKey(category,name){return category+"|||"+name}
-function stationFocusOptions(selected){
-  var h='<option value="">— Select Station Focus —</option>';
-  Object.keys(STATION_FOCUS_LIBRARY).sort(function(a,b){return a.localeCompare(b)}).forEach(function(category){
-    h+='<optgroup label="'+esc(category)+'">';
-    STATION_FOCUS_LIBRARY[category].slice().sort(function(a,b){return a.name.localeCompare(b.name)}).forEach(function(drill){
-      var key=focusKey(category,drill.name);
-      h+='<option value="'+esc(key)+'"'+(key===selected?' selected':'')+'>'+esc(drill.name)+'</option>';
-    });
-    h+='</optgroup>';
-  });
-  return h;
-}
 function stationFocusDetails(key){
   key=String(key||"");
   if(!key)return null;
   var parts=key.split("|||"),category=parts.shift(),name=parts.join("|||");
   var list=STATION_FOCUS_LIBRARY[category]||[];
   var drill=list.find(function(d){return d.name===name});
-  return drill?{category:category,name:drill.name,description:drill.description}:null;
+  return drill?{category:category,name:drill.name,description:drill.description||"",source:drill.source||""}:null;
 }
 function stationFocusValue(rink,station){
   if(!state.stationFocus)state.stationFocus={};
@@ -704,15 +713,98 @@ function setStationFocusValue(rink,station,value){
   if(!state.stationFocus[rink])state.stationFocus[rink]={};
   state.stationFocus[rink][station]=value||"";
 }
+function focusCategoryOptions(selected){
+  var h='<option value="">— Select Focus —</option>';
+  Object.keys(STATION_FOCUS_LIBRARY).sort(function(a,b){return a.localeCompare(b)}).forEach(function(category){
+    h+='<option value="'+esc(category)+'"'+(category===selected?' selected':'')+'>'+esc(category)+'</option>';
+  });
+  return h;
+}
+function focusDrillOptions(category,selectedKey){
+  var h='<option value="">— Select Drill —</option>';
+  var list=(STATION_FOCUS_LIBRARY[category]||[]).slice().sort(function(a,b){return a.name.localeCompare(b.name)});
+  list.forEach(function(drill){
+    var key=focusKey(category,drill.name);
+    h+='<option value="'+esc(key)+'"'+(key===selectedKey?' selected':'')+'>'+esc(drill.name)+'</option>';
+  });
+  return h;
+}
 function renderFocusDescription(value){
   var box=document.getElementById("mch15-focus-description");
   if(!box)return;
   var d=stationFocusDetails(value);
   box.innerHTML=d
-    ? '<strong>'+esc(d.category+' — '+d.name)+'</strong>'+esc(d.description)
-    : 'Select a drill to view its description.';
+    ? '<strong>'+esc(d.name)+'</strong>'+esc(d.description||"No description entered yet.")
+    : 'Choose a focus, then choose a drill to see the description.';
 }
-
+function updateFocusLibraryStatus(){
+  var el=document.getElementById("mch15-focus-library-status");
+  if(!el)return;
+  el.textContent=(CAMP_DRILL_LIBRARY_LOADED?"Camp drill library: ":"Camp drill fallback: ")+CAMP_DRILL_LIBRARY_COUNT+" drills";
+}
+function populateFocusControls(category,selectedKey){
+  var cat=document.getElementById("mch15-focus-category");
+  var drill=document.getElementById("mch15-focus-drill");
+  if(!cat||!drill)return;
+  cat.innerHTML=focusCategoryOptions(category||"");
+  cat.value=category||"";
+  drill.innerHTML=focusDrillOptions(category||"",selectedKey||"");
+  drill.disabled=!category;
+  drill.value=selectedKey||"";
+  renderFocusDescription(selectedKey||"");
+  updateFocusLibraryStatus();
+}
+function loadCampDrillLibrary(){
+  return fetch("camp-drills.json?v=20260930-2",{cache:"no-store"})
+    .then(function(r){if(!r.ok)throw new Error("Camp drill library unavailable");return r.json()})
+    .then(function(data){
+      if(!data||!data.focuses)throw new Error("Camp drill library invalid");
+      STATION_FOCUS_LIBRARY=data.focuses;
+      CAMP_DRILL_LIBRARY_LOADED=true;
+      CAMP_DRILL_LIBRARY_COUNT=Object.values(STATION_FOCUS_LIBRARY).reduce(function(sum,list){return sum+(list||[]).length},0);
+      updateFocusLibraryStatus();
+      if(edit&&/^camp-/.test(edit.rink)){
+        var val=stationFocusValue(edit.rink,edit.station),d=stationFocusDetails(val);
+        populateFocusControls(d?d.category:"",val);
+      }
+      renderAssignButtons();
+      return true;
+    })
+    .catch(function(){
+      STATION_FOCUS_LIBRARY=STATION_FOCUS_FALLBACK;
+      CAMP_DRILL_LIBRARY_LOADED=false;
+      CAMP_DRILL_LIBRARY_COUNT=Object.values(STATION_FOCUS_LIBRARY).reduce(function(sum,list){return sum+(list||[]).length},0);
+      updateFocusLibraryStatus();
+      return false;
+    });
+}
+function renderCampStationPlans(){
+  var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;
+  ["AM","PM"].forEach(function(session){
+    var host=root.querySelector('[data-plan-session="'+session+'"]');
+    if(!host)return;
+    var key="camp-"+state.campFormat+"-"+session.toLowerCase();
+    if(state.deleted&&state.deleted[key]){host.hidden=true;return}
+    host.hidden=false;
+    var rows=f.stations.map(function(s){
+      var a=effectiveAssign(key,s[0]);
+      var coaches=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean).join(" / ");
+      var d=stationFocusDetails(stationFocusValue(key,s[0]));
+      return '<div class="mch15-plan-row">'+
+        '<strong>'+esc(s[1])+'</strong>'+
+        '<span class="'+(coaches?'':'mch15-plan-muted')+'">'+esc(coaches||"Unassigned")+'</span>'+
+        '<span class="'+(d?'':'mch15-plan-muted')+'">'+esc(d?d.category:"—")+'</span>'+
+        '<span class="'+(d?'':'mch15-plan-muted')+'">'+esc(d?d.name:"No drill selected")+'</span>'+
+      '</div>';
+    }).join("");
+    host.innerHTML=
+      '<div class="mch15-plan-head"><strong>'+session+' Station Plan</strong><span>Coach + focus + drill at a glance</span></div>'+
+      '<div class="mch15-plan-table">'+
+        '<div class="mch15-plan-row mch15-plan-labels"><span>Station</span><span>Coach</span><span>Focus</span><span>Drill</span></div>'+
+        rows+
+      '</div>';
+  });
+}
 function customValue(name){return "custom:"+encodeURIComponent(String(name||"").trim())}
 function staffName(v){
   v=String(v||"");
@@ -779,6 +871,7 @@ function renderAssignButtons(){
     b.querySelector(".mch15-name1").textContent=n1;
     b.querySelector(".mch15-name2").textContent=n2;
   });
+  renderCampStationPlans();
 }
 
 function ensureTime(rink,group,index){
@@ -891,16 +984,13 @@ function openModal(btn){
   fillSelect(document.getElementById("mch15-modal-coach2"),r.coach2);
 
   var focusBlock=document.getElementById("mch15-focus-block");
-  var focusSelect=document.getElementById("mch15-station-focus");
   focusBlock.hidden=!isCamp;
   if(isCamp){
     var focusValue=stationFocusValue(edit.rink,edit.station);
-    focusSelect.innerHTML=stationFocusOptions(focusValue);
-    focusSelect.value=focusValue;
-    renderFocusDescription(focusValue);
+    var details=stationFocusDetails(focusValue);
+    populateFocusControls(details?details.category:"",focusValue);
   }else{
-    focusSelect.innerHTML='<option value="">— Select Station Focus —</option>';
-    renderFocusDescription("");
+    populateFocusControls("","");
   }
 
   var m=document.getElementById("mch15-assign-modal");m.classList.add("open");m.setAttribute("aria-hidden","false");
@@ -932,12 +1022,11 @@ function saveModal(){
   }
 
   if(isCamp){
-    setStationFocusValue(edit.rink,edit.station,document.getElementById("mch15-station-focus").value||"");
+    setStationFocusValue(edit.rink,edit.station,document.getElementById("mch15-focus-drill").value||"");
   }
 
   save();closeModal();renderAssignButtons();
 }
-
 function customPrompt(sel){
   var n=window.prompt("Enter custom coach / staff name:","");
   if(n==null)return null;n=n.replace(/\s+/g," ").trim();if(!n)return"";
@@ -1031,21 +1120,36 @@ function drawRink(doc,key,x,y,w,withTimes,badge,imgData){
   doc.addImage(imgData,"PNG",x+2,iy,w-4,imgH);
   c.stations.forEach(function(s){
     var a=effectiveAssign(key,s.id),n1=staffName(a.coach1),n2=staffName(a.coach2);
-    var focus=/^camp-/.test(key)?stationFocusDetails(stationFocusValue(key,s.id)):null;
-    if(!n1&&!n2&&!focus)return;
+    if(!n1&&!n2)return;
     var bx=x+(s.x/100)*w,by=iy+(s.y/100)*imgH,bw=Math.max(42,(s.w/100)*w);
-    var lineH=10+(n2?6:0)+(focus?7:0);
+    var lineH=10+(n2?6:0);
     doc.setFillColor(255,255,255);doc.setDrawColor(201,31,44);doc.setLineWidth(1.5);doc.line(bx-bw/2,by,bx-bw/2,by+lineH);
     doc.setFont("helvetica","bold");doc.setFontSize(6.2);doc.setTextColor(0);
     if(n1)doc.text(n1,bx,by+6,{align:"center",maxWidth:bw-3});
     if(n2)doc.text(n2,bx,by+13,{align:"center",maxWidth:bw-3});
-    if(focus){
-      doc.setTextColor(157,17,28);doc.setFontSize(5.2);
-      doc.text(focus.name,bx,by+(n2?20:13),{align:"center",maxWidth:bw-3});
-      doc.setTextColor(0);
-    }
   });
   return cardH;
+}
+function drawStationPlan(doc,key,x,y,w){
+  var cfg=configForRink(key),session=key.indexOf("-pm")>0?"PM":"AM";
+  var rowH=8.4,headerH=17,h=headerH+cfg.stations.length*rowH;
+  doc.setDrawColor(205);doc.roundedRect(x,y,w,h,4,4);
+  doc.setFillColor(17,17,17);doc.rect(x,y,w,headerH,"F");
+  doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text(session+" STATION PLAN",x+5,y+11);
+  doc.setTextColor(0);
+
+  var col1=x+5,col2=x+w*.28,col3=x+w*.54,col4=x+w*.70;
+  cfg.stations.forEach(function(s,i){
+    var yy=y+headerH+(i+1)*rowH-2;
+    var a=effectiveAssign(key,s.id),coaches=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean).join(" / ");
+    var d=stationFocusDetails(stationFocusValue(key,s.id));
+    doc.setFontSize(4.7);doc.setFont("helvetica","bold");doc.text(s.label,col1,yy,{maxWidth:w*.22});
+    doc.setFont("helvetica","normal");doc.text(coaches||"—",col2,yy,{maxWidth:w*.23});
+    doc.text(d?d.category:"—",col3,yy,{maxWidth:w*.13});
+    doc.setFont("helvetica","bold");doc.text(d?d.name:"—",col4,yy,{maxWidth:w*.28});
+    doc.setDrawColor(238);doc.line(x+4,yy+2,x+w-4,yy+2);
+  });
+  return h;
 }
 function drawTasks(doc,title,group,names,x,y,w){
   var vals=ensureTasks(group,names),visible=[];
@@ -1056,13 +1160,13 @@ function drawTasks(doc,title,group,names,x,y,w){
   return h;
 }
 function drawCampDirections(doc,y){
-  var x=18,w=756,h=118,scheduleW=214,gap=8,expectX=x+scheduleW+gap,expectW=w-scheduleW-gap;
+  var x=18,w=756,h=96,scheduleW=214,gap=8,expectX=x+scheduleW+gap,expectW=w-scheduleW-gap;
   doc.setDrawColor(205);doc.roundedRect(x,y,scheduleW,h,4,4);
   doc.setLineWidth(2);doc.setDrawColor(201,31,44);doc.line(x,y,x,y+h);doc.setLineWidth(.2);
   doc.setTextColor(0);doc.setFont("helvetica","bold");doc.setFontSize(8.5);doc.text("DAILY SCHEDULE",x+8,y+13);
   DAILY_SCHEDULE.forEach(function(r,i){
-    var yy=y+27+i*11;
-    doc.setFont("helvetica","bold");doc.setFontSize(5.8);doc.text(r[0],x+8,yy,{maxWidth:122});
+    var yy=y+23+i*8.5;
+    doc.setFont("helvetica","bold");doc.setFontSize(5.4);doc.text(r[0],x+8,yy,{maxWidth:122});
     doc.text(r[1],x+scheduleW-8,yy,{align:"right",maxWidth:72});
     doc.setDrawColor(238);doc.line(x+7,yy+3,x+scheduleW-7,yy+3);
   });
@@ -1078,10 +1182,10 @@ function drawCampDirections(doc,y){
     ["LOCKER-ROOM SAFETY","Players are never allowed in a locker room without a coach. If a coach leaves, another coach must take over before that coach exits. Continuous supervision at all times."],
     ["POST-CAMP","Greet parents, high-five every player and thank parents for coming when you are in the locker room."]
   ];
-  var colW=(expectW-20)/2,rowH=30;
+  var colW=(expectW-20)/2,rowH=23;
   items.forEach(function(it,i){
-    var col=i%2,row=Math.floor(i/2),xx=expectX+8+col*colW,yy=y+27+row*rowH;
-    doc.setFontSize(5.8);doc.setFont("helvetica","bold");doc.text(it[0]+":",xx,yy);
+    var col=i%2,row=Math.floor(i/2),xx=expectX+8+col*colW,yy=y+23+row*rowH;
+    doc.setFontSize(5.3);doc.setFont("helvetica","bold");doc.text(it[0]+":",xx,yy);
     doc.setFont("helvetica","normal");var lines=doc.splitTextToSize(it[1],colW-10);doc.text(lines,xx,yy+7);
   });
   return h;
@@ -1126,9 +1230,14 @@ async function exportPDF(){
       var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;drawHeader(doc,f.title+" — AM + PM");
       var dy=50;dy+=drawCampDirections(doc,dy)+8;
       var keys=["camp-"+state.campFormat+"-am","camp-"+state.campFormat+"-pm"].filter(function(k){return!state.deleted[k]});
-      var img=await urlToData(f.url),n=keys.length||1,gap=10,total=756,w=Math.min((total-gap*(n-1))/n,n===1?560:999),start=18+(756-(w*n+gap*(n-1)))/2,maxH=0;
-      keys.forEach(function(k,i){maxH=Math.max(maxH,drawRink(doc,k,start+i*(w+gap),dy,w,false,k.endsWith("-am")?"AM":"PM",img))});
-      var oy=dy+maxH+8;if(keys.length){drawTasks(doc,"CAMP TASKS — SHARED AM + PM","camp",CAMP_TASKS,14,oy,290);drawOffIce(doc,312,oy,255);drawLockers(doc,575,oy,203)}
+      var img=await urlToData(f.url),n=keys.length||1,gap=18,w=315,start=18+(756-(w*n+gap*(n-1)))/2,maxBlockH=0;
+      keys.forEach(function(k,i){
+        var xx=start+i*(w+gap);
+        var rinkH=drawRink(doc,k,xx,dy,w,false,k.endsWith("-am")?"AM":"PM",img);
+        var planH=drawStationPlan(doc,k,xx,dy+rinkH+5,w);
+        maxBlockH=Math.max(maxBlockH,rinkH+5+planH);
+      });
+      var oy=dy+maxBlockH+7;if(keys.length){drawTasks(doc,"CAMP TASKS — SHARED AM + PM","camp",CAMP_TASKS,14,oy,290);drawOffIce(doc,312,oy,255);drawLockers(doc,575,oy,203)}
     }
     doc.save("Motor-City-Hockey-Skate-Zones-Duties.pdf");
   }catch(err){console.error(err);alert("PDF export could not load. Check your internet connection and try again.")}
@@ -1139,7 +1248,7 @@ root.addEventListener("click",function(e){
   var station=e.target.closest(".mch15-station");if(station){openModal(station);return}
   if(e.target.closest("[data-close-modal]")){closeModal();return}
   var del=e.target.closest("[data-delete-diagram]");if(del){var k=del.dataset.deleteDiagram;if(confirm("Remove this entire diagram from the current plan and PDF?")){state.deleted[k]=true;save();applyDeleted()}return}
-  var restore=e.target.closest("[data-restore-program]");if(restore){if(restore.dataset.restoreProgram==="monday")["monday-610-c","monday-705-c","monday-705-b"].forEach(function(k){delete state.deleted[k]});else["camp-"+state.campFormat+"-am","camp-"+state.campFormat+"-pm"].forEach(function(k){delete state.deleted[k]});save();applyDeleted();return}
+  var restore=e.target.closest("[data-restore-program]");if(restore){if(restore.dataset.restoreProgram==="monday")["monday-610-c","monday-705-c","monday-705-b"].forEach(function(k){delete state.deleted[k]});else["camp-"+state.campFormat+"-am","camp-"+state.campFormat+"-pm"].forEach(function(k){delete state.deleted[k]});save();applyDeleted();renderCampStationPlans();return}
   var dt=e.target.closest("[data-delete-task]");if(dt){state.taskHidden[dt.dataset.deleteTask+"-"+dt.dataset.taskIndex]=true;save();applyTaskHidden();return}
   var add=e.target.closest("[data-add-room-coach]");if(add){var r=ensureRoom(Number(add.dataset.addRoomCoach));r.second=true;save();renderRooms();return}
   var rem=e.target.closest("[data-remove-room-coach]");if(rem){var r2=ensureRoom(Number(rem.dataset.removeRoomCoach));r2.coach2="";r2.second=false;save();renderRooms();return}
@@ -1147,7 +1256,7 @@ root.addEventListener("click",function(e){
   if(e.target.closest("#mch15-restore-office")){state.offIceHidden={};save();renderOffIce();return}
 });
 document.getElementById("mch15-save-station").addEventListener("click",saveModal);
-document.getElementById("mch15-clear-station").addEventListener("click",function(){document.getElementById("mch15-modal-coach1").value="";document.getElementById("mch15-modal-coach2").value="";var focus=document.getElementById("mch15-station-focus");if(focus&&!document.getElementById("mch15-focus-block").hidden){focus.value="";renderFocusDescription("")}});
+document.getElementById("mch15-clear-station").addEventListener("click",function(){document.getElementById("mch15-modal-coach1").value="";document.getElementById("mch15-modal-coach2").value="";if(!document.getElementById("mch15-focus-block").hidden){populateFocusControls("","")}});
 document.getElementById("mch15-refresh-staff").addEventListener("click",refreshStaff);
 document.getElementById("mch15-export").addEventListener("click",exportPDF);
 
@@ -1168,13 +1277,19 @@ root.addEventListener("change",function(e){
 
 document.getElementById("mch15-assign-modal").addEventListener("change",function(e){
   if(e.target.value===CUSTOM){var v=customPrompt(e.target);if(v!=null)e.target.value=v}
-  if(e.target.id==="mch15-station-focus"){renderFocusDescription(e.target.value)}
+  if(e.target.id==="mch15-focus-category"){
+    populateFocusControls(e.target.value,"");
+  }
+  if(e.target.id==="mch15-focus-drill"){
+    renderFocusDescription(e.target.value);
+  }
 });
 
 function init(){
   document.getElementById("mch15-date").value=state.date||"";
   document.getElementById("mch15-camp-format").value=state.campFormat||"split";
-  fillAllSelects();renderRooms();renderOffIce();renderTimes();renderCampFormat();renderAssignButtons();applyTaskHidden();applyDeleted();updateSubtitle();
+  fillAllSelects();renderRooms();renderOffIce();renderTimes();renderCampFormat();renderAssignButtons();applyTaskHidden();applyDeleted();updateSubtitle();renderCampStationPlans();
+  loadCampDrillLibrary();
   refreshStaff();
 }
 init();
