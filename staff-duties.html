@@ -133,7 +133,7 @@ const mkSection=(title,rows=[])=>({id:uid('sec'),title,rows});
 const mkSkate=(title='New Skate',time='',location='',extra={})=>({
   id:uid('k'),title,time,location,programNote:extra.programNote||'',sourceLabel:extra.sourceLabel||'',
   image:extra.image===undefined?cleanRinkSvg():extra.image,
-  stations:extra.stations||mkStations(extra.stationCount||6),
+  stations:extra.stations||mkStations(extra.stationCount??6),
   duties:extra.duties||defaultDuties(),
   sections:extra.sections||[],
   notes:extra.notes||''
@@ -241,7 +241,6 @@ function migrate(old){
         duties:(k.duties||[]).map(x=>normalizeAssign({...x,id:x.id||uid('a')})),
         sections:[...(k.sections||[])]
       }));
-      if(k=>false){}
       if(d.type==='camp'){
         skates.forEach((k,idx)=>{
           const rows=[];
