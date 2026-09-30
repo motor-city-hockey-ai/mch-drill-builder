@@ -267,14 +267,19 @@
       </div>
 
       
+      <section class="mch15-camp-section mch15-overview-section">
+        <div class="mch15-section-band">
+          <span class="mch15-section-number">1</span>
+          <div><strong>Day Overview</strong><small>Daily schedule and required staff standards</small></div>
+        </div>
       <div class="mch15-camp-top">
         <section class="mch15-schedule">
           <div class="mch15-schedule-title">Daily Schedule</div>
           <div class="mch15-schedule-list"><div class="mch15-schedule-row"><strong>Arrival &amp; Welcoming</strong><span>8:30 AM</span></div><div class="mch15-schedule-row"><strong>On-Ice #1</strong><span>9:00–10:30 AM</span></div><div class="mch15-schedule-row"><strong>Get Changed</strong><span>10:30–10:45 AM</span></div><div class="mch15-schedule-row"><strong>Off-Ice</strong><span>10:45–11:20 AM</span></div><div class="mch15-schedule-row"><strong>Lunch</strong><span>11:20 AM–12:00 PM</span></div><div class="mch15-schedule-row"><strong>Get Dressed</strong><span>12:00–12:30 PM</span></div><div class="mch15-schedule-row"><strong>On-Ice #2</strong><span>12:30–2:00 PM</span></div><div class="mch15-schedule-row"><strong>Pickup</strong><span>2:00 PM</span></div></div>
         </section>
 
-        <section class="mch15-directions">
-          <div class="mch15-directions-title">Camp Staff Expectations — Read Before Camp</div>
+        <details class="mch15-directions mch15-expectations-details">
+          <summary class="mch15-expectations-summary"><span>Staff Expectations</span><small>6 required standards — click to open</small></summary><div class="mch15-directions-title">Camp Staff Expectations — Read Before Camp</div>
           <div class="mch15-directions-grid">
             <div><strong>1. Arrival — 8:30 AM sharp.</strong> Be in the locker room ready to work. Help players get dressed and greet / communicate with every parent who attends.</div>
             <div><strong>2. Off-Ice.</strong> Stay active with the players: coach, guide and supervise. Do not stand around doing nothing.</div>
@@ -283,9 +288,17 @@
             <div><strong>5. Locker-room supervision.</strong> Players are never allowed in a locker room without a coach. If a coach leaves, another coach must take over before that coach exits. Supervision must be continuous.</div>
             <div><strong>6. Post-camp.</strong> Greet parents, give every player a high five and thank parents for coming when you are in the locker room.</div>
           </div>
-        </section>
+        </details>
       </div>
 
+
+      </section>
+
+      <section class="mch15-camp-section mch15-ice-section">
+        <div class="mch15-section-band">
+          <span class="mch15-section-number">2</span>
+          <div><strong>Ice Plan</strong><small>AM and PM rink assignments with station plans</small></div>
+        </div>
       <div class="mch15-rink-grid mch15-grid-2" id="mch15-camp-rinks">
         <article class="mch15-rink-card mch15-camp-card" data-diagram="camp-split-am" data-camp-session="AM">
       <div class="mch15-rink-head">
@@ -390,9 +403,22 @@
         <div class="mch15-camp-plan-card" data-plan-session="PM"></div>
       </section>
 
+
+      </section>
+
+      <section class="mch15-camp-section mch15-operations-section">
+        <div class="mch15-section-band">
+          <span class="mch15-section-number">3</span>
+          <div><strong>Camp Operations</strong><small>Duties, off-ice assignments and locker rooms</small></div>
+        </div>
+        <div class="mch15-ops-tabs" role="tablist" aria-label="Camp operations">
+          <button type="button" class="mch15-ops-tab active" data-camp-ops-tab="duties">Camp Duties</button>
+          <button type="button" class="mch15-ops-tab" data-camp-ops-tab="off-ice">Off-Ice Stations</button>
+          <button type="button" class="mch15-ops-tab" data-camp-ops-tab="locker-rooms">Locker Rooms</button>
+        </div>
+
       <section class="mch15-camp-ops" id="mch15-camp-ops">
-        <div class="mch15-camp-ops-col">
-          <div class="mch15-subhead">Camp Tasks</div>
+        <div class="mch15-camp-ops-col active" data-camp-ops-panel="duties">
           
 <section class="mch15-ops-card" id="mch15-camp-task-panel">
       <div class="mch15-ops-head"><strong>Camp Tasks</strong><span>One shared set for AM + PM on the same rink.</span></div>
@@ -441,7 +467,7 @@
     </section>
         </div>
 
-        <div class="mch15-camp-ops-col">
+        <div class="mch15-camp-ops-col" data-camp-ops-panel="off-ice">
           <div class="mch15-subhead mch15-office-head">
             <span>Off-Ice Stations</span>
             <button type="button" class="mch15-small-btn" id="mch15-restore-office" hidden>Restore Stations</button>
@@ -474,7 +500,7 @@
           </div>
         </div>
 
-        <div class="mch15-camp-ops-col">
+        <div class="mch15-camp-ops-col" data-camp-ops-panel="locker-rooms">
           <div class="mch15-subhead">Locker Room Assignments</div>
           <div class="mch15-lockers"><div class="mch15-room" data-room="1">
       <strong>Locker Room 1</strong>
@@ -539,6 +565,8 @@
     </div></div>
         </div>
       </section>
+      </section>
+
     </section>
   </div>
 
@@ -641,11 +669,36 @@
 .mch15-monday-ops{display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-top:14px} .mch15-ops-card{border:1px solid #ddd;border-radius:12px;overflow:hidden;background:#fafafa} .mch15-ops-head{padding:8px 10px;background:#111;color:#fff} .mch15-ops-head strong{display:block;font-size:12px} .mch15-ops-head span{display:block;margin-top:3px;color:#aaa;font-size:9.5px}
 .mch15-task-list{display:grid;gap:5px;padding:8px} .mch15-task-row{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(130px,.7fr) 28px;gap:5px;align-items:center;min-height:32px;padding:4px 4px 4px 7px;border:1px solid #ddd;border-radius:7px;background:#fff} .mch15-task-label{font-size:10.5px;font-weight:800;line-height:1.2} .mch15-task-row select,.mch15-room select{width:100%;min-height:30px;padding:4px 6px;border:1px solid #d3d3d3;border-radius:6px;background:#fff;font-size:10px} .mch15-row-x{width:27px;height:27px;border:1px solid #dadada;border-radius:6px;background:#fff;color:#9d111c;font-weight:900}
 .mch15-camp-top{display:grid;grid-template-columns:minmax(285px,.75fr) minmax(0,2fr);gap:12px;max-width:1180px;margin:0 auto 16px;align-items:stretch} .mch15-schedule{padding:14px 15px;border:1px solid #d7d7d7;border-left:5px solid var(--red);border-radius:10px;background:#fff} .mch15-schedule-title,.mch15-directions-title{margin-bottom:9px;font-size:12px;font-weight:900;text-transform:uppercase;color:#111} .mch15-schedule-list{display:grid;gap:0} .mch15-schedule-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;padding:5px 0;border-bottom:1px solid #ededed;font-size:11px} .mch15-schedule-row:last-child{border-bottom:0} .mch15-schedule-row strong{font-weight:900;color:#111} .mch15-schedule-row span{font-weight:900;color:#444;white-space:nowrap} .mch15-directions{margin:0;padding:14px 15px;border:1px solid #d7d7d7;border-left:5px solid var(--red);border-radius:10px;background:#fff} .mch15-directions-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 18px;color:#333;font-size:11.2px;line-height:1.4} .mch15-directions-grid strong{color:#111}
-.mch15-camp-note{margin-top:5px;color:var(--muted);font-size:11.5px} .mch15-camp-ops{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:12px;max-width:1180px;margin:14px auto 0;padding:9px;border:1px solid #ddd;border-radius:12px;background:#fafafa} .mch15-subhead{margin-bottom:7px;font-size:11px;font-weight:900;text-transform:uppercase} .mch15-camp-ops .mch15-ops-card{border-radius:8px} .mch15-office-head{display:flex;align-items:center;justify-content:space-between;gap:8px} .mch15-office-list{display:grid;gap:6px} .mch15-office-row{display:grid;grid-template-columns:62px minmax(0,1.2fr) minmax(0,1fr) 28px;gap:5px;align-items:center;min-height:38px;padding:4px 5px;border:1px solid #ddd;border-radius:7px;background:#fff} .mch15-office-row>strong{font-size:10px} .mch15-office-row select{width:100%;min-width:0;min-height:30px;padding:4px 6px;border:1px solid #d3d3d3;border-radius:6px;background:#fff;font-size:10px}
+.mch15-camp-note{margin-top:5px;color:var(--muted);font-size:11.5px}
+.mch15-camp-section{max-width:1180px;margin:0 auto 18px;padding:12px;border:1px solid #e0e0e0;border-radius:14px;background:#fbfbfb;box-shadow:0 4px 14px rgba(0,0,0,.025)}
+.mch15-section-band{display:flex;align-items:center;gap:10px;margin:-12px -12px 12px;padding:10px 12px;border-bottom:1px solid #303030;background:#171717;color:#fff;border-radius:13px 13px 0 0}
+.mch15-section-number{display:grid;place-items:center;flex:0 0 28px;width:28px;height:28px;border-radius:50%;background:var(--red);color:#fff;font-size:13px;font-weight:900}
+.mch15-section-band strong{display:block;font-size:14px;line-height:1.05}
+.mch15-section-band small{display:block;margin-top:3px;color:#aaa;font-size:9px;font-weight:700}
+.mch15-overview-section .mch15-camp-top{max-width:none;margin:0;grid-template-columns:minmax(300px,.78fr) minmax(0,1.22fr)}
+.mch15-expectations-details{align-self:start;overflow:hidden;padding:0!important;border-left:1px solid #d7d7d7!important}
+.mch15-expectations-summary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 15px;list-style:none;cursor:pointer;background:#fff}
+.mch15-expectations-summary::-webkit-details-marker{display:none}
+.mch15-expectations-summary span{font-size:12px;font-weight:900;text-transform:uppercase;color:#111}
+.mch15-expectations-summary small{color:#777;font-size:9px;font-weight:800}
+.mch15-expectations-summary::after{content:"+";display:grid;place-items:center;width:24px;height:24px;border:1px solid #ddd;border-radius:50%;color:var(--red);font-size:17px;font-weight:900}
+.mch15-expectations-details[open] .mch15-expectations-summary::after{content:"−"}
+.mch15-expectations-details .mch15-directions-title{padding:0 15px;margin:4px 0 8px}
+.mch15-expectations-details .mch15-directions-grid{padding:0 15px 14px}
+.mch15-ice-section .mch15-rink-grid,.mch15-ice-section .mch15-camp-plan-grid{max-width:none;margin-left:0;margin-right:0}
+.mch15-ice-section .mch15-camp-plan-grid{margin-top:12px}
+.mch15-ops-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px}
+.mch15-ops-tab{min-height:40px;padding:8px 10px;border:1px solid #d7d7d7;border-radius:8px;background:#fff;color:#555;font-size:10px;font-weight:900}
+.mch15-ops-tab.active{border-color:#111;background:#111;color:#fff}
+.mch15-operations-section .mch15-camp-ops{display:block;max-width:none;margin:0;padding:0;border:0;background:transparent}
+.mch15-operations-section .mch15-camp-ops-col{display:none;max-width:920px;margin:0 auto}
+.mch15-operations-section .mch15-camp-ops-col.active{display:block}
+.mch15-operations-section .mch15-office-list,.mch15-operations-section .mch15-lockers{max-width:920px;margin:0 auto}
+ .mch15-camp-ops{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:12px;max-width:1180px;margin:14px auto 0;padding:9px;border:1px solid #ddd;border-radius:12px;background:#fafafa} .mch15-subhead{margin-bottom:7px;font-size:11px;font-weight:900;text-transform:uppercase} .mch15-camp-ops .mch15-ops-card{border-radius:8px} .mch15-office-head{display:flex;align-items:center;justify-content:space-between;gap:8px} .mch15-office-list{display:grid;gap:6px} .mch15-office-row{display:grid;grid-template-columns:62px minmax(0,1.2fr) minmax(0,1fr) 28px;gap:5px;align-items:center;min-height:38px;padding:4px 5px;border:1px solid #ddd;border-radius:7px;background:#fff} .mch15-office-row>strong{font-size:10px} .mch15-office-row select{width:100%;min-width:0;min-height:30px;padding:4px 6px;border:1px solid #d3d3d3;border-radius:6px;background:#fff;font-size:10px}
 .mch15-lockers{display:grid;gap:5px} .mch15-room{display:grid;grid-template-columns:74px minmax(0,1fr) auto;gap:5px;align-items:center;min-height:34px;padding:4px 5px;border:1px solid #ddd;border-radius:7px;background:#fff} .mch15-room>strong{font-size:10.5px} .mch15-room-selects{display:grid;grid-template-columns:1fr;gap:4px} .mch15-room-selects.two{grid-template-columns:1fr 1fr} .mch15-room-actions{display:flex;gap:4px} .mch15-small-btn{min-height:27px;padding:3px 6px;border:1px solid #d3d3d3;border-radius:6px;background:#f7f7f7;font-size:8px;font-weight:900}
 .mch15-modal{position:fixed;inset:0;z-index:999999;display:none;place-items:center} .mch15-modal.open{display:grid} .mch15-modal-bg{position:absolute;inset:0;background:rgba(0,0,0,.68)} .mch15-dialog{position:relative;z-index:1;width:min(580px,calc(100vw - 28px));padding:21px;border-radius:14px;background:#fff;box-shadow:0 24px 80px rgba(0,0,0,.35)} .mch15-dialog h2{margin:3px 0 0;font-size:22px} .mch15-dialog p{margin:7px 0 16px;color:var(--muted);font-size:11px} .mch15-dialog-x{position:absolute;right:11px;top:11px;width:35px;height:35px;border:1px solid #ddd;border-radius:50%;background:#fff;font-size:21px} .mch15-dialog-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px} .mch15-dialog-grid label{display:flex;flex-direction:column;gap:5px} .mch15-focus-block{margin-top:14px;padding-top:14px;border-top:1px solid #e2e2e2} .mch15-focus-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:9px} .mch15-focus-block label{display:flex;flex-direction:column;gap:5px} .mch15-focus-block label span{font-size:10px;font-weight:900;text-transform:uppercase;color:#777} .mch15-focus-block select{min-height:42px;padding:8px 10px;border:1px solid #ccc;border-radius:8px;background:#fff;color:#111;font-size:11px} .mch15-focus-block select:disabled{background:#f2f2f2;color:#999} .mch15-focus-note{display:flex;justify-content:space-between;gap:8px;margin-top:7px;color:#777;font-size:9px;font-weight:700} .mch15-focus-description{margin-top:9px;padding:11px 12px;border:1px solid #ddd;border-left:4px solid var(--red);border-radius:8px;background:#fafafa;color:#222;font-size:11.5px;line-height:1.45} .mch15-focus-description strong{display:block;margin-bottom:4px;color:#111;font-size:11.5px} .mch15-focus-name{margin-top:2px;color:#9d111c!important;font-size:7.5px!important;font-weight:900!important;white-space:nowrap!important} .mch15-camp-plan-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:1180px;margin:14px auto 0} .mch15-camp-plan-card{overflow:hidden;border:1px solid #ddd;border-radius:10px;background:#fff} .mch15-plan-head{padding:9px 11px;background:#111;color:#fff} .mch15-plan-head strong{display:block;font-size:12px} .mch15-plan-head span{display:block;margin-top:2px;color:#aaa;font-size:9px} .mch15-plan-table{display:grid} .mch15-plan-row{display:grid;grid-template-columns:92px minmax(115px,.8fr) 105px minmax(0,1.3fr);gap:7px;align-items:start;padding:7px 9px;border-bottom:1px solid #eee;font-size:10px;line-height:1.25} .mch15-plan-row:last-child{border-bottom:0} .mch15-plan-row.mch15-plan-labels{background:#f6f6f6;color:#777;font-size:8.5px;font-weight:900;text-transform:uppercase} .mch15-plan-row strong{font-weight:900} .mch15-plan-muted{color:#aaa} .mch15-dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
 @media(max-width:1200px){.mch15-grid-3,.mch15-grid-2,.mch15-monday-ops{grid-template-columns:1fr}.mch15-rink-card,.mch15-ops-card,.mch15-camp-ops{width:100%;max-width:700px;margin-left:auto;margin-right:auto}}
-@media(max-width:760px){.mch15-header{align-items:flex-start;flex-direction:column;padding:15px}.mch15-header-actions{width:100%}.mch15-view{padding:14px 10px}.mch15-section-head{align-items:stretch;flex-direction:column}.mch15-head-right{align-items:stretch;flex-direction:column}.mch15-camp-top,.mch15-directions-grid,.mch15-camp-ops,.mch15-camp-plan-grid,.mch15-focus-grid{grid-template-columns:1fr}.mch15-task-row,.mch15-room,.mch15-office-row{grid-template-columns:1fr}.mch15-plan-row{grid-template-columns:1fr 1fr}.mch15-plan-row.mch15-plan-labels{display:none}.mch15-row-x{width:100%}.mch15-dialog-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.mch15-header{align-items:flex-start;flex-direction:column;padding:15px}.mch15-header-actions{width:100%}.mch15-view{padding:14px 10px}.mch15-section-head{align-items:stretch;flex-direction:column}.mch15-head-right{align-items:stretch;flex-direction:column}.mch15-camp-top,.mch15-directions-grid,.mch15-camp-ops,.mch15-camp-plan-grid,.mch15-focus-grid,.mch15-overview-section .mch15-camp-top{grid-template-columns:1fr}.mch15-task-row,.mch15-room,.mch15-office-row{grid-template-columns:1fr}.mch15-plan-row{grid-template-columns:1fr 1fr}.mch15-plan-row.mch15-plan-labels{display:none}.mch15-row-x{width:100%}.mch15-dialog-grid{grid-template-columns:1fr}}
 </style>
 
 <script>
@@ -1160,20 +1213,20 @@ function drawTasks(doc,title,group,names,x,y,w){
   return h;
 }
 function drawCampDirections(doc,y){
-  var x=18,w=756,h=96,scheduleW=214,gap=8,expectX=x+scheduleW+gap,expectW=w-scheduleW-gap;
-  doc.setDrawColor(205);doc.roundedRect(x,y,scheduleW,h,4,4);
+  var x=18,w=756,bandH=12,h=88,scheduleW=214,gap=8,contentY=y+bandH+3,expectX=x+scheduleW+gap,expectW=w-scheduleW-gap;
+  doc.setFillColor(17,17,17);doc.rect(x,y,w,bandH,"F");doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text("1  DAY OVERVIEW",x+6,y+8);doc.setTextColor(0);doc.setDrawColor(205);doc.roundedRect(x,contentY,scheduleW,h,4,4);
   doc.setLineWidth(2);doc.setDrawColor(201,31,44);doc.line(x,y,x,y+h);doc.setLineWidth(.2);
-  doc.setTextColor(0);doc.setFont("helvetica","bold");doc.setFontSize(8.5);doc.text("DAILY SCHEDULE",x+8,y+13);
+  doc.setTextColor(0);doc.setFont("helvetica","bold");doc.setFontSize(8.5);doc.text("DAILY SCHEDULE",x+8,contentY+13);
   DAILY_SCHEDULE.forEach(function(r,i){
-    var yy=y+23+i*8.5;
+    var yy=contentY+23+i*8.5;
     doc.setFont("helvetica","bold");doc.setFontSize(5.4);doc.text(r[0],x+8,yy,{maxWidth:122});
     doc.text(r[1],x+scheduleW-8,yy,{align:"right",maxWidth:72});
     doc.setDrawColor(238);doc.line(x+7,yy+3,x+scheduleW-7,yy+3);
   });
 
-  doc.setDrawColor(205);doc.roundedRect(expectX,y,expectW,h,4,4);
-  doc.setLineWidth(2);doc.setDrawColor(201,31,44);doc.line(expectX,y,expectX,y+h);doc.setLineWidth(.2);
-  doc.setTextColor(0);doc.setFont("helvetica","bold");doc.setFontSize(8.5);doc.text("CAMP STAFF EXPECTATIONS — READ BEFORE CAMP",expectX+8,y+13);
+  doc.setDrawColor(205);doc.roundedRect(expectX,contentY,expectW,h,4,4);
+  doc.setLineWidth(2);doc.setDrawColor(201,31,44);doc.line(expectX,contentY,expectX,contentY+h);doc.setLineWidth(.2);
+  doc.setTextColor(0);doc.setFont("helvetica","bold");doc.setFontSize(8.5);doc.text("CAMP STAFF EXPECTATIONS — READ BEFORE CAMP",expectX+8,contentY+13);
   var items=[
     ["8:30 AM SHARP","Be in the locker room ready to work. Help players get dressed. Greet and communicate with every parent who attends."],
     ["OFF-ICE","Be active with players — coach, guide and supervise. Do not stand around doing nothing."],
@@ -1184,11 +1237,11 @@ function drawCampDirections(doc,y){
   ];
   var colW=(expectW-20)/2,rowH=23;
   items.forEach(function(it,i){
-    var col=i%2,row=Math.floor(i/2),xx=expectX+8+col*colW,yy=y+23+row*rowH;
+    var col=i%2,row=Math.floor(i/2),xx=expectX+8+col*colW,yy=contentY+23+row*rowH;
     doc.setFontSize(5.3);doc.setFont("helvetica","bold");doc.text(it[0]+":",xx,yy);
     doc.setFont("helvetica","normal");var lines=doc.splitTextToSize(it[1],colW-10);doc.text(lines,xx,yy+7);
   });
-  return h;
+  return bandH+3+h;
 }
 function drawOffIce(doc,x,y,w){
   var visible=[];
@@ -1230,14 +1283,15 @@ async function exportPDF(){
       var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;drawHeader(doc,f.title+" — AM + PM");
       var dy=50;dy+=drawCampDirections(doc,dy)+8;
       var keys=["camp-"+state.campFormat+"-am","camp-"+state.campFormat+"-pm"].filter(function(k){return!state.deleted[k]});
-      var img=await urlToData(f.url),n=keys.length||1,gap=18,w=315,start=18+(756-(w*n+gap*(n-1)))/2,maxBlockH=0;
+      doc.setFillColor(17,17,17);doc.rect(18,dy,756,12,"F");doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text("2  ICE PLAN",24,dy+8);doc.setTextColor(0);dy+=16;
+      var img=await urlToData(f.url),n=keys.length||1,gap=18,w=290,start=18+(756-(w*n+gap*(n-1)))/2,maxBlockH=0;
       keys.forEach(function(k,i){
         var xx=start+i*(w+gap);
         var rinkH=drawRink(doc,k,xx,dy,w,false,k.endsWith("-am")?"AM":"PM",img);
         var planH=drawStationPlan(doc,k,xx,dy+rinkH+5,w);
         maxBlockH=Math.max(maxBlockH,rinkH+5+planH);
       });
-      var oy=dy+maxBlockH+7;if(keys.length){drawTasks(doc,"CAMP TASKS — SHARED AM + PM","camp",CAMP_TASKS,14,oy,290);drawOffIce(doc,312,oy,255);drawLockers(doc,575,oy,203)}
+      var oy=dy+maxBlockH+6;if(keys.length){doc.setFillColor(17,17,17);doc.rect(18,oy,756,12,"F");doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text("3  CAMP OPERATIONS",24,oy+8);doc.setTextColor(0);oy+=16;drawTasks(doc,"CAMP DUTIES — SHARED AM + PM","camp",CAMP_TASKS,14,oy,290);drawOffIce(doc,312,oy,255);drawLockers(doc,575,oy,203)}
     }
     doc.save("Motor-City-Hockey-Skate-Zones-Duties.pdf");
   }catch(err){console.error(err);alert("PDF export could not load. Check your internet connection and try again.")}
@@ -1245,6 +1299,13 @@ async function exportPDF(){
 }
 
 root.addEventListener("click",function(e){
+  var opsTab=e.target.closest("[data-camp-ops-tab]");
+  if(opsTab){
+    var target=opsTab.dataset.campOpsTab;
+    root.querySelectorAll("[data-camp-ops-tab]").forEach(function(btn){btn.classList.toggle("active",btn===opsTab)});
+    root.querySelectorAll("[data-camp-ops-panel]").forEach(function(panel){panel.classList.toggle("active",panel.dataset.campOpsPanel===target)});
+    return;
+  }
   var station=e.target.closest(".mch15-station");if(station){openModal(station);return}
   if(e.target.closest("[data-close-modal]")){closeModal();return}
   var del=e.target.closest("[data-delete-diagram]");if(del){var k=del.dataset.deleteDiagram;if(confirm("Remove this entire diagram from the current plan and PDF?")){state.deleted[k]=true;save();applyDeleted()}return}
