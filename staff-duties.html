@@ -740,7 +740,7 @@ function renderFocusDescription(value){
 function updateFocusLibraryStatus(){
   var el=document.getElementById("mch15-focus-library-status");
   if(!el)return;
-  el.textContent=(CAMP_DRILL_LIBRARY_LOADED?"Camp drill library: ":"Camp drill fallback: ")+CAMP_DRILL_LIBRARY_COUNT+" drills";
+  el.textContent=(CAMP_DRILL_LIBRARY_LOADED?"Exact camp list: ":"Camp fallback: ")+CAMP_DRILL_LIBRARY_COUNT+" drills";
 }
 function populateFocusControls(category,selectedKey){
   var cat=document.getElementById("mch15-focus-category");
@@ -755,7 +755,7 @@ function populateFocusControls(category,selectedKey){
   updateFocusLibraryStatus();
 }
 function loadCampDrillLibrary(){
-  return fetch("camp-drills.json?v=20260930-2",{cache:"no-store"})
+  return fetch("camp-drills.json?v=20260930-3",{cache:"no-store"})
     .then(function(r){if(!r.ok)throw new Error("Camp drill library unavailable");return r.json()})
     .then(function(data){
       if(!data||!data.focuses)throw new Error("Camp drill library invalid");
