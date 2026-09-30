@@ -552,7 +552,7 @@
           <span id="mch15-focus-library-status">Camp drill library loading…</span>
         </div>
         <div class="mch15-focus-description" id="mch15-focus-description">
-          Choose a focus, then choose a drill to see the description.
+          Choose a focus, then choose a drill to see the full trainer instructions.
         </div>
       </div>
 
@@ -727,6 +727,23 @@
   .mch16-session-plan .mch15-plan-row{grid-template-columns:1fr 1fr}
   .mch16-session-plan .mch15-plan-row.mch15-plan-labels{display:none}
 }
+
+/* Full trainer instructions for each camp station */
+.mch16-plan-list{display:grid}
+.mch16-plan-item{padding:10px 11px;border-bottom:1px solid #e8e8e8;background:#fff}
+.mch16-plan-item:last-child{border-bottom:0}
+.mch16-plan-main{display:grid;grid-template-columns:145px minmax(0,1fr);gap:10px;align-items:start}
+.mch16-plan-station strong{display:block;color:#111;font-size:10.5px}
+.mch16-plan-station span{display:block;margin-top:3px;color:#666;font-size:9.5px;font-weight:800}
+.mch16-plan-drill{min-width:0}
+.mch16-plan-drill strong{display:block;margin-top:4px;color:#111;font-size:10.5px;line-height:1.25}
+.mch16-focus-pill{display:inline-block;padding:3px 6px;border-radius:999px;background:#f0f0f0;color:#777;font-size:8px;font-weight:900;text-transform:uppercase}
+.mch16-plan-description{margin-top:8px;padding:8px 9px;border-left:3px solid var(--red);background:#fafafa}
+.mch16-plan-description>span{display:block;margin-bottom:3px;color:#8d111b;font-size:8px;font-weight:900;letter-spacing:.06em;text-transform:uppercase}
+.mch16-plan-description p{margin:0;color:#333;font-size:10px;line-height:1.38}
+.mch16-modal-instruction-label{display:block;margin-top:8px;color:#8d111b;font-size:8px;font-weight:900;letter-spacing:.06em}
+.mch15-focus-description p{margin:4px 0 0!important;color:#222!important;font-size:11.5px!important;line-height:1.45!important}
+@media(max-width:700px){.mch16-plan-main{grid-template-columns:1fr}}
 </style>
 
 <script>
@@ -815,8 +832,8 @@ function renderFocusDescription(value){
   if(!box)return;
   var d=stationFocusDetails(value);
   box.innerHTML=d
-    ? '<strong>'+esc(d.name)+'</strong>'+esc(d.description||"No description entered yet.")
-    : 'Choose a focus, then choose a drill to see the description.';
+    ? '<strong>'+esc(d.name)+'</strong><span class="mch16-modal-instruction-label">TRAINER INSTRUCTIONS</span><p>'+esc(d.description||"No additional instructions were supplied for this drill.")+'</p>'
+    : 'Choose a focus, then choose a drill to see the full trainer instructions.';
 }
 function updateFocusLibraryStatus(){
   var el=document.getElementById("mch15-focus-library-status");
@@ -836,7 +853,7 @@ function populateFocusControls(category,selectedKey){
   updateFocusLibraryStatus();
 }
 function loadCampDrillLibrary(){
-  return fetch("camp-drills.json?v=20260930-3",{cache:"no-store"})
+  return fetch("camp-drills.json?v=20260930-4",{cache:"no-store"})
     .then(function(r){if(!r.ok)throw new Error("Camp drill library unavailable");return r.json()})
     .then(function(data){
       if(!data||!data.focuses)throw new Error("Camp drill library invalid");
@@ -867,23 +884,30 @@ function renderCampStationPlans(){
     var key="camp-"+state.campFormat+"-"+session.toLowerCase();
     if(state.deleted&&state.deleted[key]){host.hidden=true;return}
     host.hidden=false;
+
     var rows=f.stations.map(function(s){
       var a=effectiveAssign(key,s[0]);
       var coaches=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean).join(" / ");
       var d=stationFocusDetails(stationFocusValue(key,s[0]));
-      return '<div class="mch15-plan-row">'+
-        '<strong>'+esc(s[1])+'</strong>'+
-        '<span class="'+(coaches?'':'mch15-plan-muted')+'">'+esc(coaches||"Unassigned")+'</span>'+
-        '<span class="'+(d?'':'mch15-plan-muted')+'">'+esc(d?d.category:"—")+'</span>'+
-        '<span class="'+(d?'':'mch15-plan-muted')+'">'+esc(d?d.name:"No drill selected")+'</span>'+
+      var desc=d&&d.description?d.description:"";
+      return '<div class="mch16-plan-item">'+
+        '<div class="mch16-plan-main">'+
+          '<div class="mch16-plan-station"><strong>'+esc(s[1])+'</strong><span>'+esc(coaches||"Unassigned")+'</span></div>'+
+          '<div class="mch16-plan-drill">'+
+            '<span class="mch16-focus-pill">'+esc(d?d.category:"No Focus")+'</span>'+
+            '<strong>'+esc(d?d.name:"No drill selected")+'</strong>'+
+          '</div>'+
+        '</div>'+
+        '<div class="mch16-plan-description '+(desc?'':'mch15-plan-muted')+'">'+
+          '<span>Trainer Instructions</span>'+
+          '<p>'+esc(desc||"Select a drill to show the full trainer instructions here.")+'</p>'+
+        '</div>'+
       '</div>';
     }).join("");
+
     host.innerHTML=
-      '<div class="mch15-plan-head"><strong>'+session+' Station Plan</strong><span>Coach + focus + drill at a glance</span></div>'+
-      '<div class="mch15-plan-table">'+
-        '<div class="mch15-plan-row mch15-plan-labels"><span>Station</span><span>Coach</span><span>Focus</span><span>Drill</span></div>'+
-        rows+
-      '</div>';
+      '<div class="mch15-plan-head"><strong>'+session+' Station Plan</strong><span>Coach, drill and full trainer instructions</span></div>'+
+      '<div class="mch16-plan-list">'+rows+'</div>';
   });
 }
 function customValue(name){return "custom:"+encodeURIComponent(String(name||"").trim())}
@@ -1212,23 +1236,35 @@ function drawRink(doc,key,x,y,w,withTimes,badge,imgData){
   return cardH;
 }
 function drawStationPlan(doc,key,x,y,w){
-  var cfg=configForRink(key),session=key.indexOf("-pm")>0?"PM":"AM";
-  var rowH=8.4,headerH=17,h=headerH+cfg.stations.length*rowH;
-  doc.setDrawColor(205);doc.roundedRect(x,y,w,h,4,4);
-  doc.setFillColor(17,17,17);doc.rect(x,y,w,headerH,"F");
-  doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text(session+" STATION PLAN",x+5,y+11);
-  doc.setTextColor(0);
-
-  var col1=x+5,col2=x+w*.28,col3=x+w*.54,col4=x+w*.70;
-  cfg.stations.forEach(function(s,i){
-    var yy=y+headerH+(i+1)*rowH-2;
+  var cfg=configForRink(key),session=key.indexOf("-pm")>0?"PM":"AM",headerH=17;
+  var prepared=cfg.stations.map(function(s){
     var a=effectiveAssign(key,s.id),coaches=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean).join(" / ");
     var d=stationFocusDetails(stationFocusValue(key,s.id));
-    doc.setFontSize(4.7);doc.setFont("helvetica","bold");doc.text(s.label,col1,yy,{maxWidth:w*.22});
-    doc.setFont("helvetica","normal");doc.text(coaches||"—",col2,yy,{maxWidth:w*.23});
-    doc.text(d?d.category:"—",col3,yy,{maxWidth:w*.13});
-    doc.setFont("helvetica","bold");doc.text(d?d.name:"—",col4,yy,{maxWidth:w*.28});
-    doc.setDrawColor(238);doc.line(x+4,yy+2,x+w-4,yy+2);
+    var desc=d&&d.description?d.description:"No trainer instructions selected.";
+    var descLines=doc.splitTextToSize(desc,w-12);
+    // Keep all supplied wording. Row grows to fit the complete description.
+    var rowH=Math.max(20,14+descLines.length*5.2);
+    return {station:s.label,coaches:coaches||"—",focus:d?d.category:"—",name:d?d.name:"—",desc:desc,descLines:descLines,rowH:rowH};
+  });
+  var h=headerH+prepared.reduce(function(sum,r){return sum+r.rowH},0);
+
+  doc.setDrawColor(205);doc.roundedRect(x,y,w,h,4,4);
+  doc.setFillColor(17,17,17);doc.rect(x,y,w,headerH,"F");
+  doc.setTextColor(255);doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text(session+" STATION PLAN — FULL TRAINER INSTRUCTIONS",x+5,y+11);
+  doc.setTextColor(0);
+
+  var yy=y+headerH;
+  prepared.forEach(function(r){
+    doc.setFont("helvetica","bold");doc.setFontSize(5.4);doc.text(r.station,x+5,yy+7,{maxWidth:w*.26});
+    doc.setFont("helvetica","normal");doc.setFontSize(4.9);doc.text(r.coaches,x+w*.28,yy+7,{maxWidth:w*.24});
+    doc.setFont("helvetica","bold");doc.setFontSize(4.9);doc.setTextColor(145,20,30);doc.text(r.focus,x+w*.55,yy+7,{maxWidth:w*.16});
+    doc.setTextColor(0);doc.text(r.name,x+w*.71,yy+7,{maxWidth:w*.27});
+
+    doc.setFont("helvetica","bold");doc.setFontSize(4.3);doc.setTextColor(145,20,30);doc.text("TRAINER INSTRUCTIONS",x+5,yy+14);
+    doc.setFont("helvetica","normal");doc.setFontSize(4.7);doc.setTextColor(45);
+    doc.text(r.descLines,x+5,yy+19);
+    doc.setTextColor(0);doc.setDrawColor(235);doc.line(x+4,yy+r.rowH-1,x+w-4,yy+r.rowH-1);
+    yy+=r.rowH;
   });
   return h;
 }
@@ -1313,7 +1349,7 @@ async function exportPDF(){
       var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;drawHeader(doc,f.title+" — AM + PM");
       var dy=50;dy+=drawCampDirections(doc,dy)+8;
       var keys=["camp-"+state.campFormat+"-am","camp-"+state.campFormat+"-pm"].filter(function(k){return!state.deleted[k]});
-      var img=await urlToData(f.url),n=keys.length||1,gap=18,w=300,start=18+(756-(w*n+gap*(n-1)))/2,maxBlockH=0;
+      var img=await urlToData(f.url),n=keys.length||1,gap=18,w=270,start=18+(756-(w*n+gap*(n-1)))/2,maxBlockH=0;
       keys.forEach(function(k,i){
         var xx=start+i*(w+gap);
         doc.setFillColor(17,17,17);doc.roundedRect(xx,dy,w,16,4,4,"F");
