@@ -3,45 +3,69 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Motor City Hockey — Staff Duties</title>
+<title>Motor City Hockey - Staff Assignment Builder</title>
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <style>
-:root{--red:#e51b23;--black:#0a0a0a;--ink:#181818;--muted:#747474;--line:#d9d9d9;--wash:#f3f3f3;--green:#1c8c4a}
-*{box-sizing:border-box}html,body{margin:0;background:#ededed;color:var(--ink);font-family:Arial,Helvetica,sans-serif}
-button,input,select,textarea{font:inherit}.app{max-width:1500px;margin:auto;background:#fff;min-height:100vh}
-.header{background:#090909;color:#fff;padding:20px 30px;border-bottom:5px solid var(--red);display:flex;align-items:center;justify-content:space-between;gap:14px}
-.brand{display:flex;align-items:center;gap:14px}.brand img{width:58px;height:58px;object-fit:contain}.brand h1{font-size:28px;margin:0}.brand small{display:block;color:#bcbcbc;letter-spacing:2px;margin-top:3px}
-.header-actions{display:flex;gap:9px;flex-wrap:wrap}.btn{border:0;border-radius:10px;padding:10px 14px;font-weight:900;cursor:pointer}.btn.red{background:var(--red);color:#fff}.btn.dark{background:#292929;color:#fff}.btn.light{background:#eee;color:#111}.btn.outline{background:#fff;border:1px solid #bbb}
-.nav{display:flex;gap:8px;padding:11px 30px;border-bottom:1px solid #ddd}.nav a{color:#111;text-decoration:none;border:1px solid #ccc;border-radius:999px;padding:9px 16px;font-weight:900}.nav a.active{background:#111;color:#fff;border-color:#111}
-.main{padding:22px 30px 50px}.toolbar{background:#111;color:#fff;border-left:5px solid var(--red);border-radius:16px;padding:16px 18px;margin-bottom:18px}
-.toolbar-grid{display:grid;grid-template-columns:1.1fr 1fr 1fr auto auto;gap:10px;align-items:end}.field label{display:block;font-size:10px;font-weight:900;letter-spacing:1.1px;color:#bdbdbd;margin-bottom:6px}.control{height:44px;border:1px solid #555;background:#161616;color:#fff;border-radius:9px;padding:0 11px;width:100%}.control.white{background:#fff;color:#111;border-color:#ccc}
-.day-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}.day-tab{border:1px solid #ccc;border-radius:999px;background:#fff;padding:9px 15px;font-weight:900;cursor:pointer}.day-tab.active{background:#111;color:#fff;border-color:#111}
-.notice{padding:10px 12px;background:#f5f5f5;border-left:4px solid var(--green);border-radius:8px;margin-bottom:16px;font-size:12px}
+:root{--red:#e51b23;--black:#090909;--ink:#181818;--muted:#707070;--line:#d8d8d8;--wash:#f4f4f4;--green:#1d8a4d;--blue:#153b66}
+*{box-sizing:border-box}
+html,body{margin:0;max-width:100%;overflow-x:hidden;background:#ededed;color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+.app{width:100%;max-width:1600px;margin:0 auto;background:#fff;min-height:100vh}
+.header{background:#090909;color:#fff;padding:18px 26px;border-bottom:5px solid var(--red);display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:13px;min-width:0}.brand img{width:56px;height:56px;object-fit:contain;flex:0 0 auto}.brand h1{font-size:26px;margin:0;white-space:nowrap}.brand small{display:block;color:#bbb;letter-spacing:1.8px;margin-top:3px;font-size:11px}
+.header-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.btn{border:0;border-radius:10px;padding:10px 14px;font-weight:900;cursor:pointer;min-height:40px}.btn.red{background:var(--red);color:#fff}.btn.dark{background:#292929;color:#fff}.btn.light{background:#eee;color:#111}.btn.outline{background:#fff;border:1px solid #bbb;color:#111}
+.main{padding:20px 26px 50px}
+.toolbar{background:#111;color:#fff;border-left:5px solid var(--red);border-radius:16px;padding:15px 17px;margin-bottom:14px}
+.toolbar-grid{display:grid;grid-template-columns:1.15fr 1fr 1fr 1fr auto auto;gap:10px;align-items:end}
+.field label{display:block;font-size:9px;font-weight:900;letter-spacing:1.2px;color:#bcbcbc;margin-bottom:6px}.control{height:44px;border:1px solid #555;background:#161616;color:#fff;border-radius:9px;padding:0 10px;width:100%;min-width:0}
+.format-strip{display:flex;gap:8px;align-items:center;overflow-x:auto;padding:2px 0 13px;scrollbar-width:thin}.format-tab{flex:0 0 auto;border:1px solid #ccc;border-radius:999px;background:#fff;padding:9px 14px;font-weight:900}.format-tab.active{background:#111;color:#fff;border-color:#111}
+.notice{padding:10px 12px;background:#f5f5f5;border-left:4px solid var(--green);border-radius:8px;margin-bottom:15px;font-size:12px}
 .skate{border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:0 0 20px;background:#fff;box-shadow:0 4px 18px rgba(0,0,0,.04)}
-.skate-head{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#111;color:#fff;padding:13px 15px}.skate-title-wrap{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.skate-title{font-size:17px;font-weight:900}.skate-sub{font-size:11px;color:#aaa}.xbtn{width:34px;height:34px;border:0;border-radius:50%;background:var(--red);color:#fff;font-size:18px;font-weight:900;cursor:pointer}
-.skate-meta{display:grid;grid-template-columns:1.2fr 1fr 1fr auto;gap:10px;padding:12px 14px;background:#f7f7f7;border-bottom:1px solid #ddd;align-items:end}.meta-field label{display:block;font-size:9px;font-weight:900;letter-spacing:1px;color:#777;margin-bottom:4px}.meta-field input{height:38px;width:100%;border:1px solid #ccc;border-radius:8px;padding:0 9px}
-.skate-body{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(370px,.75fr);gap:16px;padding:14px}
-.diagram-panel{border:1px solid #ddd;border-radius:12px;overflow:hidden;background:#fafafa}.diagram-tools{display:flex;gap:8px;padding:9px;background:#eee;border-bottom:1px solid #ddd;flex-wrap:wrap}.diagram-frame{position:relative;min-height:410px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden}.diagram-frame img{display:block;max-width:100%;max-height:610px;width:100%;height:auto;object-fit:contain}.diagram-placeholder{padding:60px 20px;text-align:center;color:#888}.diagram-placeholder b{display:block;color:#222;font-size:18px;margin-bottom:5px}
-.program-note{position:absolute;right:12px;top:12px;background:#111;color:#fff;border-left:4px solid var(--red);border-radius:8px;padding:7px 9px;font-size:11px;font-weight:900;max-width:220px;z-index:3}.station-layer{position:absolute;inset:0;pointer-events:none}.station-marker{position:absolute;transform:translate(-50%,-50%);width:158px;background:rgba(255,255,255,.94);border:2px solid #111;border-radius:9px;padding:7px;box-shadow:0 3px 9px rgba(0,0,0,.18);pointer-events:auto}.station-marker .station-name{text-align:center;font-weight:900;font-size:12px;margin-bottom:5px}.station-marker select,.station-marker input{width:100%;height:29px;border:1px solid #aaa;border-radius:6px;padding:0 5px;font-size:10px;background:#fff}.coach2{margin-top:4px}.marker-actions{display:flex;justify-content:space-between;margin-top:5px;gap:4px}.mini{border:0;border-radius:6px;padding:4px 6px;font-size:9px;font-weight:900;cursor:pointer}.mini.add{background:#111;color:#fff}.mini.del{background:#eee;color:#a00}.mini.move{background:#eee;color:#111;cursor:move}
-.side-panel{display:flex;flex-direction:column;gap:12px}.section{border:1px solid #ddd;border-radius:12px;padding:12px;background:#fff}.section h3{font-size:13px;margin:0 0 9px}.section-sub{font-size:10px;color:#777;margin:-4px 0 9px}.duty-row{display:grid;grid-template-columns:1fr 150px 34px;gap:7px;align-items:center;padding:7px 0;border-bottom:1px solid #eee}.duty-row:last-child{border-bottom:0}.duty-name{font-weight:800;font-size:11px}.duty-row select,.duty-row input{width:100%;height:34px;border:1px solid #bbb;border-radius:7px;padding:0 7px;font-size:11px}.small-x{width:30px;height:30px;border:0;border-radius:50%;background:#eee;color:#a00;font-weight:900;cursor:pointer}
-.custom-wrap{display:none;margin-top:4px}.assign-wrap.custom .custom-wrap{display:block}.assign-wrap.custom select{margin-bottom:4px}
-.management{border:1px solid #ddd;border-radius:12px;padding:12px;background:#fafafa;margin-top:15px}.management h3{margin:0 0 8px;font-size:14px}.staff-list{display:flex;flex-wrap:wrap;gap:6px;margin:9px 0}.staff-chip{background:#fff;border:1px solid #ccc;border-radius:999px;padding:6px 8px;font-size:10px;display:flex;gap:6px;align-items:center}.staff-chip button{border:0;background:none;color:#a00;font-weight:900;cursor:pointer}
-.staff-add{display:grid;grid-template-columns:1fr auto;gap:7px}.staff-add input{height:38px;border:1px solid #bbb;border-radius:8px;padding:0 9px}
-.camp-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.camp-grid .section{height:100%}
-.office-row{display:grid;grid-template-columns:1fr 160px 34px;gap:7px;align-items:center;padding:6px 0;border-bottom:1px solid #eee}.office-row:last-child{border-bottom:0}
-.print-only{display:none}
-@media(max-width:1050px){.toolbar-grid{grid-template-columns:1fr 1fr}.skate-body{grid-template-columns:1fr}.camp-grid{grid-template-columns:1fr}}
-@media(max-width:720px){.header{padding:14px}.brand h1{font-size:20px}.header-actions{width:100%}.nav,.main{padding-left:12px;padding-right:12px}.toolbar-grid{grid-template-columns:1fr}.skate-meta{grid-template-columns:1fr}.diagram-frame{min-height:320px}.station-marker{width:132px}.duty-row,.office-row{grid-template-columns:1fr 130px 32px}}
-@media print{
-  html,body{background:#fff}.app{max-width:none}.header{padding:12px 18px}.brand img{width:46px;height:46px}.brand h1{font-size:22px}.header-actions,.nav,.toolbar,.day-tabs,.notice,.diagram-tools,.management,.xbtn,.mini,.small-x,.edit-only{display:none!important}
-  .main{padding:10px 12px}.skate{box-shadow:none;border:1px solid #aaa;break-inside:avoid;margin-bottom:12px}.skate-head{padding:9px 11px}.skate-meta{display:none}.skate-body{display:grid;grid-template-columns:1.4fr .6fr;padding:9px;gap:9px}.diagram-frame{min-height:300px}.station-marker{width:132px;padding:5px;background:#fff}.station-marker select,.station-marker input{border:0;height:auto;padding:0;text-align:center;font-size:9px}.marker-actions{display:none}.side-panel{gap:8px}.section{padding:8px}.section h3{font-size:11px}.duty-row,.office-row{grid-template-columns:1fr 120px;gap:5px;padding:4px 0}.duty-row .small-x,.office-row .small-x{display:none}.duty-row select,.duty-row input,.office-row select,.office-row input{border:0;height:auto;padding:0;font-size:9px}.duty-name{font-size:9px}.camp-grid{grid-template-columns:1fr 1fr}.print-only{display:block}
+.skate-head{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#111;color:#fff;padding:12px 14px}.skate-title{font-size:17px;font-weight:900}.skate-sub{font-size:11px;color:#aaa;margin-top:3px}.source-badge{display:inline-block;margin-top:6px;border:1px solid #444;border-radius:999px;padding:4px 8px;font-size:9px;color:#ddd}
+.xbtn{width:34px;height:34px;border:0;border-radius:50%;background:var(--red);color:#fff;font-size:18px;font-weight:900;flex:0 0 auto}
+.skate-meta{display:grid;grid-template-columns:1.2fr .8fr 1fr 1fr auto;gap:9px;padding:11px 13px;background:#f7f7f7;border-bottom:1px solid #ddd;align-items:end}.meta-field label{display:block;font-size:9px;font-weight:900;letter-spacing:1px;color:#777;margin-bottom:4px}.meta-field input{height:38px;width:100%;border:1px solid #ccc;border-radius:8px;padding:0 9px;background:#fff}
+.skate-body{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(340px,.72fr);gap:15px;padding:13px}
+.diagram-panel{border:1px solid #ddd;border-radius:12px;overflow:hidden;background:#fafafa;min-width:0}.diagram-tools{display:flex;gap:7px;padding:8px;background:#eee;border-bottom:1px solid #ddd;flex-wrap:wrap;align-items:center}.diagram-hint{font-size:10px;color:#666;margin-left:auto}
+.diagram-frame{position:relative;min-height:430px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;touch-action:none}.diagram-frame>img{display:block;max-width:100%;max-height:640px;width:100%;height:auto;object-fit:contain}.diagram-placeholder{padding:60px 20px;text-align:center;color:#888}.diagram-placeholder b{display:block;color:#222;font-size:18px;margin-bottom:5px}
+.program-note{position:absolute;right:10px;top:10px;background:#111;color:#fff;border-left:4px solid var(--red);border-radius:8px;padding:6px 8px;font-size:10px;font-weight:900;max-width:240px;z-index:3}
+.station-layer{position:absolute;inset:0;pointer-events:none}.station-marker{position:absolute;transform:translate(-50%,-50%);width:152px;background:rgba(255,255,255,.95);border:2px solid #111;border-radius:9px;padding:6px;box-shadow:0 3px 9px rgba(0,0,0,.17);pointer-events:auto;z-index:2}.station-marker .station-name input{width:100%;border:0;text-align:center;font-weight:900;height:23px;background:transparent;font-size:11px}.station-marker select,.station-marker .custom-wrap input{width:100%;height:28px;border:1px solid #aaa;border-radius:6px;padding:0 5px;font-size:10px;background:#fff}.coach2{margin-top:4px}.marker-actions{display:flex;justify-content:space-between;margin-top:5px;gap:4px}.mini{border:0;border-radius:6px;padding:4px 6px;font-size:9px;font-weight:900}.mini.add{background:#111;color:#fff}.mini.del{background:#eee;color:#a00}.mini.move{background:#eee;color:#111;cursor:move}
+.mobile-stations{display:none}
+.side-panel{display:flex;flex-direction:column;gap:11px;min-width:0}.section{border:1px solid #ddd;border-radius:12px;padding:11px;background:#fff}.section h3{font-size:13px;margin:0 0 8px;display:flex;justify-content:space-between;gap:8px;align-items:center}.section-sub{font-size:10px;color:#777;margin:-3px 0 8px}
+.assign-row{display:grid;grid-template-columns:minmax(120px,1fr) minmax(105px,.72fr) minmax(105px,.72fr) 30px;gap:6px;align-items:center;padding:6px 0;border-bottom:1px solid #eee}.assign-row:last-child{border-bottom:0}.assign-row .label-input{width:100%;height:33px;border:0;font-weight:800;font-size:11px;padding:0 4px;background:#fff}.assign-row select,.assign-row .custom-wrap input{width:100%;height:33px;border:1px solid #bbb;border-radius:7px;padding:0 6px;font-size:10px;background:#fff}.small-x{width:29px;height:29px;border:0;border-radius:50%;background:#eee;color:#a00;font-weight:900}
+.assign-wrap.custom .custom-wrap{display:block}.custom-wrap{display:none;margin-top:4px}
+.section-tools{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.section-tools .btn{padding:7px 9px;font-size:10px;min-height:32px}
+.notes-area{width:100%;min-height:90px;border:1px solid #bbb;border-radius:8px;padding:8px;font-size:11px;resize:vertical}
+.management{border:1px solid #ddd;border-radius:12px;padding:12px;background:#fafafa;margin-top:14px}.management h3{margin:0 0 7px;font-size:14px}.staff-groups{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.staff-group{background:#fff;border:1px solid #ddd;border-radius:10px;padding:9px}.staff-group h4{margin:0 0 7px;font-size:11px}.staff-list{display:flex;flex-wrap:wrap;gap:5px}.staff-chip{background:#fff;border:1px solid #ccc;border-radius:999px;padding:5px 7px;font-size:9px;display:flex;gap:5px;align-items:center}.staff-chip button{border:0;background:none;color:#a00;font-weight:900;padding:0}
+.staff-add{display:grid;grid-template-columns:1fr 170px auto;gap:7px;margin-top:10px}.staff-add input,.staff-add select{height:38px;border:1px solid #bbb;border-radius:8px;padding:0 9px;background:#fff}
+.mobile-sticky{display:none}
+@media(max-width:1199px){
+  .toolbar-grid{grid-template-columns:1fr 1fr 1fr}.skate-body{grid-template-columns:1fr}.side-panel{display:grid;grid-template-columns:1fr 1fr}.diagram-frame{min-height:380px}.staff-groups{grid-template-columns:1fr 1fr}
 }
+@media(max-width:820px){
+  .header{padding:14px 15px;align-items:flex-start}.brand h1{font-size:21px}.brand img{width:48px;height:48px}.main{padding:14px 12px 80px}.toolbar{padding:13px}.toolbar-grid{grid-template-columns:1fr 1fr}.skate-meta{grid-template-columns:1fr 1fr}.side-panel{grid-template-columns:1fr}.diagram-frame{min-height:330px}.diagram-hint{width:100%;margin:0}.staff-groups{grid-template-columns:1fr 1fr}.assign-row{grid-template-columns:minmax(110px,1fr) minmax(100px,.75fr) minmax(100px,.75fr) 30px}
+}
+@media(max-width:600px){
+  .header{flex-direction:column}.header-actions{width:100%;display:grid;grid-template-columns:1fr 1fr}.header-actions .btn{width:100%}.brand h1{white-space:normal;font-size:20px}.brand small{font-size:9px}
+  .toolbar-grid{grid-template-columns:1fr}.skate-meta{grid-template-columns:1fr}.skate-body{padding:8px}.diagram-tools .btn{flex:1 1 44%;font-size:10px;padding:8px}.diagram-frame{min-height:270px}
+  .station-marker{width:38px;height:38px;border-radius:50%;padding:0;display:grid;place-items:center;background:#111;color:#fff;border:3px solid #fff;box-shadow:0 2px 9px rgba(0,0,0,.35)}
+  .station-marker:after{content:attr(data-mobile-label);font-size:12px;font-weight:900}.station-marker>*{display:none!important}.mobile-stations{display:block;border-top:1px solid #ddd;background:#fafafa;padding:9px}.mobile-stations h4{margin:0 0 7px;font-size:11px}.mobile-station-row{display:grid;grid-template-columns:32px 1fr;gap:7px;padding:7px 0;border-bottom:1px solid #ddd}.mobile-station-num{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#111;color:#fff;font-size:11px;font-weight:900}.mobile-station-fields{display:grid;grid-template-columns:1fr 1fr;gap:5px}.mobile-station-fields .station-label{grid-column:1/-1;height:34px;border:1px solid #bbb;border-radius:7px;padding:0 7px;font-weight:800}.mobile-station-fields select,.mobile-station-fields .custom-wrap input{width:100%;height:34px;border:1px solid #bbb;border-radius:7px;padding:0 6px;font-size:11px}
+  .assign-row{grid-template-columns:1fr 1fr}.assign-row .label-input{grid-column:1/-1;border:1px solid #ddd;border-radius:7px;padding:0 7px}.assign-row .small-x{position:absolute;right:14px}.assign-row{position:relative;padding-right:36px}
+  .staff-groups{grid-template-columns:1fr}.staff-add{grid-template-columns:1fr}.mobile-sticky{position:fixed;left:0;right:0;bottom:0;z-index:90;display:grid;grid-template-columns:1fr 1fr;gap:8px;background:#111;padding:8px 10px calc(8px + env(safe-area-inset-bottom));border-top:3px solid var(--red)}.mobile-sticky .btn{width:100%}
+}
+@media print{
+  html,body{background:#fff}.app{max-width:none}.header{padding:10px 14px}.brand img{width:42px;height:42px}.brand h1{font-size:20px}.header-actions,.toolbar,.format-strip,.notice,.diagram-tools,.management,.xbtn,.mini,.small-x,.edit-only,.mobile-sticky,.mobile-stations{display:none!important}
+  .main{padding:8px}.skate{box-shadow:none;border:1px solid #aaa;break-inside:avoid;margin-bottom:10px}.skate-head{padding:8px 10px}.skate-meta{display:none}.skate-body{display:grid;grid-template-columns:1.42fr .58fr;padding:7px;gap:7px}.diagram-frame{min-height:290px}.station-marker{width:126px;padding:4px;background:#fff}.station-marker select,.station-marker input{border:0;height:auto;padding:0;text-align:center;font-size:8px}.marker-actions{display:none}.side-panel{display:flex;gap:6px}.section{padding:7px}.section h3{font-size:10px}.assign-row{grid-template-columns:1fr 95px 95px;gap:4px;padding:3px 0}.assign-row .small-x{display:none}.assign-row select,.assign-row input{border:0;height:auto;padding:0;font-size:8px}.notes-area{border:0;min-height:30px;padding:0}
+}
+.pdf-mode .edit-only,.pdf-mode .toolbar,.pdf-mode .format-strip,.pdf-mode .notice,.pdf-mode .management,.pdf-mode .diagram-tools,.pdf-mode .xbtn,.pdf-mode .mini,.pdf-mode .small-x,.pdf-mode .mobile-sticky,.pdf-mode .mobile-stations{display:none!important}
+.pdf-mode .main{padding:10px}.pdf-mode .skate{box-shadow:none}.pdf-mode .skate-meta{display:none}.pdf-mode .skate-body{grid-template-columns:1.42fr .58fr}.pdf-mode .station-marker{background:#fff}.pdf-mode select,.pdf-mode input,.pdf-mode textarea{border:0!important;background:#fff!important}
 </style>
 </head>
 <body>
-<div class="app">
+<div class="app" id="app">
 <header class="header">
-  <div class="brand"><img src="assets/mch-logo.png" alt="Motor City Hockey"><div><h1>MOTOR CITY HOCKEY</h1><small>STAFF DUTIES BUILDER</small></div></div>
+  <div class="brand"><img src="assets/mch-logo.png" alt="Motor City Hockey"><div><h1>MOTOR CITY HOCKEY</h1><small>STAFF ASSIGNMENT BUILDER</small></div></div>
   <div class="header-actions edit-only">
     <button class="btn dark" id="saveBtn">Save</button>
     <button class="btn dark" id="backupBtn">Backup</button>
@@ -50,221 +74,330 @@ button,input,select,textarea{font:inherit}.app{max-width:1500px;margin:auto;back
     <input id="restoreFile" type="file" accept="application/json" hidden>
   </div>
 </header>
-<nav class="nav edit-only"><a href="index.html">DRILLS</a><a href="index.html?view=videos">VIDEOS</a><a class="active" href="staff-duties.html">STAFF DUTIES</a></nav>
 <main class="main">
 <section class="toolbar edit-only">
   <div class="toolbar-grid">
-    <div class="field"><label>DAY / TEMPLATE</label><select class="control" id="daySelect"></select></div>
+    <div class="field"><label>FORMAT</label><select class="control" id="formatSelect"></select></div>
+    <div class="field"><label>FORMAT NAME</label><input class="control" id="formatName" placeholder="e.g. Monday Training"></div>
     <div class="field"><label>DATE / LABEL</label><input class="control" id="dateLabel" placeholder="e.g. Monday, Oct. 5"></div>
-    <div class="field"><label>PDF TITLE</label><input class="control" id="pdfTitle" value="Motor City Hockey — Staff Duties"></div>
-    <button class="btn light" id="addDayBtn">+ Add Day</button>
-    <button class="btn red" id="addSkateBtn">+ Add Skate</button>
+    <div class="field"><label>NEW FORMAT BASE</label><select class="control" id="presetSelect"><option value="standard">Standard Ice</option><option value="monday">Monday / Multi-Skate</option><option value="youth-camp">Youth Camp</option><option value="checking-camp">Checking Camp</option><option value="off-ice">Off-Ice / Facility</option><option value="blank">Blank Custom</option></select></div>
+    <button class="btn light" id="addFormatBtn">+ Format</button>
+    <button class="btn red" id="addSkateBtn">+ Skate</button>
   </div>
 </section>
-<div class="day-tabs edit-only" id="dayTabs"></div>
-<div class="notice edit-only">Changes save in this browser. Use <b>Backup</b> if you want a copy of your setup. Custom coach names are available anywhere a coach is assigned.</div>
+<div class="format-strip edit-only" id="formatTabs"></div>
+<div class="notice edit-only">Everything is editable. Add formats, skates, stations, duties, custom assignment sections, coaches, diagrams, or notes. Your saved setup stays in this browser and can be backed up as a JSON file.</div>
 <div id="content"></div>
+
 <section class="management edit-only">
   <h3>Staff List</h3>
-  <div class="section-sub">Managers, active adult lead coaches, and student coaches only. Names are shown alphabetically by last name.</div>
-  <div class="staff-list" id="staffList"></div>
-  <div class="staff-add"><input id="newStaff" placeholder="Add staff name"><button class="btn dark" id="addStaffBtn">Add Staff</button></div>
+  <div class="section-sub">Loaded from your Staff Master Contact list. Remove or add names here; all coach dropdowns update automatically.</div>
+  <div class="staff-groups" id="staffGroups"></div>
+  <div class="staff-add"><input id="newStaff" placeholder="Add coach / staff name"><select id="newStaffGroup"><option>Managers</option><option>Adult Lead Coaches</option><option>Student Coaches</option><option>Fill-In / Last Resort</option><option>Summer Only</option><option>Added Staff</option></select><button class="btn dark" id="addStaffBtn">Add Staff</button></div>
 </section>
 </main>
 </div>
+<div class="mobile-sticky edit-only"><button class="btn dark" id="mobileSave">Save</button><button class="btn red" id="mobilePdf">Export PDF</button></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
 (()=>{
-const STORAGE='mch-staff-duties-v1';
-const staffDefault=[
-  'Ary Batra','Austin Combs','Anthony Delpup','Chase Dewey','Luke Forrest','Jack Gentz','Mitch Hall','Patrick Macks','Reid Marshall','Rich Mihelic','Max Neill','Luke Peck','Mikayla Ratliff','Nick Spinale'
-];
-const defaultDuties=['Puck Lap Post Skate','Equipment Bin To Rink Location','Equipment Bin Back to location','Puck Bag'];
-const defaultOffIce=['Soccer','Football','Agility Ladder','Agility / Sprints with Cones'];
+const STORAGE='mch-staff-duties-v2';
+const OLD_STORAGE='mch-staff-duties-v1';
+const DEFAULT_GROUPS={
+  'Managers':['Rich Mihelic','Nick Spinale'],
+  'Adult Lead Coaches':['Mitch Hall','Reid Marshall','Luke Peck','Ary Batra'],
+  'Student Coaches':['Anthony Delpup','Austin Combs','Mikayla Ratliff','Max Neill','Chase Dewey','Luke Forrest','Jack Gentz','Patrick Macks'],
+  'Fill-In / Last Resort':['Alex Kosaian','Connor Inger','Joe Patterson','Jake Pobur','Vinny Recchia','Joe Aiello','Zeke Landis','Evan Komarowski','Liam Neill'],
+  'Summer Only':['Mitch Lewandowski','Corey Schultheis','Blake Tosto'],
+  'Added Staff':[]
+};
+const staffDefault=[...new Set(Object.values(DEFAULT_GROUPS).flat())];
 
-const mkStations=(n=6)=>Array.from({length:n},(_,i)=>({
-  id:'s'+Date.now()+'-'+i+'-'+Math.random().toString(36).slice(2),
-  name:'Station '+(i+1),coach1:'',coach1Custom:'',
-  x:[17,50,83,17,50,83][i]||50,y:[27,27,27,70,70,70][i]||50
-}));
-const mkDuties=()=>defaultDuties.map((name,i)=>({id:'d'+Date.now()+i+Math.random(),name,coach:'',custom:''}));
-const mkSkate=(title,time,location,extra={})=>({
-  id:'k'+Date.now()+Math.random().toString(36).slice(2),title,time,location,
-  programNote:extra.programNote||'',image:extra.image||'',stations:mkStations(extra.stationCount||6),
-  duties:mkDuties(),deleted:false,linkFrom:null
+const cleanRinkSvg=()=> 'data:image/svg+xml;charset=UTF-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520"><rect width="1000" height="520" fill="white"/><rect x="35" y="35" width="930" height="450" rx="80" fill="white" stroke="#111" stroke-width="7"/><line x1="300" y1="38" x2="300" y2="482" stroke="#2b67a0" stroke-width="7"/><line x1="700" y1="38" x2="700" y2="482" stroke="#2b67a0" stroke-width="7"/><line x1="500" y1="38" x2="500" y2="482" stroke="#d3212c" stroke-width="6"/><circle cx="500" cy="260" r="78" fill="none" stroke="#d3212c" stroke-width="4"/><circle cx="180" cy="160" r="61" fill="none" stroke="#d3212c" stroke-width="4"/><circle cx="180" cy="360" r="61" fill="none" stroke="#d3212c" stroke-width="4"/><circle cx="820" cy="160" r="61" fill="none" stroke="#d3212c" stroke-width="4"/><circle cx="820" cy="360" r="61" fill="none" stroke="#d3212c" stroke-width="4"/><line x1="70" y1="210" x2="70" y2="310" stroke="#d3212c" stroke-width="4"/><line x1="930" y1="210" x2="930" y2="310" stroke="#d3212c" stroke-width="4"/><circle cx="500" cy="260" r="8" fill="#2b67a0"/><circle cx="390" cy="180" r="7" fill="#d3212c"/><circle cx="610" cy="180" r="7" fill="#d3212c"/><circle cx="390" cy="340" r="7" fill="#d3212c"/><circle cx="610" cy="340" r="7" fill="#d3212c"/></svg>');
+
+const uid=(p='x')=>p+Date.now().toString(36)+Math.random().toString(36).slice(2,8);
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const stationPositions=[[16,25],[16,74],[50,28],[50,72],[84,25],[84,74],[50,50],[30,50],[70,50]];
+const mkStation=(name,i,coach1='',coach2='',custom1='',custom2='')=>({id:uid('s'),name,coach1,coach2,custom1,custom2,x:(stationPositions[i]||[50,50])[0],y:(stationPositions[i]||[50,50])[1]});
+const mkStations=(n=6)=>Array.from({length:n},(_,i)=>mkStation('Station '+(i+1),i));
+const mkAssign=(label,coach1='',coach2='',custom1='',custom2='')=>({id:uid('a'),label,coach1,coach2,custom1,custom2});
+const defaultDuties=()=>[
+  mkAssign('Puck Lap Post Skate'),
+  mkAssign('Equipment Bin To Rink Location'),
+  mkAssign('Equipment Bin Back to Location'),
+  mkAssign('Puck Bag')
+];
+const mkSection=(title,rows=[])=>({id:uid('sec'),title,rows});
+const mkSkate=(title='New Skate',time='',location='',extra={})=>({
+  id:uid('k'),title,time,location,programNote:extra.programNote||'',sourceLabel:extra.sourceLabel||'',
+  image:extra.image===undefined?cleanRinkSvg():extra.image,
+  stations:extra.stations||mkStations(extra.stationCount||6),
+  duties:extra.duties||defaultDuties(),
+  sections:extra.sections||[],
+  notes:extra.notes||''
 });
-const mkCampExtras=()=>({
-  lockerRooms:Array.from({length:6},(_,i)=>({id:'lr'+Date.now()+i+Math.random(),name:'Locker Room '+(i+1),coach:'',custom:''})),
-  offIce:defaultOffIce.map((name,i)=>({id:'o'+Date.now()+i+Math.random(),name,coach:'',custom:''}))
-});
-const baseState=()=>({
-  staff:[...staffDefault],
-  activeDay:'monday',
-  dateLabel:'',
-  pdfTitle:'Motor City Hockey — Staff Duties',
-  days:{
-    monday:{id:'monday',name:'Monday',type:'standard',skates:[
-      mkSkate('6:10 PM — Advanced Training','6:10 PM','Detroit Skating Club — Rink C',{programNote:'Advanced Training — Right Side'}),
-      mkSkate('7:05 PM — Advanced Training','7:05 PM','Detroit Skating Club — Rink C'),
-      mkSkate('7:00 PM Skate','7:00 PM','Rink B')
-    ]},
-    camps:{id:'camps',name:'Camps',type:'camp',skates:[
-      Object.assign(mkSkate('Camp — Morning Skate','Morning',''),mkCampExtras(),{syncPartner:'camp-pm'}),
-      Object.assign(mkSkate('Camp — Afternoon Skate','Afternoon',''),mkCampExtras(),{id:'camp-pm',linkedToMorning:true})
-    ]}
+
+function mondayFormat(id=uid('fmt'),name='Monday Training'){
+  const h1=[
+    mkStation('Zone 1',0,'Mikayla Ratliff'),
+    mkStation('Zone 2',1,'Luke Peck'),
+    mkStation('Center',6,'Luke Peck','Rich Mihelic'),
+    mkStation('ADV',4,'Ary Batra'),
+    mkStation('Zone 5',5,'Mitch Hall')
+  ];
+  const h2=[
+    mkStation('Zone 1',0,'Mikayla Ratliff'),
+    mkStation('Zone 2',1,'Zeke Landis'),
+    mkStation('Center',6,'Luke Peck','Ary Batra'),
+    mkStation('ADV',4,'Rich Mihelic'),
+    mkStation('Zone 5',5,'Mitch Hall')
+  ];
+  return {id,name,type:'monday',dateLabel:'',skates:[
+    mkSkate('Hour 1 - 6:00-7:05','6:00-7:05','Rink C',{sourceLabel:'Coach Ice Plan attachment - Hour 1',stations:h1,duties:[
+      mkAssign('Bring equipment chest to Rink C','Rich Mihelic'),
+      mkAssign('Bring pucks to Rink C','Ary Batra'),
+      mkAssign('Zone changes','Rich Mihelic')
+    ],sections:[mkSection('ADV + Net Setup',[mkAssign('ADV goalie','Nick Spinale'),mkAssign('Little nets','Luke Peck','Rich Mihelic')])]}),
+    mkSkate('Hour 2 - 7:05-7:57','7:05-7:57','Rink C',{sourceLabel:'Coach Ice Plan attachment - Hour 2',stations:h2,duties:[
+      mkAssign('Return equipment to coaches room','Luke Peck'),
+      mkAssign('Return pucks to coaches room','Rich Mihelic'),
+      mkAssign('Zone changes','Luke Peck')
+    ],sections:[mkSection('ADV + Net Setup',[mkAssign('ADV goalie','Nick Spinale'),mkAssign('Little nets','Luke Peck','Rich Mihelic')])]}),
+    mkSkate('Additional Rink / Skate','7:00 PM','Rink B',{stationCount:6,sourceLabel:'Flexible additional skate'})
+  ]};
+}
+function youthCampFormat(id=uid('fmt'),name='Youth Camp'){
+  const zones=()=>[
+    mkStation('Z1',0,'Liam Neill','Max Neill'),
+    mkStation('Z5',1,'Blake Tosto'),
+    mkStation('Z2',6,'Nick Spinale'),
+    mkStation('Z3',4,'Jack Gentz','Luke Forrest'),
+    mkStation('Z4',5,'Luke Peck')
+  ];
+  const rooms=mkSection('Locker Rooms',[
+    mkAssign('Rink B - Locker Room 1','Nick Spinale'),
+    mkAssign('Rink A - Locker Room 1','Luke Peck','Chase Dewey'),
+    mkAssign('Rink A - Locker Room 2','Luke Forrest','Jack Gentz'),
+    mkAssign('Rink B - Locker Room 3','Max Neill','Liam Neill'),
+    mkAssign('Rink A - Locker Room 4','Blake Tosto')
+  ]);
+  const schedule=mkSection('Camp Timing',[
+    mkAssign('Arrival & Welcoming - 8:30 AM'),
+    mkAssign('Off-Ice - 10:45-11:20 AM'),
+    mkAssign('Lunch - 11:20 AM-12:00 PM'),
+    mkAssign('Pickup - 2:00 PM')
+  ]);
+  return {id,name,type:'youth-camp',dateLabel:'',skates:[
+    mkSkate('On-Ice #1','9:00-10:30 AM','',{sourceLabel:'Youth Camp employee guide',stations:zones(),duties:[],sections:[JSON.parse(JSON.stringify(rooms)),JSON.parse(JSON.stringify(schedule))]}),
+    mkSkate('On-Ice #2','12:30-2:00 PM','',{sourceLabel:'Youth Camp employee guide',stations:zones(),duties:[],sections:[JSON.parse(JSON.stringify(rooms)),JSON.parse(JSON.stringify(schedule))]})
+  ]};
+}
+function checkingCampFormat(id=uid('fmt'),name='Checking Camp'){
+  const customNoah='Noah';
+  const zones=()=>[
+    mkStation('15-17 Camp',0,'Anthony Delpup'),
+    mkStation('15-17 Camp',1,'Mitch Lewandowski'),
+    mkStation('Checking Camp',4,'Corey Schultheis'),
+    mkStation('Checking Camp',5,'__custom__','',customNoah,'')
+  ];
+  const off=mkSection('Off-Ice / Camp Duties',[mkAssign('Group Stretching + 1 Leg Agility'),mkAssign('Agility Ladders'),mkAssign('Tire Passing / Wall Sits'),mkAssign('Dynamic Agility Lines')]);
+  return {id,name,type:'checking-camp',dateLabel:'',skates:[
+    mkSkate('Morning Skate','10:30 AM-12:00 PM','',{sourceLabel:'Camp Employee Guide attachment',stations:zones(),sections:[JSON.parse(JSON.stringify(off))]}),
+    mkSkate('Afternoon Skate','2:00-3:30 PM','',{sourceLabel:'Camp Employee Guide attachment',stations:zones(),sections:[JSON.parse(JSON.stringify(off))]})
+  ]};
+}
+function standardFormat(id=uid('fmt'),name='Standard Ice'){return {id,name,type:'standard',dateLabel:'',skates:[mkSkate('Training Skate','','')]};}
+function offIceFormat(id=uid('fmt'),name='Off-Ice / Facility'){return {id,name,type:'off-ice',dateLabel:'',skates:[mkSkate('Off-Ice Session','','Motor City Strength',{image:'',stationCount:0,duties:[],sections:[mkSection('Stations',[mkAssign('Station 1'),mkAssign('Station 2'),mkAssign('Station 3'),mkAssign('Station 4')])]})]};}
+function blankFormat(id=uid('fmt'),name='Custom Format'){return {id,name,type:'blank',dateLabel:'',skates:[mkSkate('New Assignment Block','','',{image:'',stationCount:0,duties:[],sections:[]})]};}
+function createFromPreset(preset,name){
+  if(preset==='monday')return mondayFormat(uid('fmt'),name||'Monday Training');
+  if(preset==='youth-camp')return youthCampFormat(uid('fmt'),name||'Youth Camp');
+  if(preset==='checking-camp')return checkingCampFormat(uid('fmt'),name||'Checking Camp');
+  if(preset==='off-ice')return offIceFormat(uid('fmt'),name||'Off-Ice / Facility');
+  if(preset==='blank')return blankFormat(uid('fmt'),name||'Custom Format');
+  return standardFormat(uid('fmt'),name||'Standard Ice');
+}
+function baseState(){
+  const monday=mondayFormat('monday','Monday Training'),youth=youthCampFormat('youth-camp','Youth Camp'),checking=checkingCampFormat('checking-camp','Checking Camp');
+  return {staff:[...staffDefault],staffGroups:JSON.parse(JSON.stringify(DEFAULT_GROUPS)),activeFormat:'monday',pdfTitle:'Motor City Hockey - Staff Assignments',formats:{monday,youthcamp:youth,checkingcamp:checking}};
+}
+function normalizeAssign(r){
+  if(r.coach!==undefined&&!r.coach1){r.coach1=r.coach;r.custom1=r.custom||'';}
+  if(r.name!==undefined&&!r.label)r.label=r.name;
+  r.coach1=r.coach1||'';r.coach2=r.coach2||'';r.custom1=r.custom1||'';r.custom2=r.custom2||'';
+  return r;
+}
+function migrate(old){
+  if(!old)return null;
+  if(old.formats&&old.staff)return old;
+  if(old.days&&old.staff){
+    const formats={};
+    Object.entries(old.days).forEach(([key,d])=>{
+      const skates=(d.skates||[]).map(k=>({
+        ...k,id:k.id||uid('k'),sourceLabel:k.sourceLabel||'',image:k.image||cleanRinkSvg(),notes:k.notes||'',
+        stations:(k.stations||[]).map((st,i)=>({...st,id:st.id||uid('s'),coach1:st.coach1||'',coach2:st.coach2||'',custom1:st.coach1Custom||st.custom1||'',custom2:st.coach2Custom||st.custom2||'',x:st.x??(stationPositions[i]||[50,50])[0],y:st.y??(stationPositions[i]||[50,50])[1]})),
+        duties:(k.duties||[]).map(x=>normalizeAssign({...x,id:x.id||uid('a')})),
+        sections:[...(k.sections||[])]
+      }));
+      if(k=>false){}
+      if(d.type==='camp'){
+        skates.forEach((k,idx)=>{
+          const rows=[];
+          (d.skates[idx]?.lockerRooms||[]).forEach(x=>rows.push(normalizeAssign({...x,label:x.name||'Locker Room',id:x.id||uid('a')})));
+          if(rows.length)k.sections.push(mkSection('Locker Rooms',rows));
+          const off=[];
+          (d.skates[idx]?.offIce||[]).forEach(x=>off.push(normalizeAssign({...x,label:x.name||'Off-Ice',id:x.id||uid('a')})));
+          if(off.length)k.sections.push(mkSection('Off-Ice Stations',off));
+        });
+      }
+      formats[key]={id:key,name:d.name||key,type:d.type||'standard',dateLabel:old.dateLabel||'',skates};
+    });
+    return {staff:old.staff,staffGroups:JSON.parse(JSON.stringify(DEFAULT_GROUPS)),activeFormat:old.activeDay||Object.keys(formats)[0],pdfTitle:old.pdfTitle||'Motor City Hockey - Staff Assignments',formats};
   }
-});
+  return null;
+}
+function load(){
+  try{const n=JSON.parse(localStorage.getItem(STORAGE)||'null');if(n&&n.formats&&n.staff)return n;}catch(e){}
+  try{const o=JSON.parse(localStorage.getItem(OLD_STORAGE)||'null'),m=migrate(o);if(m)return m;}catch(e){}
+  return baseState();
+}
 let state=load();
 
-function load(){try{const s=JSON.parse(localStorage.getItem(STORAGE)||'null');if(s&&s.days&&s.staff){Object.values(s.days).forEach(d=>(d.skates||[]).forEach(k=>(k.stations||[]).forEach(st=>{if(st.coach2===''&&!st.coach2Custom){delete st.coach2;delete st.coach2Custom;}})));return s;}}catch(e){}return baseState();}
 function persist(msg=true){localStorage.setItem(STORAGE,JSON.stringify(state));if(msg)flash('Saved.');}
-function flash(t){const n=document.querySelector('.notice');if(!n)return;const old=n.innerHTML;n.innerHTML='<b>'+t+'</b>';setTimeout(()=>n.innerHTML=old,1400);}
-function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
-function uid(p='x'){return p+Date.now()+Math.random().toString(36).slice(2);}
-function staffSorted(){return [...state.staff].sort((a,b)=>{const al=a.trim().split(/\s+/).slice(-1)[0],bl=b.trim().split(/\s+/).slice(-1)[0];return al.localeCompare(bl)||a.localeCompare(b);});}
-function coachOptions(val){return '<option value="">—</option>'+staffSorted().map(n=>'<option '+(n===val?'selected':'')+'>'+esc(n)+'</option>').join('')+'<option value="__custom__" '+(val==='__custom__'?'selected':'')+'>Custom Name…</option>';}
-function assignmentSelect(value,custom,attrs=''){
-  const customMode=value==='__custom__';
-  return '<div class="assign-wrap '+(customMode?'custom':'')+'"><select '+attrs+'>'+coachOptions(value)+'</select><div class="custom-wrap"><input '+attrs.replace(/data-field="[^"]+"/,'data-field="custom"')+' value="'+esc(custom||'')+'" placeholder="Type name"></div></div>';
+function flash(t){const n=document.querySelector('.notice');if(!n)return;const old=n.innerHTML;n.innerHTML='<b>'+esc(t)+'</b>';setTimeout(()=>n.innerHTML=old,1500);}
+function active(){return state.formats[state.activeFormat];}
+function allSkates(){return Object.values(state.formats).flatMap(f=>f.skates||[]);}
+function getSkate(id){return allSkates().find(s=>s.id===id);}
+function staffGroupFor(name){
+  for(const [g,names] of Object.entries(state.staffGroups||DEFAULT_GROUPS))if((names||[]).includes(name))return g;
+  return 'Added Staff';
 }
-function cleanForPrint(){
-  document.querySelectorAll('.assign-wrap').forEach(w=>{
-    const sel=w.querySelector('select'),inp=w.querySelector('.custom-wrap input');
-    if(sel&&sel.value==='__custom__'&&inp) sel.dataset.printText=inp.value;
-  });
+function staffSorted(group=null){
+  let a=[...new Set(state.staff||[])];if(group)a=a.filter(n=>staffGroupFor(n)===group);
+  return a.sort((x,y)=>{const xl=x.trim().split(/\s+/).slice(-1)[0],yl=y.trim().split(/\s+/).slice(-1)[0];return xl.localeCompare(yl)||x.localeCompare(y);});
 }
-function renderDays(){
-  const ids=Object.keys(state.days);
-  daySelect.innerHTML=ids.map(id=>'<option value="'+esc(id)+'" '+(id===state.activeDay?'selected':'')+'>'+esc(state.days[id].name)+'</option>').join('');
-  dayTabs.innerHTML=ids.map(id=>'<button class="day-tab '+(id===state.activeDay?'active':'')+'" data-day="'+esc(id)+'">'+esc(state.days[id].name)+'</button>').join('');
-  dayTabs.querySelectorAll('[data-day]').forEach(b=>b.onclick=()=>{state.activeDay=b.dataset.day;persist(false);render();});
+function coachOptions(val){
+  let out='<option value="">-</option>';
+  const groups=['Managers','Adult Lead Coaches','Student Coaches','Summer Only','Fill-In / Last Resort','Added Staff'];
+  groups.forEach(g=>{const names=staffSorted(g);if(!names.length)return;out+='<optgroup label="'+esc(g)+'">'+names.map(n=>'<option value="'+esc(n)+'" '+(n===val?'selected':'')+'>'+esc(n)+'</option>').join('')+'</optgroup>';});
+  return out+'<option value="__custom__" '+(val==='__custom__'?'selected':'')+'>Custom Name...</option>';
+}
+function assignmentSelect(value,custom,attrs='',slot='1'){
+  const cm=value==='__custom__';
+  return '<div class="assign-wrap '+(cm?'custom':'')+'"><select '+attrs+' data-slot="'+slot+'">'+coachOptions(value)+'</select><div class="custom-wrap"><input '+attrs+' data-custom-slot="'+slot+'" value="'+esc(custom||'')+'" placeholder="Type name"></div></div>';
+}
+function renderFormats(){
+  const ids=Object.keys(state.formats);
+  formatSelect.innerHTML=ids.map(id=>'<option value="'+esc(id)+'" '+(id===state.activeFormat?'selected':'')+'>'+esc(state.formats[id].name)+'</option>').join('');
+  formatTabs.innerHTML=ids.map(id=>'<button class="format-tab '+(id===state.activeFormat?'active':'')+'" data-format="'+esc(id)+'">'+esc(state.formats[id].name)+'</button>').join('');
+  formatTabs.querySelectorAll('[data-format]').forEach(b=>b.onclick=()=>{state.activeFormat=b.dataset.format;persist(false);render();});
 }
 function renderStaff(){
-  staffList.innerHTML=staffSorted().map(n=>'<span class="staff-chip">'+esc(n)+'<button data-del-staff="'+esc(n)+'">×</button></span>').join('');
-  staffList.querySelectorAll('[data-del-staff]').forEach(b=>b.onclick=()=>{if(confirm('Remove '+b.dataset.delStaff+' from the staff list?')){state.staff=state.staff.filter(x=>x!==b.dataset.delStaff);persist(false);render();}});
+  const groups=['Managers','Adult Lead Coaches','Student Coaches','Summer Only','Fill-In / Last Resort','Added Staff'];
+  staffGroups.innerHTML=groups.map(g=>'<div class="staff-group"><h4>'+esc(g)+'</h4><div class="staff-list">'+staffSorted(g).map(n=>'<span class="staff-chip">'+esc(n)+'<button data-del-staff="'+esc(n)+'" title="Remove">x</button></span>').join('')+'</div></div>').join('');
+  staffGroups.querySelectorAll('[data-del-staff]').forEach(b=>b.onclick=()=>{const n=b.dataset.delStaff;if(confirm('Remove '+n+' from the staff list?')){state.staff=state.staff.filter(x=>x!==n);Object.values(state.staffGroups||{}).forEach(a=>{const i=a.indexOf(n);if(i>=0)a.splice(i,1);});persist(false);render();}});
 }
-function skateHtml(day,skate,index){
-  if(skate.deleted)return '';
-  const img=skate.image?'<img src="'+skate.image+'" alt="'+esc(skate.title)+' diagram">':'<div class="diagram-placeholder"><b>No diagram loaded</b>Upload or replace this diagram once and it will stay saved in this browser.</div>';
-  return '<article class="skate" data-skate="'+esc(skate.id)+'">'+
-    '<div class="skate-head"><div><div class="skate-title">'+esc(skate.title)+'</div><div class="skate-sub">'+esc([skate.time,skate.location,skate.programNote].filter(Boolean).join(' • '))+'</div></div><button class="xbtn edit-only" data-remove-skate="'+esc(skate.id)+'" title="Remove this skate from export">×</button></div>'+
-    '<div class="skate-meta edit-only">'+
-      metaInput('Title',skate.title,'title',skate.id)+metaInput('Time',skate.time,'time',skate.id)+metaInput('Location',skate.location,'location',skate.id)+
-      '<div><button class="btn light" data-add-station="'+esc(skate.id)+'">+ Station</button></div>'+
-      metaInput('Program Note',skate.programNote||'','programNote',skate.id)+
-      (day.type==='camp'&&index===1?'<div class="meta-field"><label>MORNING SYNC</label><button class="btn '+(skate.linkedToMorning?'dark':'light')+'" data-toggle-sync="'+esc(skate.id)+'">'+(skate.linkedToMorning?'Synced to Morning':'Independent')+'</button></div>':'')+
-    '</div>'+
-    '<div class="skate-body"><div class="diagram-panel"><div class="diagram-tools edit-only"><label class="btn dark">Upload / Replace Diagram<input type="file" accept="image/*" data-upload="'+esc(skate.id)+'" hidden></label><button class="btn light" data-clear-image="'+esc(skate.id)+'">Clear Diagram</button><span style="font-size:10px;color:#666;align-self:center">Drag station cards to position them on the diagram.</span></div>'+
-      '<div class="diagram-frame" data-frame="'+esc(skate.id)+'">'+img+(skate.programNote?'<div class="program-note">'+esc(skate.programNote)+'</div>':'')+'<div class="station-layer">'+skate.stations.map(st=>stationHtml(skate,st)).join('')+'</div></div></div>'+
-      '<aside class="side-panel">'+dutiesHtml(skate)+(day.type==='camp'?campExtrasHtml(skate):'')+'</aside></div></article>';
+function stationHtml(skate,st,index){
+  return '<div class="station-marker" data-marker="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'" data-mobile-label="'+(index+1)+'" style="left:'+Number(st.x||50)+'%;top:'+Number(st.y||50)+'%">'+
+    '<div class="station-name"><input data-station-field="name" data-station-id="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'" value="'+esc(st.name)+'"></div>'+
+    assignmentSelect(st.coach1,st.custom1,'data-station-field="coach" data-station-id="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'"','1')+
+    '<div class="coach2">'+assignmentSelect(st.coach2,st.custom2,'data-station-field="coach" data-station-id="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'"','2')+'</div>'+
+    '<div class="marker-actions edit-only"><button class="mini move" type="button">Move</button><button class="mini del" type="button" data-del-station="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'">x</button></div></div>';
+}
+function mobileStationsHtml(skate){
+  if(!skate.stations.length)return '';
+  return '<div class="mobile-stations"><h4>Station Assignments</h4>'+skate.stations.map((st,i)=>'<div class="mobile-station-row"><div class="mobile-station-num">'+(i+1)+'</div><div class="mobile-station-fields"><input class="station-label" data-station-field="name" data-station-id="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'" value="'+esc(st.name)+'">'+assignmentSelect(st.coach1,st.custom1,'data-station-field="coach" data-station-id="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'"','1')+assignmentSelect(st.coach2,st.custom2,'data-station-field="coach" data-station-id="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'"','2')+'</div></div>').join('')+'</div>';
+}
+function assignmentRow(row,kind,skateId,sectionId=''){
+  const common='data-row-kind="'+kind+'" data-row-id="'+esc(row.id)+'" data-skate-id="'+esc(skateId)+'" '+(sectionId?'data-section-id="'+esc(sectionId)+'"':'');
+  return '<div class="assign-row"><input class="label-input" '+common+' data-row-field="label" value="'+esc(row.label||'')+'">'+assignmentSelect(row.coach1,row.custom1,common+' data-row-field="coach"','1')+assignmentSelect(row.coach2,row.custom2,common+' data-row-field="coach"','2')+'<button class="small-x edit-only" '+common+' data-del-row="1">x</button></div>';
+}
+function sectionHtml(skate,section){
+  return '<section class="section" data-section="'+esc(section.id)+'"><h3><input data-section-title="'+esc(section.id)+'" data-skate-id="'+esc(skate.id)+'" value="'+esc(section.title)+'" style="border:0;font-weight:900;width:100%;background:transparent"><button class="small-x edit-only" data-del-section="'+esc(section.id)+'" data-skate-id="'+esc(skate.id)+'">x</button></h3>'+section.rows.map(r=>assignmentRow(r,'section',skate.id,section.id)).join('')+'<div class="section-tools edit-only"><button class="btn light" data-add-row="'+esc(section.id)+'" data-skate-id="'+esc(skate.id)+'">+ Row</button></div></section>';
+}
+function skateHtml(skate){
+  const image=skate.image?'<img src="'+esc(skate.image)+'" alt="'+esc(skate.title)+' diagram">':'<div class="diagram-placeholder"><b>No diagram</b>Use Clean Rink or upload any rink / room / facility image.</div>';
+  return '<article class="skate" data-skate="'+esc(skate.id)+'"><div class="skate-head"><div><div class="skate-title">'+esc(skate.title)+'</div><div class="skate-sub">'+esc([skate.time,skate.location,skate.programNote].filter(Boolean).join(' - '))+'</div>'+(skate.sourceLabel?'<span class="source-badge">'+esc(skate.sourceLabel)+'</span>':'')+'</div><button class="xbtn edit-only" data-remove-skate="'+esc(skate.id)+'">x</button></div>'+
+  '<div class="skate-meta edit-only">'+metaInput('Title',skate.title,'title',skate.id)+metaInput('Time',skate.time,'time',skate.id)+metaInput('Location',skate.location,'location',skate.id)+metaInput('Program Note',skate.programNote,'programNote',skate.id)+'<div><button class="btn light" data-add-station="'+esc(skate.id)+'">+ Station</button></div></div>'+
+  '<div class="skate-body"><div class="diagram-panel"><div class="diagram-tools edit-only"><button class="btn dark" data-clean-rink="'+esc(skate.id)+'">Clean Rink</button><label class="btn dark">Upload Diagram<input type="file" accept="image/*" data-upload="'+esc(skate.id)+'" hidden></label><button class="btn light" data-clear-image="'+esc(skate.id)+'">No Diagram</button><span class="diagram-hint">Desktop/tablet: drag station cards. Mobile: drag numbered dots and edit below.</span></div><div class="diagram-frame" data-frame="'+esc(skate.id)+'">'+image+(skate.programNote?'<div class="program-note">'+esc(skate.programNote)+'</div>':'')+'<div class="station-layer">'+skate.stations.map((st,i)=>stationHtml(skate,st,i)).join('')+'</div></div>'+mobileStationsHtml(skate)+'</div>'+
+  '<aside class="side-panel"><section class="section"><h3>Skate Duties</h3><div class="section-sub">Lead coach + optional second coach.</div>'+skate.duties.map(r=>assignmentRow(r,'duty',skate.id)).join('')+'<div class="section-tools edit-only"><button class="btn light" data-add-duty="'+esc(skate.id)+'">+ Duty</button></div></section>'+skate.sections.map(sec=>sectionHtml(skate,sec)).join('')+'<section class="section"><h3>Notes</h3><textarea class="notes-area" data-notes="'+esc(skate.id)+'" placeholder="Anything coaches need to know...">'+esc(skate.notes||'')+'</textarea><div class="section-tools edit-only"><button class="btn light" data-add-section="'+esc(skate.id)+'">+ Assignment Section</button></div></section></aside></div></article>';
 }
 function metaInput(label,value,field,id){return '<div class="meta-field"><label>'+esc(label)+'</label><input data-skate-field="'+esc(field)+'" data-skate-id="'+esc(id)+'" value="'+esc(value||'')+'"></div>';}
-function stationHtml(skate,st){
-  return '<div class="station-marker" data-marker="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'" style="left:'+Number(st.x||50)+'%;top:'+Number(st.y||50)+'%">'+
-    '<div class="station-name"><input data-station-field="name" value="'+esc(st.name)+'" style="border:0;text-align:center;font-weight:900;height:24px"></div>'+
-    assignmentSelect(st.coach1,st.coach1Custom,'data-station-field="coach1" data-station-id="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'"')+
-    (st.coach2!==undefined?'<div class="coach2">'+assignmentSelect(st.coach2,st.coach2Custom,'data-station-field="coach2" data-station-id="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'"')+'</div>':'')+
-    '<div class="marker-actions edit-only"><button class="mini move">Move</button><button class="mini add" data-second-coach="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'">'+(st.coach2!==undefined?'2nd Coach':'Add 2nd')+'</button><button class="mini del" data-del-station="'+esc(st.id)+'" data-skate-id="'+esc(skate.id)+'">×</button></div></div>';
-}
-function dutiesHtml(skate){
-  return '<section class="section"><h3>Skate Duties</h3><div class="section-sub">Delete anything you do not need for this skate.</div>'+
-    '<div>'+skate.duties.map(d=>'<div class="duty-row"><div class="duty-name"><input data-duty-field="name" data-duty-id="'+esc(d.id)+'" data-skate-id="'+esc(skate.id)+'" value="'+esc(d.name)+'" style="border:0;width:100%;font-weight:800"></div><div>'+assignmentSelect(d.coach,d.custom,'data-duty-field="coach" data-duty-id="'+esc(d.id)+'" data-skate-id="'+esc(skate.id)+'"')+'</div><button class="small-x edit-only" data-del-duty="'+esc(d.id)+'" data-skate-id="'+esc(skate.id)+'">×</button></div>').join('')+'</div>'+
-    '<button class="btn light edit-only" data-add-duty="'+esc(skate.id)+'" style="margin-top:8px">+ Add Duty</button></section>';
-}
-function campExtrasHtml(skate){
-  skate.lockerRooms=skate.lockerRooms||[];
-  skate.offIce=skate.offIce||[];
-  return '<div class="camp-grid">'+
-    '<section class="section"><h3>Locker Rooms</h3>'+skate.lockerRooms.map(r=>officeRow(skate,r,'lockerRooms')).join('')+'<button class="btn light edit-only" data-add-extra="lockerRooms" data-skate-id="'+esc(skate.id)+'" style="margin-top:8px">+ Locker Room</button></section>'+
-    '<section class="section"><h3>Off-Ice Stations</h3>'+skate.offIce.map(r=>officeRow(skate,r,'offIce')).join('')+'<button class="btn light edit-only" data-add-extra="offIce" data-skate-id="'+esc(skate.id)+'" style="margin-top:8px">+ Off-Ice Station</button></section>'+
-  '</div>';
-}
-function officeRow(skate,row,group){
-  return '<div class="office-row"><input data-extra-field="name" data-extra-group="'+group+'" data-extra-id="'+esc(row.id)+'" data-skate-id="'+esc(skate.id)+'" value="'+esc(row.name)+'" style="border:0;font-weight:800"><div>'+assignmentSelect(row.coach,row.custom,'data-extra-field="coach" data-extra-group="'+group+'" data-extra-id="'+esc(row.id)+'" data-skate-id="'+esc(skate.id)+'"')+'</div><button class="small-x edit-only" data-del-extra="'+esc(row.id)+'" data-extra-group="'+group+'" data-skate-id="'+esc(skate.id)+'">×</button></div>';
-}
-function getDay(){return state.days[state.activeDay];}
-function getSkate(id){return Object.values(state.days).flatMap(d=>d.skates).find(s=>s.id===id);}
-function maybeSyncCamp(sourceSkate){
-  const day=getDay(); if(day.type!=='camp')return;
-  const morning=day.skates[0],afternoon=day.skates[1];
-  if(sourceSkate.id===morning.id&&afternoon&&afternoon.linkedToMorning){
-    const preserve={id:afternoon.id,title:afternoon.title,time:afternoon.time,location:afternoon.location,programNote:afternoon.programNote,linkedToMorning:true};
-    const clone=JSON.parse(JSON.stringify(morning));
-    Object.assign(afternoon,clone,preserve);
-    afternoon.stations=(morning.stations||[]).map(x=>({...JSON.parse(JSON.stringify(x)),id:uid('s')}));
-    afternoon.duties=(morning.duties||[]).map(x=>({...JSON.parse(JSON.stringify(x)),id:uid('d')}));
-    afternoon.lockerRooms=(morning.lockerRooms||[]).map(x=>({...JSON.parse(JSON.stringify(x)),id:uid('lr')}));
-    afternoon.offIce=(morning.offIce||[]).map(x=>({...JSON.parse(JSON.stringify(x)),id:uid('o')}));
-  }
+function getRow(skate,kind,rowId,sectionId){
+  if(kind==='duty')return skate.duties.find(x=>x.id===rowId);
+  const sec=skate.sections.find(x=>x.id===sectionId);return sec&&sec.rows.find(x=>x.id===rowId);
 }
 function bind(){
-  document.querySelectorAll('[data-skate-field]').forEach(el=>el.oninput=()=>{const s=getSkate(el.dataset.skateId);s[el.dataset.skateField]=el.value;maybeSyncCamp(s);persist(false);render(false);});
-  document.querySelectorAll('[data-remove-skate]').forEach(b=>b.onclick=()=>{getSkate(b.dataset.removeSkate).deleted=true;persist(false);render();});
-  document.querySelectorAll('[data-upload]').forEach(inp=>inp.onchange=async()=>{const file=inp.files&&inp.files[0];if(!file)return;const s=getSkate(inp.dataset.upload);s.image=await compressImage(file);maybeSyncCamp(s);persist(false);render();});
-  document.querySelectorAll('[data-clear-image]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.clearImage);s.image='';maybeSyncCamp(s);persist(false);render();});
-  document.querySelectorAll('[data-add-station]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.addStation);s.stations.push({id:uid('s'),name:'Station '+(s.stations.length+1),coach1:'',coach1Custom:'',x:50,y:50});maybeSyncCamp(s);persist(false);render();});
-  document.querySelectorAll('[data-station-field]').forEach(el=>{const fn=()=>{const s=getSkate(el.dataset.skateId),st=s.stations.find(x=>x.id===el.dataset.stationId);if(el.dataset.stationField==='name')st.name=el.value;else if(el.dataset.stationField==='custom'){const parent=el.closest('.assign-wrap'),sel=parent&&parent.querySelector('select');if(sel){if(sel.dataset.stationField==='coach1')st.coach1Custom=el.value;else st.coach2Custom=el.value;}}else{st[el.dataset.stationField]=el.value;}maybeSyncCamp(s);persist(false);};el.onchange=fn;el.oninput=fn;});
-  document.querySelectorAll('[data-second-coach]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.skateId),st=s.stations.find(x=>x.id===b.dataset.secondCoach);if(st.coach2===undefined){st.coach2='';st.coach2Custom='';}persist(false);render();});
-  document.querySelectorAll('[data-del-station]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.skateId);s.stations=s.stations.filter(x=>x.id!==b.dataset.delStation);maybeSyncCamp(s);persist(false);render();});
-  document.querySelectorAll('[data-duty-field]').forEach(el=>{const fn=()=>{const s=getSkate(el.dataset.skateId),d=s.duties.find(x=>x.id===el.dataset.dutyId);if(el.dataset.dutyField==='name')d.name=el.value;else if(el.dataset.dutyField==='custom')d.custom=el.value;else d.coach=el.value;maybeSyncCamp(s);persist(false);};el.onchange=fn;el.oninput=fn;});
-  document.querySelectorAll('[data-del-duty]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.skateId);s.duties=s.duties.filter(x=>x.id!==b.dataset.delDuty);maybeSyncCamp(s);persist(false);render();});
-  document.querySelectorAll('[data-add-duty]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.addDuty);s.duties.push({id:uid('d'),name:'New Duty',coach:'',custom:''});maybeSyncCamp(s);persist(false);render();});
-  document.querySelectorAll('[data-extra-field]').forEach(el=>{const fn=()=>{const s=getSkate(el.dataset.skateId),arr=s[el.dataset.extraGroup],r=arr.find(x=>x.id===el.dataset.extraId);if(el.dataset.extraField==='name')r.name=el.value;else if(el.dataset.extraField==='custom')r.custom=el.value;else r.coach=el.value;maybeSyncCamp(s);persist(false);};el.onchange=fn;el.oninput=fn;});
-  document.querySelectorAll('[data-del-extra]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.skateId);s[b.dataset.extraGroup]=s[b.dataset.extraGroup].filter(x=>x.id!==b.dataset.delExtra);maybeSyncCamp(s);persist(false);render();});
-  document.querySelectorAll('[data-add-extra]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.skateId),g=b.dataset.addExtra;s[g]=s[g]||[];s[g].push({id:uid(g==='offIce'?'o':'lr'),name:g==='offIce'?'New Off-Ice Station':'Locker Room '+(s[g].length+1),coach:'',custom:''});maybeSyncCamp(s);persist(false);render();});
-  document.querySelectorAll('[data-toggle-sync]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.toggleSync);s.linkedToMorning=!s.linkedToMorning;if(s.linkedToMorning)maybeSyncCamp(getDay().skates[0]);persist(false);render();});
+  document.querySelectorAll('[data-skate-field]').forEach(el=>el.oninput=()=>{const s=getSkate(el.dataset.skateId);s[el.dataset.skateField]=el.value;persist(false);render(false);});
+  document.querySelectorAll('[data-remove-skate]').forEach(b=>b.onclick=()=>{const f=active();if(f.skates.length<=1){alert('A format needs at least one block.');return;}f.skates=f.skates.filter(x=>x.id!==b.dataset.removeSkate);persist(false);render();});
+  document.querySelectorAll('[data-clean-rink]').forEach(b=>b.onclick=()=>{getSkate(b.dataset.cleanRink).image=cleanRinkSvg();persist(false);render();});
+  document.querySelectorAll('[data-clear-image]').forEach(b=>b.onclick=()=>{getSkate(b.dataset.clearImage).image='';persist(false);render();});
+  document.querySelectorAll('[data-upload]').forEach(inp=>inp.onchange=async()=>{const file=inp.files&&inp.files[0];if(!file)return;getSkate(inp.dataset.upload).image=await compressImage(file);persist(false);render();});
+  document.querySelectorAll('[data-add-station]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.addStation),i=s.stations.length;s.stations.push(mkStation('Station '+(i+1),i));persist(false);render();});
+  document.querySelectorAll('[data-del-station]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.skateId);s.stations=s.stations.filter(x=>x.id!==b.dataset.delStation);persist(false);render();});
+  document.querySelectorAll('[data-station-field]').forEach(el=>{const fn=()=>{const s=getSkate(el.dataset.skateId),st=s.stations.find(x=>x.id===el.dataset.stationId);if(!st)return;if(el.dataset.stationField==='name'){st.name=el.value;}else{const slot=el.dataset.slot||el.dataset.customSlot||'1';if(el.dataset.customSlot)st['custom'+slot]=el.value;else st['coach'+slot]=el.value;}persist(false);};el.onchange=fn;el.oninput=fn;});
+  document.querySelectorAll('[data-row-field]').forEach(el=>{const fn=()=>{const s=getSkate(el.dataset.skateId),r=getRow(s,el.dataset.rowKind,el.dataset.rowId,el.dataset.sectionId);if(!r)return;if(el.dataset.rowField==='label'){r.label=el.value;}else{const slot=el.dataset.slot||el.dataset.customSlot||'1';if(el.dataset.customSlot)r['custom'+slot]=el.value;else r['coach'+slot]=el.value;}persist(false);};el.onchange=fn;el.oninput=fn;});
+  document.querySelectorAll('[data-del-row]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.skateId);if(b.dataset.rowKind==='duty')s.duties=s.duties.filter(x=>x.id!==b.dataset.rowId);else{const sec=s.sections.find(x=>x.id===b.dataset.sectionId);if(sec)sec.rows=sec.rows.filter(x=>x.id!==b.dataset.rowId);}persist(false);render();});
+  document.querySelectorAll('[data-add-duty]').forEach(b=>b.onclick=()=>{getSkate(b.dataset.addDuty).duties.push(mkAssign('New Duty'));persist(false);render();});
+  document.querySelectorAll('[data-add-section]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.addSection);s.sections.push(mkSection('New Assignment Section',[mkAssign('Assignment 1')]));persist(false);render();});
+  document.querySelectorAll('[data-section-title]').forEach(el=>el.oninput=()=>{const s=getSkate(el.dataset.skateId),sec=s.sections.find(x=>x.id===el.dataset.sectionTitle);if(sec){sec.title=el.value;persist(false);}});
+  document.querySelectorAll('[data-del-section]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.skateId);s.sections=s.sections.filter(x=>x.id!==b.dataset.delSection);persist(false);render();});
+  document.querySelectorAll('[data-add-row]').forEach(b=>b.onclick=()=>{const s=getSkate(b.dataset.skateId),sec=s.sections.find(x=>x.id===b.dataset.addRow);if(sec)sec.rows.push(mkAssign('New Assignment'));persist(false);render();});
+  document.querySelectorAll('[data-notes]').forEach(t=>t.oninput=()=>{getSkate(t.dataset.notes).notes=t.value;persist(false);});
   bindDrag();
 }
 function bindDrag(){
   document.querySelectorAll('.station-marker').forEach(marker=>{
     let drag=false,frame=null,skate=null,station=null;
-    const start=e=>{if(e.target.tagName==='SELECT'||e.target.tagName==='INPUT'||e.target.tagName==='BUTTON'&&!e.target.classList.contains('move'))return;drag=true;frame=marker.closest('.diagram-frame');skate=getSkate(marker.dataset.skateId);station=skate.stations.find(x=>x.id===marker.dataset.marker);e.preventDefault();};
+    const start=e=>{const target=e.target;if(target&&['SELECT','INPUT','BUTTON'].includes(target.tagName)&&!target.classList.contains('move'))return;drag=true;frame=marker.closest('.diagram-frame');skate=getSkate(marker.dataset.skateId);station=skate.stations.find(x=>x.id===marker.dataset.marker);e.preventDefault();};
     const move=e=>{if(!drag)return;const r=frame.getBoundingClientRect(),p=e.touches?e.touches[0]:e;station.x=Math.max(4,Math.min(96,(p.clientX-r.left)/r.width*100));station.y=Math.max(6,Math.min(94,(p.clientY-r.top)/r.height*100));marker.style.left=station.x+'%';marker.style.top=station.y+'%';};
-    const end=()=>{if(drag){drag=false;maybeSyncCamp(skate);persist(false);}};
+    const end=()=>{if(drag){drag=false;persist(false);}};
     marker.addEventListener('mousedown',start);marker.addEventListener('touchstart',start,{passive:false});window.addEventListener('mousemove',move);window.addEventListener('touchmove',move,{passive:false});window.addEventListener('mouseup',end);window.addEventListener('touchend',end);
   });
 }
 async function compressImage(file){
   const data=await new Promise((res,rej)=>{const fr=new FileReader();fr.onload=()=>res(fr.result);fr.onerror=rej;fr.readAsDataURL(file);});
   const img=await new Promise((res,rej)=>{const i=new Image();i.onload=()=>res(i);i.onerror=rej;i.src=data;});
-  const max=1600,scale=Math.min(1,max/img.width,max/img.height),c=document.createElement('canvas');c.width=Math.round(img.width*scale);c.height=Math.round(img.height*scale);c.getContext('2d').drawImage(img,0,0,c.width,c.height);return c.toDataURL('image/jpeg',.88);
+  const max=1350,scale=Math.min(1,max/img.width,max/img.height),c=document.createElement('canvas');c.width=Math.round(img.width*scale);c.height=Math.round(img.height*scale);c.getContext('2d').drawImage(img,0,0,c.width,c.height);return c.toDataURL('image/jpeg',.78);
 }
-function render(full=true){
-  renderDays();renderStaff();dateLabel.value=state.dateLabel||'';pdfTitle.value=state.pdfTitle||'Motor City Hockey — Staff Duties';
-  const day=getDay();content.innerHTML=day.skates.map((s,i)=>skateHtml(day,s,i)).join('')||'<div class="notice">No skates in this day. Click + Add Skate.</div>';bind();
+function regenerateIds(format){
+  format.id=uid('fmt');(format.skates||[]).forEach(k=>{k.id=uid('k');(k.stations||[]).forEach(x=>x.id=uid('s'));(k.duties||[]).forEach(x=>x.id=uid('a'));(k.sections||[]).forEach(sec=>{sec.id=uid('sec');(sec.rows||[]).forEach(x=>x.id=uid('a'));});});return format;
 }
-saveBtn.onclick=()=>persist(true);
-dateLabel.oninput=()=>{state.dateLabel=dateLabel.value;persist(false);};
-pdfTitle.oninput=()=>{state.pdfTitle=pdfTitle.value;persist(false);};
-daySelect.onchange=()=>{state.activeDay=daySelect.value;persist(false);render();};
-addStaffBtn.onclick=()=>{const n=newStaff.value.trim();if(!n)return;if(!state.staff.includes(n))state.staff.push(n);newStaff.value='';persist(false);render();};
-addDayBtn.onclick=()=>{const name=prompt('Day / template name (example: Thursday)');if(!name)return;const id=uid('day');state.days[id]={id,name,type:'standard',skates:[mkSkate('New Skate','','')]};state.activeDay=id;persist(false);render();};
-addSkateBtn.onclick=()=>{const d=getDay();const s=mkSkate('New Skate','','');if(d.type==='camp')Object.assign(s,mkCampExtras());d.skates.push(s);persist(false);render();};
-backupBtn.onclick=()=>{const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='mch-staff-duties-backup.json';a.click();URL.revokeObjectURL(a.href);};
+function render(){
+  renderFormats();renderStaff();
+  const f=active();formatName.value=f.name||'';dateLabel.value=f.dateLabel||'';content.innerHTML=(f.skates||[]).map(skateHtml).join('')||'<div class="notice">No assignment blocks. Click + Skate.</div>';bind();requestHeight();
+}
+function requestHeight(){setTimeout(()=>{try{parent.postMessage({type:'mch-staff-builder-height',height:document.documentElement.scrollHeight},'*');}catch(e){}},80);}
+saveBtn.onclick=()=>persist(true);mobileSave.onclick=()=>saveBtn.click();
+formatSelect.onchange=()=>{state.activeFormat=formatSelect.value;persist(false);render();};
+formatName.oninput=()=>{active().name=formatName.value;persist(false);renderFormats();};
+dateLabel.oninput=()=>{active().dateLabel=dateLabel.value;persist(false);};
+addFormatBtn.onclick=()=>{const preset=presetSelect.value,name=prompt('Format name',presetSelect.options[presetSelect.selectedIndex].text);if(!name)return;const f=createFromPreset(preset,name);state.formats[f.id]=f;state.activeFormat=f.id;persist(false);render();};
+addSkateBtn.onclick=()=>{active().skates.push(mkSkate('New Skate','',''));persist(false);render();};
+backupBtn.onclick=()=>{const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='mch-staff-assignment-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500);};
 restoreBtn.onclick=()=>restoreFile.click();
-restoreFile.onchange=async()=>{const f=restoreFile.files&&restoreFile.files[0];if(!f)return;try{const x=JSON.parse(await f.text());if(!x.days||!x.staff)throw new Error();state=x;persist(false);render();flash('Backup restored.');}catch(e){alert('That backup file could not be read.');}};
+restoreFile.onchange=async()=>{const f=restoreFile.files&&restoreFile.files[0];if(!f)return;try{const x=JSON.parse(await f.text()),m=migrate(x)||x;if(!m.formats||!m.staff)throw new Error();state=m;persist(false);render();flash('Backup restored.');}catch(e){alert('That backup file could not be read.');}};
+addStaffBtn.onclick=()=>{const n=newStaff.value.trim(),g=newStaffGroup.value;if(!n)return;if(!state.staff.includes(n))state.staff.push(n);state.staffGroups=state.staffGroups||JSON.parse(JSON.stringify(DEFAULT_GROUPS));Object.values(state.staffGroups).forEach(a=>{const i=a.indexOf(n);if(i>=0)a.splice(i,1);});state.staffGroups[g]=state.staffGroups[g]||[];state.staffGroups[g].push(n);newStaff.value='';persist(false);render();};
 pdfBtn.onclick=async()=>{
-  persist(false);cleanForPrint();
-  const {jsPDF}=window.jspdf||{};if(!window.html2canvas||!jsPDF){window.print();return;}
-  const edit=document.querySelectorAll('.edit-only');edit.forEach(x=>x.dataset.oldDisplay=x.style.display||'');
+  persist(false);const {jsPDF}=window.jspdf||{};if(!window.html2canvas||!jsPDF){window.print();return;}
   document.body.classList.add('pdf-mode');
   try{
-    const target=document.querySelector('.app'),canvas=await html2canvas(target,{scale:1.7,useCORS:true,backgroundColor:'#ffffff',windowWidth:1500});
-    const pdf=new jsPDF('p','pt','letter'),pw=pdf.internal.pageSize.getWidth(),ph=pdf.internal.pageSize.getHeight(),margin=18,usableW=pw-margin*2;
-    const imgW=usableW,imgH=canvas.height*(imgW/canvas.width),pageH=ph-margin*2;
-    let pos=0;while(pos<imgH){const slicePx=Math.min(canvas.height-pos*(canvas.width/imgW),pageH*(canvas.width/imgW));const c=document.createElement('canvas');c.width=canvas.width;c.height=Math.round(slicePx);c.getContext('2d').drawImage(canvas,0,Math.round(pos*(canvas.width/imgW)),canvas.width,c.height,0,0,c.width,c.height);const data=c.toDataURL('image/jpeg',.92);if(pos>0)pdf.addPage();pdf.addImage(data,'JPEG',margin,margin,imgW,c.height*(imgW/c.width));pos+=pageH;}
-    const safe=(state.dateLabel||getDay().name||'Staff-Duties').replace(/[^a-z0-9]+/gi,'-').replace(/^-|-$/g,'');pdf.save('Motor-City-Hockey-'+safe+'.pdf');
-  }catch(e){console.error(e);window.print();}
-  finally{document.body.classList.remove('pdf-mode');}
+    const target=document.querySelector('.app'),canvas=await html2canvas(target,{scale:1.65,useCORS:true,backgroundColor:'#ffffff',windowWidth:1500});
+    const pdf=new jsPDF('p','pt','letter'),pw=pdf.internal.pageSize.getWidth(),ph=pdf.internal.pageSize.getHeight(),margin=18,imgW=pw-margin*2,pageH=ph-margin*2,imgH=canvas.height*(imgW/canvas.width);
+    let pos=0;while(pos<imgH){const srcY=Math.round(pos*(canvas.width/imgW)),slicePx=Math.min(canvas.height-srcY,Math.round(pageH*(canvas.width/imgW))),c=document.createElement('canvas');c.width=canvas.width;c.height=slicePx;c.getContext('2d').drawImage(canvas,0,srcY,canvas.width,slicePx,0,0,c.width,c.height);if(pos>0)pdf.addPage();pdf.addImage(c.toDataURL('image/jpeg',.91),'JPEG',margin,margin,imgW,c.height*(imgW/c.width));pos+=pageH;}
+    const f=active(),safe=((f.dateLabel||f.name||'Staff-Assignments')+'').replace(/[^a-z0-9]+/gi,'-').replace(/^-|-$/g,'');pdf.save('Motor-City-Hockey-'+safe+'.pdf');
+  }catch(e){console.error(e);window.print();}finally{document.body.classList.remove('pdf-mode');requestHeight();}
 };
+mobilePdf.onclick=()=>pdfBtn.click();
+
+const formatTools=document.createElement('div');formatTools.className='section-tools edit-only';formatTools.style.margin='0 0 14px';formatTools.innerHTML='<button class="btn light" id="duplicateFormatBtn">Duplicate Current Format</button><button class="btn light" id="deleteFormatBtn">Delete Current Format</button>';formatTabs.insertAdjacentElement('afterend',formatTools);
+duplicateFormatBtn.onclick=()=>{const copy=regenerateIds(JSON.parse(JSON.stringify(active())));copy.name=copy.name+' Copy';state.formats[copy.id]=copy;state.activeFormat=copy.id;persist(false);render();};
+deleteFormatBtn.onclick=()=>{const ids=Object.keys(state.formats);if(ids.length<=1){alert('Keep at least one format.');return;}if(!confirm('Delete '+active().name+'?'))return;delete state.formats[state.activeFormat];state.activeFormat=Object.keys(state.formats)[0];persist(false);render();};
+window.addEventListener('resize',requestHeight,{passive:true});
 render();
 })();
 </script>
-<style>
-.pdf-mode .edit-only,.pdf-mode .nav,.pdf-mode .toolbar,.pdf-mode .day-tabs,.pdf-mode .notice,.pdf-mode .management,.pdf-mode .diagram-tools,.pdf-mode .xbtn,.pdf-mode .mini,.pdf-mode .small-x{display:none!important}
-.pdf-mode .main{padding:12px}.pdf-mode .skate{box-shadow:none}.pdf-mode .skate-meta{display:none}.pdf-mode .skate-body{grid-template-columns:1.45fr .55fr}.pdf-mode .station-marker{background:#fff}.pdf-mode .station-marker select,.pdf-mode .station-marker input,.pdf-mode .duty-row select,.pdf-mode .duty-row input,.pdf-mode .office-row select,.pdf-mode .office-row input{border:0;background:#fff}
-</style>
 </body>
 </html>
