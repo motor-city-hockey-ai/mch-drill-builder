@@ -947,5 +947,20 @@ function init(){
   refreshStaff();
 }
 init();
+
+function reportHostedHeight(){
+  try{
+    parent.postMessage({
+      type:"mch-staff-duties-height",
+      height:Math.max(document.body.scrollHeight,document.documentElement.scrollHeight)
+    },"*");
+  }catch(e){}
+}
+window.addEventListener("load",reportHostedHeight,{passive:true});
+window.addEventListener("resize",reportHostedHeight,{passive:true});
+if(window.ResizeObserver){
+  new ResizeObserver(reportHostedHeight).observe(document.documentElement);
+}
+setTimeout(reportHostedHeight,120);
 })();
 </script>
