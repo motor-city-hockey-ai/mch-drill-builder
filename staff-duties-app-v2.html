@@ -283,7 +283,7 @@
         <aside class="mch18-sidebar" id="mch15-camp-ops">
           <div class="mch18-side-title"><span>DAY SETUP</span><strong>Camp Operations</strong></div>
 
-          <details class="mch18-side-card">
+          <details class="mch18-side-card" open>
             <summary><span>Staff Standards</span><small>6 expectations</small></summary>
             <div class="mch18-side-body mch18-standards">
               <p><strong>Arrival — 8:30 AM sharp.</strong> Be in the locker room ready to work. Help players get dressed and greet / communicate with every parent who attends.</p>
@@ -345,7 +345,7 @@
             </div>
           </details>
 
-          <details class="mch18-side-card">
+          <details class="mch18-side-card" open>
             <summary><span>Off-Ice Stations</span><small>Up to 4</small></summary>
             <div class="mch18-side-body">
               <div class="mch15-subhead mch15-office-head">
@@ -381,7 +381,7 @@
             </div>
           </details>
 
-          <details class="mch18-side-card">
+          <details class="mch18-side-card" open>
             <summary><span>Locker Rooms</span><small>Rooms 1–6</small></summary>
             <div class="mch18-side-body">
               <div class="mch15-lockers">
@@ -789,6 +789,63 @@
 .mch18-station-instructions p{margin:4px 0 0;color:#333;font-size:10px;line-height:1.4}
 @media(max-width:1100px){.mch18-workspace{grid-template-columns:1fr}.mch18-sidebar{position:static}.mch18-sessions{grid-template-columns:1fr 1fr}}
 @media(max-width:800px){.mch18-camp{padding:10px!important}.mch18-topbar{align-items:stretch;flex-direction:column}.mch18-top-controls{align-items:stretch;flex-direction:column}.mch18-timeline{grid-template-columns:1fr 1fr 1fr 1fr}.mch18-sessions{grid-template-columns:1fr}.mch18-station-detail>summary{grid-template-columns:1fr}}
+
+/* ===== CAMP PLANNER V20 - PHONE-FIRST STACKED FORMAT ===== */
+.mch18-camp{background:#f5f5f5!important;padding:18px!important}
+.mch18-topbar{max-width:980px!important;margin:0 auto 12px!important;padding:16px 18px!important;border:1px solid #ddd!important;border-radius:12px!important;background:#fff!important;color:#111!important;box-shadow:none!important}
+.mch18-topbar h2{color:#111!important;font-size:26px!important}
+.mch18-topbar p{color:#666!important;font-size:13px!important}
+.mch18-top-controls .mch15-camp-picker span{color:#666!important}
+.mch18-timeline{max-width:980px!important;grid-template-columns:repeat(4,1fr)!important;margin:0 auto 14px!important}
+.mch18-timeline>div{padding:12px 10px!important}
+.mch18-timeline b{font-size:13px!important}
+.mch18-timeline span{font-size:12px!important;line-height:1.25!important}
+.mch18-workspace{display:block!important;max-width:980px!important;margin:0 auto!important}
+.mch18-sidebar{display:flex!important;flex-direction:column!important;position:static!important;max-width:none!important;margin:0 0 16px!important;border:1px solid #ddd!important;border-radius:12px!important;background:#fff!important}
+.mch18-side-title{order:0!important;background:#fff!important;color:#111!important;border-bottom:1px solid #ddd!important}
+.mch18-side-title span{color:#c91f2c!important;font-size:11px!important}
+.mch18-side-title strong{font-size:17px!important}
+.mch18-sidebar>.mch18-side-card:nth-of-type(2){order:1!important} /* Camp Duties */
+.mch18-sidebar>.mch18-side-card:nth-of-type(4){order:2!important} /* Locker Rooms */
+.mch18-sidebar>.mch18-side-card:nth-of-type(3){order:3!important} /* Off-Ice */
+.mch18-sidebar>.mch18-side-card:nth-of-type(1){order:4!important} /* Standards */
+.mch18-side-card>summary{padding:13px 15px!important}
+.mch18-side-card>summary span{font-size:14px!important}
+.mch18-side-card>summary small{font-size:11px!important}
+.mch18-side-body{padding:12px 14px 14px!important;background:#fff!important}
+.mch18-standards p{font-size:12px!important;line-height:1.45!important}
+.mch18-side-body .mch15-task-label{font-size:12px!important;line-height:1.3!important}
+.mch18-side-body .mch15-task-row{grid-template-columns:minmax(0,1fr) minmax(180px,.8fr) 30px!important;min-height:46px!important}
+.mch18-side-body .mch15-office-row{grid-template-columns:75px minmax(0,1fr) minmax(180px,.8fr) 30px!important;min-height:48px!important}
+.mch18-side-body .mch15-room{grid-template-columns:110px minmax(0,1fr) auto!important;min-height:48px!important}
+.mch18-side-body select,.mch18-side-body button{font-size:12px!important}
+.mch18-sessions{display:block!important}
+.mch18-session{max-width:980px!important;margin:0 auto 18px!important}
+.mch18-session-head{padding:14px 16px!important;background:#fff!important;color:#111!important;border-bottom:1px solid #ddd!important}
+.mch18-session-head div span{font-size:11px!important}
+.mch18-session-head div strong{font-size:19px!important}
+.mch18-session-head>b{border-color:#ccc!important;color:#111!important;font-size:12px!important}
+.mch18-rink .mch15-rink-head strong{font-size:15px!important}
+.mch18-rink .mch15-rink-head span{font-size:12px!important}
+.mch18-rink .mch15-stage{max-width:900px!important;margin:0 auto!important}
+.mch18-plan-head{padding:13px 15px!important}
+.mch18-plan-head strong{font-size:15px!important}
+.mch18-plan-head span{font-size:12px!important}
+.mch18-station-detail>summary{grid-template-columns:220px minmax(0,1fr)!important;padding:12px 34px 12px 14px!important}
+.mch18-station-name strong{font-size:13px!important}
+.mch18-station-name span{font-size:12px!important}
+.mch18-station-drill span{font-size:11px!important}
+.mch18-station-drill strong{font-size:13px!important;line-height:1.25!important}
+.mch18-station-instructions{padding:12px 14px 14px!important}
+.mch18-station-instructions>span{font-size:11px!important}
+.mch18-station-instructions p{font-size:13px!important;line-height:1.5!important}
+@media(max-width:800px){
+  .mch18-camp{padding:8px!important}
+  .mch18-topbar{padding:14px!important}
+  .mch18-timeline{grid-template-columns:1fr 1fr!important}
+  .mch18-side-body .mch15-task-row,.mch18-side-body .mch15-office-row,.mch18-side-body .mch15-room{grid-template-columns:1fr!important}
+  .mch18-station-detail>summary{grid-template-columns:1fr!important}
+}
 </style>
 
 <script>
@@ -935,7 +992,7 @@ function renderCampStationPlans(){
       var coaches=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean).join(" / ");
       var d=stationFocusDetails(stationFocusValue(key,s[0]));
       var has=!!d;
-      return '<details class="mch18-station-detail">'+
+      return '<details class="mch18-station-detail" open>'+
         '<summary>'+
           '<div class="mch18-station-name"><strong>'+esc(s[1])+'</strong><span>'+esc(coaches||"Unassigned")+'</span></div>'+
           '<div class="mch18-station-drill">'+
@@ -951,7 +1008,7 @@ function renderCampStationPlans(){
     }).join("");
 
     host.innerHTML=
-      '<div class="mch18-plan-head"><strong>'+session+' Station Assignments</strong><span>Click any station to open trainer instructions.</span></div>'+
+      '<div class="mch18-plan-head"><strong>'+session+' Station Assignments</strong><span>Full trainer instructions are shown automatically.</span></div>'+
       '<div class="mch18-station-list">'+rows+'</div>';
   });
 }
@@ -1903,12 +1960,187 @@ function drawCampPdfV19Session(doc,key,label,time,x,y,w,h,imgData){
   var planY=rinkY+rinkH+gap;
   drawCampPdfV19Grid(doc,key,x+4,planY,planW,h-(planY-y),chosen);
 }
+
+function campV20PageWidth(doc){return doc.internal.pageSize.getWidth()}
+function campV20PageHeight(doc){return doc.internal.pageSize.getHeight()}
+function campV20AddPage(doc,title,subtitle){
+  doc.addPage("letter","portrait");
+  return campV20PageHeader(doc,title,subtitle);
+}
+function campV20PageHeader(doc,title,subtitle){
+  var pw=campV20PageWidth(doc),m=24,y=28;
+  doc.setTextColor(0);doc.setFont("helvetica","bold");doc.setFontSize(18);
+  doc.text(title,m,y);
+  doc.setFont("helvetica","normal");doc.setFontSize(12);doc.setTextColor(85);
+  if(subtitle)doc.text(subtitle,m,y+18,{maxWidth:pw-m*2-90});
+  if(state.date){
+    doc.setFont("helvetica","bold");doc.setFontSize(12);doc.setTextColor(0);
+    doc.text(state.date,pw-m,y,{align:"right"});
+  }
+  doc.setDrawColor(201,31,44);doc.setLineWidth(2);doc.line(m,y+27,pw-m,y+27);
+  doc.setTextColor(0);
+  return y+43;
+}
+function campV20Section(doc,title,y){
+  var pw=campV20PageWidth(doc),m=24;
+  doc.setFont("helvetica","bold");doc.setFontSize(16);doc.setTextColor(0);
+  doc.text(title,m,y);
+  doc.setDrawColor(220);doc.setLineWidth(.6);doc.line(m,y+6,pw-m,y+6);
+  return y+24;
+}
+function campV20Ensure(doc,y,needed,contTitle,contSub){
+  var ph=campV20PageHeight(doc),bottom=28;
+  if(y+needed<=ph-bottom)return y;
+  return campV20AddPage(doc,contTitle,contSub);
+}
+function campV20KeyValueRows(doc,rows,y,sectionTitle,contTitle){
+  var pw=campV20PageWidth(doc),m=24,w=pw-m*2,lineH=15;
+  y=campV20Ensure(doc,y,36,contTitle,"");
+  y=campV20Section(doc,sectionTitle,y);
+  rows.forEach(function(r){
+    var leftLines=doc.splitTextToSize(String(r[0]||""),w*.62);
+    var rightLines=doc.splitTextToSize(String(r[1]||"—"),w*.32);
+    var rowH=Math.max(leftLines.length,rightLines.length)*lineH+10;
+    y=campV20Ensure(doc,y,rowH,contTitle,sectionTitle+" continued");
+    doc.setFont("helvetica","bold");doc.setFontSize(12);doc.setTextColor(0);
+    doc.text(leftLines,m,y+12);
+    doc.setFont("helvetica","normal");doc.setFontSize(12);
+    doc.text(rightLines,pw-m,y+12,{align:"right"});
+    y+=rowH;
+    doc.setDrawColor(236);doc.line(m,y-2,pw-m,y-2);
+  });
+  return y+8;
+}
+function campV20Paragraphs(doc,items,y,sectionTitle,contTitle){
+  var pw=campV20PageWidth(doc),m=24,w=pw-m*2,lineH=15;
+  y=campV20Ensure(doc,y,36,contTitle,"");
+  y=campV20Section(doc,sectionTitle,y);
+  items.forEach(function(r){
+    var label=String(r[0]||""),body=String(r[1]||"");
+    var labelLines=doc.splitTextToSize(label,w);
+    var bodyLines=doc.splitTextToSize(body,w);
+    var h=(labelLines.length+bodyLines.length)*lineH+14;
+    y=campV20Ensure(doc,y,h,contTitle,sectionTitle+" continued");
+    doc.setFont("helvetica","bold");doc.setFontSize(12);doc.setTextColor(145,20,30);
+    doc.text(labelLines,m,y+12);
+    var by=y+12+labelLines.length*lineH;
+    doc.setFont("helvetica","normal");doc.setFontSize(12);doc.setTextColor(35);
+    doc.text(bodyLines,m,by);
+    y+=h;
+    doc.setDrawColor(236);doc.line(m,y-2,pw-m,y-2);
+  });
+  doc.setTextColor(0);
+  return y+8;
+}
+function drawCampV20Overview(doc,f){
+  var y=campV20PageHeader(doc,"MOTOR CITY HOCKEY - CAMP STAFF PLAN",f.title);
+
+  y=campV20KeyValueRows(doc,DAILY_SCHEDULE,y,"Daily Schedule","Camp Staff Plan");
+
+  var vals=ensureTasks("camp",CAMP_TASKS),duties=[];
+  CAMP_TASKS.forEach(function(n,i){
+    if(!state.taskHidden["camp-"+i])duties.push([n,staffName(vals[i]||"")||"—"]);
+  });
+  y=campV20KeyValueRows(doc,duties,y,"Camp Duties","Camp Staff Plan");
+
+  var lockers=[];
+  for(var li=1;li<=6;li++){
+    var lr=ensureRoom(li),names=[staffName(lr.coach1),staffName(lr.coach2)].filter(Boolean).join(" / ")||"—";
+    lockers.push(["Locker Room "+li,names]);
+  }
+  y=campV20KeyValueRows(doc,lockers,y,"Locker Rooms","Camp Staff Plan");
+
+  var office=[];
+  for(var oi=1;oi<=4;oi++){
+    if(!(state.offIceHidden&&state.offIceHidden[oi])){
+      var d=ensureOffIce(oi);
+      office.push(["Station "+oi+" - "+(d.activity||"No activity selected"),staffName(d.coach)||"—"]);
+    }
+  }
+  y=campV20KeyValueRows(doc,office,y,"Off-Ice Stations","Camp Staff Plan");
+
+  y=campV20Paragraphs(doc,campStandardsRows(),y,"Staff Standards","Camp Staff Plan");
+  return y;
+}
+function drawCampV20Rink(doc,key,y,imgData){
+  var pw=campV20PageWidth(doc),m=24,maxW=pw-m*2;
+  var w=maxW,h=w*(600/900),cfg=configForRink(key);
+  doc.setDrawColor(210);doc.roundedRect(m,y,w,h,5,5);
+  doc.addImage(imgData,"PNG",m,y,w,h);
+
+  cfg.stations.forEach(function(s){
+    var a=effectiveAssign(key,s.id),names=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean);
+    if(!names.length)return;
+    var bx=m+(s.x/100)*w,by=y+(s.y/100)*h,bw=Math.min(150,Math.max(92,(s.w/100)*w));
+    var boxH=names.length>1?36:22;
+    var left=Math.max(m+2,Math.min(bx-bw/2,m+w-bw-2));
+    var top=Math.max(y+2,Math.min(by-5,y+h-boxH-2));
+    doc.setFillColor(255,255,255);doc.setDrawColor(201,31,44);doc.setLineWidth(1.5);
+    doc.roundedRect(left,top,bw,boxH,3,3,"FD");
+    doc.setTextColor(0);doc.setFont("helvetica","bold");doc.setFontSize(12);
+    doc.text(names[0],left+bw/2,top+15,{align:"center",maxWidth:bw-8});
+    if(names[1])doc.text(names[1],left+bw/2,top+30,{align:"center",maxWidth:bw-8});
+  });
+  return h;
+}
+function drawCampV20StationCard(doc,key,s,y,label,subtitle){
+  var pw=campV20PageWidth(doc),ph=campV20PageHeight(doc),m=24,w=pw-m*2,lineH=15;
+  var a=effectiveAssign(key,s.id);
+  var coaches=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean).join(" / ")||"Unassigned";
+  var d=stationFocusDetails(stationFocusValue(key,s.id));
+  var focus=d?d.category:"No Focus";
+  var drill=d?d.name:"No drill selected";
+  var desc=d?String(d.description||"No additional trainer instructions were supplied."):"Select a drill to add trainer instructions.";
+
+  var stationLines=doc.splitTextToSize(s.label+" - "+coaches,w);
+  var drillLines=doc.splitTextToSize(focus+" - "+drill,w);
+  var descLines=doc.splitTextToSize(desc,w);
+  var cardH=14+(stationLines.length+drillLines.length+descLines.length)*lineH+18;
+
+  y=campV20Ensure(doc,y,cardH,label,subtitle+" - Trainer Instructions continued");
+
+  doc.setDrawColor(215);doc.roundedRect(m,y,w,cardH,5,5);
+  var ty=y+18;
+  doc.setTextColor(0);doc.setFont("helvetica","bold");doc.setFontSize(12);
+  doc.text(stationLines,m+10,ty);
+  ty+=stationLines.length*lineH;
+
+  doc.setTextColor(145,20,30);doc.setFont("helvetica","bold");doc.setFontSize(12);
+  doc.text(drillLines,m+10,ty);
+  ty+=drillLines.length*lineH+3;
+
+  doc.setTextColor(35);doc.setFont("helvetica","normal");doc.setFontSize(12);
+  doc.text(descLines,m+10,ty);
+  doc.setTextColor(0);
+
+  return y+cardH+10;
+}
+function drawCampV20Session(doc,key,label,time,imgData){
+  var f=configForRink(key),pw=campV20PageWidth(doc),ph=campV20PageHeight(doc),m=24;
+  var y=campV20AddPage(doc,label+" SESSION",time+" - "+f.title);
+
+  // Large exact rink diagram first.
+  var rinkH=(pw-m*2)*(600/900);
+  if(y+rinkH>ph-28){
+    y=campV20AddPage(doc,label+" SESSION",time+" - "+f.title);
+  }
+  rinkH=drawCampV20Rink(doc,key,y,imgData);
+  y+=rinkH+22;
+
+  y=campV20Ensure(doc,y,40,label+" SESSION",time+" - Trainer Instructions");
+  y=campV20Section(doc,label+" Trainer Instructions",y);
+
+  f.stations.forEach(function(s){
+    y=drawCampV20StationCard(doc,key,s,y,label+" SESSION",time);
+  });
+  return y;
+}
 async function exportPDF(){
   var p=currentProgram();if(!p){alert("Choose Monday Training or Camps first.");return}
   var btn=document.getElementById("mch15-export"),old=btn.textContent;btn.textContent="Building PDF…";btn.disabled=true;
   try{
     await loadScript("https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js",function(){return!!(window.jspdf&&window.jspdf.jsPDF)});
-    var jsPDF=window.jspdf.jsPDF,doc=new jsPDF({orientation:"landscape",unit:"pt",format:"letter",compress:true});
+    var jsPDF=window.jspdf.jsPDF,doc=new jsPDF({orientation:p==="camp"?"portrait":"landscape",unit:"pt",format:"letter",compress:true});
     if(p==="monday"){
       drawHeader(doc,"Monday Training — one-page staff plan");
       var keys=["monday-610-c","monday-705-c","monday-705-b"].filter(function(k){return!state.deleted[k]});
@@ -1922,21 +2154,15 @@ async function exportPDF(){
     }else{
       var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;
 
-      // CAMP PDF: no black top banner. Use the full physical page for readable diagrams and instructions.
-      var titleH=drawCampPdfV19Header(doc,f.title);
-      var topY=10+titleH+5;
-      var topH=drawCampPdfV19Top(doc,topY);
-      var bodyY=topY+topH+6,bodyBottom=602,bodyH=bodyBottom-bodyY;
-
-      var sideX=10,sideW=146,gap=8,sessionW=305;
-      var amX=sideX+sideW+gap,pmX=amX+sessionW+gap;
-
-      drawCampPdfV19Ops(doc,sideX,bodyY,sideW,bodyH);
+      // Camp PDF is intentionally multi-page and phone-first.
+      // Minimum content font size is 12pt. Full drill descriptions are never truncated.
+      drawCampV20Overview(doc,f);
 
       var img=await urlToData(f.url);
       var amKey="camp-"+state.campFormat+"-am",pmKey="camp-"+state.campFormat+"-pm";
-      if(!state.deleted[amKey])drawCampPdfV19Session(doc,amKey,"AM","9:00-10:30 AM",amX,bodyY,sessionW,bodyH,img);
-      if(!state.deleted[pmKey])drawCampPdfV19Session(doc,pmKey,"PM","12:30-2:00 PM",pmX,bodyY,sessionW,bodyH,img);
+
+      if(!state.deleted[amKey])drawCampV20Session(doc,amKey,"AM","9:00-10:30 AM",img);
+      if(!state.deleted[pmKey])drawCampV20Session(doc,pmKey,"PM","12:30-2:00 PM",img);
     }
     doc.save("Motor-City-Hockey-Skate-Zones-Duties.pdf");
   }catch(err){console.error(err);alert("PDF export could not load. Check your internet connection and try again.")}
