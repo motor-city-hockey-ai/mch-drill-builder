@@ -2814,10 +2814,9 @@ init();
 
 function reportHostedHeight(){
   try{
-    parent.postMessage({
-      type:"mch-staff-duties-height",
-      height:Math.max(document.body.scrollHeight,document.documentElement.scrollHeight)
-    },"*");
+    var h=Math.max(document.body.scrollHeight,document.documentElement.scrollHeight);
+    parent.postMessage({type:"mch-staff-duties-height",height:h},"*");
+    parent.postMessage({type:"mch-staff-builder-height",height:h},"*");
   }catch(e){}
 }
 window.addEventListener("load",reportHostedHeight,{passive:true});
