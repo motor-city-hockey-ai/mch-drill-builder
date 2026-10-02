@@ -2940,10 +2940,178 @@ function buildCampStaffPacket(){
   packet.setAttribute("aria-hidden","false");
   return true;
 }
-function exportCampStaffPacket(){
-  if(!buildCampStaffPacket())return;
-  document.body.classList.add("mch15-staff-packet-mode");
-  setTimeout(function(){window.print()},80);
+async function exportCampStaffPacket(){
+  if(currentProgram()!=="camp"){alert("Choose Camps first, then use Export Staff PDF.");return}
+  var btn=document.getElementById("mch15-export-staff");
+  var old=btn?btn.textContent:"Export Staff PDF";
+  if(btn){btn.textContent="Building Clickable PDF…";btn.disabled=true}
+  try{
+    await loadScript("https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js",function(){return!!(window.jspdf&&window.jspdf.jsPDF)});
+    var jsPDF=window.jspdf.jsPDF;
+    var doc=new jsPDF({orientation:"portrait",unit:"pt",format:"letter",compress:true});
+    var pageW=612,pageH=792,margin=38,contentW=pageW-margin*2;
+    var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;
+    var active=packetActiveCampStaff();
+    var logoEl=root.querySelector(".mch15-logo");
+    var logo=logoEl?logoEl.src:"";
+    var RED=[201,31,44],INK=[20,20,20],MUTED=[105,105,105],LIGHT=[245,245,245],LINE=[220,220,220];
+
+    function packetPdfHeader(title,subtitle){
+      if(logo){try{doc.addImage(logo,"PNG",margin,24,44,44)}catch(e){}}
+      doc.setTextColor.apply(doc,INK);doc.setFont("helvetica","bold");doc.setFontSize(18);doc.text(title,margin+56,43);
+      doc.setTextColor.apply(doc,MUTED);doc.setFont("helvetica","normal");doc.setFontSize(8.5);
+      var sub=subtitle+(state.date?" · "+state.date:"");doc.text(sub,margin+56,59);
+      doc.setDrawColor.apply(doc,RED);doc.setLineWidth(2.5);doc.line(margin,78,pageW-margin,78);
+    }
+    function packetPdfBackLink(){
+      var label="Back to Staff List";
+      doc.setFont("helvetica","bold");doc.setFontSize(8.5);doc.setTextColor.apply(doc,RED);
+      var w=doc.getTextWidth(label);
+      doc.text(label,pageW-margin-w,94);
+      doc.link(pageW-margin-w,84,w,14,{pageNumber:1,magFactor:"Fit"});
+    }
+    function packetPdfNewPage(title,subtitle,withBack){
+      if(doc.getNumberOfPages()>0 && !(doc.getNumberOfPages()===1 && doc.internal.getCurrentPageInfo().pageNumber===1 && doc.__mchBlankFirst)){doc.addPage()}
+      packetPdfHeader(title,subtitle);
+      if(withBack)packetPdfBackLink();
+      return 112;
+    }
+    function packetPdfSectionTitle(title,y){
+      if(y>pageH-80)return null;
+      doc.setFillColor.apply(doc,INK);doc.roundedRect(margin,y,contentW,22,5,5,"F");
+      doc.setTextColor(255,255,255);doc.setFont("helvetica","bold");doc.setFontSize(9.5);doc.text(title,margin+8,y+14.5);
+      return y+29;
+    }
+    function packetPdfEnsure(y,needed,title,subtitle){
+      if(y+needed<=pageH-34)return y;
+      doc.addPage();packetPdfHeader(title,subtitle);packetPdfBackLink();return 112;
+    }
+    function packetPdfRows(title,subtitle,sectionTitle,rows,y){
+      if(!rows.length)rows=[{label:"—",value:"No assignments."}];
+      y=packetPdfEnsure(y,40,title,subtitle);
+      var sy=packetPdfSectionTitle(sectionTitle,y);if(sy==null){doc.addPage();packetPdfHeader(title,subtitle);packetPdfBackLink();y=112;sy=packetPdfSectionTitle(sectionTitle,y)}
+      y=sy;
+      rows.forEach(function(row){
+        var label=String(row.label||"");
+        var value=String(row.value||"");
+        var valueLines=doc.splitTextToSize(value,contentW-165);
+        var h=Math.max(30,16+valueLines.length*10);
+        y=packetPdfEnsure(y,h+2,title,subtitle);
+        doc.setDrawColor.apply(doc,LINE);doc.setFillColor(255,255,255);doc.roundedRect(margin,y,contentW,h,4,4,"FD");
+        doc.setTextColor.apply(doc,INK);doc.setFont("helvetica","bold");doc.setFontSize(8.5);
+        var labelLines=doc.splitTextToSize(label,145);doc.text(labelLines,margin+8,y+13);
+        doc.setTextColor.apply(doc,INK);doc.setFont("helvetica","normal");doc.setFontSize(8.1);doc.text(valueLines,margin+160,y+13);
+        y+=h+5;
+      });
+      return y+5;
+    }
+    function packetPdfStationRows(filterCoach){
+      var rows=[];
+      [["AM","am","9:00–10:30 AM"],["PM","pm","12:30–2:00 PM"]].forEach(function(info){
+        var key="camp-"+state.campFormat+"-"+info[1];
+        if(state.deleted&&state.deleted[key])return;
+        f.stations.forEach(function(s){
+          var a=effectiveAssign(key,s[0]);
+          var ids=[a.coach1,a.coach2].filter(Boolean);
+          if(filterCoach&&ids.indexOf(filterCoach)<0)return;
+          var names=ids.map(staffName).filter(Boolean).join(" / ")||"Unassigned";
+          var d=stationFocusDetails(stationFocusValue(key,s[0]));
+          var val=names+" · "+info[2];
+          if(d){
+            val+="\nDrill: "+d.name+(d.category?" ("+d.category+")":"");
+            if(d.description)val+="\n"+d.description;
+          }
+          rows.push({label:info[0]+" · "+s[1],value:val});
+        });
+      });
+      return rows;
+    }
+    function packetPdfDutyRows(filterCoach){
+      var vals=ensureTasks("camp",CAMP_TASKS),rows=[];
+      CAMP_TASKS.forEach(function(name,i){
+        if(state.taskHidden&&state.taskHidden["camp-"+i])return;
+        var v=vals[i]||"";
+        if(filterCoach&&v!==filterCoach)return;
+        rows.push({label:name,value:staffName(v)||"Unassigned"});
+      });
+      return rows;
+    }
+    function packetPdfOffIceRows(filterCoach){
+      var rows=[];
+      for(var n=1;n<=4;n++){
+        if(state.offIceHidden&&state.offIceHidden[n])continue;
+        var d=ensureOffIce(n);
+        if(filterCoach&&d.coach!==filterCoach)continue;
+        rows.push({label:"Off-Ice Station "+n,value:(d.activity||"Activity not selected")+" · "+(staffName(d.coach)||"Unassigned")});
+      }
+      return rows;
+    }
+    function packetPdfLockerRows(filterCoach){
+      var rows=[];
+      for(var n=1;n<=6;n++){
+        if(state.lockerHidden&&state.lockerHidden[n])continue;
+        var r=ensureRoom(n),ids=[r.coach1,r.coach2].filter(Boolean);
+        if(filterCoach&&ids.indexOf(filterCoach)<0)continue;
+        rows.push({label:"Locker Room "+n,value:ids.map(staffName).filter(Boolean).join(" / ")||"Unassigned"});
+      }
+      return rows;
+    }
+    function packetPdfItineraryRows(){
+      return DAILY_SCHEDULE.map(function(item){return{label:item[1],value:item[0]}});
+    }
+    function packetPdfRenderView(title,subtitle,filterCoach){
+      var startPage=doc.getNumberOfPages()+1;
+      doc.addPage();packetPdfHeader(title,subtitle);packetPdfBackLink();
+      var y=112;
+      y=packetPdfRows(title,subtitle,"Camp Itinerary",packetPdfItineraryRows(),y);
+      y=packetPdfRows(title,subtitle,filterCoach?"Your On-Ice Stations & Drills":"AM + PM On-Ice Assignments",packetPdfStationRows(filterCoach),y);
+      y=packetPdfRows(title,subtitle,filterCoach?"Your Camp Duties":"Camp Duties",packetPdfDutyRows(filterCoach),y);
+      y=packetPdfRows(title,subtitle,filterCoach?"Your Off-Ice Assignments":"Off-Ice Stations",packetPdfOffIceRows(filterCoach),y);
+      y=packetPdfRows(title,subtitle,filterCoach?"Your Locker Rooms":"Locker Rooms",packetPdfLockerRows(filterCoach),y);
+      return startPage;
+    }
+
+    /* Cover page first; links are attached after destination page numbers are known. */
+    doc.__mchBlankFirst=true;
+    packetPdfHeader("Camp Staff Packet",f.title+" · AM + PM");
+    doc.setTextColor.apply(doc,INK);doc.setFont("helvetica","bold");doc.setFontSize(12);doc.text("Choose Your View",margin,112);
+    doc.setTextColor.apply(doc,MUTED);doc.setFont("helvetica","normal");doc.setFontSize(8.5);
+    var intro="Tap a trainer name to jump directly to that trainer's itinerary, drills, duties, off-ice assignments and locker rooms. Master View shows the full camp.";
+    doc.text(doc.splitTextToSize(intro,contentW),margin,130);
+
+    var linkRects=[],y=170,colW=(contentW-12)/2,rowH=34;
+    function coverLink(label,key,idx){
+      var col=idx%2,row=Math.floor(idx/2),x=margin+col*(colW+12),yy=y+row*rowH;
+      doc.setFillColor.apply(doc,key==="master"?INK:LIGHT);doc.setDrawColor.apply(doc,LINE);doc.roundedRect(x,yy,colW,26,5,5,"FD");
+      if(key==="master")doc.setTextColor(255,255,255);else doc.setTextColor.apply(doc,INK);
+      doc.setFont("helvetica","bold");doc.setFontSize(9.5);doc.text(label,x+9,yy+16);
+      linkRects.push({x:x,y:yy,w:colW,h:26,key:key});
+    }
+    coverLink("Master View","master",0);
+    active.forEach(function(v,i){coverLink(staffName(v)||"Staff","staff:"+v,i+1)});
+
+    /* Build destination pages, then wire true PDF GoTo links. */
+    var targetPages={};
+    targetPages.master=packetPdfRenderView("Master View",f.title+" · Full Camp Plan","");
+    active.forEach(function(v){
+      var name=staffName(v)||"Staff";
+      targetPages["staff:"+v]=packetPdfRenderView(name,f.title+" · Staff View",v);
+    });
+
+    doc.setPage(1);
+    linkRects.forEach(function(r){
+      var dest=targetPages[r.key];
+      if(dest)doc.link(r.x,r.y,r.w,r.h,{pageNumber:dest,magFactor:"Fit"});
+    });
+
+    doc.setProperties({title:"Motor City Hockey Camp Staff Packet",subject:"Clickable camp staff assignments",author:"Motor City Hockey",creator:"Motor City Hockey"});
+    doc.save("Motor-City-Hockey-Camp-Staff-Clickable.pdf");
+  }catch(err){
+    console.error(err);
+    alert("The clickable staff PDF could not be built. Please refresh the page and try again.");
+  }finally{
+    if(btn){btn.textContent=old;btn.disabled=false}
+  }
 }
 function clearCampStaffPacketMode(){
   document.body.classList.remove("mch15-staff-packet-mode");
