@@ -1202,6 +1202,138 @@
 
 @media(max-width:900px){.mch15-tabs{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.mch15-tabs{grid-template-columns:1fr}}
+
+/* CENTERED PRODUCTION LAYOUT V2 */
+.mch15-header{
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:center!important;
+  text-align:center!important;
+  padding:20px 24px!important;
+}
+.mch15-brand{
+  justify-content:center!important;
+  align-items:center!important;
+  text-align:center!important;
+  width:100%!important;
+}
+.mch15-brand>div{ text-align:center!important; }
+.mch15-header-actions{
+  justify-content:center!important;
+  align-items:flex-end!important;
+  text-align:center!important;
+  width:100%!important;
+}
+.mch15-header-actions label,
+.mch15-camp-picker{
+  align-items:center!important;
+  text-align:center!important;
+}
+.mch15-staff-state{ justify-content:center!important; }
+.mch15-program-title{ text-align:center!important; }
+.mch15-tabs label{
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:center!important;
+  text-align:center!important;
+}
+.mch15-section-head{
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:center!important;
+  text-align:center!important;
+  margin-bottom:18px!important;
+}
+.mch15-section-head>div{ text-align:center!important; }
+.mch15-head-right{
+  justify-content:center!important;
+  align-items:center!important;
+  text-align:center!important;
+  width:100%!important;
+}
+.mch15-rink-grid{
+  justify-content:center!important;
+  justify-items:center!important;
+  align-items:start!important;
+  width:100%!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+.mch15-grid-1{ grid-template-columns:minmax(0,760px)!important; }
+.mch15-grid-1 .mch15-rink-card{ max-width:760px!important; }
+.mch15-rink-card{ margin-left:auto!important;margin-right:auto!important; }
+.mch15-rink-head{
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:center!important;
+  text-align:center!important;
+  gap:6px!important;
+}
+.mch15-rink-head>div{ text-align:center!important; }
+.mch15-times-title{ text-align:center!important; }
+.mch15-monday-ops{
+  justify-content:center!important;
+  justify-items:center!important;
+  width:100%!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+.mch15-ops-card{
+  margin-left:auto!important;
+  margin-right:auto!important;
+  width:100%!important;
+}
+.mch15-ops-head{
+  justify-content:center!important;
+  align-items:center!important;
+  text-align:center!important;
+}
+.mch18-topbar,.mch22-topbar{
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:center!important;
+  text-align:center!important;
+}
+.mch18-topbar>div,.mch22-topbar>div{ text-align:center!important; }
+.mch18-top-controls{
+  justify-content:center!important;
+  align-items:center!important;
+  width:100%!important;
+}
+.mch22-summary{
+  position:relative!important;
+  justify-content:center!important;
+  align-items:center!important;
+  text-align:center!important;
+  padding-left:60px!important;
+  padding-right:60px!important;
+}
+.mch22-summary>span,.mch22-summary>small{ text-align:center!important; }
+.mch22-summary::after{
+  position:absolute!important;
+  right:18px!important;
+}
+.mch22-body .mch15-ops-head{ text-align:center!important; }
+.mch22-schedule>div{ text-align:center!important; }
+.mch22-schedule b,.mch22-schedule span{ text-align:center!important; }
+.mch18-station-name,.mch18-station-drill,.mch18-plan-head{ text-align:center!important; }
+@media(max-width:700px){
+  .mch15-header-actions{
+    flex-direction:column!important;
+    align-items:stretch!important;
+  }
+  .mch15-header-actions>*{
+    width:100%!important;
+    max-width:430px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+  }
+  .mch22-summary{
+    padding-left:48px!important;
+    padding-right:48px!important;
+  }
+}
 </style>
 
 <script>
