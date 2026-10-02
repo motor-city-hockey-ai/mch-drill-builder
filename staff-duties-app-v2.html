@@ -14,7 +14,8 @@
         <label><span>Date</span><input id="mch15-date" type="date"></label>
         <div class="mch15-staff-state"><span id="mch15-dot"></span><span id="mch15-staff-text">Staff Sheet snapshot</span></div>
         <button type="button" class="mch15-btn mch15-btn-dark" id="mch15-refresh-staff">Refresh Staff</button>
-        <button type="button" class="mch15-btn mch15-btn-red" id="mch15-export">Download 1-Page PDF</button>
+        <button type="button" class="mch15-btn mch15-btn-dark" id="mch15-export-staff">Export Staff PDF</button>
+        <button type="button" class="mch15-btn mch15-btn-red" id="mch15-export">Export Master PDF</button>
       </div>
     </header>
 
@@ -588,6 +589,8 @@
     </section>
   </div>
 
+  <section id="mch15-staff-packet" class="mch15-staff-packet" aria-hidden="true"></section>
+
   <div class="mch15-modal" id="mch15-assign-modal" aria-hidden="true">
     <div class="mch15-modal-bg" data-close-modal></div>
     <div class="mch15-dialog">
@@ -1061,6 +1064,53 @@
 }
 
 @media(max-width:700px){.mch15-tabs{grid-template-columns:1fr}.mch15-friday .mch15-rink-card{max-width:760px}.mch15-friday .mch15-monday-ops{grid-template-columns:1fr}}
+
+.mch15-staff-packet{display:none}
+.mch15-packet-page{background:#fff;color:#111}
+.mch15-packet-header{display:flex;align-items:center;gap:12px;border-bottom:3px solid #c91f2c;padding-bottom:10px;margin-bottom:14px}
+.mch15-packet-header img{width:54px;height:54px;object-fit:contain}
+.mch15-packet-kicker{font-size:9px;font-weight:900;letter-spacing:.12em;color:#c91f2c}
+.mch15-packet-header h1{margin:2px 0 0;font-size:22px;line-height:1.05}
+.mch15-packet-meta{margin-top:3px;color:#666;font-size:9px;font-weight:700}
+.mch15-packet-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:16px 0}
+.mch15-packet-nav a,.mch15-packet-back{display:block;border:1px solid #d7d7d7;border-radius:8px;padding:10px 12px;color:#111!important;text-decoration:none!important;font-weight:900;background:#f7f7f7}
+.mch15-packet-nav a.mch15-master-link{background:#111;color:#fff!important;border-color:#111}
+.mch15-packet-section{margin-top:12px;border:1px solid #dedede;border-radius:10px;overflow:hidden}
+.mch15-packet-section h2{margin:0;padding:8px 10px;background:#111;color:#fff;font-size:12px}
+.mch15-packet-list{padding:8px 10px}
+.mch15-packet-row{display:grid;grid-template-columns:140px 1fr;gap:10px;padding:7px 0;border-bottom:1px solid #e8e8e8;font-size:9px;line-height:1.35}
+.mch15-packet-row:last-child{border-bottom:0}
+.mch15-packet-row strong{font-size:9px}
+.mch15-packet-row span{white-space:normal}
+.mch15-packet-muted{color:#777}
+.mch15-packet-itinerary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;padding:8px 10px}
+.mch15-packet-itinerary div{border:1px solid #e1e1e1;border-radius:7px;padding:7px;background:#fafafa;font-size:9px}
+.mch15-packet-itinerary b{display:block;margin-bottom:2px}
+.mch15-packet-drill{margin-top:3px;font-size:8px;color:#444}
+.mch15-packet-drill b{color:#111}
+@media print{
+  body.mch15-staff-packet-mode{background:#fff!important}
+  body.mch15-staff-packet-mode #mch-zones-v15>.mch15-shell,
+  body.mch15-staff-packet-mode #mch-zones-v15>.mch15-modal{display:none!important}
+  body.mch15-staff-packet-mode #mch15-staff-packet{display:block!important}
+  body.mch15-staff-packet-mode #mch15-staff-packet *{visibility:visible!important}
+  body.mch15-staff-packet-mode .mch15-packet-page{
+    display:block!important;
+    width:7.85in;
+    min-height:10.15in;
+    margin:0 auto;
+    padding:.18in .22in;
+    break-after:page;
+    page-break-after:always;
+    overflow:visible;
+    -webkit-print-color-adjust:exact;
+    print-color-adjust:exact
+  }
+  body.mch15-staff-packet-mode .mch15-packet-page:last-child{break-after:auto;page-break-after:auto}
+  body.mch15-staff-packet-mode .mch15-packet-section,
+  body.mch15-staff-packet-mode .mch15-packet-row{break-inside:avoid;page-break-inside:avoid}
+}
+@page{size:letter portrait;margin:.12in}
 </style>
 
 <script>
@@ -2528,6 +2578,150 @@ function drawCampV23TwoPages(doc,f,imgData,amKey,pmKey){
   y=campV23Header(doc,state.date||"Page 2");y=drawCampV23OffIce(doc,y);
   if(!state.deleted[pmKey]){var pmGrid=campV23GridMetrics(doc,pmKey,doc.internal.pageSize.getWidth()-40);y=drawCampV23Rink(doc,pmKey,y,"PM Session - 12:30-2:00 PM",imgData,360,20+pmGrid.h);drawCampV23Grid(doc,pmKey,y,"PM Trainer Instructions");}
 }
+
+function packetSafeId(v){
+  return String(v||"staff").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"staff";
+}
+function packetHeaderHTML(title,subtitle){
+  var logo=root.querySelector(".mch15-logo");
+  return '<div class="mch15-packet-header">'+
+    (logo?'<img src="'+esc(logo.src)+'" alt="Motor City Hockey">':'')+
+    '<div><div class="mch15-packet-kicker">MOTOR CITY HOCKEY</div><h1>'+esc(title)+'</h1>'+
+    '<div class="mch15-packet-meta">'+esc(subtitle||"")+(state.date?' · '+esc(state.date):'')+'</div></div></div>';
+}
+function packetItineraryHTML(){
+  return '<div class="mch15-packet-itinerary">'+DAILY_SCHEDULE.map(function(item){
+    return '<div><b>'+esc(item[1])+'</b><span>'+esc(item[0])+'</span></div>';
+  }).join("")+'</div>';
+}
+function packetActiveCampStaff(){
+  var out=[],seen={};
+  function add(v){v=String(v||"");if(!v||seen[v])return;seen[v]=1;out.push(v)}
+  var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;
+  ["am","pm"].forEach(function(sess){
+    var key="camp-"+state.campFormat+"-"+sess;
+    if(state.deleted&&state.deleted[key])return;
+    f.stations.forEach(function(s){
+      var a=effectiveAssign(key,s[0]);add(a.coach1);add(a.coach2);
+    });
+  });
+  var duties=ensureTasks("camp",CAMP_TASKS);
+  duties.forEach(function(v,i){if(!(state.taskHidden&&state.taskHidden["camp-"+i]))add(v)});
+  for(var n=1;n<=6;n++){
+    if(state.lockerHidden&&state.lockerHidden[n])continue;
+    var r=ensureRoom(n);add(r.coach1);add(r.coach2);
+  }
+  for(var o=1;o<=4;o++){
+    if(state.offIceHidden&&state.offIceHidden[o])continue;
+    add(ensureOffIce(o).coach);
+  }
+  out.sort(function(a,b){return staffName(a).localeCompare(staffName(b))});
+  return out;
+}
+function packetSectionHTML(title,rows){
+  return '<section class="mch15-packet-section"><h2>'+esc(title)+'</h2><div class="mch15-packet-list">'+
+    (rows.length?rows.join(""):'<div class="mch15-packet-row"><strong>—</strong><span class="mch15-packet-muted">No assignments.</span></div>')+
+    '</div></section>';
+}
+function packetCampStationRows(filterCoach){
+  var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split,rows=[];
+  [["AM","am","9:00–10:30 AM"],["PM","pm","12:30–2:00 PM"]].forEach(function(info){
+    var key="camp-"+state.campFormat+"-"+info[1];
+    if(state.deleted&&state.deleted[key])return;
+    f.stations.forEach(function(s){
+      var a=effectiveAssign(key,s[0]);
+      var ids=[a.coach1,a.coach2].filter(Boolean);
+      if(filterCoach&&ids.indexOf(filterCoach)<0)return;
+      var names=ids.map(staffName).filter(Boolean).join(" / ")||"Unassigned";
+      var d=stationFocusDetails(stationFocusValue(key,s[0]));
+      var detail=d?'<div class="mch15-packet-drill"><b>'+esc(d.name)+'</b>'+(d.category?' · '+esc(d.category):'')+(d.description?'<br>'+esc(d.description):'')+'</div>':'';
+      rows.push('<div class="mch15-packet-row"><strong>'+esc(info[0]+' · '+s[1])+'</strong><span>'+esc(names)+'<br><span class="mch15-packet-muted">'+esc(info[2])+'</span>'+detail+'</span></div>');
+    });
+  });
+  return rows;
+}
+function packetCampDutyRows(filterCoach){
+  var vals=ensureTasks("camp",CAMP_TASKS),rows=[];
+  CAMP_TASKS.forEach(function(name,i){
+    if(state.taskHidden&&state.taskHidden["camp-"+i])return;
+    var v=vals[i]||"";
+    if(filterCoach&&v!==filterCoach)return;
+    rows.push('<div class="mch15-packet-row"><strong>'+esc(name)+'</strong><span>'+esc(staffName(v)||"Unassigned")+'</span></div>');
+  });
+  return rows;
+}
+function packetOffIceRows(filterCoach){
+  var rows=[];
+  for(var n=1;n<=4;n++){
+    if(state.offIceHidden&&state.offIceHidden[n])continue;
+    var d=ensureOffIce(n);
+    if(filterCoach&&d.coach!==filterCoach)continue;
+    rows.push('<div class="mch15-packet-row"><strong>Off-Ice Station '+n+'</strong><span>'+esc(d.activity||"Activity not selected")+' · '+esc(staffName(d.coach)||"Unassigned")+'</span></div>');
+  }
+  return rows;
+}
+function packetLockerRows(filterCoach){
+  var rows=[];
+  for(var n=1;n<=6;n++){
+    if(state.lockerHidden&&state.lockerHidden[n])continue;
+    var r=ensureRoom(n),ids=[r.coach1,r.coach2].filter(Boolean);
+    if(filterCoach&&ids.indexOf(filterCoach)<0)continue;
+    rows.push('<div class="mch15-packet-row"><strong>Locker Room '+n+'</strong><span>'+esc(ids.map(staffName).filter(Boolean).join(" / ")||"Unassigned")+'</span></div>');
+  }
+  return rows;
+}
+function buildCampStaffPacket(){
+  if(currentProgram()!=="camp"){alert("Choose Camps first, then use Export Staff PDF.");return false}
+  var packet=document.getElementById("mch15-staff-packet");
+  if(!packet)return false;
+  var f=CAMP_CONFIG[state.campFormat]||CAMP_CONFIG.split;
+  var active=packetActiveCampStaff();
+  var nav='<div class="mch15-packet-nav"><a class="mch15-master-link" href="#mch15-packet-master">Master View</a>'+
+    active.map(function(v,i){return '<a href="#mch15-person-'+packetSafeId(staffName(v))+'-'+i+'">'+esc(staffName(v))+'</a>'}).join("")+'</div>';
+  var cover='<article class="mch15-packet-page" id="mch15-packet-cover">'+
+    packetHeaderHTML("Camp Staff Packet",f.title+" · AM + PM")+
+    '<section class="mch15-packet-section"><h2>Choose Your View</h2><div class="mch15-packet-list">'+
+    '<div class="mch15-packet-row"><strong>Staff Views</strong><span>Only coaches currently assigned to this camp appear below. Click a name in the saved PDF to jump directly to that coach\'s itinerary, drills and duties.</span></div>'+
+    '</div></section>'+nav+
+    (!active.length?'<div class="mch15-packet-muted">No staff assignments have been made yet. Master View is still available.</div>':'')+
+    '</article>';
+  var master='<article class="mch15-packet-page" id="mch15-packet-master">'+
+    packetHeaderHTML("Master View",f.title+" · Full Camp Plan")+
+    '<a class="mch15-packet-back" href="#mch15-packet-cover">← Staff List</a>'+
+    '<section class="mch15-packet-section"><h2>Camp Itinerary</h2>'+packetItineraryHTML()+'</section>'+
+    packetSectionHTML("AM + PM On-Ice Assignments",packetCampStationRows(""))+
+    packetSectionHTML("Camp Duties",packetCampDutyRows(""))+
+    packetSectionHTML("Off-Ice Stations",packetOffIceRows(""))+
+    packetSectionHTML("Locker Rooms",packetLockerRows(""))+
+    '</article>';
+  var people=active.map(function(v,i){
+    var name=staffName(v)||"Staff";
+    return '<article class="mch15-packet-page" id="mch15-person-'+packetSafeId(name)+'-'+i+'">'+
+      packetHeaderHTML(name,f.title+" · Staff View")+
+      '<a class="mch15-packet-back" href="#mch15-packet-cover">← Staff List / Master View</a>'+
+      '<section class="mch15-packet-section"><h2>Camp Itinerary</h2>'+packetItineraryHTML()+'</section>'+
+      packetSectionHTML("Your On-Ice Stations & Drills",packetCampStationRows(v))+
+      packetSectionHTML("Your Camp Duties",packetCampDutyRows(v))+
+      packetSectionHTML("Your Off-Ice Assignments",packetOffIceRows(v))+
+      packetSectionHTML("Your Locker Rooms",packetLockerRows(v))+
+      '</article>';
+  }).join("");
+  packet.innerHTML=cover+master+people;
+  packet.setAttribute("aria-hidden","false");
+  return true;
+}
+function exportCampStaffPacket(){
+  if(!buildCampStaffPacket())return;
+  document.body.classList.add("mch15-staff-packet-mode");
+  setTimeout(function(){window.print()},80);
+}
+function clearCampStaffPacketMode(){
+  document.body.classList.remove("mch15-staff-packet-mode");
+  var packet=document.getElementById("mch15-staff-packet");
+  if(packet)packet.setAttribute("aria-hidden","true");
+}
+window.addEventListener("afterprint",clearCampStaffPacketMode);
+
 async function exportPDF(){
   var p=currentProgram();if(!p){alert("Choose Monday Training, Friday 5:10 PM or Camps first.");return}
   var btn=document.getElementById("mch15-export"),old=btn.textContent;btn.textContent="Building PDF…";btn.disabled=true;
@@ -2581,6 +2775,7 @@ root.addEventListener("click",function(e){
 document.getElementById("mch15-save-station").addEventListener("click",saveModal);
 document.getElementById("mch15-clear-station").addEventListener("click",function(){document.getElementById("mch15-modal-coach1").value="";document.getElementById("mch15-modal-coach2").value="";if(!document.getElementById("mch15-focus-block").hidden){populateFocusControls("","")}});
 document.getElementById("mch15-refresh-staff").addEventListener("click",refreshStaff);
+document.getElementById("mch15-export-staff").addEventListener("click",exportCampStaffPacket);
 document.getElementById("mch15-export").addEventListener("click",exportPDF);
 
 root.addEventListener("change",function(e){
