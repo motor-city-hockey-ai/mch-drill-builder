@@ -436,7 +436,7 @@
       <div class="mch15-section-head">
         <div><div class="mch15-eyebrow">FUTURE STARS ASSIGNMENTS</div><h2>6U + 8U Practice Assignments</h2></div>
         <div class="mch15-head-right">
-          <span>Two full-width plans, stacked vertically. Assign up to 2 coaches per station, customize names, and keep station assignments directly below each diagram.</span>
+          <span>Two full-width plans, stacked vertically. Assign up to 2 coaches per station. No drill selection — coach assignments only.</span>
         </div>
       </div>
 
@@ -460,7 +460,7 @@
         </div>
         <div class="mch22-stack mch15-saturday-plan-wrap">
           <details class="mch22-block" open>
-            <summary class="mch22-summary"><span>6U Station Assignments &amp; Drills</span><small>Coach + drill</small></summary>
+            <summary class="mch22-summary"><span>6U Station Assignments</span><small>Up to 2 coaches per station</small></summary>
             <div class="mch22-body"><div id="mch15-saturday-plan-6u" class="mch18-session-plan"></div></div>
           </details>
         </div>
@@ -486,7 +486,7 @@
         </div>
         <div class="mch22-stack mch15-saturday-plan-wrap">
           <details class="mch22-block" open>
-            <summary class="mch22-summary"><span>8U Station Assignments &amp; Drills</span><small>Coach + drill</small></summary>
+            <summary class="mch22-summary"><span>8U Station Assignments</span><small>Up to 2 coaches per station</small></summary>
             <div class="mch22-body"><div id="mch15-saturday-plan-8u" class="mch18-session-plan"></div></div>
           </details>
         </div>
@@ -1415,6 +1415,114 @@
 .mch15-saturday-practice-title strong{font-size:21px}
 .mch15-saturday-practice-title span{font-size:11px;font-weight:800;color:#777}
 
+/* FUTURE STARS — COACH ASSIGNMENTS ONLY */
+.mch15-saturday .mch15-stage>img{pointer-events:none!important}
+.mch15-saturday .mch15-stage{overflow:visible}
+.mch15-saturday .mch15-station{
+  min-height:34px!important;
+  border:2px solid rgba(17,17,17,.78)!important;
+  background:rgba(255,255,255,.96)!important;
+  cursor:pointer!important;
+  overflow:visible!important;
+}
+.mch15-saturday .mch15-station::before{
+  content:attr(data-label);
+  position:absolute;
+  left:50%;
+  top:-20px;
+  transform:translateX(-50%);
+  display:block;
+  min-width:74px;
+  padding:3px 7px;
+  border-radius:3px;
+  background:#111;
+  color:#fff;
+  font-size:9px;
+  line-height:1.1;
+  font-weight:900;
+  letter-spacing:.02em;
+  text-transform:uppercase;
+  white-space:nowrap;
+  z-index:4;
+}
+.mch15-saturday .mch15-station .mch15-focus-name{display:none!important}
+.mch15-saturday .mch15-station .mch15-assign{
+  color:#111!important;
+  font-size:10px!important;
+  font-weight:900!important;
+}
+.mch15-saturday .mch15-station.filled{
+  border-color:#111!important;
+  background:#fff!important;
+}
+.mch15-saturday .mch15-station.filled .mch15-name1,
+.mch15-saturday .mch15-station.filled .mch15-name2{
+  display:block!important;
+  margin:2px 0!important;
+  padding:4px 5px!important;
+  border-radius:3px!important;
+  background:#fff200!important;
+  color:#000!important;
+  font-size:10px!important;
+  line-height:1.05!important;
+  font-weight:900!important;
+  box-shadow:0 0 0 1px rgba(0,0,0,.15)!important;
+}
+.mch15-fs-plan-head{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:4px;
+  margin-bottom:12px;
+  text-align:center;
+}
+.mch15-fs-plan-head strong{font-size:16px}
+.mch15-fs-plan-head span{font-size:11px;font-weight:800;color:#666}
+.mch15-fs-list{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:8px;
+  max-width:760px;
+  margin:0 auto;
+}
+.mch15-fs-row{
+  display:grid;
+  grid-template-columns:140px 1fr;
+  align-items:center;
+  gap:10px;
+  width:100%;
+  min-height:48px;
+  padding:8px 10px;
+  border:1px solid #d7d7d7;
+  border-radius:8px;
+  background:#fff;
+  color:#111;
+  text-align:left;
+  cursor:pointer;
+}
+.mch15-fs-row:hover{border-color:#111}
+.mch15-fs-station{font-size:12px;font-weight:900;text-align:center}
+.mch15-fs-coaches{
+  display:block;
+  padding:7px 10px;
+  border-radius:5px;
+  background:#f3f3f3;
+  color:#666;
+  font-size:12px;
+  font-weight:900;
+  text-align:center;
+}
+.mch15-fs-row.assigned .mch15-fs-coaches{
+  background:#fff200;
+  color:#000;
+  box-shadow:0 0 0 1px rgba(0,0,0,.18);
+}
+@media(max-width:620px){
+  .mch15-fs-row{grid-template-columns:1fr}
+  .mch15-saturday .mch15-station{width:22%!important}
+  .mch15-saturday .mch15-station::before{min-width:64px;font-size:8px}
+}
+
 /* TEXT + MOVABLE STATIONS LAYER V2 */
 .mch-wb-tools{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:7px;padding:8px 10px;border-bottom:1px solid #e4e4e4;background:#f7f7f7}
 .mch-wb-tools button{min-height:36px;padding:7px 11px;border:1px solid #d3d3d3;border-radius:7px;background:#fff;color:#111;font-size:10px;font-weight:900}
@@ -1641,8 +1749,12 @@ function ensureWhiteboard(stage){
   stage.parentNode.insertBefore(tools,stage);renderWhiteboard(stage);applyStoredStationPositions(stage);
 }
 function enhanceWhiteboards(){
-  root.querySelectorAll(".mch15-stage").forEach(ensureWhiteboard);
-  root.querySelectorAll(".mch15-stage").forEach(function(s){renderWhiteboard(s);applyStoredStationPositions(s)});
+  root.querySelectorAll(".mch15-stage").forEach(function(s){
+    if(!s.closest(".mch15-saturday"))ensureWhiteboard(s);
+  });
+  root.querySelectorAll(".mch15-stage").forEach(function(s){
+    if(!s.closest(".mch15-saturday")){renderWhiteboard(s);applyStoredStationPositions(s)}
+  });
 }
 function wbPoint(stage,e){
   var r=stage.getBoundingClientRect();return{x:(e.clientX-r.left)/r.width*1000,y:(e.clientY-r.top)/r.height*667};
@@ -1692,22 +1804,18 @@ function renderSaturdayPlan(){
     var cfg=SATURDAY_CONFIG[key];
     var rows=cfg.stations.map(function(s){
       var a=effectiveAssign(key,s.id);
-      var coaches=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean).join(" / ");
-      var d=stationFocusDetails(stationFocusValue(key,s.id));
-      var has=!!d;
-      return '<details class="mch18-station-detail" open>'+
-        '<summary>'+
-          '<div class="mch18-station-name"><strong>'+esc(s.label)+'</strong><span>'+esc(coaches||"Unassigned")+'</span></div>'+
-          '<div class="mch18-station-drill"><span>'+esc(has?d.category:"No Focus")+'</span><strong>'+esc(has?d.name:"No drill selected")+'</strong></div>'+
-        '</summary>'+
-        '<div class="mch18-station-instructions"><span>Trainer Instructions</span><p>'+esc(has&&d.description?d.description:"Select a drill to show the trainer instructions here.")+'</p></div>'+
-      '</details>';
+      var coaches=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean);
+      var coachText=coaches.length?coaches.join(" / "):"Tap to assign coach";
+      return '<button type="button" class="mch15-fs-row'+(coaches.length?' assigned':'')+'" data-rink="'+esc(key)+'" data-station="'+esc(s.id)+'" data-label="'+esc(s.label)+'">'+
+        '<span class="mch15-fs-station">'+esc(s.label)+'</span>'+
+        '<span class="mch15-fs-coaches">'+esc(coachText)+'</span>'+
+      '</button>';
     }).join("");
-    host.innerHTML='<div class="mch18-plan-head"><strong>'+label+' — Station Assignments</strong><span>Up to 2 coaches + drill assignment for each zone.</span></div><div class="mch18-station-list">'+rows+'</div>';
+    host.innerHTML='<div class="mch15-fs-plan-head"><strong>'+esc(label)+' — Station Assignments</strong><span>Tap any station to assign up to 2 coaches.</span></div><div class="mch15-fs-list">'+rows+'</div>';
   });
 }
 function usesStationFocus(rink){
-  return /^camp-/.test(rink)||/^saturday-/.test(rink);
+  return /^camp-/.test(rink);
 }
 function customValue(name){return "custom:"+encodeURIComponent(String(name||"").trim())}
 function staffName(v){
@@ -1762,7 +1870,7 @@ function renderAssignButtons(){
     var r=effectiveAssign(b.dataset.rink,b.dataset.station);
     var n1=staffName(r.coach1),n2=staffName(r.coach2);
     var hasFocus=usesStationFocus(b.dataset.rink);
-    var focus= hasFocus ? stationFocusDetails(stationFocusValue(b.dataset.rink,b.dataset.station)) : null;
+    var focus=hasFocus ? stationFocusDetails(stationFocusValue(b.dataset.rink,b.dataset.station)) : null;
     var focusSpan=b.querySelector(".mch15-focus-name");
     if(hasFocus&&!focusSpan){
       focusSpan=document.createElement("span");
@@ -3481,19 +3589,18 @@ async function exportPDF(){
         var cfg=SATURDAY_CONFIG[sk],rows=[];
         cfg.stations.forEach(function(s){
           var a=effectiveAssign(sk,s.id),coaches=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean).join(" / ")||"Unassigned";
-          var d=stationFocusDetails(stationFocusValue(sk,s.id));
-          rows.push({station:s.label,coaches:coaches,drill:d?d.name:"No drill selected"});
+          rows.push({station:s.label,coaches:coaches});
         });
-        var ty=ry+rh+12,tableX=96,tableW=600,rowH=18;
+        var ty=ry+rh+12,tableX=96,tableW=600,rowH=22;
         doc.setFillColor(17,17,17);doc.roundedRect(tableX,ty,tableW,20,4,4,"F");
-        doc.setTextColor(255,255,255);doc.setFont("helvetica","bold");doc.setFontSize(8);doc.text(sp[0].toUpperCase()+" — ZONE ASSIGNMENTS",tableX+8,ty+13);
+        doc.setTextColor(255,255,255);doc.setFont("helvetica","bold");doc.setFontSize(8);doc.text(sp[0].toUpperCase()+" — STATION ASSIGNMENTS",tableX+8,ty+13);
         doc.setTextColor(0,0,0);
         rows.forEach(function(r,idx){
           var yy=ty+20+idx*rowH;
           doc.setDrawColor(225);doc.rect(tableX,yy,tableW,rowH);
-          doc.setFont("helvetica","bold");doc.setFontSize(7);doc.text(r.station,tableX+7,yy+12);
-          doc.setFont("helvetica","normal");doc.text(r.coaches,tableX+110,yy+12,{maxWidth:180});
-          doc.setFont("helvetica","bold");doc.text(r.drill,tableX+310,yy+12,{maxWidth:280});
+          doc.setFont("helvetica","bold");doc.setFontSize(8);doc.text(r.station,tableX+10,yy+14);
+          doc.setFillColor(255,242,0);doc.roundedRect(tableX+150,yy+4,tableW-165,rowH-8,3,3,"F");
+          doc.setTextColor(0,0,0);doc.setFont("helvetica","bold");doc.text(r.coaches,tableX+160,yy+14,{maxWidth:tableW-185});
         });
       }
     }else{
@@ -3604,7 +3711,7 @@ root.addEventListener("pointercancel",endWbGesture,true);
 
 root.addEventListener("click",function(e){
   if(e.target.closest(".mch-label-drag"))return;
-  var station=e.target.closest(".mch15-station");if(station){openModal(station);return}
+  var station=e.target.closest(".mch15-station,.mch15-fs-row");if(station){openModal(station);return}
   if(e.target.closest("[data-close-modal]")){closeModal();return}
   var del=e.target.closest("[data-delete-diagram]");if(del){var k=del.dataset.deleteDiagram;if(confirm("Remove this entire diagram from the current plan and PDF?")){state.deleted[k]=true;save();applyDeleted()}return}
   var restore=e.target.closest("[data-restore-program]");if(restore){if(restore.dataset.restoreProgram==="monday")["monday-610-c","monday-705-c","monday-705-b"].forEach(function(k){delete state.deleted[k]});else if(restore.dataset.restoreProgram==="thursday")delete state.deleted["thursday-510-a"];else if(restore.dataset.restoreProgram==="friday")delete state.deleted["friday-510-a"];else["camp-"+state.campFormat+"-am","camp-"+state.campFormat+"-pm"].forEach(function(k){delete state.deleted[k]});save();applyDeleted();renderCampStationPlans();return}
