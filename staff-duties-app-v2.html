@@ -1421,8 +1421,8 @@
 .mch15-saturday-plan-wrap{display:none!important}
 .mch15-saturday .mch15-stage{
   overflow:visible!important;
-  margin-top:128px!important;
-  margin-bottom:128px!important;
+  margin-top:82px!important;
+  margin-bottom:82px!important;
 }
 .mch15-saturday .mch15-stage>img{
   pointer-events:none!important;
@@ -1519,8 +1519,8 @@
 .mch15-fs-add-second:hover{border-color:#111;color:#111}
 @media(max-width:760px){
   .mch15-saturday .mch15-stage{
-    margin-top:110px!important;
-    margin-bottom:110px!important;
+    margin-top:76px!important;
+    margin-bottom:76px!important;
   }
   .mch15-fs-assigncard{
     width:150px;
@@ -1530,8 +1530,8 @@
 }
 @media(max-width:520px){
   .mch15-saturday .mch15-stage{
-    margin-top:105px!important;
-    margin-bottom:105px!important;
+    margin-top:72px!important;
+    margin-bottom:72px!important;
   }
   .mch15-fs-assigncard{
     width:31%;
@@ -1872,14 +1872,14 @@ function renderCampStationPlans(){
 
 function fsNameDefault(station){
   var map={
-    adv1:{x:18,y:-14},
-    adv2:{x:50,y:-14},
-    fs1:{x:82,y:-14},
-    adv3:{x:18,y:114},
-    fs3:{x:50,y:114},
-    fs2:{x:82,y:114}
+    adv1:{x:18,y:-8},
+    adv2:{x:50,y:-8},
+    fs1:{x:82,y:-8},
+    adv3:{x:18,y:108},
+    fs3:{x:50,y:108},
+    fs2:{x:82,y:108}
   };
-  return map[station]||{x:50,y:-14};
+  return map[station]||{x:50,y:-8};
 }
 function fsNamePosition(rink,station){
   if(!state.fsNamePositions)state.fsNamePositions={};
@@ -3935,7 +3935,7 @@ function init(){
   document.getElementById("mch15-camp-format").value=state.campFormat||"split";
 
   /* One-time reset so both Future Stars diagrams open in the same screenshot-matched layout. */
-  if(state.fsLayoutVersion!==3){
+  if(state.fsLayoutVersion!==4){
     if(!state.fsNamePositions)state.fsNamePositions={};
     [
       "saturday-future-stars-6u|adv1","saturday-future-stars-6u|adv2","saturday-future-stars-6u|adv3",
@@ -3943,7 +3943,7 @@ function init(){
       "saturday-future-stars-8u|adv1","saturday-future-stars-8u|adv2","saturday-future-stars-8u|adv3",
       "saturday-future-stars-8u|fs1","saturday-future-stars-8u|fs2","saturday-future-stars-8u|fs3"
     ].forEach(function(k){delete state.fsNamePositions[k]});
-    state.fsLayoutVersion=3;
+    state.fsLayoutVersion=4;
     save();
   }
 
