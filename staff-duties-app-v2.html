@@ -436,7 +436,7 @@
       <div class="mch15-section-head">
         <div><div class="mch15-eyebrow">FUTURE STARS ASSIGNMENTS</div><h2>6U + 8U Practice Assignments</h2></div>
         <div class="mch15-head-right">
-          <span>Two full-width plans, stacked vertically. Assign up to 2 coaches per station. No drill selection — coach assignments only.</span>
+          <span>Every zone has 1–2 coach selectors outside the rink. Choose Motor City staff or a custom name; remove Coach 2 with × when only one coach is needed.</span>
         </div>
       </div>
 
@@ -1415,101 +1415,158 @@
 .mch15-saturday-practice-title strong{font-size:21px}
 .mch15-saturday-practice-title span{font-size:11px;font-weight:800;color:#777}
 
-/* FUTURE STARS — CLICK THE PRINTED STATION, COACH NAMES OUTSIDE THE RINK */
+/* FUTURE STARS — 1–2 COACHES PER ZONE, CONTROLS OUTSIDE THE RINK */
 .mch15-saturday-plan-wrap{display:none!important}
 .mch15-saturday .mch15-stage{
   overflow:visible!important;
-  margin-top:58px!important;
-  margin-bottom:62px!important;
+  margin-top:118px!important;
+  margin-bottom:118px!important;
 }
 .mch15-saturday .mch15-stage>img{
   pointer-events:none!important;
   user-select:none!important;
 }
 .mch15-saturday .mch15-station{
-  z-index:6!important;
-  min-height:54px!important;
-  height:14%!important;
-  width:18%!important;
-  padding:0!important;
+  pointer-events:none!important;
   border:0!important;
-  border-radius:10px!important;
   background:transparent!important;
   box-shadow:none!important;
-  cursor:pointer!important;
-  opacity:1!important;
+  opacity:0!important;
 }
 .mch15-saturday .mch15-station span,
 .mch15-saturday .mch15-station .mch-label-drag{
   display:none!important;
 }
-.mch15-saturday .mch15-station:hover,
-.mch15-saturday .mch15-station:focus-visible{
-  background:rgba(255,242,0,.30)!important;
-  outline:2px dashed #111!important;
-  outline-offset:-2px!important;
-}
-.mch15-saturday .mch15-station:active{
-  background:rgba(255,242,0,.48)!important;
-}
-.mch15-fs-namebox{
+.mch15-fs-assigncard{
   position:absolute;
   z-index:12;
   transform:translate(-50%,-50%);
-  min-width:118px;
-  max-width:190px;
-  padding:7px 22px 7px 9px;
-  border:2px solid #111;
-  border-radius:7px;
-  background:#fff200;
-  color:#000;
-  box-shadow:0 3px 8px rgba(0,0,0,.18);
-  text-align:center;
-  cursor:move;
-  touch-action:none;
-  user-select:none;
+  width:184px;
+  padding:8px 8px 8px 26px;
+  border:1px solid #cfcfcf;
+  border-radius:10px;
+  background:#fff;
+  box-shadow:0 4px 14px rgba(0,0,0,.12);
 }
-.mch15-fs-namebox span{
-  display:block;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  white-space:nowrap;
-  font-size:11px;
-  line-height:1.12;
-  font-weight:900;
-}
-.mch15-fs-namebox span+span{margin-top:3px}
-.mch15-fs-namebox i{
+.mch15-fs-grip{
   position:absolute;
-  right:5px;
+  left:5px;
   top:50%;
   transform:translateY(-50%);
-  width:15px;
-  height:22px;
-  line-height:22px;
-  border-radius:4px;
+  width:17px;
+  height:38px;
+  padding:0;
+  border:0;
+  border-radius:5px;
   background:#111;
   color:#fff;
-  font-size:10px;
-  font-style:normal;
-  font-weight:900;
+  font-size:11px!important;
+  font-weight:900!important;
+  cursor:move!important;
+  touch-action:none;
+}
+.mch15-fs-coachrow{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 24px;
+  gap:5px;
+  align-items:center;
+  margin-top:5px;
+}
+.mch15-fs-coachrow-first{
+  grid-template-columns:minmax(0,1fr);
+  margin-top:0;
+}
+.mch15-fs-select{
+  width:100%;
+  min-width:0;
+  height:34px;
+  padding:4px 7px;
+  border:1px solid #cfcfcf;
+  border-radius:6px;
+  background:#f7f7f7;
+  color:#222;
+  font-size:10px!important;
+  font-weight:900!important;
   text-align:center;
 }
-@media(max-width:620px){
+.mch15-fs-select.assigned{
+  border-color:#111!important;
+  background:#fff200!important;
+  color:#000!important;
+}
+.mch15-fs-remove-second{
+  width:24px;
+  height:30px;
+  padding:0;
+  border:0;
+  border-radius:5px;
+  background:#111;
+  color:#fff;
+  font-size:17px!important;
+  line-height:30px!important;
+  font-weight:900!important;
+}
+.mch15-fs-add-second{
+  display:block;
+  width:100%;
+  min-height:28px;
+  margin-top:5px;
+  padding:4px 7px;
+  border:1px dashed #aaa;
+  border-radius:6px;
+  background:#fff;
+  color:#555;
+  font-size:9px!important;
+  font-weight:900!important;
+}
+.mch15-fs-add-second:hover{border-color:#111;color:#111}
+@media(max-width:760px){
   .mch15-saturday .mch15-stage{
-    margin-top:52px!important;
-    margin-bottom:56px!important;
+    margin-top:110px!important;
+    margin-bottom:110px!important;
   }
-  .mch15-saturday .mch15-station{
-    width:22%!important;
-    min-height:44px!important;
+  .mch15-fs-assigncard{
+    width:150px;
+    padding-left:23px;
   }
-  .mch15-fs-namebox{
+  .mch15-fs-select{font-size:9px!important}
+}
+@media(max-width:520px){
+  .mch15-saturday .mch15-stage{
+    margin-top:105px!important;
+    margin-bottom:105px!important;
+  }
+  .mch15-fs-assigncard{
+    width:31%;
     min-width:92px;
-    max-width:135px;
-    padding:6px 19px 6px 7px;
+    padding:6px 5px 6px 19px;
   }
-  .mch15-fs-namebox span{font-size:9px}
+  .mch15-fs-grip{
+    left:3px;
+    width:14px;
+    height:34px;
+    font-size:9px!important;
+  }
+  .mch15-fs-coachrow{
+    grid-template-columns:minmax(0,1fr) 20px;
+    gap:3px;
+  }
+  .mch15-fs-coachrow-first{grid-template-columns:minmax(0,1fr)}
+  .mch15-fs-select{
+    height:31px;
+    padding:3px 2px;
+    font-size:8px!important;
+  }
+  .mch15-fs-remove-second{
+    width:20px;
+    height:28px;
+    line-height:28px!important;
+  }
+  .mch15-fs-add-second{
+    min-height:25px;
+    padding:3px 2px;
+    font-size:7.5px!important;
+  }
 }
 
 /* TEXT + MOVABLE STATIONS LAYER V2 */
@@ -1564,13 +1621,14 @@ var imageCache={};
 
 function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}
 function slug(s){return String(s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")}
-function stateDefault(){return{date:"",campFormat:"split",assignments:{},pmOverride:{},times:{},tasks:{},taskHidden:{},lockers:{},lockerHidden:{},deleted:{},offIce:{},offIceHidden:{},stationFocus:{},whiteboard:{},stationPositions:{},fsNamePositions:{}}}
+function stateDefault(){return{date:"",campFormat:"split",assignments:{},pmOverride:{},times:{},tasks:{},taskHidden:{},lockers:{},lockerHidden:{},deleted:{},offIce:{},offIceHidden:{},stationFocus:{},whiteboard:{},stationPositions:{},fsNamePositions:{},fsSecondVisible:{}}}
 function load(){try{return Object.assign(stateDefault(),JSON.parse(localStorage.getItem(STORE)||"{}"))}catch(e){return stateDefault()}}
 var state=load();
 if(!state.lockerHidden)state.lockerHidden={};
 if(!state.whiteboard)state.whiteboard={};
 if(!state.stationPositions)state.stationPositions={};
 if(!state.fsNamePositions)state.fsNamePositions={};
+if(!state.fsSecondVisible)state.fsSecondVisible={};
 if(state.whiteboardTextVersion!==2){Object.keys(state.whiteboard).forEach(function(k){state.whiteboard[k]=(state.whiteboard[k]||[]).filter(function(it){return it&&it.type==="text"})});state.whiteboardTextVersion=2;try{localStorage.setItem(STORE,JSON.stringify(state))}catch(e){}}
 if(state.campDutyVersion!==23){
   var oldCamp=Array.isArray(state.tasks.camp)?state.tasks.camp.slice():[];
@@ -1790,13 +1848,13 @@ function renderCampStationPlans(){
 
 function fsNameDefault(station){
   var map={
-    s1:{x:18.8,y:-8},
-    s2:{x:49.8,y:-8},
-    s3:{x:78.7,y:-8},
-    s4:{x:79.3,y:108},
-    s5:{x:17.8,y:108}
+    s1:{x:16,y:-13},
+    s2:{x:50,y:-13},
+    s3:{x:84,y:-13},
+    s4:{x:80,y:113},
+    s5:{x:20,y:113}
   };
-  return map[station]||{x:50,y:-8};
+  return map[station]||{x:50,y:-13};
 }
 function fsNamePosition(rink,station){
   if(!state.fsNamePositions)state.fsNamePositions={};
@@ -1806,33 +1864,52 @@ function fsNamePosition(rink,station){
 function setFsNamePosition(rink,station,x,y){
   if(!state.fsNamePositions)state.fsNamePositions={};
   state.fsNamePositions[rink+"|"+station]={
-    x:Math.max(-8,Math.min(108,Number(x)||0)),
-    y:Math.max(-18,Math.min(118,Number(y)||0))
+    x:Math.max(-10,Math.min(110,Number(x)||0)),
+    y:Math.max(-24,Math.min(124,Number(y)||0))
   };
 }
-function renderFutureStarsNames(){
+function fsSecondIsVisible(rink,station){
+  if(!state.fsSecondVisible)state.fsSecondVisible={};
+  var key=rink+"|"+station;
+  return state.fsSecondVisible[key]!==false;
+}
+function fsOptions(selected){
+  return options(selected||"").replace("— Select —","— Select Coach —");
+}
+function renderFutureStarsAssignments(){
   root.querySelectorAll(".mch15-saturday .mch15-stage").forEach(function(stage){
-    stage.querySelectorAll(".mch15-fs-namebox").forEach(function(el){el.remove()});
+    stage.querySelectorAll(".mch15-fs-assigncard").forEach(function(el){el.remove()});
     stage.querySelectorAll(".mch15-station").forEach(function(btn){
       var rink=btn.dataset.rink,station=btn.dataset.station;
-      var a=effectiveAssign(rink,station);
-      var names=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean);
-      if(!names.length)return;
+      var a=ensureAssign(rink,station);
       var p=fsNamePosition(rink,station);
-      var box=document.createElement("div");
-      box.className="mch15-fs-namebox";
-      box.dataset.rink=rink;
-      box.dataset.station=station;
-      box.style.left=p.x+"%";
-      box.style.top=p.y+"%";
-      box.setAttribute("title","Drag to move coach name");
-      box.innerHTML='<span>'+names.map(esc).join('</span><span>')+'</span><i aria-hidden="true">↕</i>';
-      stage.appendChild(box);
+      var showSecond=fsSecondIsVisible(rink,station)||!!a.coach2;
+      var card=document.createElement("div");
+      card.className="mch15-fs-assigncard";
+      card.dataset.rink=rink;
+      card.dataset.station=station;
+      card.style.left=p.x+"%";
+      card.style.top=p.y+"%";
+
+      var secondHtml=showSecond
+        ? '<div class="mch15-fs-coachrow">'+
+            '<select class="mch15-fs-select'+(a.coach2?' assigned':'')+'" data-fs-rink="'+esc(rink)+'" data-fs-station="'+esc(station)+'" data-fs-slot="2" aria-label="Second coach">'+fsOptions(a.coach2)+'</select>'+
+            '<button type="button" class="mch15-fs-remove-second" data-fs-remove-second="1" aria-label="Remove second coach">×</button>'+
+          '</div>'
+        : '<button type="button" class="mch15-fs-add-second" data-fs-add-second="1">+ Add 2nd Coach</button>';
+
+      card.innerHTML=
+        '<button type="button" class="mch15-fs-grip" aria-label="Move this zone assignment" title="Drag to move">↕</button>'+
+        '<div class="mch15-fs-coachrow mch15-fs-coachrow-first">'+
+          '<select class="mch15-fs-select'+(a.coach1?' assigned':'')+'" data-fs-rink="'+esc(rink)+'" data-fs-station="'+esc(station)+'" data-fs-slot="1" aria-label="First coach">'+fsOptions(a.coach1)+'</select>'+
+        '</div>'+
+        secondHtml;
+      stage.appendChild(card);
     });
   });
 }
 function renderSaturdayPlan(){
-  renderFutureStarsNames();
+  renderFutureStarsAssignments();
 }
 function usesStationFocus(rink){
   return /^camp-/.test(rink);
@@ -1903,7 +1980,7 @@ function renderAssignButtons(){
     b.querySelector(".mch15-name1").textContent=n1;
     b.querySelector(".mch15-name2").textContent=n2;
   });
-  renderCampStationPlans();renderFutureStarsNames();applyStoredStationPositions(root);
+  renderCampStationPlans();renderFutureStarsAssignments();applyStoredStationPositions(root);
 }
 
 function ensureTime(rink,group,index){
@@ -3666,15 +3743,16 @@ root.addEventListener("click",function(e){
 },true);
 
 root.addEventListener("pointerdown",function(e){
-  var fsName=e.target.closest(".mch15-fs-namebox");
-  if(fsName){
-    var fsStage=fsName.closest(".mch15-stage");if(!fsStage)return;
+  var fsGrip=e.target.closest(".mch15-fs-grip");
+  if(fsGrip){
+    var fsCard=fsGrip.closest(".mch15-fs-assigncard"),fsStage=fsGrip.closest(".mch15-stage");
+    if(!fsCard||!fsStage)return;
     e.preventDefault();e.stopPropagation();
     var rect=fsStage.getBoundingClientRect();
     var start={x:(e.clientX-rect.left)/rect.width*100,y:(e.clientY-rect.top)/rect.height*100};
-    var base=fsNamePosition(fsName.dataset.rink,fsName.dataset.station);
-    wbGesture={kind:"fsname",pointer:e.pointerId,stage:fsStage,box:fsName,rink:fsName.dataset.rink,station:fsName.dataset.station,start:start,base:base};
-    try{fsName.setPointerCapture(e.pointerId)}catch(_){}
+    var base=fsNamePosition(fsCard.dataset.rink,fsCard.dataset.station);
+    wbGesture={kind:"fsname",pointer:e.pointerId,stage:fsStage,box:fsCard,rink:fsCard.dataset.rink,station:fsCard.dataset.station,start:start,base:base};
+    try{fsGrip.setPointerCapture(e.pointerId)}catch(_){}
     return;
   }
   var handle=e.target.closest(".mch-label-drag");
@@ -3749,7 +3827,27 @@ root.addEventListener("pointercancel",endWbGesture,true);
 
 root.addEventListener("click",function(e){
   if(e.target.closest(".mch-label-drag"))return;
-  var station=e.target.closest(".mch15-station,.mch15-fs-row");if(station){openModal(station);return}
+  var fsAdd=e.target.closest("[data-fs-add-second]");
+  if(fsAdd){
+    var addCard=fsAdd.closest(".mch15-fs-assigncard");
+    if(addCard){
+      state.fsSecondVisible[addCard.dataset.rink+"|"+addCard.dataset.station]=true;
+      save();renderFutureStarsAssignments();
+    }
+    return;
+  }
+  var fsRemove=e.target.closest("[data-fs-remove-second]");
+  if(fsRemove){
+    var removeCard=fsRemove.closest(".mch15-fs-assigncard");
+    if(removeCard){
+      var ar=ensureAssign(removeCard.dataset.rink,removeCard.dataset.station);
+      ar.coach2="";
+      state.fsSecondVisible[removeCard.dataset.rink+"|"+removeCard.dataset.station]=false;
+      save();renderAssignButtons();
+    }
+    return;
+  }
+  var station=e.target.closest(".mch15-station");if(station){openModal(station);return}
   if(e.target.closest("[data-close-modal]")){closeModal();return}
   var del=e.target.closest("[data-delete-diagram]");if(del){var k=del.dataset.deleteDiagram;if(confirm("Remove this entire diagram from the current plan and PDF?")){state.deleted[k]=true;save();applyDeleted()}return}
   var restore=e.target.closest("[data-restore-program]");if(restore){if(restore.dataset.restoreProgram==="monday")["monday-610-c","monday-705-c","monday-705-b"].forEach(function(k){delete state.deleted[k]});else if(restore.dataset.restoreProgram==="thursday")delete state.deleted["thursday-510-a"];else if(restore.dataset.restoreProgram==="friday")delete state.deleted["friday-510-a"];else["camp-"+state.campFormat+"-am","camp-"+state.campFormat+"-pm"].forEach(function(k){delete state.deleted[k]});save();applyDeleted();renderCampStationPlans();return}
@@ -3771,6 +3869,18 @@ document.getElementById("mch15-export").addEventListener("click",exportPDF);
 root.addEventListener("change",function(e){
   var el=e.target;
   if(el.name==="mch15-program"){updateSubtitle();return}
+  if(el.classList.contains("mch15-fs-select")){
+    var rink=el.dataset.fsRink,station=el.dataset.fsStation,slot=el.dataset.fsSlot;
+    if(el.value===CUSTOM){
+      var custom=customPrompt(el);
+      if(custom==null){renderFutureStarsAssignments();return}
+      el.value=custom;
+    }
+    var assign=ensureAssign(rink,station);
+    if(slot==="2")assign.coach2=el.value||"";
+    else assign.coach1=el.value||"";
+    save();renderAssignButtons();return;
+  }
   if(el.id==="mch15-date"){state.date=el.value||"";save();return}
   if(el.id==="mch15-camp-format"){state.campFormat=el.value||"split";save();renderCampFormat();return}
   if(el.value===CUSTOM&&el.classList.contains("mch15-staff-select")){
