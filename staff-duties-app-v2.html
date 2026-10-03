@@ -1872,14 +1872,14 @@ function renderCampStationPlans(){
 
 function fsNameDefault(station){
   var map={
-    adv1:{x:14,y:-17},
-    adv2:{x:38,y:-17},
-    fs3:{x:62,y:-17},
-    fs1:{x:86,y:-17},
-    adv3:{x:20,y:117},
-    fs2:{x:80,y:117}
+    adv1:{x:18,y:-14},
+    adv2:{x:50,y:-14},
+    fs1:{x:82,y:-14},
+    adv3:{x:18,y:114},
+    fs3:{x:50,y:114},
+    fs2:{x:82,y:114}
   };
-  return map[station]||{x:50,y:-17};
+  return map[station]||{x:50,y:-14};
 }
 function fsNamePosition(rink,station){
   if(!state.fsNamePositions)state.fsNamePositions={};
@@ -2244,7 +2244,7 @@ function pdfText(doc,text,x,y,maxw,fs,bold){
 function drawHeader(doc,subtitle){
   doc.setFillColor(17,17,17);doc.rect(0,0,792,42,"F");
   doc.addImage(LOGO_DATA,"PNG",12,6,30,30);
-  doc.setTextColor(255,255,255);doc.setFont("helvetica","bold");doc.setFontSize(16);doc.text("MOTOR CITY HOCKEY — SKATE ZONES & DUTIES",50,19);
+  doc.setTextColor(255,255,255);doc.setFont("helvetica","bold");doc.setFontSize(13.5);doc.text("Motor City Impact - Developing Players & Building The Future",50,19);
   doc.setTextColor(190,190,190);doc.setFontSize(9);doc.text(subtitle,50,32);
   doc.setTextColor(255,255,255);doc.setFontSize(9);doc.text(state.date||"",780,23,{align:"right"});
   doc.setTextColor(0,0,0);
@@ -3733,7 +3733,7 @@ async function exportPDF(){
       drawCampV23TwoPages(doc,f,img,amKey,pmKey);
     }
 
-    doc.save("Motor-City-Hockey-Skate-Zones-Duties.pdf");
+    doc.save("Motor-City-Impact-Developing-Players-Building-The-Future.pdf");
   }catch(err){console.error(err);alert("PDF export could not load. Check your internet connection and try again.")}
   finally{btn.textContent=old;btn.disabled=false}
 }
@@ -3933,6 +3933,20 @@ document.getElementById("mch15-assign-modal").addEventListener("change",function
 function init(){
   document.getElementById("mch15-date").value=state.date||"";
   document.getElementById("mch15-camp-format").value=state.campFormat||"split";
+
+  /* One-time reset so both Future Stars diagrams open in the same screenshot-matched layout. */
+  if(state.fsLayoutVersion!==3){
+    if(!state.fsNamePositions)state.fsNamePositions={};
+    [
+      "saturday-future-stars-6u|adv1","saturday-future-stars-6u|adv2","saturday-future-stars-6u|adv3",
+      "saturday-future-stars-6u|fs1","saturday-future-stars-6u|fs2","saturday-future-stars-6u|fs3",
+      "saturday-future-stars-8u|adv1","saturday-future-stars-8u|adv2","saturday-future-stars-8u|adv3",
+      "saturday-future-stars-8u|fs1","saturday-future-stars-8u|fs2","saturday-future-stars-8u|fs3"
+    ].forEach(function(k){delete state.fsNamePositions[k]});
+    state.fsLayoutVersion=3;
+    save();
+  }
+
   fillAllSelects();renderRooms();renderOffIce();renderTimes();renderCampFormat();renderAssignButtons();applyTaskHidden();applyDeleted();updateSubtitle();renderCampStationPlans();renderSaturdayPlan();enhanceWhiteboards();
   loadCampDrillLibrary();
   refreshStaff();
