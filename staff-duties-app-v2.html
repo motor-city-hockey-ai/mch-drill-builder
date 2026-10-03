@@ -3714,8 +3714,24 @@ async function exportPDF(){
         cfg.stations.forEach(function(s){
           var a=effectiveAssign(sk,s.id),names=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean);
           if(!names.length)return;
-          var pos=fsNamePosition(sk,s.id),bx=rx+(pos.x/100)*rw,by=ry+(pos.y/100)*imgH;
+
+          /* Keep the printed coach boxes tight to the rink edge, matching the on-screen layout. */
+          var pdfPos={
+            adv1:{x:.18,row:"top"},
+            adv2:{x:.50,row:"top"},
+            fs1:{x:.82,row:"top"},
+            adv3:{x:.18,row:"bottom"},
+            fs3:{x:.50,row:"bottom"},
+            fs2:{x:.82,row:"bottom"}
+          }[s.id]||{x:.50,row:"top"};
+
           var bw=130,bh=names.length>1?29:20;
+          var bx=rx+pdfPos.x*rw;
+          var gap=5;
+          var by=pdfPos.row==="top"
+            ? ry-gap-(bh/2)
+            : ry+imgH+gap+(bh/2);
+
           doc.setFillColor(255,255,255);doc.setDrawColor(17,17,17);doc.setLineWidth(1.2);
           doc.roundedRect(bx-bw/2,by-bh/2,bw,bh,4,4,"FD");
           doc.setTextColor(0,0,0);doc.setFont("helvetica","bold");doc.setFontSize(8);
