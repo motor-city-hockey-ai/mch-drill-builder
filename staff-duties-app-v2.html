@@ -1944,8 +1944,11 @@ function usesStationFocus(rink){
 function customValue(name){return "custom:"+encodeURIComponent(String(name||"").trim())}
 function staffName(v){
   v=String(v||"");
-  if(v.indexOf("custom:")===0){try{return decodeURIComponent(v.slice(7))}catch(e){return v.slice(7)}}
-  return staffMap[v]||"";
+  var name="";
+  if(v.indexOf("custom:")===0){try{name=decodeURIComponent(v.slice(7))}catch(e){name=v.slice(7)}}
+  else name=staffMap[v]||"";
+  if(name==="Jim Zouhoury")name="Jim Zohoury";
+  return name;
 }
 function options(selected){
   selected=String(selected||"");
@@ -3708,8 +3711,9 @@ async function exportPDF(){
         if(spi>0)doc.addPage();
         var sp=plans[spi],sk=sp[1],cfg=SATURDAY_CONFIG[sk],simg=await urlToData(cfg.url);
         drawHeader(doc,"Future Stars — "+sp[0]+" — Page "+(spi+1)+" of 2");
-        var rx=96,ry=108,rw=600,imgH=rw*(600/900);
-        doc.setFont("helvetica","bold");doc.setFontSize(16);doc.setTextColor(17,17,17);doc.text(sp[0],396,70,{align:"center"});
+        /* Future Stars PDF geometry matches the approved two-page layout. */
+        var rx=104,ry=165,rw=584,imgH=292;
+        doc.setFont("helvetica","bold");doc.setFontSize(16);doc.setTextColor(17,17,17);doc.text(sp[0],396,64,{align:"center"});
         doc.addImage(simg,"PNG",rx,ry,rw,imgH);
         cfg.stations.forEach(function(s){
           var a=effectiveAssign(sk,s.id),names=[staffName(a.coach1),staffName(a.coach2)].filter(Boolean);
@@ -3717,20 +3721,20 @@ async function exportPDF(){
 
           /* Keep the printed coach boxes tight to the rink edge, matching the on-screen layout. */
           var pdfPos={
-            adv1:{x:.18,row:"top"},
+            adv1:{x:.17,row:"top"},
             adv2:{x:.50,row:"top"},
-            fs1:{x:.82,row:"top"},
-            adv3:{x:.18,row:"bottom"},
+            fs1:{x:.83,row:"top"},
+            adv3:{x:.17,row:"bottom"},
             fs3:{x:.50,row:"bottom"},
-            fs2:{x:.82,row:"bottom"}
+            fs2:{x:.83,row:"bottom"}
           }[s.id]||{x:.50,row:"top"};
 
           var bw=130,bh=names.length>1?29:20;
           var bx=rx+pdfPos.x*rw;
-          var gap=5;
+          var topGap=29,bottomGap=55;
           var by=pdfPos.row==="top"
-            ? ry-gap-(bh/2)
-            : ry+imgH+gap+(bh/2);
+            ? ry-topGap-(bh/2)
+            : ry+imgH+bottomGap+(bh/2);
 
           doc.setFillColor(255,255,255);doc.setDrawColor(17,17,17);doc.setLineWidth(1.2);
           doc.roundedRect(bx-bw/2,by-bh/2,bw,bh,4,4,"FD");
