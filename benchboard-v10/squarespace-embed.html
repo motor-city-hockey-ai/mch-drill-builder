@@ -1,0 +1,20 @@
+<!-- PASTE THIS ENTIRE SNIPPET INTO A SQUARESPACE CODE BLOCK.
+     FIRST: replace YOUR-BENCHBOARD.pages.dev with the URL of your hosted BenchBoard V10. -->
+<div id="motorcity-benchboard" style="width:100%;height:82vh;min-height:560px;position:relative;background:#101d2b;border-radius:10px;overflow:hidden">
+  <iframe id="motorcity-benchboard-frame"
+    src="https://motor-city-hockey-ai.github.io/mch-drill-builder/benchboard-v10/"
+    title="Motor City Hockey — 3D Coaching Studio"
+    loading="lazy"
+    allow="microphone; camera; fullscreen"
+    allowfullscreen
+    style="display:block;width:100%;height:100%;border:0;background:#101d2b"></iframe>
+  <button type="button" id="motorcity-benchboard-fullscreen"
+    onclick="document.getElementById('motorcity-benchboard').requestFullscreen?.()"
+    style="position:absolute;right:10px;bottom:10px;z-index:5;background:#c8102e;color:white;border:0;border-radius:7px;padding:9px 12px;font-weight:bold;cursor:pointer">
+    ⛶ Fullscreen
+  </button>
+</div>
+<style>
+  #motorcity-benchboard:fullscreen {height:100dvh!important;width:100vw!important;border-radius:0!important;}
+  @media(max-width:700px){#motorcity-benchboard{height:85dvh!important;min-height:440px!important}}
+</style>
