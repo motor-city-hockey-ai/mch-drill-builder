@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Motor City Hockey Drill Builder</title>
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+<style>
+:root{--red:#d71920;--black:#0a0a0a;--ink:#171717;--muted:#6b6b6b;--line:#dedede;--paper:#fff;--wash:#f4f4f4;--radius:16px;--shadow:0 10px 30px rgba(0,0,0,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:#efefef;color:var(--ink)}
+button,input,select{font:inherit}.mch-app{max-width:1480px;margin:0 auto;min-height:100vh;background:#fff;box-shadow:0 0 40px rgba(0,0,0,.08)}
+.mch-header{background:var(--black);color:#fff;padding:18px clamp(16px,3vw,34px);display:flex;gap:18px;align-items:center;justify-content:space-between;border-bottom:5px solid var(--red)}
+.brand{display:flex;align-items:center;gap:14px}.brand-mark{width:48px;height:48px;border-radius:50%;background:var(--red);display:grid;place-items:center;font-weight:1000;font-style:italic;letter-spacing:-2px}.brand-title{font-size:clamp(18px,2.6vw,28px);font-weight:1000;letter-spacing:-.7px}.brand-sub{font-size:12px;color:#bdbdbd;margin-top:2px;text-transform:uppercase;letter-spacing:1.6px}
+.header-pill{border:1px solid #3a3a3a;border-radius:999px;padding:8px 12px;font-size:12px;color:#ddd;white-space:nowrap}.header-pill b{color:#fff}
+.set-zone{position:sticky;top:0;z-index:30;background:#111;color:#fff;border-bottom:1px solid #262626;box-shadow:0 8px 20px rgba(0,0,0,.14)}
+.set-head{padding:12px clamp(14px,3vw,30px) 8px;display:flex;gap:12px;align-items:center;justify-content:space-between}.set-title{display:flex;gap:10px;align-items:center;font-weight:900}.count-badge{background:var(--red);border-radius:999px;min-width:28px;height:28px;padding:0 8px;display:grid;place-items:center;font-size:13px}.set-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.btn{border:0;border-radius:10px;padding:9px 13px;font-weight:800;cursor:pointer;transition:.15s}.btn:active{transform:translateY(1px)}.btn-red{background:var(--red);color:#fff}.btn-ghost{background:#242424;color:#fff;border:1px solid #3a3a3a}.btn-light{background:#fff;color:#111;border:1px solid #ddd}.btn-small{padding:7px 9px;font-size:12px}
+.selected-strip{display:flex;gap:10px;overflow-x:auto;padding:4px clamp(14px,3vw,30px) 14px;scroll-snap-type:x proximity}.selected-strip::-webkit-scrollbar{height:7px}.selected-strip::-webkit-scrollbar-thumb{background:#444;border-radius:99px}.selected-empty{padding:10px 0 4px;color:#aaa;font-size:13px}
+.sel-card{position:relative;flex:0 0 146px;background:#fff;color:#111;border-radius:12px;padding:7px;border:2px solid transparent;box-shadow:0 4px 14px rgba(0,0,0,.18);scroll-snap-align:start;cursor:grab}.sel-card.dragging{opacity:.45;border-color:var(--red)}.sel-card img{width:100%;height:88px;object-fit:contain;background:#f5f5f5;border-radius:8px}.sel-order{position:absolute;left:3px;top:3px;width:28px;height:28px;background:var(--red);color:#fff;border:2px solid #fff;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:1000}.sel-remove{position:absolute;right:3px;top:3px;width:25px;height:25px;border:0;border-radius:50%;background:#000;color:#fff;font-size:15px;cursor:pointer}.sel-meta{padding-top:5px}.sel-number{font-weight:950;font-size:13px}.sel-book{font-size:10px;color:#6b6b6b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.sel-move{display:flex;gap:4px;margin-top:5px}.sel-move button{flex:1;border:1px solid #ddd;background:#fafafa;border-radius:6px;font-size:11px;padding:3px;cursor:pointer}
