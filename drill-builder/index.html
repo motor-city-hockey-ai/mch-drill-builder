@@ -18,3 +18,232 @@ button,input,select{font:inherit}.mch-app{max-width:1480px;margin:0 auto;min-hei
 .btn{border:0;border-radius:10px;padding:9px 13px;font-weight:800;cursor:pointer;transition:.15s}.btn:active{transform:translateY(1px)}.btn-red{background:var(--red);color:#fff}.btn-ghost{background:#242424;color:#fff;border:1px solid #3a3a3a}.btn-light{background:#fff;color:#111;border:1px solid #ddd}.btn-small{padding:7px 9px;font-size:12px}
 .selected-strip{display:flex;gap:10px;overflow-x:auto;padding:4px clamp(14px,3vw,30px) 14px;scroll-snap-type:x proximity}.selected-strip::-webkit-scrollbar{height:7px}.selected-strip::-webkit-scrollbar-thumb{background:#444;border-radius:99px}.selected-empty{padding:10px 0 4px;color:#aaa;font-size:13px}
 .sel-card{position:relative;flex:0 0 146px;background:#fff;color:#111;border-radius:12px;padding:7px;border:2px solid transparent;box-shadow:0 4px 14px rgba(0,0,0,.18);scroll-snap-align:start;cursor:grab}.sel-card.dragging{opacity:.45;border-color:var(--red)}.sel-card img{width:100%;height:88px;object-fit:contain;background:#f5f5f5;border-radius:8px}.sel-order{position:absolute;left:3px;top:3px;width:28px;height:28px;background:var(--red);color:#fff;border:2px solid #fff;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:1000}.sel-remove{position:absolute;right:3px;top:3px;width:25px;height:25px;border:0;border-radius:50%;background:#000;color:#fff;font-size:15px;cursor:pointer}.sel-meta{padding-top:5px}.sel-number{font-weight:950;font-size:13px}.sel-book{font-size:10px;color:#6b6b6b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.sel-move{display:flex;gap:4px;margin-top:5px}.sel-move button{flex:1;border:1px solid #ddd;background:#fafafa;border-radius:6px;font-size:11px;padding:3px;cursor:pointer}
+.builder{padding:22px clamp(14px,3vw,30px) 30px}.quick-panel{background:linear-gradient(135deg,#0d0d0d,#232323);color:#fff;border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);border-left:5px solid var(--red)}.quick-title{font-weight:1000;font-size:18px}.quick-sub{color:#bdbdbd;font-size:12px;margin-top:3px}.quick-grid{display:grid;grid-template-columns:1fr .55fr auto;gap:9px;margin-top:14px}.field{min-width:0}.field label{display:block;font-size:10px;color:#aaa;text-transform:uppercase;font-weight:900;letter-spacing:.8px;margin:0 0 5px 2px}.control{width:100%;height:44px;border:1px solid #444;background:#151515;color:#fff;border-radius:10px;padding:0 11px;outline:none}.control:focus{border-color:var(--red);box-shadow:0 0 0 3px rgba(215,25,32,.2)}
+.toolbar{display:flex;gap:10px;align-items:end;justify-content:space-between;margin-top:22px;flex-wrap:wrap}.section-title{font-size:22px;font-weight:1000;letter-spacing:-.4px}.section-sub{font-size:12px;color:#777;margin-top:2px}.search-wrap{display:flex;gap:8px;flex:1;justify-content:flex-end;min-width:260px}.search{min-width:240px;max-width:420px;width:100%;height:42px;border:1px solid #ccc;border-radius:10px;padding:0 12px}
+.category-tabs{display:flex;gap:7px;overflow:auto;padding:14px 0 10px}.cat{border:1px solid #d7d7d7;background:#fff;border-radius:999px;padding:8px 12px;white-space:nowrap;font-weight:800;font-size:12px;cursor:pointer}.cat.active{background:var(--black);color:#fff;border-color:var(--black)}.cat .mini-count{color:#999;margin-left:5px}.cat.active .mini-count{color:#bbb}
+.filter-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:0 0 14px}.filter-row select{height:40px;border:1px solid #ccc;border-radius:9px;padding:0 10px;background:#fff}.hint{font-size:11px;color:#888;margin-left:auto}
+.grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:13px}.drill-card{position:relative;border:1px solid #dedede;border-radius:14px;background:#fff;padding:8px;cursor:pointer;box-shadow:0 3px 10px rgba(0,0,0,.04);transition:.16s;min-width:0}.drill-card:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.09);border-color:#bbb}.drill-card.selected{border:2px solid var(--red);padding:7px}.drill-card img{width:100%;height:150px;object-fit:contain;background:#f7f7f7;border-radius:9px}.drill-n{font-weight:1000;margin-top:7px;font-size:14px}.drill-title{font-size:12px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.drill-desc{font-size:10px;color:#777;margin-top:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:26px}.drill-book{font-size:9px;color:#999;margin-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.add-chip{position:absolute;top:14px;right:14px;width:28px;height:28px;border-radius:50%;background:#111;color:#fff;display:grid;place-items:center;font-size:18px;font-weight:900;border:2px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.18)}.drill-card.selected .add-chip{background:var(--red);font-size:14px}.empty-library{grid-column:1/-1;border:1px dashed #ccc;border-radius:14px;padding:40px;text-align:center;color:#777;background:#fafafa}
+.export-modal{position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:100;display:none;align-items:center;justify-content:center;padding:18px}.export-modal.open{display:flex}.modal-card{width:min(620px,100%);background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 25px 80px rgba(0,0,0,.3)}.modal-head{background:#111;color:#fff;padding:18px 20px;border-bottom:4px solid var(--red);display:flex;justify-content:space-between;align-items:center}.modal-head h3{margin:0;font-size:20px}.modal-body{padding:20px}.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.seg button{border:1px solid #ccc;background:#fff;padding:12px 8px;border-radius:10px;font-weight:900;cursor:pointer}.seg button.active{background:#111;color:#fff;border-color:#111}.export-options{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}.export-options label{font-size:11px;font-weight:900;text-transform:uppercase;color:#666;display:block;margin-bottom:5px}.export-options select,.export-options input{width:100%;height:42px;border:1px solid #ccc;border-radius:9px;padding:0 10px}.modal-note{background:#f4f4f4;border-left:4px solid var(--red);padding:10px 12px;margin-top:14px;font-size:11px;color:#555}.modal-actions{display:flex;gap:9px;justify-content:flex-end;margin-top:18px}.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:#111;color:#fff;border-left:4px solid var(--red);padding:11px 15px;border-radius:9px;z-index:200;opacity:0;pointer-events:none;transition:.2s;font-size:12px}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.footer{padding:20px 30px;background:#111;color:#aaa;font-size:11px;border-top:4px solid var(--red);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:1100px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:850px){.quick-grid{grid-template-columns:1fr 1fr}.quick-grid .add-cell{grid-column:1/-1}.quick-grid .add-cell button{width:100%}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.drill-card img{height:135px}.header-pill{display:none}}
+@media(max-width:620px){body{background:#fff}.mch-app{box-shadow:none}.mch-header{padding:12px 14px}.brand-mark{width:40px;height:40px}.brand-title{font-size:18px}.brand-sub{font-size:9px}.set-head{padding:9px 12px 6px}.set-actions .btn-ghost{display:none}.selected-strip{padding:4px 12px 10px}.sel-card{flex-basis:126px}.sel-card img{height:75px}.builder{padding:14px 12px 24px}.quick-panel{padding:14px}.quick-grid{grid-template-columns:1fr}.quick-grid .add-cell{grid-column:auto}.toolbar{align-items:flex-start}.search-wrap{min-width:100%;justify-content:stretch}.search{max-width:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.drill-card img{height:125px}.drill-desc{display:none}.hint{width:100%;margin:0}.export-options{grid-template-columns:1fr}.modal-actions{flex-direction:column}.modal-actions .btn{width:100%}.footer{padding:16px 14px}.section-title{font-size:19px}}
+</style>
+</head>
+<body>
+<div class="mch-app" id="mchApp">
+  <header class="mch-header">
+    <div class="brand"><div class="brand-mark">MC</div><div><div class="brand-title">MOTOR CITY HOCKEY</div><div class="brand-sub">Coach Drill Builder</div></div></div>
+    <div class="header-pill"><b>Build fast.</b> Export only what you need.</div>
+  </header>
+
+  <section class="set-zone">
+    <div class="set-head">
+      <div class="set-title">YOUR PRACTICE SET <span class="count-badge" id="selectedCount">0</span></div>
+      <div class="set-actions"><button class="btn btn-ghost btn-small" id="clearSetBtn">Clear Set</button><button class="btn btn-red btn-small" id="exportBtn">Export / Print</button></div>
+    </div>
+    <div class="selected-strip" id="selectedStrip"><div class="selected-empty">Add drills below. Your selected drills stay pinned here and can be reordered.</div></div>
+  </section>
+
+  <main class="builder">
+    <section class="quick-panel">
+      <div class="quick-title">Quick Add by Drill Number</div>
+      <div class="quick-sub">Choose a category, type the drill number, and add it instantly.</div>
+      <div class="quick-grid">
+        <div class="field"><label>Category</label><select class="control" id="quickCategory"></select></div>
+        <div class="field"><label>Drill #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 342"/></div>
+        <div class="field add-cell"><label>&nbsp;</label><button class="btn btn-red" id="quickAddBtn" style="height:44px">Add Drill</button></div>
+      </div>
+    </section>
+
+    <div class="toolbar">
+      <div><div class="section-title">Browse Drill Library</div><div class="section-sub">Tap any drill to add it. Tap a selected drill again to remove it.</div></div>
+      <div class="search-wrap"><input class="search" id="searchBox" placeholder="Search drill #, title, description..."/></div>
+    </div>
+    <div class="category-tabs" id="categoryTabs"></div>
+    <div class="filter-row"><select id="sortFilter"><option value="number">Sort: Drill #</option><option value="title">Sort: Title</option></select><div class="hint" id="resultHint"></div></div>
+    <div class="grid" id="drillGrid"></div>
+  </main>
+
+  <footer class="footer"><div>Motor City Hockey - internal coaching resource builder</div><div>Selected drills only are included in exports.</div></footer>
+</div>
+
+<div class="export-modal" id="exportModal" aria-hidden="true">
+  <div class="modal-card">
+    <div class="modal-head"><h3>Export Practice Set</h3><button class="btn btn-ghost btn-small" id="closeExportBtn">Close</button></div>
+    <div class="modal-body">
+      <div class="seg" id="formatSeg"><button class="active" data-format="landscape">Landscape PDF</button><button data-format="portrait">Portrait PDF</button><button data-format="phone">Phone / On-Ice</button></div>
+      <div class="export-options">
+        <div><label>Page Density</label><select id="densitySelect"><option value="8">8 drills / page</option><option value="12">12 drills / page - compact</option></select></div>
+        <div><label>File Name</label><input id="fileName" value="MCH-Practice-Set"/></div>
+      </div>
+      <div class="modal-note" id="exportNote"><b>Landscape:</b> 8 drills per Letter page by default. There is no limit on selected drills; the PDF simply adds pages.</div>
+      <div class="modal-actions"><button class="btn btn-light" id="printFallbackBtn">Open Print View</button><button class="btn btn-red" id="generatePdfBtn">Download Selected Drills PDF</button></div>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>window.MCH_SEED=[];</script>
+<script src="chunks/drills_01.js"></script>
+<script src="chunks/drills_02.js"></script>
+<script src="chunks/drills_03.js"></script>
+<script src="chunks/drills_04.js"></script>
+<script src="chunks/drills_05.js"></script>
+<script src="chunks/drills_06.js"></script>
+<script src="chunks/drills_07.js"></script>
+<script src="chunks/drills_08.js"></script>
+<script src="chunks/drills_09.js"></script>
+<script src="chunks/drills_10.js"></script>
+<script src="chunks/drills_11.js"></script>
+<script src="chunks/drills_12.js"></script>
+<script src="chunks/drills_13.js"></script>
+<script src="chunks/drills_14.js"></script>
+<script src="chunks/drills_15.js"></script>
+<script src="chunks/drills_16.js"></script>
+<script src="chunks/drills_17.js"></script>
+<script src="chunks/drills_18.js"></script>
+<script src="chunks/drills_19.js"></script>
+<script src="chunks/drills_20.js"></script>
+<script src="chunks/drills_21.js"></script>
+<script src="chunks/drills_22.js"></script>
+<script src="chunks/drills_23.js"></script>
+<script>
+/*
+  MOTOR CITY HOCKEY - SINGLE FRONT-END APP
+  -------------------------------------------------------
+  Production security mode:
+  - Set API_BASE to your protected drill API.
+  - The API should return only search/browse results, not a master PDF.
+  - The export endpoint should accept selected drill UIDs and return a PDF containing only those drills.
+  - This demo package uses local seed data so it works immediately.
+*/
+const MCH_CONFIG = {
+  API_BASE: '',
+  IMAGE_BASE_URL: '',
+  USE_SERVER_EXPORT: false,
+  categories: ['Travel Skills','6U / 8U','Learn to Play','Team Drills','Off-Ice Drills','Small Area Games']
+};
+const seed = window.MCH_SEED || [];
+let database = seed.map(d => ({...d, image: MCH_CONFIG.IMAGE_BASE_URL ? MCH_CONFIG.IMAGE_BASE_URL.replace(/\/$/,'')+'/'+d.image.replace(/^assets\//,'assets/') : d.image}));
+
+// Database is embedded in this file; no separate JSON request is required.
+window.MCH_DATABASE_READY = database.length > 0;
+let selected = [];
+let activeCategory = 'Travel Skills';
+let exportFormat = 'landscape';
+let selectedSortable = null;
+
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1700)}
+function saveSet(){localStorage.setItem('mch-practice-set-v3',JSON.stringify(selected.map(d=>d.uid)))}
+function restoreSet(){try{const uids=JSON.parse(localStorage.getItem('mch-practice-set-v3')||'[]');selected=uids.map(u=>database.find(d=>d.uid===u)).filter(Boolean)}catch(e){selected=[]}}
+function isSelected(uid){return selected.some(d=>d.uid===uid)}
+function addDrill(d){if(!d)return;if(isSelected(d.uid)){toast('Drill already in your set');return}selected.push(d);saveSet();renderSelected();renderGrid();toast(`Added Drill ${d.number}`)}
+function removeDrill(uid){selected=selected.filter(d=>d.uid!==uid);saveSet();renderSelected();renderGrid()}
+function moveDrill(uid,dir){const i=selected.findIndex(d=>d.uid===uid);const j=i+dir;if(i<0||j<0||j>=selected.length)return;[selected[i],selected[j]]=[selected[j],selected[i]];saveSet();renderSelected()}
+
+function renderSelected(){
+  $('#selectedCount').textContent=selected.length;
+  const strip=$('#selectedStrip');
+  if(!selected.length){strip.innerHTML='<div class="selected-empty">Add drills below. Your selected drills stay pinned here and can be reordered.</div>';return}
+  strip.innerHTML=selected.map((d,i)=>`<div class="sel-card" draggable="true" data-uid="${esc(d.uid)}">
+    <span class="sel-order">${i+1}</span><button class="sel-remove" data-remove="${esc(d.uid)}">×</button>
+    <img src="${esc(d.image)}" alt="Drill ${esc(d.number)}" loading="lazy"/>
+    <div class="sel-meta"><div class="sel-number">#${esc(d.number)} ${esc(d.title||'')}</div><div class="sel-book">${esc(d.category)}</div></div>
+    <div class="sel-move"><button data-left="${esc(d.uid)}">◀</button><button data-right="${esc(d.uid)}">▶</button></div>
+  </div>`).join('');
+  strip.querySelectorAll('[data-remove]').forEach(b=>b.onclick=e=>{e.stopPropagation();removeDrill(b.dataset.remove)});
+  strip.querySelectorAll('[data-left]').forEach(b=>b.onclick=e=>{e.stopPropagation();moveDrill(b.dataset.left,-1)});
+  strip.querySelectorAll('[data-right]').forEach(b=>b.onclick=e=>{e.stopPropagation();moveDrill(b.dataset.right,1)});
+  let dragUid=null;
+  strip.querySelectorAll('.sel-card').forEach(card=>{
+    card.addEventListener('dragstart',()=>{dragUid=card.dataset.uid;card.classList.add('dragging')});
+    card.addEventListener('dragend',()=>card.classList.remove('dragging'));
+    card.addEventListener('dragover',e=>e.preventDefault());
+    card.addEventListener('drop',e=>{e.preventDefault();const target=card.dataset.uid;if(!dragUid||dragUid===target)return;const from=selected.findIndex(d=>d.uid===dragUid);const to=selected.findIndex(d=>d.uid===target);const [item]=selected.splice(from,1);selected.splice(to,0,item);saveSet();renderSelected()});
+  });
+
+  if(window.Sortable){
+    if(selectedSortable) selectedSortable.destroy();
+    selectedSortable = new Sortable(strip,{animation:160,direction:'horizontal',delay:100,delayOnTouchOnly:true,touchStartThreshold:4,onEnd:()=>{
+      const order=[...strip.querySelectorAll('.sel-card')].map(el=>el.dataset.uid);
+      selected=order.map(uid=>selected.find(d=>d.uid===uid)).filter(Boolean);saveSet();renderSelected();
+    }});
+  }
+}
+function populateQuick(){
+  $('#quickCategory').innerHTML=MCH_CONFIG.categories.map(c=>`<option>${esc(c)}</option>`).join('');
+  $('#quickCategory').value=activeCategory;
+}
+function renderCategories(){
+  $('#categoryTabs').innerHTML=MCH_CONFIG.categories.map(c=>{const n=database.filter(d=>d.category===c).length;return `<button class="cat ${c===activeCategory?'active':''}" data-cat="${esc(c)}">${esc(c)} <span class="mini-count">${n}</span></button>`}).join('');
+  $$('.cat').forEach(b=>b.onclick=()=>{activeCategory=b.dataset.cat;renderCategories();renderFilters();renderGrid()});
+}
+function renderFilters(){
+  const f=$('#sortFilter');
+  if(!f.value) f.value='number';
+}
+function filteredData(){
+  const q=$('#searchBox').value.trim().toLowerCase();
+  let rows=database.filter(d=>d.category===activeCategory);
+  if(q) rows=rows.filter(d=>[d.number,d.title,d.description,(d.tags||[]).join(' ')].join(' ').toLowerCase().includes(q));
+  if($('#sortFilter').value==='title') rows.sort((a,b)=>(a.title||'').localeCompare(b.title||'')||Number(a.number)-Number(b.number));
+  else rows.sort((a,b)=>Number(a.number)-Number(b.number));
+  return rows;
+}
+function renderGrid(){
+  const rows=filteredData();$('#resultHint').textContent=`${rows.length} drills shown`;
+  const grid=$('#drillGrid');
+  if(!rows.length){const future=database.filter(d=>d.category===activeCategory).length===0;grid.innerHTML=`<div class="empty-library"><b>${esc(activeCategory)}</b><br>${future?'Database is ready for you to add this category.':'No drills match your filters.'}</div>`;return}
+  grid.innerHTML=rows.map(d=>`<article class="drill-card ${isSelected(d.uid)?'selected':''}" data-uid="${esc(d.uid)}">
+    <span class="add-chip">${isSelected(d.uid)?'✓':'+'}</span><img src="${esc(d.image)}" alt="Drill ${esc(d.number)}" loading="lazy" onerror="this.style.opacity=.18;this.alt='Image loading error'"/>
+    <div class="drill-n">Drill ${esc(d.number)}</div><div class="drill-title">${esc(d.title||'')}</div><div class="drill-desc">${esc(d.description||'Description can be added later without changing the drill number.')}</div>
+  </article>`).join('');
+  grid.querySelectorAll('.drill-card').forEach(card=>card.onclick=()=>{const d=database.find(x=>x.uid===card.dataset.uid);isSelected(d.uid)?removeDrill(d.uid):addDrill(d)});
+}
+
+$('#quickCategory').onchange=()=>{activeCategory=$('#quickCategory').value;renderCategories();renderFilters();renderGrid()};
+$('#quickAddBtn').onclick=()=>{
+  const c=$('#quickCategory').value;
+  const n=$('#quickNumber').value.trim();
+  if(!n){toast('Enter a drill number');return}
+  const match=database.find(d=>d.category===c && String(d.number)===String(n));
+  if(match){addDrill(match);$('#quickNumber').value='';}
+  else toast('No matching drill found in this category');
+};
+$('#quickNumber').addEventListener('keydown',e=>{if(e.key==='Enter')$('#quickAddBtn').click()});
+$('#searchBox').oninput=renderGrid;$('#sortFilter').onchange=renderGrid;
+$('#clearSetBtn').onclick=()=>{if(selected.length&&confirm('Clear your current practice set?')){selected=[];saveSet();renderSelected();renderGrid()}};
+$('#exportBtn').onclick=()=>{if(!selected.length){toast('Add at least one drill first');return}$('#exportModal').classList.add('open')};
+$('#closeExportBtn').onclick=()=>$('#exportModal').classList.remove('open');
+$('#exportModal').onclick=e=>{if(e.target.id==='exportModal')$('#exportModal').classList.remove('open')};
+$$('#formatSeg button').forEach(b=>b.onclick=()=>{exportFormat=b.dataset.format;$$('#formatSeg button').forEach(x=>x.classList.toggle('active',x===b));const phone=exportFormat==='phone';$('#densitySelect').disabled=phone;$('#exportNote').innerHTML=phone?'<b>Phone / On-Ice:</b> one large drill per phone-sized PDF page so coaches can view it on the ice without pinching and zooming.':`<b>${exportFormat[0].toUpperCase()+exportFormat.slice(1)}:</b> 8 drills per Letter page by default. There is no limit on selected drills; the PDF simply adds pages.`});
+
+async function imageData(url){const res=await fetch(url);if(!res.ok)throw new Error('image');const blob=await res.blob();return await new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(r.result);r.onerror=reject;r.readAsDataURL(blob)})}
+function safeText(s,n=70){s=String(s||'').replace(/\s+/g,' ').trim();return s.length>n?s.slice(0,n-1)+'…':s}
+async function generatePdf(){
+  if(!selected.length)return;
+  if(MCH_CONFIG.USE_SERVER_EXPORT && MCH_CONFIG.API_BASE){toast('Server export mode is configured for deployment.');return}
+  if(!window.jspdf){toast('PDF library did not load - use Print View instead');return}
+  const {jsPDF}=window.jspdf;const density=Number($('#densitySelect').value||8);let doc,cols,rows,pageW,pageH,margin=20,gap=7;
+  if(exportFormat==='phone'){doc=new jsPDF({orientation:'portrait',unit:'pt',format:[306,540]});cols=1;rows=1;margin=14;gap=0}
+  else if(exportFormat==='landscape'){doc=new jsPDF({orientation:'landscape',unit:'pt',format:'letter'});cols=density===12?4:4;rows=density===12?3:2}
+  else{doc=new jsPDF({orientation:'portrait',unit:'pt',format:'letter'});cols=density===12?3:2;rows=4}
+  pageW=doc.internal.pageSize.getWidth();pageH=doc.internal.pageSize.getHeight();const perPage=cols*rows;const header=exportFormat==='phone'?26:28;const cellW=(pageW-margin*2-gap*(cols-1))/cols;const cellH=(pageH-margin*2-header-gap*(rows-1))/rows;
+  for(let i=0;i<selected.length;i++){
+    if(i>0 && i%perPage===0)doc.addPage();const pos=i%perPage;const r=Math.floor(pos/cols),c=pos%cols;const x=margin+c*(cellW+gap),y=margin+header+r*(cellH+gap);const d=selected[i];
+    doc.setDrawColor(205);doc.roundedRect(x,y,cellW,cellH,5,5);doc.setFillColor(215,25,32);doc.circle(x+13,y+13,10,'F');doc.setTextColor(255);doc.setFont('helvetica','bold');doc.setFontSize(8);doc.text(String(i+1),x+13,y+16,{align:'center'});doc.setTextColor(20);doc.setFontSize(exportFormat==='phone'?12:8.5);doc.text(`Drill ${d.number}`,x+27,y+16);if(d.title){doc.setFont('helvetica','normal');doc.setFontSize(7);doc.text(safeText(d.title,34),x+27,y+27)}
+    try{const data=await imageData(d.image);const props=doc.getImageProperties(data);const topPad=exportFormat==='phone'?34:30;const bottomPad=d.description?18:7;const maxW=cellW-10,maxH=cellH-topPad-bottomPad;const scale=Math.min(maxW/props.width,maxH/props.height);const iw=props.width*scale,ih=props.height*scale;doc.addImage(data,'JPEG',x+(cellW-iw)/2,y+topPad,iw,ih,undefined,'FAST')}catch(e){doc.setFontSize(7);doc.text('Image unavailable',x+8,y+45)}
+    if(d.description){doc.setFont('helvetica','normal');doc.setFontSize(exportFormat==='phone'?9:6.5);doc.setTextColor(75);doc.text(safeText(d.description,exportFormat==='phone'?90:62),x+7,y+cellH-6,{maxWidth:cellW-14})}
+  }
+  const name=($('#fileName').value||'MCH-Practice-Set').replace(/[^a-z0-9_-]+/gi,'-');doc.save(name+'.pdf');toast('PDF created')
+}
+$('#generatePdfBtn').onclick=generatePdf;
+$('#printFallbackBtn').onclick=()=>{const w=window.open('','_blank');const cards=selected.map((d,i)=>`<div class="p"><div class="pn">${i+1}. Drill ${esc(d.number)}</div><img src="${esc(d.image)}"><div class="pd">${esc(d.description||'')}</div></div>`).join('');w.document.write(`<html><head><title>MCH Practice Set</title><style>@page{size:${exportFormat==='landscape'?'letter landscape':'letter portrait'};margin:.25in}body{font-family:Arial}.g{display:grid;grid-template-columns:${exportFormat==='landscape'?'repeat(4,1fr)':'repeat(2,1fr)'};gap:8px}.p{break-inside:avoid;border:1px solid #aaa;padding:6px}.p img{width:100%;height:2.25in;object-fit:contain}.pn{font-weight:bold}.pd{font-size:9px}</style></head><body><div class="g">${cards}</div><script>setTimeout(()=>print(),400)<\/script></body></html>`);w.document.close()};
+
+restoreSet();populateQuick();renderCategories();renderFilters();renderSelected();renderGrid();
+</script>
+</body></html>
