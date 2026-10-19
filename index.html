@@ -75,13 +75,13 @@ button{cursor:pointer}
   <main class="main" id="drillMain">
     <section class="quick">
       <div class="quick-grid">
-        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 2,731 Drills</option><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 1,117 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Skill Drills — 455 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
+        <div class="field"><label>LIBRARY</label><select class="control" id="librarySelect"><option value="all">All Drills — 2,779 Drills</option><option value="coaches">Coaches Site — 146 Drills</option><option value="book">Hockey Drill Book — 446 Drills</option><option value="ihs">Ice Hockey Systems — 1,165 Imported</option><option value="rich-full">Rich Full Ice Drills — 92 Drills</option><option value="rich-skills">Skill Drills — 455 Drills</option><option value="turk">Turk Hockey Drills — 220 Drills</option><option value="weiss">Weiss Hockey Drills — 258 Drills</option></select></div>
         <div class="field"><label>DRILL TYPE</label><select class="control" id="category"></select></div>
         <div class="field"><label>LOOK UP DRILL #</label><input class="control" id="quickNumber" inputmode="numeric" placeholder="e.g. 89"></div>
         <button class="btn red" id="quickAdd">Find Drill</button>
-        <div class="stat-box"><small>FULL ICE DRILLS</small><strong id="fullIceCount">2,276</strong></div>
+        <div class="stat-box"><small>FULL ICE DRILLS</small><strong id="fullIceCount">2,324</strong></div>
         <div class="stat-box"><small>SKILL ZONE DRILLS</small><strong id="skillZoneCount">455</strong></div>
-        <div class="stat-box total"><small>TOTAL DRILLS</small><strong id="totalDrillCount">2,731</strong></div><span id="typeAllCount" hidden aria-hidden="true"></span>
+        <div class="stat-box total"><small>TOTAL DRILLS</small><strong id="totalDrillCount">2,779</strong></div><span id="typeAllCount" hidden aria-hidden="true"></span>
       </div>
     </section>
 
@@ -368,7 +368,7 @@ button{cursor:pointer}
   async function loadLibraryCountManifest(){
     if(libraryCountManifest)return libraryCountManifest;
     try{
-      const r=await fetch('data/library-counts.json?v=3',{cache:'no-store'});
+      const r=await fetch('data/library-counts.json?v=4',{cache:'no-store'});
       if(!r.ok)throw new Error('Library counts returned '+r.status);
       libraryCountManifest=await r.json();
       refreshLibraryTotals();
@@ -391,7 +391,7 @@ button{cursor:pointer}
     const skills=travelDatabase?travelDatabase.length:manifestCount('rich-skills',452);
     const coaches=coachesDatabase?coachesDatabase.length:manifestCount('coaches',146);
     const book=bookDatabase?bookDatabase.length:manifestCount('book',446);
-    const ihs=ihsDatabase?ihsDatabase.length:manifestCount('ihs',1117);
+    const ihs=ihsDatabase?ihsDatabase.length:manifestCount('ihs',1165);
     const ihsIndividual=ihsDatabase
       ? ihsDatabase.filter(d=>d&&((d.skill_station_featured)||String(d.category||'').toLowerCase()==='individual skills')).length
       : manifestCount('ihs-individual-skills',3);
@@ -587,7 +587,8 @@ button{cursor:pointer}
       'data/ice-hockey-systems/ihs-batch-1287-1296.json?v=1',
       'data/ice-hockey-systems/ihs-batch-1297-1306.json?v=1',
       'data/ice-hockey-systems/ihs-batch-1307-1316.json?v=1',
-      'data/ice-hockey-systems/ihs-batch-1317-1319.json?v=2'
+      'data/ice-hockey-systems/ihs-batch-1317-1319.json?v=2',
+      'data/ice-hockey-systems/ihs-batch-1320-1367.json?v=1'
     ];
     const responses=await Promise.all(urls.map(url=>fetch(url,{cache:'no-store'})));
     if(!responses[0].ok)throw new Error('Ice Hockey Systems metadata returned '+responses[0].status);
@@ -880,7 +881,7 @@ button{cursor:pointer}
     showViewerImage(0);
     $('#viewerNum').textContent='Drill '+d.number+(d.kind==='system'?' · SYSTEM':'');
     $('#viewerTitle').textContent=d.title||'';$('#viewerCat').textContent=d.category||'';
-    $('#viewerDesc').innerHTML=formatDescription(d);
+    $('#viewerDesc').innerHTML=(!cleanDescriptionText(d)&&d.source_url)?('<p>Written instructions for this drill have not been added yet. <a href="'+esc(d.source_url)+'" target="_blank" rel="noopener">Open the drill on '+esc(d.source||'the source site')+'</a>.</p>'):formatDescription(d);
     $('#viewerFlag').hidden=!d.diagram_issue;$('#viewerFlag').textContent=d.diagram_issue?'Diagram flagged for correction: '+d.diagram_issue:'';
     $('#viewerSource').textContent=[d.source,d.author,d.source_collection,d.source_page?'Page '+d.source_page:''].filter(Boolean).join(' · ');
     const current=chosen(d.uid);

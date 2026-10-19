@@ -1,0 +1,1049 @@
+[
+ {
+  "uid": "ihs-coyote-shooting-drill",
+  "number": 1320,
+  "title": "Coyote Shooting Drill",
+  "category": "Half Ice / Shooting / Skating",
+  "drill_types": [
+   "Half Ice",
+   "Shooting",
+   "Skating"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/coyote-shooting-drill",
+  "image": "https://www.files.icehockeysystems.com/files/drills/coyote-shooting.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/coyote-shooting.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-round-dot-shot",
+  "number": 1321,
+  "title": "Round the Dot Shot",
+  "category": "Half Ice / Shooting / Skating",
+  "drill_types": [
+   "Half Ice",
+   "Shooting",
+   "Skating"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/round-dot-shot",
+  "image": "https://www.files.icehockeysystems.com/files/drills/round-the-dot-shot.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/round-the-dot-shot.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-quick-touch-passing-warm",
+  "number": 1322,
+  "title": "Quick Touch Passing Warm Up",
+  "category": "Passing / Shooting / Half Ice",
+  "drill_types": [
+   "Passing",
+   "Shooting",
+   "Half Ice"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-touch-passing-warm",
+  "image": "https://www.files.icehockeysystems.com/files/drills/quick-touch-passing-warm-up.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/quick-touch-passing-warm-up.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-finland-skating-competition",
+  "number": 1323,
+  "title": "Finland Skating Competition",
+  "category": "Full Ice / Skating / Agility",
+  "drill_types": [
+   "Full Ice",
+   "Skating",
+   "Agility"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/finland-skating-competition",
+  "image": "https://www.files.icehockeysystems.com/files/drills/finland-skating-competition.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/finland-skating-competition.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-finland-warm-skate-2-0",
+  "number": 1324,
+  "title": "Finland Warm Up Skate 2 on 0",
+  "category": "Passing / Full Ice / Skating",
+  "drill_types": [
+   "Passing",
+   "Full Ice",
+   "Skating",
+   "2 on 0"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/finland-warm-skate-2-0",
+  "image": "https://www.files.icehockeysystems.com/files/drills/finland-warm-up-skate-2-0.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/finland-warm-up-skate-2-0.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-panther-warm-skate",
+  "number": 1325,
+  "title": "Panther Warm Up Skate",
+  "category": "Full Ice / Skating / Agility",
+  "drill_types": [
+   "Full Ice",
+   "Skating",
+   "Agility"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/panther-warm-skate",
+  "image": "https://www.files.icehockeysystems.com/files/drills/panther-warm-up-skate.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/panther-warm-up-skate.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-neutral-zone-transition-1v1",
+  "number": 1326,
+  "title": "Neutral Zone Transition 1v1",
+  "category": "Passing / Full Ice / 1 on 1",
+  "drill_types": [
+   "Passing",
+   "Full Ice",
+   "1 on 1",
+   "Defensive"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-transition-1v1",
+  "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-transition-1v1.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/neutral-zone-transition-1v1.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-maine-neutral-zone-center-wing",
+  "number": 1327,
+  "title": "Maine Neutral Zone Center to Wing",
+  "category": "Half Ice / Transition / Neutral Zone",
+  "drill_types": [
+   "Half Ice",
+   "Transition",
+   "Neutral Zone"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/maine-neutral-zone-center-wing",
+  "image": "https://www.files.icehockeysystems.com/files/drills/maine-neutral-zone-center-to-wing.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/maine-neutral-zone-center-to-wing.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-regroup-center-outlet",
+  "number": 1328,
+  "title": "Regroup Center Outlet",
+  "category": "Other",
+  "drill_types": [],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/regroup-center-outlet",
+  "image": "https://www.files.icehockeysystems.com/files/drills/regroup-center-outlet.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/regroup-center-outlet.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-cycle-series-3",
+  "number": 1329,
+  "title": "Cycle Series #3",
+  "category": "Half Ice / Cycling / Offensive",
+  "drill_types": [
+   "Half Ice",
+   "Cycling",
+   "Offensive"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/cycle-series-3",
+  "image": "https://www.files.icehockeysystems.com/files/drills/cycle-series-3.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/cycle-series-3.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-transition-poke-shoot",
+  "number": 1330,
+  "title": "Transition, Poke, Shoot",
+  "category": "Passing / Shooting / Defensive",
+  "drill_types": [
+   "Passing",
+   "Shooting",
+   "Defensive"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-poke-shoot",
+  "image": "https://www.files.icehockeysystems.com/files/drills/transition-poke-shoot.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/transition-poke-shoot.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-high-slot-shot-turnover-1-vs-1",
+  "number": 1331,
+  "title": "High Slot Shot, Turnover into 1 vs. 1",
+  "category": "Full Ice / 1 on 1 / Defensive",
+  "drill_types": [
+   "Full Ice",
+   "1 on 1",
+   "Defensive"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/high-slot-shot-turnover-1-vs-1",
+  "image": "https://www.files.icehockeysystems.com/files/drills/high-slot-shot-turnover.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/high-slot-shot-turnover.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-neutral-zone-transition-skills",
+  "number": 1332,
+  "title": "Neutral Zone Transition Skills",
+  "category": "Half Ice / Skating / Defensive",
+  "drill_types": [
+   "Half Ice",
+   "Skating",
+   "Defensive"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-transition-skills",
+  "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-transition-1.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/neutral-zone-transition-1.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-continuous-triple-transition",
+  "number": 1333,
+  "title": "Continuous Triple Transition",
+  "category": "Full Ice / Transition / Neutral Zone",
+  "drill_types": [
+   "Full Ice",
+   "Transition",
+   "Neutral Zone"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-triple-transition",
+  "image": "https://www.files.icehockeysystems.com/files/drills/continuous-triple-transition.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/continuous-triple-transition.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-transition-transition-breakout",
+  "number": 1334,
+  "title": "Transition, Transition, Breakout",
+  "category": "Half Ice / Transition / Breakouts",
+  "drill_types": [
+   "Half Ice",
+   "Transition",
+   "Breakouts",
+   "Defensive"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/transition-transition-breakout",
+  "image": "https://www.files.icehockeysystems.com/files/drills/transition-transition-breakout.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/transition-transition-breakout.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-power-turn-passing",
+  "number": 1335,
+  "title": "Power Turn Passing",
+  "category": "Passing / Skating / Neutral Zone",
+  "drill_types": [
+   "Passing",
+   "Skating",
+   "Neutral Zone"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/power-turn-passing",
+  "image": "https://www.files.icehockeysystems.com/files/drills/power-turn-passing.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/power-turn-passing.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-center-ice-3-3",
+  "number": 1336,
+  "title": "Center Ice 3 on 3",
+  "category": "Neutral Zone / Small Area Games / 3 on 3",
+  "drill_types": [
+   "Neutral Zone",
+   "Small Area Games",
+   "3 on 3"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/center-ice-3-3",
+  "image": "https://www.files.icehockeysystems.com/files/drills/center-ice-3-on-3.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/center-ice-3-on-3.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-give-go-conditioning-ii",
+  "number": 1337,
+  "title": "Give & Go Conditioning II",
+  "category": "Half Ice / Skating / Conditioning",
+  "drill_types": [
+   "Half Ice",
+   "Skating",
+   "Conditioning"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/give-go-conditioning-ii",
+  "image": "https://www.files.icehockeysystems.com/files/drills/give-go-conditioning-II.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/give-go-conditioning-II.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-wing-defense-give-go",
+  "number": 1338,
+  "title": "Wing, Defense Give & Go",
+  "category": "Full Ice / Transition / Neutral Zone",
+  "drill_types": [
+   "Full Ice",
+   "Transition",
+   "Neutral Zone"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/wing-defense-give-go",
+  "image": "https://www.files.icehockeysystems.com/files/drills/wing-defense-give-go.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/wing-defense-give-go.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-neutral-zone-attack-speed-1",
+  "number": 1339,
+  "title": "Neutral Zone Attack with Speed #1",
+  "category": "Full Ice / Skating / Offensive",
+  "drill_types": [
+   "Full Ice",
+   "Skating",
+   "Offensive"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/neutral-zone-attack-speed-1",
+  "image": "https://www.files.icehockeysystems.com/files/drills/neutral-zone-attack-w-speed-1.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/neutral-zone-attack-w-speed-1.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-tip-timing",
+  "number": 1340,
+  "title": "Tip-In Timing",
+  "category": "Passing / Shooting / Half Ice",
+  "drill_types": [
+   "Passing",
+   "Shooting",
+   "Half Ice"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/tip-timing",
+  "image": "https://www.files.icehockeysystems.com/files/drills/tip-in-timing.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/tip-in-timing.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-pivot-give-go",
+  "number": 1341,
+  "title": "Pivot, Give & Go",
+  "category": "Full Ice / Transition / Neutral Zone",
+  "drill_types": [
+   "Full Ice",
+   "Transition",
+   "Neutral Zone"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/pivot-give-go",
+  "image": "https://www.files.icehockeysystems.com/files/drills/pivot-give-go.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/pivot-give-go.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-corner-puck-possession-drill",
+  "number": 1342,
+  "title": "Corner Puck Possession Drill",
+  "category": "Half Ice / Cycling / Offensive",
+  "drill_types": [
+   "Half Ice",
+   "Cycling",
+   "Offensive"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/corner-puck-possession-drill",
+  "image": "https://www.files.icehockeysystems.com/files/drills/corner-puck-possession-drill.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/corner-puck-possession-drill.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-center-dish",
+  "number": 1343,
+  "title": "Center Dish",
+  "category": "Full Ice / Transition / Neutral Zone",
+  "drill_types": [
+   "Full Ice",
+   "Transition",
+   "Neutral Zone"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/center-dish",
+  "image": "https://www.files.icehockeysystems.com/files/drills/center-dish.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/center-dish.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-give-go-shoot",
+  "number": 1344,
+  "title": "Give, Go, SHOOT!",
+  "category": "Passing / Shooting / Half Ice",
+  "drill_types": [
+   "Passing",
+   "Shooting",
+   "Half Ice"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/give-go-shoot",
+  "image": "https://www.files.icehockeysystems.com/files/drills/give-go-shoot.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/give-go-shoot.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-offensive-zone-quick-2-0",
+  "number": 1345,
+  "title": "Offensive Zone Quick 2 on 0",
+  "category": "Half Ice / 2 on 0 / Offensive",
+  "drill_types": [
+   "Half Ice",
+   "2 on 0",
+   "Offensive"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/offensive-zone-quick-2-0",
+  "image": "https://www.files.icehockeysystems.com/files/drills/offensive-zone-quick-2-on-0.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/offensive-zone-quick-2-on-0.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-seam-attack-drills",
+  "number": 1346,
+  "title": "Seam Attack Drills",
+  "category": "Shooting / Half Ice / Offensive",
+  "drill_types": [
+   "Shooting",
+   "Half Ice",
+   "Offensive"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/seam-attack-drills",
+  "image": "https://www.files.icehockeysystems.com/files/drills/seam-attack-1.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/seam-attack-1.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-german-regroup-drill",
+  "number": 1347,
+  "title": "German Regroup Drill",
+  "category": "Full Ice / Transition / Neutral Zone",
+  "drill_types": [
+   "Full Ice",
+   "Transition",
+   "Neutral Zone"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/german-regroup-drill",
+  "image": "https://www.files.icehockeysystems.com/files/drills/german-regroup-drill.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/german-regroup-drill.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-quick-counter-open",
+  "number": 1348,
+  "title": "Quick Counter Open Up",
+  "category": "Full Ice / Transition / Neutral Zone",
+  "drill_types": [
+   "Full Ice",
+   "Transition",
+   "Neutral Zone"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/quick-counter-open",
+  "image": "https://www.files.icehockeysystems.com/files/drills/quick-counter-open-up.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/quick-counter-open-up.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-protect-and-escape-1",
+  "number": 1349,
+  "title": "Protect and Escape #1",
+  "category": "Shooting / Half Ice / Offensive",
+  "drill_types": [
+   "Shooting",
+   "Half Ice",
+   "Offensive"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/protect-and-escape-1",
+  "image": "https://www.files.icehockeysystems.com/files/drills/protect-escape-1.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/protect-escape-1.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-double-pass-backcheck",
+  "number": 1350,
+  "title": "Double Pass Backcheck",
+  "category": "Passing / Full Ice / Backchecking",
+  "drill_types": [
+   "Passing",
+   "Full Ice",
+   "Backchecking"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/double-pass-backcheck",
+  "image": "https://www.files.icehockeysystems.com/files/drills/double-pass-backcheck.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/double-pass-backcheck.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-puck-protection-down-low",
+  "number": 1351,
+  "title": "Puck Protection Down Low",
+  "category": "Stickhandling / Half Ice / Offensive",
+  "drill_types": [
+   "Stickhandling",
+   "Half Ice",
+   "Offensive"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/puck-protection-down-low",
+  "image": "https://www.files.icehockeysystems.com/files/drills/puck-protection-down-low.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/puck-protection-down-low.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-wham-bham-warm",
+  "number": 1352,
+  "title": "Wham Bham Warm Up",
+  "category": "Other",
+  "drill_types": [],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/wham-bham-warm",
+  "image": "https://www.files.icehockeysystems.com/files/drills/wham-bham-warm-up.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/wham-bham-warm-up.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-swing-low-warm",
+  "number": 1353,
+  "title": "Swing Low Warm Up",
+  "category": "Passing / Full Ice / Warm Up",
+  "drill_types": [
+   "Passing",
+   "Full Ice",
+   "Warm Up"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/swing-low-warm",
+  "image": "https://www.files.icehockeysystems.com/files/drills/swing-low-warm-up.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/swing-low-warm-up.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-flim-flom-one-touches",
+  "number": 1354,
+  "title": "Flim Flom One Touches",
+  "category": "Passing / Full Ice / Skating",
+  "drill_types": [
+   "Passing",
+   "Full Ice",
+   "Skating"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/flim-flom-one-touches",
+  "image": "https://www.files.icehockeysystems.com/files/drills/flim-flom-one-touches.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/flim-flom-one-touches.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-double-pass-drill",
+  "number": 1355,
+  "title": "Double Pass Drill",
+  "category": "Other",
+  "drill_types": [],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/double-pass-drill",
+  "image": "https://www.files.icehockeysystems.com/files/drills/double-pass-drill.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/double-pass-drill.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-criss-cross-passing",
+  "number": 1356,
+  "title": "Criss Cross Passing",
+  "category": "Passing / Half Ice / Skating",
+  "drill_types": [
+   "Passing",
+   "Half Ice",
+   "Skating"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/criss-cross-passing",
+  "image": "https://www.files.icehockeysystems.com/files/drills/criss-cross-passing.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/criss-cross-passing.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-ying-yang-shooting",
+  "number": 1357,
+  "title": "Ying Yang Shooting",
+  "category": "Full Ice / Shooting / Skating",
+  "drill_types": [
+   "Full Ice",
+   "Shooting",
+   "Skating"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/ying-yang-shooting",
+  "image": "https://www.files.icehockeysystems.com/files/drills/ying-yang.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/ying-yang.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-one-touch-warm",
+  "number": 1358,
+  "title": "One Touch Warm Up",
+  "category": "Passing / Full Ice / Skating",
+  "drill_types": [
+   "Passing",
+   "Full Ice",
+   "Skating"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/one-touch-warm",
+  "image": "https://www.files.icehockeysystems.com/files/drills/one-touch-warm-up.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/one-touch-warm-up.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-triple-give-go-full-ice",
+  "number": 1359,
+  "title": "Triple Give & Go - Full Ice",
+  "category": "Passing / Full Ice / Shooting",
+  "drill_types": [
+   "Passing",
+   "Full Ice",
+   "Shooting"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/triple-give-go-full-ice",
+  "image": "https://www.files.icehockeysystems.com/files/drills/triple-give-go-full-ice.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/triple-give-go-full-ice.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-drop-go-hockey-drill",
+  "number": 1360,
+  "title": "Drop & Go Hockey Drill",
+  "category": "Full Ice / Shooting / Goalie",
+  "drill_types": [
+   "Full Ice",
+   "Shooting",
+   "Goalie"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/drop-go-hockey-drill",
+  "image": "https://www.files.icehockeysystems.com/files/drills/drop-n-go.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/drop-n-go.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-2-shot-warm",
+  "number": 1361,
+  "title": "2 Shot Warm Up",
+  "category": "Full Ice / Shooting / Warm Up",
+  "drill_types": [
+   "Full Ice",
+   "Shooting",
+   "Warm Up"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/2-shot-warm",
+  "image": "https://www.files.icehockeysystems.com/files/drills/2-shot-warm-up.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/2-shot-warm-up.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-pivot-pass",
+  "number": 1362,
+  "title": "Pivot & Pass",
+  "category": "Passing / Full Ice / Shooting",
+  "drill_types": [
+   "Passing",
+   "Full Ice",
+   "Shooting"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/pivot-pass",
+  "image": "https://www.files.icehockeysystems.com/files/drills/pivot-n-pass.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/pivot-n-pass.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-4-pass-warm",
+  "number": 1363,
+  "title": "4 Pass Warm Up",
+  "category": "Passing / Shooting / Pre Game",
+  "drill_types": [
+   "Passing",
+   "Shooting",
+   "Pre Game"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/4-pass-warm",
+  "image": "https://www.files.icehockeysystems.com/files/drills/4-pass-warm-up.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/4-pass-warm-up.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-northern-four-pass",
+  "number": 1364,
+  "title": "Northern Four Pass",
+  "category": "Passing / Shooting / Half Ice",
+  "drill_types": [
+   "Passing",
+   "Shooting",
+   "Half Ice"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/northern-four-pass",
+  "image": "https://www.files.icehockeysystems.com/files/drills/northern-four-pass.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/northern-four-pass.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-continuous-give-go-passing",
+  "number": 1365,
+  "title": "Continuous Give & Go Passing",
+  "category": "Passing / Skating / Neutral Zone",
+  "drill_types": [
+   "Passing",
+   "Skating",
+   "Neutral Zone"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/continuous-give-go-passing",
+  "image": "https://www.files.icehockeysystems.com/files/drills/continuous-give-go.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/continuous-give-go.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-quad-passing-drill",
+  "number": 1366,
+  "title": "Quad Passing Drill",
+  "category": "Passing / Skating / Neutral Zone",
+  "drill_types": [
+   "Passing",
+   "Skating",
+   "Neutral Zone"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/quad-passing-drill",
+  "image": "https://www.files.icehockeysystems.com/files/drills/quad-passing.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/quad-passing.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ },
+ {
+  "uid": "ihs-three-pass-timing-drill",
+  "number": 1367,
+  "title": "Three Pass Timing Drill",
+  "category": "Passing / Full Ice / Skating",
+  "drill_types": [
+   "Passing",
+   "Full Ice",
+   "Skating"
+  ],
+  "description": "",
+  "coaching_points": [],
+  "source": "Ice Hockey Systems",
+  "source_url": "https://www.icehockeysystems.com/hockey-drills/three-pass-timing-drill",
+  "image": "https://www.files.icehockeysystems.com/files/drills/3-pass-timing.jpg",
+  "images": [
+   "https://www.files.icehockeysystems.com/files/drills/3-pass-timing.jpg"
+  ],
+  "original_diagram": true,
+  "instructions_pending": true,
+  "status": "imported-from-member-catalog-csv-2026-10-19"
+ }
+]

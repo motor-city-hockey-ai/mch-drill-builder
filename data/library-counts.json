@@ -3,15 +3,15 @@
   "libraries": {
     "coaches": 146,
     "book": 446,
-    "ihs": 1117,
+    "ihs": 1165,
     "rich-full": 92,
     "rich-skills": 452,
     "turk": 220,
     "weiss": 258,
     "ihs-individual-skills": 3
   },
-  "full_ice": 2276,
+  "full_ice": 2324,
   "skill_zone": 455,
-  "total": 2731,
-  "notes": "IHS: 1,117 unique drills by source URL. The earlier 1,319 counted 201 re-imported duplicates (continuation batches ihs-1117..1319 repeated master drills) and one double-used uid."
+  "total": 2779,
+  "notes": "IHS: 1,117 unique drills by source URL. The earlier 1,319 counted 201 re-imported duplicates (continuation batches ihs-1117..1319 repeated master drills) and one double-used uid. Oct 19: added 48 drills with original Drill Maker diagrams from the member catalog export (instructions pending)."
 }
