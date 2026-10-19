@@ -1,0 +1,2386 @@
+{
+ "updated_at": "2026-10-19",
+ "notes": "Hand-reviewed diagram audit. crop = verified [x0,y0,x1,y1] rink box in the stored source image; issue = original diagram is missing or wrong and needs the source file to correct. Flagged drills are kept, never replaced with substitute art.",
+ "drills": {
+  "hdb-0006": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0008": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0015": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0020": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0028": {
+   "issue": "Multi-panel diagram: the last panel is cut off in the stored book crop."
+  },
+  "hdb-0033": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0035": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0048": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0051": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0055": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0060": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0062": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0066": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0069": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0072": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0082": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0084": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0086": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0088": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0090": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0114": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0116": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0128": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0138": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0140": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0144": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0147": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0152": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0162": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0174": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0179": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0189": {
+   "issue": "Stored image is a line of book text, not the drill diagram."
+  },
+  "hdb-0194": {
+   "issue": "Stored image is a line of book text, not the drill diagram."
+  },
+  "hdb-0236": {
+   "issue": "Stored image is a line of book text, not the drill diagram."
+  },
+  "hdb-0242": {
+   "issue": "Multi-panel diagram: the last panel is cut off in the stored book crop."
+  },
+  "hdb-0245": {
+   "issue": "Multi-panel diagram: the last panel is cut off in the stored book crop."
+  },
+  "hdb-0254": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0321": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0357": {
+   "issue": "Stored image is a line of book text, not the drill diagram."
+  },
+  "hdb-0358": {
+   "issue": "Stored image is a line of book text, not the drill diagram."
+  },
+  "hdb-0360": {
+   "issue": "Multi-panel diagram: the last panel is cut off in the stored book crop."
+  },
+  "hdb-0364": {
+   "issue": "Multi-panel diagram: the last panel is cut off in the stored book crop."
+  },
+  "hdb-0370": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0376": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0388": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0400": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0425": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0438": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0444": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "hdb-0446": {
+   "issue": "Bottom of the rink is cut off in the stored book crop."
+  },
+  "team-1": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-10": {
+   "crop": [
+    17,
+    0,
+    782,
+    422
+   ]
+  },
+  "team-100": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-101": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-102": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-103": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-104": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-105": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-106": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-107": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-108": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-109": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-11": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-110": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-111": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-112": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-113": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-114": {
+   "crop": [
+    17,
+    0,
+    792,
+    402
+   ]
+  },
+  "team-115": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-116": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-117": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-118": {
+   "crop": [
+    17,
+    0,
+    792,
+    421
+   ]
+  },
+  "team-119": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-12": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-120": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-121": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-122": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-123": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-124": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-125": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-126": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-127": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-128": {
+   "crop": [
+    17,
+    0,
+    793,
+    421
+   ]
+  },
+  "team-129": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-13": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-130": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-131": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-132.1": {
+   "crop": [
+    20,
+    0,
+    795,
+    393
+   ]
+  },
+  "team-132.2": {
+   "crop": [
+    20,
+    0,
+    795,
+    395
+   ]
+  },
+  "team-133": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-134": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-135": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-136": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-137": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-138": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-139": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-14": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-140": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-141": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-142": {
+   "crop": [
+    20,
+    0,
+    790,
+    421
+   ]
+  },
+  "team-143": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-144": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-145": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-146": {
+   "crop": [
+    18,
+    0,
+    783,
+    420
+   ]
+  },
+  "team-147": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-148": {
+   "crop": [
+    17,
+    0,
+    792,
+    422
+   ]
+  },
+  "team-149": {
+   "crop": [
+    18,
+    0,
+    783,
+    421
+   ]
+  },
+  "team-15": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-150": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-151": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-152": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-153.1": {
+   "crop": [
+    18,
+    0,
+    793,
+    393
+   ]
+  },
+  "team-153.2": {
+   "crop": [
+    20,
+    0,
+    795,
+    393
+   ]
+  },
+  "team-154": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-155": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-156": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-157": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-158": {
+   "crop": [
+    20,
+    0,
+    784,
+    420
+   ]
+  },
+  "team-159": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-16": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-160": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-161": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-162": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-163": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-164": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-165": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-166.1": {
+   "crop": [
+    20,
+    0,
+    795,
+    514
+   ]
+  },
+  "team-166.2": {
+   "crop": [
+    20,
+    0,
+    795,
+    392
+   ]
+  },
+  "team-166.3": {
+   "crop": [
+    20,
+    0,
+    795,
+    392
+   ]
+  },
+  "team-167": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-168": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-169": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-17": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-170": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-171": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-172": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-173": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-174": {
+   "crop": [
+    19,
+    0,
+    784,
+    420
+   ]
+  },
+  "team-175": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-176": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-177": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-178": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-179": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-18": {
+   "crop": [
+    17,
+    0,
+    793,
+    421
+   ]
+  },
+  "team-180": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-181": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-182": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-183": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-184": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-185": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-186": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-187": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-188": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-189": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-19": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-190": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-191": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-192": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-193": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-194": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-195": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-196": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-197": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-198": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-199": {
+   "crop": [
+    19,
+    0,
+    784,
+    410
+   ]
+  },
+  "team-2": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-20": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-200": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-201": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-202": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-203": {
+   "crop": [
+    17,
+    0,
+    792,
+    422
+   ]
+  },
+  "team-204": {
+   "crop": [
+    19,
+    0,
+    784,
+    421
+   ]
+  },
+  "team-205": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-206": {
+   "crop": [
+    18,
+    0,
+    783,
+    410
+   ]
+  },
+  "team-207": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-208": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-209": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-21": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-210": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-211": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-212": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-213": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-214": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-215": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-216": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-217": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-218": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-219": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-22": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-220": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-221": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-23": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-24": {
+   "crop": [
+    18,
+    0,
+    782,
+    422
+   ]
+  },
+  "team-25": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-26": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-27": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-28": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-29": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-3": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-30": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-31": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-32": {
+   "crop": [
+    17,
+    0,
+    792,
+    422
+   ]
+  },
+  "team-33": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-34": {
+   "crop": [
+    17,
+    0,
+    782,
+    430
+   ]
+  },
+  "team-35": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-36": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-37": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-38": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-39": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-4": {
+   "crop": [
+    18,
+    0,
+    779,
+    413
+   ]
+  },
+  "team-40": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-41": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-42": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-43": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-433": {
+   "issue": "Diagram appears to belong to another drill (identical to Drill 434)."
+  },
+  "team-44": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-45": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-46": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-463": {
+   "issue": "Stored source image is instruction text only; the original Turk C diagram was not captured."
+  },
+  "team-464": {
+   "issue": "Stored source image is instruction text only; the original Turk C diagram was not captured."
+  },
+  "team-468": {
+   "issue": "Stored source image is instruction text only; the original Turk C diagram was not captured."
+  },
+  "team-469": {
+   "issue": "Stored source image mixes two diagrams with instruction text."
+  },
+  "team-47": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-471": {
+   "crop": [
+    89,
+    22,
+    724,
+    277
+   ]
+  },
+  "team-472": {
+   "crop": [
+    98,
+    0,
+    743,
+    242
+   ]
+  },
+  "team-473": {
+   "crop": [
+    132,
+    7,
+    758,
+    268
+   ]
+  },
+  "team-474": {
+   "crop": [
+    132,
+    14,
+    758,
+    262
+   ]
+  },
+  "team-475": {
+   "crop": [
+    132,
+    67,
+    758,
+    318
+   ]
+  },
+  "team-476": {
+   "crop": [
+    132,
+    65,
+    758,
+    321
+   ]
+  },
+  "team-477": {
+   "crop": [
+    132,
+    17,
+    758,
+    268
+   ]
+  },
+  "team-478": {
+   "crop": [
+    132,
+    0,
+    758,
+    210
+   ]
+  },
+  "team-479": {
+   "crop": [
+    132,
+    20,
+    758,
+    284
+   ]
+  },
+  "team-48": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-480": {
+   "crop": [
+    132,
+    0,
+    758,
+    190
+   ]
+  },
+  "team-481": {
+   "crop": [
+    116,
+    56,
+    741,
+    315
+   ]
+  },
+  "team-482": {
+   "crop": [
+    132,
+    34,
+    758,
+    342
+   ]
+  },
+  "team-483": {
+   "crop": [
+    132,
+    51,
+    758,
+    309
+   ]
+  },
+  "team-484": {
+   "crop": [
+    132,
+    75,
+    758,
+    326
+   ]
+  },
+  "team-485": {
+   "crop": [
+    132,
+    75,
+    758,
+    328
+   ]
+  },
+  "team-486": {
+   "crop": [
+    132,
+    17,
+    758,
+    268
+   ]
+  },
+  "team-487": {
+   "crop": [
+    132,
+    35,
+    758,
+    291
+   ]
+  },
+  "team-488": {
+   "crop": [
+    132,
+    18,
+    758,
+    269
+   ]
+  },
+  "team-489": {
+   "crop": [
+    132,
+    114,
+    758,
+    357
+   ]
+  },
+  "team-49": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-490": {
+   "crop": [
+    132,
+    62,
+    758,
+    311
+   ]
+  },
+  "team-493": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-494": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-495": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-496": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-497": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-498": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-499": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-5": {
+   "crop": [
+    18,
+    0,
+    782,
+    400
+   ]
+  },
+  "team-50": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-500": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-501": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-502": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-503": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-504": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-505": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-506": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-507": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-508": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-509": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-51": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-510": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-511": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-512": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-513": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-514": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-515": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-516": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-517": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-518": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-519": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-52": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-520": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-521": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-522": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-523": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-524": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-525": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-526": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-527": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-528": {
+   "issue": "Original diagram was not captured from the CoachThem/TeamSnap 2018 source; only the title banner is stored."
+  },
+  "team-53": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-54": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-55": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-555": {
+   "issue": "Stored image is an empty drill-sheet template with no diagram."
+  },
+  "team-559": {
+   "crop": [
+    55,
+    12,
+    761,
+    376
+   ]
+  },
+  "team-56": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-57": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-58": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-59": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-6": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-60": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-61": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-62.1": {
+   "crop": [
+    20,
+    0,
+    795,
+    470
+   ],
+   "issue": "Top edge of the rink is cut off in the stored original image."
+  },
+  "team-62.2": {
+   "crop": [
+    18,
+    0,
+    793,
+    375
+   ],
+   "issue": "Top edge of the rink is cut off in the stored original image."
+  },
+  "team-63": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-64": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-65": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-66": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-67": {
+   "crop": [
+    17,
+    0,
+    792,
+    422
+   ]
+  },
+  "team-68": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-69": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-7": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-70": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-71": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-72.1": {
+   "crop": [
+    18,
+    0,
+    793,
+    390
+   ]
+  },
+  "team-72.2": {
+   "crop": [
+    20,
+    0,
+    795,
+    395
+   ]
+  },
+  "team-73.1": {
+   "crop": [
+    20,
+    0,
+    795,
+    511
+   ]
+  },
+  "team-73.2": {
+   "crop": [
+    20,
+    0,
+    795,
+    392
+   ]
+  },
+  "team-73.3": {
+   "crop": [
+    20,
+    0,
+    795,
+    392
+   ]
+  },
+  "team-74": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-75": {
+   "crop": [
+    17,
+    0,
+    792,
+    425
+   ]
+  },
+  "team-76": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-77": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-78": {
+   "crop": [
+    31,
+    0,
+    796,
+    410
+   ]
+  },
+  "team-79": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-8": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-80": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-81": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-82": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-83": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-84": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-85": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-86": {
+   "crop": [
+    18,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-87": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-88": {
+   "crop": [
+    17,
+    0,
+    792,
+    422
+   ]
+  },
+  "team-89": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-9": {
+   "crop": [
+    17,
+    0,
+    792,
+    422
+   ]
+  },
+  "team-90": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-91": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-92": {
+   "crop": [
+    18,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-93": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-94": {
+   "crop": [
+    18,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-95": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-96": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "team-97": {
+   "crop": [
+    17,
+    0,
+    782,
+    410
+   ]
+  },
+  "team-98": {
+   "crop": [
+    17,
+    0,
+    782,
+    421
+   ]
+  },
+  "team-99": {
+   "crop": [
+    17,
+    0,
+    782,
+    420
+   ]
+  },
+  "travel-19": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-2": {
+   "issue": "Diagram crop is cut off; part of the rink is missing."
+  },
+  "travel-210": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-212": {
+   "issue": "Diagram crop includes worksheet text instead of only the diagram."
+  },
+  "travel-218": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-290": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-3": {
+   "issue": "Diagram crop is cut off; part of the rink is missing."
+  },
+  "travel-300": {
+   "issue": "Diagram crop is cut off; part of the rink is missing."
+  },
+  "travel-31": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-311": {
+   "issue": "Diagram crop includes worksheet text instead of only the diagram."
+  },
+  "travel-327": {
+   "issue": "Diagram crop includes worksheet text instead of only the diagram."
+  },
+  "travel-33": {
+   "issue": "Diagram crop is cut off; part of the rink is missing."
+  },
+  "travel-34": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-343": {
+   "issue": "Diagram crop includes worksheet text instead of only the diagram."
+  },
+  "travel-349": {
+   "issue": "Diagram crop includes worksheet text instead of only the diagram."
+  },
+  "travel-350": {
+   "issue": "Diagram crop is cut off; part of the rink is missing."
+  },
+  "travel-360": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-37": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-373": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-382": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-40": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-427": {
+   "issue": "Diagram crop is cut off; part of the rink is missing."
+  },
+  "travel-430": {
+   "issue": "Diagram crop is cut off; part of the rink is missing."
+  },
+  "travel-432": {
+   "issue": "Diagram crop is cut off; part of the rink is missing."
+  },
+  "travel-437": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-438": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-439": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-49": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  },
+  "travel-5": {
+   "issue": "Diagram crop is cut off; part of the rink is missing."
+  },
+  "travel-6": {
+   "issue": "Diagram crop includes worksheet text instead of only the diagram."
+  },
+  "travel-8": {
+   "issue": "Diagram crop is cut off; part of the rink is missing."
+  },
+  "travel-9": {
+   "issue": "Diagram crop is cut off; part of the rink is missing."
+  },
+  "travel-98": {
+   "issue": "Diagram crop is cut off; part of the rink is missing."
+  },
+  "travel-99": {
+   "issue": "Diagram crop includes part of a neighbouring drill."
+  }
+ }
+}
