@@ -417,7 +417,7 @@ button{cursor:pointer}
   // data/diagram-audit.json holds the hand-checked diagram review: a verified
   // crop box for source-page images, or a flag when the original diagram is wrong.
   function loadDiagramAudit(){
-    if(!diagramAuditPromise)diagramAuditPromise=fetch('data/diagram-audit.json?v=1',{cache:'no-store'})
+    if(!diagramAuditPromise)diagramAuditPromise=fetch('data/diagram-audit.json?v=2',{cache:'no-store'})
       .then(r=>r.ok?r.json():{}).then(j=>(j&&j.drills)||{}).catch(err=>{console.warn('Diagram audit unavailable',err);return {};});
     return diagramAuditPromise;
   }
@@ -550,7 +550,7 @@ button{cursor:pointer}
   async function loadBook(){
     if(bookDatabase)return bookDatabase;
     showLoading('Loading Hockey Drill Book library…');
-    const r=await fetch('data/hockey-drill-book/hockey-drill-book.json?v=21',{cache:'no-store'});
+    const r=await fetch('data/hockey-drill-book/hockey-drill-book.json?v=22',{cache:'no-store'});
     if(!r.ok)throw new Error('Hockey Drill Book metadata returned '+r.status);
     const rows=await r.json();
     bookDatabase=await withDiagramAudit((Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({

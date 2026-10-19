@@ -187,10 +187,10 @@
     "source_page": 34,
     "book_page": 14,
     "diagram_rect": [
-      60.56,
-      492.24,
-      444.56,
-      647
+      66.56,
+      498.24,
+      438.56,
+      670.97
     ],
     "page_size": [
       504,
@@ -202,12 +202,13 @@
       "Warm-Up Skills",
       "Skating"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0006.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0006.png?v=2",
     "description": "Use “Warm-Up Skate: Zigzag” as an early-practice skill warm-up. Players repeat the named skating or puck-skill pattern with controlled technique first, then build pace while maintaining clean execution. Emphasize skating mechanics and edge control.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Keep knees bent, chest up and edges under control before adding speed."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0007",
@@ -257,10 +258,10 @@
     "source_page": 35,
     "book_page": 15,
     "diagram_rect": [
-      59.44,
-      492.76,
-      443.44,
-      647
+      65.44,
+      498.76,
+      437.44,
+      671.26
     ],
     "page_size": [
       504,
@@ -272,12 +273,13 @@
       "Warm-Up Skills",
       "Skating"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0008.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0008.png?v=2",
     "description": "Use “Warm-Up Skate: Backward, Forward, Backward” as an early-practice skill warm-up. Players repeat the named skating or puck-skill pattern with controlled technique first, then build pace while maintaining clean execution. Emphasize skating mechanics and edge control.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Keep knees bent, chest up and edges under control before adding speed."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0009",
@@ -502,10 +504,10 @@
     "source_page": 40,
     "book_page": 20,
     "diagram_rect": [
-      60.44,
-      486.99,
-      444.44,
-      647
+      66.44,
+      492.99,
+      438.44,
+      665.49
     ],
     "page_size": [
       504,
@@ -517,12 +519,13 @@
       "Warm-Up Skills",
       "Puckhandling"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0015.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0015.png?v=2",
     "description": "Use “Warm-Up Stickhandling” as an early-practice skill warm-up. Players repeat the named skating or puck-skill pattern with controlled technique first, then build pace while maintaining clean execution.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Keep knees bent, chest up and edges under control before adding speed."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0016",
@@ -677,10 +680,10 @@
     "source_page": 43,
     "book_page": 23,
     "diagram_rect": [
-      60.44,
-      492.56,
-      444.44,
-      647
+      66.44,
+      498.56,
+      438.44,
+      671.06
     ],
     "page_size": [
       504,
@@ -692,12 +695,13 @@
       "Warm-Up Skills",
       "Puckhandling"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0020.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0020.png?v=2",
     "description": "Use “Stickhandle Drill” as an early-practice skill warm-up. Players repeat the named skating or puck-skill pattern with controlled technique first, then build pace while maintaining clean execution. Emphasize puck control and protection.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Keep knees bent, chest up and edges under control before adding speed."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0021",
@@ -964,10 +968,10 @@
     "source_page": 50,
     "book_page": 30,
     "diagram_rect": [
-      59.92,
-      315.16,
-      444,
-      647
+      48.75,
+      321.16,
+      438.0,
+      670.74
     ],
     "page_size": [
       504,
@@ -979,13 +983,14 @@
       "Warm-Up Skills",
       "Warm-Up Skills"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0028.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0028.png?v=2",
     "description": "Use “Neutral Zone Puck Exchange” as an early-practice skill warm-up. Players repeat the named skating or puck-skill pattern with controlled technique first, then build pace while maintaining clean execution. Emphasize passing timing and puck support plus puck control and protection.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Present a clear target and move immediately after the pass.",
       "Keep knees bent, chest up and edges under control before adding speed."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0029",
@@ -1145,10 +1150,10 @@
     "source_page": 53,
     "book_page": 33,
     "diagram_rect": [
-      61,
-      492.52,
-      445,
-      647
+      67.0,
+      498.52,
+      439.0,
+      671.02
     ],
     "page_size": [
       504,
@@ -1160,12 +1165,13 @@
       "Warm-Up Skills",
       "Small Area Games"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0033.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0033.png?v=2",
     "description": "Use “Cross Ice: 3v3” as an early-practice skill warm-up. Players repeat the named skating or puck-skill pattern with controlled technique first, then build pace while maintaining clean execution.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Keep knees bent, chest up and edges under control before adding speed."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0034",
@@ -1215,10 +1221,10 @@
     "source_page": 54,
     "book_page": 34,
     "diagram_rect": [
-      59.44,
-      492.24,
-      443.44,
-      647
+      65.44,
+      498.24,
+      437.44,
+      670.74
     ],
     "page_size": [
       504,
@@ -1230,12 +1236,13 @@
       "Warm-Up Skills",
       "Warm-Up Skills"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0035.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0035.png?v=2",
     "description": "Use “Full-Ice Boggle With Two Pucks” as an early-practice skill warm-up. Players repeat the named skating or puck-skill pattern with controlled technique first, then build pace while maintaining clean execution. Emphasize puck control and protection.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Keep knees bent, chest up and edges under control before adding speed."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0036",
@@ -1689,10 +1696,10 @@
     "source_page": 64,
     "book_page": 44,
     "diagram_rect": [
-      59.3,
-      483.55,
-      443.3,
-      647
+      50.25,
+      489.55,
+      452.68,
+      662.05
     ],
     "page_size": [
       504,
@@ -1704,12 +1711,13 @@
       "Warm-Up Shooting",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0048.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0048.png?v=2",
     "description": "Run “Middle Peel-Off: 1v0, 2v0” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0049",
@@ -1795,10 +1803,10 @@
     "source_page": 66,
     "book_page": 46,
     "diagram_rect": [
-      60,
-      493.24,
-      444,
-      647
+      66.0,
+      499.24,
+      438.0,
+      674.04
     ],
     "page_size": [
       504,
@@ -1810,12 +1818,13 @@
       "Warm-Up Shooting",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0051.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0051.png?v=2",
     "description": "Run “Minnesota Scramble and Shoot” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced. Emphasize shot preparation and finishing.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0052",
@@ -1938,10 +1947,10 @@
     "source_page": 68,
     "book_page": 48,
     "diagram_rect": [
-      60,
-      493,
-      444,
-      647
+      66.0,
+      499.0,
+      438.0,
+      671.5
     ],
     "page_size": [
       504,
@@ -1953,12 +1962,13 @@
       "Warm-Up Shooting",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0055.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0055.png?v=2",
     "description": "Run “Around the Neutral Zone, Shoot” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced. Emphasize shot preparation and finishing.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0056",
@@ -2121,10 +2131,10 @@
     "source_page": 72,
     "book_page": 52,
     "diagram_rect": [
-      60,
-      493.24,
-      444,
-      647
+      66.0,
+      499.24,
+      438.0,
+      671.74
     ],
     "page_size": [
       504,
@@ -2136,12 +2146,13 @@
       "Warm-Up Shooting",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0060.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0060.png?v=2",
     "description": "Run “Stretch, 2v0” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced. Emphasize passing timing and puck support.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0061",
@@ -2193,10 +2204,10 @@
     "source_page": 73,
     "book_page": 53,
     "diagram_rect": [
-      60.42,
-      494.01,
-      444.42,
-      647
+      66.42,
+      500.01,
+      438.42,
+      672.51
     ],
     "page_size": [
       504,
@@ -2208,12 +2219,13 @@
       "Warm-Up Shooting",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0062.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0062.png?v=2",
     "description": "Run “Russian Stretch, 2v0” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced. Emphasize passing timing and puck support.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0063",
@@ -2333,10 +2345,10 @@
     "source_page": 75,
     "book_page": 55,
     "diagram_rect": [
-      60,
-      489.2,
-      444,
-      647
+      66.0,
+      495.2,
+      438.0,
+      671.74
     ],
     "page_size": [
       504,
@@ -2348,12 +2360,13 @@
       "Warm-Up Shooting",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0066.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0066.png?v=2",
     "description": "Run “Timing, 3v0” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0067",
@@ -2440,10 +2453,10 @@
     "source_page": 77,
     "book_page": 57,
     "diagram_rect": [
-      60.44,
-      492.48,
-      444.44,
-      647
+      66.44,
+      498.48,
+      438.44,
+      681.98
     ],
     "page_size": [
       504,
@@ -2456,12 +2469,13 @@
       "Shooting",
       "Defensive"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0069.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0069.png?v=2",
     "description": "Run “1v0 With Backchecker Chaser” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced. Emphasize pressure and recovery habits.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0070",
@@ -2546,10 +2560,10 @@
     "source_page": 79,
     "book_page": 59,
     "diagram_rect": [
-      60.44,
-      493.15,
-      444.44,
-      647
+      66.44,
+      499.15,
+      438.44,
+      671.65
     ],
     "page_size": [
       504,
@@ -2561,12 +2575,13 @@
       "Warm-Up Shooting",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0072.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0072.png?v=2",
     "description": "Run “Swiss, From the Middle, Figure Eight” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced. Emphasize skating mechanics and edge control.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0073",
@@ -2901,10 +2916,10 @@
     "source_page": 88,
     "book_page": 68,
     "diagram_rect": [
-      59.17,
-      493.24,
-      443.17,
-      647
+      65.17,
+      499.24,
+      437.17,
+      671.74
     ],
     "page_size": [
       504,
@@ -2916,12 +2931,13 @@
       "Warm-Up Shooting",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0082.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0082.png?v=2",
     "description": "Run “Drive for the Net, 2v0” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0083",
@@ -2971,10 +2987,10 @@
     "source_page": 89,
     "book_page": 69,
     "diagram_rect": [
-      60,
-      492.64,
-      444,
-      647
+      66.0,
+      498.64,
+      438.0,
+      671.14
     ],
     "page_size": [
       504,
@@ -2987,13 +3003,14 @@
       "Passing",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0084.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0084.png?v=2",
     "description": "Run “Team Canada, Straight Give-and-Go” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced. Emphasize passing timing and puck support.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Present a clear target and move immediately after the pass.",
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0085",
@@ -3046,10 +3063,10 @@
     "source_page": 90,
     "book_page": 70,
     "diagram_rect": [
-      60,
-      493.24,
-      444,
-      647
+      66.0,
+      499.24,
+      438.0,
+      681.69
     ],
     "page_size": [
       504,
@@ -3061,12 +3078,13 @@
       "Warm-Up Shooting",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0086.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0086.png?v=2",
     "description": "Run “Team Canada, Cut to the Middle” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0087",
@@ -3118,10 +3136,10 @@
     "source_page": 91,
     "book_page": 71,
     "diagram_rect": [
-      60,
-      493.42,
-      444,
-      647
+      66.0,
+      499.42,
+      438.0,
+      671.92
     ],
     "page_size": [
       504,
@@ -3133,12 +3151,13 @@
       "Warm-Up Shooting",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0088.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0088.png?v=2",
     "description": "Run “Team Canada, 2v0” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0089",
@@ -3188,10 +3207,10 @@
     "source_page": 92,
     "book_page": 72,
     "diagram_rect": [
-      60.17,
-      493.97,
-      444.17,
-      647
+      66.17,
+      499.97,
+      438.17,
+      672.47
     ],
     "page_size": [
       504,
@@ -3203,12 +3222,13 @@
       "Warm-Up Shooting",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0090.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0090.png?v=2",
     "description": "Run “Winnipeg, 2v0” as a continuous shooting warm-up. Players move through the named passing/skating pattern and finish with a shot, then rotate quickly so the drill stays active and game-paced.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0091",
@@ -4038,10 +4058,10 @@
     "source_page": 117,
     "book_page": 97,
     "diagram_rect": [
-      64.51,
-      496.68,
-      441.31,
-      647
+      70.51,
+      502.68,
+      435.31,
+      671.97
     ],
     "page_size": [
       504,
@@ -4054,13 +4074,14 @@
       "Shooting",
       "Defensive"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0114.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0114.png?v=2",
     "description": "1-on-1 competitive drill built around “Shoot 1v1.” The attacker works to create separation and a scoring chance while the defender manages gap, body position and stick placement through the play. Emphasize shot preparation and finishing.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Attacker changes speed or direction; defender controls gap and protects middle ice.",
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0115",
@@ -4112,10 +4133,10 @@
     "source_page": 118,
     "book_page": 98,
     "diagram_rect": [
-      59.8,
-      494.85,
-      443.8,
-      647
+      65.8,
+      500.85,
+      437.8,
+      673.35
     ],
     "page_size": [
       504,
@@ -4127,12 +4148,13 @@
       "1-on-1",
       "Defensive"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0116.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0116.png?v=2",
     "description": "1-on-1 competitive drill built around “Half-Ice 1v1.” The attacker works to create separation and a scoring chance while the defender manages gap, body position and stick placement through the play.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Attacker changes speed or direction; defender controls gap and protects middle ice."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0117",
@@ -4544,10 +4566,10 @@
     "source_page": 129,
     "book_page": 109,
     "diagram_rect": [
-      59.92,
-      486.82,
-      443.92,
-      647
+      65.92,
+      488.98,
+      437.92,
+      671.32
     ],
     "page_size": [
       504,
@@ -4559,12 +4581,13 @@
       "1-on-1",
       "Defensive"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0128.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0128.png?v=2",
     "description": "1-on-1 competitive drill built around “Net Drive, 1v1.” The attacker works to create separation and a scoring chance while the defender manages gap, body position and stick placement through the play.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Attacker changes speed or direction; defender controls gap and protects middle ice."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0129",
@@ -4895,10 +4918,10 @@
     "source_page": 140,
     "book_page": 120,
     "diagram_rect": [
-      59.89,
-      493.49,
-      443.89,
-      647
+      65.89,
+      499.49,
+      437.89,
+      671.99
     ],
     "page_size": [
       504,
@@ -4910,12 +4933,13 @@
       "2-on-1",
       "2-on-1"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0138.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0138.png?v=2",
     "description": "2-on-1 rush/read drill built around “Dynamo 2v1.” Two attackers create width and support while the defender protects the middle and forces a clear decision between pass and shot.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Attackers create width and force the defender to choose between puck and pass."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0139",
@@ -4966,10 +4990,10 @@
     "source_page": 141,
     "book_page": 121,
     "diagram_rect": [
-      60.44,
-      493.24,
-      444.44,
-      647
+      66.44,
+      499.24,
+      438.44,
+      671.74
     ],
     "page_size": [
       504,
@@ -4981,13 +5005,14 @@
       "2-on-1",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0140.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0140.png?v=2",
     "description": "2-on-1 rush/read drill built around “Three Shots 2v1.” Two attackers create width and support while the defender protects the middle and forces a clear decision between pass and shot. Emphasize shot preparation and finishing.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Attackers create width and force the defender to choose between puck and pass.",
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0141",
@@ -5107,10 +5132,10 @@
     "source_page": 144,
     "book_page": 124,
     "diagram_rect": [
-      60.44,
-      494.56,
-      444.44,
-      647
+      66.44,
+      500.56,
+      438.44,
+      673.06
     ],
     "page_size": [
       504,
@@ -5122,13 +5147,14 @@
       "2-on-1",
       "2-on-1"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0144.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0144.png?v=2",
     "description": "2-on-1 rush/read drill built around “Sweden Puck Exchange 2v1.” Two attackers create width and support while the defender protects the middle and forces a clear decision between pass and shot. Emphasize passing timing and puck support plus puck control and protection.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Attackers create width and force the defender to choose between puck and pass.",
       "Present a clear target and move immediately after the pass."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0145",
@@ -5214,10 +5240,10 @@
     "source_page": 146,
     "book_page": 126,
     "diagram_rect": [
-      60.44,
-      487.93,
-      444.44,
-      647
+      66.44,
+      493.93,
+      438.44,
+      666.43
     ],
     "page_size": [
       504,
@@ -5229,12 +5255,13 @@
       "2-on-1",
       "2-on-1"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0147.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0147.png?v=2",
     "description": "2-on-1 rush/read drill built around “Sweden 2v1.” Two attackers create width and support while the defender protects the middle and forces a clear decision between pass and shot.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Attackers create width and force the defender to choose between puck and pass."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0148",
@@ -5391,10 +5418,10 @@
     "source_page": 150,
     "book_page": 130,
     "diagram_rect": [
-      60,
-      493.24,
-      444,
-      647
+      66.0,
+      499.24,
+      438.0,
+      671.74
     ],
     "page_size": [
       504,
@@ -5406,12 +5433,13 @@
       "2-on-1",
       "2-on-1"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0152.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0152.png?v=2",
     "description": "2-on-1 rush/read drill built around “2v1, Loop.” Two attackers create width and support while the defender protects the middle and forces a clear decision between pass and shot.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Attackers create width and force the defender to choose between puck and pass."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0153",
@@ -5741,10 +5769,10 @@
     "source_page": 160,
     "book_page": 140,
     "diagram_rect": [
-      60.44,
-      485.24,
-      444.44,
-      647
+      66.44,
+      491.24,
+      438.44,
+      663.74
     ],
     "page_size": [
       504,
@@ -5756,12 +5784,13 @@
       "2-on-2",
       "2-on-2"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0162.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0162.png?v=2",
     "description": "2-on-2 competitive drill using the “2v2 Quick” pattern. Offense works for puck support, spacing and quick attacks while defenders communicate, sort coverage and win inside position.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Run the diagrammed route exactly, communicate early and maintain game-like pace."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0163",
@@ -6161,10 +6190,10 @@
     "source_page": 173,
     "book_page": 153,
     "diagram_rect": [
-      60.44,
-      493.24,
-      444.44,
-      647
+      66.44,
+      499.24,
+      438.44,
+      671.74
     ],
     "page_size": [
       504,
@@ -6176,12 +6205,13 @@
       "3-on-1",
       "Systems"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0174.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0174.png?v=2",
     "description": "3-on-1 advantage drill built around “Two Regroups, 3v1.” Attackers use spacing and quick puck movement to create a high-quality chance while the defender protects dangerous ice and disrupts passing lanes. Emphasize breakout and transition habits.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Scan before receiving and support the puck with useful spacing."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0175",
@@ -6336,10 +6366,10 @@
     "source_page": 176,
     "book_page": 156,
     "diagram_rect": [
-      59.56,
-      494.56,
-      443.56,
-      647
+      65.56,
+      499.39,
+      437.56,
+      673.06
     ],
     "page_size": [
       504,
@@ -6351,12 +6381,13 @@
       "3-on-1",
       "3-on-1"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0179.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0179.png?v=2",
     "description": "3-on-1 advantage drill built around “3v1 Loop.” Attackers use spacing and quick puck movement to create a high-quality chance while the defender protects dangerous ice and disrupts passing lanes.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Run the diagrammed route exactly, communicate early and maintain game-like pace."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0180",
@@ -6686,10 +6717,10 @@
     "source_page": 188,
     "book_page": 168,
     "diagram_rect": [
-      54,
-      56.84,
-      504,
-      82.1
+      66.0,
+      74.8,
+      444.2,
+      658.75
     ],
     "page_size": [
       504,
@@ -6701,12 +6732,14 @@
       "Breakouts / 3-on-2 / 5-on-2",
       "Systems"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0189.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0189.png?v=2",
     "description": "Team transition drill built around “Breakout Systems.” Players rehearse breakout support, puck movement and the numerical situation shown in the diagram, then attack with proper spacing and timing. Emphasize breakout and transition habits.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Scan before receiving and support the puck with useful spacing."
-    ]
+    ],
+    "diagram_page": 189,
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0190",
@@ -6862,10 +6895,10 @@
     "source_page": 194,
     "book_page": 174,
     "diagram_rect": [
-      50,
-      56.84,
-      504,
-      96
+      55.25,
+      92.12,
+      443.8,
+      634.48
     ],
     "page_size": [
       504,
@@ -6877,12 +6910,14 @@
       "Breakouts / 3-on-2 / 5-on-2",
       "Systems"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0194.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0194.png?v=2",
     "description": "Team transition drill built around “Chicago 5v2, Two Regroups, 5v2, Two Regroups, Repeat.” Players rehearse breakout support, puck movement and the numerical situation shown in the diagram, then attack with proper spacing and timing. Emphasize breakout and transition habits.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Scan before receiving and support the puck with useful spacing."
-    ]
+    ],
+    "diagram_page": 195,
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0195",
@@ -8348,10 +8383,10 @@
     "source_page": 230,
     "book_page": 210,
     "diagram_rect": [
-      54,
-      56.84,
-      504,
-      82.1
+      51.25,
+      76.56,
+      437.44,
+      440.25
     ],
     "page_size": [
       504,
@@ -8363,12 +8398,14 @@
       "Combination",
       "Systems"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0236.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0236.png?v=2",
     "description": "Multi-skill sequence built around “montreal 5v2, Back, One or Two Forecheck.” Players connect the skating, passing and attack elements shown in the diagram without stopping between actions, emphasizing timing and game-like pace. Emphasize pressure and recovery habits.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Run the diagrammed route exactly, communicate early and maintain game-like pace."
-    ]
+    ],
+    "diagram_page": 231,
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0237",
@@ -8561,10 +8598,10 @@
     "source_page": 237,
     "book_page": 217,
     "diagram_rect": [
-      77.87,
-      199.81,
-      425.29,
-      647
+      67.25,
+      205.81,
+      419.29,
+      671.75
     ],
     "page_size": [
       504,
@@ -8576,12 +8613,13 @@
       "Combination",
       "Combination"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0242.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0242.png?v=2",
     "description": "Multi-skill sequence built around “2v0, 2v1.” Players connect the skating, passing and attack elements shown in the diagram without stopping between actions, emphasizing timing and game-like pace.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Attackers create width and force the defender to choose between puck and pass."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0243",
@@ -8667,10 +8705,10 @@
     "source_page": 240,
     "book_page": 220,
     "diagram_rect": [
-      60.44,
-      329.08,
-      444.44,
-      647
+      50.25,
+      335.08,
+      438.44,
+      678.5
     ],
     "page_size": [
       504,
@@ -8682,12 +8720,13 @@
       "Combination",
       "Combination"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0245.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0245.png?v=2",
     "description": "Multi-skill sequence built around “2v0 Loop to 2v1.” Players connect the skating, passing and attack elements shown in the diagram without stopping between actions, emphasizing timing and game-like pace.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Attackers create width and force the defender to choose between puck and pass."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0246",
@@ -8991,10 +9030,10 @@
     "source_page": 247,
     "book_page": 227,
     "diagram_rect": [
-      244.23,
-      488.24,
-      450.23,
-      647
+      250.23,
+      494.24,
+      444.25,
+      666.74
     ],
     "page_size": [
       504,
@@ -9007,12 +9046,13 @@
       "Shooting",
       "Puckhandling"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0254.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0254.png?v=2",
     "description": "Shooting drill built around “Stickhandle and Shoot.” Players create the shot through the movement or passing pattern shown, then finish with a quick release while attacking rebounds and net-front space. Emphasize shot preparation and finishing plus puck control and protection.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0255",
@@ -11423,10 +11463,10 @@
     "source_page": 290,
     "book_page": 270,
     "diagram_rect": [
-      60,
-      481.8,
-      444,
-      647
+      49.25,
+      487.8,
+      453.25,
+      660.3
     ],
     "page_size": [
       504,
@@ -11439,13 +11479,14 @@
       "Shooting",
       "Goalies"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0321.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0321.png?v=2",
     "description": "Goaltender drill built around “Rebound or Screen Shooting.” Goalies work the movement, angle or save sequence shown in the diagram while staying square, balanced and ready for the next shot. Emphasize shot preparation and finishing.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release.",
       "Stay square and balanced; recover under control for the next shot."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0322",
@@ -12749,10 +12790,10 @@
     "source_page": 314,
     "book_page": 294,
     "diagram_rect": [
-      47,
-      56.84,
-      504,
-      98.1
+      51.5,
+      89.8,
+      455.25,
+      462.3
     ],
     "page_size": [
       504,
@@ -12765,12 +12806,14 @@
       "Offensive",
       "Systems"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0357.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0357.png?v=2",
     "description": "Special-teams or face-off drill built around “Power Play, Offensive Zone,.” Players rehearse the alignment, puck movement and responsibilities shown in the diagram with clear communication and quick decisions. Emphasize special-teams structure.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Run the diagrammed route exactly, communicate early and maintain game-like pace."
-    ]
+    ],
+    "diagram_page": 315,
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0358",
@@ -12785,10 +12828,10 @@
     "source_page": 316,
     "book_page": 296,
     "diagram_rect": [
-      47,
-      56.84,
-      504,
-      98.1
+      50.57,
+      90.8,
+      452.57,
+      464.0
     ],
     "page_size": [
       504,
@@ -12801,12 +12844,14 @@
       "Offensive",
       "Systems"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0358.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0358.png?v=2",
     "description": "Special-teams or face-off drill built around “Power Play, Offensive Zone, Low Plays 5v4 (Four Options).” Players rehearse the alignment, puck movement and responsibilities shown in the diagram with clear communication and quick decisions. Emphasize special-teams structure.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Run the diagrammed route exactly, communicate early and maintain game-like pace."
-    ]
+    ],
+    "diagram_page": 317,
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0359",
@@ -12857,10 +12902,10 @@
     "source_page": 320,
     "book_page": 300,
     "diagram_rect": [
-      67.91,
-      156.71,
-      434.87,
-      647
+      59.25,
+      162.71,
+      428.87,
+      660.11
     ],
     "page_size": [
       504,
@@ -12872,12 +12917,13 @@
       "Special Teams / Face-Offs",
       "Systems"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0360.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0360.png?v=2",
     "description": "Special-teams or face-off drill built around “Power Play Breakouts 5v0, 5v2, 5v3, 5v4.” Players rehearse the alignment, puck movement and responsibilities shown in the diagram with clear communication and quick decisions. Emphasize breakout and transition habits plus special-teams structure.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Scan before receiving and support the puck with useful spacing."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0361",
@@ -12997,10 +13043,10 @@
     "source_page": 325,
     "book_page": 305,
     "diagram_rect": [
-      74.84,
-      350.21,
-      430.08,
-      647
+      65.25,
+      356.21,
+      424.08,
+      671.65
     ],
     "page_size": [
       504,
@@ -13012,12 +13058,13 @@
       "Special Teams / Face-Offs",
       "Systems"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0364.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0364.png?v=2",
     "description": "Special-teams or face-off drill built around “5v4 Continuous.” Players rehearse the alignment, puck movement and responsibilities shown in the diagram with clear communication and quick decisions.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Run the diagrammed route exactly, communicate early and maintain game-like pace."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0365",
@@ -13208,10 +13255,10 @@
     "source_page": 329,
     "book_page": 309,
     "diagram_rect": [
-      61.1,
-      480.99,
-      445.1,
-      647
+      67.1,
+      486.99,
+      439.1,
+      667.49
     ],
     "page_size": [
       504,
@@ -13224,12 +13271,13 @@
       "Defensive",
       "Systems"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0370.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0370.png?v=2",
     "description": "Special-teams or face-off drill built around “Penalty Killing, Defensive Zone 5v4.” Players rehearse the alignment, puck movement and responsibilities shown in the diagram with clear communication and quick decisions. Emphasize special-teams structure.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Run the diagrammed route exactly, communicate early and maintain game-like pace."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0371",
@@ -13423,10 +13471,10 @@
     "source_page": 334,
     "book_page": 314,
     "diagram_rect": [
-      243.95,
-      495.24,
-      449.95,
-      647
+      249.95,
+      501.24,
+      443.97,
+      673.74
     ],
     "page_size": [
       504,
@@ -13438,12 +13486,13 @@
       "Special Teams / Face-Offs",
       "Systems"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0376.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0376.png?v=2",
     "description": "Special-teams or face-off drill built around “Side Boards.” Players rehearse the alignment, puck movement and responsibilities shown in the diagram with clear communication and quick decisions.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Run the diagrammed route exactly, communicate early and maintain game-like pace."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0377",
@@ -13849,10 +13898,10 @@
     "source_page": 346,
     "book_page": 326,
     "diagram_rect": [
-      60,
-      490.93,
-      444,
-      647
+      66.0,
+      496.93,
+      438.0,
+      669.43
     ],
     "page_size": [
       504,
@@ -13865,13 +13914,14 @@
       "Shooting",
       "Small Area Games"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0388.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0388.png?v=2",
     "description": "Competitive game built around “2v0, 3v0 Shoot-Out.” Use the diagrammed setup to create repeated puck battles, support decisions and quick transitions while keeping the rep competitive and high tempo. Emphasize shot preparation and finishing.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release.",
       "Keep shifts short and competitive; transition immediately when possession changes."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0389",
@@ -14286,10 +14336,10 @@
     "source_page": 355,
     "book_page": 335,
     "diagram_rect": [
-      60.44,
-      491.36,
-      444.44,
-      647
+      66.44,
+      497.36,
+      438.44,
+      669.86
     ],
     "page_size": [
       504,
@@ -14303,14 +14353,15 @@
       "Defensive",
       "Small Area Games"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0400.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0400.png?v=2",
     "description": "Competitive game built around “Multiple 1v1, 2v2, 3v3, 4v4, 5v5.” Use the diagrammed setup to create repeated puck battles, support decisions and quick transitions while keeping the rep competitive and high tempo. Emphasize shot preparation and finishing.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Attacker changes speed or direction; defender controls gap and protects middle ice.",
       "Prepare the puck early and finish with a quick, purposeful release.",
       "Keep shifts short and competitive; transition immediately when possession changes."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0401",
@@ -15171,10 +15222,10 @@
     "source_page": 377,
     "book_page": 357,
     "diagram_rect": [
-      59.98,
-      487.18,
-      443.98,
-      647
+      65.98,
+      493.18,
+      437.98,
+      665.68
     ],
     "page_size": [
       504,
@@ -15187,13 +15238,14 @@
       "Skating",
       "Shooting"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0425.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0425.png?v=2",
     "description": "On-ice conditioning drill built around “Alactic Sprint and Shoot 2.” Players complete the diagrammed route at a demanding pace while maintaining proper skating technique and controlled turns/stops throughout the rep. Emphasize shot preparation and finishing plus pace and conditioning.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Prepare the puck early and finish with a quick, purposeful release.",
       "Demand full pace without allowing technique to break down."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0426",
@@ -15638,10 +15690,10 @@
     "source_page": 387,
     "book_page": 367,
     "diagram_rect": [
-      60.44,
-      488.24,
-      444.44,
-      647
+      66.44,
+      494.24,
+      438.44,
+      666.74
     ],
     "page_size": [
       504,
@@ -15653,12 +15705,13 @@
       "Conditioning",
       "Skating"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0438.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0438.png?v=2",
     "description": "On-ice conditioning drill built around “Lactic One-and-a-Half Plus One-and-a-Half.” Players complete the diagrammed route at a demanding pace while maintaining proper skating technique and controlled turns/stops throughout the rep.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Demand full pace without allowing technique to break down."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0439",
@@ -15853,10 +15906,10 @@
     "source_page": 391,
     "book_page": 371,
     "diagram_rect": [
-      60.44,
-      492.42,
-      444.44,
-      647
+      66.44,
+      498.42,
+      438.44,
+      670.92
     ],
     "page_size": [
       504,
@@ -15868,12 +15921,13 @@
       "Conditioning",
       "Skating"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0444.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0444.png?v=2",
     "description": "On-ice conditioning drill built around “Lactic Dot to Dot.” Players complete the diagrammed route at a demanding pace while maintaining proper skating technique and controlled turns/stops throughout the rep.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Demand full pace without allowing technique to break down."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   },
   {
     "uid": "hdb-0445",
@@ -15923,10 +15977,10 @@
     "source_page": 392,
     "book_page": 372,
     "diagram_rect": [
-      59.56,
-      488.28,
-      443.56,
-      647
+      65.56,
+      494.28,
+      437.56,
+      666.78
     ],
     "page_size": [
       504,
@@ -15938,12 +15992,13 @@
       "Conditioning",
       "Skating"
     ],
-    "diagram_image": "data/hockey-drill-book/images/hdb-0446.png",
+    "diagram_image": "data/hockey-drill-book/images/hdb-0446.png?v=2",
     "description": "On-ice conditioning drill built around “Aerobic Continuous Skate.” Players complete the diagrammed route at a demanding pace while maintaining proper skating technique and controlled turns/stops throughout the rep. Emphasize skating mechanics and edge control.",
     "description_type": "concise_summary",
     "coaching_points": [
       "Keep knees bent, chest up and edges under control before adding speed.",
       "Demand full pace without allowing technique to break down."
-    ]
+    ],
+    "diagram_recropped": "2026-10-19"
   }
 ]

@@ -7,64 +7,11 @@ Every locally stored diagram (Hockey Drill Book, Rich Full Ice, Turk, Weiss, Ric
 - Rich Full Ice Drills: 21 drills re-cropped to the rink only (removed stray words / instruction text).
 - Weiss Hockey Drills: 229 drills re-cropped to the rink only (removed stray words / instruction text).
 
+- Hockey Drill Book: 50 drills re-cropped from the original book PDF (bottoms of rinks were cut off, or a line of text was stored instead of the diagram; 5 diagrams are on the page after the instructions).
+
 ## Flagged — original diagram is missing or wrong in the stored file
 
 These drills stay in the database and now show a **Diagram needs correction** badge. They cannot be repaired without the original source file (PDF/page), which is not in the repository. No substitute diagrams were created.
-
-### Hockey Drill Book (50)
-
-| Drill # | Title | Source | Problem |
-|---|---|---|---|
-| 6 | Warm-Up Skate: Zigzag | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 8 | Warm-Up Skate: Backward, Forward, Backward | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 15 | Warm-Up Stickhandling | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 20 | Stickhandle Drill | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 28 | Neutral Zone Puck Exchange | The Hockey Drill Book | Multi-panel diagram: the last panel is cut off in the stored book crop. |
-| 33 | Cross Ice: 3v3 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 35 | Full-Ice Boggle With Two Pucks | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 48 | Middle Peel-Off: 1v0, 2v0 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 51 | Minnesota Scramble and Shoot | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 55 | Around the Neutral Zone, Shoot | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 60 | Stretch, 2v0 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 62 | Russian Stretch, 2v0 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 66 | Timing, 3v0 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 69 | 1v0 With Backchecker Chaser | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 72 | Swiss, From the Middle, Figure Eight | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 82 | Drive for the Net, 2v0 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 84 | Team Canada, Straight Give-and-Go | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 86 | Team Canada, Cut to the Middle | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 88 | Team Canada, 2v0 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 90 | Winnipeg, 2v0 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 114 | Shoot 1v1 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 116 | Half-Ice 1v1 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 128 | Net Drive, 1v1 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 138 | Dynamo 2v1 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 140 | Three Shots 2v1 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 144 | Sweden Puck Exchange 2v1 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 147 | Sweden 2v1 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 152 | 2v1, Loop | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 162 | 2v2 Quick | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 174 | Two Regroups, 3v1 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 179 | 3v1 Loop | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 189 | Breakout Systems | The Hockey Drill Book | Stored image is a line of book text, not the drill diagram. |
-| 194 | Chicago 5v2, Two Regroups, 5v2, Two Regroups, Repeat | The Hockey Drill Book | Stored image is a line of book text, not the drill diagram. |
-| 236 | montreal 5v2, Back, One or Two Forecheck | The Hockey Drill Book | Stored image is a line of book text, not the drill diagram. |
-| 242 | 2v0, 2v1 | The Hockey Drill Book | Multi-panel diagram: the last panel is cut off in the stored book crop. |
-| 245 | 2v0 Loop to 2v1 | The Hockey Drill Book | Multi-panel diagram: the last panel is cut off in the stored book crop. |
-| 254 | Stickhandle and Shoot | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 321 | Rebound or Screen Shooting | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 357 | Power Play, Offensive Zone, | The Hockey Drill Book | Stored image is a line of book text, not the drill diagram. |
-| 358 | Power Play, Offensive Zone, Low Plays 5v4 (Four Options) | The Hockey Drill Book | Stored image is a line of book text, not the drill diagram. |
-| 360 | Power Play Breakouts 5v0, 5v2, 5v3, 5v4 | The Hockey Drill Book | Multi-panel diagram: the last panel is cut off in the stored book crop. |
-| 364 | 5v4 Continuous | The Hockey Drill Book | Multi-panel diagram: the last panel is cut off in the stored book crop. |
-| 370 | Penalty Killing, Defensive Zone 5v4 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 376 | Side Boards | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 388 | 2v0, 3v0 Shoot-Out | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 400 | Multiple 1v1, 2v2, 3v3, 4v4, 5v5 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 425 | Alactic Sprint and Shoot 2 | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 438 | Lactic One-and-a-Half Plus One-and-a-Half | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 444 | Lactic Dot to Dot | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
-| 446 | Aerobic Continuous Skate | The Hockey Drill Book | Bottom of the rink is cut off in the stored book crop. |
 
 ### Rich Full Ice Drills (37)
 
