@@ -528,7 +528,7 @@ button{cursor:pointer}
   async function loadCoaches(){
     if(coachesDatabase)return coachesDatabase;
     showLoading('Loading Coaches Site Drills library…');
-    const r=await fetch('data/coaches-site/coaches-site-drills.json?v=23',{cache:'no-store'});
+    const r=await fetch('data/coaches-site/coaches-site-drills.json?v=24',{cache:'no-store'});
     if(!r.ok)throw new Error('Coaches Site metadata returned '+r.status);
     const rows=await r.json();
     coachesDatabase=(Array.isArray(rows)?rows:[]).filter(d=>d&&d.number!=null).map(d=>({
