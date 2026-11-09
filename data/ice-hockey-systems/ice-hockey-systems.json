@@ -9872,9 +9872,9 @@
     "source_url": "https://www.icehockeysystems.com/hockey-drills/whip-one-one",
     "print_url": "https://www.icehockeysystems.com/print/standard/902",
     "source_id": "902",
-    "image": "https://www.files.icehockeysystems.com/files/drills/whip-whip-1-on-1.jpg",
+    "image": "data/ice-hockey-systems/ihs-301-whip-one-on-one.png",
     "images": [
-      "https://www.files.icehockeysystems.com/files/drills/whip-whip-1-on-1.jpg"
+      "data/ice-hockey-systems/ihs-301-whip-one-on-one.png"
     ],
     "original_diagram": true,
     "member_only": false,
@@ -27699,9 +27699,8 @@
     "source": "Ice Hockey Systems",
     "contributor": "Ice Hockey Systems",
     "source_url": "https://www.icehockeysystems.com/hockey-drills/open-hips-ladders-without-pucks",
-    "image": "https://www.files.icehockeysystems.com/files/drills/open-hips-without-pucks-third-ice-station.png",
+    "image": "https://www.files.icehockeysystems.com/files/drills/drill-maker-154721-0-1770007098.png",
     "images": [
-      "https://www.files.icehockeysystems.com/files/drills/open-hips-without-pucks-third-ice-station.png",
       "https://www.files.icehockeysystems.com/files/drills/drill-maker-154721-0-1770007098.png"
     ],
     "original_diagram": true,
