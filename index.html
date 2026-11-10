@@ -53,6 +53,10 @@ button{cursor:pointer}
 .video-empty{grid-column:1/-1;min-height:280px;border:1px dashed #444;border-radius:18px;background:#111;display:grid;place-items:center;text-align:center;padding:30px}.video-empty strong{display:block;font-size:22px;margin-bottom:7px}.video-empty span{color:#888;font-size:13px}
 @media(max-width:1050px){.quick-grid{grid-template-columns:1fr 1fr}.team-mode .grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.hub-nav{padding:9px 12px}.hub-tab{padding:8px 13px}.video-hero{padding:28px 16px 22px}.video-hero h2{font-size:30px}.video-categories{padding:18px 12px 4px;grid-template-columns:1fr 1fr}.video-category{min-height:94px}.video-library{padding:16px 12px 30px}.video-grid{grid-template-columns:1fr}.header{padding:13px 15px}.brand h1{font-size:20px}.brand small{font-size:9px}.pill{display:none}.set{padding:9px 12px 10px}.set-title{font-size:14px}.selected{margin-top:7px}.sel{flex-basis:124px;width:124px}.sel img{height:55px}.main{padding:15px 12px 30px}.quick{padding:15px}.quick-grid{grid-template-columns:1fr}.grid,.team-mode .grid{grid-template-columns:1fr 1fr;gap:10px}.diagram-hit,.team-mode .diagram-hit{height:175px;padding:6px}.card img,.team-mode .card img{width:100%;height:100%;padding:0;object-fit:contain}.meta{padding:8px}.num{font-size:12px}.drill-title,.team-mode .drill-title{font-size:10px;min-height:25px}.cat-label{font-size:8px}.toolbar h2{font-size:21px}.viewer{padding:5px}.viewer-panel{width:96vw;max-height:none;border-radius:11px}.viewer-head{padding:11px 46px 8px 12px}.viewer-head h2{font-size:18px}.viewer-head h3{font-size:13px}.viewer-image-wrap{padding:6px;height:min(38vh,300px)}.viewer-notes{padding:11px 12px 13px}.viewer-desc{font-size:12px}.viewer-actions .btn{flex:1 1 100%}}
+.play-badge{display:inline-flex;align-items:center;gap:5px;margin-top:7px;background:#D71920;color:#fff;font-weight:800;font-size:12px;letter-spacing:.06em;padding:6px 11px;border-radius:999px;text-decoration:none}
+.play-badge:hover{background:#B3141A}
+.play-it{display:flex;align-items:center;justify-content:center;gap:8px;margin:12px 0 4px;background:#D71920;color:#fff;font-weight:800;font-size:16px;padding:12px 16px;border-radius:12px;text-decoration:none;text-align:center}
+.play-it:hover{background:#B3141A}.play-it small{font-weight:600;opacity:.85}
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
@@ -794,6 +798,10 @@ button{cursor:pointer}
     });
   }
 
+  // Full-Ice Practice games in PuckTron: you play one spot in the drill, starting on the whistle (members only)
+  const PLAY_IT={'team-471':471,'team-472':472,'team-473':473,'team-474':474,'team-475':475,'team-477':477};
+  const playUrl=n=>'https://pucktron.com/iq/3d/practice?d='+n+'&play=1';
+
   function renderGrid(reset=true){
     if(reset)visibleLimit=activeLibrary==='coaches'?36:60;
     const all=filtered(),rows=all.slice(0,visibleLimit);
@@ -806,7 +814,7 @@ button{cursor:pointer}
         return '<article class="card '+(selectedDrill?'selected-card':'')+'" data-uid="'+esc(d.uid)+'">'+
           ((['all','rich-full','turk','weiss','coaches','book','ihs'].includes(activeLibrary))?'<button class="quick-add-card" data-add="'+esc(d.uid)+'" title="Quick add diagram only">'+(selectedDrill?'✓':'+')+'</button>':'')+
           '<button class="diagram-hit" data-open="'+esc(d.uid)+'">'+(d.embed_url?'<iframe title="Original Coaches Site drill visual" src="'+esc(d.embed_url)+'" style="width:100%;height:100%;border:0;pointer-events:none;background:#fff"></iframe>':'<img loading="lazy" data-img-uid="'+esc(d.uid)+'" src="'+esc(imageFor(d))+'" alt="Drill '+esc(d.number)+'">')+'</button>'+
-          (d.diagram_issue?'<span class="diagram-flag" title="'+esc(d.diagram_issue)+'">Diagram needs correction</span>':'')+'<div class="meta"><div class="num">Drill '+esc(d.number)+'</div><div class="drill-title">'+esc(title)+'</div><div class="cat-label">'+esc(d.category||'')+(activeLibrary==='all'?' · '+esc(libraryDisplayName(d)):'')+'</div>'+(d.kind==='system'?'<span class="system-badge">SYSTEM</span>':'')+'</div></article>';
+          (d.diagram_issue?'<span class="diagram-flag" title="'+esc(d.diagram_issue)+'">Diagram needs correction</span>':'')+'<div class="meta"><div class="num">Drill '+esc(d.number)+'</div><div class="drill-title">'+esc(title)+'</div><div class="cat-label">'+esc(d.category||'')+(activeLibrary==='all'?' · '+esc(libraryDisplayName(d)):'')+'</div>'+(d.kind==='system'?'<span class="system-badge">SYSTEM</span>':'')+(PLAY_IT[d.uid]?'<a class="play-badge" href="'+playUrl(PLAY_IT[d.uid])+'" target="_blank" rel="noopener">▶ PLAY IT</a>':'')+'</div></article>';
       }).join('');
     }
     $('#grid').querySelectorAll('[data-add]').forEach(b=>b.onclick=async e=>{
@@ -884,6 +892,10 @@ button{cursor:pointer}
     $('#viewerDesc').innerHTML=(!cleanDescriptionText(d)&&d.source_url)?('<p>Written instructions for this drill have not been added yet. <a href="'+esc(d.source_url)+'" target="_blank" rel="noopener">Open the drill on '+esc(d.source||'the source site')+'</a>.</p>'):formatDescription(d);
     $('#viewerFlag').hidden=!d.diagram_issue;$('#viewerFlag').textContent=d.diagram_issue?'Diagram flagged for correction: '+d.diagram_issue:'';
     $('#viewerSource').textContent=[d.source,d.author,d.source_collection,d.source_page?'Page '+d.source_page:''].filter(Boolean).join(' · ');
+    let play=$('#viewerPlay');
+    if(!play){play=document.createElement('a');play.id='viewerPlay';play.className='play-it';play.target='_blank';play.rel='noopener';$('#viewerSource').after(play);}
+    play.style.display=PLAY_IT[d.uid]?'':'none';
+    if(PLAY_IT[d.uid]){play.href=playUrl(PLAY_IT[d.uid]);play.innerHTML='▶ Play it in PuckTron <small>· you\u2019re in the drill, go on the whistle</small>';}
     const current=chosen(d.uid);
     $('#addDiagram').textContent=current&&!current.includeDescription?'✓ Diagram Selected':'Add Diagram Only';
     $('#addNotes').textContent=current&&current.includeDescription?'✓ Diagram + Instructions Selected':'Add Diagram + Instructions';
